@@ -1,0 +1,13 @@
+# 줄바꿈 정규화 — 크로스플랫폼 배포용
+* text=auto
+
+# bash 스크립트는 반드시 LF (CRLF면 Linux/macOS에서 실행 실패)
+*.sh   text eol=lf
+
+# PowerShell은 Windows 기준 CRLF
+*.ps1  text eol=crlf
+
+# 마크다운·설정은 텍스트로 취급
+*.md   text
+*.json text
+*.py   text

@@ -1,0 +1,31 @@
+# 생성물
+wiki/viz.html
+
+# OS / 에디터
+.DS_Store
+Thumbs.db
+.obsidian/
+Fin-Wiki/
+
+# === 배포 프로파일: 콘텐츠+엔진, 원본 16개만 ===
+# 대용량 아카이브(430개)는 저장소에서 제외. 인제스트한 최신 16개는 포함(출처 검증·재인제스트용).
+source_documents/AnnualReport_MD/
+
+# 엔진만 배포하려면 아래도 주석 해제(원본 전부 제외):
+# source_documents/AnnualReport_Recent/
+# source_documents/raw/
+#
+# 콘텐츠 페이지까지 제외하려면 wiki\ 하위 콘텐츠 디렉토리도 주석 해제하세요.
+#
+# wiki/companies/
+# wiki/groups/
+# wiki/industries/
+# wiki/shareholders/
+# wiki/value_chain/
+# wiki/segments/
+# wiki/products/
+# wiki/executives/
+# wiki/financial_products/
+# wiki/ratings/
+# wiki/sources/
+# wiki/outputs/
