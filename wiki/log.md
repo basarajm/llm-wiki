@@ -182,3 +182,9 @@
 **Ingest** 만호제강 (001080, KOSPI, 신규, FY2024 6월결산) — Full 인제스트. 신규 6종: companies/만호제강, sources, segments/만호제강_철강제품·섬유제품, value_chain, executives/김상환. 핵심: 별도 매출 1,799억·3년 연속 영업적자(-308억). 2023.9 감사의견 거절→거래정지·상장폐지 사유. 최대주주 김상환 8.93%(특관 23.14%). 공유노드: industries/철강 반영.
 
 **Ingest** LX인터내셔널 (001120, KOSPI, 신규, LX그룹, 전신 LG상사) — Full 인제스트. 신규 6종: companies/LX인터내셔널, sources, segments/LX인터내셔널_자원·Trading신성장·물류, value_chain, executives/윤춘성. 핵심: 연결 매출 16.7조·영업이익 2,922억(-40%, 운임·원자재 약세)·순이익 1,583억, 배당 2,000원, 신용 AA-. 최대주주 LX홀딩스 27.83%·국민연금 8.74%·한화운용 6.84%. 공유노드 신규: industries/종합상사, 국민연금 반영. group_todo: LX그룹.
+
+**Ingest** 대한제분 (001130, KOSPI, 신규) — Full 인제스트. 신규 7종: companies/대한제분, sources, segments/대한제분_소맥분식품·사료·식음료부문, value_chain, executives/이건영_대한제분·송인석. 핵심: 연결 매출 1.38조·영업이익 623억·순손실 -251억(영업외비용), 배당 4,000원(32년 연속). 최대주주 디앤비컴퍼니 27.82%. 공유노드 신규: industries/식품. 동명이인 이건영(유니온 회장)과 분리 노드.
+
+**Ingest** 유진투자증권 (001200, KOSPI, 신규, 유진그룹, 파일명 유진증권) — Full 인제스트. 신규 11종: companies/유진투자증권, sources, segments/유진투자증권_위탁매매·자기매매·파생·선물중개·자산운용·기타, value_chain, executives/유창수·고경모, ratings/유진투자증권 신용등급. 핵심: 연결 영업수익 1.69조·영업이익 844억·순이익 645억, 배당 180원. 최대주주 유진기업 28.26%(KOSDAQ). 공유노드: industries/증권 반영. group_todo: 유진그룹.
+
+**Ingest** 금호전기 (001210, KOSPI, 신규) — Full 인제스트. 신규 5종: companies/금호전기, sources, segments/금호전기_조명(단일), value_chain, executives/이홍민. 핵심: 연결 매출 443억·3년 연속 영업적자(-12억)·순손실 -39억, 누적결손 -672억, 무배당. 형광램프 점유율 32.3%. 최대주주 신주홀딩스(특관 32.12%). 공유노드 신규: industries/조명.
