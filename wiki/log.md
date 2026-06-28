@@ -728,3 +728,7 @@
 **Ingest** 에스엠벡셀 (010580, KOSPI, 신규, SM그룹) — Full 인제스트. 7종+stub6: companies/에스엠벡셀, sources, segments/에스엠벡셀_자동차부품·전지, value_chain, executives/유병선·최세환. 핵심: 별도 매출 1,503억(-12.9%)·영업이익 16억·순이익 17억. 자동차부품(60%)+전지(1차전지·앰플전지). 최대주주 에스엠하이플러스 50.57% 외 87.58%, 국민연금 없음. groups/SM(에스엠벡셀 추가)·industries/자동차부품 반영. stub: 현대트랜시스·에스엠하이플러스·에스엠상선·삼라마이다스·에스엠스틸·동아건설산업.
 
 **Ingest** 진양폴리우레탄 (010640, KOSPI, 신규, 진양그룹/KPX) — Full 인제스트. 6종+stub1: companies/진양폴리우레탄, sources, segments/진양폴리우레탄_폴리우레탄폼, value_chain, executives/최재호. 핵심: 별도 매출 466억(-13.7%)·영업이익 18억·순이익 16억. 폴리우레탄폼(국내 ~16%). 최대주주 진양홀딩스 50.50%, 국민연금 없음. groups/진양그룹(진양폴리우레탄 추가)·industries/화학 반영. stub: KPX케미칼.
+
+## 2026-06-29
+
+**Analysis** Product·Financial Product 인제스트 누락 분석 — KOSPI 347/833 시점, 배치가 5종만 생성해 products(11)·financial_products(12)·ratings가 루프 내내 미갱신(전부 초기 세션 산물). 원인: 오케스트레이션 범위를 5종 고정(속도·비용), 점유율·주력상품은 segment/company 본문에 인라인 기록. 재개 옵션 A(7종 확대·권장)/B(과거분 백필)/C(현행)/D(하이브리드) 문서화 → outputs/ingest-scope-products-gap-2026-06-29. 사용자 선택 대기.

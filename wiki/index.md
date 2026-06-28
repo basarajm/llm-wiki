@@ -3150,6 +3150,7 @@
 ## 분석 결과물 (outputs\)
 * [반도체 3사 비교 (삼성전자·SK하이닉스·한미반도체)](/outputs/반도체_3사_비교_2026-06-27) - 2025년 실적 기준 메모리·장비 3사의 수익성과 포지셔닝 비교
 * [증권 3사 비교 (미래에셋·한국투자·신영증권)](/outputs/증권사_3사_비교_2026-06-27) - 2025년 실적 기준 증권사 규모·수익성·신용도 비교
+* [Product·Financial Product 인제스트 누락 분석 및 재개 옵션](/outputs/ingest-scope-products-gap-2026-06-29) - KOSPI 배치 인제스트(347/833) 동안 products·financial_products·ratings 타입이 거의 갱신되지 않은 원인과 보완 선택지
 * [ingest-tracker-KOSPI](/outputs/ingest-tracker-KOSPI)
 * [위키 검진 리포트 2026-06-27](/outputs/lint-report-2026-06-27) - 16개 사업보고서 인제스트 직후의 위키 건강 검진 결과
 
