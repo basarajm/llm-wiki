@@ -266,3 +266,9 @@
 **Ingest** 고려산업 (002140, KOSPI, 신규, 금강공업 계열) — Full 인제스트. 신규 6종: companies/고려산업, sources, segments/고려산업_사료·기타사업부문, value_chain, executives/전장열·김영교. 핵심: 연결 매출 2,973억·영업이익 137억·순이익 97억(+2.5배), 배당 40원. 배합사료 '해피드'. 최대주주 금강공업 47.39%(KOSPI). 공유노드: industries/식품 반영. group_todo: 금강그룹.
 
 **Ingest** 도화엔지니어링 (002150, KOSPI, 신규) — Full 인제스트. 신규 7종: companies/도화엔지니어링, sources, segments/도화엔지니어링_엔지니어링·전력판매·ESS, value_chain, executives/곽준상·박승우. 핵심: 연결 매출 6,985억(+20%)·영업이익 301억(흑전), 수주잔고 1.9조, 신용 AA0. SOC 종합엔지니어링+신재생. 최대주주 곽준상 17.10%(특관 40.75%). 공유노드: industries/건설 반영.
+
+**Ingest** 삼양통상 (002170, KOSPI, 신규, 파일명 SYTS, GS 오너일가 계열) — Full 인제스트. 신규 6종: companies/삼양통상, sources, segments/삼양통상_피혁(단일), value_chain, executives/허준홍·정대락. 핵심: 연결 매출 1,747억·영업이익 184억·순이익 240억, 무차입(부채비율 4.6%), 배당 2,300원. 카시트·신발용 피혁. 최대주주 허준홍 45.00%(상속)·조광피혁 6.08%. 공유노드 신규: industries/피혁. group_todo: GS 오너일가 연관.
+
+**Ingest** 한국수출포장공업 (002200, KOSPI, 신규) — Full 인제스트. 신규 6종: companies/한국수출포장공업, sources, segments/한국수출포장공업_골판지(단일), value_chain, executives/허정훈·허용삼. 핵심: 연결 매출 2,896억·영업손실 -66억(적자전환, 상자단가↓), 배당 80원. 골판지 일관생산. 최대주주 허정훈 36.00%(특관 45.56%). 공유노드: industries/제지 반영.
+
+**Ingest** 동성제약 (002210, KOSPI, 신규) — Full 인제스트. 신규 7종: companies/동성제약, sources, segments/동성제약_의약품및염모제·화장품, value_chain, executives/유영일·나원균. 핵심: 별도 매출 872억·영업손실 -101억·순손실 -257억, 부채비율 621%, 감사의견 한정. 2025.6 회생절차·거래정지, 2026.3 유암코 PEF 700억 유증 인수(72.45%). 염모제 세븐에이트·정로환. 공유노드: industries/제약 반영.
