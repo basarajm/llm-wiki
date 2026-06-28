@@ -134,3 +134,9 @@
 **Ingest** 가온전선 (000500, KOSPI, 신규, LS그룹) — Full 인제스트. 신규 8종: companies/가온전선, sources, segments/가온전선_전력·통신·특수케이블·목드럼사업부, value_chain, executives/정현. 핵심: 연결 매출 2.55조(+47%, 지앤피·미국 연결)·영업이익 792억·순이익 514억, 회사채 A. 최대주주 LS전선 81.62%(비상장). 공유노드 신규: industries/전선. group_todo: LS그룹.
 
 **Ingest** 삼일제약 (000520, KOSPI, 신규) — Full 인제스트. 신규 5종: companies/삼일제약, sources, segments/삼일제약_제약(단일), value_chain, executives/허승범. 핵심: 연결 매출 2,103억·영업손실 -222억(적자전환, 판관비·금융원가), 3년 무배당. 최대주주 허승범 8.20%(특관 25.92%). 공유노드: industries/제약 반영.
+
+**Ingest** 흥국화재 (000540, KOSPI, 신규, 태광그룹) — Full 인제스트. 신규 7종: companies/흥국화재, sources, segments/흥국화재_장기·자동차·일반보험, value_chain, executives/송윤상, ratings/흥국화재 신용등급. 핵심: 별도 순이익 1,517억. 태광그룹 계열 손해보험사. 공유노드: industries/보험 반영. group_todo: 태광그룹.
+
+**Ingest** CS홀딩스 (000590, KOSPI, 신규, 조선선재 지주) — Full 인제스트. 신규 5종: companies/CS홀딩스, sources, segments/CS홀딩스_지주·용접재료부문, value_chain, executives/장원영. 핵심: 연결 매출 1,349억·영업이익 202억·순이익 210억, 순현금구조(부채비율 8%). 최대주주 장원영 53.75%(특관 73.35%). group_todo: 조선선재그룹.
+
+**Ingest** 동아쏘시오홀딩스 (000640, KOSPI, 신규, 동아제약그룹 지주) — Full 인제스트. 신규 9종: companies/동아쏘시오홀딩스, sources, segments/동아쏘시오홀딩스_일반의약품·물류·포장용기생수·바이오시밀러·지주사, value_chain, executives/강정석·김민영. 핵심: 연결 매출 1.43조·영업이익 978억·순이익 915억, 배당 1,700원. 최대주주 강정석 29.26%·국민연금 11.24%·GSK 6.46%. 관계사 동아ST 26.47%·에스티팜 29.45%. 공유노드: 국민연금 반영. group_todo: 동아쏘시오그룹(동아ST·에스티팜 stub 추후).
