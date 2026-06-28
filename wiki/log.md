@@ -236,3 +236,9 @@
 **Ingest** 케이비아이동국실업 (001620, KOSPI, 신규, KBI그룹) — Full 인제스트. 신규 5종: companies/케이비아이동국실업, sources, segments/케이비아이동국실업_제조부문, value_chain, executives/김용희. 핵심: 연결 매출 8,080억·영업이익 186억(흑전)·순이익 316억, 무배당, 자동차 플라스틱 내외장재. 최대주주 KBI국인산업 34.91%(비상장). 공유노드: industries/자동차부품 반영. group_todo: KBI그룹.
 
 **Ingest** 종근당홀딩스 (001630, KOSPI, 신규, 종근당그룹 지주) — Full 인제스트. 신규 8종: companies/종근당홀딩스, sources, segments/종근당홀딩스_지주사업·건강기능식품·의약품, value_chain, executives/이장한·최희남. 핵심: 연결 매출 9,590억·영업이익 583억·순이익 543억, 배당 1,400원, 신용 A+. 최대주주 이장한 33.73%(특관 47.91%). 자회사 경보제약·종근당바이오·종근당건강·종근당(관계). 공유노드: industries 지주회사/제약. group_todo: 종근당그룹.
+
+**Ingest** 대상 (001680, KOSPI, 신규, 대상그룹) — Full 인제스트. 신규 6종: companies/대상, sources, segments/대상_식품·소재, value_chain, executives/임정배. 핵심: 연결 매출 4.40조·영업이익 1,693억·순손실 -3,042억(공정위 과징금 충당부채), 배당 850원, 신용 AA-. 청정원·미원. 최대주주 대상홀딩스 39.28%(KOSPI). 공유노드: industries/식품 반영. group_todo: 대상그룹.
+
+**Ingest** SK네트웍스 (001740, KOSPI, 신규, SK그룹) — Full 인제스트. 신규 9종: companies/SK네트웍스, sources, segments/SK네트웍스_정보통신·SK인텔릭스·트레이딩·스피드메이트·기타, value_chain, executives/이호정. 핵심: 연결 매출 6.75조·영업이익 863억·순이익 500억, 배당 250원, 신용 AA-. 2024 SK렌터카 매각, AI Company 전환. 최대주주 SK㈜ 43.90%·국민연금 5.04%. 공유노드: industries/종합상사·groups/SK(계열사 추가)·국민연금 반영.
+
+**Ingest** 한양증권 (001750, KOSPI, 신규) — Full 인제스트. 신규 7종: companies/한양증권, sources, segments/한양증권_자기매매·기업금융·위탁영업, value_chain, executives/김병철, ratings/한양증권 신용등급. 핵심: 영업수익 9,090억·영업이익 753억·순이익 566억, 신용 A. 2025.6 KCGI 제2호 사모펀드가 최대주주(29.59%) 인수. 공유노드: industries/증권 반영.
