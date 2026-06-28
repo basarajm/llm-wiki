@@ -380,3 +380,9 @@
 **Ingest** 영진약품 (003520, KOSPI, 신규, KT&G그룹) — Full 인제스트. 6종: companies/영진약품, sources, segments/영진약품_국내영업·글로벌영업, value_chain, executives/이기수. 핵심: 연결 매출 2,543억·영업이익 34억·순손실 -2.3억, KT&G 계열 제약(만성질환·세파계 항생제 일본 수출). 최대주주 KT&G 52.45%. 신규 그룹 KT&G그룹·공유노드 industries/제약 반영. deferred: KT&G Company/Shareholder stub.
 
 **Ingest** 한화투자증권 (003530, KOSPI, 신규, 한화그룹) — Full 인제스트. 9종+ratings: companies/한화투자증권, sources, segments/한화투자증권_WM·Trading·Wholesale·IB, value_chain, executives/장병호·한종석, ratings(AA-/A1). 핵심: 연결 영업수익 3.09조·순이익 1,020억(+162%)·자기자본 2.07조, IB 흑전. 최대주주 한화자산운용 45.50%·국민연금 6.91%. 공유노드 industries/증권·groups/한화·국민연금 반영. deferred: 한화자산운용 shareholder.
+
+**Ingest** 대신증권 (003540, KOSPI, 신규, 대신금융그룹) — Full 인제스트. 11종+stub: companies/대신증권(+대신에프앤아이 stub), sources, segments/대신증권_CM·법인영업·Retail·기업금융·부동산금융, value_chain, executives/양홍석·오익근, ratings(AA-/A1). 핵심: 연결 영업수익 5.06조·영업이익 3,014억(+260%)·순이익 1,866억·자기자본 4.05조, 종속 284사(부동산PF·리츠). 최대주주 양홍석 9.48%·국민연금 5.98%. 공유노드 industries/증권·groups/대신금융그룹·국민연금 반영.
+
+**Ingest** SNT다이내믹스 (003570, KOSPI, 신규, SNT그룹, 구 S&T중공업) — Full 인제스트. 8종: companies/SNT다이내믹스, sources, segments/SNT다이내믹스_방산부문·차량부품부문·기계부문, value_chain, executives/박재석·김도환. 핵심: 연결 매출 7,120억·영업이익 855억, 방산(자주포·전차 변속기)·자동차부품·공작기계. 최대주주 SNT홀딩스 42.27%·국민연금 8.20%. 신규 산업 방산·신규 그룹 SNT그룹·공유노드 industries/자동차부품·공작기계·국민연금 반영. deferred: SNT홀딩스·SNT모티브 stub.
+
+**Ingest** HLB글로벌 (003580, KOSPI, 신규, HLB그룹, 구 넥스트사이언스) — Full 인제스트. 8종: companies/HLB글로벌, sources, segments/HLB글로벌_미디어커머스·식품음료·화장품, value_chain, executives/김광재·진양곤. 핵심: 연결 매출 1,003억·영업손실 -99억(3년 적자), 미디어커머스(D2C)+식품음료+화장품. 최대주주 진양곤 5.81%. 신규 그룹 HLB·공유노드 industries/유통 반영. 국민연금 없음.
