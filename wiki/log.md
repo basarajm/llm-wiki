@@ -194,3 +194,9 @@
 **Ingest** GS글로벌 (001250, KOSPI, 신규, GS그룹) — Full 인제스트. 신규 8종: companies/GS글로벌, sources, segments/GS글로벌_무역유통·물류·제조·신사업기타, value_chain, executives/이영환. 핵심: 연결 매출 4.11조·영업이익 523억·순이익 139억(제조 영업외손실), 배당 25원, 신용 A0. 최대주주 ㈜GS 50.70%. 공유노드: industries/종합상사 반영. group_todo: GS그룹.
 
 **Ingest** 남광토건 (001260, KOSPI, 신규) — Full 인제스트. 신규 7종: companies/남광토건, sources, segments/남광토건_토목·건축, value_chain, executives/김종수·이동철. 핵심: 연결 매출 3,574억(-29%)·영업이익 114억(+56%, 토목 마진)·순이익 53억, 3년 무배당. 최대주주 세운건설 22.37%(특관 62.36%, 비상장 계열). 공유노드: industries/건설 반영.
+
+**Ingest** 부국증권 (001270, KOSPI, 신규) — Full 인제스트. 신규 10종: companies/부국증권, sources, segments/부국증권_자기매매·위탁매매·자산운용·여신금융·기타, value_chain, executives/박현철, ratings/부국증권 신용등급. 핵심: 연결 영업수익 9,655억·영업이익 568억·순이익 456억(자기매매 중심), 배당 2,400원(성향 47%). 최대주주 김중건 12.22%·자기주식 42.73%. 공유노드: industries/증권 반영.
+
+**Ingest** 상상인증권 (001290, KOSPI, 신규, 상상인그룹) — Full 인제스트. 신규 8종: companies/상상인증권, sources, segments/상상인증권_홀세일·IB·자산운용·리테일, value_chain, executives/주원, ratings/상상인증권 신용등급. 핵심: 연결 영업수익 1,817억·2년 연속 영업손실(-91억, 2025), 무배당, 채권·파생 특화. 최대주주 ㈜상상인 55.85%(비상장). 공유노드: industries/증권 반영. group_todo: 상상인그룹.
+
+**Ingest** 피케이씨/PKC (001340, KOSPI, 신규, 구 백광산업) — Full 인제스트. 신규 6종: companies/피케이씨, sources, segments/피케이씨_화공·기타사업부, value_chain, executives/윤해구. 핵심: 별도 매출 2,691억·영업이익 112억·순이익 90억(무기화학 가성소다·염소·솔비톨), 배당 30원. 최대주주 김성훈(특관 42.82%, 비상장). 공유노드: industries/화학 반영. group_todo: 상원그룹(추정).
