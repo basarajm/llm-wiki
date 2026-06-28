@@ -668,3 +668,9 @@
 **Ingest** SIMPAC (009160, KOSPI, 신규, 심팩그룹) — Full 인제스트. 12종+stub4: companies/SIMPAC, sources, segments/SIMPAC_프레스·합금철Roll·트레이딩·산업기계자동차부품, value_chain, executives/최진식·송효석·심웅섭. 핵심: 연결 매출 1.18조(+44.5%, 첫 1조)·영업이익 460억(+135%)·순이익 224억. 프레스(산업기계)+합금철·트레이딩. 2025.12 심팩홀딩스 흡수합병. 최대주주 최진식 22.63% 외 60.53%, 국민연금 없음. 신규 그룹 심팩그룹 생성·industries/기계부품 반영. stub: SIMPAC인더스트리·한국타이어앤테크놀로지·금호타이어·고려아연.
 
 **Ingest** 한솔로지스틱스 (009180, KOSPI, 신규, 한솔그룹) — Full 인제스트. 5종: companies/한솔로지스틱스, sources, segments/한솔로지스틱스_물류사업, value_chain, executives/고정한. 핵심: 연결 매출 6,746억·영업이익 207억(+23%)·순이익 158억(+82%). 종합물류·3PL·국제 포워딩. 최대주주 한솔홀딩스 40.04%, 국민연금 없음. groups/한솔(기존 등재)·industries/물류 반영. stub 없음.
+
+**Ingest** 대양금속 (009190, KOSPI, stub→Full 승격) — Full 인제스트. 6종+stub1: companies/대양금속(승격), sources, segments/대양금속_스테인리스냉연강판, value_chain, executives/조상종·공갑상. 핵심: 연결 매출 2,235억·영업이익 56억·순이익 94억(흑전). STS 냉연강판 압연. 최대주주 디와이엠파트너스 14.59%·레거시1호조합 10.73%, 국민연금 없음. industries/철강 반영. stub: KH필룩스.
+
+**Ingest** 무림페이퍼 (009200, KOSPI, 신규, 무림그룹) — Full 인제스트. 6종+stub3: companies/무림페이퍼, sources, segments/무림페이퍼_제지·펄프, value_chain, executives/이도균. 핵심: 연결 매출 1.26조·영업이익 60억·순손실 -232억(펄프 부진). 인쇄용지+표백화학펄프(무림P&P). 최대주주 무림SP 19.65%·이동욱 18.93%, 국민연금 없음. 신규 그룹 무림그룹 생성·industries/제지 반영. stub: 무림P&P·무림SP·무림캐피탈.
+
+**Ingest** 한샘 (009240, KOSPI, 신규, IMM PE 계열) — Full 인제스트. 6종+stub5: companies/한샘, sources, segments/한샘_리하우스홈퍼니싱·B2B, value_chain, executives/김유진_한샘. 핵심: 연결 매출 1.74조(-8.6%)·영업이익 185억·순이익 463억. 부엌·가정용 가구·홈 리모델링 국내 1위. 최대주주 하임(IMM PE) 18.95%+하임2호 15.19%·국민연금 5.26%. 신규 산업 가구 생성·국민연금 반영. stub: 한샘넥서스·한샘서비스·현대리바트·이케아코리아·신세계까사. 동명이인 김유진(휴니드) 분리 처리.
