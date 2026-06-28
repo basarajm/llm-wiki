@@ -224,3 +224,9 @@
 **Ingest** SK증권 (001510, KOSPI, 신규, SK그룹 아님·J&W파트너스) — Full 인제스트. 신규 9종: companies/SK증권, sources, segments/SK증권_위탁매매·IB·자기매매·저축은행, value_chain, executives/전우종·정준호, ratings/SK증권 신용등급. 핵심: 연결 순영업손익 3,052억·순이익 287억(2024 적자→흑전). 최대주주 J&W BIG 19.60%(사모펀드). 공유노드: industries/증권 반영. (2018 SK㈜→J&W 매각으로 SK그룹 계열 아님)
 
 **Ingest** 동양 (001520, KOSPI, 신규, 유진그룹) — Full 인제스트. 신규 8종: companies/동양, sources, segments/동양_건재·건설·섬유·플랜트, value_chain, executives/박주형. 핵심: 연결 매출 6,306억·영업손실 -207억·순이익 203억(투자부동산 등 영업외). 최대주주 유진기업 23.78%·유진투자증권 4.79%. 공유노드 신규: industries/건자재. group_todo: 유진그룹.
+
+**Ingest** 디아이동일 (001530, KOSPI, 신규) — Full 인제스트. 신규 7종: companies/디아이동일, sources, segments/디아이동일_섬유소재·알루미늄, value_chain, executives/서태원·손재선. 핵심: 연결 매출 6,014억·영업손실 -15억(2025 적자전환, 동일알루미늄 합병), 섬유 53%+알루미늄(이차전지박) 37%. 최대주주 정헌재단 13.00%(특관 25.43%). 공유노드: industries/섬유 반영.
+
+**Ingest** 조비 (001550, KOSPI, 신규, 경농/동오그룹) — Full 인제스트. 신규 6종: companies/조비, sources, segments/조비_비료(단일), value_chain, executives/이승연·이용진. 핵심: 별도 매출 997억·영업이익 38억(2023 적자→흑전), 5년 무배당, 비료 점유율 약 9%. 최대주주 경농 54.56%(KOSPI). 공유노드: industries/화학 반영. group_todo: 동오그룹.
+
+**Ingest** 제일연마공업 (001560, KOSPI, 신규, 파일명 제일연마) — Full 인제스트. 신규 6종: companies/제일연마공업, sources, segments/제일연마공업_연마재제조판매(단일), value_chain, executives/오유인·오현수. 핵심: 연결 매출 789억·영업이익 42억·순이익 136억(영업외), 배당 721원, 신용 A+. 최대주주 오유인 39.35%·자기주식 32.24%. 공유노드 신규: industries/연마재.
