@@ -416,3 +416,9 @@
 **Ingest** 현대제철 (004020, KOSPI, stub→Full 승격, 현대차그룹) — Full 인제스트. 6종+승격: companies/현대제철(stub→Full), sources, segments/현대제철_판재·봉형강, value_chain, executives/이보룡. 핵심: 별도 매출 17.80조·영업이익 892억·순손실 -409억, 고로+전기로(자동차강판·봉형강). 최대주주 기아 17.27%·정몽구 11.81%·현대차 6.87%. 공유노드 industries/철강 반영(groups/현대차 기등재). 원본이 별도 감사보고서 위주(사업내용 일부 TODO).
 
 **Ingest** SG세계물산 (004060, KOSPI, 신규, SG그룹) — Full 인제스트. 6종+겸직: companies/SG세계물산, sources, segments/SG세계물산_의류수출·패션사업, value_chain, executives/이경호(+이의범 겸직). 핵심: 연결 매출 1,323억·영업손실 -15억, 의류 OEM(GAP·Macy's)+패션 브랜드(BASSO)+명품(COLOMBO). 최대주주 SG고려 47.64%. 신규 산업 패션·신규 그룹 SG그룹 생성.
+
+**Ingest** 신흥 (004080, KOSPI, 신규) — Full 인제스트. 7종: companies/신흥, sources, segments/신흥_치과의료기기재료·부동산임대물류, value_chain, executives/이용익·이용현·문현기. 핵심: 연결 매출 1,026억·영업이익 71억, 국내 최초 치과 의료기기·치과재료 제조유통(신흥MST 임플란트)·부동산임대, 배당성향 92%. 최대주주 이용익 19.06%. 신규 산업 의료기기 생성.
+
+**Ingest** 한국석유공업 (004090, KOSPI, 신규) — Full 인제스트. 7종: companies/한국석유공업, sources, segments/한국석유공업_아스팔트·케미칼·합성수지, value_chain, executives/강승모·송상호. 핵심: 연결 매출 6,969억·영업이익 118억, 아스팔트·방수재+합성수지·석유화학상품(브랜드 KP). 최대주주 강승모 33.32%. 공유노드 industries/화학 반영.
+
+**Ingest** 태양금속공업 (004100, KOSPI, 신규) — Full 인제스트. 6종: companies/태양금속공업, sources, segments/태양금속공업_냉간단조제품부문, value_chain, executives/한하워드성·한우삼. 핵심: 연결 매출 6,202억·영업이익 224억(+39.6%), 자동차용 냉간단조 화스너 국내 1위(~35%), 해외법인 다수. 최대주주 한하워드성 38.29%(2025.9 증여). 공유노드 industries/자동차부품 반영.
