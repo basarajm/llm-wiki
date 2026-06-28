@@ -638,3 +638,9 @@
 **Ingest** 이건산업 (008250, KOSPI, 신규, 이건그룹) — Full 인제스트. 7종+stub5: companies/이건산업, sources, segments/이건산업_목재·조림·에너지, value_chain, executives/백오현. 핵심: 연결 매출 2,973억(-9.1%)·영업손실 -38억·순손실 -142억(건설 침체 적자전환). 합판·마루+조림·열병합. 최대주주 이건홀딩스 34.19%, 국민연금 없음. 신규 그룹 이건그룹 생성·industries/목재 반영. stub: 이건홀딩스·이건창호·이건에너지·이건그린텍·아키페이스.
 
 **Ingest** NI스틸 (008260, KOSPI, 신규) — Full 인제스트. 8종+stub3: companies/NI스틸, sources, segments/NI스틸_강건재·강재리스·철강유통, value_chain, executives/이창환·배종민. 핵심: 별도 매출 2,479억·영업이익 301억·순이익 190억(2년 연속 감소). 강건재(합성보·Deck)·강재리스·형강 유통. 최대주주 문배철강 39.72%(경쟁사)·창화철강 7.30%·배종민 5.94%, 국민연금 없음. industries/철강 반영. stub: 문배철강·창화철강·대우건설.
+
+**Ingest** 남선알미늄 (008350, KOSPI, 신규, SM그룹) — Full 인제스트. 12종+stub3: companies/남선알미늄, sources, segments/남선알미늄_알미늄·자동차·건설, value_chain, executives/조현기·정순원·김제욱. 핵심: 연결 매출 2,589억·영업손실 -33억(적자전환)·순이익 36억. 알루미늄 압출(창호)·자동차 범퍼. 최대주주 ㈜삼라 30.00%(SM그룹 우오현), 국민연금 없음. group 링크 정정(/groups/SM그룹→/groups/SM)·SM 그룹 계열사 추가·industries/비철금속 반영. stub: 삼라·한국지엠·LX하우시스.
+
+**Ingest** 문배철강 (008420, KOSPI, stub→Full 승격) — Full 인제스트. 6종: companies/문배철강(승격), sources, segments/문배철강_철강제조유통·부동산임대, value_chain, executives/이창환·배종민(갱신). 핵심: 별도 매출 1,379억·영업손실 -10억·순이익 59억(지분법). 포스코 1차 열연대리점, NI스틸 39.72% 최대주주. 최대주주 배종민 15.05%·배승준 14.48%, 국민연금 없음. industries/철강 반영. stub 없음.
+
+**Ingest** 서흥 (008490, KOSPI, 신규) — Full 인제스트. 6종+stub6: companies/서흥, sources, segments/서흥_캡슐·원료·화장품, value_chain, executives/양주환. 핵심: 연결 매출 7,223억·영업이익 502억(+48%)·순이익 471억(+119%). 하드캡슐 국내 1위·건강기능식품 OEM/ODM. 최대주주 양주환 25.01% 외 52.83%, 국민연금 없음. 신용 A-. industries/제약 반영. stub: 내츄럴엔도텍·콜마비앤에이치·노바렉스·코스맥스엔비티·코스맥스·한국콜마.
