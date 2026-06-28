@@ -314,3 +314,9 @@
 **Ingest** 보락 (002760, KOSPI, 신규) — Full 인제스트. 6종: companies/보락, sources, segments/보락_식품첨가물부문·원료의약품부문, value_chain, executives/정기련. 핵심: 매출 501억·영업이익 22억, 식품향료·식품첨가물·생약 원료의약품(정밀화학). 최대주주 정기련 26.16%. 공유노드 industries/화학 반영. 국민연금 없음.
 
 **Ingest** 진흥기업 (002780, KOSPI, 신규, 효성그룹) — Full 인제스트. 7종: companies/진흥기업, sources, segments/진흥기업_민간건축·관급건축·관급토목, value_chain, executives/김태균. 핵심: 별도 매출 5,764억·영업손실 -230억(적자전환), 효성그룹 종합건설사(브랜드 효성해링턴플레이스). 최대주주 효성중공업 48.19%. 신규 그룹 효성·공유노드 industries/건설 반영. deferred: 효성중공업·㈜효성 Company/Shareholder stub.
+
+**Ingest** 아모레퍼시픽홀딩스 (002790, KOSPI, 신규, 아모레퍼시픽그룹) — Full 인제스트. 6종: companies/아모레퍼시픽홀딩스, sources, segments/아모레퍼시픽홀딩스_화장품·기타, value_chain, executives/서경배·이상목. 핵심: 연결 매출 4.62조(+8.5%)·영업이익 3,680억, 화장품 순수지주. 최대주주 서경배 54.97%·국민연금 6.49%. 신규 산업 화장품·신규 그룹 아모레퍼시픽 생성, 공유노드 industries/지주회사·국민연금 반영. deferred: 아모레퍼시픽(090430)·이니스프리·오설록·코스알엑스 stub.
+
+**Ingest** 삼영무역 (002810, KOSPI, 신규) — Full 인제스트. 7종: companies/삼영무역, sources, segments/삼영무역_화공약품부문·안경렌즈부문·자동차부품부문, value_chain, executives/이승용. 핵심: 연결 매출 4,469억·영업이익 128억·순이익 614억(에실로코리아 49.8% 지분법이익 471억), 부채비율 16%. 최대주주 이승용 21.04%. 공유노드 industries/종합상사 반영. deferred: 한국큐빅·에실로코리아 stub.
+
+**Ingest** SUN&L (002820, KOSPI, 신규, 구 선창산업) — Full 인제스트. 7종: companies/SUN&L, sources, segments/SUN&L_인테리어·생활용품·목재, value_chain, executives/이윤규·정연준. 핵심: 연결 매출 2,724억·영업손실 -179억, 목재(합판·MDF 유통, 국내생산 중단)·인테리어·생활용품(펌프 디스펜서). 최대주주 정연준 23.07%. 공유노드 industries/목재 반영. 국민연금 없음.
