@@ -332,3 +332,9 @@
 **Ingest** 유성기업 (002920, KOSPI, 신규) — Full 인제스트. 6종: companies/유성기업, sources, segments/유성기업_피스톤링·실린더라이너, value_chain, executives/류현석. 핵심: 연결 매출 3,046억·영업손실 -300억(적자확대), 피스톤링·실린더라이너 등 엔진부품(실린더라이너 국내 OEM 80~90%). 최대주주 류시영 22.05%. 공유노드 industries/자동차부품 반영.
 
 **Ingest** 한국쉘석유 (002960, KOSPI, 신규, Shell plc 계열) — Full 인제스트. 6종: companies/한국쉘석유, sources, segments/한국쉘석유_윤활유부문·그리스부문, value_chain, executives/이승봉. 핵심: 매출 3,450억·영업이익 528억, Shell 브랜드 윤활유·그리스, 무차입·배당성향 97%·신용 AA+. 최대주주 Shell Petroleum B.V. 53.85%. 공유노드 industries/화학 반영. deferred: S-Oil·Shell B.V. stub.
+
+**Ingest** 금호건설 (002990, KOSPI, 신규, 구 금호산업) — Full 인제스트. 7종: companies/금호건설, sources, segments/금호건설_건축·토목·플랜트, value_chain, executives/조완석. 핵심: 연결 매출 2.02조·영업이익 471억(흑전), 종합건설(브랜드 어울림·리첸시아), 부채비율 ~520%. 최대주주 금호고속 44.13%. 공유노드 industries/건설 반영. deferred: 금호아시아나 그룹·ratings.
+
+**Ingest** 부광약품 (003000, KOSPI, 신규, OCI그룹) — Full 인제스트. 7종: companies/부광약품, sources, segments/부광약품_의약품·연구개발, value_chain, executives/이제영·안미정. 핵심: 연결 매출 2,007억(+25%)·영업이익 142억, 당뇨·간질환·CNS+콘테라파마 RNA 신약. 최대주주 OCI홀딩스 17.11%(국민연금 0.68%). 신규 그룹 OCI·공유노드 industries/제약 반영. deferred: OCI홀딩스 stub.
+
+**Ingest** 혜인 (003010, KOSPI, 신규) — Full 인제스트. 7종: companies/혜인, sources, segments/혜인_장비엔진부문·부품부문·정비임대부문, value_chain, executives/원경희. 핵심: 별도 매출 2,417억·영업이익 176억, 캐터필러 한국 독점 딜러. 최대주주 원경희 11.86%. 신규 산업 건설기계유통 생성. deferred: Caterpillar·Jungheinrich stub.
