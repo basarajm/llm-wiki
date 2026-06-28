@@ -74,3 +74,9 @@
 **Ingest** LG디스플레이 (034220, KOSPI, LG그룹) — Full 인제스트(stub→full). 신규/갱신 5종: companies/LG디스플레이, sources/LG디스플레이_2025_사업보고서, segments/LG디스플레이_Display사업부문(단일 보고부문), value_chain/LG디스플레이_밸류체인, executives/정철동. 핵심: 연결 매출 25.8조·영업이익 5,170억·순이익 3,038억(2년 적자→흑자전환, OLED 믹스 개선). 최대주주 LG전자 36.72%·국민연금 5.27%, 결손으로 무배당. 공유노드: shareholders/LG전자·국민연금에 반영, industries/디스플레이 신규.
 
 **Ingest** HD현대 (267250, KOSPI, HD현대그룹 지주회사) — Full 인제스트(stub→full). 신규/갱신 9종: companies/HD현대, sources/HD현대_2025_사업보고서, segments/HD현대_조선해양·정유·전기전자·건설장비·선박서비스, value_chain/HD현대_밸류체인, executives/권오갑·정기선. 핵심: 연결 매출 71.3조·영업이익 6.10조(사상 최대, 조선 견인)·지배순이익 9,627억, 배당 4,000원, 회사채 A+. 최대주주 정몽준 26.60%(특관 37.19%)·국민연금 6.87%. 공유노드: shareholders/정몽준 신규·국민연금 반영. 자회사(HD한국조선해양·HD현대오일뱅크·HD현대중공업 등) stub 및 industries/지주회사·건설은 추후 정리.
+
+**Ingest** 신한금융지주 (055550, KOSPI, DART명 신한지주) — Full 인제스트(stub→full). 신규/갱신 10종: companies/신한금융지주, sources, segments/신한금융지주_은행·신용카드·증권·보험·여신전문, value_chain, executives/진옥동, ratings/신한금융지주 신용등급. 핵심: 연결 순이익 5.08조(지배 4.97조)·자산 786조·CET1 13.35%. 최대주주 국민연금 9.03%·BlackRock 5.99%·우리사주 5.04%. 공유노드 신규: groups/신한금융, shareholders/국민연금·BlackRock 반영, industries/금융지주 갱신.
+
+**Ingest** 하나금융지주 (086790, KOSPI) — Full 인제스트(stub→full). 신규/갱신 11종: companies/하나금융지주, sources, segments/하나금융지주_은행·증권·신용카드·캐피탈·기타, value_chain, executives/함영주·이승열, ratings/하나금융지주 신용등급. 핵심: 연결 순이익 4.04조(첫 4조 돌파)·자산 674.6조, 배당 4,105원(성향 28%). 최대주주 국민연금 8.66%·Capital Research 6.60%·BlackRock 6.58%. 공유노드 신규: groups/하나금융, shareholders 반영.
+
+**Ingest** 우리금융지주 (316140, KOSPI) — Full 인제스트(stub→full). 신규/갱신 9종: companies/우리금융지주, sources, segments/우리금융지주_은행·보험·카드·캐피탈·증권, value_chain, executives/임종룡, ratings/우리금융지주 신용등급. 핵심: 연결 순이익 3.23조·자산 601.5조, 2025.7 동양생명·ABL생명 인수로 보험 진출(자산 +75조). 최대주주 우리사주조합 7.76%·국민연금 6.69%·BlackRock 6.14%. 공유노드 신규: groups/우리금융, shareholders 반영.
