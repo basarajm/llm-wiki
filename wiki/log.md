@@ -218,3 +218,9 @@
 **Ingest** BYC (001460, KOSPI, 신규, 비와이씨) — Full 인제스트. 신규 6종: companies/BYC, sources, segments/BYC_섬유제품·건설임대, value_chain, executives/한석범·김대환. 핵심: 연결 매출 1,632억·영업이익 266억(임대부문이 68% 기여, 자산주). 투자부동산 4,390억. 최대주주 신한에디피스 18.56%(특관 72.67%, 비상장). 공유노드: industries/섬유 반영.
 
 **Ingest** 삼부토건 (001470, KOSPI, 신규) — Full 인제스트. 신규 5종: companies/삼부토건, sources, segments/삼부토건_국내건설(단일), value_chain, executives/오일록. 핵심: 연결 매출 1,110억(-75%)·영업손실 -266억·완전자본잠식(-1,420억), 2025.3 회생절차 개시·2025.4 거래정지. 최대주주 디와이디 3.39%(소액주주 96.6%). 공유노드: industries/건설 반영.
+
+**Ingest** 현대차증권 (001500, KOSPI, 신규, 현대차그룹) — Full 인제스트. 신규 7종: companies/현대차증권, sources, segments/현대차증권_자산관리·기업금융, value_chain, executives/배형근, ratings/현대차증권 신용등급. 핵심: 연결 영업이익 723억·순이익 577억·자기자본 1.44조, 배당성향 39.7%. 최대주주 현대자동차 22.17%·현대모비스 13.70%·기아 3.95%. 공유노드: industries/증권, groups/현대차(계열사 추가), shareholders/현대자동차·현대모비스·기아 반영.
+
+**Ingest** SK증권 (001510, KOSPI, 신규, SK그룹 아님·J&W파트너스) — Full 인제스트. 신규 9종: companies/SK증권, sources, segments/SK증권_위탁매매·IB·자기매매·저축은행, value_chain, executives/전우종·정준호, ratings/SK증권 신용등급. 핵심: 연결 순영업손익 3,052억·순이익 287억(2024 적자→흑전). 최대주주 J&W BIG 19.60%(사모펀드). 공유노드: industries/증권 반영. (2018 SK㈜→J&W 매각으로 SK그룹 계열 아님)
+
+**Ingest** 동양 (001520, KOSPI, 신규, 유진그룹) — Full 인제스트. 신규 8종: companies/동양, sources, segments/동양_건재·건설·섬유·플랜트, value_chain, executives/박주형. 핵심: 연결 매출 6,306억·영업손실 -207억·순이익 203억(투자부동산 등 영업외). 최대주주 유진기업 23.78%·유진투자증권 4.79%. 공유노드 신규: industries/건자재. group_todo: 유진그룹.
