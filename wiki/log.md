@@ -488,3 +488,9 @@
 **Ingest** 롯데지주 (004990, KOSPI, 신규, 롯데그룹 지주) — Full 인제스트. 7종: companies/롯데지주, sources, segments/롯데지주_유통·식품·기타, value_chain, executives/신동빈·고정욱·노준형. 핵심: 연결 매출 15.54조·영업이익 2,394억·순손실 -5,950억(별도 흑자), 롯데그룹 순수지주(롯데쇼핑·롯데케미칼·롯데웰푸드·롯데칠성). 최대주주 신동빈 13.0%·국민연금 6.4%·호텔롯데 11.1%. 공유노드 industries/지주회사·groups/롯데·국민연금 반영. deferred: 롯데쇼핑·롯데케미칼 등 상장 자회사 stub.
 
 **Ingest** 휴스틸 (005010, KOSPI, 신규, 신안그룹) — Full 인제스트. 6종: companies/휴스틸, sources, segments/휴스틸_강관부문·유정용강관, value_chain, executives/박훈. 핵심: 연결 매출 6,125억·순손실 -150억(美 관세 25→50%), 강관(배관·유정용 OCTG) 전업사·수출 66%. 최대주주 박순석 23.80%·㈜신안 5.33%. 신규 그룹 신안그룹·공유노드 industries/철강 반영.
+
+**Ingest** 부산주공 (005030, KOSPI, 신규) — Full 인제스트. 5종: companies/부산주공, sources, segments/부산주공_자동차부품, value_chain, executives/장세훈. 핵심: 매출 1,954억(-8.3%)·순이익 17억(흑전), 자동차용 주철 주물·주조부품, 누적결손·차입 부담. 최대주주 장세훈 9.09%(2025.7 세연아이엠→본인). 공유노드 industries/자동차부품 반영.
+
+**Ingest** 코스모신소재 (005070, KOSPI, 신규, 코스모그룹) — Full 인제스트. 7종+stub: companies/코스모신소재(+코스모화학·삼성SDI·LG화학 stub), sources, segments/코스모신소재_양극활물질·기능성필름·토너, value_chain, executives/홍동환. 핵심: 매출 4,563억(-19.9%)·영업이익 24억(캐즘 가동률 12.6%), 양극재(NCM)·MLCC 이형필름·토너. 최대주주 코스모화학 27.19%. 신규 그룹 코스모·공유노드 industries/이차전지소재 반영.
+
+**Ingest** SGC에너지 (005090, KOSPI, 신규, SGC그룹, 구 삼광글라스) — Full 인제스트. 8종: companies/SGC에너지, sources, segments/SGC에너지_발전에너지·건설및부동산·유리, value_chain, executives/이우성·이복영. 핵심: 연결 매출 2.46조·영업이익 958억·순손실 -948억(적자전환), 군산 열병합(집단에너지)+건설(SGC이앤씨)+유리(SGC솔루션). 주주 이우성 19.59%·이원준 18.04%. 신규 산업 집단에너지·신규 그룹 SGC 생성. OCI 일가 분화·AI데이터센터 신사업.
