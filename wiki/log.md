@@ -356,3 +356,9 @@
 **Ingest** 디아이 (003160, KOSPI, 신규, 디아이그룹) — Full 인제스트. 6종: companies/디아이, sources, segments/디아이_반도체장비·전자부품, value_chain, executives/박원호. 핵심: 연결 매출 4,323억(+102%)·영업이익 365억, 메모리 검사장비(번인 테스터·BIB ~38%) HBM·DDR5 테스터(자회사 디지털프론티어). 최대주주 박원호 15.01%·박원덕 14.25%. 공유노드 industries/반도체장비 반영. deferred: 디아이그룹 페이지.
 
 **Ingest** 일신방직 (003200, KOSPI, 신규) — Full 인제스트. 7종: companies/일신방직, sources, segments/일신방직_섬유제품제조·부동산임대투자, value_chain, executives/김영호·김정수. 핵심: 연결 매출 5,172억·영업이익 124억, 국내 면방 1위(설비 29.3%)+부동산·VC·유통 다각화. 최대주주 김영호 21.62%·일신문화재단 5.23%. 공유노드 industries/섬유 반영. deferred: 일신문화재단 shareholder.
+
+**Ingest** 대원제약 (003220, KOSPI, 신규) — Full 인제스트. 8종+stub: companies/대원제약(+지오영 stub), sources, segments/대원제약_제약·화장품·건강기능식품, value_chain, executives/백승열·백승호·BAEK_JONATHAN_IN. 핵심: 연결 매출 6,054억(+1.2%)·영업이익 35억·순손실 -40억(화장품·건기식 자회사 손실), 코대원·펠루비. 최대주주 백승열 11.34%·Fidelity 10.06%. 공유노드 industries/제약 반영.
+
+**Ingest** 삼양식품 (003230, KOSPI, 신규, 삼양라운드스퀘어그룹) — Full 인제스트. 8종+stub: companies/삼양식품(+CJ제일제당 stub), sources, segments/삼양식품_면스낵·소스조미소재·냉동, value_chain, executives/김정수_삼양식품·김동찬_삼양식품. 핵심: 연결 매출 2.35조·영업이익률 22.3%, 불닭볶음면 K-FOOD 수출 선도. 최대주주 삼양라운드스퀘어 35.48%·국민연금 9.65%. 신규 그룹 삼양라운드스퀘어·공유노드 industries/식품·국민연금 반영. (제당 삼양그룹과 무관)
+
+**Ingest** 태광산업 (003240, KOSPI, 신규, 태광그룹) — Full 인제스트. 6종: companies/태광산업, sources, segments/태광산업_석유화학·섬유, value_chain, executives/이부의. 핵심: 연결 매출 1.83조·본업 적자·순이익 831억(금융·지분법), 석유화학(PTA·AN)+섬유(스판덱스). 최대주주 이호진 29.48%·티알엔 11.22%. 신규 그룹 태광(흥국화재 연결)·공유노드 industries/화학·섬유 반영.
