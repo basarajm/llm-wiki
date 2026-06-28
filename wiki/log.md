@@ -116,3 +116,9 @@
 **Ingest** 한국앤컴퍼니 (000240, KOSPI, 신규, 한국타이어그룹 지주) — Full 인제스트. 신규 7종: companies/한국앤컴퍼니, sources, segments/한국앤컴퍼니_축전지·투자사업부문, value_chain, executives/조현범·박종호. 핵심: 연결 영업수익 1.46조·영업이익 4,116억·지배순이익 3,472억, 배당 1,100원. 최대주주 조현범 42.03%·조현식 18.93%(특관 47.24%, 개인). group_todo: 한국타이어그룹(한국타이어앤테크놀로지 stub 추후).
 
 **Ingest** DH오토웨어/디에이치오토넥스 (000300, KOSPI, 신규, FY2024) — Full 인제스트. 신규 6종: companies/DH오토웨어(실명 ㈜디에이치오토넥스, 구 대유플러스), sources, segments/DH오토웨어_자동차부품·정보통신·에너지, value_chain, executives/최준용. 핵심: 매출 324억·영업적자 -86억, 2024 회생절차 종결(채무면제 일회성 순이익 1,135억)·자본잠식 해소. 최대주주 엔알제일호재기지원펀드 67.52%(DH그룹). 매매거래정지·단기신용 D. group_todo: DH그룹.
+
+**Ingest** 노루홀딩스 (000320, KOSPI, 신규, 노루페인트그룹 지주) — Full 인제스트. 신규 9종: companies/노루홀딩스, sources, segments/노루홀딩스_건축공업용도료·자동차용도료·PCM용도료·농생명, value_chain, executives/한영재·한원석. 핵심: 연결 매출 1.24조·영업이익 645억·순이익 585억, 배당 600원. 최대주주 한영재 25.68%·KCC 9.90%. 2025.8 공정거래법상 지주회사 지위 제외. group_todo: 노루그룹(노루페인트 stub 추후).
+
+**Ingest** 한화손해보험 (000370, KOSPI, 신규, 한화그룹) — Full 인제스트. 신규 7종: companies/한화손해보험, sources, segments/한화손해보험_장기·자동차·일반손해보험, value_chain, executives/나채범, ratings/한화손해보험 신용등급. 핵심: 연결 보험·영업수익 7.45조·순이익 2,923억, K-ICS 209%. 최대주주 한화생명보험 63.30%. 공유노드 신규: shareholders/한화생명보험, industries/보험에 반영. group_todo: 한화그룹.
+
+**Ingest** 삼화페인트공업 (000390, KOSPI, 신규, 파일명 SP삼화) — Full 인제스트. 신규 7종: companies/삼화페인트공업, sources, segments/삼화페인트공업_도료및화학제품·IT, value_chain, executives/김현정·배맹달. 핵심: 연결 매출 6,171억·영업이익 95억·순이익 78억, 회사채 BBB+. 2025.12 창업주 김장연 별세→장녀 김현정 최대주주(25.80%)·신임 대표. 2026.3 'SP삼화'로 사명변경 예정. 공유노드 신규: industries/화학.
