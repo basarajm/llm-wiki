@@ -302,3 +302,9 @@
 **Ingest** 제일파마홀딩스 (002620, KOSPI, 신규, 제일약품그룹) — Full 인제스트. 6종: companies/제일파마홀딩스, sources, segments/제일파마홀딩스_지주부문·제약부문, value_chain, executives/한상철. 핵심: 연결 매출 6,576억·영업이익 387억 흑전. 지주→제일약품(44.95%)·온코닉테라퓨틱스(KOSDAQ). 최대주주 한승수 57.80%·Otsuka 9.37%. 신규 그룹 제일약품그룹·공유노드 industries/지주회사·제약 반영. deferred: 제일약품·온코닉테라퓨틱스 stub.
 
 **Ingest** 오리엔트바이오 (002630, KOSPI, FY2026, 신규, 오리엔트그룹) — Full 인제스트. 7종: companies/오리엔트바이오, sources, segments/오리엔트바이오_생물소재·CRO·실험장비, value_chain, executives/장재진·최숙종. 핵심: 매출 297.5억(생물소재 66.4%·CRO 33.6%)·영업손실, Charles River 독점제휴 IGS 실험동물 국내 유일. 최대주주 ㈜오리엔트 24.00%. 신규 산업 실험동물·비임상·신규 그룹 오리엔트그룹 생성. deferred: 오리엔트정공 등 계열 stub, ratings.
+
+**Ingest** 동일제강 (002690, KOSPI, 신규) — Full 인제스트. 8종: companies/동일제강, sources, segments/동일제강_마봉부문·세경봉부문·선재부문, value_chain, executives/김준년·민세홍·양영석·김우진. 핵심: 매출 1,473억(영업손실 -35억·순이익 14억), 선재 2차가공(PC강연선·마봉강·알루미늄 세경봉) 선재 국내 ~7.9%. 최대주주 에스폼 48.17%(비상장). 공유노드 industries/철강 반영.
+
+**Ingest** 신일전자 (002700, KOSPI, 신규) — Full 인제스트. 5종: companies/신일전자, sources, segments/신일전자_가전제품, value_chain, executives/정윤석. 핵심: 별도 매출 1,940억, 선풍기·계절가전 '신일' 브랜드(구 신일산업). 최대주주 김영 회장 10.78%. 공유노드 industries/가전 반영. 국민연금 없음.
+
+**Ingest** TCC스틸 (002710, KOSPI, 신규) — Full 인제스트. 6종: companies/TCC스틸, sources, segments/TCC스틸_표면처리강판, value_chain, executives/손봉락·손기영. 핵심: 연결 매출 6,115억(영업손실 -109억), 주석·니켈도금강판 등 표면처리강판(구 TCC동양), 이차전지용 Ni도금강판. 최대주주 손봉락 11.20%·손기영 7.43%. 공유노드 industries/철강 반영.
