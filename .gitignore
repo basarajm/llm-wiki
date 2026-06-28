@@ -1,6 +1,15 @@
 # 생성물
 wiki/viz.html
 
+# === DART 다운로드 파이프라인 ===
+# config.py 는 API 키를 하드코딩하지 않으므로(환경변수/CLI 주입) 커밋 대상에 포함합니다.
+# 체크포인트·실패로그·대상목록
+dart_pipeline/_state/
+# 다운로드된 MD 사업보고서(대용량)
+dart_pipeline/dart_md/
+__pycache__/
+*.pyc
+
 # OS / 에디터
 .DS_Store
 Thumbs.db
