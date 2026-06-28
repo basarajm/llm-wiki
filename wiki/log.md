@@ -362,3 +362,9 @@
 **Ingest** 삼양식품 (003230, KOSPI, 신규, 삼양라운드스퀘어그룹) — Full 인제스트. 8종+stub: companies/삼양식품(+CJ제일제당 stub), sources, segments/삼양식품_면스낵·소스조미소재·냉동, value_chain, executives/김정수_삼양식품·김동찬_삼양식품. 핵심: 연결 매출 2.35조·영업이익률 22.3%, 불닭볶음면 K-FOOD 수출 선도. 최대주주 삼양라운드스퀘어 35.48%·국민연금 9.65%. 신규 그룹 삼양라운드스퀘어·공유노드 industries/식품·국민연금 반영. (제당 삼양그룹과 무관)
 
 **Ingest** 태광산업 (003240, KOSPI, 신규, 태광그룹) — Full 인제스트. 6종: companies/태광산업, sources, segments/태광산업_석유화학·섬유, value_chain, executives/이부의. 핵심: 연결 매출 1.83조·본업 적자·순이익 831억(금융·지분법), 석유화학(PTA·AN)+섬유(스판덱스). 최대주주 이호진 29.48%·티알엔 11.22%. 신규 그룹 태광(흥국화재 연결)·공유노드 industries/화학·섬유 반영.
+
+**Ingest** 흥아해운 (003280, KOSPI, 신규, 장금상선그룹) — Full 인제스트. 6종: companies/흥아해운, sources, segments/흥아해운_해운부문·기타부문, value_chain, executives/이환구. 핵심: 연결 매출 1,808억·영업이익 113억·순이익 303억(선박 처분익), 케미컬탱커·근해 컨테이너. 최대주주 장금상선 70.71%. 신규 산업 해운·신규 그룹 장금상선 생성.
+
+**Ingest** 한일홀딩스 (003300, KOSPI, 신규, 한일시멘트그룹) — Full 인제스트. 7종: companies/한일홀딩스, sources, segments/한일홀딩스_시멘트·레미콘·레미탈·기타, value_chain, executives/허기호. 핵심: 연결 매출 1.93조·영업이익 1,232억, 한일시멘트그룹 사업지주(시멘트·레미콘+서울랜드). 최대주주 허기호 31.23%·허정섭 16.33%. 신규 그룹 한일시멘트그룹·공유노드 industries/지주회사·시멘트 반영. deferred: 한일시멘트 stub.
+
+**Ingest** 한국화장품제조 (003350, KOSPI, 신규) — Full 인제스트. 5종: companies/한국화장품제조, sources, segments/한국화장품제조_화장품제조, value_chain, executives/이용준·임진서. 핵심: 별도 매출 1,846억·영업이익 329억(영업이익률 17.8%), 화장품 OEM/ODM 제조(1962 창사). 최대주주 임충헌 11.54% 등 일가. 공유노드 industries/화장품 반영. deferred: 한국화장품(123690)·더샘 stub.
