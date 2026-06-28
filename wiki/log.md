@@ -230,3 +230,9 @@
 **Ingest** 조비 (001550, KOSPI, 신규, 경농/동오그룹) — Full 인제스트. 신규 6종: companies/조비, sources, segments/조비_비료(단일), value_chain, executives/이승연·이용진. 핵심: 별도 매출 997억·영업이익 38억(2023 적자→흑전), 5년 무배당, 비료 점유율 약 9%. 최대주주 경농 54.56%(KOSPI). 공유노드: industries/화학 반영. group_todo: 동오그룹.
 
 **Ingest** 제일연마공업 (001560, KOSPI, 신규, 파일명 제일연마) — Full 인제스트. 신규 6종: companies/제일연마공업, sources, segments/제일연마공업_연마재제조판매(단일), value_chain, executives/오유인·오현수. 핵심: 연결 매출 789억·영업이익 42억·순이익 136억(영업외), 배당 721원, 신용 A+. 최대주주 오유인 39.35%·자기주식 32.24%. 공유노드 신규: industries/연마재.
+
+**Ingest** 금양 (001570, KOSPI, 신규) — Full 인제스트. 신규 6종: companies/금양, sources, segments/금양_발포제·이차전지, value_chain, executives/류광지. 핵심: 연결 매출 1,028억·3년 연속 적자(영업 -447억), 발포제(세계일류) 본업+이차전지 신사업. 2025.3 감사의견 거절→거래정지(상폐 리스크). 최대주주 류광지 22.09%, 신용 B+. 공유노드: industries/화학 반영.
+
+**Ingest** 케이비아이동국실업 (001620, KOSPI, 신규, KBI그룹) — Full 인제스트. 신규 5종: companies/케이비아이동국실업, sources, segments/케이비아이동국실업_제조부문, value_chain, executives/김용희. 핵심: 연결 매출 8,080억·영업이익 186억(흑전)·순이익 316억, 무배당, 자동차 플라스틱 내외장재. 최대주주 KBI국인산업 34.91%(비상장). 공유노드: industries/자동차부품 반영. group_todo: KBI그룹.
+
+**Ingest** 종근당홀딩스 (001630, KOSPI, 신규, 종근당그룹 지주) — Full 인제스트. 신규 8종: companies/종근당홀딩스, sources, segments/종근당홀딩스_지주사업·건강기능식품·의약품, value_chain, executives/이장한·최희남. 핵심: 연결 매출 9,590억·영업이익 583억·순이익 543억, 배당 1,400원, 신용 A+. 최대주주 이장한 33.73%(특관 47.91%). 자회사 경보제약·종근당바이오·종근당건강·종근당(관계). 공유노드: industries 지주회사/제약. group_todo: 종근당그룹.
