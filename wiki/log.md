@@ -272,3 +272,9 @@
 **Ingest** 한국수출포장공업 (002200, KOSPI, 신규) — Full 인제스트. 신규 6종: companies/한국수출포장공업, sources, segments/한국수출포장공업_골판지(단일), value_chain, executives/허정훈·허용삼. 핵심: 연결 매출 2,896억·영업손실 -66억(적자전환, 상자단가↓), 배당 80원. 골판지 일관생산. 최대주주 허정훈 36.00%(특관 45.56%). 공유노드: industries/제지 반영.
 
 **Ingest** 동성제약 (002210, KOSPI, 신규) — Full 인제스트. 신규 7종: companies/동성제약, sources, segments/동성제약_의약품및염모제·화장품, value_chain, executives/유영일·나원균. 핵심: 별도 매출 872억·영업손실 -101억·순손실 -257억, 부채비율 621%, 감사의견 한정. 2025.6 회생절차·거래정지, 2026.3 유암코 PEF 700억 유증 인수(72.45%). 염모제 세븐에이트·정로환. 공유노드: industries/제약 반영.
+
+**Ingest** 한일철강 (002220, KOSPI, 신규) — Full 인제스트. 신규 5종: companies/한일철강, sources, segments/한일철강_철강재(단일), value_chain, executives/엄정헌. 핵심: 연결 매출 1,964억·영업이익 32억·순손실 -4억, 배당 30원. 철판·형강·강건재. 최대주주 엄신영 8.32%(특관 51.28%, 오너가). 공유노드: industries/철강 반영. group_todo: 한일철강(하이스틸 등).
+
+**Ingest** 고려제강 (002240, KOSPI, 신규, KISWIRE) — Full 인제스트. 신규 6종: companies/고려제강, sources, segments/고려제강_로프·선재부문, value_chain, executives/주종대. 핵심: 연결 매출 1.81조·영업이익 407억·순이익 46억(손상차손), 무차입(자본 1.96조), 와이어로프 국내 1위(~55%). 최대주주 홍석표 20.07%(특관 67.79%, 키스와이어홀딩스 등). 공유노드: industries/철강 반영. group_todo: 고려제강(KISWIRE)그룹.
+
+**Ingest** 아세아제지 (002310, KOSPI, 신규, 아세아그룹) — Full 인제스트. 신규 6종: companies/아세아제지, sources, segments/아세아제지_제지·골판지부문, value_chain, executives/유승환·이현탁. 핵심: 연결 매출 8,551억·영업이익 272억·순이익 296억, 부채비율 22%, 배당 250원. 골판지원지. 최대주주 아세아 52.19%(/companies/아세아). 공유노드: industries/제지 반영. group_todo: 아세아그룹.
