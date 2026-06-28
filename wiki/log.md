@@ -404,3 +404,9 @@
 **Ingest** 진양산업 (003780, KOSPI, 신규, 진양그룹/KPX 계열) — Full 인제스트. 7종: companies/진양산업, sources, segments/진양산업_제조부문·자동차부문, value_chain, executives/최원석·양준영. 핵심: 연결 매출 907억·영업이익 84억, 폴리우레탄 폼(국내 ~20%). 최대주주 진양홀딩스 51.21%. 신규 그룹 진양그룹·공유노드 industries/화학 반영. deferred: KPX케미칼·진양홀딩스 stub.
 
 **Ingest** 대한화섬 (003830, KOSPI, 신규, 태광그룹) — Full 인제스트. 7종+stub: companies/대한화섬(+코오롱인더스트리 stub), sources, segments/대한화섬_폴리에스터·임대, value_chain, executives/김대정. 핵심: 개별 매출 1,082억·영업손실 -73억·순이익 96억(지분법), 폴리에스터 필라멘트(ACEPORA), 태광산업 PTA 수직계열. 최대주주 티알엔 33.53%·이호진 20.04%. 공유노드 industries/화학·섬유·groups/태광 반영.
+
+**Ingest** 보령 (003850, KOSPI, 신규, 보령그룹, 구 보령제약) — Full 인제스트. 7종: companies/보령, sources, segments/보령_전문의약품·일반의약품·수탁, value_chain, executives/김정균·김은선. 핵심: 연결 매출 1.02조·영업이익 651억·순이익 643억, 카나브 패밀리·항암·우주의약품(LBA). 최대주주 보령홀딩스 29.71%·보령파트너스 21.10%. 신규 그룹 보령·공유노드 industries/제약 반영.
+
+**Ingest** 남양유업 (003920, KOSPI, 신규) — Full 인제스트. 9종+stub: companies/남양유업(+롯데웰푸드 stub), sources, segments/남양유업_우유류·분유류·기타, value_chain, executives/김승언·윤여을. 핵심: 연결 매출 9,141억·영업이익 52억(흑자전환), 유가공(우유·분유·음료). 최대주주 한앤코유업홀딩스 63.2%(한앤컴퍼니 PEF, 2024 인수). 공유노드 industries/식품 반영. deferred: 한앤컴퍼니 shareholder.
+
+**Ingest** 사조대림 (003960, KOSPI, 신규, 사조그룹) — Full 인제스트. 7종: companies/사조대림, sources, segments/사조대림_식품부문·수산부문, value_chain, executives/김상훈·주진우·주지홍. 핵심: 연결 매출 3.50조(+32%)·영업이익 947억·순손실 -736억(적자전환, 별도 흑자), 어묵·맛살·식용유·참치+원양어업. 최대주주 사조씨푸드 17.12% 등 계열 72.63%. 신규 그룹 사조·공유노드 industries/식품 반영. deferred: 사조산업·사조오양·사조씨푸드 등 계열 stub(보고서 보유).
