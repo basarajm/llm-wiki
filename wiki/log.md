@@ -152,3 +152,9 @@
 **Ingest** 현대건설 (000720, KOSPI, 신규, 현대차그룹) — Full 인제스트. 신규 8종: companies/현대건설, sources, segments/현대건설_건축주택·플랜트·토목·기타, value_chain, executives/이한우. 핵심: 연결 매출 31.1조·영업이익 6,530억(2024 적자→흑전)·순이익 5,591억, 회사채 AA-. 최대주주 현대자동차 20.95%·국민연금 11.08%·현대모비스 8.73%·기아 5.24%. 공유노드 신규: industries/건설. shareholders/현대자동차·기아·현대모비스·국민연금 및 groups/현대차에 현대건설 반영. (현대엔지니어링 stub 추후)
 
 **Ingest** 이화산업 (000760, KOSPI, 신규) — Full 인제스트. 신규 7종: companies/이화산업, sources, segments/이화산업_유통·염료·임대사업부문, value_chain, executives/홍성우·조규완. 핵심: 연결 매출 463억·영업손실 -2억(적자전환)·순손실 -21억(3년 연속), 무배당, 자산의 76%가 투자부동산. 최대주주 조규완 24.89%(특관 72.80%). 산업: 화학(염료·화학품 유통).
+
+**Ingest** 삼성화재 (000810, KOSPI, 삼성그룹, stub→full) — Full 인제스트. 신규 9종: companies/삼성화재, sources, segments/삼성화재_장기·자동차·일반보험·투자, value_chain, executives/이문화, ratings/삼성화재 신용등급. 핵심: 연결 보험수익 18.6조·순이익 2.02조, 원수 M/S 22.6%(1위), K-ICS 263%. 최대주주 삼성생명보험 15.43%. 공유노드: shareholders/삼성생명보험·industries/보험 반영(이미 삼성 그룹 계열 등재).
+
+**Ingest** 화천기공 (000850, KOSPI, 신규, 화천그룹) — Full 인제스트. 신규 7종: companies/화천기공, sources, segments/화천기공_기계·소재사업부, value_chain, executives/권형석·권형도. 핵심: 연결 매출 2,218억·영업이익 42억(흑전)·순이익 114억, 배당 1,300원. 최대주주 권영열 17.93%(특관 48.78%). 공유노드 신규: industries/공작기계. group_todo: 화천그룹.
+
+**Ingest** 강남제비스코 (000860, KOSPI, 신규, 구 건설화학) — Full 인제스트. 신규 7종: companies/강남제비스코, sources, segments/강남제비스코_도료·합성수지·복합성형재료부문, value_chain, executives/김재현. 핵심: 연결 매출 5,986억·영업이익 83억·순이익 9억(별도 적자), 액면분할. 최대주주 임예정 23.95%(2025.12 상속, 특관 50.64%). 공유노드: industries/화학 반영. 신용 BBB-.
