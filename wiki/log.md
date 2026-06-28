@@ -632,3 +632,9 @@
 **Ingest** TP (007980, KOSPI, 신규) — Full 인제스트. 10종+stub3: companies/TP, sources, segments/TP_의류·우모·임대·식품, value_chain, executives/임석원. 핵심: 연결 매출 1.03조·영업이익 620억·순이익 380억(+70%). 의류 OEM/ODM(우모 가공)+부동산·식품. 최대주주 임석원 21.41% 외, 국민연금 없음. 신용 BB+/BBB-. industries/패션 반영. stub: TARGET·Columbia Sportswear·Carhartt.
 
 **Ingest** 사조동아원 (008040, KOSPI, stub→Full 승격, 사조그룹) — Full 인제스트. 6종+stub1: companies/사조동아원(승격), sources, segments/사조동아원_제분·생물자원, value_chain, executives/이창주. 핵심: 연결 매출 6,743억·영업이익 425억·순손실 -1,373억(비경상 손실 적자전환). 제분(밀가루 ~24%)·배합사료. 최대주주 사조씨푸드 26.03%·사조대림 26.03%, 국민연금 없음. groups/사조(사조동아원 승격 링크)·industries/식품 반영. stub: 사조씨피케이.
+
+**Ingest** 대덕 (008060, KOSPI, 신규, 대덕그룹 지주) — Full 인제스트. 8종+stub1: companies/대덕, sources, segments/대덕_PCB·RF, value_chain, executives/김영재·장홍은. 핵심: 연결 매출 1.39조(+9.3%)·영업이익 113억·순이익 62억(-85.5%, 전년 일회성 소멸). PCB(대덕전자)·RF(와이솔) 지주. 최대주주 김영재 23.07% 외 42.74%, 국민연금 없음. 신규 그룹 대덕 생성·industries/지주회사 반영. stub: 와이솔.
+
+**Ingest** 이건산업 (008250, KOSPI, 신규, 이건그룹) — Full 인제스트. 7종+stub5: companies/이건산업, sources, segments/이건산업_목재·조림·에너지, value_chain, executives/백오현. 핵심: 연결 매출 2,973억(-9.1%)·영업손실 -38억·순손실 -142억(건설 침체 적자전환). 합판·마루+조림·열병합. 최대주주 이건홀딩스 34.19%, 국민연금 없음. 신규 그룹 이건그룹 생성·industries/목재 반영. stub: 이건홀딩스·이건창호·이건에너지·이건그린텍·아키페이스.
+
+**Ingest** NI스틸 (008260, KOSPI, 신규) — Full 인제스트. 8종+stub3: companies/NI스틸, sources, segments/NI스틸_강건재·강재리스·철강유통, value_chain, executives/이창환·배종민. 핵심: 별도 매출 2,479억·영업이익 301억·순이익 190억(2년 연속 감소). 강건재(합성보·Deck)·강재리스·형강 유통. 최대주주 문배철강 39.72%(경쟁사)·창화철강 7.30%·배종민 5.94%, 국민연금 없음. industries/철강 반영. stub: 문배철강·창화철강·대우건설.
