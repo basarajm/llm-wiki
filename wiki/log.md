@@ -386,3 +386,9 @@
 **Ingest** SNT다이내믹스 (003570, KOSPI, 신규, SNT그룹, 구 S&T중공업) — Full 인제스트. 8종: companies/SNT다이내믹스, sources, segments/SNT다이내믹스_방산부문·차량부품부문·기계부문, value_chain, executives/박재석·김도환. 핵심: 연결 매출 7,120억·영업이익 855억, 방산(자주포·전차 변속기)·자동차부품·공작기계. 최대주주 SNT홀딩스 42.27%·국민연금 8.20%. 신규 산업 방산·신규 그룹 SNT그룹·공유노드 industries/자동차부품·공작기계·국민연금 반영. deferred: SNT홀딩스·SNT모티브 stub.
 
 **Ingest** HLB글로벌 (003580, KOSPI, 신규, HLB그룹, 구 넥스트사이언스) — Full 인제스트. 8종: companies/HLB글로벌, sources, segments/HLB글로벌_미디어커머스·식품음료·화장품, value_chain, executives/김광재·진양곤. 핵심: 연결 매출 1,003억·영업손실 -99억(3년 적자), 미디어커머스(D2C)+식품음료+화장품. 최대주주 진양곤 5.81%. 신규 그룹 HLB·공유노드 industries/유통 반영. 국민연금 없음.
+
+**Ingest** 방림 (003610, KOSPI, 신규) — Full 인제스트. 8종: companies/방림, sources, segments/방림_면방·부동산임대, value_chain, executives/서재희·임상준·설선윤. 핵심: 제64기(9월결산) 연결 매출 1,225억·영업이익 11억(흑전)·순이익 65억, 면방·염색가공(수출 70%)+부동산·요양. 최대주주 서재희 38.99%. 공유노드 industries/섬유 반영. 국민연금 없음.
+
+**Ingest** KG모빌리티 (003620, KOSPI, 신규, KG그룹, 구 쌍용자동차) — Full 인제스트. 6종: companies/KG모빌리티, sources, segments/KG모빌리티_자동차제조, value_chain, executives/곽재선·황기영. 핵심: 연결 매출 4.30조·영업이익 362억·순이익 466억(흑자확대), SUV·픽업(토레스·렉스턴·무쏘). 최대주주 KG에코솔루션 54.35%·Mahindra 4.83%. 신규 그룹 KG·공유노드 industries/자동차 반영. 2025 무상감자(결손보전). deferred: KG에코솔루션·Mahindra stub.
+
+**Ingest** 미창석유공업 (003650, KOSPI, 신규) — Full 인제스트. 8종: companies/미창석유공업, sources, segments/미창석유공업_윤활유·고무배합유·전기절연유, value_chain, executives/유재순·유지유·유승수. 핵심: 매출 4,055억·영업이익 346억·순이익 689억(스텔라EV 펀드 회수), 특수유(전기절연유 MICTRANS·고무배합유) 윤활유 ~8.4%·수출 58%. 최대주주 유재순 14.35%·ENEOS 10%·Fidelity 10%. 공유노드 industries/화학 반영.
