@@ -692,3 +692,9 @@
 **Ingest** 경동나비엔 (009450, KOSPI, 신규, 경동그룹) — Full 인제스트. 6종+stub3: companies/경동나비엔, sources, segments/경동나비엔_냉난방기제조판매, value_chain, executives/손연호·장희철. 핵심: 연결 매출 1.50조(사상 최대, +11%)·영업이익 1,434억·순이익 897억. 가스보일러·온수기 국내 1위+북미 수출. 최대주주 경동원 56.72%·국민연금 7.55%. 신규 그룹 경동그룹 생성·industries/가전·국민연금 반영. stub: 경동원·경동에버런·Navien.
 
 **Ingest** 한창제지 (009460, KOSPI, 신규) — Full 인제스트. 11종+stub4: companies/한창제지, sources, segments/한창제지_지류제조, value_chain, executives/KIM JOONYOUNG·이상무·김승한·김중확. 핵심: 별도 매출 2,670억(-9.3%)·영업손실 -52억·순손실 -131억(적자전환). 마닐라판지·백판지 특수지. 최대주주 KIM JOONYOUNG 17.88% 외 40.11%(오너 일가), 국민연금 없음. industries/제지 반영. stub: 영우인터내셔널·KT&G·Mondi·Arauco. 동명이인 한창(005110, 소방) 별개.
+
+**Ingest** 삼화전기 (009470, KOSPI, 신규, 삼화그룹) — Full 인제스트. 5종+stub1: companies/삼화전기, sources, segments/삼화전기_콘덴서, value_chain, executives/박종온. 핵심: 연결 매출 2,301억·영업이익 120억(-51%)·순이익 111억. 알루미늄 전해콘덴서·전도성고분자. 최대주주 니치콘(일본) 22.80%·오영주 20.51%, 국민연금 없음. 신규 그룹 삼화그룹 생성·industries/전자부품 반영. stub: 삼화전자공업.
+
+**Ingest** HD한국조선해양 (009540, KOSPI, 신규, HD현대그룹) — Full 인제스트. 13종+stub5: companies/HD한국조선해양, sources, segments/HD한국조선해양_조선·엔진기계·해양플랜트·그린에너지, value_chain, executives/김성준(+정기선 갱신). 핵심: 연결 매출 29.9조(+17.2%)·영업이익 3.9조(+172%)·순이익 2.93조(사상 최대, 조선 슈퍼사이클). 조선 중간지주. 최대주주 HD현대 35.08%·국민연금 7.44%. 신규 산업 조선 생성·groups/HD현대(기존 등재)·shareholders/HD현대·국민연금 반영. stub: HD현대중공업·HD현대삼호·HD현대미포(2025.12 합병소멸)·HD현대마린엔진·HD현대에너지솔루션·HD현대엠엔에스.
+
+**Ingest** 무림P&P (009580, KOSPI, stub→Full 승격, 무림그룹) — Full 인제스트. 5종+stub1: companies/무림P&P(승격), sources, segments/무림P&P_펄프·제지, value_chain, executives/이도균(갱신). 핵심: 연결 매출 7,316억(-9.9%)·영업손실 -245억·순손실 -331억(펄프 적자). 국내 유일 표백화학펄프 일관생산. 최대주주 무림페이퍼 66.97%, 국민연금 없음. industries/제지 반영. stub: 풍림.
