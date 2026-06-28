@@ -54,3 +54,5 @@
 **Creation** 시장 페이지 2종 생성 — markets/KOSPI(유가증권시장, 구성종목 27), markets/KOSDAQ(코스닥시장, 구성종목 4). 기존 상장사 31개 페이지(KOSPI 27·KOSDAQ 4)에 `market_page` frontmatter 추가하여 시장↔기업 양방향 연결.
 
 **Creation** DART 사업보고서 다운로드 파이프라인(dart_pipeline/) 추가 — KOSPI+KOSDAQ 2,641개사 최신 사업보고서를 정제 MD로 변환(dart_pipeline/dart_md/, git 제외). 향후 ingest 소스로 활용.
+
+**Ingest** 기아 (000270, KOSPI, 현대차그룹) — dart_md 사업보고서 기반 Full 인제스트(stub→full). 신규/갱신 7종: companies/기아, sources/기아_2025_사업보고서, segments/기아_완성차(단일 보고부문), value_chain/기아_밸류체인, executives/송호성·최준영. 핵심: 연결 매출 114.1조(+6.2%, 사상 최대)·영업이익 9.08조(-28.3%, 미국 관세)·순이익 7.55조, 영업이익률 8.0%. 최대주주 현대자동차 35.17%·국민연금 7.25%. 회사채 AAA. 공유노드 갱신: shareholders/현대자동차·국민연금공단에 기아 보유 반영, 계열사 stub 2종 생성(현대제철·현대글로비스).
