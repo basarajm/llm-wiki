@@ -62,3 +62,9 @@
 **Ingest** (주)LG (003550, KOSPI, LG그룹 지주회사) — Full 인제스트(stub→full). 신규/갱신 7종: companies/LG, sources/LG_2025_사업보고서, segments/LG_지주사업, value_chain/LG_밸류체인, executives/구광모·권봉석·하범종. 핵심: 별도 영업수익 8,850억(배당 3,893·상표권 3,490), 연결 매출 7.25조·순이익 1.00조. 최대주주 구광모 16.27%(특수관계인 합산 42.54%)·Silchester 7.24%·국민연금 6.76%. 배당성향(연결) 64.86%. 공유노드 갱신: groups/LG에 LG씨엔에스 추가, shareholders/국민연금공단에 LG 반영, companies/LG씨엔에스 stub 생성.
 
 **Ingest** 포스코홀딩스 (005490, KOSPI, 노드명 포스코) — Full 인제스트(stub→full). 신규/갱신 8종: companies/포스코, sources/포스코홀딩스_2025_사업보고서, segments/포스코홀딩스_철강·이차전지소재·인프라, value_chain/포스코홀딩스_밸류체인, executives/장인화·이주태·천성래. 핵심: 연결 매출 69.1조·영업이익 1.83조·지배주주순이익 6,577억, 주당배당 10,000원. 소유분산기업(최대주주 국민연금 7.96%·BlackRock 5.20%). 공유노드 신규: groups/포스코, industries/철강, companies/포스코퓨처엠·포스코인터내셔널 stub. shareholders/국민연금공단·BlackRock에 포스코 반영.
+
+**Ingest** 현대모비스 (012330, KOSPI, 현대차그룹) — Full 인제스트(stub→full). 신규/갱신 6종: companies/현대모비스, sources/현대모비스_2025_사업보고서, segments/현대모비스_모듈및부품제조·AS용부품, value_chain/현대모비스_밸류체인, executives/이규석. 핵심: 연결 매출 61.1조·영업이익 3.36조(흑전)·지배순이익 3.66조, 배당 6,500원. 최대주주 기아 18.10%(순환출자 정점)·국민연금 9.15%. 회사채 AA+. 공유노드: shareholders/기아·국민연금에 반영, industries/자동차부품 신규.
+
+**Ingest** 현대위아 (011210, KOSPI, 현대차그룹) — Full 인제스트(stub→full). 신규/갱신 6종: companies/현대위아, sources/현대위아_2025_사업보고서, segments/현대위아_차량부품·기타, value_chain/현대위아_밸류체인, executives/권오성. 핵심: 연결 매출 8.48조·영업이익 2,044억·순이익 1,605억(계속영업), 2025.7 공작기계사업 매각(중단영업). 최대주주 현대자동차 25.35%·기아 13.44%·국민연금 9.36%. 신용등급 AA-. 공유노드: shareholders/현대자동차·기아·국민연금에 반영.
+
+**Ingest** 한국전력공사 (015760, KOSPI, KEPCO 공기업) — Full 인제스트(stub→full). 신규/갱신 6종: companies/한국전력공사, sources/한국전력공사_2025_사업보고서, segments/한국전력공사_전기판매·원자력발전·화력발전, value_chain/한국전력공사_밸류체인, executives/김동철. 핵심: 연결 매출 97.4조·영업이익 13.5조(2023 -4.5조 적자→흑자전환 지속)·순이익 8.67조, 배당 1,542원. 최대주주 한국산업은행 32.90%+정부 18.20%(합산 51.1%)·국민연금 7.93%. 공유노드 신규: shareholders/한국산업은행·대한민국정부, industries/전력. 발전 자회사(한수원·화력5사)·상장자회사(한전KPS·한국전력기술) stub은 추후.
