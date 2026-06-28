@@ -470,3 +470,9 @@
 **Ingest** 덕성 (004830, KOSPI, 신규) — Full 인제스트. 7종: companies/덕성, sources, segments/덕성_합성피혁·기타, value_chain, executives/이봉근·김성진. 핵심: 연결 매출 1,465억(+16.8%)·영업이익 62억, PU 합성피혁(신발·분첩·반도체 연마포) 국내 최초·수출 64%. 최대주주 이봉근 13.04%. 공유노드 industries/화학 반영. deferred: 덕성피엔티 stub.
 
 **Ingest** DRB동일 (004840, KOSPI, 신규, DRB그룹, 구 동일고무벨트) — Full 인제스트. 6종: companies/DRB동일, sources, segments/DRB동일_산업용고무제품·종합고무부품·기타, value_chain, executives/류영식. 핵심: 연결 매출 8,027억·영업이익 249억, 산업용 고무(전동·컨베어벨트·러버트랙)+자동차 고무부품, 순수지주. 최대주주 김세연 47.41%. 신규 그룹 DRB·공유노드 industries/자동차부품 반영. deferred: 동일고무벨트(163560) stub.
+
+**Ingest** 티웨이홀딩스 (004870, KOSPI, 신규) — Full 인제스트. 6종: companies/티웨이홀딩스, sources, segments/티웨이홀딩스_PHC파일, value_chain, executives/서종대·이광수. 핵심: 별도 매출 50억·순손실 -557억(티웨이항공 지분 금융자산 재분류 평가), PHC파일 제조+티웨이항공 28.05% 보유. 2025.6 최대주주 예림당→소노인터내셔널(대명소노) 46.26% 변경(2,500억). 공유노드 industries/건자재 반영. deferred: 소노인터내셔널·티웨이항공 stub·대명소노 그룹.
+
+**Ingest** 동일산업 (004890, KOSPI, 신규) — Full 인제스트. 8종: companies/동일산업, sources, segments/동일산업_봉강·합금철·주조·자동차부품, value_chain, executives/오순택·오승민. 핵심: 연결 매출 3,479억·영업손실 -27억(본업 3년 적자, 자동차부품만 흑자), 특수강+디오토모티브 등속조인트. 최대주주 오순택 16.56%·디씨엠 10.24%. 공유노드 industries/철강 반영. (동일제강·동일고무벨트와 별개)
+
+**Ingest** 조광페인트 (004910, KOSPI, 신규) — Full 인제스트. 8종: companies/조광페인트, sources, segments/조광페인트_공업용도료·UV전자재료·건축용도료, value_chain, executives/양성아·송경자. 핵심: 연결 매출 2,027억(-18.3%)·영업손실 -195억(UV 부문 급감 적자전환), 도료(데스몬)+전자재료(UV·방열)+조광요턴 JV. 최대주주 양성아 18.62%. 공유노드 industries/화학 반영.
