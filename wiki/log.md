@@ -260,3 +260,9 @@
 **Ingest** 아세아 (002030, KOSPI, 신규, 아세아그룹 지주) — Full 인제스트. 신규 8종: companies/아세아, sources, segments/아세아_지주·시멘트·제지·기타, value_chain, executives/이훈범·오기호. 핵심: 연결 매출 1.88조·영업이익 1,110억·지배순이익 310억. 자회사 아세아시멘트·아세아제지. 최대주주 이훈범 14.53%(특관 45.41%)·VIP운용 10.61%. 공유노드: industries/지주회사 반영. group_todo: 아세아그룹.
 
 **Ingest** 비비안 (002070, KOSPI, 신규, 구 남영비비안) — Full 인제스트. 신규 5종: companies/비비안, sources, segments/비비안_여성내의(단일), value_chain, executives/손영섭. 핵심: 연결 매출 2,224억·영업손실 -50억(적자전환)·3년 순손실, 무배당. 여성 란제리 전문. 최대주주 쌍방울 11.41%(KOSDAQ). 공유노드: industries/섬유 반영.
+
+**Ingest** 경농 (002100, KOSPI, 신규, 동오그룹) — Full 인제스트. 신규 7종: companies/경농, sources, segments/경농_작물보호제·비료, value_chain, executives/이병만, ratings(미발행). 핵심: 연결 매출 3,392억·영업이익 287억·순이익 196억, 배당 700원(32년 연속), 신용 AA0. 조비 54.56% 보유(종속). 최대주주 동오홀딩스 30.64%·이용진 17.30%. 공유노드: industries/화학, shareholders/경농(조비 양방향) 생성. group_todo: 동오그룹.
+
+**Ingest** 고려산업 (002140, KOSPI, 신규, 금강공업 계열) — Full 인제스트. 신규 6종: companies/고려산업, sources, segments/고려산업_사료·기타사업부문, value_chain, executives/전장열·김영교. 핵심: 연결 매출 2,973억·영업이익 137억·순이익 97억(+2.5배), 배당 40원. 배합사료 '해피드'. 최대주주 금강공업 47.39%(KOSPI). 공유노드: industries/식품 반영. group_todo: 금강그룹.
+
+**Ingest** 도화엔지니어링 (002150, KOSPI, 신규) — Full 인제스트. 신규 7종: companies/도화엔지니어링, sources, segments/도화엔지니어링_엔지니어링·전력판매·ESS, value_chain, executives/곽준상·박승우. 핵심: 연결 매출 6,985억(+20%)·영업이익 301억(흑전), 수주잔고 1.9조, 신용 AA0. SOC 종합엔지니어링+신재생. 최대주주 곽준상 17.10%(특관 40.75%). 공유노드: industries/건설 반영.
