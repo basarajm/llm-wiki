@@ -326,3 +326,9 @@
 **Ingest** 신풍 (002870, KOSPI, 신규, 구 신풍제지) — Full 인제스트. 7종: companies/신풍, sources, segments/신풍_지류유통·오디오·외식, value_chain, executives/정학헌. 핵심: 연결 매출 242억·영업손실, 제조 중단 후 지류유통상 전환(오디오·외식 겸영). 최대주주 정학헌 21.9%. 공유노드 industries/제지 반영. 제약사 신풍제약과 무관.
 
 **Ingest** 대유에이텍 (002880, KOSPI, 신규, 대유그룹, DART명 디와이에이) — Full 인제스트. 6종: companies/대유에이텍, sources, segments/대유에이텍_SEAT사업부문·임대사업부문, value_chain, executives/임근호. 핵심: 연결 매출 6,334억·영업이익 302억, 자동차 시트(기아·KGM·GGM·현대차 공급). 최대주주 박영우 18.05%. 신규 그룹 대유·공유노드 industries/자동차부품 반영. deferred: 박은진 임원, KG모빌리티·GGM stub, ratings.
+
+**Ingest** TYM (002900, KOSPI, 신규, 구 동양물산기업) — Full 인제스트. 7종: companies/TYM, sources, segments/TYM_농기계부문·필터부문, value_chain, executives/김희용·김도훈. 핵심: 연결 매출 9,294억·영업이익 641억·순이익 401억, 트랙터·콤바인 농기계(91%)+담배필터(9%), 수출 74%(미국 64.6%). 최대주주 김식 22.09%. 공유노드 industries/농기계 반영. deferred: KT&G stub.
+
+**Ingest** 유성기업 (002920, KOSPI, 신규) — Full 인제스트. 6종: companies/유성기업, sources, segments/유성기업_피스톤링·실린더라이너, value_chain, executives/류현석. 핵심: 연결 매출 3,046억·영업손실 -300억(적자확대), 피스톤링·실린더라이너 등 엔진부품(실린더라이너 국내 OEM 80~90%). 최대주주 류시영 22.05%. 공유노드 industries/자동차부품 반영.
+
+**Ingest** 한국쉘석유 (002960, KOSPI, 신규, Shell plc 계열) — Full 인제스트. 6종: companies/한국쉘석유, sources, segments/한국쉘석유_윤활유부문·그리스부문, value_chain, executives/이승봉. 핵심: 매출 3,450억·영업이익 528억, Shell 브랜드 윤활유·그리스, 무차입·배당성향 97%·신용 AA+. 최대주주 Shell Petroleum B.V. 53.85%. 공유노드 industries/화학 반영. deferred: S-Oil·Shell B.V. stub.
