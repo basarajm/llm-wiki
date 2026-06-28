@@ -206,3 +206,9 @@
 **Ingest** SG글로벌 (001380, KOSPI, 신규, SG그룹, 에스지글로벌) — Full 인제스트. 신규 6종: companies/SG글로벌, sources, segments/SG글로벌_시트부품·시트사업, value_chain, executives/이의범. 핵심: 연결 매출 935억·영업이익 50억·순이익 28억, 자동차시트커버. 최대주주 에스지고려 34.64%(특관 58.53%, 비상장). 공유노드: industries/자동차부품 반영. group_todo: SG그룹.
 
 **Ingest** KG케미칼 (001390, KOSPI, 신규, KG그룹 지주격) — Full 인제스트. 신규 8종: companies/KG케미칼, sources, segments/KG케미칼_화학·철강및항만·자동차제조판매·전자결제, value_chain, executives/곽정현·김재익. 핵심: 연결 매출 9.10조(KG스틸·KG모빌리티·이니시스 연결)·영업이익 3,057억·지배순이익 697억, 배당 150원(18년 연속), 신용 BB-. 최대주주 KG제로인 21.29%·곽재선 16.59%. 공유노드: industries/화학 반영. group_todo: KG그룹.
+
+**Ingest** 태원물산 (001420, KOSPI, 신규) — Full 인제스트. 신규 6종: companies/태원물산, sources, segments/태원물산_자동차부품·식품사업, value_chain, executives/남기영·남윤현. 핵심: 별도 매출 149억·3년 연속 영업적자, 무차입 자산주(현금성 345억). 최대주주 남기영 외 43.99%(비상장). 공유노드: industries/자동차부품 반영.
+
+**Ingest** 세아베스틸지주 (001430, KOSPI, 신규, 세아그룹 특수강 지주) — Full 인제스트. 신규 6종: companies/세아베스틸지주, sources, segments/세아베스틸지주_특수강·알루미늄압출부문, value_chain, executives/이태성·김수호. 핵심: 연결 매출 3.65조·영업이익 984억(+88%)·순이익 561억, 배당성향 68.6%, 국내 특수강 1위. 최대주주 세아홀딩스 61.72%·국민연금 7.85%. 공유노드: industries/철강·국민연금 반영. group_todo: 세아그룹(세아홀딩스·세아베스틸 stub 추후).
+
+**Ingest** 대한전선 (001440, KOSPI, 신규, 호반그룹) — Full 인제스트. 신규 5종: companies/대한전선, sources, segments/대한전선_전선부문(단일), value_chain, executives/송종민. 핵심: 연결 매출 3.64조(+10%)·영업이익 1,286억·순이익 899억, 신용 A0, 무배당. 최대주주 호반산업 41.95%(비상장)·국민연금 6.21%. 공유노드: industries/전선·국민연금 반영. group_todo: 호반그룹.
