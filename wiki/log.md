@@ -158,3 +158,9 @@
 **Ingest** 화천기공 (000850, KOSPI, 신규, 화천그룹) — Full 인제스트. 신규 7종: companies/화천기공, sources, segments/화천기공_기계·소재사업부, value_chain, executives/권형석·권형도. 핵심: 연결 매출 2,218억·영업이익 42억(흑전)·순이익 114억, 배당 1,300원. 최대주주 권영열 17.93%(특관 48.78%). 공유노드 신규: industries/공작기계. group_todo: 화천그룹.
 
 **Ingest** 강남제비스코 (000860, KOSPI, 신규, 구 건설화학) — Full 인제스트. 신규 7종: companies/강남제비스코, sources, segments/강남제비스코_도료·합성수지·복합성형재료부문, value_chain, executives/김재현. 핵심: 연결 매출 5,986억·영업이익 83억·순이익 9억(별도 적자), 액면분할. 최대주주 임예정 23.95%(2025.12 상속, 특관 50.64%). 공유노드: industries/화학 반영. 신용 BBB-.
+
+**Ingest** 한화 (000880, KOSPI, 신규, 한화그룹 지주격 사업회사) — Full 인제스트. 신규 10종: companies/한화, sources, segments/한화_글로벌·건설·방산·금융·조선부문, value_chain, executives/김동관·류두형. 핵심: 연결 매출 74.8조·영업이익 4.15조·순이익 1.99조, 회사채 A+. 최대주주 한화에너지 22.15%(김동관 50%)·김승연 11.33%·국민연금 5.40%. 2025.4 김승연→3세 증여 승계. 공유노드 신규: groups/한화, executives/김승연. shareholders/국민연금·한화손해보험(group 연결) 반영.
+
+**Ingest** 보해양조 (000890, KOSPI, 신규) — Full 인제스트. 신규 5종: companies/보해양조, sources, segments/보해양조_주류(단일), value_chain, executives/조영석. 핵심: 별도 매출 899억·영업이익 38억(흑전), 무배당, 자사주 소각. 최대주주 창해에탄올 21.64%(KOSDAQ). 공유노드: industries/주류 반영. group_todo: 창해에탄올그룹.
+
+**Ingest** 유니온 (000910, KOSPI, 신규) — Full 인제스트. 신규 7종: companies/유니온, sources, segments/유니온_시멘트제조·페라이트·세라믹, value_chain, executives/이건영·이우선. 핵심: 연결 매출 2,024억·영업이익 55억(흑전, 세라믹 견인)·순이익 256억(영업외), 배당 125원. 백시멘트 국내 선도. 최대주주 이건영 23.91%(특관 39.63%). 공유노드 신규: industries/시멘트. (유니온머티리얼 stub 추후)
