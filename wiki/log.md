@@ -140,3 +140,9 @@
 **Ingest** CS홀딩스 (000590, KOSPI, 신규, 조선선재 지주) — Full 인제스트. 신규 5종: companies/CS홀딩스, sources, segments/CS홀딩스_지주·용접재료부문, value_chain, executives/장원영. 핵심: 연결 매출 1,349억·영업이익 202억·순이익 210억, 순현금구조(부채비율 8%). 최대주주 장원영 53.75%(특관 73.35%). group_todo: 조선선재그룹.
 
 **Ingest** 동아쏘시오홀딩스 (000640, KOSPI, 신규, 동아제약그룹 지주) — Full 인제스트. 신규 9종: companies/동아쏘시오홀딩스, sources, segments/동아쏘시오홀딩스_일반의약품·물류·포장용기생수·바이오시밀러·지주사, value_chain, executives/강정석·김민영. 핵심: 연결 매출 1.43조·영업이익 978억·순이익 915억, 배당 1,700원. 최대주주 강정석 29.26%·국민연금 11.24%·GSK 6.46%. 관계사 동아ST 26.47%·에스티팜 29.45%. 공유노드: 국민연금 반영. group_todo: 동아쏘시오그룹(동아ST·에스티팜 stub 추후).
+
+**Ingest** 천일고속 (000650, KOSPI, 신규) — Full 인제스트. 신규 5종: companies/천일고속, sources, segments/천일고속_운송사업부(단일), value_chain, executives/박도현. 핵심: 별도 매출 456억·3년 연속 영업적자(-59억). 최대주주 박도현 44.97%(특관 85.74%, 개인). 공유노드 신규: industries/운송.
+
+**Ingest** 영풍 (000670, KOSPI, 신규, 영풍그룹) — Full 인제스트. 신규 6종: companies/영풍, sources, segments/영풍_제련·전자부품부문, value_chain, executives/김기호. 핵심: 연결 매출 2.91조·별도 제련 영업손실 -2,777억, 연결 순이익 309억(고려아연 지분법). 고려아연 27.06% 보유(장부 3.24조), 영풍-고려아연 경영권 분쟁. 최대주주 장세준 17.90%(특관 70.31%). 신용등급 A+. 공유노드 신규: industries/비철금속. group_todo: 영풍그룹.
+
+**Ingest** LS네트웍스 (000680, KOSPI, 신규, LS그룹) — Full 인제스트. 신규 6종: companies/LS네트웍스, sources, segments/LS네트웍스_브랜드·임대·유통, value_chain, executives/문성준. 핵심: 2024 LS증권 연결편입으로 연결 매출 2.62조(별도 1,759억). 별도 영업이익 9억·순손실 -235억. 최대주주 E1 81.79%(KOSPI 017940). 공유노드 신규: industries/유통. group_todo: LS그룹.
