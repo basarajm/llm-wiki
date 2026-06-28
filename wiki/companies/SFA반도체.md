@@ -1,0 +1,19 @@
+---
+type: Company
+title: SFA반도체
+description: 국내 반도체 패키징·테스트(OSAT) 전문 기업 — 시그네틱스의 경쟁사
+market: KOSPI
+industry: 반도체 패키징(OSAT)
+is_stub: true
+tags: [기업, 반도체, OSAT]
+timestamp: 2026-06-29T00:00:00Z
+---
+
+## 사업 개요
+
+SFA반도체는 반도체 패키징·테스트(OSAT) 전문 기업으로, 코리아써키트 종속회사 시그네틱스의
+반도체 패키징 부문 경쟁사입니다. (별도 매출 2024년 397,391백만원)
+
+# Citations
+
+- [코리아써키트 2025 사업보고서](/sources/코리아써키트_2025_사업보고서) — 경쟁사 시장점유율 비교
