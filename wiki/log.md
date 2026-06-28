@@ -80,3 +80,9 @@
 **Ingest** 하나금융지주 (086790, KOSPI) — Full 인제스트(stub→full). 신규/갱신 11종: companies/하나금융지주, sources, segments/하나금융지주_은행·증권·신용카드·캐피탈·기타, value_chain, executives/함영주·이승열, ratings/하나금융지주 신용등급. 핵심: 연결 순이익 4.04조(첫 4조 돌파)·자산 674.6조, 배당 4,105원(성향 28%). 최대주주 국민연금 8.66%·Capital Research 6.60%·BlackRock 6.58%. 공유노드 신규: groups/하나금융, shareholders 반영.
 
 **Ingest** 우리금융지주 (316140, KOSPI) — Full 인제스트(stub→full). 신규/갱신 9종: companies/우리금융지주, sources, segments/우리금융지주_은행·보험·카드·캐피탈·증권, value_chain, executives/임종룡, ratings/우리금융지주 신용등급. 핵심: 연결 순이익 3.23조·자산 601.5조, 2025.7 동양생명·ABL생명 인수로 보험 진출(자산 +75조). 최대주주 우리사주조합 7.76%·국민연금 6.69%·BlackRock 6.14%. 공유노드 신규: groups/우리금융, shareholders 반영.
+
+**Ingest** 삼성생명보험 (032830, KOSPI, DART명 삼성생명, 삼성그룹) — Full 인제스트(stub→full). 신규/갱신 9종: companies/삼성생명보험, sources, segments/삼성생명보험_보험·카드및할부리스·국외, value_chain, executives/홍원학·이완삼, ratings/삼성생명보험 신용등급(IFSR AAA). 핵심: 연결 보험·투자서비스수익 37.1조·순이익 2.45조·자산 350.7조. 최대주주 삼성물산 19.34%·이재용 10.44%. **삼성전자 8.51% 보유(장부가 60.4조)** — 삼성물산→삼성생명→삼성전자 지배 핵심. 공유노드 신규: industries/보험, shareholders/이재용·삼성물산 반영, 삼성화재·삼성카드 stub.
+
+**Ingest** 한국금융지주 (071050, KOSPI, 한국투자금융그룹) — Full 인제스트(stub→full). 신규/갱신 10종: companies/한국금융지주, sources, segments/한국금융지주_증권·자산운용·저축은행·여신전문·투자, value_chain, executives/오태균, ratings/한국금융지주 신용등급. 핵심: 연결 순이익 2.02조(사상최대, +94%)·자산 136.2조, 배당 8,690원. 최대주주 김남구 20.70%·국민연금 13.35%. 자회사 한국투자증권(100%). 공유노드 신규: shareholders/김남구, 국민연금 반영.
+
+**Ingest** SK스퀘어 (402340, KOSPI, SK그룹) — Full 인제스트(stub→full). 신규/갱신 7종: companies/SK스퀘어, sources, segments/SK스퀘어_투자·커머스·플랫폼·모빌리티·기타, value_chain, executives/한명진. 핵심: 투자전문 지주, SK하이닉스 20.1% 보유(장부가 26.2조). 지분법손익 8.93조로 연결 영업이익 8.80조(2023 적자→흑전), 무배당(자사주 소각). 최대주주 SK㈜ 32.16%·국민연금 8.48%. 공유노드 신규: shareholders/SK, industries/지주회사, 국민연금·SK하이닉스 주주 반영. → KOSPI stub 보강 16개 전부 완료.
