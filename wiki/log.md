@@ -296,3 +296,9 @@
 **Ingest** 삼익악기 (002450, KOSPI, 신규, 삼익악기그룹) — Full 인제스트. 6종: companies/삼익악기, sources, segments/삼익악기_악기사업·집단에너지, value_chain, executives/김종섭·김민수. 핵심: 연결 매출 2,244억(악기 48.3%·집단에너지 38.7%)·영업이익 23억·순이익 176억(영업외). 최대주주 김종섭 18.46%·스페코 16.58%. 신규 산업 악기제조·신규 그룹 삼익악기그룹 생성.
 
 **Ingest** HS화성 (002460, KOSPI, 신규) — Full 인제스트. 6종: companies/HS화성, sources, segments/HS화성_건축부문·토목부문, value_chain, executives/이종원·임기영. 핵심: 별도 매출 4,389억·영업이익 138억·순이익 213억(지분법 181억), 부채비율 68% 우량. 최대주주 이종원 10.16%(오너일가). 공유노드 industries/건설 반영. 원문이 감사보고서 위주라 사업내용은 재무제표 주석 기반.
+
+**Ingest** 조흥 (002600, KOSPI, 신규, 오뚜기 계열) — Full 인제스트. 6종: companies/조흥, sources, segments/조흥_치즈류부문·식품및식품첨가물부문, value_chain, executives/함영제_조흥. 핵심: 연결 매출 4,882억(치즈 60.5%·식품첨가물 39.5%). 최대주주 ㈜오뚜기 48.92%·함영준 6.98%. 공유노드 industries/식품 반영. deferred: 오뚜기 Company/Shareholder·오뚜기그룹 미생성.
+
+**Ingest** 제일파마홀딩스 (002620, KOSPI, 신규, 제일약품그룹) — Full 인제스트. 6종: companies/제일파마홀딩스, sources, segments/제일파마홀딩스_지주부문·제약부문, value_chain, executives/한상철. 핵심: 연결 매출 6,576억·영업이익 387억 흑전. 지주→제일약품(44.95%)·온코닉테라퓨틱스(KOSDAQ). 최대주주 한승수 57.80%·Otsuka 9.37%. 신규 그룹 제일약품그룹·공유노드 industries/지주회사·제약 반영. deferred: 제일약품·온코닉테라퓨틱스 stub.
+
+**Ingest** 오리엔트바이오 (002630, KOSPI, FY2026, 신규, 오리엔트그룹) — Full 인제스트. 7종: companies/오리엔트바이오, sources, segments/오리엔트바이오_생물소재·CRO·실험장비, value_chain, executives/장재진·최숙종. 핵심: 매출 297.5억(생물소재 66.4%·CRO 33.6%)·영업손실, Charles River 독점제휴 IGS 실험동물 국내 유일. 최대주주 ㈜오리엔트 24.00%. 신규 산업 실험동물·비임상·신규 그룹 오리엔트그룹 생성. deferred: 오리엔트정공 등 계열 stub, ratings.
