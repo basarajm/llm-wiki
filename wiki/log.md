@@ -512,3 +512,9 @@
 **Ingest** 한국공항 (005430, KOSPI, 신규, 한진그룹) — Full 인제스트. 7종: companies/한국공항, sources, segments/한국공항_항공운수보조·제품판매·기타사업, value_chain, executives/이수근·박현수. 핵심: 연결 매출 6,632억·영업이익 470억, 대한항공 계열 지상조업·급유 국내 1위(인천 화물 50.9%). 최대주주 대한항공 59.54%. 공유노드 industries/항공·groups/한진 반영.
 
 **Ingest** 현대지에프홀딩스 (005440, KOSPI, 신규, 현대백화점그룹 지주, 구 현대그린푸드) — Full 인제스트. 12종: companies/현대지에프홀딩스, sources, segments/현대지에프홀딩스_의류·푸드·홈쇼핑·건축자재·가구·지주투자, value_chain, executives/정지선·정교선·장호진. 핵심: 연결 매출 8.09조·영업이익 2,741억, 현대백화점그룹 지주(현대백화점·현대홈쇼핑·한섬·현대그린푸드 등 13개 상장 계열). 최대주주 정지선 39.7%·정교선 29.1%. 신규 그룹 현대백화점·공유노드 industries/지주회사 반영. deferred: 현대백화점·현대홈쇼핑·한섬 등 상장 자회사 stub.
+
+**Ingest** 삼진제약 (005500, KOSPI, 신규) — Full 인제스트. 6종: companies/삼진제약, sources, segments/삼진제약_제약, value_chain, executives/최지현·조규석. 핵심: 연결 매출 3,091억·영업이익 268억·순이익 242억, 게보린·플래리스(항혈전제), R&D 11.5%. 주요주주 조의환측 13.41%·최승주측 10.32%·하나제약 8.48%·아리바이오 8.34%(공동경영). 공유노드 industries/제약 반영.
+
+**Ingest** 삼립 (005610, KOSPI, 신규, SPC그룹) — Full 인제스트. 8종: companies/삼립, sources, segments/삼립_Bakery·Food·유통, value_chain, executives/김범수_삼립·김진억_삼립. 핵심: 연결 매출 3.37조·영업이익 387억(-59%, Food 적자전환), 양산빵(삼립호빵·포켓몬빵)+식자재유통(SPC GFS). 최대주주 파리크라상 40.66%·허진수 16.31%. 신규 그룹 SPC·공유노드 industries/식품 반영.
+
+**Ingest** 삼영전자공업 (005680, KOSPI, 신규) — Full 인제스트. 5종: companies/삼영전자공업, sources, segments/삼영전자공업_콘덴서, value_chain, executives/김성수. 핵심: 연결 매출 1,497억·영업이익 92억, 알루미늄 전해콘덴서(일본케미콘 영향권), 무차입·금융자산 3,135억 자산주. 주주현황 원본 미포함(미확인). 공유노드 industries/전자부품 반영. (삼영무역·삼영과 별개)
