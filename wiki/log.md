@@ -242,3 +242,9 @@
 **Ingest** SK네트웍스 (001740, KOSPI, 신규, SK그룹) — Full 인제스트. 신규 9종: companies/SK네트웍스, sources, segments/SK네트웍스_정보통신·SK인텔릭스·트레이딩·스피드메이트·기타, value_chain, executives/이호정. 핵심: 연결 매출 6.75조·영업이익 863억·순이익 500억, 배당 250원, 신용 AA-. 2024 SK렌터카 매각, AI Company 전환. 최대주주 SK㈜ 43.90%·국민연금 5.04%. 공유노드: industries/종합상사·groups/SK(계열사 추가)·국민연금 반영.
 
 **Ingest** 한양증권 (001750, KOSPI, 신규) — Full 인제스트. 신규 7종: companies/한양증권, sources, segments/한양증권_자기매매·기업금융·위탁영업, value_chain, executives/김병철, ratings/한양증권 신용등급. 핵심: 영업수익 9,090억·영업이익 753억·순이익 566억, 신용 A. 2025.6 KCGI 제2호 사모펀드가 최대주주(29.59%) 인수. 공유노드: industries/증권 반영.
+
+**Ingest** 신화다이나믹스 (001770, KOSPI, 신규, 파일명 SHD, 구 신화실업) — Full 인제스트. 신규 5종: companies/신화다이나믹스, sources, segments/신화다이나믹스_석도강판(단일), value_chain, executives/신종호. 핵심: 별도 매출 1,004억·영업이익 27억(흑전), 석도강판(캔 소재) 국내 3사. 최대주주 신종호 45.90%(특관 50.78%). 공유노드: industries/철강 반영.
+
+**Ingest** 알루코 (001780, KOSPI, 신규, 구 동양강철) — Full 인제스트. 신규 5종: companies/알루코, sources, segments/알루코_알루미늄압출(단일), value_chain, executives/박진우. 핵심: 연결 매출 5,757억·영업이익 349억·순이익 159억, 무배당, 신용 BBB-(상향). 알루미늄 압출(전기차 배터리케이스·디스플레이). 최대주주 케이피티유 19.11%(KOSDAQ, 박도봉 지배). 공유노드: industries/비철금속 반영.
+
+**Ingest** 대한제당 (001790, KOSPI, 신규, TS대한제당그룹) — Full 인제스트. 신규 7종: companies/대한제당, sources, segments/대한제당_식품·축산유통·사료부문, value_chain, executives/강승우·설윤호. 핵심: 연결 매출 1.36조·영업이익 566억·순손실 -603억(영업외·충당부채), 신용 A-. 제당 3사(CJ·삼양사·대한제당). 최대주주 설윤호 23.28%(특관 48.24%). 공유노드: industries/식품 반영. group_todo: TS대한제당그룹.
