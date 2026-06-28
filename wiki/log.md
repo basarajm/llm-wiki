@@ -434,3 +434,9 @@
 **Ingest** 남성 (004270, KOSPI, 신규) — Full 인제스트. 8종+stub: companies/남성(+월마트 stub), sources, segments/남성_디지털전자·자산관리, value_chain, executives/윤성호·윤종호·윤남철. 핵심: 연결 매출 775억·영업이익 1.9억(흑전)·순손실 -37억, 차량용 카오디오·AV·Smart Key·GPS 수출(월마트 41%)+부동산임대. 최대주주 윤남철 12.43%. 공유노드 industries/자동차부품 반영(업종 자동차전장/전자 혼재).
 
 **Ingest** 현대약품 (004310, KOSPI, 신규) — Full 인제스트. 9종+stub: companies/현대약품(+현대내츄럴·바이오이노티스 stub), sources, segments/현대약품_의약품·식품·기타, value_chain, executives/이상준·이한구. 핵심: 제62기(11월결산) 별도 매출 1,918억(+9.1%)·영업이익 42억(흑자 22배)·순이익 23억, 전문약+미에로화이바+화장품. 최대주주 이한구 17.88%(현대차그룹 무관). 공유노드 industries/제약 반영.
+
+**Ingest** 세방 (004360, KOSPI, 신규, 세방그룹) — Full 인제스트. 7종+stub: companies/세방(+세방전지 stub), sources, segments/세방_화물운송·항만하역·창고보관, value_chain, executives/최종일·이상웅. 핵심: 연결 매출 1.24조·영업이익 273억·순이익 656억, 항만하역·운송·창고·3PL. 최대주주 이앤에스글로벌 18.72%·이상웅 18.17%. 신규 그룹 세방·공유노드 industries/물류 반영. deferred: 세방전지(004490) Full.
+
+**Ingest** 농심 (004370, KOSPI, 신규, 농심그룹) — Full 인제스트. 8종: companies/농심, sources, segments/농심_라면·스낵·음료, value_chain, executives/신동원_농심·이병학_농심. 핵심: 연결 매출 3.51조·영업이익 1,839억·순이익 1,701억, 라면(신라면)·스낵 국내 1위. 최대주주 농심홀딩스 32.72%·국민연금 7.99%. 신규 그룹 농심·공유노드 industries/식품·국민연금 반영. deferred: 농심홀딩스·율촌화학 stub.
+
+**Ingest** 삼익THK (004380, KOSPI, 신규) — Full 인제스트. 8종: companies/삼익THK, sources, segments/삼익THK_LM시스템·메카트로시스템, value_chain, executives/진영환·류영수·진건. 핵심: 연결 매출 2,222억(-26.9%)·영업손실 -355억(적자전환), LM가이드·볼나사·로봇(일본 THK 제휴). 최대주주 THK 33.82%·진영환 7.10%. 신규 산업 기계부품 생성. deferred: THK(일본) stub, 삼익그룹 페이지(삼익악기와 동일집단 여부 미확인).
