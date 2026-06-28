@@ -86,3 +86,9 @@
 **Ingest** 한국금융지주 (071050, KOSPI, 한국투자금융그룹) — Full 인제스트(stub→full). 신규/갱신 10종: companies/한국금융지주, sources, segments/한국금융지주_증권·자산운용·저축은행·여신전문·투자, value_chain, executives/오태균, ratings/한국금융지주 신용등급. 핵심: 연결 순이익 2.02조(사상최대, +94%)·자산 136.2조, 배당 8,690원. 최대주주 김남구 20.70%·국민연금 13.35%. 자회사 한국투자증권(100%). 공유노드 신규: shareholders/김남구, 국민연금 반영.
 
 **Ingest** SK스퀘어 (402340, KOSPI, SK그룹) — Full 인제스트(stub→full). 신규/갱신 7종: companies/SK스퀘어, sources, segments/SK스퀘어_투자·커머스·플랫폼·모빌리티·기타, value_chain, executives/한명진. 핵심: 투자전문 지주, SK하이닉스 20.1% 보유(장부가 26.2조). 지분법손익 8.93조로 연결 영업이익 8.80조(2023 적자→흑전), 무배당(자사주 소각). 최대주주 SK㈜ 32.16%·국민연금 8.48%. 공유노드 신규: shareholders/SK, industries/지주회사, 국민연금·SK하이닉스 주주 반영. → KOSPI stub 보강 16개 전부 완료.
+
+**Ingest** 동화약품 (000020, KOSPI, 신규) — Full 인제스트. 신규 7종: companies/동화약품, sources, segments/동화약품_제약·의약품유통·의료기기, value_chain, executives/유준하·윤인호. 핵심: 연결 매출 4,964억(사상최대)·영업이익 2.6억(-98%, 비용확대)·순이익 38억. 최대주주 디더블유피홀딩스 15.22%(윤인호 60% 보유)·가송재단 6.39%. 신용등급 A+. 공유노드 신규: industries/제약. (메디쎄이·디더블유피홀딩스 stub은 추후)
+
+**Ingest** KR모터스 (000040, KOSPI, 신규) — Full 인제스트. 신규 5종: companies/KR모터스, sources, segments/KR모터스_이륜차(단일부문), value_chain, executives/정재경·노성석. 핵심: 연결 매출 138억·3년 연속 영업적자(-29억)·순손실 축소(-210→-19억), 계속기업 불확실성 강조. 최대주주 엘브이엠씨홀딩스 50.65%·오세영 12.51%(LVMC그룹). 국내 이륜차 2위(약 16%). 공유노드 신규: industries/이륜차. (엘브이엠씨홀딩스 stub 추후)
+
+**Ingest** 경방 (000050, KOSPI, 신규) — Full 인제스트. 신규 6종: companies/경방, sources, segments/경방_섬유사업부·부동산개발사업부, value_chain, executives/김준·김담. 핵심: 연결 매출 4,125억·영업이익 460억(복합쇼핑몰 타임스퀘어 396억 견인)·순이익 474억, 13기 연속 배당. 최대주주 김담 20.98%·김준 13.44%·삼양홀딩스 9.99%. 공유노드 신규: industries/섬유. (삼양홀딩스·일신방직 stub 추후)
