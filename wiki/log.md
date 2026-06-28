@@ -254,3 +254,9 @@
 **Ingest** 삼화콘덴서공업 (001820, KOSPI, 신규) — Full 인제스트. 신규 6종: companies/삼화콘덴서공업, sources, segments/삼화콘덴서공업_콘덴서제조(단일), value_chain, executives/오영주·박진. 핵심: 연결 매출 2,945억·영업이익 129억(둔화), MLCC·DC-Link·필름콘덴서. 최대주주 오영주 16.16%(특관 28.15%)·삼화전기 2.24%. 공유노드: industries/전자부품 반영. group_todo: 삼화그룹(삼화전기·삼화전자공업). ※의뢰 추정명 '삼화전자공업'은 오류—실제 삼화콘덴서공업.
 
 **Ingest** KISCO홀딩스 (001940, KOSPI, 신규, 한국철강그룹 지주) — Full 인제스트. 신규 6종: companies/KISCO홀딩스, sources, segments/KISCO홀딩스_철강제조·지주부문, value_chain, executives/장세홍·이병제. 핵심: 연결 매출 8,253억·영업손실 -707억(철근 판가↓·건설부진 적자전환), 별도 흑자, 배당 1,850원(27년 연속). 최대주주 장세홍 45.58%(특관 55.82%). 공유노드: industries/철강 반영. group_todo: 한국철강그룹(한국철강·환영철강 stub 추후).
+
+**Ingest** 코오롱 (002020, KOSPI, 신규, 코오롱그룹 지주) — Full 인제스트. 신규 9종: companies/코오롱, sources, segments/코오롱_지주·건설·유통·IT·바이오사업, value_chain, executives/안병덕·이규호. 핵심: 연결 매출 5.89조·영업이익 605억·순손실 -2,966억(코오롱티슈진 등), 배당 550원. 최대주주 이웅열 48.69%(특관 50.77%). 공유노드: industries/지주회사 반영. group_todo: 코오롱그룹(코오롱인더스트리·코오롱글로벌 등 stub 추후).
+
+**Ingest** 아세아 (002030, KOSPI, 신규, 아세아그룹 지주) — Full 인제스트. 신규 8종: companies/아세아, sources, segments/아세아_지주·시멘트·제지·기타, value_chain, executives/이훈범·오기호. 핵심: 연결 매출 1.88조·영업이익 1,110억·지배순이익 310억. 자회사 아세아시멘트·아세아제지. 최대주주 이훈범 14.53%(특관 45.41%)·VIP운용 10.61%. 공유노드: industries/지주회사 반영. group_todo: 아세아그룹.
+
+**Ingest** 비비안 (002070, KOSPI, 신규, 구 남영비비안) — Full 인제스트. 신규 5종: companies/비비안, sources, segments/비비안_여성내의(단일), value_chain, executives/손영섭. 핵심: 연결 매출 2,224억·영업손실 -50억(적자전환)·3년 순손실, 무배당. 여성 란제리 전문. 최대주주 쌍방울 11.41%(KOSDAQ). 공유노드: industries/섬유 반영.
