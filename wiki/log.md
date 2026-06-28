@@ -506,3 +506,9 @@
 **Ingest** 온타이드 (005320, KOSPI, 신규, 구 국동) — Full 인제스트. 6종+stub: companies/온타이드(+크리스에프앤씨 stub), sources, segments/온타이드_니트의류OEM, value_chain, executives/우혁주·진세화. 핵심: 연결 매출 2,315억·순손실 -107억(3년 적자), 니트의류 OEM 수출(FANATICS·CARHARTT·H&M, 인니·멕시코). 최대주주 크리스에프앤씨 32.85%(2026.3 약진통상에 경영권 양도 계약). 공유노드 industries/패션 반영.
 
 **Ingest** 모나미 (005360, KOSPI, 신규) — Full 인제스트. 8종: companies/모나미, sources, segments/모나미_문구·컴퓨터소모품·기타, value_chain, executives/송하경·송하윤. 핵심: 연결 매출 1,310억·영업손실 -58.5억(코스메틱 적자, 별도는 흑자), 153 볼펜·플러스펜 국내 1위 필기구+프린터 소모품 총판. 최대주주 송하경 13.76%. 신규 산업 문구 생성.
+
+**Ingest** 코스모화학 (005420, KOSPI, stub→Full 승격, 코스모그룹) — Full 인제스트. 6종+승격: companies/코스모화학(stub→Full), sources, segments/코스모화학_전지소재·이산화티타늄, value_chain, executives/김두영. 핵심: 연결 매출 6,642억(별도 2,005억)·영업적자, 이산화티타늄(백색안료)·황산코발트·폐배터리 리사이클, 코스모신소재 모회사. 최대주주 코스모앤컴퍼니 27.40%. 공유노드 industries/화학·groups/코스모 반영.
+
+**Ingest** 한국공항 (005430, KOSPI, 신규, 한진그룹) — Full 인제스트. 7종: companies/한국공항, sources, segments/한국공항_항공운수보조·제품판매·기타사업, value_chain, executives/이수근·박현수. 핵심: 연결 매출 6,632억·영업이익 470억, 대한항공 계열 지상조업·급유 국내 1위(인천 화물 50.9%). 최대주주 대한항공 59.54%. 공유노드 industries/항공·groups/한진 반영.
+
+**Ingest** 현대지에프홀딩스 (005440, KOSPI, 신규, 현대백화점그룹 지주, 구 현대그린푸드) — Full 인제스트. 12종: companies/현대지에프홀딩스, sources, segments/현대지에프홀딩스_의류·푸드·홈쇼핑·건축자재·가구·지주투자, value_chain, executives/정지선·정교선·장호진. 핵심: 연결 매출 8.09조·영업이익 2,741억, 현대백화점그룹 지주(현대백화점·현대홈쇼핑·한섬·현대그린푸드 등 13개 상장 계열). 최대주주 정지선 39.7%·정교선 29.1%. 신규 그룹 현대백화점·공유노드 industries/지주회사 반영. deferred: 현대백화점·현대홈쇼핑·한섬 등 상장 자회사 stub.
