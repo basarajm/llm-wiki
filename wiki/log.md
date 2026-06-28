@@ -662,3 +662,9 @@
 **Ingest** KBI동양철관 (008970, KOSPI, 신규, KBI그룹, 구 동양철관) — Full 인제스트. 8종+stub5: companies/KBI동양철관, sources, segments/KBI동양철관_강관·동합금, value_chain, executives/이곽우. 핵심: 연결 매출 2,348억·영업손실 -16억·순손실 -31억(3년 연속 적자). 강관(상수도)+동합금. 최대주주 케이비아이국인산업 12.63%·케이비아이동국실업 10.11%, 국민연금 없음. 신규 그룹 KBI그룹 생성(케이비아이동국실업 group 연결)·industries/철강 반영. stub: 세아제강·케이비아이국인산업·케이비아이텍·케이비아이알로이·동국제강.
 
 **Ingest** 케이씨티시 (009070, KOSPI, 신규, 고려해운그룹, KCTC) — Full 인제스트. 9종+stub3: companies/케이씨티시, sources, segments/케이씨티시_운송중량물·하역·소화물, value_chain, executives/류주환. 핵심: 연결 매출 9,867억(+11.9%)·영업이익 388억·순이익 233억. 항만하역·운송·3PL 종합물류. 최대주주 박정석 5.87% 외 23.32%(고려해운 계열), 국민연금 없음. 신규 그룹 고려해운그룹 생성·industries/물류 반영. stub: 고려해운·판토스·롯데로지스틱스.
+
+**Ingest** 경인전자 (009140, KOSPI, 신규) — Full 인제스트. 8종+stub1: companies/경인전자, sources, segments/경인전자_리모컨·THERMOSTAT·스위치, value_chain, executives/김성은. 핵심: 연결 매출 361억(+57%)·영업이익 10억(흑전)·순이익 38억. 리모컨·스위치·THERMOSTAT(북미 TV사 OEM 64.6%). 최대주주 김성은 49.98% 외 50.66%, 국민연금 없음. industries/전자부품 반영. stub: 고퀄.
+
+**Ingest** SIMPAC (009160, KOSPI, 신규, 심팩그룹) — Full 인제스트. 12종+stub4: companies/SIMPAC, sources, segments/SIMPAC_프레스·합금철Roll·트레이딩·산업기계자동차부품, value_chain, executives/최진식·송효석·심웅섭. 핵심: 연결 매출 1.18조(+44.5%, 첫 1조)·영업이익 460억(+135%)·순이익 224억. 프레스(산업기계)+합금철·트레이딩. 2025.12 심팩홀딩스 흡수합병. 최대주주 최진식 22.63% 외 60.53%, 국민연금 없음. 신규 그룹 심팩그룹 생성·industries/기계부품 반영. stub: SIMPAC인더스트리·한국타이어앤테크놀로지·금호타이어·고려아연.
+
+**Ingest** 한솔로지스틱스 (009180, KOSPI, 신규, 한솔그룹) — Full 인제스트. 5종: companies/한솔로지스틱스, sources, segments/한솔로지스틱스_물류사업, value_chain, executives/고정한. 핵심: 연결 매출 6,746억·영업이익 207억(+23%)·순이익 158억(+82%). 종합물류·3PL·국제 포워딩. 최대주주 한솔홀딩스 40.04%, 국민연금 없음. groups/한솔(기존 등재)·industries/물류 반영. stub 없음.
