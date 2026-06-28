@@ -350,3 +350,9 @@
 **Ingest** 대웅 (003090, KOSPI, 신규, 대웅그룹) — Full 인제스트. 6종: companies/대웅, sources, segments/대웅_지주사업·의약품, value_chain, executives/윤재춘. 핵심: 연결 매출 2.07조(+6.8%)·영업이익 2,618억·순이익 2,279억(+231%), 대웅제약그룹 지주(35개 종속). 최대주주 윤재승 11.64%·대웅재단 9.98%. 신규 그룹 대웅그룹·공유노드 industries/지주회사 반영. deferred: 대웅제약(069620)·한올바이오파마(009420) stub.
 
 **Ingest** 대신밸류리츠 (0030R0, KOSPI, FY2026, 신규, 대신금융그룹 스폰서) — Full 인제스트. 5종: companies/대신밸류리츠, sources, segments/대신밸류리츠_대신343오피스, value_chain, executives/김광진_대신밸류리츠. 핵심: 위탁관리 상장리츠(명목회사), 자산총계 7,193억·단일 오피스 '대신343'·단일임차인 Triple-Net, LTV ~56.5%, 분기 DPS 73원. 주주 한투증권 19.50%·대신증권 18.40%. 신규 산업 리츠·신규 그룹 대신금융그룹 생성.
+
+**Ingest** 일성아이에스 (003120, KOSPI, 신규, 구 일성신약) — Full 인제스트. 6종: companies/일성아이에스, sources, segments/일성아이에스_의약품·부동산, value_chain, executives/윤석근. 핵심: 매출 643억(본업 3년 적자, 영업손실 -62억)·순흑자(투자수익), 무차입·자기주식 46.15%, 페니실린 항생제(오구멘틴). 최대주주 윤석근 15.59%. 공유노드 industries/제약 반영.
+
+**Ingest** 디아이 (003160, KOSPI, 신규, 디아이그룹) — Full 인제스트. 6종: companies/디아이, sources, segments/디아이_반도체장비·전자부품, value_chain, executives/박원호. 핵심: 연결 매출 4,323억(+102%)·영업이익 365억, 메모리 검사장비(번인 테스터·BIB ~38%) HBM·DDR5 테스터(자회사 디지털프론티어). 최대주주 박원호 15.01%·박원덕 14.25%. 공유노드 industries/반도체장비 반영. deferred: 디아이그룹 페이지.
+
+**Ingest** 일신방직 (003200, KOSPI, 신규) — Full 인제스트. 7종: companies/일신방직, sources, segments/일신방직_섬유제품제조·부동산임대투자, value_chain, executives/김영호·김정수. 핵심: 연결 매출 5,172억·영업이익 124억, 국내 면방 1위(설비 29.3%)+부동산·VC·유통 다각화. 최대주주 김영호 21.62%·일신문화재단 5.23%. 공유노드 industries/섬유 반영. deferred: 일신문화재단 shareholder.
