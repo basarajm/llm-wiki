@@ -716,3 +716,9 @@
 **Ingest** OCI홀딩스 (010060, KOSPI, 신규, OCI그룹 지주) — Full 인제스트. 12종+stub2: companies/OCI홀딩스, sources, segments/OCI홀딩스_신재생에너지·화학소재·에너지솔루션·도시개발, value_chain, executives/이우현·김택중·이수미. 핵심: 연결 매출 3.38조·영업손실 -576억·순손실 -1,463억(폴리실리콘 가격 급락 적자전환). 폴리실리콘·기초화학 지주. 최대주주 국민연금 12.27%·이화영 7.87%·이우현 7.17%. groups/OCI(OCI홀딩스·OCI 승격 링크)·industries/지주회사·국민연금 반영. stub: OCI·에이치디현대오일뱅크.
 
 **Ingest** 한국무브넥스 (010100, KOSPI, 신규, 서한그룹, 구 한국프랜지공업) — Full 인제스트. 9종+stub3: companies/한국무브넥스, sources, segments/한국무브넥스_자동차부품·프랜지·산업기계, value_chain, executives/이현덕. 핵심: 연결 매출 1.70조(+8.4%)·영업이익 253억(-42%)·순이익 203억. 자동차 구동·동력전달부품(현대차·기아·모비스). 최대주주 김윤수 23.49% 외 42.27%, 국민연금 없음. 신규 그룹 서한그룹 생성·industries/자동차부품 반영. stub: 서한이노빌리티·서한엔티엔베어링·오토메탈글로벌.
+
+**Ingest** LS일렉트릭 (010120, KOSPI, 신규, LS그룹) — Full 인제스트. 8종+stub2: companies/LS일렉트릭, sources, segments/LS일렉트릭_전력·자동화·금속, value_chain, executives/구자균·채대석. 핵심: 연결 매출 4.97조(+9.1%)·영업이익 4,264억·순이익 2,843억(사상 최대, 초고압·HVDC). 전력기기·자동화. 최대주주 ㈜LS 48.46%·국민연금 9.38%. groups/LS(LS일렉트릭 승격 링크)·industries/전력기기·국민연금 반영. stub: LS ELECTRIC America·포스코모빌리티솔루션.
+
+**Ingest** 고려아연 (010130, KOSPI, stub→Full 승격, 영풍그룹) — Full 인제스트. 8종+stub3: companies/고려아연(승격), sources, segments/고려아연_제조판매·수출입·자원순환, value_chain, executives/박기덕·최윤범. 핵심: 연결 매출 16.59조(+37.6%)·영업이익 1.23조·순이익 7,702억. 아연·연·금·은 제련 세계 1위. 최대주주 와이피씨(영풍) 25.21%·Crucible 10.59%·MBK측 8.25%·국민연금 5.20%·현대차 5.01%, 영풍·MBK vs 최씨일가 경영권 분쟁. industries/비철금속·groups/영풍(기존)·국민연금 반영. stub: Glencore·MBK파트너스·영풍정밀.
+
+**Ingest** 삼성중공업 (010140, KOSPI, 신규, 삼성그룹) — Full 인제스트. 6종+stub3: companies/삼성중공업, sources, segments/삼성중공업_조선해양·토건, value_chain, executives/최성안. 핵심: 연결 매출 10.65조(+7.5%)·영업이익 8,622억(+72%)·순이익 5,358억(고선가 LNG선). 조선·해양·FLNG. 최대주주 삼성전자 15.23%(삼성계열 20.86%), 국민연금 없음. groups/삼성(삼성중공업 추가)·industries/조선 반영. stub: 한화오션·한화엔진·한국카본.
