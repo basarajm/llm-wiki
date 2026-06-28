@@ -464,3 +464,9 @@
 **Ingest** 팜젠사이언스 (004720, KOSPI, 신규, 구 우리들제약) — Full 인제스트. 8종: companies/팜젠사이언스, sources, segments/팜젠사이언스_제약사업·헬스케어사업, value_chain, executives/박희덕·김혜연·한의상. 핵심: 연결 매출 1,731억·영업이익 60억·순손실 -1,166억(관계기업 평가/지분법 손실), 소화기 치료제·건기식. 최대주주 한의상 11.27%(33CB 전환). 공유노드 industries/제약 반영.
 
 **Ingest** 써니전자 (004770, KOSPI, 신규) — Full 인제스트. 5종: companies/써니전자, sources, segments/써니전자_수정진동자사업부, value_chain, executives/차상권. 핵심: 매출 124억·영업이익 22억·순이익 36억, 수정진동자(크리스탈)·MEMS OSC, 금융자산 755억 현금부자. 최대주주 차상권 5.23%. 공유노드 industries/전자부품 반영.
+
+**Ingest** 효성 (004800, KOSPI, 신규, 효성그룹 지주) — Full 인제스트. 8종: companies/효성, sources, segments/효성_정보통신·지주사업·펌프제조·수입차딜러, value_chain, executives/조현준·황윤언. 핵심: 연결 매출 2.43조·영업이익 3,930억(+78%), 효성그룹 지주(2018 인적분할)+ATM·펌프·수입차. 최대주주 조현준 41.02%·조현상 13.61%. 공유노드 industries/지주회사·groups/효성 반영. 2024.7 HS효성 분할. deferred: 효성티앤씨·효성중공업·효성첨단소재·효성화학 stub.
+
+**Ingest** 덕성 (004830, KOSPI, 신규) — Full 인제스트. 7종: companies/덕성, sources, segments/덕성_합성피혁·기타, value_chain, executives/이봉근·김성진. 핵심: 연결 매출 1,465억(+16.8%)·영업이익 62억, PU 합성피혁(신발·분첩·반도체 연마포) 국내 최초·수출 64%. 최대주주 이봉근 13.04%. 공유노드 industries/화학 반영. deferred: 덕성피엔티 stub.
+
+**Ingest** DRB동일 (004840, KOSPI, 신규, DRB그룹, 구 동일고무벨트) — Full 인제스트. 6종: companies/DRB동일, sources, segments/DRB동일_산업용고무제품·종합고무부품·기타, value_chain, executives/류영식. 핵심: 연결 매출 8,027억·영업이익 249억, 산업용 고무(전동·컨베어벨트·러버트랙)+자동차 고무부품, 순수지주. 최대주주 김세연 47.41%. 신규 그룹 DRB·공유노드 industries/자동차부품 반영. deferred: 동일고무벨트(163560) stub.
