@@ -530,3 +530,9 @@
 **Ingest** 신영와코루 (005800, KOSPI, 신규) — Full 인제스트. 6종: companies/신영와코루, sources, segments/신영와코루_여성이너웨어, value_chain, executives/이성원·이의평. 핵심: 연결 매출 1,852억·영업이익 13억·순이익 63억(지분법), 여성 이너웨어(비너스·와코루) 백화점 1위(~54%). 최대주주 와코루홀딩스(일본) 25%·우성화학 19.02%·이성원 14.93%. 공유노드 industries/패션 반영.
 
 **Ingest** 풍산홀딩스 (005810, KOSPI, 신규, 풍산그룹 지주) — Full 인제스트. 6종: companies/풍산홀딩스, sources, segments/풍산홀딩스_지주부문·제조부문, value_chain, executives/박우동. 핵심: 연결 영업수익 4,325억·영업이익 668억·순이익 744억, 신동·방산 풍산(38% 지분법) 거느린 사업지주+STS 제조. 최대주주 류진 37.61%. 신규 그룹 풍산·공유노드 industries/지주회사 반영. deferred: 풍산(103140)·류진 stub.
+
+**Ingest** 원림 (005820, KOSPI, 신규) — Full 인제스트. 12종+stub: companies/원림(+한국스트라이커·코렌텍 stub), sources, segments/원림_화성·의료·금융투자·임대, value_chain, executives/신성엽·류헌열·이장원. 핵심: 연결 매출 897억·영업이익 44억, PP/PE 산업포장재(화성 47.7%)+의료(인공관절 36.6%)·VC 겸영. 최대주주 신성엽 42.06%. 공유노드 industries/화학 반영.
+
+**Ingest** DB손해보험 (005830, KOSPI, 신규, DB그룹) — Full 인제스트. 9종+ratings: companies/DB손해보험, sources, segments/DB손해보험_장기보험·자동차보험·일반보험·투자, value_chain, executives/정종표·김정남, ratings(S&P A+/A.M.Best A+). 핵심: 연결 순이익 1.79조·자산 74조·K-ICS 218%, 손보 2위권(M/S ~18%). 최대주주 김남호 9.19%·국민연금 8.38%·김준기 6.07%. 신규 그룹 DB·공유노드 industries/보험·국민연금 반영. deferred: DB Inc.·DB하이텍 stub.
+
+**Ingest** 에스엘 (005850, KOSPI, 신규, SL그룹) — Full 인제스트. 7종: companies/에스엘, sources, segments/에스엘_램프·전동화·기타, value_chain, executives/이성엽·정문호. 핵심: 연결 매출 5.24조·영업이익 4,071억(7.8%), 자동차 램프(헤드/리어)·전동화 부품(현대차·기아·GM 공급), 일본 스탠리전기 제휴. 최대주주 이성엽 26.46%·이충곤 14.68%·국민연금 8.73%. 신규 그룹 에스엘·공유노드 industries/자동차부품·국민연금 반영.
