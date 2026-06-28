@@ -650,3 +650,9 @@
 **Ingest** 윌비스 (008600, KOSPI, 신규, 윌비스그룹) — Full 인제스트. 7종+stub7: companies/윌비스, sources, segments/윌비스_섬유·교육, value_chain, executives/이태규·전병현. 핵심: 연결 매출 1,883억·영업손실 -210억·순손실 -364억(종속기업 손상). 의류 OEM(67.6%)+교육(32.3%). 최대주주 전병현 11.62%, 국민연금 없음. 신규 그룹 윌비스그룹 생성·industries/패션 반영. stub: 나무경영아카데미·THE WILLBES DOMINCANA·THE WILLBES HAITIAN·GAP·HANESBRANDS·THE CHILDRENS PLACE·KOHLS.
 
 **Ingest** 아남전자 (008700, KOSPI, 신규) — Full 인제스트. 7종+stub9: companies/아남전자, sources, segments/아남전자_TA·NCA, value_chain, executives/유성준·박준구. 핵심: 매출 151.4M USD(약 2,153억, -41% 2년)·영업이익 3.37M USD·순이익 4.14M USD(기능통화 USD). 홈오디오·스마트 스피커 ODM, 단일 고객 73% 의존. 최대주주 (유)아남 20.23%·페트로스 12.13%, 국민연금 없음. industries/전자부품 반영. stub: D&M·Harman_Kardon·Yamaha·유아남·페트로스·아남전자베트남유한회사·아남전자홍콩유한공사·동관신품전자유한공사.
+
+**Ingest** 율촌화학 (008730, KOSPI, 신규, 농심그룹) — Full 인제스트. 7종+stub2: companies/율촌화학, sources, segments/율촌화학_포장·전자소재, value_chain, executives/신동윤·송녹정. 핵심: 연결 매출 4,854억·영업이익 85억(흑전)·순이익 42억. 연포장재·기능성 필름+전자소재. 최대주주 농심홀딩스 31.94%·신동윤 17.75%·국민연금 6.18%. groups/농심(율촌화학 승격 링크)·industries/포장재·국민연금 반영. stub: 농심홀딩스·도레이첨단소재.
+
+**Ingest** 호텔신라 (008770, KOSPI, 신규, 삼성그룹) — Full 인제스트. 9종+stub1: companies/호텔신라, sources, segments/호텔신라_TR·호텔레저, value_chain, executives/이부진·한인규·조병준. 핵심: 연결 매출 4.07조·영업이익 135억(흑전)·순손실 -1,728억(영업외손실). 면세(TR 83.7%)·호텔·레저. 최대주주 삼성생명 7.34%·국민연금 7.02%·삼성전자 5.11%. groups/삼성(호텔신라 추가)·industries/유통·국민연금 반영. stub: 삼성SDS.
+
+**Ingest** 금비 (008870, KOSPI, 신규, 금비그룹 정점) — Full 인제스트. 5종+stub2: companies/금비, sources, segments/금비_유리·화장품, value_chain, executives/고기영·고병헌(갱신). 핵심: 연결 매출 2,524억·영업이익 34억·순이익 38억(9월 결산, 본업 적자·종속 의존). 유리병·화장품 용기, 삼화왕관 최대주주. 최대주주 고기영 11.76% 외 57.01%, 국민연금 없음. groups/금비(㈜금비 정점 승격 링크)·industries/포장재 반영. stub: 신우·LG생활건강.
