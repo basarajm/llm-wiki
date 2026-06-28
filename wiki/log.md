@@ -188,3 +188,9 @@
 **Ingest** 유진투자증권 (001200, KOSPI, 신규, 유진그룹, 파일명 유진증권) — Full 인제스트. 신규 11종: companies/유진투자증권, sources, segments/유진투자증권_위탁매매·자기매매·파생·선물중개·자산운용·기타, value_chain, executives/유창수·고경모, ratings/유진투자증권 신용등급. 핵심: 연결 영업수익 1.69조·영업이익 844억·순이익 645억, 배당 180원. 최대주주 유진기업 28.26%(KOSDAQ). 공유노드: industries/증권 반영. group_todo: 유진그룹.
 
 **Ingest** 금호전기 (001210, KOSPI, 신규) — Full 인제스트. 신규 5종: companies/금호전기, sources, segments/금호전기_조명(단일), value_chain, executives/이홍민. 핵심: 연결 매출 443억·3년 연속 영업적자(-12억)·순손실 -39억, 누적결손 -672억, 무배당. 형광램프 점유율 32.3%. 최대주주 신주홀딩스(특관 32.12%). 공유노드 신규: industries/조명.
+
+**Ingest** 동국홀딩스 (001230, KOSPI, 신규, 동국제강그룹 지주) — Full 인제스트. 신규 7종: companies/동국홀딩스, sources, segments/동국홀딩스_철강·운송·무역부문, value_chain, executives/장세주·장세욱. 핵심: 연결 매출 1.99조·영업이익 395억·순이익 207억(2023 인적분할 일회성 제외), 별도 배당·상표권 수익. 최대주주 장세주 32.54%·장세욱 20.94%(특관 63.02%). 공유노드: industries/철강 반영. group_todo: 동국제강그룹(동국제강·동국씨엠 stub 추후).
+
+**Ingest** GS글로벌 (001250, KOSPI, 신규, GS그룹) — Full 인제스트. 신규 8종: companies/GS글로벌, sources, segments/GS글로벌_무역유통·물류·제조·신사업기타, value_chain, executives/이영환. 핵심: 연결 매출 4.11조·영업이익 523억·순이익 139억(제조 영업외손실), 배당 25원, 신용 A0. 최대주주 ㈜GS 50.70%. 공유노드: industries/종합상사 반영. group_todo: GS그룹.
+
+**Ingest** 남광토건 (001260, KOSPI, 신규) — Full 인제스트. 신규 7종: companies/남광토건, sources, segments/남광토건_토목·건축, value_chain, executives/김종수·이동철. 핵심: 연결 매출 3,574억(-29%)·영업이익 114억(+56%, 토목 마진)·순이익 53억, 3년 무배당. 최대주주 세운건설 22.37%(특관 62.36%, 비상장 계열). 공유노드: industries/건설 반영.
