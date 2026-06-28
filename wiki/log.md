@@ -200,3 +200,9 @@
 **Ingest** 상상인증권 (001290, KOSPI, 신규, 상상인그룹) — Full 인제스트. 신규 8종: companies/상상인증권, sources, segments/상상인증권_홀세일·IB·자산운용·리테일, value_chain, executives/주원, ratings/상상인증권 신용등급. 핵심: 연결 영업수익 1,817억·2년 연속 영업손실(-91억, 2025), 무배당, 채권·파생 특화. 최대주주 ㈜상상인 55.85%(비상장). 공유노드: industries/증권 반영. group_todo: 상상인그룹.
 
 **Ingest** 피케이씨/PKC (001340, KOSPI, 신규, 구 백광산업) — Full 인제스트. 신규 6종: companies/피케이씨, sources, segments/피케이씨_화공·기타사업부, value_chain, executives/윤해구. 핵심: 별도 매출 2,691억·영업이익 112억·순이익 90억(무기화학 가성소다·염소·솔비톨), 배당 30원. 최대주주 김성훈(특관 42.82%, 비상장). 공유노드: industries/화학 반영. group_todo: 상원그룹(추정).
+
+**Ingest** 삼성제약 (001360, KOSPI, 신규, 삼성그룹 무관) — Full 인제스트. 신규 5종: companies/삼성제약, sources, segments/삼성제약_의약품(단일), value_chain, executives/정성택. 핵심: 별도 매출 461억·3년 연속 영업적자(-181억)·순이익 115억(금융자산 평가이익 추정). 최대주주 젬백스앤카엘 10.46%(KOSDAQ). 공유노드: industries/제약 반영.
+
+**Ingest** SG글로벌 (001380, KOSPI, 신규, SG그룹, 에스지글로벌) — Full 인제스트. 신규 6종: companies/SG글로벌, sources, segments/SG글로벌_시트부품·시트사업, value_chain, executives/이의범. 핵심: 연결 매출 935억·영업이익 50억·순이익 28억, 자동차시트커버. 최대주주 에스지고려 34.64%(특관 58.53%, 비상장). 공유노드: industries/자동차부품 반영. group_todo: SG그룹.
+
+**Ingest** KG케미칼 (001390, KOSPI, 신규, KG그룹 지주격) — Full 인제스트. 신규 8종: companies/KG케미칼, sources, segments/KG케미칼_화학·철강및항만·자동차제조판매·전자결제, value_chain, executives/곽정현·김재익. 핵심: 연결 매출 9.10조(KG스틸·KG모빌리티·이니시스 연결)·영업이익 3,057억·지배순이익 697억, 배당 150원(18년 연속), 신용 BB-. 최대주주 KG제로인 21.29%·곽재선 16.59%. 공유노드: industries/화학 반영. group_todo: KG그룹.
