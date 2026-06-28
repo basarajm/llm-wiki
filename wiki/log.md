@@ -686,3 +686,9 @@
 **Ingest** 태영건설 (009410, KOSPI, 신규, 태영그룹) — Full 인제스트. 10종+stub3: companies/태영건설, sources, segments/태영건설_건설·임대·레저, value_chain, executives/최금락·최진국. 핵심: 연결 매출 2.17조·영업이익 528억·순이익 958억(2023 워크아웃·완전자본잠식→차등감자·출자전환으로 2025 자본 회복). 최대주주 TY홀딩스 58.10%·산업은행 11.47%, 국민연금 없음. 신규 그룹 태영그룹 생성·industries/건설 반영. stub: TY홀딩스·유진기업·한국철강.
 
 **Ingest** 한올바이오파마 (009420, KOSPI, 신규, 대웅그룹) — Full 인제스트. 6종+stub6: companies/한올바이오파마, sources, segments/한올바이오파마_의약품, value_chain, executives/정승원_한올바이오파마·박수진(+윤재춘 갱신). 핵심: 연결 매출 1,552억(+12%)·영업손실 -9억·순손실 -56억(R&D). 전문약+자가면역 항체신약(HL161/바토클리맙). 최대주주 대웅제약 30.85%·국민연금 8.23%. groups/대웅그룹(한올 승격 링크)·industries/제약·국민연금 반영. stub: 대웅제약·Immunovant·Roivant Sciences·Harbour BioMed·NurrOn Pharmaceuticals·HPI.
+
+**Ingest** KC그린홀딩스 (009440, KOSPI, 신규, KC그룹 지주) — Full 인제스트. 9종+stub2: companies/KC그린홀딩스, sources, segments/KC그린홀딩스_환경엔지니어링·환경서비스·자원순환·오피스환경·에너지, value_chain, executives/이태영. 핵심: 연결 매출 860억(-80%, 부실 자회사 연결 제외)·영업손실 -16억·순손실 -408억. 환경설비(KC코트렐) 지주. 최대주주 이태영 30.84% 외 39.76%, 국민연금 없음. 신규 그룹 KC그룹 생성·industries/지주회사 반영. stub: KC코트렐·클레스트라하우저만.
+
+**Ingest** 경동나비엔 (009450, KOSPI, 신규, 경동그룹) — Full 인제스트. 6종+stub3: companies/경동나비엔, sources, segments/경동나비엔_냉난방기제조판매, value_chain, executives/손연호·장희철. 핵심: 연결 매출 1.50조(사상 최대, +11%)·영업이익 1,434억·순이익 897억. 가스보일러·온수기 국내 1위+북미 수출. 최대주주 경동원 56.72%·국민연금 7.55%. 신규 그룹 경동그룹 생성·industries/가전·국민연금 반영. stub: 경동원·경동에버런·Navien.
+
+**Ingest** 한창제지 (009460, KOSPI, 신규) — Full 인제스트. 11종+stub4: companies/한창제지, sources, segments/한창제지_지류제조, value_chain, executives/KIM JOONYOUNG·이상무·김승한·김중확. 핵심: 별도 매출 2,670억(-9.3%)·영업손실 -52억·순손실 -131억(적자전환). 마닐라판지·백판지 특수지. 최대주주 KIM JOONYOUNG 17.88% 외 40.11%(오너 일가), 국민연금 없음. industries/제지 반영. stub: 영우인터내셔널·KT&G·Mondi·Arauco. 동명이인 한창(005110, 소방) 별개.
