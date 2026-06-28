@@ -566,3 +566,9 @@
 **Ingest** 녹십자 (006280, KOSPI, 신규, GC그룹, GC녹십자) — Full 인제스트. 7종: companies/녹십자, sources, segments/녹십자_혈액제제·백신제제·일반제제, value_chain, executives/허은철. 핵심: 연결 매출 1.99조(+18.5%)·영업이익 692억·순손실 -297억(별도 흑자), 혈액제제(알리글로 미국)·백신·처방약. 최대주주 녹십자홀딩스 50.06%·국민연금 7.86%. 공유노드 industries/제약·groups/녹십자·국민연금 반영.
 
 **Ingest** 대원전선 (006340, KOSPI, 신규) — Full 인제스트. 8종+stub: companies/대원전선(+LS전선·일진전기·한화솔루션 stub), sources, segments/대원전선_전선부문·자동차알루미늄휠부문, value_chain, executives/서명환. 핵심: 연결 매출 6,245억(+13%, 휠부문 추가)·영업이익 94억, 전력케이블·권선+자동차 알루미늄휠(대원알텍). 최대주주 갑도물산 21.17%. 공유노드 industries/전선 반영.
+
+**Ingest** GS건설 (006360, KOSPI, 신규, GS그룹) — Full 인제스트. 9종: companies/GS건설, sources, segments/GS건설_건축주택·플랜트·인프라·신사업, value_chain, executives/허창수·허윤홍. 핵심: 연결 매출 12.5조·영업이익 4,378억(개선)·순이익 934억, 자이(주택)·플랜트·인프라·신사업. 최대주주 허창수 5.95% 외 23.64%·국민연금 7.50%·GLOBAL X 5.10%. 신규 그룹 GS 생성(GS글로벌 dangling 해소)·industries/건설·국민연금 반영. stub 없음(피어 기존).
+
+**Ingest** 대구백화점 (006370, KOSPI, 신규) — Full 인제스트. 6종+stub4: companies/대구백화점, sources, segments/대구백화점_백화점부문·부동산임대부문, value_chain, executives/구정모. 핵심: 연결 매출 531억(3년 연속 감소)·영업이익 -150억·순손실 -325억, 본점 백화점+대백아울렛 임대. 회사채 B0(NICE). 최대주주 구정모 6.68% 외 32.64%, 국민연금 없음. industries/유통 반영. stub: 대백아울렛·현대백화점·하나은행·아이에스제이커뮤니케이션.
+
+**Ingest** 카프로 (006380, KOSPI, 신규) — Full 인제스트. 5종+stub8: companies/카프로, sources, segments/카프로_석유화학, value_chain, executives/박성명. 핵심: 별도 매출 246억(+382%)·영업이익 -211억·순손실 -324억, 카프로락탐 생산중단(2023)·영업중단(2025.06)→수소·황산류 전환. 2024.05 코오롱 이탈, 거래정지 중. 최대주주 그린테크시스템 53.25%, 국민연금 없음. industries/화학 반영. stub: 그린테크시스템·SK에너지·E1·남해화학·한국특강·에이치에스·어프로티움·신한중공업.
