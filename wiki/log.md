@@ -368,3 +368,9 @@
 **Ingest** 한일홀딩스 (003300, KOSPI, 신규, 한일시멘트그룹) — Full 인제스트. 7종: companies/한일홀딩스, sources, segments/한일홀딩스_시멘트·레미콘·레미탈·기타, value_chain, executives/허기호. 핵심: 연결 매출 1.93조·영업이익 1,232억, 한일시멘트그룹 사업지주(시멘트·레미콘+서울랜드). 최대주주 허기호 31.23%·허정섭 16.33%. 신규 그룹 한일시멘트그룹·공유노드 industries/지주회사·시멘트 반영. deferred: 한일시멘트 stub.
 
 **Ingest** 한국화장품제조 (003350, KOSPI, 신규) — Full 인제스트. 5종: companies/한국화장품제조, sources, segments/한국화장품제조_화장품제조, value_chain, executives/이용준·임진서. 핵심: 별도 매출 1,846억·영업이익 329억(영업이익률 17.8%), 화장품 OEM/ODM 제조(1962 창사). 최대주주 임충헌 11.54% 등 일가. 공유노드 industries/화장품 반영. deferred: 한국화장품(123690)·더샘 stub.
+
+**Ingest** 유화증권 (003460, KOSPI, 신규) — Full 인제스트. 7종: companies/유화증권, sources, segments/유화증권_상품운용·리테일·자산운용, value_chain, executives/서태영. 핵심: 영업수익 360억·순이익 141억, 자기매매·이자수익 중심 보수적 운용(NCR 1,106%). 최대주주 윤경립 22.12%. 공유노드 industries/증권 반영(신용등급 없음). SB성보 2.36% 보유(인척 네트워크).
+
+**Ingest** 유안타증권 (003470, KOSPI, 신규, 대만 유안타금융그룹) — Full 인제스트. 9종+ratings: companies/유안타증권, sources, segments/유안타증권_Retail·Wholesale·전략운용·기업금융, value_chain, executives/뤄즈펑·궈밍쩡, ratings(AA-/A1). 핵심: 연결 영업수익 3.46조·순이익 956억·자기자본 1.9조, 구 동양증권. 최대주주 YSAF 58.77%. 공유노드 industries/증권 반영. deferred: 유안타그룹(해외) 페이지.
+
+**Ingest** 한진중공업홀딩스 (003480, KOSPI, 신규, 한진중공업홀딩스그룹) — Full 인제스트. 7종: companies/한진중공업홀딩스, sources, segments/한진중공업홀딩스_도시가스·발전·골프장, value_chain, executives/조원국·조남호. 핵심: 연결 매출 1.20조, 에너지 순수지주(대륜E&S 도시가스·대륜발전·한일레저), 조선·건설 HJ중공업은 2019 계열제외. 최대주주 조남호 46.50%. 신규 그룹 한진중공업홀딩스그룹·공유노드 industries/지주회사 반영. 한진그룹(대한항공)과 별개.
