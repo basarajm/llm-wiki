@@ -128,3 +128,9 @@
 **Ingest** 대원강업 (000430, KOSPI, 신규, 현대백화점그룹) — Full 인제스트. 신규 6종: companies/대원강업, sources, segments/대원강업_스프링·시트, value_chain, executives/박민희·김항수. 핵심: 연결 매출 1.60조(+16.9%)·영업이익 470억(+108%)·순이익 460억. 최대주주 현대지에프홀딩스 32.77%. 현대차·기아 납품(49.2%)+글로벌 GM·VW·BMW·테슬라. 공유노드: industries/자동차부품 반영. group_todo: 현대백화점그룹.
 
 **Ingest** 시알홀딩스 (000480, KOSPI, 신규, 구 조선내화) — Full 인제스트. 신규 6종: companies/시알홀딩스, sources, segments/시알홀딩스_내화물제조업·기계부품제조업, value_chain, executives/강문수. 핵심: 2023.7 인적분할로 조선내화 사업 분할·지주사 전환. 연결 매출 8,278억·영업이익 278억·순손실 -188억(2년 연속). 최대주주 이인옥 23.95%(특관 71.34%). group_todo: 조선내화/시알홀딩스그룹.
+
+**Ingest** 대동 (000490, KOSPI, 신규, 대동그룹) — Full 인제스트. 신규 7종: companies/대동, sources, segments/대동_농기계·주물제품·기타부문, value_chain, executives/김준식·원유현. 핵심: 연결 매출 1.48조·영업이익 312억·순손실 -299억(금융비용), 수출 76.8%(북미), 32년 연속 배당. 최대주주 김준식 27.53%. 공유노드 신규: industries/농기계. group_todo: 대동그룹.
+
+**Ingest** 가온전선 (000500, KOSPI, 신규, LS그룹) — Full 인제스트. 신규 8종: companies/가온전선, sources, segments/가온전선_전력·통신·특수케이블·목드럼사업부, value_chain, executives/정현. 핵심: 연결 매출 2.55조(+47%, 지앤피·미국 연결)·영업이익 792억·순이익 514억, 회사채 A. 최대주주 LS전선 81.62%(비상장). 공유노드 신규: industries/전선. group_todo: LS그룹.
+
+**Ingest** 삼일제약 (000520, KOSPI, 신규) — Full 인제스트. 신규 5종: companies/삼일제약, sources, segments/삼일제약_제약(단일), value_chain, executives/허승범. 핵심: 연결 매출 2,103억·영업손실 -222억(적자전환, 판관비·금융원가), 3년 무배당. 최대주주 허승범 8.20%(특관 25.92%). 공유노드: industries/제약 반영.
