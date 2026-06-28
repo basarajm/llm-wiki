@@ -548,3 +548,9 @@
 **Ingest** 동부건설 (005960, KOSPI, 신규) — Full 인제스트. 6종: companies/동부건설, sources, segments/동부건설_건설부문·기타부문, value_chain, executives/윤진오·허상희. 핵심: 연결 매출 1.76조·영업이익 426억(흑전), 토목·건축(브랜드 센트레빌), 한국토지신탁 계열(DB그룹과 분리). 최대주주 키스톤에코프라임 56.22%(한국토지신탁 87.43% 지배). 공유노드 industries/건설 반영. deferred: 한국토지신탁·동부엔지니어링 stub.
 
 **Ingest** 동원산업 (006040, KOSPI, 신규, 동원그룹 지주격) — Full 인제스트. 10종: companies/동원산업, sources, segments/동원산업_수산·식품가공유통·포장·물류, value_chain, executives/김남정·김세훈·박상진·장인성. 핵심: 연결 매출 9.58조·영업이익 5,161억·순이익 3,871억, 원양어업(참치 StarKist)·식품(동원F&B)·포장(동원시스템즈)·물류. 최대주주 김남정 53.74%·김재철 13.51%. 신규 그룹 동원·공유노드 industries/식품 반영. deferred: 동원시스템즈 stub.
+
+**Ingest** 화승인더스트리 (006060, KOSPI, 신규, 화승그룹) — Full 인제스트. 8종: companies/화승인더스트리, sources, segments/화승인더스트리_ODM·화학·유통금융, value_chain, executives/현석호·현승훈·현지호. 핵심: 연결 매출 1.78조, 신발 ODM(아디다스 87.9%, 베트남·중국·인니)+화학소재(TPV·필름). 최대주주 현석호 27.26%·화승코퍼레이션 6.33%·국민연금 5.21%. 신규 그룹 화승·공유노드 industries/화학·국민연금 반영. deferred: 화승엔터프라이즈 stub.
+
+**Ingest** 사조오양 (006090, KOSPI, 신규, 사조그룹) — Full 인제스트. 6종: companies/사조오양, sources, segments/사조오양_식품제조부문·수산부문, value_chain, executives/박정훈. 핵심: 별도 매출 4,174억·영업이익 135억, 수산식품(맛살·어묵·참치캔)·원양어업(구 오양수산). 최대주주 사조대림 60.84%(사조 계열 법인 합산 80%). 공유노드 industries/식품·groups/사조 반영.
+
+**Ingest** 삼아알미늄 (006110, KOSPI, 신규) — Full 인제스트. 11종+stub: companies/삼아알미늄(+동양알미늄·LG에너지솔루션·TOYOTA통상 stub), sources, segments/삼아알미늄_압연·가공·전자부품판매, value_chain, executives/한남희·김진범. 핵심: 연결 매출 2,715억·영업손실 -176억(EV 캐즘 2년 적자), 알루미늄박(이차전지 양극집전체·식품/제약 포장), Cold Mill 투자. 최대주주 동양알미늄(일본) 24.97%·LG엔솔 10.20%·도요타통상 10.20%. 공유노드 industries/비철금속·이차전지소재 반영.
