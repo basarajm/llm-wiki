@@ -626,3 +626,9 @@
 **Ingest** F&F홀딩스 (007700, KOSPI, 신규, F&F그룹 지주) — Full 인제스트. 13종+stub4: companies/F&F홀딩스, sources, segments/F&F홀딩스_지주·패션·물류·투자, value_chain, executives/박의헌·김창수·마정만·김승범. 핵심: 연결 매출 1.93조·영업이익 4,342억(이익률 22.5%)·순이익 3,679억. 패션 지주(자회사 F&F: MLB·디스커버리). 최대주주 김창수 62.84% 외 91.71%, 국민연금 없음. 신규 그룹 F&F그룹 생성·industries/패션 반영. stub: F&F·에프앤에프차이나·에프앤에프로지스틱스·에프앤에프파트너스.
 
 **Ingest** 코리아써키트 (007810, KOSPI, 신규, 영풍그룹) — Full 인제스트. 6종+stub9: companies/코리아써키트, sources, segments/코리아써키트_전자부품·반도체, value_chain, executives/장세준. 핵심: 연결 매출 1.51조(+7.3%)·영업이익 538억(흑전)·순이익 538억. 경성/특수 PCB·FPCB+반도체 패키징(시그네틱스). 최대주주 ㈜영풍 39.75%·장세준 6.78%, 국민연금 없음. 신규 그룹 영풍 생성·industries/전자부품 반영. stub: 대덕전자·심텍·비에이치·영풍전자·SFA반도체·하나마이크론·해성디에스·엠케이전자·Broadcom.
+
+**Ingest** 서연 (007860, KOSPI, 신규, 서연그룹 지주) — Full 인제스트. 12종+stub5: companies/서연, sources, segments/서연_자동차부품제조·금형건설중장비·지주기타, value_chain, executives/유양석. 핵심: 연결 매출 4.92조·영업이익 1,996억·순이익 938억(-58.5%). 자동차 내장재 지주(서연이화). 최대주주 유양석 44.44% 외 46.62%, 국민연금 없음. 신규 그룹 서연그룹 생성·industries/지주회사 반영. stub: 서연이화·서연탑메탈·서연인테크·서연씨엔에프·서연오토비전.
+
+**Ingest** TP (007980, KOSPI, 신규) — Full 인제스트. 10종+stub3: companies/TP, sources, segments/TP_의류·우모·임대·식품, value_chain, executives/임석원. 핵심: 연결 매출 1.03조·영업이익 620억·순이익 380억(+70%). 의류 OEM/ODM(우모 가공)+부동산·식품. 최대주주 임석원 21.41% 외, 국민연금 없음. 신용 BB+/BBB-. industries/패션 반영. stub: TARGET·Columbia Sportswear·Carhartt.
+
+**Ingest** 사조동아원 (008040, KOSPI, stub→Full 승격, 사조그룹) — Full 인제스트. 6종+stub1: companies/사조동아원(승격), sources, segments/사조동아원_제분·생물자원, value_chain, executives/이창주. 핵심: 연결 매출 6,743억·영업이익 425억·순손실 -1,373억(비경상 손실 적자전환). 제분(밀가루 ~24%)·배합사료. 최대주주 사조씨푸드 26.03%·사조대림 26.03%, 국민연금 없음. groups/사조(사조동아원 승격 링크)·industries/식품 반영. stub: 사조씨피케이.
