@@ -476,3 +476,9 @@
 **Ingest** 동일산업 (004890, KOSPI, 신규) — Full 인제스트. 8종: companies/동일산업, sources, segments/동일산업_봉강·합금철·주조·자동차부품, value_chain, executives/오순택·오승민. 핵심: 연결 매출 3,479억·영업손실 -27억(본업 3년 적자, 자동차부품만 흑자), 특수강+디오토모티브 등속조인트. 최대주주 오순택 16.56%·디씨엠 10.24%. 공유노드 industries/철강 반영. (동일제강·동일고무벨트와 별개)
 
 **Ingest** 조광페인트 (004910, KOSPI, 신규) — Full 인제스트. 8종: companies/조광페인트, sources, segments/조광페인트_공업용도료·UV전자재료·건축용도료, value_chain, executives/양성아·송경자. 핵심: 연결 매출 2,027억(-18.3%)·영업손실 -195억(UV 부문 급감 적자전환), 도료(데스몬)+전자재료(UV·방열)+조광요턴 JV. 최대주주 양성아 18.62%. 공유노드 industries/화학 반영.
+
+**Ingest** 씨아이테크 (004920, KOSPI, 신규, 구 삼영모방공업) — Full 인제스트. 7종: companies/씨아이테크, sources, segments/씨아이테크_IT사업부문·유통및기타사업부문, value_chain, executives/김대영·임채성. 핵심: 연결 매출 415억·영업이익 20억(흑전)·순이익 146억(자회사 매각 일회성), 무인발급기·키오스크·하이파이오디오(HiFi ROSE)·셋톱박스. 최대주주 씨엔씨기술 22.20%. 공유노드 industries/전자부품 반영(업종 IT단말 적합도 낮음). deferred: 앤로보틱스 등.
+
+**Ingest** 한신공영 (004960, KOSPI, 신규) — Full 인제스트. 7종: companies/한신공영, sources, segments/한신공영_건축·토목, value_chain, executives/최문규·전재식. 핵심: 연결 매출 1.15조(-23%)·영업이익 645억·순이익 579억(이익 급증), 건축·토목·플랜트(브랜드 한신더휴) 건설 1세대. 최대주주 코암시앤시개발 36.76%. 공유노드 industries/건설 반영. deferred: 코암시앤시개발 stub.
+
+**Ingest** 신라교역 (004970, KOSPI, 신규, 신라그룹) — Full 인제스트. 8종: companies/신라교역, sources, segments/신라교역_원양어업·수산물유통, value_chain, executives/김호운·박준형·박성진. 핵심: 연결 매출 4,547억·영업손실 -16억·순이익 53억, 원양어업(참치선망)·수산물 유통(파파이스 외식 겸영). 최대주주 신라홀딩스 40.18%·박재흥 7.94%. 신규 그룹 신라홀딩스·공유노드 industries/식품 반영.
