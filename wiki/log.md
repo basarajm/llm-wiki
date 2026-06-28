@@ -176,3 +176,9 @@
 **Ingest** CJ (001040, KOSPI, 신규, CJ그룹 지주) — Full 인제스트. 신규 8종: companies/CJ, sources, segments/CJ_물류신유통·식품식품서비스·생명공학·엔터테인먼트미디어, value_chain, executives/손경식·김홍기. 핵심: 연결 매출 45.0조·영업이익 2.53조·순이익 1,426억(지배), 배당 3,300원. 최대주주 이재현 42.07%·국민연금 13.40%. 공유노드 신규: groups/CJ, executives/이재현. CJ대한통운 group 연결, 국민연금 반영.
 
 **Ingest** JW중외제약 (001060, KOSPI, 신규, JW그룹) — Full 인제스트. 신규 6종: companies/JW중외제약, sources, segments/JW중외제약_의약품(단일), value_chain, executives/신영섭·함은경. 핵심: 연결 매출 7,753억·영업이익 945억·순이익 615억, 배당 650원, 신용 BBB+. 최대주주 JW홀딩스 40.25%. 공유노드: industries/제약 반영. group_todo: JW그룹.
+
+**Ingest** 대한방직 (001070, KOSPI, 신규) — Full 인제스트. 신규 6종: companies/대한방직, sources, segments/대한방직_방직부문(단일), value_chain, executives/설범·김인호. 핵심: 연결 매출 1,583억·영업이익 7억·순손실 -6억(미국 관세), 3년 무배당, 신용 BB. 최대주주 설범 26.20%(특관 31.97%). 공유노드: industries/섬유 반영.
+
+**Ingest** 만호제강 (001080, KOSPI, 신규, FY2024 6월결산) — Full 인제스트. 신규 6종: companies/만호제강, sources, segments/만호제강_철강제품·섬유제품, value_chain, executives/김상환. 핵심: 별도 매출 1,799억·3년 연속 영업적자(-308억). 2023.9 감사의견 거절→거래정지·상장폐지 사유. 최대주주 김상환 8.93%(특관 23.14%). 공유노드: industries/철강 반영.
+
+**Ingest** LX인터내셔널 (001120, KOSPI, 신규, LX그룹, 전신 LG상사) — Full 인제스트. 신규 6종: companies/LX인터내셔널, sources, segments/LX인터내셔널_자원·Trading신성장·물류, value_chain, executives/윤춘성. 핵심: 연결 매출 16.7조·영업이익 2,922억(-40%, 운임·원자재 약세)·순이익 1,583억, 배당 2,000원, 신용 AA-. 최대주주 LX홀딩스 27.83%·국민연금 8.74%·한화운용 6.84%. 공유노드 신규: industries/종합상사, 국민연금 반영. group_todo: LX그룹.
