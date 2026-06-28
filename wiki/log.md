@@ -374,3 +374,9 @@
 **Ingest** 유안타증권 (003470, KOSPI, 신규, 대만 유안타금융그룹) — Full 인제스트. 9종+ratings: companies/유안타증권, sources, segments/유안타증권_Retail·Wholesale·전략운용·기업금융, value_chain, executives/뤄즈펑·궈밍쩡, ratings(AA-/A1). 핵심: 연결 영업수익 3.46조·순이익 956억·자기자본 1.9조, 구 동양증권. 최대주주 YSAF 58.77%. 공유노드 industries/증권 반영. deferred: 유안타그룹(해외) 페이지.
 
 **Ingest** 한진중공업홀딩스 (003480, KOSPI, 신규, 한진중공업홀딩스그룹) — Full 인제스트. 7종: companies/한진중공업홀딩스, sources, segments/한진중공업홀딩스_도시가스·발전·골프장, value_chain, executives/조원국·조남호. 핵심: 연결 매출 1.20조, 에너지 순수지주(대륜E&S 도시가스·대륜발전·한일레저), 조선·건설 HJ중공업은 2019 계열제외. 최대주주 조남호 46.50%. 신규 그룹 한진중공업홀딩스그룹·공유노드 industries/지주회사 반영. 한진그룹(대한항공)과 별개.
+
+**Ingest** 대한항공 (003490, KOSPI, 신규, 한진그룹) — Full 인제스트. 8종: companies/대한항공, sources, segments/대한항공_여객·화물·항공우주, value_chain, executives/조원태·우기홍·유종석. 핵심: 연결 매출 25.2조·영업이익 1.11조·순이익 6,473억, 국적 FSC 1위, 2024.12 아시아나항공 자회사 편입. 최대주주 한진칼 26.13%·국민연금 7.24%. 신규 산업 항공·신규 그룹 한진·공유노드 국민연금 반영. deferred: 한진칼·아시아나 stub.
+
+**Ingest** 영진약품 (003520, KOSPI, 신규, KT&G그룹) — Full 인제스트. 6종: companies/영진약품, sources, segments/영진약품_국내영업·글로벌영업, value_chain, executives/이기수. 핵심: 연결 매출 2,543억·영업이익 34억·순손실 -2.3억, KT&G 계열 제약(만성질환·세파계 항생제 일본 수출). 최대주주 KT&G 52.45%. 신규 그룹 KT&G그룹·공유노드 industries/제약 반영. deferred: KT&G Company/Shareholder stub.
+
+**Ingest** 한화투자증권 (003530, KOSPI, 신규, 한화그룹) — Full 인제스트. 9종+ratings: companies/한화투자증권, sources, segments/한화투자증권_WM·Trading·Wholesale·IB, value_chain, executives/장병호·한종석, ratings(AA-/A1). 핵심: 연결 영업수익 3.09조·순이익 1,020억(+162%)·자기자본 2.07조, IB 흑전. 최대주주 한화자산운용 45.50%·국민연금 6.91%. 공유노드 industries/증권·groups/한화·국민연금 반영. deferred: 한화자산운용 shareholder.
