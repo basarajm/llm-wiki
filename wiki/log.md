@@ -732,3 +732,5 @@
 ## 2026-06-29
 
 **Analysis** Product·Financial Product 인제스트 누락 분석 — KOSPI 347/833 시점, 배치가 5종만 생성해 products(11)·financial_products(12)·ratings가 루프 내내 미갱신(전부 초기 세션 산물). 원인: 오케스트레이션 범위를 5종 고정(속도·비용), 점유율·주력상품은 segment/company 본문에 인라인 기록. 재개 옵션 A(7종 확대·권장)/B(과거분 백필)/C(현행)/D(하이브리드) 문서화 → outputs/ingest-scope-products-gap-2026-06-29. 사용자 선택 대기.
+
+**Batch Ingest (Products Backfill, 파일럿)** 17개 신규 product/financial_product/rating 노드 — 12개사 B1 추출. products 15(해피드/선박용도료/자동차용도료/석고보드/LPG연료탱크/리바로/영양수액/테이프기판/자이/백판지/보솜이/순수한면/수입차PDI서비스/금속성형프레스/망간합금철), financial_products 2(DB손해보험_장기보험·자동차보험). 병합: products/자동차용도료에 KCC+노루홀딩스(노루오토코팅) 양사 링크 통합. index.md(상품·금융상품 섹션)·products/index.md·financial_products/index.md 갱신.
