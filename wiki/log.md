@@ -248,3 +248,9 @@
 **Ingest** 알루코 (001780, KOSPI, 신규, 구 동양강철) — Full 인제스트. 신규 5종: companies/알루코, sources, segments/알루코_알루미늄압출(단일), value_chain, executives/박진우. 핵심: 연결 매출 5,757억·영업이익 349억·순이익 159억, 무배당, 신용 BBB-(상향). 알루미늄 압출(전기차 배터리케이스·디스플레이). 최대주주 케이피티유 19.11%(KOSDAQ, 박도봉 지배). 공유노드: industries/비철금속 반영.
 
 **Ingest** 대한제당 (001790, KOSPI, 신규, TS대한제당그룹) — Full 인제스트. 신규 7종: companies/대한제당, sources, segments/대한제당_식품·축산유통·사료부문, value_chain, executives/강승우·설윤호. 핵심: 연결 매출 1.36조·영업이익 566억·순손실 -603억(영업외·충당부채), 신용 A-. 제당 3사(CJ·삼양사·대한제당). 최대주주 설윤호 23.28%(특관 48.24%). 공유노드: industries/식품 반영. group_todo: TS대한제당그룹.
+
+**Ingest** 오리온홀딩스 (001800, KOSPI, 신규, 오리온그룹 지주) — Full 인제스트. 신규 7종: companies/오리온홀딩스, sources, segments/오리온홀딩스_제과·영상·지주·기타, value_chain, executives/허인철. 핵심: 연결 매출 3.39조·영업이익 4,877억·지배순이익 1,210억, 배당 1,100원(성향 54.7%). 최대주주 이화경 32.63%·담철곤 28.73%·국민연금 6.35%. 공유노드: 국민연금 반영. group_todo: 오리온그룹(오리온·쇼박스 stub 추후).
+
+**Ingest** 삼화콘덴서공업 (001820, KOSPI, 신규) — Full 인제스트. 신규 6종: companies/삼화콘덴서공업, sources, segments/삼화콘덴서공업_콘덴서제조(단일), value_chain, executives/오영주·박진. 핵심: 연결 매출 2,945억·영업이익 129억(둔화), MLCC·DC-Link·필름콘덴서. 최대주주 오영주 16.16%(특관 28.15%)·삼화전기 2.24%. 공유노드: industries/전자부품 반영. group_todo: 삼화그룹(삼화전기·삼화전자공업). ※의뢰 추정명 '삼화전자공업'은 오류—실제 삼화콘덴서공업.
+
+**Ingest** KISCO홀딩스 (001940, KOSPI, 신규, 한국철강그룹 지주) — Full 인제스트. 신규 6종: companies/KISCO홀딩스, sources, segments/KISCO홀딩스_철강제조·지주부문, value_chain, executives/장세홍·이병제. 핵심: 연결 매출 8,253억·영업손실 -707억(철근 판가↓·건설부진 적자전환), 별도 흑자, 배당 1,850원(27년 연속). 최대주주 장세홍 45.58%(특관 55.82%). 공유노드: industries/철강 반영. group_todo: 한국철강그룹(한국철강·환영철강 stub 추후).
