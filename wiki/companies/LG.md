@@ -4,6 +4,7 @@ title: LG
 description: LG그룹의 지주회사 — (주)LG, 전자·화학·통신서비스 등 계열사 지배
 ticker: "003550"
 market: KOSPI
+market_page: /markets/KOSPI
 industry: 지주회사
 group: /groups/LG
 is_stub: true

@@ -4,6 +4,7 @@ title: HD현대일렉트릭
 description: 변압기·고압차단기·회전기를 제조·공급하는 HD현대그룹 계열 전력기기 전문기업
 ticker: "267260"
 market: KOSPI
+market_page: /markets/KOSPI
 industry: 전력기기
 group: /groups/HD현대
 is_stub: false

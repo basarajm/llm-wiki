@@ -4,6 +4,7 @@ title: SK하이닉스
 description: DRAM·NAND Flash 중심의 글로벌 메모리 반도체 기업. AI 메모리(HBM) 시장 선도.
 ticker: "000660"
 market: KOSPI
+market_page: /markets/KOSPI
 industry: 반도체
 group: /groups/SK
 is_stub: false

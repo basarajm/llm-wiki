@@ -4,6 +4,7 @@ title: HD현대
 description: HD현대그룹의 지주회사 — 조선·정유·전력기기·건설기계 계열사 지배
 ticker: "267250"
 market: KOSPI
+market_page: /markets/KOSPI
 industry: 지주회사
 group: /groups/HD현대
 is_stub: true

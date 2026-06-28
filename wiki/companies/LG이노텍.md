@@ -4,6 +4,7 @@ title: LG이노텍
 description: LG그룹의 전자부품 제조사 — 카메라모듈·기판소재·전장부품
 ticker: "011070"
 market: KOSPI
+market_page: /markets/KOSPI
 industry: 전자부품
 group: /groups/LG
 is_stub: true

@@ -4,6 +4,7 @@ title: SK스퀘어
 description: SK그룹의 투자전문 지주회사 — 반도체·ICT 포트폴리오 투자 관리
 ticker: "402340"
 market: KOSPI
+market_page: /markets/KOSPI
 industry: 투자지주
 group: /groups/SK
 is_stub: true

@@ -4,6 +4,7 @@ title: LG전자
 description: 생활가전·TV·전장·광학솔루션을 영위하는 LG그룹 핵심 전자 계열사 (KOSPI 066570)
 ticker: "066570"
 market: KOSPI
+market_page: /markets/KOSPI
 industry: 가전
 group: /groups/LG
 is_stub: false

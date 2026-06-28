@@ -17,6 +17,7 @@ Claude는 새 페이지 생성 전 반드시 이 파일을 참조하고,
 | 타입명 | 디렉토리 | 설명 |
 |---|---|---|
 | Company | `companies\` | 기업 메인 페이지 (상장·비상장·해외 거래상대방 stub 포함) |
+| Market | `markets\` | 상장 시장 (KOSPI·KOSDAQ) — 상장기업 분류 및 구성종목 |
 | Corporate Group | `groups\` | 기업집단·그룹 (계열사·지배구조) |
 | Industry | `industries\` | 산업 분석 및 경쟁 구도 |
 | Shareholder | `shareholders\` | 주요 주주 (기관·개인·외국인·상장기업) |
@@ -48,6 +49,7 @@ title: <기업명>
 description: <한 문장 사업 요약>
 ticker: "<종목코드>"          # 문자열, 앞자리 0 보존. 비상장·해외는 생략
 market: KOSPI | KOSDAQ | Foreign | Private
+market_page: /markets/<KOSPI|KOSDAQ>   # 상장사(KOSPI·KOSDAQ)만. 시장↔기업 양방향 링크
 industry: <주요 산업>
 group: /groups/<그룹명>       # 기업집단 소속 시
 is_stub: false                # 거래상대방 경량 노드면 true
@@ -65,6 +67,31 @@ source_count: <연결된 사업보고서 수>
 - `## 밸류체인` — value_chain\ 링크 (stub 제외)
 - `## 경영진` — executives\ 링크 (stub 제외)
 - `## 리스크` (stub 제외)
+- `# Citations`
+
+---
+
+### Market
+
+KOSPI(유가증권시장)·KOSDAQ(코스닥시장) 등 상장 시장 페이지입니다. 해당 시장에 상장된
+기업(Company)을 분류·집계하는 노드로, Company의 `market_page` 와 양방향으로 연결됩니다.
+
+```yaml
+---
+type: Market
+title: <시장명>                # 예: KOSPI (유가증권시장)
+description: <한 문장 시장 설명>
+market_code: KOSPI | KOSDAQ
+operator: 한국거래소(KRX)
+tags: [시장, <market_code>]
+timestamp: <YYYY-MM-DDTHH:MM:SSZ>
+---
+```
+
+**필수 섹션:**
+- `## 시장 개요` — 시장 성격, 상장요건 개요, 대표 지수
+- `## 상장기업` — 위키에 페이지가 존재하는 해당 시장 상장기업 목록 (`/companies/` 링크).
+  기업 수가 많으므로 산업·그룹별로 묶어도 됨. ingest로 신규 기업 추가 시 이 목록도 갱신.
 - `# Citations`
 
 ---
@@ -333,3 +360,4 @@ timestamp: <YYYY-MM-DDTHH:MM:SSZ>
 
 - 2026-06-26: 초기 8개 타입 등록 (Korean Company, Industry, Shareholder, Value Chain, Business Segment, Product, Annual Report, Analysis).
 - 2026-06-27: 타입 12개로 확장. `Korean Company`→`Company` 일반화(stub·group·market 필드 추가). 신규 타입 추가: Corporate Group, Executive, Financial Product, Credit Rating. 경쟁사 처리 원칙 명문화. Industry에 `## 경쟁 구도` 섹션 추가.
+- 2026-06-28: 타입 13개로 확장. 신규 타입 **Market**(`markets\`) 추가 — KOSPI·KOSDAQ 시장 분류 페이지. Company 스키마에 `market_page` 양방향 링크 필드 추가.

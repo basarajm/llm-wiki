@@ -7,7 +7,7 @@
 $root = Get-WikiRoot
 
 $dirLabels = [ordered]@{
-    'companies'='기업'; 'groups'='기업집단'; 'industries'='산업'; 'shareholders'='주주';
+    'companies'='기업'; 'markets'='시장'; 'groups'='기업집단'; 'industries'='산업'; 'shareholders'='주주';
     'value_chain'='밸류체인'; 'segments'='사업 부문'; 'products'='상품'; 'executives'='임원';
     'financial_products'='금융상품'; 'ratings'='신용평가'; 'sources'='사업보고서'; 'outputs'='분석 결과물'
 }

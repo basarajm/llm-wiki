@@ -50,6 +50,7 @@ Claude Code에서는 `.claude\commands\`의 슬래시 커맨드(`/ingest`, `/lin
 |---|---|
 | `wiki\index.md` / `wiki\log.md` | 전체 카탈로그 / 작업 이력 (예약 파일) |
 | `wiki\companies\` | 기업별 메인 페이지 (상장·비상장·해외 거래상대방 stub 포함) |
+| `wiki\markets\` | 상장 시장 페이지 (KOSPI·KOSDAQ) — 상장기업 분류·구성종목 |
 | `wiki\groups\` | 기업집단·그룹 페이지 |
 | `wiki\industries\` | 산업 분석 페이지 |
 | `wiki\shareholders\` | 주요 주주 페이지 |
@@ -172,6 +173,10 @@ timestamp: <YYYY-MM-DDTHH:MM:SSZ>
 - Shareholder 페이지 본문에 `→ [기업 페이지](/companies/기업명)`
 - Company `## 주요 주주`에 `/companies/` 링크 병기
   예: `- [삼성생명](/shareholders/삼성생명) — 8.5% | [기업 페이지](/companies/삼성생명)`
+
+**시장 ↔ 기업** — 기업이 KOSPI/KOSDAQ 상장사인 경우:
+- Company frontmatter `market: KOSPI|KOSDAQ` 및 `market_page: /markets/KOSPI|KOSDAQ`
+- Market `## 상장기업`에 `/companies/기업명` 링크 (신규 기업 ingest 시 목록 갱신)
 
 **그룹 ↔ 기업:**
 - Company frontmatter `group: /groups/그룹명`

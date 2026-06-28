@@ -46,3 +46,11 @@
 **Query** 시드 분석 3종 생성 — outputs/반도체_3사_비교, outputs/증권사_3사_비교, outputs/lint-report-2026-06-27.
 
 **Lint** 인제스트 직후 검진 — 콘텐츠 209페이지, OKF type/timestamp 위반 0건(통과). 깨진 링크 약 269건은 대부분 의도된 future-work 노드(미인제스트 계열사·해외 경쟁사·제품 SKU). 고아 10·양방향 누락 5(stub 보강 시 해소). 상세: outputs/lint-report-2026-06-27.
+
+## 2026-06-28
+
+**Taxonomy** Market(시장) 타입 신규 등록 — `markets\` 디렉토리, taxonomy 표·스키마·템플릿(engine/templates/market.md) 추가. Company 스키마에 `market_page` 양방향 링크 필드 추가. CLAUDE.md 양방향 규칙에 「시장 ↔ 기업」 추가. build-index.ps1에 markets 디렉토리 반영.
+
+**Creation** 시장 페이지 2종 생성 — markets/KOSPI(유가증권시장, 구성종목 27), markets/KOSDAQ(코스닥시장, 구성종목 4). 기존 상장사 31개 페이지(KOSPI 27·KOSDAQ 4)에 `market_page` frontmatter 추가하여 시장↔기업 양방향 연결.
+
+**Creation** DART 사업보고서 다운로드 파이프라인(dart_pipeline/) 추가 — KOSPI+KOSDAQ 2,641개사 최신 사업보고서를 정제 MD로 변환(dart_pipeline/dart_md/, git 제외). 향후 ingest 소스로 활용.

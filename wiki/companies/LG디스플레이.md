@@ -4,6 +4,7 @@ title: LG디스플레이
 description: LG그룹의 디스플레이 패널 제조사 — 대형 OLED·중소형 OLED·LCD
 ticker: "034220"
 market: KOSPI
+market_page: /markets/KOSPI
 industry: 디스플레이
 group: /groups/LG
 is_stub: true

@@ -4,6 +4,7 @@ title: KB금융지주
 description: 은행·증권·보험·카드를 아우르는 한국 최대 금융지주회사, 2025년 연결 당기순이익 5조 8,341억원
 ticker: "105560"
 market: KOSPI
+market_page: /markets/KOSPI
 industry: 금융지주
 group: /groups/KB금융
 is_stub: false
