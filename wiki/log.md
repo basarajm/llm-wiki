@@ -212,3 +212,9 @@
 **Ingest** 세아베스틸지주 (001430, KOSPI, 신규, 세아그룹 특수강 지주) — Full 인제스트. 신규 6종: companies/세아베스틸지주, sources, segments/세아베스틸지주_특수강·알루미늄압출부문, value_chain, executives/이태성·김수호. 핵심: 연결 매출 3.65조·영업이익 984억(+88%)·순이익 561억, 배당성향 68.6%, 국내 특수강 1위. 최대주주 세아홀딩스 61.72%·국민연금 7.85%. 공유노드: industries/철강·국민연금 반영. group_todo: 세아그룹(세아홀딩스·세아베스틸 stub 추후).
 
 **Ingest** 대한전선 (001440, KOSPI, 신규, 호반그룹) — Full 인제스트. 신규 5종: companies/대한전선, sources, segments/대한전선_전선부문(단일), value_chain, executives/송종민. 핵심: 연결 매출 3.64조(+10%)·영업이익 1,286억·순이익 899억, 신용 A0, 무배당. 최대주주 호반산업 41.95%(비상장)·국민연금 6.21%. 공유노드: industries/전선·국민연금 반영. group_todo: 호반그룹.
+
+**Ingest** 현대해상 (001450, KOSPI, 신규, 정몽윤 계열·현대차그룹 무관) — Full 인제스트. 신규 9종: companies/현대해상, sources, segments/현대해상_장기·자동차·일반보험·투자, value_chain, executives/이석현, ratings/현대해상 신용등급. 핵심: 연결 영업수익 17.9조·순이익 1.02조(사상 최대), K-ICS 190%, 손보 3위(M/S 17.5%). 최대주주 정몽윤 22.00%·국민연금 10.71%. 공유노드: industries/보험·국민연금 반영.
+
+**Ingest** BYC (001460, KOSPI, 신규, 비와이씨) — Full 인제스트. 신규 6종: companies/BYC, sources, segments/BYC_섬유제품·건설임대, value_chain, executives/한석범·김대환. 핵심: 연결 매출 1,632억·영업이익 266억(임대부문이 68% 기여, 자산주). 투자부동산 4,390억. 최대주주 신한에디피스 18.56%(특관 72.67%, 비상장). 공유노드: industries/섬유 반영.
+
+**Ingest** 삼부토건 (001470, KOSPI, 신규) — Full 인제스트. 신규 5종: companies/삼부토건, sources, segments/삼부토건_국내건설(단일), value_chain, executives/오일록. 핵심: 연결 매출 1,110억(-75%)·영업손실 -266억·완전자본잠식(-1,420억), 2025.3 회생절차 개시·2025.4 거래정지. 최대주주 디와이디 3.39%(소액주주 96.6%). 공유노드: industries/건설 반영.
