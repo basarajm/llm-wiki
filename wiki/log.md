@@ -308,3 +308,9 @@
 **Ingest** 신일전자 (002700, KOSPI, 신규) — Full 인제스트. 5종: companies/신일전자, sources, segments/신일전자_가전제품, value_chain, executives/정윤석. 핵심: 별도 매출 1,940억, 선풍기·계절가전 '신일' 브랜드(구 신일산업). 최대주주 김영 회장 10.78%. 공유노드 industries/가전 반영. 국민연금 없음.
 
 **Ingest** TCC스틸 (002710, KOSPI, 신규) — Full 인제스트. 6종: companies/TCC스틸, sources, segments/TCC스틸_표면처리강판, value_chain, executives/손봉락·손기영. 핵심: 연결 매출 6,115억(영업손실 -109억), 주석·니켈도금강판 등 표면처리강판(구 TCC동양), 이차전지용 Ni도금강판. 최대주주 손봉락 11.20%·손기영 7.43%. 공유노드 industries/철강 반영.
+
+**Ingest** 국제약품 (002720, KOSPI, 신규) — Full 인제스트. 6종: companies/국제약품, sources, segments/국제약품_의약품·노인복지용구, value_chain, executives/남태훈. 핵심: 연결 매출 1,755억(+12.2%)·영업이익 62억, 점안제·세팔로스포린 항생제 강점. 최대주주 ㈜우경 23.96%(비상장). 공유노드 industries/제약 반영. deferred: 우경·셀트리온제약 stub.
+
+**Ingest** 보락 (002760, KOSPI, 신규) — Full 인제스트. 6종: companies/보락, sources, segments/보락_식품첨가물부문·원료의약품부문, value_chain, executives/정기련. 핵심: 매출 501억·영업이익 22억, 식품향료·식품첨가물·생약 원료의약품(정밀화학). 최대주주 정기련 26.16%. 공유노드 industries/화학 반영. 국민연금 없음.
+
+**Ingest** 진흥기업 (002780, KOSPI, 신규, 효성그룹) — Full 인제스트. 7종: companies/진흥기업, sources, segments/진흥기업_민간건축·관급건축·관급토목, value_chain, executives/김태균. 핵심: 별도 매출 5,764억·영업손실 -230억(적자전환), 효성그룹 종합건설사(브랜드 효성해링턴플레이스). 최대주주 효성중공업 48.19%. 신규 그룹 효성·공유노드 industries/건설 반영. deferred: 효성중공업·㈜효성 Company/Shareholder stub.
