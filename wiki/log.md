@@ -644,3 +644,9 @@
 **Ingest** 문배철강 (008420, KOSPI, stub→Full 승격) — Full 인제스트. 6종: companies/문배철강(승격), sources, segments/문배철강_철강제조유통·부동산임대, value_chain, executives/이창환·배종민(갱신). 핵심: 별도 매출 1,379억·영업손실 -10억·순이익 59억(지분법). 포스코 1차 열연대리점, NI스틸 39.72% 최대주주. 최대주주 배종민 15.05%·배승준 14.48%, 국민연금 없음. industries/철강 반영. stub 없음.
 
 **Ingest** 서흥 (008490, KOSPI, 신규) — Full 인제스트. 6종+stub6: companies/서흥, sources, segments/서흥_캡슐·원료·화장품, value_chain, executives/양주환. 핵심: 연결 매출 7,223억·영업이익 502억(+48%)·순이익 471억(+119%). 하드캡슐 국내 1위·건강기능식품 OEM/ODM. 최대주주 양주환 25.01% 외 52.83%, 국민연금 없음. 신용 A-. industries/제약 반영. stub: 내츄럴엔도텍·콜마비앤에이치·노바렉스·코스맥스엔비티·코스맥스·한국콜마.
+
+**Ingest** 일정실업 (008500, KOSPI, 신규) — Full 인제스트. 9종+stub2: companies/일정실업, sources, segments/일정실업_자동차시트원단, value_chain, executives/고동수·송재민·이재철·최선철. 핵심: 별도 매출 366억(-15.8%)·영업이익 15억·순이익 165억(일회성 처분·중단영업이익). 자동차 시트 원단·인조가죽(현대차·기아). 최대주주 고동수 20.64% 외 ~62%, 국민연금 없음. industries/자동차부품 반영. stub: 두올·용산.
+
+**Ingest** 윌비스 (008600, KOSPI, 신규, 윌비스그룹) — Full 인제스트. 7종+stub7: companies/윌비스, sources, segments/윌비스_섬유·교육, value_chain, executives/이태규·전병현. 핵심: 연결 매출 1,883억·영업손실 -210억·순손실 -364억(종속기업 손상). 의류 OEM(67.6%)+교육(32.3%). 최대주주 전병현 11.62%, 국민연금 없음. 신규 그룹 윌비스그룹 생성·industries/패션 반영. stub: 나무경영아카데미·THE WILLBES DOMINCANA·THE WILLBES HAITIAN·GAP·HANESBRANDS·THE CHILDRENS PLACE·KOHLS.
+
+**Ingest** 아남전자 (008700, KOSPI, 신규) — Full 인제스트. 7종+stub9: companies/아남전자, sources, segments/아남전자_TA·NCA, value_chain, executives/유성준·박준구. 핵심: 매출 151.4M USD(약 2,153억, -41% 2년)·영업이익 3.37M USD·순이익 4.14M USD(기능통화 USD). 홈오디오·스마트 스피커 ODM, 단일 고객 73% 의존. 최대주주 (유)아남 20.23%·페트로스 12.13%, 국민연금 없음. industries/전자부품 반영. stub: D&M·Harman_Kardon·Yamaha·유아남·페트로스·아남전자베트남유한회사·아남전자홍콩유한공사·동관신품전자유한공사.
