@@ -698,3 +698,9 @@
 **Ingest** HD한국조선해양 (009540, KOSPI, 신규, HD현대그룹) — Full 인제스트. 13종+stub5: companies/HD한국조선해양, sources, segments/HD한국조선해양_조선·엔진기계·해양플랜트·그린에너지, value_chain, executives/김성준(+정기선 갱신). 핵심: 연결 매출 29.9조(+17.2%)·영업이익 3.9조(+172%)·순이익 2.93조(사상 최대, 조선 슈퍼사이클). 조선 중간지주. 최대주주 HD현대 35.08%·국민연금 7.44%. 신규 산업 조선 생성·groups/HD현대(기존 등재)·shareholders/HD현대·국민연금 반영. stub: HD현대중공업·HD현대삼호·HD현대미포(2025.12 합병소멸)·HD현대마린엔진·HD현대에너지솔루션·HD현대엠엔에스.
 
 **Ingest** 무림P&P (009580, KOSPI, stub→Full 승격, 무림그룹) — Full 인제스트. 5종+stub1: companies/무림P&P(승격), sources, segments/무림P&P_펄프·제지, value_chain, executives/이도균(갱신). 핵심: 연결 매출 7,316억(-9.9%)·영업손실 -245억·순손실 -331억(펄프 적자). 국내 유일 표백화학펄프 일관생산. 최대주주 무림페이퍼 66.97%, 국민연금 없음. industries/제지 반영. stub: 풍림.
+
+**Ingest** 모토닉 (009680, KOSPI, 신규) — Full 인제스트. 8종+stub1: companies/모토닉, sources, segments/모토닉_연료시스템·전장·파워트레인, value_chain, executives/김희진·신현돈. 핵심: 연결 매출 2,797억·영업이익 185억·순이익 270억(무차입 우량). 자동차 연료시스템(LPI)·전장·파워트레인. 최대주주 김희진 17.68% 외 45.68%(오너 일가), 국민연금 없음. industries/자동차부품 반영. stub: 현대케피코.
+
+**Ingest** 삼정펄프 (009770, KOSPI, 신규) — Full 인제스트. 6종+stub4: companies/삼정펄프, sources, segments/삼정펄프_원지·완제품, value_chain, executives/전성오. 핵심: 별도 매출 1,486억(-9.3%)·영업손실 -14억(적자전환)·순이익 314억(영업외). 위생용지(화장지·티슈) 원지·완제품. 최대주주 전성오 24.52% 외 73.93%(가족), 국민연금 없음. industries/제지 반영. stub: 유한킴벌리·쌍용씨앤비·미래생활·모나리자.
+
+**Ingest** 플레이그램 (009810, KOSPI, 신규) — Full 인제스트. 8종+stub5: companies/플레이그램, sources, segments/플레이그램_엠알오·영상콘텐츠·임베디드SW, value_chain, executives/김재욱·선영. 핵심: 연결 매출 2,509억·영업손실 -44억·순손실 -30억(별도는 흑전). 임베디드SW(MDS테크 75%)+MRO+영상콘텐츠 복합. 최대주주 트라이콘1호투자조합 19.20%, 국민연금 없음. 복합사업으로 산업 등재 생략. stub: MDS테크·문라이트이엔티·안컴퍼니·와이웍스엔터테인먼트·큐브릭스튜디오.
