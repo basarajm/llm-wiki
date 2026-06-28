@@ -680,3 +680,9 @@
 **Ingest** 광동제약 (009290, KOSPI, 신규, 광동그룹) — Full 인제스트. 11종+stub5: companies/광동제약, sources, segments/광동제약_약국영업·병원영업·FnB, value_chain, executives/최성원·박상영. 핵심: 연결 매출 1.66조·영업이익 310억·순이익 213억. 제약(OTC·ETC)+음료/먹는샘물(삼다수·비타500, F&B 50%). 최대주주 최성원 6.59%·FIDELITY 9.99%·가산문화재단 5.00%, 국민연금 없음. 신규 그룹 광동그룹 생성·industries/제약 반영. stub: 제주특별자치도개발공사·광동생활건강·가산·코리아이플랫폼.
 
 **Ingest** 참엔지니어링 (009310, KOSPI, 신규, HB그룹) — Full 인제스트. 6종+stub2: companies/참엔지니어링, sources, segments/참엔지니어링_제조서비스·금융, value_chain, executives/이경희. 핵심: 연결 매출 598억·영업손실 -75억·순손실 -136억(장비 본업 적자, 연결은 참저축은행 위주). 디스플레이 리페어 장비+저축은행. 2025.04 5:1 무상감자. 최대주주 에이치비홀딩스그룹 30.64%, 국민연금 없음. 신규 그룹 HB그룹 생성·industries/디스플레이 반영. stub: BOE·참저축은행.
+
+**Ingest** 아진전자부품 (009320, KOSPI, 신규, 아진그룹) — Full 인제스트. 6종+stub5: companies/아진전자부품, sources, segments/아진전자부품_자동차전장, value_chain, executives/서중호·문종은. 핵심: 연결 매출 1,518억(+5.8%)·영업이익 63억·순이익 44억(미국향 7배). 자동차 전장(EV 승온히터·OBC·LED 램프). 최대주주 우신산업 13.7% 외 38.5%, 국민연금 없음. 신규 그룹 아진그룹 생성·industries/자동차부품 반영. stub: 한온시스템·에이치엘만도·BorgWarner·Ficosa·아진산업.
+
+**Ingest** 태영건설 (009410, KOSPI, 신규, 태영그룹) — Full 인제스트. 10종+stub3: companies/태영건설, sources, segments/태영건설_건설·임대·레저, value_chain, executives/최금락·최진국. 핵심: 연결 매출 2.17조·영업이익 528억·순이익 958억(2023 워크아웃·완전자본잠식→차등감자·출자전환으로 2025 자본 회복). 최대주주 TY홀딩스 58.10%·산업은행 11.47%, 국민연금 없음. 신규 그룹 태영그룹 생성·industries/건설 반영. stub: TY홀딩스·유진기업·한국철강.
+
+**Ingest** 한올바이오파마 (009420, KOSPI, 신규, 대웅그룹) — Full 인제스트. 6종+stub6: companies/한올바이오파마, sources, segments/한올바이오파마_의약품, value_chain, executives/정승원_한올바이오파마·박수진(+윤재춘 갱신). 핵심: 연결 매출 1,552억(+12%)·영업손실 -9억·순손실 -56억(R&D). 전문약+자가면역 항체신약(HL161/바토클리맙). 최대주주 대웅제약 30.85%·국민연금 8.23%. groups/대웅그룹(한올 승격 링크)·industries/제약·국민연금 반영. stub: 대웅제약·Immunovant·Roivant Sciences·Harbour BioMed·NurrOn Pharmaceuticals·HPI.
