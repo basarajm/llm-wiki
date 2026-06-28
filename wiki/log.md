@@ -560,3 +560,9 @@
 **Ingest** 한국전자홀딩스 (006200, KOSPI, 신규, KEC그룹 지주) — Full 인제스트. 7종: companies/한국전자홀딩스, sources, segments/한국전자홀딩스_반도체·서비스, value_chain, executives/곽정소·박명덕. 핵심: 연결 매출 2,759억·영업손실 -141억(3년 적자), 전력반도체 KEC 거느린 순수지주. 최대주주 곽정소 21.34%·㈜광양 9.49%. 신규 그룹 KEC그룹·공유노드 industries/지주회사 반영. deferred: KEC stub.
 
 **Ingest** 제주은행 (006220, KOSPI, 신규, 신한금융) — Full 인제스트. 9종+stub: companies/제주은행(+더존비즈온 stub), sources, segments/제주은행_여신·수신, value_chain, executives/이희수·박찬호·우영웅, ratings(AA+/Moody's A2). 핵심: 연결 순이익 139억(+33.7%)·자산 8.0조, 제주 지방은행. 최대주주 신한금융지주 64.01%·더존비즈온 14.99%. 신규 산업 은행·공유노드 groups/신한금융 반영.
+
+**Ingest** LS (006260, KOSPI, 신규, LS그룹 지주) — Full 인제스트. 11종: companies/LS, sources, segments/LS_전선·일렉트릭·엠앤엠·엠트론·아이앤디, value_chain, executives/명노현·구자은·구자열. 핵심: 연결 매출 31.9조·영업이익 1.05조·순이익 4,851억, LS전선·LS일렉트릭·LS MnM·E1 거느린 지주(MnM 44%·전선 23%·일렉트릭 15%). 최대주주 구자열 외 32.60%·국민연금 13.49%. 신규 그룹 LS·공유노드 industries/지주회사·국민연금 반영. deferred: LS일렉트릭·E1 등 상장 자회사 stub.
+
+**Ingest** 녹십자 (006280, KOSPI, 신규, GC그룹, GC녹십자) — Full 인제스트. 7종: companies/녹십자, sources, segments/녹십자_혈액제제·백신제제·일반제제, value_chain, executives/허은철. 핵심: 연결 매출 1.99조(+18.5%)·영업이익 692억·순손실 -297억(별도 흑자), 혈액제제(알리글로 미국)·백신·처방약. 최대주주 녹십자홀딩스 50.06%·국민연금 7.86%. 공유노드 industries/제약·groups/녹십자·국민연금 반영.
+
+**Ingest** 대원전선 (006340, KOSPI, 신규) — Full 인제스트. 8종+stub: companies/대원전선(+LS전선·일진전기·한화솔루션 stub), sources, segments/대원전선_전선부문·자동차알루미늄휠부문, value_chain, executives/서명환. 핵심: 연결 매출 6,245억(+13%, 휠부문 추가)·영업이익 94억, 전력케이블·권선+자동차 알루미늄휠(대원알텍). 최대주주 갑도물산 21.17%. 공유노드 industries/전선 반영.
