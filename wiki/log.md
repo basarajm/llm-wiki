@@ -278,3 +278,9 @@
 **Ingest** 고려제강 (002240, KOSPI, 신규, KISWIRE) — Full 인제스트. 신규 6종: companies/고려제강, sources, segments/고려제강_로프·선재부문, value_chain, executives/주종대. 핵심: 연결 매출 1.81조·영업이익 407억·순이익 46억(손상차손), 무차입(자본 1.96조), 와이어로프 국내 1위(~55%). 최대주주 홍석표 20.07%(특관 67.79%, 키스와이어홀딩스 등). 공유노드: industries/철강 반영. group_todo: 고려제강(KISWIRE)그룹.
 
 **Ingest** 아세아제지 (002310, KOSPI, 신규, 아세아그룹) — Full 인제스트. 신규 6종: companies/아세아제지, sources, segments/아세아제지_제지·골판지부문, value_chain, executives/유승환·이현탁. 핵심: 연결 매출 8,551억·영업이익 272억·순이익 296억, 부채비율 22%, 배당 250원. 골판지원지. 최대주주 아세아 52.19%(/companies/아세아). 공유노드: industries/제지 반영. group_todo: 아세아그룹.
+
+**Ingest** 한진 (002320, KOSPI, 신규, 한진그룹) — Full 인제스트. 신규 8종: companies/한진, sources, segments/한진_택배·물류·글로벌·에너지, value_chain, executives/노삼석·조에밀리리. 핵심: 연결 매출 3.06조·영업이익 1,122억·연결순이익 9.8억(지배 -16억 적자), 배당 600원, 회사채 BBB+. 최대주주 한진칼 30.20%(KOSPI). 공유노드: industries/물류 반영. group_todo: 한진그룹(한진칼·대한항공).
+
+**Ingest** 넥센타이어 (002350, KOSPI, 신규, 넥센그룹) — Full 인제스트. 신규 6종: companies/넥센타이어, sources, segments/넥센타이어_타이어부문, value_chain, executives/강호찬·강병중. 핵심: 연결 매출 3.19조(+12%)·영업이익 1,703억·순이익 1,512억, 유럽 41%(체코공장). 최대주주 (주)넥센 46.48%(KOSPI)·강병중 19.45%. 공유노드 신규: industries/타이어. group_todo: 넥센그룹.
+
+**Ingest** SH에너지화학 (002360, KOSPI, 신규) — Full 인제스트. 신규 7종: companies/SH에너지화학, sources, segments/SH에너지화학_합성수지·자원개발, value_chain, executives/정규봉·서미혜. 핵심: 연결 매출 986억·3년 연속 적자(영업 -123억), 무차입(자본 697억). EPS레진(발포폴리스티렌). 최대주주 Realty Advisors 31.06%(미국 비상장). 공유노드: industries/화학 반영.
