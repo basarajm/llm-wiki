@@ -398,3 +398,9 @@
 **Ingest** 한성기업 (003680, KOSPI, 신규) — Full 인제스트. 6종: companies/한성기업, sources, segments/한성기업_식품부문·해외부문, value_chain, executives/임우근·임준호. 핵심: 매출 3,184억·영업이익 58억, 수산물 가공(국내 최초 게맛살)·원양어업. 최대주주 극동수산 17.59%·임우근 16.65%. 공유노드 industries/식품 반영. deferred: 극동수산 stub.
 
 **Ingest** 코리안리 (003690, KOSPI, 신규) — Full 인제스트. 10종+ratings: companies/코리안리, sources, segments/코리안리_일반손해보험재보험·장기손해보험재보험·생명재보험·투자영업, value_chain, executives/원종규·원종익, ratings(A.M.Best A/S&P A+/Moody's A1). 핵심: 영업수익 6.70조·영업이익 4,709억·순이익 3,220억, 국내 유일 전업 재보험사. 주주 장인순 외 20.33%·신영증권 9.45%·국민연금 6.86%. 공유노드 industries/보험·국민연금 반영.
+
+**Ingest** 삼영 (003720, KOSPI, 신규, 구 삼영화학공업) — Full 인제스트. 8종: companies/삼영, sources, segments/삼영_필름부문·조선기자재부문, value_chain, executives/이석준·조영한·이영무. 핵심: 연결 매출 1,532억·영업이익 149억·순이익 150억, 필름커패시터용 콘덴서필름(PPC)·BOPP포장필름·조선기자재. 최대주주 이석준 23.11%. 공유노드 industries/전자부품 반영. (삼영무역·삼영전자공업과 별개)
+
+**Ingest** 진양산업 (003780, KOSPI, 신규, 진양그룹/KPX 계열) — Full 인제스트. 7종: companies/진양산업, sources, segments/진양산업_제조부문·자동차부문, value_chain, executives/최원석·양준영. 핵심: 연결 매출 907억·영업이익 84억, 폴리우레탄 폼(국내 ~20%). 최대주주 진양홀딩스 51.21%. 신규 그룹 진양그룹·공유노드 industries/화학 반영. deferred: KPX케미칼·진양홀딩스 stub.
+
+**Ingest** 대한화섬 (003830, KOSPI, 신규, 태광그룹) — Full 인제스트. 7종+stub: companies/대한화섬(+코오롱인더스트리 stub), sources, segments/대한화섬_폴리에스터·임대, value_chain, executives/김대정. 핵심: 개별 매출 1,082억·영업손실 -73억·순이익 96억(지분법), 폴리에스터 필라멘트(ACEPORA), 태광산업 PTA 수직계열. 최대주주 티알엔 33.53%·이호진 20.04%. 공유노드 industries/화학·섬유·groups/태광 반영.
