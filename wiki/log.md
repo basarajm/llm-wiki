@@ -146,3 +146,9 @@
 **Ingest** 영풍 (000670, KOSPI, 신규, 영풍그룹) — Full 인제스트. 신규 6종: companies/영풍, sources, segments/영풍_제련·전자부품부문, value_chain, executives/김기호. 핵심: 연결 매출 2.91조·별도 제련 영업손실 -2,777억, 연결 순이익 309억(고려아연 지분법). 고려아연 27.06% 보유(장부 3.24조), 영풍-고려아연 경영권 분쟁. 최대주주 장세준 17.90%(특관 70.31%). 신용등급 A+. 공유노드 신규: industries/비철금속. group_todo: 영풍그룹.
 
 **Ingest** LS네트웍스 (000680, KOSPI, 신규, LS그룹) — Full 인제스트. 신규 6종: companies/LS네트웍스, sources, segments/LS네트웍스_브랜드·임대·유통, value_chain, executives/문성준. 핵심: 2024 LS증권 연결편입으로 연결 매출 2.62조(별도 1,759억). 별도 영업이익 9억·순손실 -235억. 최대주주 E1 81.79%(KOSPI 017940). 공유노드 신규: industries/유통. group_todo: LS그룹.
+
+**Ingest** 유수홀딩스 (000700, KOSPI, 신규, 구 한진해운홀딩스) — Full 인제스트. 신규 6종: companies/유수홀딩스, sources, segments/유수홀딩스_종합물류·IT, value_chain, executives/송영규. 핵심: 연결 매출 4,185억·영업이익 212억(IT 부문이 이익 견인, 종합물류 적자전환). 최대주주 최은영 18.11%(특관 다수, 개인·재단). group_todo: 유수홀딩스그룹(유수로지스틱스·싸이버로지텍 stub 추후).
+
+**Ingest** 현대건설 (000720, KOSPI, 신규, 현대차그룹) — Full 인제스트. 신규 8종: companies/현대건설, sources, segments/현대건설_건축주택·플랜트·토목·기타, value_chain, executives/이한우. 핵심: 연결 매출 31.1조·영업이익 6,530억(2024 적자→흑전)·순이익 5,591억, 회사채 AA-. 최대주주 현대자동차 20.95%·국민연금 11.08%·현대모비스 8.73%·기아 5.24%. 공유노드 신규: industries/건설. shareholders/현대자동차·기아·현대모비스·국민연금 및 groups/현대차에 현대건설 반영. (현대엔지니어링 stub 추후)
+
+**Ingest** 이화산업 (000760, KOSPI, 신규) — Full 인제스트. 신규 7종: companies/이화산업, sources, segments/이화산업_유통·염료·임대사업부문, value_chain, executives/홍성우·조규완. 핵심: 연결 매출 463억·영업손실 -2억(적자전환)·순손실 -21억(3년 연속), 무배당, 자산의 76%가 투자부동산. 최대주주 조규완 24.89%(특관 72.80%). 산업: 화학(염료·화학품 유통).
