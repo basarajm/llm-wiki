@@ -14,5 +14,6 @@
 * [BlackRock Fund Advisors](/shareholders/BlackRock) - 삼성전자 지분 5.07%를 보유한 세계 최대 자산운용사
 * [HD현대](/shareholders/HD현대) - HD현대일렉트릭의 최대주주인 HD현대그룹 지주회사
 * [(주)LG](/shareholders/LG) - LG전자의 최대주주인 LG그룹 지주회사
+* [LG전자](/shareholders/LG전자) - LG이노텍의 최대주주(40.79%)인 LG그룹 핵심 전자 사업회사
 * [SK스퀘어](/shareholders/SK스퀘어) - SK하이닉스의 최대주주인 SK그룹 반도체·ICT 중간지주회사
 

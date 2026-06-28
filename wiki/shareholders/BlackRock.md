@@ -20,6 +20,7 @@ BlackRock Fund Advisors는 세계 최대 자산운용사 BlackRock 계열의 펀
 | 기업 | 지분율 | 비고 |
 |---|---|---|
 | [삼성전자](/companies/삼성전자) | 5.07% | 5% 이상 주주 |
+| [포스코](/companies/포스코) | 5.20% | 5% 이상 주주(BlackRock, Inc. 명의) |
 
 ## 투자 성향
 

@@ -56,3 +56,9 @@
 **Creation** DART 사업보고서 다운로드 파이프라인(dart_pipeline/) 추가 — KOSPI+KOSDAQ 2,641개사 최신 사업보고서를 정제 MD로 변환(dart_pipeline/dart_md/, git 제외). 향후 ingest 소스로 활용.
 
 **Ingest** 기아 (000270, KOSPI, 현대차그룹) — dart_md 사업보고서 기반 Full 인제스트(stub→full). 신규/갱신 7종: companies/기아, sources/기아_2025_사업보고서, segments/기아_완성차(단일 보고부문), value_chain/기아_밸류체인, executives/송호성·최준영. 핵심: 연결 매출 114.1조(+6.2%, 사상 최대)·영업이익 9.08조(-28.3%, 미국 관세)·순이익 7.55조, 영업이익률 8.0%. 최대주주 현대자동차 35.17%·국민연금 7.25%. 회사채 AAA. 공유노드 갱신: shareholders/현대자동차·국민연금공단에 기아 보유 반영, 계열사 stub 2종 생성(현대제철·현대글로비스).
+
+**Ingest** LG이노텍 (011070, KOSPI, LG그룹) — dart_md 사업보고서 기반 Full 인제스트(stub→full). 신규/갱신 7종: companies/LG이노텍, sources/LG이노텍_2025_사업보고서, segments/LG이노텍_광학솔루션·패키지솔루션·모빌리티솔루션, value_chain/LG이노텍_밸류체인, executives/문혁수·박지환. 핵심: 연결 매출 21.9조(+3.3%)·영업이익 6,650억(-5.8%)·순이익 3,413억(-24.0%), 영업이익률 3.0%. 부문 비중 광학솔루션 83.6%(영익 4,822억)·모빌리티솔루션 8.5%·패키지솔루션 7.9%. 단일 대형고객(애플 추정) 매출 17.83조(총매출 ~81%)·상위 10개 고객 ~87%. 최대주주 LG전자 40.79%(최대주주의 최대주주 (주)LG 35.26%)·국민연금 10.43%. 회사채 AA-/CP·단기사채 A1. 대표이사 문혁수(2024.03 선임). 배당성향 13%(밸류업: 2030년 20% 목표). 공유노드 미수정(STEP4 지침) — 추후 shareholders/LG전자 생성·양방향, /groups/LG 계열사 갱신 필요.
+
+**Ingest** (주)LG (003550, KOSPI, LG그룹 지주회사) — Full 인제스트(stub→full). 신규/갱신 7종: companies/LG, sources/LG_2025_사업보고서, segments/LG_지주사업, value_chain/LG_밸류체인, executives/구광모·권봉석·하범종. 핵심: 별도 영업수익 8,850억(배당 3,893·상표권 3,490), 연결 매출 7.25조·순이익 1.00조. 최대주주 구광모 16.27%(특수관계인 합산 42.54%)·Silchester 7.24%·국민연금 6.76%. 배당성향(연결) 64.86%. 공유노드 갱신: groups/LG에 LG씨엔에스 추가, shareholders/국민연금공단에 LG 반영, companies/LG씨엔에스 stub 생성.
+
+**Ingest** 포스코홀딩스 (005490, KOSPI, 노드명 포스코) — Full 인제스트(stub→full). 신규/갱신 8종: companies/포스코, sources/포스코홀딩스_2025_사업보고서, segments/포스코홀딩스_철강·이차전지소재·인프라, value_chain/포스코홀딩스_밸류체인, executives/장인화·이주태·천성래. 핵심: 연결 매출 69.1조·영업이익 1.83조·지배주주순이익 6,577억, 주당배당 10,000원. 소유분산기업(최대주주 국민연금 7.96%·BlackRock 5.20%). 공유노드 신규: groups/포스코, industries/철강, companies/포스코퓨처엠·포스코인터내셔널 stub. shareholders/국민연금공단·BlackRock에 포스코 반영.
