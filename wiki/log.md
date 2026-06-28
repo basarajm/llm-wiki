@@ -344,3 +344,9 @@
 **Ingest** 에이프로젠바이오로직스 (003060, KOSPI, 신규, 에이프로젠그룹) — Full 인제스트. 9종+stub: companies/에이프로젠바이오로직스(+에이프로젠 stub), sources, segments/제약사업·바이오사업·반도체장비부품사업, value_chain, executives/김재섭·김정출·강종수. 핵심: 연결 매출 732억·영업손실 -604억, 합성 제네릭+바이오시밀러 CMO(오송)+반도체부품. 최대주주 ㈜에이프로젠 56.87%. 신규 그룹 에이프로젠·공유노드 industries/제약 반영.
 
 **Ingest** 코오롱글로벌 (003070, KOSPI, 신규, 코오롱그룹) — Full 인제스트. 7종: companies/코오롱글로벌, sources, segments/코오롱글로벌_건설·상사·레저, value_chain, executives/김정일. 핵심: 연결 매출 2.68조·순손실 -2,004억, 건설(하늘채)+상사·수입차·레저. 최대주주 ㈜코오롱 72.70%·이웅열 9.14%. 신규 그룹 코오롱·공유노드 industries/건설 반영. 이규호 겸직 링크.
+
+**Ingest** SB성보 (003080, KOSPI, 신규, 구 성보화학) — Full 인제스트. 6종: companies/SB성보, sources, segments/SB성보_작물보호제·임대, value_chain, executives/윤정선. 핵심: 별도 매출 637억(작물보호제 94%)·영업손실 -54억·순이익 332억(처분익). 최대주주 윤정선 33.87%. 공유노드 industries/화학 반영. 국민연금 없음.
+
+**Ingest** 대웅 (003090, KOSPI, 신규, 대웅그룹) — Full 인제스트. 6종: companies/대웅, sources, segments/대웅_지주사업·의약품, value_chain, executives/윤재춘. 핵심: 연결 매출 2.07조(+6.8%)·영업이익 2,618억·순이익 2,279억(+231%), 대웅제약그룹 지주(35개 종속). 최대주주 윤재승 11.64%·대웅재단 9.98%. 신규 그룹 대웅그룹·공유노드 industries/지주회사 반영. deferred: 대웅제약(069620)·한올바이오파마(009420) stub.
+
+**Ingest** 대신밸류리츠 (0030R0, KOSPI, FY2026, 신규, 대신금융그룹 스폰서) — Full 인제스트. 5종: companies/대신밸류리츠, sources, segments/대신밸류리츠_대신343오피스, value_chain, executives/김광진_대신밸류리츠. 핵심: 위탁관리 상장리츠(명목회사), 자산총계 7,193억·단일 오피스 '대신343'·단일임차인 Triple-Net, LTV ~56.5%, 분기 DPS 73원. 주주 한투증권 19.50%·대신증권 18.40%. 신규 산업 리츠·신규 그룹 대신금융그룹 생성.
