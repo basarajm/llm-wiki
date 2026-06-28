@@ -164,3 +164,9 @@
 **Ingest** 보해양조 (000890, KOSPI, 신규) — Full 인제스트. 신규 5종: companies/보해양조, sources, segments/보해양조_주류(단일), value_chain, executives/조영석. 핵심: 별도 매출 899억·영업이익 38억(흑전), 무배당, 자사주 소각. 최대주주 창해에탄올 21.64%(KOSDAQ). 공유노드: industries/주류 반영. group_todo: 창해에탄올그룹.
 
 **Ingest** 유니온 (000910, KOSPI, 신규) — Full 인제스트. 신규 7종: companies/유니온, sources, segments/유니온_시멘트제조·페라이트·세라믹, value_chain, executives/이건영·이우선. 핵심: 연결 매출 2,024억·영업이익 55억(흑전, 세라믹 견인)·순이익 256억(영업외), 배당 125원. 백시멘트 국내 선도. 최대주주 이건영 23.91%(특관 39.63%). 공유노드 신규: industries/시멘트. (유니온머티리얼 stub 추후)
+
+**Ingest** 전방 (000950, KOSPI, 신규, FY2024) — Full 인제스트. 신규 6종: companies/전방, sources, segments/전방_섬유제품제조(단일), value_chain, executives/조덕현·조규옥. 핵심: 연결 매출 572억·3년 연속 영업적자(-85억), 순이익 흑전(89억, 영업외), 배당 1,000원. 최대주주 삼영엔지니어링(특관 16.97%, 비상장). 공유노드: industries/섬유 반영.
+
+**Ingest** 한국주철관공업 (000970, KOSPI, 신규) — Full 인제스트. 신규 7종: companies/한국주철관공업, sources, segments/한국주철관공업_주철관·강관·화장품부문, value_chain, executives/김태형·김길출. 핵심: 연결 매출 4,066억·영업이익 133억·순이익 171억, 부채비율 17%, 배당성향 50.7%. 최대주주 마천캐스트 15.2%(특관, 비상장). 공유노드: industries/철강 반영.
+
+**Ingest** DB하이텍 (000990, KOSPI, 신규, DB그룹) — Full 인제스트. 신규 6종: companies/DB하이텍, sources, segments/DB하이텍_반도체·부동산, value_chain, executives/조기석. 핵심: 연결 매출 1.40조(+23.5%)·영업이익 2,773억(영업이익률 20%)·순이익 2,526억, 8인치 아날로그·전력반도체 파운드리. 최대주주 DB Inc. 19.52%·국민연금 7.73%. 신용 A-. 공유노드: industries/반도체·국민연금 반영. group_todo: DB그룹.
