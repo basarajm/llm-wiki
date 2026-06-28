@@ -542,3 +542,9 @@
 **Ingest** 대한해운 (005880, KOSPI, 신규, SM그룹) — Full 인제스트. 7종: companies/대한해운, sources, segments/대한해운_벌크선·LNG선·탱커선, value_chain, executives/이동수. 핵심: 연결 매출 1.28조·영업이익 2,072억(16.2%), 벌크·LNG·탱커 전용선(포스코·한국가스공사 장기계약). 최대주주 에스엠상선 23.58%·우방 21.38%. 신규 그룹 SM·공유노드 industries/해운 반영.
 
 **Ingest** NH투자증권 (005940, KOSPI, 신규, 농협금융) — Full 인제스트. 8종+ratings: companies/NH투자증권, sources, segments/NH투자증권_Sales·IB·Trading, value_chain, executives/윤병운, ratings(AA+/A1). 핵심: 연결 영업수익 15.4조·영업이익 1.42조·순이익 1.03조(사상 첫 1조, +50%)·자기자본 9.4조 초대형 IB. 최대주주 농협금융지주 61.94%·국민연금 8.21%. 신규 그룹 농협·공유노드 industries/증권·국민연금 반영.
+
+**Ingest** 이수화학 (005950, KOSPI, 신규, 이수그룹) — Full 인제스트. 7종: companies/이수화학, sources, segments/이수화학_석유화학·건설·의약, value_chain, executives/김동민·주봉진. 핵심: 연결 매출 1.66조·영업이익 69억(흑전)·순손실 -405억(3년 적자), 세제원료 LAB·NP 국내 유일+건설·바이오. 최대주주 ㈜이수 34.73%. 신규 그룹 이수·공유노드 industries/화학 반영. (전고체 소재는 2023 이수스페셜티케미컬로 분할)
+
+**Ingest** 동부건설 (005960, KOSPI, 신규) — Full 인제스트. 6종: companies/동부건설, sources, segments/동부건설_건설부문·기타부문, value_chain, executives/윤진오·허상희. 핵심: 연결 매출 1.76조·영업이익 426억(흑전), 토목·건축(브랜드 센트레빌), 한국토지신탁 계열(DB그룹과 분리). 최대주주 키스톤에코프라임 56.22%(한국토지신탁 87.43% 지배). 공유노드 industries/건설 반영. deferred: 한국토지신탁·동부엔지니어링 stub.
+
+**Ingest** 동원산업 (006040, KOSPI, 신규, 동원그룹 지주격) — Full 인제스트. 10종: companies/동원산업, sources, segments/동원산업_수산·식품가공유통·포장·물류, value_chain, executives/김남정·김세훈·박상진·장인성. 핵심: 연결 매출 9.58조·영업이익 5,161억·순이익 3,871억, 원양어업(참치 StarKist)·식품(동원F&B)·포장(동원시스템즈)·물류. 최대주주 김남정 53.74%·김재철 13.51%. 신규 그룹 동원·공유노드 industries/식품 반영. deferred: 동원시스템즈 stub.
