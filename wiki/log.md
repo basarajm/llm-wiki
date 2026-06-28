@@ -410,3 +410,9 @@
 **Ingest** 남양유업 (003920, KOSPI, 신규) — Full 인제스트. 9종+stub: companies/남양유업(+롯데웰푸드 stub), sources, segments/남양유업_우유류·분유류·기타, value_chain, executives/김승언·윤여을. 핵심: 연결 매출 9,141억·영업이익 52억(흑자전환), 유가공(우유·분유·음료). 최대주주 한앤코유업홀딩스 63.2%(한앤컴퍼니 PEF, 2024 인수). 공유노드 industries/식품 반영. deferred: 한앤컴퍼니 shareholder.
 
 **Ingest** 사조대림 (003960, KOSPI, 신규, 사조그룹) — Full 인제스트. 7종: companies/사조대림, sources, segments/사조대림_식품부문·수산부문, value_chain, executives/김상훈·주진우·주지홍. 핵심: 연결 매출 3.50조(+32%)·영업이익 947억·순손실 -736억(적자전환, 별도 흑자), 어묵·맛살·식용유·참치+원양어업. 최대주주 사조씨푸드 17.12% 등 계열 72.63%. 신규 그룹 사조·공유노드 industries/식품 반영. deferred: 사조산업·사조오양·사조씨푸드 등 계열 stub(보고서 보유).
+
+**Ingest** 롯데정밀화학 (004000, KOSPI, 신규, 롯데그룹, 구 삼성정밀화학) — Full 인제스트. 9종+stub: companies/롯데정밀화학(+롯데케미칼 stub), sources, segments/롯데정밀화학_케미칼사업·그린소재사업, value_chain, executives/정승원·김기순·윤희용. 핵심: 연결 매출 1.75조·영업이익 744억·순이익 1,061억(무차입), ECH·가성소다·셀룰로스(메셀로스). 최대주주 롯데케미칼 43.50%·국민연금 8.30%. 신규 그룹 롯데·공유노드 industries/화학·국민연금 반영.
+
+**Ingest** 현대제철 (004020, KOSPI, stub→Full 승격, 현대차그룹) — Full 인제스트. 6종+승격: companies/현대제철(stub→Full), sources, segments/현대제철_판재·봉형강, value_chain, executives/이보룡. 핵심: 별도 매출 17.80조·영업이익 892억·순손실 -409억, 고로+전기로(자동차강판·봉형강). 최대주주 기아 17.27%·정몽구 11.81%·현대차 6.87%. 공유노드 industries/철강 반영(groups/현대차 기등재). 원본이 별도 감사보고서 위주(사업내용 일부 TODO).
+
+**Ingest** SG세계물산 (004060, KOSPI, 신규, SG그룹) — Full 인제스트. 6종+겸직: companies/SG세계물산, sources, segments/SG세계물산_의류수출·패션사업, value_chain, executives/이경호(+이의범 겸직). 핵심: 연결 매출 1,323억·영업손실 -15억, 의류 OEM(GAP·Macy's)+패션 브랜드(BASSO)+명품(COLOMBO). 최대주주 SG고려 47.64%. 신규 산업 패션·신규 그룹 SG그룹 생성.
