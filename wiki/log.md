@@ -284,3 +284,9 @@
 **Ingest** 넥센타이어 (002350, KOSPI, 신규, 넥센그룹) — Full 인제스트. 신규 6종: companies/넥센타이어, sources, segments/넥센타이어_타이어부문, value_chain, executives/강호찬·강병중. 핵심: 연결 매출 3.19조(+12%)·영업이익 1,703억·순이익 1,512억, 유럽 41%(체코공장). 최대주주 (주)넥센 46.48%(KOSPI)·강병중 19.45%. 공유노드 신규: industries/타이어. group_todo: 넥센그룹.
 
 **Ingest** SH에너지화학 (002360, KOSPI, 신규) — Full 인제스트. 신규 7종: companies/SH에너지화학, sources, segments/SH에너지화학_합성수지·자원개발, value_chain, executives/정규봉·서미혜. 핵심: 연결 매출 986억·3년 연속 적자(영업 -123억), 무차입(자본 697억). EPS레진(발포폴리스티렌). 최대주주 Realty Advisors 31.06%(미국 비상장). 공유노드: industries/화학 반영.
+
+**Ingest** KCC (002380, KOSPI, 신규, KCC그룹) — Full 인제스트. 신규 7종: companies/KCC, sources, segments/KCC_실리콘·도료·건자재, value_chain, executives/정몽진·정재훈. 핵심: 연결 매출 6.48조·영업이익 4,276억·순이익 1.54조(영업외), 배당 15,000원, 신용 AA-. 도료 국내 1위·실리콘(모멘티브). 최대주주 정몽진 20.00%·국민연금 11.37%. 공유노드: industries/화학·국민연금 반영. group_todo: KCC그룹(KCC글라스·KCC건설).
+
+**Ingest** 한독 (002390, KOSPI, 신규) — Full 인제스트. 신규 6종: companies/한독, sources, segments/한독_의약품·진단기기, value_chain, executives/김영진·백진기. 핵심: 연결 매출 5,351억·영업이익 33억·순손실 -22억(바이오 지분법, 별도는 흑전), 배당 200원, 신용 BBB. 케토톱·당뇨약. 최대주주 김영진 13.65%·와이앤에스인터내셔날 17.69%. 공유노드: industries/제약 반영.
+
+**Ingest** 범양건영 (002410, KOSPI, 신규) — Full 인제스트. 신규 6종: companies/범양건영, sources, segments/범양건영_건축·토목, value_chain, executives/강병주. 핵심: 연결 매출 718억·3년 연속 영업적자(-513억)·완전자본잠식(-695억), 2026.1 회생절차 개시. 최대주주 플라스코앤비 12.55%(비상장). 공유노드: industries/건설 반영.
