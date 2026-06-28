@@ -122,3 +122,9 @@
 **Ingest** 한화손해보험 (000370, KOSPI, 신규, 한화그룹) — Full 인제스트. 신규 7종: companies/한화손해보험, sources, segments/한화손해보험_장기·자동차·일반손해보험, value_chain, executives/나채범, ratings/한화손해보험 신용등급. 핵심: 연결 보험·영업수익 7.45조·순이익 2,923억, K-ICS 209%. 최대주주 한화생명보험 63.30%. 공유노드 신규: shareholders/한화생명보험, industries/보험에 반영. group_todo: 한화그룹.
 
 **Ingest** 삼화페인트공업 (000390, KOSPI, 신규, 파일명 SP삼화) — Full 인제스트. 신규 7종: companies/삼화페인트공업, sources, segments/삼화페인트공업_도료및화학제품·IT, value_chain, executives/김현정·배맹달. 핵심: 연결 매출 6,171억·영업이익 95억·순이익 78억, 회사채 BBB+. 2025.12 창업주 김장연 별세→장녀 김현정 최대주주(25.80%)·신임 대표. 2026.3 'SP삼화'로 사명변경 예정. 공유노드 신규: industries/화학.
+
+**Ingest** 롯데손해보험 (000400, KOSPI, 신규) — Full 인제스트. 신규 8종: companies/롯데손해보험, sources, segments/롯데손해보험_장기·일반·자동차보험, value_chain, executives/이은호, ratings/롯데손해보험 신용등급. 핵심: 별도 원수보험료 2.86조·순이익 513억, K-ICS 159%(자본 축소 추세). 최대주주 빅튜라(유) 77.04%(JKL파트너스 PEF)·호텔롯데 5.02%(롯데그룹 비계열). 공유노드: industries/보험 반영.
+
+**Ingest** 대원강업 (000430, KOSPI, 신규, 현대백화점그룹) — Full 인제스트. 신규 6종: companies/대원강업, sources, segments/대원강업_스프링·시트, value_chain, executives/박민희·김항수. 핵심: 연결 매출 1.60조(+16.9%)·영업이익 470억(+108%)·순이익 460억. 최대주주 현대지에프홀딩스 32.77%. 현대차·기아 납품(49.2%)+글로벌 GM·VW·BMW·테슬라. 공유노드: industries/자동차부품 반영. group_todo: 현대백화점그룹.
+
+**Ingest** 시알홀딩스 (000480, KOSPI, 신규, 구 조선내화) — Full 인제스트. 신규 6종: companies/시알홀딩스, sources, segments/시알홀딩스_내화물제조업·기계부품제조업, value_chain, executives/강문수. 핵심: 2023.7 인적분할로 조선내화 사업 분할·지주사 전환. 연결 매출 8,278억·영업이익 278억·순손실 -188억(2년 연속). 최대주주 이인옥 23.95%(특관 71.34%). group_todo: 조선내화/시알홀딩스그룹.
