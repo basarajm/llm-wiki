@@ -536,3 +536,9 @@
 **Ingest** DB손해보험 (005830, KOSPI, 신규, DB그룹) — Full 인제스트. 9종+ratings: companies/DB손해보험, sources, segments/DB손해보험_장기보험·자동차보험·일반보험·투자, value_chain, executives/정종표·김정남, ratings(S&P A+/A.M.Best A+). 핵심: 연결 순이익 1.79조·자산 74조·K-ICS 218%, 손보 2위권(M/S ~18%). 최대주주 김남호 9.19%·국민연금 8.38%·김준기 6.07%. 신규 그룹 DB·공유노드 industries/보험·국민연금 반영. deferred: DB Inc.·DB하이텍 stub.
 
 **Ingest** 에스엘 (005850, KOSPI, 신규, SL그룹) — Full 인제스트. 7종: companies/에스엘, sources, segments/에스엘_램프·전동화·기타, value_chain, executives/이성엽·정문호. 핵심: 연결 매출 5.24조·영업이익 4,071억(7.8%), 자동차 램프(헤드/리어)·전동화 부품(현대차·기아·GM 공급), 일본 스탠리전기 제휴. 최대주주 이성엽 26.46%·이충곤 14.68%·국민연금 8.73%. 신규 그룹 에스엘·공유노드 industries/자동차부품·국민연금 반영.
+
+**Ingest** 휴니드테크놀러지스 (005870, KOSPI, 신규) — Full 인제스트. 6종: companies/휴니드테크놀러지스, sources, segments/휴니드테크놀러지스_방산사업·해외사업, value_chain, executives/김유진·이철승. 핵심: 별도 매출 1,372억·영업손실 -120억(방산 내수 감소 적자전환), 군 전술통신(TICN)·방산전자+항공전자(보잉 협력). 최대주주 김유진 22.73%·Boeing 11.69%·Allianz 11.33%. 공유노드 industries/방산 반영. deferred: 보잉·한화시스템 stub.
+
+**Ingest** 대한해운 (005880, KOSPI, 신규, SM그룹) — Full 인제스트. 7종: companies/대한해운, sources, segments/대한해운_벌크선·LNG선·탱커선, value_chain, executives/이동수. 핵심: 연결 매출 1.28조·영업이익 2,072억(16.2%), 벌크·LNG·탱커 전용선(포스코·한국가스공사 장기계약). 최대주주 에스엠상선 23.58%·우방 21.38%. 신규 그룹 SM·공유노드 industries/해운 반영.
+
+**Ingest** NH투자증권 (005940, KOSPI, 신규, 농협금융) — Full 인제스트. 8종+ratings: companies/NH투자증권, sources, segments/NH투자증권_Sales·IB·Trading, value_chain, executives/윤병운, ratings(AA+/A1). 핵심: 연결 영업수익 15.4조·영업이익 1.42조·순이익 1.03조(사상 첫 1조, +50%)·자기자본 9.4조 초대형 IB. 최대주주 농협금융지주 61.94%·국민연금 8.21%. 신규 그룹 농협·공유노드 industries/증권·국민연금 반영.
