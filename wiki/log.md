@@ -596,3 +596,9 @@
 **Ingest** GS리테일 (007070, KOSPI, 신규, GS그룹) — Full 인제스트. 11종+stub5: companies/GS리테일, sources, segments/GS리테일_편의점·슈퍼마켓·홈쇼핑·개발사업, value_chain, executives/허서홍. 핵심: 연결 매출 11.96조(+3.3%)·영업이익 2,921억(+14.1%)·순이익 502억. 편의점 GS25·SSM·홈쇼핑·개발. 최대주주 ㈜GS 58.62%·국민연금 8.22%. industries/유통·국민연금 반영(groups/GS 기존). stub: GS·BGF리테일·롯데쇼핑·CJ ENM·현대홈쇼핑.
 
 **Ingest** 일신석재 (007110, KOSPI, 신규) — Full 인제스트. 6종: companies/일신석재, sources, segments/일신석재_석재제조유통·석공사, value_chain, executives/조용철. 핵심: 별도 매출 545억(-31%)·영업이익 7억·순손실 -7억(적자전환). 종합석재(채석·가공·유통·석공사). 최대주주 세계평화통일가정연합유지재단 41.32%(통일교), 국민연금 없음. industries/건자재 반영. stub 없음.
+
+**Ingest** 미래아이앤지 (007120, KOSPI, 신규) — Full 인제스트. 7종+stub3+rating: companies/미래아이앤지, sources, segments/미래아이앤지_솔루션·B&E, value_chain, executives/김학수, ratings/미래아이앤지 신용등급. 핵심: 별도 매출 141억(+21%)·영업이익 38억·순손실 -26억(지분법손실). 금융 IT(SWIFT·AML). 최대주주 엑스 11.81% 외 22.28%(2026.3 스텔라이노베이션에 경영권 양도 계약), 국민연금 없음. industries/IT서비스 반영. stub: 신한은행·우리은행·판타지오.
+
+**Ingest** 사조산업 (007160, KOSPI, 신규, 사조그룹) — Full 인제스트. 7종+stub7: companies/사조산업, sources, segments/사조산업_원양어업·식품·축산·레저, value_chain, executives/김치곤(+주진우 갱신). 핵심: 연결 매출 7,062억·영업이익 332억(흑전)·순손실 -428억(적자전환). 원양어업(참치)·수산·식품·축산·레저. 최대주주 사조시스템즈 외 67.59%, 국민연금 없음. groups/사조(사조산업 승격 링크)·industries/식품 반영. stub: 사조씨푸드·사조동아원·동화농산·사호축산·금화물산·우훈·ITOCHU.
+
+**Ingest** 벽산 (007210, KOSPI, 신규, 벽산그룹) — Full 인제스트. 8종+stub4: companies/벽산, sources, segments/벽산_건재·주방기기및환기·화스너및공구, value_chain, executives/김성식. 핵심: 연결 매출 6,107억·영업이익 233억·순이익 274억. 무기단열재(점유율 2위)·석고보드+주방환기(레인지후드 1위)·화스너. 최대주주 벽산엘티씨엔터프라이즈 16.13% 외 28.25%·김성식 9.13%, 국민연금 없음. 신규 그룹 벽산그룹 생성·industries/건자재 반영. stub: 하츠·벽산엘티씨엔터프라이즈·영우화스너·벽산페인트.
