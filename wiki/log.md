@@ -338,3 +338,9 @@
 **Ingest** 부광약품 (003000, KOSPI, 신규, OCI그룹) — Full 인제스트. 7종: companies/부광약품, sources, segments/부광약품_의약품·연구개발, value_chain, executives/이제영·안미정. 핵심: 연결 매출 2,007억(+25%)·영업이익 142억, 당뇨·간질환·CNS+콘테라파마 RNA 신약. 최대주주 OCI홀딩스 17.11%(국민연금 0.68%). 신규 그룹 OCI·공유노드 industries/제약 반영. deferred: OCI홀딩스 stub.
 
 **Ingest** 혜인 (003010, KOSPI, 신규) — Full 인제스트. 7종: companies/혜인, sources, segments/혜인_장비엔진부문·부품부문·정비임대부문, value_chain, executives/원경희. 핵심: 별도 매출 2,417억·영업이익 176억, 캐터필러 한국 독점 딜러. 최대주주 원경희 11.86%. 신규 산업 건설기계유통 생성. deferred: Caterpillar·Jungheinrich stub.
+
+**Ingest** 세아제강지주 (003030, KOSPI, 신규, 세아그룹) — Full 인제스트. 9종: companies/세아제강지주, sources, segments/세아제강지주_강관부문·판재부문·투자부문, value_chain, executives/이주성·조영빈·이순형. 핵심: 연결 매출 3.76조·영업이익 2,058억, 세아그룹 강관 부문 순수지주(자회사 세아제강). 주요주주 에이팩인베스터스 23.39%·이주성 22.17%·국민연금 10.68%·한투운용 10.57%. 신규 그룹 세아·공유노드 industries/철강·국민연금 반영. deferred: 세아제강(306200) stub.
+
+**Ingest** 에이프로젠바이오로직스 (003060, KOSPI, 신규, 에이프로젠그룹) — Full 인제스트. 9종+stub: companies/에이프로젠바이오로직스(+에이프로젠 stub), sources, segments/제약사업·바이오사업·반도체장비부품사업, value_chain, executives/김재섭·김정출·강종수. 핵심: 연결 매출 732억·영업손실 -604억, 합성 제네릭+바이오시밀러 CMO(오송)+반도체부품. 최대주주 ㈜에이프로젠 56.87%. 신규 그룹 에이프로젠·공유노드 industries/제약 반영.
+
+**Ingest** 코오롱글로벌 (003070, KOSPI, 신규, 코오롱그룹) — Full 인제스트. 7종: companies/코오롱글로벌, sources, segments/코오롱글로벌_건설·상사·레저, value_chain, executives/김정일. 핵심: 연결 매출 2.68조·순손실 -2,004억, 건설(하늘채)+상사·수입차·레저. 최대주주 ㈜코오롱 72.70%·이웅열 9.14%. 신규 그룹 코오롱·공유노드 industries/건설 반영. 이규호 겸직 링크.
