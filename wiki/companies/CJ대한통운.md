@@ -6,6 +6,7 @@ ticker: "000120"
 market: KOSPI
 market_page: /markets/KOSPI
 industry: 물류
+group: /groups/CJ
 is_stub: false
 tags: [기업, 물류, KOSPI]
 timestamp: 2026-06-28T00:00:00Z

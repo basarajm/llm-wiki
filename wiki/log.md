@@ -170,3 +170,9 @@
 **Ingest** 한국주철관공업 (000970, KOSPI, 신규) — Full 인제스트. 신규 7종: companies/한국주철관공업, sources, segments/한국주철관공업_주철관·강관·화장품부문, value_chain, executives/김태형·김길출. 핵심: 연결 매출 4,066억·영업이익 133억·순이익 171억, 부채비율 17%, 배당성향 50.7%. 최대주주 마천캐스트 15.2%(특관, 비상장). 공유노드: industries/철강 반영.
 
 **Ingest** DB하이텍 (000990, KOSPI, 신규, DB그룹) — Full 인제스트. 신규 6종: companies/DB하이텍, sources, segments/DB하이텍_반도체·부동산, value_chain, executives/조기석. 핵심: 연결 매출 1.40조(+23.5%)·영업이익 2,773억(영업이익률 20%)·순이익 2,526억, 8인치 아날로그·전력반도체 파운드리. 최대주주 DB Inc. 19.52%·국민연금 7.73%. 신용 A-. 공유노드: industries/반도체·국민연금 반영. group_todo: DB그룹.
+
+**Ingest** 페이퍼코리아 (001020, KOSPI, 신규) — Full 인제스트. 신규 6종: companies/페이퍼코리아, sources, segments/페이퍼코리아_제지·특수용지·부동산, value_chain, executives/문성운. 핵심: 연결 매출 2,667억·영업손실 -53억(적자전환), 3년 무배당. 최대주주 유암코 PEF 86.60%. 공유노드 신규: industries/제지.
+
+**Ingest** CJ (001040, KOSPI, 신규, CJ그룹 지주) — Full 인제스트. 신규 8종: companies/CJ, sources, segments/CJ_물류신유통·식품식품서비스·생명공학·엔터테인먼트미디어, value_chain, executives/손경식·김홍기. 핵심: 연결 매출 45.0조·영업이익 2.53조·순이익 1,426억(지배), 배당 3,300원. 최대주주 이재현 42.07%·국민연금 13.40%. 공유노드 신규: groups/CJ, executives/이재현. CJ대한통운 group 연결, 국민연금 반영.
+
+**Ingest** JW중외제약 (001060, KOSPI, 신규, JW그룹) — Full 인제스트. 신규 6종: companies/JW중외제약, sources, segments/JW중외제약_의약품(단일), value_chain, executives/신영섭·함은경. 핵심: 연결 매출 7,753억·영업이익 945억·순이익 615억, 배당 650원, 신용 BBB+. 최대주주 JW홀딩스 40.25%. 공유노드: industries/제약 반영. group_todo: JW그룹.
