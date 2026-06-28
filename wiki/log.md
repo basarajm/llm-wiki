@@ -452,3 +452,9 @@
 **Ingest** 세방전지 (004490, KOSPI, stub→Full 승격, 세방그룹) — Full 인제스트. 7종+승격: companies/세방전지(stub→Full), sources, segments/세방전지_납축전지·EV전지, value_chain, executives/박정희(+이상웅 겸직). 핵심: 연결 매출 2.14조·영업이익 1,538억·순이익 1,414억, 납축전지(ROCKET·GB) 국내 1위(38.6%)+EV전지. 최대주주 세방 37.95%·GS Yuasa 16%·국민연금 6.93%. 신규 산업 전지·공유노드 groups/세방·국민연금 반영.
 
 **Ingest** 깨끗한나라 (004540, KOSPI, 신규, 구 대한펄프) — Full 인제스트. 8종: companies/깨끗한나라, sources, segments/깨끗한나라_PS사업부·HL사업부, value_chain, executives/이동열·최현수·최정규. 핵심: 연결 매출 5,082억·영업손실 -226억(적자확대), 백판지(PS)+위생용품(화장지·기저귀 보솜이·생리대 HL). 최대주주 희성전자 20.42%·최정규 16.12%. 공유노드 industries/제지 반영. deferred: 희성전자 stub.
+
+**Ingest** 현대비앤지스틸 (004560, KOSPI, 신규, 현대차그룹) — Full 인제스트. 6종: companies/현대비앤지스틸, sources, segments/현대비앤지스틸_스테인리스, value_chain, executives/정일선·김성문. 핵심: 연결 매출 7,413억, STS 냉연강판 국내 2위(가동률 81%). 최대주주 현대제철 31.12%·정일선 12.52%. 공유노드 industries/철강·groups/현대차 반영. deferred: 현대제철 shareholder·현대머티리얼 stub.
+
+**Ingest** 삼천리 (004690, KOSPI, 신규, 삼천리그룹) — Full 인제스트. 9종: companies/삼천리, sources, segments/삼천리_도시가스·발전·집단에너지·플랜트, value_chain, executives/이찬의·유재권. 핵심: 연결 매출 5.28조·영업이익 1,596억(+39.7%), 경기·인천 도시가스 1위+발전·플랜트. 주요주주 이은백 9.18%·이만득 8.34%·국민연금 5.02%. 신규 산업 도시가스·신규 그룹 삼천리·공유노드 국민연금 반영. 2026 성경식품 인수.
+
+**Ingest** 조광피혁 (004700, KOSPI, 신규) — Full 인제스트. 5종: companies/조광피혁, sources, segments/조광피혁_피혁원단부문, value_chain, executives/이연석. 핵심: 매출 979억·영업이익 88억, 자동차 시트·핸들용 천연가죽(고부가)+유가증권 보유 자산주(무차입). 주요주주 이연석 15.34%·박영옥 12.67%(가치투자가). 공유노드 industries/피혁 반영. 행동주의 주주 거버넌스 갈등.
