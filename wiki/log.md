@@ -518,3 +518,9 @@
 **Ingest** 삼립 (005610, KOSPI, 신규, SPC그룹) — Full 인제스트. 8종: companies/삼립, sources, segments/삼립_Bakery·Food·유통, value_chain, executives/김범수_삼립·김진억_삼립. 핵심: 연결 매출 3.37조·영업이익 387억(-59%, Food 적자전환), 양산빵(삼립호빵·포켓몬빵)+식자재유통(SPC GFS). 최대주주 파리크라상 40.66%·허진수 16.31%. 신규 그룹 SPC·공유노드 industries/식품 반영.
 
 **Ingest** 삼영전자공업 (005680, KOSPI, 신규) — Full 인제스트. 5종: companies/삼영전자공업, sources, segments/삼영전자공업_콘덴서, value_chain, executives/김성수. 핵심: 연결 매출 1,497억·영업이익 92억, 알루미늄 전해콘덴서(일본케미콘 영향권), 무차입·금융자산 3,135억 자산주. 주주현황 원본 미포함(미확인). 공유노드 industries/전자부품 반영. (삼영무역·삼영과 별개)
+
+**Ingest** 파미셀 (005690, KOSPI, 신규, 구 한일합섬 추정) — Full 인제스트. 6종: companies/파미셀, sources, segments/파미셀_바이오케미컬·바이오메디컬, value_chain, executives/김현수. 핵심: 별도 매출 1,141억(+75.9%)·영업이익 343억·순이익 403억, 줄기세포치료제(셀그램)+바이오케미컬(mPEG·뉴클레오시드). 최대주주 김현수 8.82%. 공유노드 industries/제약 반영. 고객 집중도 높음(상위 4사 75%).
+
+**Ingest** 넥센 (005720, KOSPI, 신규, 넥센그룹 지주) — Full 인제스트. 6종: companies/넥센, sources, segments/넥센_고무부문·물류부문, value_chain, executives/문성희. 핵심: 연결 매출 3.59조·영업이익 2,042억, 타이어튜브·고무+넥센타이어 거느린 사업형 지주. 최대주주 강호찬 48.49%·강병중 8.61%. 신규 그룹 넥센·공유노드 industries/지주회사 반영. (강병중·강호찬 기존 임원 페이지 겸직 연결)
+
+**Ingest** 크라운해태홀딩스 (005740, KOSPI, 신규, 크라운해태그룹 지주) — Full 인제스트. 8종: companies/크라운해태홀딩스, sources, segments/크라운해태홀딩스_지주·제과·기타, value_chain, executives/윤석빈·윤영달. 핵심: 연결 매출 1.07조·영업이익 573억(-15.3%), 크라운제과·해태제과식품 거느린 순수지주. 최대주주 두라푸드 38.08%·윤영달 10.51%·빙그레 7.67%. 신규 그룹 크라운해태·공유노드 industries/지주회사 반영. deferred: 크라운제과·해태제과식품 stub.
