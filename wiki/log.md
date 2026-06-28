@@ -554,3 +554,9 @@
 **Ingest** 사조오양 (006090, KOSPI, 신규, 사조그룹) — Full 인제스트. 6종: companies/사조오양, sources, segments/사조오양_식품제조부문·수산부문, value_chain, executives/박정훈. 핵심: 별도 매출 4,174억·영업이익 135억, 수산식품(맛살·어묵·참치캔)·원양어업(구 오양수산). 최대주주 사조대림 60.84%(사조 계열 법인 합산 80%). 공유노드 industries/식품·groups/사조 반영.
 
 **Ingest** 삼아알미늄 (006110, KOSPI, 신규) — Full 인제스트. 11종+stub: companies/삼아알미늄(+동양알미늄·LG에너지솔루션·TOYOTA통상 stub), sources, segments/삼아알미늄_압연·가공·전자부품판매, value_chain, executives/한남희·김진범. 핵심: 연결 매출 2,715억·영업손실 -176억(EV 캐즘 2년 적자), 알루미늄박(이차전지 양극집전체·식품/제약 포장), Cold Mill 투자. 최대주주 동양알미늄(일본) 24.97%·LG엔솔 10.20%·도요타통상 10.20%. 공유노드 industries/비철금속·이차전지소재 반영.
+
+**Ingest** SK디스커버리 (006120, KOSPI, 신규, SK디스커버리그룹 지주) — Full 인제스트. 7종: companies/SK디스커버리, sources, segments/SK디스커버리_가스사업·Green Chemicals·Life Science, value_chain, executives/최창원·손현호. 핵심: 연결 매출 10.16조(+12.4%)·영업이익 3,614억, SK케미칼·SK가스·SK바이오사이언스 거느린 순수지주(최창원 계열, SK㈜와 분리). 최대주주 최창원 41.69%. 신규 그룹 SK디스커버리·공유노드 industries/지주회사 반영. deferred: SK케미칼·SK가스 stub.
+
+**Ingest** 한국전자홀딩스 (006200, KOSPI, 신규, KEC그룹 지주) — Full 인제스트. 7종: companies/한국전자홀딩스, sources, segments/한국전자홀딩스_반도체·서비스, value_chain, executives/곽정소·박명덕. 핵심: 연결 매출 2,759억·영업손실 -141억(3년 적자), 전력반도체 KEC 거느린 순수지주. 최대주주 곽정소 21.34%·㈜광양 9.49%. 신규 그룹 KEC그룹·공유노드 industries/지주회사 반영. deferred: KEC stub.
+
+**Ingest** 제주은행 (006220, KOSPI, 신규, 신한금융) — Full 인제스트. 9종+stub: companies/제주은행(+더존비즈온 stub), sources, segments/제주은행_여신·수신, value_chain, executives/이희수·박찬호·우영웅, ratings(AA+/Moody's A2). 핵심: 연결 순이익 139억(+33.7%)·자산 8.0조, 제주 지방은행. 최대주주 신한금융지주 64.01%·더존비즈온 14.99%. 신규 산업 은행·공유노드 groups/신한금융 반영.
