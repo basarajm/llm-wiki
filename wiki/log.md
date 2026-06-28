@@ -392,3 +392,9 @@
 **Ingest** KG모빌리티 (003620, KOSPI, 신규, KG그룹, 구 쌍용자동차) — Full 인제스트. 6종: companies/KG모빌리티, sources, segments/KG모빌리티_자동차제조, value_chain, executives/곽재선·황기영. 핵심: 연결 매출 4.30조·영업이익 362억·순이익 466억(흑자확대), SUV·픽업(토레스·렉스턴·무쏘). 최대주주 KG에코솔루션 54.35%·Mahindra 4.83%. 신규 그룹 KG·공유노드 industries/자동차 반영. 2025 무상감자(결손보전). deferred: KG에코솔루션·Mahindra stub.
 
 **Ingest** 미창석유공업 (003650, KOSPI, 신규) — Full 인제스트. 8종: companies/미창석유공업, sources, segments/미창석유공업_윤활유·고무배합유·전기절연유, value_chain, executives/유재순·유지유·유승수. 핵심: 매출 4,055억·영업이익 346억·순이익 689억(스텔라EV 펀드 회수), 특수유(전기절연유 MICTRANS·고무배합유) 윤활유 ~8.4%·수출 58%. 최대주주 유재순 14.35%·ENEOS 10%·Fidelity 10%. 공유노드 industries/화학 반영.
+
+**Ingest** 포스코퓨처엠 (003670, KOSPI, stub→Full 승격, 포스코그룹) — Full 인제스트. 5종+승격: companies/포스코퓨처엠(stub→Full), sources, segments/포스코퓨처엠_에너지소재사업·기초소재사업, value_chain, executives/엄기천. 핵심: 연결 매출 2.94조·영업이익 328억·순이익 323억(흑전), 양극재·음극재(국내 유일 음극재)+기초소재(내화물·생석회). 최대주주 포스코홀딩스 58.2%. 신규 산업 이차전지소재 생성. deferred: LG에너지솔루션·삼성SDI·SK온 stub.
+
+**Ingest** 한성기업 (003680, KOSPI, 신규) — Full 인제스트. 6종: companies/한성기업, sources, segments/한성기업_식품부문·해외부문, value_chain, executives/임우근·임준호. 핵심: 매출 3,184억·영업이익 58억, 수산물 가공(국내 최초 게맛살)·원양어업. 최대주주 극동수산 17.59%·임우근 16.65%. 공유노드 industries/식품 반영. deferred: 극동수산 stub.
+
+**Ingest** 코리안리 (003690, KOSPI, 신규) — Full 인제스트. 10종+ratings: companies/코리안리, sources, segments/코리안리_일반손해보험재보험·장기손해보험재보험·생명재보험·투자영업, value_chain, executives/원종규·원종익, ratings(A.M.Best A/S&P A+/Moody's A1). 핵심: 영업수익 6.70조·영업이익 4,709억·순이익 3,220억, 국내 유일 전업 재보험사. 주주 장인순 외 20.33%·신영증권 9.45%·국민연금 6.86%. 공유노드 industries/보험·국민연금 반영.
