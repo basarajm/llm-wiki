@@ -320,3 +320,9 @@
 **Ingest** 삼영무역 (002810, KOSPI, 신규) — Full 인제스트. 7종: companies/삼영무역, sources, segments/삼영무역_화공약품부문·안경렌즈부문·자동차부품부문, value_chain, executives/이승용. 핵심: 연결 매출 4,469억·영업이익 128억·순이익 614억(에실로코리아 49.8% 지분법이익 471억), 부채비율 16%. 최대주주 이승용 21.04%. 공유노드 industries/종합상사 반영. deferred: 한국큐빅·에실로코리아 stub.
 
 **Ingest** SUN&L (002820, KOSPI, 신규, 구 선창산업) — Full 인제스트. 7종: companies/SUN&L, sources, segments/SUN&L_인테리어·생활용품·목재, value_chain, executives/이윤규·정연준. 핵심: 연결 매출 2,724억·영업손실 -179억, 목재(합판·MDF 유통, 국내생산 중단)·인테리어·생활용품(펌프 디스펜서). 최대주주 정연준 23.07%. 공유노드 industries/목재 반영. 국민연금 없음.
+
+**Ingest** 미원상사 (002840, KOSPI, 신규, 미원그룹) — Full 인제스트. 7종: companies/미원상사, sources, segments/미원상사_전자재료·계면활성제, value_chain, executives/홍창식·강신우. 핵심: 연결 매출 4,411억·영업이익 436억, 계면활성제·전자재료(반도체·디스플레이·이차전지) 정밀화학. 최대주주 김정돈 18.33%·미성종합물산 17.43%. 신규 그룹 미원·공유노드 industries/화학 반영.
+
+**Ingest** 신풍 (002870, KOSPI, 신규, 구 신풍제지) — Full 인제스트. 7종: companies/신풍, sources, segments/신풍_지류유통·오디오·외식, value_chain, executives/정학헌. 핵심: 연결 매출 242억·영업손실, 제조 중단 후 지류유통상 전환(오디오·외식 겸영). 최대주주 정학헌 21.9%. 공유노드 industries/제지 반영. 제약사 신풍제약과 무관.
+
+**Ingest** 대유에이텍 (002880, KOSPI, 신규, 대유그룹, DART명 디와이에이) — Full 인제스트. 6종: companies/대유에이텍, sources, segments/대유에이텍_SEAT사업부문·임대사업부문, value_chain, executives/임근호. 핵심: 연결 매출 6,334억·영업이익 302억, 자동차 시트(기아·KGM·GGM·현대차 공급). 최대주주 박영우 18.05%. 신규 그룹 대유·공유노드 industries/자동차부품 반영. deferred: 박은진 임원, KG모빌리티·GGM stub, ratings.
