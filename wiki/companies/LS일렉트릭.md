@@ -56,9 +56,9 @@ LS일렉트릭(LS ELECTRIC Co., Ltd.)은 1974년 7월 설립되어 1994년 7월 
 
 ## 주요 상품
 
-- 전력기기: 개폐기, 차단기, 변압기, 배전반
-- 초고압 전력시스템, HVDC 변환설비
-- 자동화: PLC, 인버터(INVERTER), HMI
+- 전력기기: 개폐기, 차단기, [초고압변압기](/products/초고압변압기), 배전반
+- 초고압 전력시스템, [HVDC변환설비](/products/HVDC변환설비)
+- 자동화: [PLC](/products/PLC), 인버터(INVERTER), HMI
 - EV Relay (종속회사 LS 이모빌리티솔루션)
 
 ## 경영진
