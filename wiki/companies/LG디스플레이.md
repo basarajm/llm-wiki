@@ -72,6 +72,11 @@ TV·IT·Mobile·Auto로 매출을 구분한다.
 
 관련 제품: [OLED패널](/products/OLED패널)
 
+## 주요 제품·서비스
+
+- [WOLED TV패널](/products/WOLED_TV패널) — TV용 대형 OLED 패널(9"+ 중대형 TV 점유율 10.4%, OMDIA 2025) 양산 주도
+- [OLED패널](/products/OLED패널) — 자발광 디스플레이 패널(TV·IT·Mobile)
+
 ## 주요 주주
 
 (기준일 2025.12.31, 발행주식총수 5억 주)

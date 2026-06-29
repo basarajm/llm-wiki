@@ -736,3 +736,5 @@
 **Batch Ingest (Products Backfill, 파일럿)** 17개 신규 product/financial_product/rating 노드 — 12개사 B1 추출. products 15(해피드/선박용도료/자동차용도료/석고보드/LPG연료탱크/리바로/영양수액/테이프기판/자이/백판지/보솜이/순수한면/수입차PDI서비스/금속성형프레스/망간합금철), financial_products 2(DB손해보험_장기보험·자동차보험). 병합: products/자동차용도료에 KCC+노루홀딩스(노루오토코팅) 양사 링크 통합. index.md(상품·금융상품 섹션)·products/index.md·financial_products/index.md 갱신.
 
 **Batch Ingest (Products Backfill)** 청크 69개사 — 신규 노드 48개
+
+**Batch Ingest (Products Backfill)** 청크 100개사 — 신규 노드 117개
