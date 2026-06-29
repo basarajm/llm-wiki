@@ -1,0 +1,978 @@
+<!DOCTYPE html>
+<html lang="ko" dir="ltr"><head><title>ingest-tracker-KOSPI · LLM Wiki</title><meta charset="utf-8"/><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com"/><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Schibsted Grotesk:wght@400;700&amp;family=Source Sans Pro:ital,wght@0,400;0,600;1,400;1,600&amp;family=IBM Plex Mono:wght@400;600&amp;display=swap"/><link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin="anonymous"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta name="og:site_name" content="한국 기업 리서치 위키"/><meta property="og:title" content="ingest-tracker-KOSPI · LLM Wiki"/><meta property="og:type" content="website"/><meta name="twitter:card" content="summary_large_image"/><meta name="twitter:title" content="ingest-tracker-KOSPI · LLM Wiki"/><meta name="twitter:description" content="KOSPI 인제스트 트래커 대상 보고서: 833건 완료(done): 347건 대기(pending): 486건 done 기준: 위키에 충실한(non-stub) 기업 페이지가 있거나 트래커에 done 기록됨."/><meta property="og:description" content="KOSPI 인제스트 트래커 대상 보고서: 833건 완료(done): 347건 대기(pending): 486건 done 기준: 위키에 충실한(non-stub) 기업 페이지가 있거나 트래커에 done 기록됨."/><meta property="og:image:alt" content="KOSPI 인제스트 트래커 대상 보고서: 833건 완료(done): 347건 대기(pending): 486건 done 기준: 위키에 충실한(non-stub) 기업 페이지가 있거나 트래커에 done 기록됨."/><meta property="og:image" content="https://basarajm.github.io/llm-wiki/static/og-image.png"/><meta property="og:image:url" content="https://basarajm.github.io/llm-wiki/static/og-image.png"/><meta name="twitter:image" content="https://basarajm.github.io/llm-wiki/static/og-image.png"/><meta property="og:image:type" content="image/.png"/><meta property="twitter:domain" content="basarajm.github.io/llm-wiki"/><meta property="og:url" content="https://basarajm.github.io/llm-wiki/outputs/ingest-tracker-KOSPI"/><meta property="twitter:url" content="https://basarajm.github.io/llm-wiki/outputs/ingest-tracker-KOSPI"/><link rel="icon" href="../static/icon.png"/><meta name="description" content="KOSPI 인제스트 트래커 대상 보고서: 833건 완료(done): 347건 대기(pending): 486건 done 기준: 위키에 충실한(non-stub) 기업 페이지가 있거나 트래커에 done 기록됨."/><meta name="generator" content="Quartz"/><link href="../index.css" rel="stylesheet" type="text/css" data-persist="true"/><style>.expand-button {
+  position: absolute;
+  display: flex;
+  float: right;
+  padding: 0.4rem;
+  margin: 0.3rem;
+  right: 0;
+  color: var(--gray);
+  border-color: var(--dark);
+  background-color: var(--light);
+  border: 1px solid;
+  border-radius: 5px;
+  opacity: 0;
+  transition: 0.2s;
+}
+.expand-button > svg {
+  fill: var(--light);
+  filter: contrast(0.3);
+}
+.expand-button:hover {
+  cursor: pointer;
+  border-color: var(--secondary);
+}
+.expand-button:focus {
+  outline: 0;
+}
+
+pre:hover > .expand-button {
+  opacity: 1;
+  transition: 0.2s;
+}
+
+#mermaid-container {
+  position: fixed;
+  contain: layout;
+  z-index: 999;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  display: none;
+  backdrop-filter: blur(4px);
+  background: rgba(0, 0, 0, 0.5);
+}
+#mermaid-container.active {
+  display: inline-block;
+}
+#mermaid-container > #mermaid-space {
+  border: 1px solid var(--lightgray);
+  background-color: var(--light);
+  border-radius: 5px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 80vh;
+  width: 80vw;
+  overflow: hidden;
+}
+#mermaid-container > #mermaid-space > .mermaid-content {
+  position: relative;
+  transform-origin: 0 0;
+  transition: transform 0.1s ease;
+  overflow: visible;
+  min-height: 200px;
+  min-width: 200px;
+}
+#mermaid-container > #mermaid-space > .mermaid-content pre {
+  margin: 0;
+  border: none;
+}
+#mermaid-container > #mermaid-space > .mermaid-content svg {
+  max-width: none;
+  height: auto;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+  gap: 8px;
+  padding: 8px;
+  background: var(--light);
+  border: 1px solid var(--lightgray);
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 2;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  border: 1px solid var(--lightgray);
+  background: var(--light);
+  color: var(--dark);
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  font-family: var(--bodyFont);
+  transition: all 0.2s ease;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:hover {
+  background: var(--lightgray);
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:active {
+  transform: translateY(1px);
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:nth-child(2) {
+  width: auto;
+  padding: 0 12px;
+  font-size: 14px;
+}
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VSb290IjoiRDpcXC5Qcm9qZWN0XFxMTE13aWtpXFxzaXRlXFxxdWFydHpcXGNvbXBvbmVudHNcXHN0eWxlcyIsInNvdXJjZXMiOlsibWVybWFpZC5pbmxpbmUuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNFO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBOztBQUVBO0VBQ0U7RUFDQTs7QUFHRjtFQUNFO0VBQ0E7O0FBR0Y7RUFDRTs7O0FBS0Y7RUFDRTtFQUNBOzs7QUFJSjtFQUNFO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7O0FBRUE7RUFDRTs7QUFHRjtFQUNFO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBOztBQUVBO0VBQ0U7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBOztBQUVBO0VBQ0U7RUFDQTs7QUFHRjtFQUNFO0VBQ0E7O0FBSUo7RUFDRTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBOztBQUVBO0VBQ0U7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTs7QUFFQTtFQUNFOztBQUdGO0VBQ0U7O0FBSUY7RUFDRTtFQUNBO0VBQ0EiLCJzb3VyY2VzQ29udGVudCI6WyIuZXhwYW5kLWJ1dHRvbiB7XG4gIHBvc2l0aW9uOiBhYnNvbHV0ZTtcbiAgZGlzcGxheTogZmxleDtcbiAgZmxvYXQ6IHJpZ2h0O1xuICBwYWRkaW5nOiAwLjRyZW07XG4gIG1hcmdpbjogMC4zcmVtO1xuICByaWdodDogMDsgLy8gTk9URTogcmlnaHQgd2lsbCBiZSBzZXQgaW4gbWVybWFpZC5pbmxpbmUudHNcbiAgY29sb3I6IHZhcigtLWdyYXkpO1xuICBib3JkZXItY29sb3I6IHZhcigtLWRhcmspO1xuICBiYWNrZ3JvdW5kLWNvbG9yOiB2YXIoLS1saWdodCk7XG4gIGJvcmRlcjogMXB4IHNvbGlkO1xuICBib3JkZXItcmFkaXVzOiA1cHg7XG4gIG9wYWNpdHk6IDA7XG4gIHRyYW5zaXRpb246IDAuMnM7XG5cbiAgJiA+IHN2ZyB7XG4gICAgZmlsbDogdmFyKC0tbGlnaHQpO1xuICAgIGZpbHRlcjogY29udHJhc3QoMC4zKTtcbiAgfVxuXG4gICY6aG92ZXIge1xuICAgIGN1cnNvcjogcG9pbnRlcjtcbiAgICBib3JkZXItY29sb3I6IHZhcigtLXNlY29uZGFyeSk7XG4gIH1cblxuICAmOmZvY3VzIHtcbiAgICBvdXRsaW5lOiAwO1xuICB9XG59XG5cbnByZSB7XG4gICY6aG92ZXIgPiAuZXhwYW5kLWJ1dHRvbiB7XG4gICAgb3BhY2l0eTogMTtcbiAgICB0cmFuc2l0aW9uOiAwLjJzO1xuICB9XG59XG5cbiNtZXJtYWlkLWNvbnRhaW5lciB7XG4gIHBvc2l0aW9uOiBmaXhlZDtcbiAgY29udGFpbjogbGF5b3V0O1xuICB6LWluZGV4OiA5OTk7XG4gIGxlZnQ6IDA7XG4gIHRvcDogMDtcbiAgd2lkdGg6IDEwMHZ3O1xuICBoZWlnaHQ6IDEwMHZoO1xuICBvdmVyZmxvdzogaGlkZGVuO1xuICBkaXNwbGF5OiBub25lO1xuICBiYWNrZHJvcC1maWx0ZXI6IGJsdXIoNHB4KTtcbiAgYmFja2dyb3VuZDogcmdiYSgwLCAwLCAwLCAwLjUpO1xuXG4gICYuYWN0aXZlIHtcbiAgICBkaXNwbGF5OiBpbmxpbmUtYmxvY2s7XG4gIH1cblxuICAmID4gI21lcm1haWQtc3BhY2Uge1xuICAgIGJvcmRlcjogMXB4IHNvbGlkIHZhcigtLWxpZ2h0Z3JheSk7XG4gICAgYmFja2dyb3VuZC1jb2xvcjogdmFyKC0tbGlnaHQpO1xuICAgIGJvcmRlci1yYWRpdXM6IDVweDtcbiAgICBwb3NpdGlvbjogZml4ZWQ7XG4gICAgdG9wOiA1MCU7XG4gICAgbGVmdDogNTAlO1xuICAgIHRyYW5zZm9ybTogdHJhbnNsYXRlKC01MCUsIC01MCUpO1xuICAgIGhlaWdodDogODB2aDtcbiAgICB3aWR0aDogODB2dztcbiAgICBvdmVyZmxvdzogaGlkZGVuO1xuXG4gICAgJiA+IC5tZXJtYWlkLWNvbnRlbnQge1xuICAgICAgcG9zaXRpb246IHJlbGF0aXZlO1xuICAgICAgdHJhbnNmb3JtLW9yaWdpbjogMCAwO1xuICAgICAgdHJhbnNpdGlvbjogdHJhbnNmb3JtIDAuMXMgZWFzZTtcbiAgICAgIG92ZXJmbG93OiB2aXNpYmxlO1xuICAgICAgbWluLWhlaWdodDogMjAwcHg7XG4gICAgICBtaW4td2lkdGg6IDIwMHB4O1xuXG4gICAgICBwcmUge1xuICAgICAgICBtYXJnaW46IDA7XG4gICAgICAgIGJvcmRlcjogbm9uZTtcbiAgICAgIH1cblxuICAgICAgc3ZnIHtcbiAgICAgICAgbWF4LXdpZHRoOiBub25lO1xuICAgICAgICBoZWlnaHQ6IGF1dG87XG4gICAgICB9XG4gICAgfVxuXG4gICAgJiA+IC5tZXJtYWlkLWNvbnRyb2xzIHtcbiAgICAgIHBvc2l0aW9uOiBhYnNvbHV0ZTtcbiAgICAgIGJvdHRvbTogMjBweDtcbiAgICAgIHJpZ2h0OiAyMHB4O1xuICAgICAgZGlzcGxheTogZmxleDtcbiAgICAgIGdhcDogOHB4O1xuICAgICAgcGFkZGluZzogOHB4O1xuICAgICAgYmFja2dyb3VuZDogdmFyKC0tbGlnaHQpO1xuICAgICAgYm9yZGVyOiAxcHggc29saWQgdmFyKC0tbGlnaHRncmF5KTtcbiAgICAgIGJvcmRlci1yYWRpdXM6IDZweDtcbiAgICAgIGJveC1zaGFkb3c6IDAgMnB4IDRweCByZ2JhKDAsIDAsIDAsIDAuMSk7XG4gICAgICB6LWluZGV4OiAyO1xuXG4gICAgICAubWVybWFpZC1jb250cm9sLWJ1dHRvbiB7XG4gICAgICAgIGRpc3BsYXk6IGZsZXg7XG4gICAgICAgIGFsaWduLWl0ZW1zOiBjZW50ZXI7XG4gICAgICAgIGp1c3RpZnktY29udGVudDogY2VudGVyO1xuICAgICAgICB3aWR0aDogMzJweDtcbiAgICAgICAgaGVpZ2h0OiAzMnB4O1xuICAgICAgICBwYWRkaW5nOiAwO1xuICAgICAgICBib3JkZXI6IDFweCBzb2xpZCB2YXIoLS1saWdodGdyYXkpO1xuICAgICAgICBiYWNrZ3JvdW5kOiB2YXIoLS1saWdodCk7XG4gICAgICAgIGNvbG9yOiB2YXIoLS1kYXJrKTtcbiAgICAgICAgYm9yZGVyLXJhZGl1czogNHB4O1xuICAgICAgICBjdXJzb3I6IHBvaW50ZXI7XG4gICAgICAgIGZvbnQtc2l6ZTogMTZweDtcbiAgICAgICAgZm9udC1mYW1pbHk6IHZhcigtLWJvZHlGb250KTtcbiAgICAgICAgdHJhbnNpdGlvbjogYWxsIDAuMnMgZWFzZTtcblxuICAgICAgICAmOmhvdmVyIHtcbiAgICAgICAgICBiYWNrZ3JvdW5kOiB2YXIoLS1saWdodGdyYXkpO1xuICAgICAgICB9XG5cbiAgICAgICAgJjphY3RpdmUge1xuICAgICAgICAgIHRyYW5zZm9ybTogdHJhbnNsYXRlWSgxcHgpO1xuICAgICAgICB9XG5cbiAgICAgICAgLy8gU3R5bGUgdGhlIHJlc2V0IGJ1dHRvbiBkaWZmZXJlbnRseVxuICAgICAgICAmOm50aC1jaGlsZCgyKSB7XG4gICAgICAgICAgd2lkdGg6IGF1dG87XG4gICAgICAgICAgcGFkZGluZzogMCAxMnB4O1xuICAgICAgICAgIGZvbnQtc2l6ZTogMTRweDtcbiAgICAgICAgfVxuICAgICAgfVxuICAgIH1cbiAgfVxufVxuIl19 */</style><script src="../prescript.js" type="application/javascript" data-persist="true"></script><script type="application/javascript" data-persist="true">const fetchData = fetch("../static/contentIndex.json").then(data => data.json())</script><link rel="alternate" type="application/rss+xml" title="RSS Feed" href="https://basarajm.github.io/llm-wiki/index.xml"/></head><body data-slug="outputs/ingest-tracker-KOSPI"><div id="quartz-root" class="page"><div id="quartz-body"><div class="left sidebar"><h2 class="page-title"><a href="..">한국 기업 리서치 위키</a></h2><div class="spacer mobile-only"></div><div class="flex-component" style="flex-direction: row; flex-wrap: nowrap; gap: 1rem;"><div style="flex-grow: 1; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><div class="search"><button class="search-button"><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.9 19.7"><title>Search</title><g class="search-path" fill="none"><path stroke-linecap="square" d="M18.5 18.3l-5.4-5.4"></path><circle cx="8" cy="8" r="7"></circle></g></svg><p>검색</p></button><div class="search-container"><div class="search-space"><input autocomplete="off" class="search-bar" name="search" type="text" aria-label="검색어를 입력하세요" placeholder="검색어를 입력하세요"/><div class="search-layout" data-preview="true"></div></div></div></div></div><div style="flex-grow: 0; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><button class="darkmode"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="dayIcon" x="0px" y="0px" viewBox="0 0 35 35" style="enable-background:new 0 0 35 35" xml:space="preserve" aria-label="다크 모드"><title>다크 모드</title><path d="M6,17.5C6,16.672,5.328,16,4.5,16h-3C0.672,16,0,16.672,0,17.5    S0.672,19,1.5,19h3C5.328,19,6,18.328,6,17.5z M7.5,26c-0.414,0-0.789,0.168-1.061,0.439l-2,2C4.168,28.711,4,29.086,4,29.5    C4,30.328,4.671,31,5.5,31c0.414,0,0.789-0.168,1.06-0.44l2-2C8.832,28.289,9,27.914,9,27.5C9,26.672,8.329,26,7.5,26z M17.5,6    C18.329,6,19,5.328,19,4.5v-3C19,0.672,18.329,0,17.5,0S16,0.672,16,1.5v3C16,5.328,16.671,6,17.5,6z M27.5,9    c0.414,0,0.789-0.168,1.06-0.439l2-2C30.832,6.289,31,5.914,31,5.5C31,4.672,30.329,4,29.5,4c-0.414,0-0.789,0.168-1.061,0.44    l-2,2C26.168,6.711,26,7.086,26,7.5C26,8.328,26.671,9,27.5,9z M6.439,8.561C6.711,8.832,7.086,9,7.5,9C8.328,9,9,8.328,9,7.5    c0-0.414-0.168-0.789-0.439-1.061l-2-2C6.289,4.168,5.914,4,5.5,4C4.672,4,4,4.672,4,5.5c0,0.414,0.168,0.789,0.439,1.06    L6.439,8.561z M33.5,16h-3c-0.828,0-1.5,0.672-1.5,1.5s0.672,1.5,1.5,1.5h3c0.828,0,1.5-0.672,1.5-1.5S34.328,16,33.5,16z     M28.561,26.439C28.289,26.168,27.914,26,27.5,26c-0.828,0-1.5,0.672-1.5,1.5c0,0.414,0.168,0.789,0.439,1.06l2,2    C28.711,30.832,29.086,31,29.5,31c0.828,0,1.5-0.672,1.5-1.5c0-0.414-0.168-0.789-0.439-1.061L28.561,26.439z M17.5,29    c-0.829,0-1.5,0.672-1.5,1.5v3c0,0.828,0.671,1.5,1.5,1.5s1.5-0.672,1.5-1.5v-3C19,29.672,18.329,29,17.5,29z M17.5,7    C11.71,7,7,11.71,7,17.5S11.71,28,17.5,28S28,23.29,28,17.5S23.29,7,17.5,7z M17.5,25c-4.136,0-7.5-3.364-7.5-7.5    c0-4.136,3.364-7.5,7.5-7.5c4.136,0,7.5,3.364,7.5,7.5C25,21.636,21.636,25,17.5,25z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="nightIcon" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background:new 0 0 100 100" xml:space="preserve" aria-label="라이트 모드"><title>라이트 모드</title><path d="M96.76,66.458c-0.853-0.852-2.15-1.064-3.23-0.534c-6.063,2.991-12.858,4.571-19.655,4.571  C62.022,70.495,50.88,65.88,42.5,57.5C29.043,44.043,25.658,23.536,34.076,6.47c0.532-1.08,0.318-2.379-0.534-3.23  c-0.851-0.852-2.15-1.064-3.23-0.534c-4.918,2.427-9.375,5.619-13.246,9.491c-9.447,9.447-14.65,22.008-14.65,35.369  c0,13.36,5.203,25.921,14.65,35.368s22.008,14.65,35.368,14.65c13.361,0,25.921-5.203,35.369-14.65  c3.872-3.871,7.064-8.328,9.491-13.246C97.826,68.608,97.611,67.309,96.76,66.458z"></path></svg></button></div><div style="flex-grow: 0; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><button class="readermode"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="readerIcon" fill="currentColor" stroke="currentColor" stroke-width="0.2" stroke-linecap="round" stroke-linejoin="round" width="64px" height="64px" viewBox="0 0 24 24" aria-label="리더 모드"><title>리더 모드</title><g transform="translate(-1.8, -1.8) scale(1.15, 1.2)"><path d="M8.9891247,2.5 C10.1384702,2.5 11.2209868,2.96705384 12.0049645,3.76669482 C12.7883914,2.96705384 13.8709081,2.5 15.0202536,2.5 L18.7549359,2.5 C19.1691495,2.5 19.5049359,2.83578644 19.5049359,3.25 L19.5046891,4.004 L21.2546891,4.00457396 C21.6343849,4.00457396 21.9481801,4.28672784 21.9978425,4.6528034 L22.0046891,4.75457396 L22.0046891,20.25 C22.0046891,20.6296958 21.7225353,20.943491 21.3564597,20.9931534 L21.2546891,21 L2.75468914,21 C2.37499337,21 2.06119817,20.7178461 2.01153575,20.3517706 L2.00468914,20.25 L2.00468914,4.75457396 C2.00468914,4.37487819 2.28684302,4.061083 2.65291858,4.01142057 L2.75468914,4.00457396 L4.50368914,4.004 L4.50444233,3.25 C4.50444233,2.87030423 4.78659621,2.55650904 5.15267177,2.50684662 L5.25444233,2.5 L8.9891247,2.5 Z M4.50368914,5.504 L3.50468914,5.504 L3.50468914,19.5 L10.9478955,19.4998273 C10.4513189,18.9207296 9.73864328,18.5588115 8.96709342,18.5065584 L8.77307039,18.5 L5.25444233,18.5 C4.87474657,18.5 4.56095137,18.2178461 4.51128895,17.8517706 L4.50444233,17.75 L4.50368914,5.504 Z M19.5049359,17.75 C19.5049359,18.1642136 19.1691495,18.5 18.7549359,18.5 L15.2363079,18.5 C14.3910149,18.5 13.5994408,18.8724714 13.0614828,19.4998273 L20.5046891,19.5 L20.5046891,5.504 L19.5046891,5.504 L19.5049359,17.75 Z M18.0059359,3.999 L15.0202536,4 L14.8259077,4.00692283 C13.9889509,4.06666544 13.2254227,4.50975805 12.7549359,5.212 L12.7549359,17.777 L12.7782651,17.7601316 C13.4923805,17.2719483 14.3447024,17 15.2363079,17 L18.0059359,16.999 L18.0056891,4.798 L18.0033792,4.75457396 L18.0056891,4.71 L18.0059359,3.999 Z M8.9891247,4 L6.00368914,3.999 L6.00599909,4.75457396 L6.00599909,4.75457396 L6.00368914,4.783 L6.00368914,16.999 L8.77307039,17 C9.57551536,17 10.3461406,17.2202781 11.0128313,17.6202194 L11.2536891,17.776 L11.2536891,5.211 C10.8200889,4.56369974 10.1361548,4.13636104 9.37521067,4.02745763 L9.18347055,4.00692283 L8.9891247,4 Z"></path></g></svg></button></div></div><div class="explorer" data-behavior="link" data-collapsed="collapsed" data-savestate="true" data-data-fns="{&quot;order&quot;:[&quot;filter&quot;,&quot;map&quot;,&quot;sort&quot;],&quot;sortFn&quot;:&quot;(a,b)=>!a.isFolder&amp;&amp;!b.isFolder||a.isFolder&amp;&amp;b.isFolder?a.displayName.localeCompare(b.displayName,void 0,{numeric:!0,sensitivity:\&quot;base\&quot;}):!a.isFolder&amp;&amp;b.isFolder?1:-1&quot;,&quot;filterFn&quot;:&quot;node=>node.slugSegment!==\&quot;tags\&quot;&quot;,&quot;mapFn&quot;:&quot;node=>node&quot;}"><button type="button" class="explorer-toggle mobile-explorer hide-until-loaded" data-mobile="true" aria-controls="explorer-2448"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide-menu"><line x1="4" x2="20" y1="12" y2="12"></line><line x1="4" x2="20" y1="6" y2="6"></line><line x1="4" x2="20" y1="18" y2="18"></line></svg></button><button type="button" class="title-button explorer-toggle desktop-explorer" data-mobile="false" aria-expanded="true"><h2>탐색기</h2><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><div id="explorer-2448" class="explorer-content" aria-expanded="false" role="group"><ul class="explorer-ul overflow" id="list-0"><li class="overflow-end"></li></ul></div><template id="template-file"><li><a href="#"></a></li></template><template id="template-folder"><li><div class="folder-container"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="folder-icon"><polyline points="6 9 12 15 18 9"></polyline></svg><div><button class="folder-button"><span class="folder-title"></span></button></div></div><div class="folder-outer"><ul class="content"></ul></div></li></template></div></div><div class="center"><div class="page-header"><div class="popover-hint"><nav class="breadcrumb-container" aria-label="breadcrumbs"><div class="breadcrumb-element"><a href="../">Home</a><p> ❯ </p></div><div class="breadcrumb-element"><a href="../outputs/">outputs</a><p> ❯ </p></div><div class="breadcrumb-element"><a href>ingest tracker KOSPI</a></div></nav><h1 class="article-title">ingest-tracker-KOSPI</h1><p show-comma="true" class="content-meta"><time datetime="2026-06-28T21:13:21.000Z">2026년 6월 29일</time><span>58 min read</span></p></div></div><article class="popover-hint"><h1 id="kospi-인제스트-트래커">KOSPI 인제스트 트래커<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#kospi-인제스트-트래커" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h1>
+<ul>
+<li>대상 보고서: <strong>833건</strong></li>
+<li>완료(done): <strong>347건</strong></li>
+<li>대기(pending): <strong>486건</strong></li>
+</ul>
+<blockquote>
+<p>done 기준: 위키에 충실한(non-stub) 기업 페이지가 있거나 트래커에 done 기록됨.
+이 파일은 <code>python dart_pipeline/ingest_status.py KOSPI</code> 로 재생성됩니다.</p>
+</blockquote>
+<h2 id="-완료">✅ 완료<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#-완료" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<ul>
+<li>[000020] 동화약품 (FY2025) — <code>dart_md/KOSPI/000020_동화약품_2025.md</code></li>
+<li>[000040] KR모터스 (FY2025) — <code>dart_md/KOSPI/000040_KR모터스_2025.md</code></li>
+<li>[000050] 경방 (FY2025) — <code>dart_md/KOSPI/000050_경방_2025.md</code></li>
+<li>[000070] 삼양홀딩스 (FY2025) — <code>dart_md/KOSPI/000070_삼양홀딩스_2025.md</code></li>
+<li>[000080] 하이트진로 (FY2025) — <code>dart_md/KOSPI/000080_하이트진로_2025.md</code></li>
+<li>[000100] 유한양행 (FY2025) — <code>dart_md/KOSPI/000100_유한양행_2025.md</code></li>
+<li>[000120] CJ대한통운 (FY2025) — <code>dart_md/KOSPI/000120_CJ대한통운_2025.md</code></li>
+<li>[000140] 하이트진로홀딩스 (FY2025) — <code>dart_md/KOSPI/000140_하이트진로홀딩스_2025.md</code></li>
+<li>[000150] 두산 (FY2025) — <code>dart_md/KOSPI/000150_두산_2025.md</code></li>
+<li>[000180] 성창기업지주 (FY2025) — <code>dart_md/KOSPI/000180_성창기업지주_2025.md</code></li>
+<li>[000210] DL (FY2025) — <code>dart_md/KOSPI/000210_DL_2025.md</code></li>
+<li>[000220] 유유제약 (FY2025) — <code>dart_md/KOSPI/000220_유유제약_2025.md</code></li>
+<li>[000230] 일동홀딩스 (FY2025) — <code>dart_md/KOSPI/000230_일동홀딩스_2025.md</code></li>
+<li>[000240] 한국앤컴퍼니 (FY2025) — <code>dart_md/KOSPI/000240_한국앤컴퍼니_2025.md</code></li>
+<li>[000270] 기아 (FY2025) — <code>dart_md/KOSPI/000270_기아_2025.md</code></li>
+<li>[000300] DH오토넥스 (FY2024) — <code>dart_md/KOSPI/000300_DH오토넥스_2024.md</code></li>
+<li>[000320] 노루홀딩스 (FY2025) — <code>dart_md/KOSPI/000320_노루홀딩스_2025.md</code></li>
+<li>[000370] 한화손해보험 (FY2025) — <code>dart_md/KOSPI/000370_한화손해보험_2025.md</code></li>
+<li>[000390] SP삼화 (FY2025) — <code>dart_md/KOSPI/000390_SP삼화_2025.md</code></li>
+<li>[000400] 롯데손해보험 (FY2025) — <code>dart_md/KOSPI/000400_롯데손해보험_2025.md</code></li>
+<li>[000430] 대원강업 (FY2025) — <code>dart_md/KOSPI/000430_대원강업_2025.md</code></li>
+<li>[000480] 시알홀딩스 (FY2025) — <code>dart_md/KOSPI/000480_시알홀딩스_2025.md</code></li>
+<li>[000490] 대동 (FY2025) — <code>dart_md/KOSPI/000490_대동_2025.md</code></li>
+<li>[000500] 가온전선 (FY2025) — <code>dart_md/KOSPI/000500_가온전선_2025.md</code></li>
+<li>[000520] 삼일제약 (FY2025) — <code>dart_md/KOSPI/000520_삼일제약_2025.md</code></li>
+<li>[000540] 흥국화재 (FY2025) — <code>dart_md/KOSPI/000540_흥국화재_2025.md</code></li>
+<li>[000590] CS홀딩스 (FY2025) — <code>dart_md/KOSPI/000590_CS홀딩스_2025.md</code></li>
+<li>[000640] 동아쏘시오홀딩스 (FY2025) — <code>dart_md/KOSPI/000640_동아쏘시오홀딩스_2025.md</code></li>
+<li>[000650] 천일고속 (FY2025) — <code>dart_md/KOSPI/000650_천일고속_2025.md</code></li>
+<li>[000660] SK하이닉스 (FY2025) — <code>dart_md/KOSPI/000660_SK하이닉스_2025.md</code></li>
+<li>[000670] 영풍 (FY2025) — <code>dart_md/KOSPI/000670_영풍_2025.md</code></li>
+<li>[000680] LS네트웍스 (FY2025) — <code>dart_md/KOSPI/000680_LS네트웍스_2025.md</code></li>
+<li>[000700] 유수홀딩스 (FY2025) — <code>dart_md/KOSPI/000700_유수홀딩스_2025.md</code></li>
+<li>[000720] 현대건설 (FY2025) — <code>dart_md/KOSPI/000720_현대건설_2025.md</code></li>
+<li>[000760] 이화산업 (FY2025) — <code>dart_md/KOSPI/000760_이화산업_2025.md</code></li>
+<li>[000810] 삼성화재해상보험 (FY2025) — <code>dart_md/KOSPI/000810_삼성화재해상보험_2025.md</code></li>
+<li>[000850] 화천기공 (FY2025) — <code>dart_md/KOSPI/000850_화천기공_2025.md</code></li>
+<li>[000860] 강남제비스코 (FY2025) — <code>dart_md/KOSPI/000860_강남제비스코_2025.md</code></li>
+<li>[000880] 한화 (FY2025) — <code>dart_md/KOSPI/000880_한화_2025.md</code></li>
+<li>[000890] 보해양조 (FY2025) — <code>dart_md/KOSPI/000890_보해양조_2025.md</code></li>
+<li>[000910] 유니온 (FY2025) — <code>dart_md/KOSPI/000910_유니온_2025.md</code></li>
+<li>[000950] 전방 (FY2024) — <code>dart_md/KOSPI/000950_전방_2024.md</code></li>
+<li>[000970] 한국주철관공업 (FY2025) — <code>dart_md/KOSPI/000970_한국주철관공업_2025.md</code></li>
+<li>[000990] DB하이텍 (FY2025) — <code>dart_md/KOSPI/000990_DB하이텍_2025.md</code></li>
+<li>[001020] 페이퍼코리아 (FY2025) — <code>dart_md/KOSPI/001020_페이퍼코리아_2025.md</code></li>
+<li>[001040] CJ (FY2025) — <code>dart_md/KOSPI/001040_CJ_2025.md</code></li>
+<li>[001060] JW중외제약 (FY2025) — <code>dart_md/KOSPI/001060_JW중외제약_2025.md</code></li>
+<li>[001070] 대한방직 (FY2025) — <code>dart_md/KOSPI/001070_대한방직_2025.md</code></li>
+<li>[001080] 만호제강 (FY2024) — <code>dart_md/KOSPI/001080_만호제강_2024.md</code></li>
+<li>[001120] LX인터내셔널 (FY2025) — <code>dart_md/KOSPI/001120_LX인터내셔널_2025.md</code></li>
+<li>[001130] 대한제분 (FY2025) — <code>dart_md/KOSPI/001130_대한제분_2025.md</code></li>
+<li>[001200] 유진증권 (FY2025) — <code>dart_md/KOSPI/001200_유진증권_2025.md</code></li>
+<li>[001210] 금호전기 (FY2025) — <code>dart_md/KOSPI/001210_금호전기_2025.md</code></li>
+<li>[001230] 동국홀딩스 (FY2025) — <code>dart_md/KOSPI/001230_동국홀딩스_2025.md</code></li>
+<li>[001250] GS글로벌 (FY2025) — <code>dart_md/KOSPI/001250_GS글로벌_2025.md</code></li>
+<li>[001260] 남광토건 (FY2025) — <code>dart_md/KOSPI/001260_남광토건_2025.md</code></li>
+<li>[001270] 부국증권 (FY2025) — <code>dart_md/KOSPI/001270_부국증권_2025.md</code></li>
+<li>[001290] 상상인증권 (FY2025) — <code>dart_md/KOSPI/001290_상상인증권_2025.md</code></li>
+<li>[001340] PKC (FY2025) — <code>dart_md/KOSPI/001340_PKC_2025.md</code></li>
+<li>[001360] 삼성제약 (FY2025) — <code>dart_md/KOSPI/001360_삼성제약_2025.md</code></li>
+<li>[001380] SG글로벌 (FY2025) — <code>dart_md/KOSPI/001380_SG글로벌_2025.md</code></li>
+<li>[001390] KG케미칼 (FY2025) — <code>dart_md/KOSPI/001390_KG케미칼_2025.md</code></li>
+<li>[001420] 태원물산 (FY2025) — <code>dart_md/KOSPI/001420_태원물산_2025.md</code></li>
+<li>[001430] 세아베스틸지주 (FY2025) — <code>dart_md/KOSPI/001430_세아베스틸지주_2025.md</code></li>
+<li>[001440] 대한전선 (FY2025) — <code>dart_md/KOSPI/001440_대한전선_2025.md</code></li>
+<li>[001450] 현대해상 (FY2025) — <code>dart_md/KOSPI/001450_현대해상_2025.md</code></li>
+<li>[001460] BYC (FY2025) — <code>dart_md/KOSPI/001460_BYC_2025.md</code></li>
+<li>[001470] 삼부토건 (FY2025) — <code>dart_md/KOSPI/001470_삼부토건_2025.md</code></li>
+<li>[001500] 현대차증권 (FY2025) — <code>dart_md/KOSPI/001500_현대차증권_2025.md</code></li>
+<li>[001510] SK증권 (FY2025) — <code>dart_md/KOSPI/001510_SK증권_2025.md</code></li>
+<li>[001520] 동양 (FY2025) — <code>dart_md/KOSPI/001520_동양_2025.md</code></li>
+<li>[001530] 디아이동일 (FY2025) — <code>dart_md/KOSPI/001530_디아이동일_2025.md</code></li>
+<li>[001550] 조비 (FY2025) — <code>dart_md/KOSPI/001550_조비_2025.md</code></li>
+<li>[001560] 제일연마 (FY2025) — <code>dart_md/KOSPI/001560_제일연마_2025.md</code></li>
+<li>[001570] 금양 (FY2025) — <code>dart_md/KOSPI/001570_금양_2025.md</code></li>
+<li>[001620] 케이비아이동국실업 (FY2025) — <code>dart_md/KOSPI/001620_케이비아이동국실업_2025.md</code></li>
+<li>[001630] 종근당홀딩스 (FY2025) — <code>dart_md/KOSPI/001630_종근당홀딩스_2025.md</code></li>
+<li>[001680] 대상 (FY2025) — <code>dart_md/KOSPI/001680_대상_2025.md</code></li>
+<li>[001720] 신영증권 (FY2026) — <code>dart_md/KOSPI/001720_신영증권_2026.md</code></li>
+<li>[001740] SK네트웍스 (FY2025) — <code>dart_md/KOSPI/001740_SK네트웍스_2025.md</code></li>
+<li>[001750] 한양증권 (FY2025) — <code>dart_md/KOSPI/001750_한양증권_2025.md</code></li>
+<li>[001770] SHD (FY2025) — <code>dart_md/KOSPI/001770_SHD_2025.md</code></li>
+<li>[001780] 알루코 (FY2025) — <code>dart_md/KOSPI/001780_알루코_2025.md</code></li>
+<li>[001790] 대한제당 (FY2025) — <code>dart_md/KOSPI/001790_대한제당_2025.md</code></li>
+<li>[001800] 오리온홀딩스 (FY2025) — <code>dart_md/KOSPI/001800_오리온홀딩스_2025.md</code></li>
+<li>[001820] 삼화콘덴서공업 (FY2025) — <code>dart_md/KOSPI/001820_삼화콘덴서공업_2025.md</code></li>
+<li>[001940] KISCO홀딩스 (FY2025) — <code>dart_md/KOSPI/001940_KISCO홀딩스_2025.md</code></li>
+<li>[002020] 코오롱 (FY2025) — <code>dart_md/KOSPI/002020_코오롱_2025.md</code></li>
+<li>[002030] 아세아 (FY2025) — <code>dart_md/KOSPI/002030_아세아_2025.md</code></li>
+<li>[002070] 비비안 (FY2025) — <code>dart_md/KOSPI/002070_비비안_2025.md</code></li>
+<li>[002100] 경농 (FY2025) — <code>dart_md/KOSPI/002100_경농_2025.md</code></li>
+<li>[002140] 고려산업 (FY2025) — <code>dart_md/KOSPI/002140_고려산업_2025.md</code></li>
+<li>[002150] 도화엔지니어링 (FY2025) — <code>dart_md/KOSPI/002150_도화엔지니어링_2025.md</code></li>
+<li>[002170] SYTS (FY2025) — <code>dart_md/KOSPI/002170_SYTS_2025.md</code></li>
+<li>[002200] 한국수출포장공업 (FY2025) — <code>dart_md/KOSPI/002200_한국수출포장공업_2025.md</code></li>
+<li>[002210] 동성제약 (FY2025) — <code>dart_md/KOSPI/002210_동성제약_2025.md</code></li>
+<li>[002220] 한일철강 (FY2025) — <code>dart_md/KOSPI/002220_한일철강_2025.md</code></li>
+<li>[002240] 고려제강 (FY2025) — <code>dart_md/KOSPI/002240_고려제강_2025.md</code></li>
+<li>[002310] 아세아제지 (FY2025) — <code>dart_md/KOSPI/002310_아세아제지_2025.md</code></li>
+<li>[002320] 한진 (FY2025) — <code>dart_md/KOSPI/002320_한진_2025.md</code></li>
+<li>[002350] 넥센타이어 (FY2025) — <code>dart_md/KOSPI/002350_넥센타이어_2025.md</code></li>
+<li>[002360] SH에너지화학 (FY2025) — <code>dart_md/KOSPI/002360_SH에너지화학_2025.md</code></li>
+<li>[002380] 케이씨씨 (FY2025) — <code>dart_md/KOSPI/002380_케이씨씨_2025.md</code></li>
+<li>[002390] 한독 (FY2025) — <code>dart_md/KOSPI/002390_한독_2025.md</code></li>
+<li>[002410] 범양건영 (FY2025) — <code>dart_md/KOSPI/002410_범양건영_2025.md</code></li>
+<li>[002420] 세기상사 (FY2025) — <code>dart_md/KOSPI/002420_세기상사_2025.md</code></li>
+<li>[002450] 삼익악기 (FY2025) — <code>dart_md/KOSPI/002450_삼익악기_2025.md</code></li>
+<li>[002460] HS화성 (FY2025) — <code>dart_md/KOSPI/002460_HS화성_2025.md</code></li>
+<li>[002600] 조흥 (FY2025) — <code>dart_md/KOSPI/002600_조흥_2025.md</code></li>
+<li>[002620] 제일파마홀딩스 (FY2025) — <code>dart_md/KOSPI/002620_제일파마홀딩스_2025.md</code></li>
+<li>[002630] 오리엔트바이오 (FY2026) — <code>dart_md/KOSPI/002630_오리엔트바이오_2026.md</code></li>
+<li>[002690] 동일제강 (FY2025) — <code>dart_md/KOSPI/002690_동일제강_2025.md</code></li>
+<li>[002700] 신일전자 (FY2025) — <code>dart_md/KOSPI/002700_신일전자_2025.md</code></li>
+<li>[002710] TCC스틸 (FY2025) — <code>dart_md/KOSPI/002710_TCC스틸_2025.md</code></li>
+<li>[002720] 국제약품 (FY2025) — <code>dart_md/KOSPI/002720_국제약품_2025.md</code></li>
+<li>[002760] 보락 (FY2025) — <code>dart_md/KOSPI/002760_보락_2025.md</code></li>
+<li>[002780] 진흥기업 (FY2025) — <code>dart_md/KOSPI/002780_진흥기업_2025.md</code></li>
+<li>[002790] 아모레퍼시픽홀딩스 (FY2025) — <code>dart_md/KOSPI/002790_아모레퍼시픽홀딩스_2025.md</code></li>
+<li>[002810] 삼영무역 (FY2025) — <code>dart_md/KOSPI/002810_삼영무역_2025.md</code></li>
+<li>[002820] SUN&amp;L (FY2025) — <code>dart_md/KOSPI/002820_SUN&amp;L_2025.md</code></li>
+<li>[002840] 미원상사 (FY2025) — <code>dart_md/KOSPI/002840_미원상사_2025.md</code></li>
+<li>[002870] 신풍 (FY2025) — <code>dart_md/KOSPI/002870_신풍_2025.md</code></li>
+<li>[002880] 디와이에이 (FY2025) — <code>dart_md/KOSPI/002880_디와이에이_2025.md</code></li>
+<li>[002900] TYM (FY2025) — <code>dart_md/KOSPI/002900_TYM_2025.md</code></li>
+<li>[002920] 유성기업 (FY2025) — <code>dart_md/KOSPI/002920_유성기업_2025.md</code></li>
+<li>[002960] 한국쉘석유 (FY2025) — <code>dart_md/KOSPI/002960_한국쉘석유_2025.md</code></li>
+<li>[002990] 금호건설 (FY2025) — <code>dart_md/KOSPI/002990_금호건설_2025.md</code></li>
+<li>[003000] 부광약품 (FY2025) — <code>dart_md/KOSPI/003000_부광약품_2025.md</code></li>
+<li>[003010] 혜인 (FY2025) — <code>dart_md/KOSPI/003010_혜인_2025.md</code></li>
+<li>[003030] 세아제강지주 (FY2025) — <code>dart_md/KOSPI/003030_세아제강지주_2025.md</code></li>
+<li>[003060] 에이프로젠바이오로직스 (FY2025) — <code>dart_md/KOSPI/003060_에이프로젠바이오로직스_2025.md</code></li>
+<li>[003070] 코오롱글로벌 (FY2025) — <code>dart_md/KOSPI/003070_코오롱글로벌_2025.md</code></li>
+<li>[003080] SB성보 (FY2025) — <code>dart_md/KOSPI/003080_SB성보_2025.md</code></li>
+<li>[003090] 대웅 (FY2025) — <code>dart_md/KOSPI/003090_대웅_2025.md</code></li>
+<li>[0030R0] 대신밸류리츠 (FY2026) — <code>dart_md/KOSPI/0030R0_대신밸류리츠_2026.md</code></li>
+<li>[003120] 일성아이에스 (FY2025) — <code>dart_md/KOSPI/003120_일성아이에스_2025.md</code></li>
+<li>[003160] 디아이 (FY2025) — <code>dart_md/KOSPI/003160_디아이_2025.md</code></li>
+<li>[003200] 일신방직 (FY2025) — <code>dart_md/KOSPI/003200_일신방직_2025.md</code></li>
+<li>[003220] 대원제약 (FY2025) — <code>dart_md/KOSPI/003220_대원제약_2025.md</code></li>
+<li>[003230] 삼양식품 (FY2025) — <code>dart_md/KOSPI/003230_삼양식품_2025.md</code></li>
+<li>[003240] 태광산업 (FY2025) — <code>dart_md/KOSPI/003240_태광산업_2025.md</code></li>
+<li>[003280] 흥아해운 (FY2025) — <code>dart_md/KOSPI/003280_흥아해운_2025.md</code></li>
+<li>[003300] 한일홀딩스 (FY2025) — <code>dart_md/KOSPI/003300_한일홀딩스_2025.md</code></li>
+<li>[003350] 한국화장품제조 (FY2025) — <code>dart_md/KOSPI/003350_한국화장품제조_2025.md</code></li>
+<li>[003460] 유화증권 (FY2025) — <code>dart_md/KOSPI/003460_유화증권_2025.md</code></li>
+<li>[003470] 유안타증권 (FY2025) — <code>dart_md/KOSPI/003470_유안타증권_2025.md</code></li>
+<li>[003480] 한진중공업홀딩스 (FY2025) — <code>dart_md/KOSPI/003480_한진중공업홀딩스_2025.md</code></li>
+<li>[003490] 대한항공 (FY2025) — <code>dart_md/KOSPI/003490_대한항공_2025.md</code></li>
+<li>[003520] 영진약품 (FY2025) — <code>dart_md/KOSPI/003520_영진약품_2025.md</code></li>
+<li>[003530] 한화투자증권 (FY2025) — <code>dart_md/KOSPI/003530_한화투자증권_2025.md</code></li>
+<li>[003540] 대신증권 (FY2025) — <code>dart_md/KOSPI/003540_대신증권_2025.md</code></li>
+<li>[003550] LG (FY2025) — <code>dart_md/KOSPI/003550_LG_2025.md</code></li>
+<li>[003570] SNT다이내믹스 (FY2025) — <code>dart_md/KOSPI/003570_SNT다이내믹스_2025.md</code></li>
+<li>[003580] HLB글로벌 (FY2025) — <code>dart_md/KOSPI/003580_HLB글로벌_2025.md</code></li>
+<li>[003610] 방림 (FY2025) — <code>dart_md/KOSPI/003610_방림_2025.md</code></li>
+<li>[003620] KG모빌리티 (FY2025) — <code>dart_md/KOSPI/003620_KG모빌리티_2025.md</code></li>
+<li>[003650] 미창석유공업 (FY2025) — <code>dart_md/KOSPI/003650_미창석유공업_2025.md</code></li>
+<li>[003670] 포스코퓨처엠 (FY2025) — <code>dart_md/KOSPI/003670_포스코퓨처엠_2025.md</code></li>
+<li>[003680] 한성기업 (FY2025) — <code>dart_md/KOSPI/003680_한성기업_2025.md</code></li>
+<li>[003690] 코리안리 (FY2025) — <code>dart_md/KOSPI/003690_코리안리_2025.md</code></li>
+<li>[003720] 삼영 (FY2025) — <code>dart_md/KOSPI/003720_삼영_2025.md</code></li>
+<li>[003780] 진양산업 (FY2025) — <code>dart_md/KOSPI/003780_진양산업_2025.md</code></li>
+<li>[003830] 대한화섬 (FY2025) — <code>dart_md/KOSPI/003830_대한화섬_2025.md</code></li>
+<li>[003850] 보령 (FY2025) — <code>dart_md/KOSPI/003850_보령_2025.md</code></li>
+<li>[003920] 남양유업 (FY2025) — <code>dart_md/KOSPI/003920_남양유업_2025.md</code></li>
+<li>[003960] 사조대림 (FY2025) — <code>dart_md/KOSPI/003960_사조대림_2025.md</code></li>
+<li>[004000] 롯데정밀화학 (FY2025) — <code>dart_md/KOSPI/004000_롯데정밀화학_2025.md</code></li>
+<li>[004020] 현대제철 (FY2025) — <code>dart_md/KOSPI/004020_현대제철_2025.md</code></li>
+<li>[004060] SG세계물산 (FY2025) — <code>dart_md/KOSPI/004060_SG세계물산_2025.md</code></li>
+<li>[004080] 신흥 (FY2025) — <code>dart_md/KOSPI/004080_신흥_2025.md</code></li>
+<li>[004090] 한국석유공업 (FY2025) — <code>dart_md/KOSPI/004090_한국석유공업_2025.md</code></li>
+<li>[004100] 태양금속공업 (FY2025) — <code>dart_md/KOSPI/004100_태양금속공업_2025.md</code></li>
+<li>[004140] 동방 (FY2025) — <code>dart_md/KOSPI/004140_동방_2025.md</code></li>
+<li>[004150] 한솔홀딩스 (FY2025) — <code>dart_md/KOSPI/004150_한솔홀딩스_2025.md</code></li>
+<li>[004170] 신세계 (FY2025) — <code>dart_md/KOSPI/004170_신세계_2025.md</code></li>
+<li>[004250] 엔피씨 (FY2025) — <code>dart_md/KOSPI/004250_엔피씨_2025.md</code></li>
+<li>[004270] 남성 (FY2025) — <code>dart_md/KOSPI/004270_남성_2025.md</code></li>
+<li>[004310] 현대약품 (FY2025) — <code>dart_md/KOSPI/004310_현대약품_2025.md</code></li>
+<li>[004360] 세방 (FY2025) — <code>dart_md/KOSPI/004360_세방_2025.md</code></li>
+<li>[004370] 농심 (FY2025) — <code>dart_md/KOSPI/004370_농심_2025.md</code></li>
+<li>[004380] 삼익THK (FY2025) — <code>dart_md/KOSPI/004380_삼익THK_2025.md</code></li>
+<li>[004410] 서울식품공업 (FY2025) — <code>dart_md/KOSPI/004410_서울식품공업_2025.md</code></li>
+<li>[004430] 송원산업 (FY2025) — <code>dart_md/KOSPI/004430_송원산업_2025.md</code></li>
+<li>[004440] 삼일씨엔에스 (FY2025) — <code>dart_md/KOSPI/004440_삼일씨엔에스_2025.md</code></li>
+<li>[004450] 삼화왕관 (FY2025) — <code>dart_md/KOSPI/004450_삼화왕관_2025.md</code></li>
+<li>[004490] 세방전지 (FY2025) — <code>dart_md/KOSPI/004490_세방전지_2025.md</code></li>
+<li>[004540] 깨끗한나라 (FY2025) — <code>dart_md/KOSPI/004540_깨끗한나라_2025.md</code></li>
+<li>[004560] 현대비앤지스틸 (FY2025) — <code>dart_md/KOSPI/004560_현대비앤지스틸_2025.md</code></li>
+<li>[004690] 삼천리 (FY2025) — <code>dart_md/KOSPI/004690_삼천리_2025.md</code></li>
+<li>[004700] 조광피혁 (FY2025) — <code>dart_md/KOSPI/004700_조광피혁_2025.md</code></li>
+<li>[004710] 한솔테크닉스 (FY2025) — <code>dart_md/KOSPI/004710_한솔테크닉스_2025.md</code></li>
+<li>[004720] 팜젠사이언스 (FY2025) — <code>dart_md/KOSPI/004720_팜젠사이언스_2025.md</code></li>
+<li>[004770] 써니전자 (FY2025) — <code>dart_md/KOSPI/004770_써니전자_2025.md</code></li>
+<li>[004800] 효성 (FY2025) — <code>dart_md/KOSPI/004800_효성_2025.md</code></li>
+<li>[004830] 덕성 (FY2025) — <code>dart_md/KOSPI/004830_덕성_2025.md</code></li>
+<li>[004840] DRB동일 (FY2025) — <code>dart_md/KOSPI/004840_DRB동일_2025.md</code></li>
+<li>[004870] 티웨이홀딩스 (FY2025) — <code>dart_md/KOSPI/004870_티웨이홀딩스_2025.md</code></li>
+<li>[004890] 동일산업 (FY2025) — <code>dart_md/KOSPI/004890_동일산업_2025.md</code></li>
+<li>[004910] 조광페인트 (FY2025) — <code>dart_md/KOSPI/004910_조광페인트_2025.md</code></li>
+<li>[004920] 씨아이테크 (FY2025) — <code>dart_md/KOSPI/004920_씨아이테크_2025.md</code></li>
+<li>[004960] 한신공영 (FY2025) — <code>dart_md/KOSPI/004960_한신공영_2025.md</code></li>
+<li>[004970] 신라교역 (FY2025) — <code>dart_md/KOSPI/004970_신라교역_2025.md</code></li>
+<li>[004980] 성신양회 (FY2025) — <code>dart_md/KOSPI/004980_성신양회_2025.md</code></li>
+<li>[004990] 롯데지주 (FY2025) — <code>dart_md/KOSPI/004990_롯데지주_2025.md</code></li>
+<li>[005010] 휴스틸 (FY2025) — <code>dart_md/KOSPI/005010_휴스틸_2025.md</code></li>
+<li>[005030] 부산주공 (FY2025) — <code>dart_md/KOSPI/005030_부산주공_2025.md</code></li>
+<li>[005070] 코스모신소재 (FY2025) — <code>dart_md/KOSPI/005070_코스모신소재_2025.md</code></li>
+<li>[005090] SGC에너지 (FY2025) — <code>dart_md/KOSPI/005090_SGC에너지_2025.md</code></li>
+<li>[005110] 한창 (FY2022) — <code>dart_md/KOSPI/005110_한창_2022.md</code></li>
+<li>[005180] 빙그레 (FY2025) — <code>dart_md/KOSPI/005180_빙그레_2025.md</code></li>
+<li>[005250] 녹십자홀딩스 (FY2025) — <code>dart_md/KOSPI/005250_녹십자홀딩스_2025.md</code></li>
+<li>[005300] 롯데칠성음료 (FY2025) — <code>dart_md/KOSPI/005300_롯데칠성음료_2025.md</code></li>
+<li>[005320] 온타이드 (FY2025) — <code>dart_md/KOSPI/005320_온타이드_2025.md</code></li>
+<li>[005360] 모나미 (FY2025) — <code>dart_md/KOSPI/005360_모나미_2025.md</code></li>
+<li>[005380] 현대자동차 (FY2025) — <code>dart_md/KOSPI/005380_현대자동차_2025.md</code></li>
+<li>[005420] 코스모화학 (FY2025) — <code>dart_md/KOSPI/005420_코스모화학_2025.md</code></li>
+<li>[005430] 한국공항 (FY2025) — <code>dart_md/KOSPI/005430_한국공항_2025.md</code></li>
+<li>[005440] 현대지에프홀딩스 (FY2025) — <code>dart_md/KOSPI/005440_현대지에프홀딩스_2025.md</code></li>
+<li>[005490] POSCO홀딩스 (FY2025) — <code>dart_md/KOSPI/005490_POSCO홀딩스_2025.md</code></li>
+<li>[005500] 삼진제약 (FY2025) — <code>dart_md/KOSPI/005500_삼진제약_2025.md</code></li>
+<li>[005610] 삼립 (FY2025) — <code>dart_md/KOSPI/005610_삼립_2025.md</code></li>
+<li>[005680] 삼영전자공업 (FY2025) — <code>dart_md/KOSPI/005680_삼영전자공업_2025.md</code></li>
+<li>[005690] 파미셀 (FY2025) — <code>dart_md/KOSPI/005690_파미셀_2025.md</code></li>
+<li>[005720] 넥센 (FY2025) — <code>dart_md/KOSPI/005720_넥센_2025.md</code></li>
+<li>[005740] 크라운해태홀딩스 (FY2025) — <code>dart_md/KOSPI/005740_크라운해태홀딩스_2025.md</code></li>
+<li>[005750] 대림바스 (FY2025) — <code>dart_md/KOSPI/005750_대림바스_2025.md</code></li>
+<li>[005800] 신영와코루 (FY2025) — <code>dart_md/KOSPI/005800_신영와코루_2025.md</code></li>
+<li>[005810] 풍산홀딩스 (FY2025) — <code>dart_md/KOSPI/005810_풍산홀딩스_2025.md</code></li>
+<li>[005820] 원림 (FY2025) — <code>dart_md/KOSPI/005820_원림_2025.md</code></li>
+<li>[005830] DB손해보험 (FY2025) — <code>dart_md/KOSPI/005830_DB손해보험_2025.md</code></li>
+<li>[005850] 에스엘 (FY2025) — <code>dart_md/KOSPI/005850_에스엘_2025.md</code></li>
+<li>[005870] 휴니드테크놀러지스 (FY2025) — <code>dart_md/KOSPI/005870_휴니드테크놀러지스_2025.md</code></li>
+<li>[005880] 대한해운 (FY2025) — <code>dart_md/KOSPI/005880_대한해운_2025.md</code></li>
+<li>[005930] 삼성전자 (FY2025) — <code>dart_md/KOSPI/005930_삼성전자_2025.md</code></li>
+<li>[005940] NH투자증권 (FY2025) — <code>dart_md/KOSPI/005940_NH투자증권_2025.md</code></li>
+<li>[005950] 이수화학 (FY2025) — <code>dart_md/KOSPI/005950_이수화학_2025.md</code></li>
+<li>[005960] 동부건설 (FY2025) — <code>dart_md/KOSPI/005960_동부건설_2025.md</code></li>
+<li>[006040] 동원산업 (FY2025) — <code>dart_md/KOSPI/006040_동원산업_2025.md</code></li>
+<li>[006060] 화승인더스트리 (FY2025) — <code>dart_md/KOSPI/006060_화승인더스트리_2025.md</code></li>
+<li>[006090] 사조오양 (FY2025) — <code>dart_md/KOSPI/006090_사조오양_2025.md</code></li>
+<li>[006110] 삼아알미늄 (FY2025) — <code>dart_md/KOSPI/006110_삼아알미늄_2025.md</code></li>
+<li>[006120] SK디스커버리 (FY2025) — <code>dart_md/KOSPI/006120_SK디스커버리_2025.md</code></li>
+<li>[006200] 한국전자홀딩스 (FY2025) — <code>dart_md/KOSPI/006200_한국전자홀딩스_2025.md</code></li>
+<li>[006220] 제주은행 (FY2025) — <code>dart_md/KOSPI/006220_제주은행_2025.md</code></li>
+<li>[006260] LS (FY2025) — <code>dart_md/KOSPI/006260_LS_2025.md</code></li>
+<li>[006280] 녹십자 (FY2025) — <code>dart_md/KOSPI/006280_녹십자_2025.md</code></li>
+<li>[006340] 대원전선 (FY2025) — <code>dart_md/KOSPI/006340_대원전선_2025.md</code></li>
+<li>[006360] GS건설 (FY2025) — <code>dart_md/KOSPI/006360_GS건설_2025.md</code></li>
+<li>[006370] 대구백화점 (FY2025) — <code>dart_md/KOSPI/006370_대구백화점_2025.md</code></li>
+<li>[006380] 카프로 (FY2025) — <code>dart_md/KOSPI/006380_카프로_2025.md</code></li>
+<li>[006400] 삼성SDI (FY2025) — <code>dart_md/KOSPI/006400_삼성SDI_2025.md</code></li>
+<li>[006490] 프리티 (FY2025) — <code>dart_md/KOSPI/006490_프리티_2025.md</code></li>
+<li>[006570] 대림통상 (FY2025) — <code>dart_md/KOSPI/006570_대림통상_2025.md</code></li>
+<li>[006650] 대한유화 (FY2025) — <code>dart_md/KOSPI/006650_대한유화_2025.md</code></li>
+<li>[006660] 삼성공조 (FY2025) — <code>dart_md/KOSPI/006660_삼성공조_2025.md</code></li>
+<li>[006740] 블루산업개발 (FY2025) — <code>dart_md/KOSPI/006740_블루산업개발_2025.md</code></li>
+<li>[006800] 미래에셋증권 (FY2025) — <code>dart_md/KOSPI/006800_미래에셋증권_2025.md</code></li>
+<li>[006840] AK홀딩스 (FY2025) — <code>dart_md/KOSPI/006840_AK홀딩스_2025.md</code></li>
+<li>[006880] 신송홀딩스 (FY2025) — <code>dart_md/KOSPI/006880_신송홀딩스_2025.md</code></li>
+<li>[006890] 태경케미컬 (FY2025) — <code>dart_md/KOSPI/006890_태경케미컬_2025.md</code></li>
+<li>[006980] 우성 (FY2025) — <code>dart_md/KOSPI/006980_우성_2025.md</code></li>
+<li>[007070] GS리테일 (FY2025) — <code>dart_md/KOSPI/007070_GS리테일_2025.md</code></li>
+<li>[007110] 일신석재 (FY2025) — <code>dart_md/KOSPI/007110_일신석재_2025.md</code></li>
+<li>[007120] 미래아이앤지 (FY2025) — <code>dart_md/KOSPI/007120_미래아이앤지_2025.md</code></li>
+<li>[007160] 사조산업 (FY2025) — <code>dart_md/KOSPI/007160_사조산업_2025.md</code></li>
+<li>[007210] 벽산 (FY2025) — <code>dart_md/KOSPI/007210_벽산_2025.md</code></li>
+<li>[007280] 한국특강 (FY2025) — <code>dart_md/KOSPI/007280_한국특강_2025.md</code></li>
+<li>[007310] 오뚜기 (FY2025) — <code>dart_md/KOSPI/007310_오뚜기_2025.md</code></li>
+<li>[007340] DN오토모티브 (FY2025) — <code>dart_md/KOSPI/007340_DN오토모티브_2025.md</code></li>
+<li>[007460] 에이프로젠 (FY2025) — <code>dart_md/KOSPI/007460_에이프로젠_2025.md</code></li>
+<li>[007540] 샘표 (FY2025) — <code>dart_md/KOSPI/007540_샘표_2025.md</code></li>
+<li>[007570] 일양약품 (FY2025) — <code>dart_md/KOSPI/007570_일양약품_2025.md</code></li>
+<li>[007590] 동방아그로 (FY2025) — <code>dart_md/KOSPI/007590_동방아그로_2025.md</code></li>
+<li>[007610] 선도전기 (FY2025) — <code>dart_md/KOSPI/007610_선도전기_2025.md</code></li>
+<li>[007660] 이수페타시스 (FY2025) — <code>dart_md/KOSPI/007660_이수페타시스_2025.md</code></li>
+<li>[007690] 국도화학 (FY2025) — <code>dart_md/KOSPI/007690_국도화학_2025.md</code></li>
+<li>[007700] F&amp;F 홀딩스 (FY2025) — <code>dart_md/KOSPI/007700_F&amp;F_홀딩스_2025.md</code></li>
+<li>[007810] 코리아써키트 (FY2025) — <code>dart_md/KOSPI/007810_코리아써키트_2025.md</code></li>
+<li>[007860] 서연 (FY2025) — <code>dart_md/KOSPI/007860_서연_2025.md</code></li>
+<li>[007980] TP (FY2025) — <code>dart_md/KOSPI/007980_TP_2025.md</code></li>
+<li>[008040] 사조동아원 (FY2025) — <code>dart_md/KOSPI/008040_사조동아원_2025.md</code></li>
+<li>[008060] 대덕 (FY2025) — <code>dart_md/KOSPI/008060_대덕_2025.md</code></li>
+<li>[008250] 이건산업 (FY2025) — <code>dart_md/KOSPI/008250_이건산업_2025.md</code></li>
+<li>[008260] NI스틸 (FY2025) — <code>dart_md/KOSPI/008260_NI스틸_2025.md</code></li>
+<li>[008350] 남선알미늄 (FY2025) — <code>dart_md/KOSPI/008350_남선알미늄_2025.md</code></li>
+<li>[008420] 문배철강 (FY2025) — <code>dart_md/KOSPI/008420_문배철강_2025.md</code></li>
+<li>[008490] 서흥 (FY2025) — <code>dart_md/KOSPI/008490_서흥_2025.md</code></li>
+<li>[008500] 일정실업 (FY2025) — <code>dart_md/KOSPI/008500_일정실업_2025.md</code></li>
+<li>[008600] 윌비스 (FY2025) — <code>dart_md/KOSPI/008600_윌비스_2025.md</code></li>
+<li>[008700] 아남전자 (FY2025) — <code>dart_md/KOSPI/008700_아남전자_2025.md</code></li>
+<li>[008730] 율촌화학 (FY2025) — <code>dart_md/KOSPI/008730_율촌화학_2025.md</code></li>
+<li>[008770] 호텔신라 (FY2025) — <code>dart_md/KOSPI/008770_호텔신라_2025.md</code></li>
+<li>[008870] 금비 (FY2025) — <code>dart_md/KOSPI/008870_금비_2025.md</code></li>
+<li>[008930] 한미사이언스 (FY2025) — <code>dart_md/KOSPI/008930_한미사이언스_2025.md</code></li>
+<li>[008970] KBI동양철관 (FY2025) — <code>dart_md/KOSPI/008970_KBI동양철관_2025.md</code></li>
+<li>[009070] 케이씨티시 (FY2025) — <code>dart_md/KOSPI/009070_케이씨티시_2025.md</code></li>
+<li>[009140] 경인전자 (FY2025) — <code>dart_md/KOSPI/009140_경인전자_2025.md</code></li>
+<li>[009150] 삼성전기 (FY2025) — <code>dart_md/KOSPI/009150_삼성전기_2025.md</code></li>
+<li>[009160] SIMPAC (FY2025) — <code>dart_md/KOSPI/009160_SIMPAC_2025.md</code></li>
+<li>[009180] 한솔로지스틱스 (FY2025) — <code>dart_md/KOSPI/009180_한솔로지스틱스_2025.md</code></li>
+<li>[009190] 대양금속 (FY2025) — <code>dart_md/KOSPI/009190_대양금속_2025.md</code></li>
+<li>[009200] 무림페이퍼 (FY2025) — <code>dart_md/KOSPI/009200_무림페이퍼_2025.md</code></li>
+<li>[009240] 한샘 (FY2025) — <code>dart_md/KOSPI/009240_한샘_2025.md</code></li>
+<li>[009270] 신원 (FY2025) — <code>dart_md/KOSPI/009270_신원_2025.md</code></li>
+<li>[009290] 광동제약 (FY2025) — <code>dart_md/KOSPI/009290_광동제약_2025.md</code></li>
+<li>[009310] 참엔지니어링 (FY2025) — <code>dart_md/KOSPI/009310_참엔지니어링_2025.md</code></li>
+<li>[009320] 아진전자부품 (FY2025) — <code>dart_md/KOSPI/009320_아진전자부품_2025.md</code></li>
+<li>[009410] 태영건설 (FY2025) — <code>dart_md/KOSPI/009410_태영건설_2025.md</code></li>
+<li>[009420] 한올바이오파마 (FY2025) — <code>dart_md/KOSPI/009420_한올바이오파마_2025.md</code></li>
+<li>[009440] KC그린홀딩스 (FY2025) — <code>dart_md/KOSPI/009440_KC그린홀딩스_2025.md</code></li>
+<li>[009450] 경동나비엔 (FY2025) — <code>dart_md/KOSPI/009450_경동나비엔_2025.md</code></li>
+<li>[009460] 한창제지 (FY2025) — <code>dart_md/KOSPI/009460_한창제지_2025.md</code></li>
+<li>[009470] 삼화전기 (FY2025) — <code>dart_md/KOSPI/009470_삼화전기_2025.md</code></li>
+<li>[009540] HD한국조선해양 (FY2025) — <code>dart_md/KOSPI/009540_HD한국조선해양_2025.md</code></li>
+<li>[009580] 무림P&amp;P (FY2025) — <code>dart_md/KOSPI/009580_무림P&amp;P_2025.md</code></li>
+<li>[009680] 모토닉 (FY2025) — <code>dart_md/KOSPI/009680_모토닉_2025.md</code></li>
+<li>[009770] 삼정펄프 (FY2025) — <code>dart_md/KOSPI/009770_삼정펄프_2025.md</code></li>
+<li>[009810] 플레이그램 (FY2025) — <code>dart_md/KOSPI/009810_플레이그램_2025.md</code></li>
+<li>[009830] 한화솔루션 (FY2025) — <code>dart_md/KOSPI/009830_한화솔루션_2025.md</code></li>
+<li>[009900] 명신산업 (FY2025) — <code>dart_md/KOSPI/009900_명신산업_2025.md</code></li>
+<li>[009970] 영원무역홀딩스 (FY2025) — <code>dart_md/KOSPI/009970_영원무역홀딩스_2025.md</code></li>
+<li>[010040] 한국내화 (FY2025) — <code>dart_md/KOSPI/010040_한국내화_2025.md</code></li>
+<li>[010060] OCI홀딩스 (FY2025) — <code>dart_md/KOSPI/010060_OCI홀딩스_2025.md</code></li>
+<li>[010100] 한국무브넥스 (FY2025) — <code>dart_md/KOSPI/010100_한국무브넥스_2025.md</code></li>
+<li>[010120] 엘에스일렉트릭 (FY2025) — <code>dart_md/KOSPI/010120_엘에스일렉트릭_2025.md</code></li>
+<li>[010130] 고려아연 (FY2025) — <code>dart_md/KOSPI/010130_고려아연_2025.md</code></li>
+<li>[010140] 삼성중공업 (FY2025) — <code>dart_md/KOSPI/010140_삼성중공업_2025.md</code></li>
+<li>[010400] 우진아이엔에스 (FY2025) — <code>dart_md/KOSPI/010400_우진아이엔에스_2025.md</code></li>
+<li>[010580] 에스엠벡셀 (FY2025) — <code>dart_md/KOSPI/010580_에스엠벡셀_2025.md</code></li>
+<li>[010640] 진양폴리우레탄 (FY2025) — <code>dart_md/KOSPI/010640_진양폴리우레탄_2025.md</code></li>
+<li>[011070] LG이노텍 (FY2025) — <code>dart_md/KOSPI/011070_LG이노텍_2025.md</code></li>
+<li>[011210] 현대위아 (FY2025) — <code>dart_md/KOSPI/011210_현대위아_2025.md</code></li>
+<li>[012330] 현대모비스 (FY2025) — <code>dart_md/KOSPI/012330_현대모비스_2025.md</code></li>
+<li>[015760] 한국전력공사 (FY2025) — <code>dart_md/KOSPI/015760_한국전력공사_2025.md</code></li>
+<li>[028260] 삼성물산 (FY2025) — <code>dart_md/KOSPI/028260_삼성물산_2025.md</code></li>
+<li>[032830] 삼성생명 (FY2025) — <code>dart_md/KOSPI/032830_삼성생명_2025.md</code></li>
+<li>[034220] LG디스플레이 (FY2025) — <code>dart_md/KOSPI/034220_LG디스플레이_2025.md</code></li>
+<li>[042700] 한미반도체 (FY2025) — <code>dart_md/KOSPI/042700_한미반도체_2025.md</code></li>
+<li>[055550] 신한지주 (FY2025) — <code>dart_md/KOSPI/055550_신한지주_2025.md</code></li>
+<li>[066570] LG전자 (FY2025) — <code>dart_md/KOSPI/066570_LG전자_2025.md</code></li>
+<li>[071050] 한국금융지주 (FY2025) — <code>dart_md/KOSPI/071050_한국금융지주_2025.md</code></li>
+<li>[086790] 하나금융지주 (FY2025) — <code>dart_md/KOSPI/086790_하나금융지주_2025.md</code></li>
+<li>[267250] HD현대 (FY2025) — <code>dart_md/KOSPI/267250_HD현대_2025.md</code></li>
+<li>[267260] HD현대일렉트릭 (FY2025) — <code>dart_md/KOSPI/267260_HD현대일렉트릭_2025.md</code></li>
+<li>[307950] 현대오토에버 (FY2025) — <code>dart_md/KOSPI/307950_현대오토에버_2025.md</code></li>
+<li>[316140] 우리금융지주 (FY2025) — <code>dart_md/KOSPI/316140_우리금융지주_2025.md</code></li>
+<li>[402340] SK스퀘어 (FY2025) — <code>dart_md/KOSPI/402340_SK스퀘어_2025.md</code></li>
+</ul>
+<h2 id="-대기">⏳ 대기<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#-대기" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<ul>
+<li>[010660] 화천기계 (FY2025) — <code>dart_md/KOSPI/010660_화천기계_2025.md</code></li>
+<li>[010690] 화신 (FY2025) — <code>dart_md/KOSPI/010690_화신_2025.md</code></li>
+<li>[010770] 평화홀딩스 (FY2025) — <code>dart_md/KOSPI/010770_평화홀딩스_2025.md</code></li>
+<li>[010780] 아이에스동서 (FY2025) — <code>dart_md/KOSPI/010780_아이에스동서_2025.md</code></li>
+<li>[010820] 퍼스텍 (FY2025) — <code>dart_md/KOSPI/010820_퍼스텍_2025.md</code></li>
+<li>[010950] S-Oil (FY2025) — <code>dart_md/KOSPI/010950_S-Oil_2025.md</code></li>
+<li>[010960] 삼호개발 (FY2025) — <code>dart_md/KOSPI/010960_삼호개발_2025.md</code></li>
+<li>[011000] 진원생명과학 (FY2025) — <code>dart_md/KOSPI/011000_진원생명과학_2025.md</code></li>
+<li>[011090] 에넥스 (FY2025) — <code>dart_md/KOSPI/011090_에넥스_2025.md</code></li>
+<li>[011150] CJ씨푸드 (FY2025) — <code>dart_md/KOSPI/011150_CJ씨푸드_2025.md</code></li>
+<li>[011170] 롯데케미칼 (FY2025) — <code>dart_md/KOSPI/011170_롯데케미칼_2025.md</code></li>
+<li>[011200] HMM (FY2025) — <code>dart_md/KOSPI/011200_HMM_2025.md</code></li>
+<li>[011230] 삼화전자공업 (FY2025) — <code>dart_md/KOSPI/011230_삼화전자공업_2025.md</code></li>
+<li>[011280] 태림포장 (FY2025) — <code>dart_md/KOSPI/011280_태림포장_2025.md</code></li>
+<li>[011300] 우성머티리얼스 (FY2025) — <code>dart_md/KOSPI/011300_우성머티리얼스_2025.md</code></li>
+<li>[011330] 유니켐 (FY2025) — <code>dart_md/KOSPI/011330_유니켐_2025.md</code></li>
+<li>[011390] 부산산업 (FY2025) — <code>dart_md/KOSPI/011390_부산산업_2025.md</code></li>
+<li>[011420] 갤럭시아에스엠 (FY2025) — <code>dart_md/KOSPI/011420_갤럭시아에스엠_2025.md</code></li>
+<li>[011500] 한농화성 (FY2025) — <code>dart_md/KOSPI/011500_한농화성_2025.md</code></li>
+<li>[011690] 와이투솔루션 (FY2025) — <code>dart_md/KOSPI/011690_와이투솔루션_2025.md</code></li>
+<li>[011700] 한신기계공업 (FY2025) — <code>dart_md/KOSPI/011700_한신기계공업_2025.md</code></li>
+<li>[011760] 현대코퍼레이션 (FY2025) — <code>dart_md/KOSPI/011760_현대코퍼레이션_2025.md</code></li>
+<li>[011780] 금호석유화학 (FY2025) — <code>dart_md/KOSPI/011780_금호석유화학_2025.md</code></li>
+<li>[011790] SKC (FY2025) — <code>dart_md/KOSPI/011790_SKC_2025.md</code></li>
+<li>[011810] STX (FY2025) — <code>dart_md/KOSPI/011810_STX_2025.md</code></li>
+<li>[011930] 신성이엔지 (FY2025) — <code>dart_md/KOSPI/011930_신성이엔지_2025.md</code></li>
+<li>[012030] DB (FY2025) — <code>dart_md/KOSPI/012030_DB_2025.md</code></li>
+<li>[0120G0] 삼양바이오팜 (FY2025) — <code>dart_md/KOSPI/0120G0_삼양바이오팜_2025.md</code></li>
+<li>[012160] 영흥 (FY2025) — <code>dart_md/KOSPI/012160_영흥_2025.md</code></li>
+<li>[012170] 아센디오 (FY2025) — <code>dart_md/KOSPI/012170_아센디오_2025.md</code></li>
+<li>[012200] 계양전기 (FY2025) — <code>dart_md/KOSPI/012200_계양전기_2025.md</code></li>
+<li>[012280] 영화금속 (FY2025) — <code>dart_md/KOSPI/012280_영화금속_2025.md</code></li>
+<li>[012320] 경동인베스트 (FY2025) — <code>dart_md/KOSPI/012320_경동인베스트_2025.md</code></li>
+<li>[012450] 한화에어로스페이스 (FY2025) — <code>dart_md/KOSPI/012450_한화에어로스페이스_2025.md</code></li>
+<li>[012510] 더존비즈온 (FY2025) — <code>dart_md/KOSPI/012510_더존비즈온_2025.md</code></li>
+<li>[012610] 경인양행 (FY2025) — <code>dart_md/KOSPI/012610_경인양행_2025.md</code></li>
+<li>[012630] HDC (FY2025) — <code>dart_md/KOSPI/012630_HDC_2025.md</code></li>
+<li>[012690] 모나리자 (FY2025) — <code>dart_md/KOSPI/012690_모나리자_2025.md</code></li>
+<li>[0126Z0] 삼성에피스홀딩스 (FY2025) — <code>dart_md/KOSPI/0126Z0_삼성에피스홀딩스_2025.md</code></li>
+<li>[012750] 에스원 (FY2025) — <code>dart_md/KOSPI/012750_에스원_2025.md</code></li>
+<li>[012800] 대창 (FY2025) — <code>dart_md/KOSPI/012800_대창_2025.md</code></li>
+<li>[013000] 세우글로벌 (FY2025) — <code>dart_md/KOSPI/013000_세우글로벌_2025.md</code></li>
+<li>[013360] 일성건설 (FY2025) — <code>dart_md/KOSPI/013360_일성건설_2025.md</code></li>
+<li>[013520] 화승코퍼레이션 (FY2025) — <code>dart_md/KOSPI/013520_화승코퍼레이션_2025.md</code></li>
+<li>[013570] 디와이 (FY2025) — <code>dart_md/KOSPI/013570_디와이_2025.md</code></li>
+<li>[013580] 계룡건설산업 (FY2025) — <code>dart_md/KOSPI/013580_계룡건설산업_2025.md</code></li>
+<li>[013700] 까뮤이앤씨 (FY2025) — <code>dart_md/KOSPI/013700_까뮤이앤씨_2025.md</code></li>
+<li>[013870] 지엠비코리아 (FY2025) — <code>dart_md/KOSPI/013870_지엠비코리아_2025.md</code></li>
+<li>[013890] 지누스 (FY2025) — <code>dart_md/KOSPI/013890_지누스_2025.md</code></li>
+<li>[014130] 한익스프레스 (FY2025) — <code>dart_md/KOSPI/014130_한익스프레스_2025.md</code></li>
+<li>[014160] 대영포장 (FY2025) — <code>dart_md/KOSPI/014160_대영포장_2025.md</code></li>
+<li>[014280] 금강공업 (FY2025) — <code>dart_md/KOSPI/014280_금강공업_2025.md</code></li>
+<li>[014440] 영보화학 (FY2025) — <code>dart_md/KOSPI/014440_영보화학_2025.md</code></li>
+<li>[014530] 극동유화 (FY2025) — <code>dart_md/KOSPI/014530_극동유화_2025.md</code></li>
+<li>[014580] 태경비케이 (FY2025) — <code>dart_md/KOSPI/014580_태경비케이_2025.md</code></li>
+<li>[014680] 한솔케미칼 (FY2025) — <code>dart_md/KOSPI/014680_한솔케미칼_2025.md</code></li>
+<li>[014710] 사조씨푸드 (FY2025) — <code>dart_md/KOSPI/014710_사조씨푸드_2025.md</code></li>
+<li>[014790] HL D&amp;I (FY2025) — <code>dart_md/KOSPI/014790_HL_D&amp;I_2025.md</code></li>
+<li>[014820] 동원시스템즈 (FY2025) — <code>dart_md/KOSPI/014820_동원시스템즈_2025.md</code></li>
+<li>[014830] 유니드 (FY2025) — <code>dart_md/KOSPI/014830_유니드_2025.md</code></li>
+<li>[014910] 성문전자 (FY2025) — <code>dart_md/KOSPI/014910_성문전자_2025.md</code></li>
+<li>[014990] 인디에프 (FY2025) — <code>dart_md/KOSPI/014990_인디에프_2025.md</code></li>
+<li>[015020] 이스타코 (FY2025) — <code>dart_md/KOSPI/015020_이스타코_2025.md</code></li>
+<li>[015230] 대창단조 (FY2025) — <code>dart_md/KOSPI/015230_대창단조_2025.md</code></li>
+<li>[015260] 에이엔피 (FY2025) — <code>dart_md/KOSPI/015260_에이엔피_2025.md</code></li>
+<li>[015360] INVENI (FY2025) — <code>dart_md/KOSPI/015360_INVENI_2025.md</code></li>
+<li>[015590] DKME (FY2025) — <code>dart_md/KOSPI/015590_DKME_2025.md</code></li>
+<li>[015860] 일진홀딩스 (FY2025) — <code>dart_md/KOSPI/015860_일진홀딩스_2025.md</code></li>
+<li>[015890] 태경산업 (FY2025) — <code>dart_md/KOSPI/015890_태경산업_2025.md</code></li>
+<li>[016090] 대현 (FY2025) — <code>dart_md/KOSPI/016090_대현_2025.md</code></li>
+<li>[016360] 삼성증권 (FY2025) — <code>dart_md/KOSPI/016360_삼성증권_2025.md</code></li>
+<li>[016380] KG스틸 (FY2025) — <code>dart_md/KOSPI/016380_KG스틸_2025.md</code></li>
+<li>[016450] 한세예스24홀딩스 (FY2025) — <code>dart_md/KOSPI/016450_한세예스24홀딩스_2025.md</code></li>
+<li>[016580] 환인제약 (FY2025) — <code>dart_md/KOSPI/016580_환인제약_2025.md</code></li>
+<li>[016590] 신대양제지 (FY2025) — <code>dart_md/KOSPI/016590_신대양제지_2025.md</code></li>
+<li>[016610] DB증권 (FY2025) — <code>dart_md/KOSPI/016610_DB증권_2025.md</code></li>
+<li>[016710] 대성홀딩스 (FY2025) — <code>dart_md/KOSPI/016710_대성홀딩스_2025.md</code></li>
+<li>[016740] 두올 (FY2025) — <code>dart_md/KOSPI/016740_두올_2025.md</code></li>
+<li>[016800] 퍼시스 (FY2025) — <code>dart_md/KOSPI/016800_퍼시스_2025.md</code></li>
+<li>[016880] 웅진 (FY2025) — <code>dart_md/KOSPI/016880_웅진_2025.md</code></li>
+<li>[017040] 광명전기 (FY2025) — <code>dart_md/KOSPI/017040_광명전기_2025.md</code></li>
+<li>[017180] 명문제약 (FY2025) — <code>dart_md/KOSPI/017180_명문제약_2025.md</code></li>
+<li>[017370] 우신시스템 (FY2025) — <code>dart_md/KOSPI/017370_우신시스템_2025.md</code></li>
+<li>[017390] 서울도시가스 (FY2025) — <code>dart_md/KOSPI/017390_서울도시가스_2025.md</code></li>
+<li>[017550] 수산세보틱스 (FY2025) — <code>dart_md/KOSPI/017550_수산세보틱스_2025.md</code></li>
+<li>[017670] SK텔레콤 (FY2025) — <code>dart_md/KOSPI/017670_SK텔레콤_2025.md</code></li>
+<li>[017800] 현대엘리베이터 (FY2025) — <code>dart_md/KOSPI/017800_현대엘리베이터_2025.md</code></li>
+<li>[017810] 풀무원 (FY2025) — <code>dart_md/KOSPI/017810_풀무원_2025.md</code></li>
+<li>[017860] DS단석 (FY2025) — <code>dart_md/KOSPI/017860_DS단석_2025.md</code></li>
+<li>[017900] 광전자 (FY2025) — <code>dart_md/KOSPI/017900_광전자_2025.md</code></li>
+<li>[017940] E1 (FY2025) — <code>dart_md/KOSPI/017940_E1_2025.md</code></li>
+<li>[017960] 한국카본 (FY2025) — <code>dart_md/KOSPI/017960_한국카본_2025.md</code></li>
+<li>[018250] 애경산업 (FY2025) — <code>dart_md/KOSPI/018250_애경산업_2025.md</code></li>
+<li>[018260] 삼성에스디에스 (FY2025) — <code>dart_md/KOSPI/018260_삼성에스디에스_2025.md</code></li>
+<li>[018470] 조일알미늄 (FY2025) — <code>dart_md/KOSPI/018470_조일알미늄_2025.md</code></li>
+<li>[018500] 동원금속 (FY2026) — <code>dart_md/KOSPI/018500_동원금속_2026.md</code></li>
+<li>[018670] SK가스 (FY2025) — <code>dart_md/KOSPI/018670_SK가스_2025.md</code></li>
+<li>[018880] 한온시스템 (FY2025) — <code>dart_md/KOSPI/018880_한온시스템_2025.md</code></li>
+<li>[019170] 신풍제약 (FY2025) — <code>dart_md/KOSPI/019170_신풍제약_2025.md</code></li>
+<li>[019180] 티에이치엔 (FY2025) — <code>dart_md/KOSPI/019180_티에이치엔_2025.md</code></li>
+<li>[019490] 엑시큐어하이트론 (FY2025) — <code>dart_md/KOSPI/019490_엑시큐어하이트론_2025.md</code></li>
+<li>[019680] 대교 (FY2025) — <code>dart_md/KOSPI/019680_대교_2025.md</code></li>
+<li>[020000] 한섬 (FY2025) — <code>dart_md/KOSPI/020000_한섬_2025.md</code></li>
+<li>[020120] 키다리스튜디오 (FY2025) — <code>dart_md/KOSPI/020120_키다리스튜디오_2025.md</code></li>
+<li>[020150] 롯데에너지머티리얼즈 (FY2025) — <code>dart_md/KOSPI/020150_롯데에너지머티리얼즈_2025.md</code></li>
+<li>[020560] 아시아나항공 (FY2025) — <code>dart_md/KOSPI/020560_아시아나항공_2025.md</code></li>
+<li>[020760] 일진디스플 (FY2025) — <code>dart_md/KOSPI/020760_일진디스플_2025.md</code></li>
+<li>[021050] 서원 (FY2025) — <code>dart_md/KOSPI/021050_서원_2025.md</code></li>
+<li>[021240] 코웨이 (FY2025) — <code>dart_md/KOSPI/021240_코웨이_2025.md</code></li>
+<li>[021820] 세원정공 (FY2025) — <code>dart_md/KOSPI/021820_세원정공_2025.md</code></li>
+<li>[022100] 포스코DX (FY2025) — <code>dart_md/KOSPI/022100_포스코DX_2025.md</code></li>
+<li>[023000] 삼원강재 (FY2025) — <code>dart_md/KOSPI/023000_삼원강재_2025.md</code></li>
+<li>[023150] MH에탄올 (FY2025) — <code>dart_md/KOSPI/023150_MH에탄올_2025.md</code></li>
+<li>[023350] 한국종합기술 (FY2025) — <code>dart_md/KOSPI/023350_한국종합기술_2025.md</code></li>
+<li>[023450] 동남합성 (FY2025) — <code>dart_md/KOSPI/023450_동남합성_2025.md</code></li>
+<li>[023530] 롯데쇼핑 (FY2025) — <code>dart_md/KOSPI/023530_롯데쇼핑_2025.md</code></li>
+<li>[023590] 다우기술 (FY2025) — <code>dart_md/KOSPI/023590_다우기술_2025.md</code></li>
+<li>[023800] 인지컨트롤스 (FY2025) — <code>dart_md/KOSPI/023800_인지컨트롤스_2025.md</code></li>
+<li>[023810] 인팩 (FY2025) — <code>dart_md/KOSPI/023810_인팩_2025.md</code></li>
+<li>[023960] 에쓰씨엔지니어링 (FY2025) — <code>dart_md/KOSPI/023960_에쓰씨엔지니어링_2025.md</code></li>
+<li>[024070] WISCOM (FY2025) — <code>dart_md/KOSPI/024070_WISCOM_2025.md</code></li>
+<li>[024090] 디씨엠 (FY2025) — <code>dart_md/KOSPI/024090_디씨엠_2025.md</code></li>
+<li>[024110] 기업은행 (FY2025) — <code>dart_md/KOSPI/024110_기업은행_2025.md</code></li>
+<li>[024720] 콜마홀딩스 (FY2025) — <code>dart_md/KOSPI/024720_콜마홀딩스_2025.md</code></li>
+<li>[024890] 대원화성 (FY2025) — <code>dart_md/KOSPI/024890_대원화성_2025.md</code></li>
+<li>[024900] 디와이덕양 (FY2025) — <code>dart_md/KOSPI/024900_디와이덕양_2025.md</code></li>
+<li>[025000] KPX케미칼 (FY2025) — <code>dart_md/KOSPI/025000_KPX케미칼_2025.md</code></li>
+<li>[025530] 에스제이엠홀딩스 (FY2025) — <code>dart_md/KOSPI/025530_에스제이엠홀딩스_2025.md</code></li>
+<li>[025540] 한국단자공업 (FY2025) — <code>dart_md/KOSPI/025540_한국단자공업_2025.md</code></li>
+<li>[025560] 미래산업 (FY2025) — <code>dart_md/KOSPI/025560_미래산업_2025.md</code></li>
+<li>[025620] 차AI헬스케어 (FY2025) — <code>dart_md/KOSPI/025620_차AI헬스케어_2025.md</code></li>
+<li>[025750] 한솔홈데코 (FY2025) — <code>dart_md/KOSPI/025750_한솔홈데코_2025.md</code></li>
+<li>[025820] 이구산업 (FY2025) — <code>dart_md/KOSPI/025820_이구산업_2025.md</code></li>
+<li>[025860] 남해화학 (FY2025) — <code>dart_md/KOSPI/025860_남해화학_2025.md</code></li>
+<li>[025890] 한국주강 (FY2025) — <code>dart_md/KOSPI/025890_한국주강_2025.md</code></li>
+<li>[026890] 스틱인베스트먼트 (FY2025) — <code>dart_md/KOSPI/026890_스틱인베스트먼트_2025.md</code></li>
+<li>[026940] 부국철강 (FY2025) — <code>dart_md/KOSPI/026940_부국철강_2025.md</code></li>
+<li>[026960] 동서 (FY2025) — <code>dart_md/KOSPI/026960_동서_2025.md</code></li>
+<li>[027410] BGF (FY2025) — <code>dart_md/KOSPI/027410_BGF_2025.md</code></li>
+<li>[027740] 마니커 (FY2025) — <code>dart_md/KOSPI/027740_마니커_2025.md</code></li>
+<li>[027970] 한국제지 (FY2025) — <code>dart_md/KOSPI/027970_한국제지_2025.md</code></li>
+<li>[028050] 삼성E&amp;A (FY2025) — <code>dart_md/KOSPI/028050_삼성E&amp;A_2025.md</code></li>
+<li>[028100] 동아지질 (FY2025) — <code>dart_md/KOSPI/028100_동아지질_2025.md</code></li>
+<li>[028670] 팬오션 (FY2025) — <code>dart_md/KOSPI/028670_팬오션_2025.md</code></li>
+<li>[029460] 케이씨 (FY2025) — <code>dart_md/KOSPI/029460_케이씨_2025.md</code></li>
+<li>[029530] 신도리코 (FY2025) — <code>dart_md/KOSPI/029530_신도리코_2025.md</code></li>
+<li>[029780] 삼성카드 (FY2025) — <code>dart_md/KOSPI/029780_삼성카드_2025.md</code></li>
+<li>[030000] 제일기획 (FY2025) — <code>dart_md/KOSPI/030000_제일기획_2025.md</code></li>
+<li>[030190] NICE평가정보 (FY2025) — <code>dart_md/KOSPI/030190_NICE평가정보_2025.md</code></li>
+<li>[030200] 케이티 (FY2025) — <code>dart_md/KOSPI/030200_케이티_2025.md</code></li>
+<li>[030210] 다올투자증권 (FY2025) — <code>dart_md/KOSPI/030210_다올투자증권_2025.md</code></li>
+<li>[030610] 교보증권 (FY2025) — <code>dart_md/KOSPI/030610_교보증권_2025.md</code></li>
+<li>[030720] 동원수산 (FY2025) — <code>dart_md/KOSPI/030720_동원수산_2025.md</code></li>
+<li>[031210] 서울보증보험 (FY2025) — <code>dart_md/KOSPI/031210_서울보증보험_2025.md</code></li>
+<li>[031430] 신세계인터내셔날 (FY2025) — <code>dart_md/KOSPI/031430_신세계인터내셔날_2025.md</code></li>
+<li>[031440] 신세계푸드 (FY2025) — <code>dart_md/KOSPI/031440_신세계푸드_2025.md</code></li>
+<li>[031820] 아이티센씨티에스 (FY2025) — <code>dart_md/KOSPI/031820_아이티센씨티에스_2025.md</code></li>
+<li>[032350] 롯데관광개발 (FY2025) — <code>dart_md/KOSPI/032350_롯데관광개발_2025.md</code></li>
+<li>[032560] 황금에스티 (FY2025) — <code>dart_md/KOSPI/032560_황금에스티_2025.md</code></li>
+<li>[032640] LG유플러스 (FY2025) — <code>dart_md/KOSPI/032640_LG유플러스_2025.md</code></li>
+<li>[033240] 자화전자 (FY2025) — <code>dart_md/KOSPI/033240_자화전자_2025.md</code></li>
+<li>[033250] 체시스 (FY2025) — <code>dart_md/KOSPI/033250_체시스_2025.md</code></li>
+<li>[033270] 유나이티드 (FY2025) — <code>dart_md/KOSPI/033270_유나이티드_2025.md</code></li>
+<li>[033530] SJG세종 (FY2025) — <code>dart_md/KOSPI/033530_SJG세종_2025.md</code></li>
+<li>[033780] 케이티앤지 (FY2025) — <code>dart_md/KOSPI/033780_케이티앤지_2025.md</code></li>
+<li>[033920] 무학 (FY2025) — <code>dart_md/KOSPI/033920_무학_2025.md</code></li>
+<li>[034020] 두산에너빌리티 (FY2025) — <code>dart_md/KOSPI/034020_두산에너빌리티_2025.md</code></li>
+<li>[034120] SBS (FY2025) — <code>dart_md/KOSPI/034120_SBS_2025.md</code></li>
+<li>[034230] 파라다이스 (FY2025) — <code>dart_md/KOSPI/034230_파라다이스_2025.md</code></li>
+<li>[034310] NICE (FY2025) — <code>dart_md/KOSPI/034310_NICE_2025.md</code></li>
+<li>[034590] 인천도시가스 (FY2025) — <code>dart_md/KOSPI/034590_인천도시가스_2025.md</code></li>
+<li>[034730] SK (FY2025) — <code>dart_md/KOSPI/034730_SK_2025.md</code></li>
+<li>[034830] 한국토지신탁 (FY2025) — <code>dart_md/KOSPI/034830_한국토지신탁_2025.md</code></li>
+<li>[035000] HS애드 (FY2025) — <code>dart_md/KOSPI/035000_HS애드_2025.md</code></li>
+<li>[035150] 백산 (FY2025) — <code>dart_md/KOSPI/035150_백산_2025.md</code></li>
+<li>[035250] 강원랜드 (FY2025) — <code>dart_md/KOSPI/035250_강원랜드_2025.md</code></li>
+<li>[035420] NAVER (FY2025) — <code>dart_md/KOSPI/035420_NAVER_2025.md</code></li>
+<li>[035510] 신세계I&amp;C (FY2025) — <code>dart_md/KOSPI/035510_신세계I&amp;C_2025.md</code></li>
+<li>[035720] 카카오 (FY2025) — <code>dart_md/KOSPI/035720_카카오_2025.md</code></li>
+<li>[036420] 콘텐트리중앙 (FY2025) — <code>dart_md/KOSPI/036420_콘텐트리중앙_2025.md</code></li>
+<li>[036460] 한국가스공사 (FY2025) — <code>dart_md/KOSPI/036460_한국가스공사_2025.md</code></li>
+<li>[036530] SNT홀딩스 (FY2025) — <code>dart_md/KOSPI/036530_SNT홀딩스_2025.md</code></li>
+<li>[036570] NC (FY2025) — <code>dart_md/KOSPI/036570_NC_2025.md</code></li>
+<li>[036580] 팜스코 (FY2025) — <code>dart_md/KOSPI/036580_팜스코_2025.md</code></li>
+<li>[037270] YG PLUS (FY2025) — <code>dart_md/KOSPI/037270_YG_PLUS_2025.md</code></li>
+<li>[037560] LG헬로비전 (FY2025) — <code>dart_md/KOSPI/037560_LG헬로비전_2025.md</code></li>
+<li>[037710] 광주신세계 (FY2025) — <code>dart_md/KOSPI/037710_광주신세계_2025.md</code></li>
+<li>[039130] 하나투어 (FY2025) — <code>dart_md/KOSPI/039130_하나투어_2025.md</code></li>
+<li>[039490] 키움증권 (FY2025) — <code>dart_md/KOSPI/039490_키움증권_2025.md</code></li>
+<li>[039570] HDC랩스 (FY2025) — <code>dart_md/KOSPI/039570_HDC랩스_2025.md</code></li>
+<li>[041650] 상신브레이크 (FY2025) — <code>dart_md/KOSPI/041650_상신브레이크_2025.md</code></li>
+<li>[042660] 한화오션 (FY2025) — <code>dart_md/KOSPI/042660_한화오션_2025.md</code></li>
+<li>[044380] 주연테크 (FY2025) — <code>dart_md/KOSPI/044380_주연테크_2025.md</code></li>
+<li>[044450] KSS해운 (FY2025) — <code>dart_md/KOSPI/044450_KSS해운_2025.md</code></li>
+<li>[044820] 코스맥스비티아이 (FY2025) — <code>dart_md/KOSPI/044820_코스맥스비티아이_2025.md</code></li>
+<li>[047040] 대우건설 (FY2025) — <code>dart_md/KOSPI/047040_대우건설_2025.md</code></li>
+<li>[047050] 포스코인터내셔널 (FY2025) — <code>dart_md/KOSPI/047050_포스코인터내셔널_2025.md</code></li>
+<li>[047400] 유니온머티리얼 (FY2025) — <code>dart_md/KOSPI/047400_유니온머티리얼_2025.md</code></li>
+<li>[047810] 한국항공우주 (FY2025) — <code>dart_md/KOSPI/047810_한국항공우주_2025.md</code></li>
+<li>[049800] 우진플라임 (FY2025) — <code>dart_md/KOSPI/049800_우진플라임_2025.md</code></li>
+<li>[051600] 한전KPS (FY2025) — <code>dart_md/KOSPI/051600_한전KPS_2025.md</code></li>
+<li>[051630] 진양화학 (FY2025) — <code>dart_md/KOSPI/051630_진양화학_2025.md</code></li>
+<li>[051900] LG생활건강 (FY2025) — <code>dart_md/KOSPI/051900_LG생활건강_2025.md</code></li>
+<li>[051910] LG화학 (FY2025) — <code>dart_md/KOSPI/051910_LG화학_2025.md</code></li>
+<li>[052690] 한전기술 (FY2025) — <code>dart_md/KOSPI/052690_한전기술_2025.md</code></li>
+<li>[053210] 케이티스카이라이프 (FY2025) — <code>dart_md/KOSPI/053210_케이티스카이라이프_2025.md</code></li>
+<li>[053690] 한미글로벌 (FY2025) — <code>dart_md/KOSPI/053690_한미글로벌_2025.md</code></li>
+<li>[055490] 테이팩스 (FY2025) — <code>dart_md/KOSPI/055490_테이팩스_2025.md</code></li>
+<li>[057050] 현대홈쇼핑 (FY2025) — <code>dart_md/KOSPI/057050_현대홈쇼핑_2025.md</code></li>
+<li>[058430] 포스코스틸리온 (FY2025) — <code>dart_md/KOSPI/058430_포스코스틸리온_2025.md</code></li>
+<li>[058650] 세아홀딩스 (FY2025) — <code>dart_md/KOSPI/058650_세아홀딩스_2025.md</code></li>
+<li>[058730] 다스코 (FY2025) — <code>dart_md/KOSPI/058730_다스코_2025.md</code></li>
+<li>[058850] KTcs (FY2025) — <code>dart_md/KOSPI/058850_KTcs_2025.md</code></li>
+<li>[058860] KTis (FY2025) — <code>dart_md/KOSPI/058860_KTis_2025.md</code></li>
+<li>[060980] HL홀딩스 (FY2025) — <code>dart_md/KOSPI/060980_HL홀딩스_2025.md</code></li>
+<li>[062040] 산일전기 (FY2025) — <code>dart_md/KOSPI/062040_산일전기_2025.md</code></li>
+<li>[063160] 종근당바이오 (FY2025) — <code>dart_md/KOSPI/063160_종근당바이오_2025.md</code></li>
+<li>[064350] 현대로템 (FY2025) — <code>dart_md/KOSPI/064350_현대로템_2025.md</code></li>
+<li>[064400] LG씨엔에스 (FY2025) — <code>dart_md/KOSPI/064400_LG씨엔에스_2025.md</code></li>
+<li>[064960] SNT모티브 (FY2025) — <code>dart_md/KOSPI/064960_SNT모티브_2025.md</code></li>
+<li>[066970] 엘앤에프 (FY2025) — <code>dart_md/KOSPI/066970_엘앤에프_2025.md</code></li>
+<li>[067830] 세이브존I&amp;C (FY2025) — <code>dart_md/KOSPI/067830_세이브존I&amp;C_2025.md</code></li>
+<li>[068270] 셀트리온 (FY2025) — <code>dart_md/KOSPI/068270_셀트리온_2025.md</code></li>
+<li>[068290] 삼성출판사 (FY2025) — <code>dart_md/KOSPI/068290_삼성출판사_2025.md</code></li>
+<li>[069260] 티케이지휴켐스 (FY2025) — <code>dart_md/KOSPI/069260_티케이지휴켐스_2025.md</code></li>
+<li>[069460] 대호에이엘 (FY2025) — <code>dart_md/KOSPI/069460_대호에이엘_2025.md</code></li>
+<li>[069620] 대웅제약 (FY2025) — <code>dart_md/KOSPI/069620_대웅제약_2025.md</code></li>
+<li>[069640] 한세엠케이 (FY2025) — <code>dart_md/KOSPI/069640_한세엠케이_2025.md</code></li>
+<li>[069730] DSR제강 (FY2025) — <code>dart_md/KOSPI/069730_DSR제강_2025.md</code></li>
+<li>[069960] 현대백화점 (FY2025) — <code>dart_md/KOSPI/069960_현대백화점_2025.md</code></li>
+<li>[070960] 모나용평 (FY2025) — <code>dart_md/KOSPI/070960_모나용평_2025.md</code></li>
+<li>[071090] 하이스틸 (FY2025) — <code>dart_md/KOSPI/071090_하이스틸_2025.md</code></li>
+<li>[071320] 지역난방공사 (FY2025) — <code>dart_md/KOSPI/071320_지역난방공사_2025.md</code></li>
+<li>[071840] 롯데하이마트 (FY2025) — <code>dart_md/KOSPI/071840_롯데하이마트_2025.md</code></li>
+<li>[071950] 코아스 (FY2025) — <code>dart_md/KOSPI/071950_코아스_2025.md</code></li>
+<li>[071970] HD현대마린엔진 (FY2025) — <code>dart_md/KOSPI/071970_HD현대마린엔진_2025.md</code></li>
+<li>[072130] 유엔젤 (FY2025) — <code>dart_md/KOSPI/072130_유엔젤_2025.md</code></li>
+<li>[072710] 농심홀딩스 (FY2025) — <code>dart_md/KOSPI/072710_농심홀딩스_2025.md</code></li>
+<li>[073240] 금호타이어 (FY2025) — <code>dart_md/KOSPI/073240_금호타이어_2025.md</code></li>
+<li>[074610] 이엔플러스 (FY2025) — <code>dart_md/KOSPI/074610_이엔플러스_2025.md</code></li>
+<li>[075180] 새론오토모티브 (FY2025) — <code>dart_md/KOSPI/075180_새론오토모티브_2025.md</code></li>
+<li>[075580] 세진중공업 (FY2025) — <code>dart_md/KOSPI/075580_세진중공업_2025.md</code></li>
+<li>[077500] 유니퀘스트 (FY2025) — <code>dart_md/KOSPI/077500_유니퀘스트_2025.md</code></li>
+<li>[077970] STX엔진 (FY2025) — <code>dart_md/KOSPI/077970_STX엔진_2025.md</code></li>
+<li>[078000] 텔코웨어 (FY2025) — <code>dart_md/KOSPI/078000_텔코웨어_2025.md</code></li>
+<li>[078520] 에이블씨엔씨 (FY2025) — <code>dart_md/KOSPI/078520_에이블씨엔씨_2025.md</code></li>
+<li>[078930] GS (FY2025) — <code>dart_md/KOSPI/078930_GS_2025.md</code></li>
+<li>[079160] CJ CGV (FY2025) — <code>dart_md/KOSPI/079160_CJ_CGV_2025.md</code></li>
+<li>[079430] 현대리바트 (FY2025) — <code>dart_md/KOSPI/079430_현대리바트_2025.md</code></li>
+<li>[079550] LIG디펜스앤에어로스페이스 (FY2025) — <code>dart_md/KOSPI/079550_LIG디펜스앤에어로스페이스_2025.md</code></li>
+<li>[079900] 전진건설로봇 (FY2025) — <code>dart_md/KOSPI/079900_전진건설로봇_2025.md</code></li>
+<li>[079980] 휴비스 (FY2025) — <code>dart_md/KOSPI/079980_휴비스_2025.md</code></li>
+<li>[081000] 일진다이아 (FY2025) — <code>dart_md/KOSPI/081000_일진다이아_2025.md</code></li>
+<li>[081660] 미스토홀딩스 (FY2025) — <code>dart_md/KOSPI/081660_미스토홀딩스_2025.md</code></li>
+<li>[082640] 동양생명 (FY2025) — <code>dart_md/KOSPI/082640_동양생명_2025.md</code></li>
+<li>[082740] 한화엔진 (FY2025) — <code>dart_md/KOSPI/082740_한화엔진_2025.md</code></li>
+<li>[083420] 그린케미칼 (FY2025) — <code>dart_md/KOSPI/083420_그린케미칼_2025.md</code></li>
+<li>[084010] 대한제강 (FY2025) — <code>dart_md/KOSPI/084010_대한제강_2025.md</code></li>
+<li>[084670] 동양고속 (FY2025) — <code>dart_md/KOSPI/084670_동양고속_2025.md</code></li>
+<li>[084680] 이월드 (FY2025) — <code>dart_md/KOSPI/084680_이월드_2025.md</code></li>
+<li>[084690] 대상홀딩스 (FY2025) — <code>dart_md/KOSPI/084690_대상홀딩스_2025.md</code></li>
+<li>[084870] 티비에이치글로벌 (FY2025) — <code>dart_md/KOSPI/084870_티비에이치글로벌_2025.md</code></li>
+<li>[085310] 엔케이 (FY2025) — <code>dart_md/KOSPI/085310_엔케이_2025.md</code></li>
+<li>[085620] 미래에셋생명 (FY2025) — <code>dart_md/KOSPI/085620_미래에셋생명_2025.md</code></li>
+<li>[086280] 현대글로비스 (FY2025) — <code>dart_md/KOSPI/086280_현대글로비스_2025.md</code></li>
+<li>[088260] 이리츠코크렙 (FY2025) — <code>dart_md/KOSPI/088260_이리츠코크렙_2025.md</code></li>
+<li>[088350] 한화생명 (FY2025) — <code>dart_md/KOSPI/088350_한화생명_2025.md</code></li>
+<li>[088790] 진도 (FY2025) — <code>dart_md/KOSPI/088790_진도_2025.md</code></li>
+<li>[089470] HDC현대EP (FY2025) — <code>dart_md/KOSPI/089470_HDC현대EP_2025.md</code></li>
+<li>[089590] 제주항공 (FY2025) — <code>dart_md/KOSPI/089590_제주항공_2025.md</code></li>
+<li>[089860] 롯데렌탈 (FY2025) — <code>dart_md/KOSPI/089860_롯데렌탈_2025.md</code></li>
+<li>[090080] 평화산업 (FY2025) — <code>dart_md/KOSPI/090080_평화산업_2025.md</code></li>
+<li>[090350] 노루페인트 (FY2025) — <code>dart_md/KOSPI/090350_노루페인트_2025.md</code></li>
+<li>[090370] 메타랩스 (FY2025) — <code>dart_md/KOSPI/090370_메타랩스_2025.md</code></li>
+<li>[090430] 아모레퍼시픽 (FY2025) — <code>dart_md/KOSPI/090430_아모레퍼시픽_2025.md</code></li>
+<li>[090460] 비에이치 (FY2025) — <code>dart_md/KOSPI/090460_비에이치_2025.md</code></li>
+<li>[091810] 트리니티항공 (FY2025) — <code>dart_md/KOSPI/091810_트리니티항공_2025.md</code></li>
+<li>[092200] 디아이씨 (FY2025) — <code>dart_md/KOSPI/092200_디아이씨_2025.md</code></li>
+<li>[092220] KEC (FY2025) — <code>dart_md/KOSPI/092220_KEC_2025.md</code></li>
+<li>[092230] KPX홀딩스 (FY2025) — <code>dart_md/KOSPI/092230_KPX홀딩스_2025.md</code></li>
+<li>[092440] 기신정기 (FY2026) — <code>dart_md/KOSPI/092440_기신정기_2026.md</code></li>
+<li>[092780] DYP (FY2025) — <code>dart_md/KOSPI/092780_DYP_2025.md</code></li>
+<li>[092790] 넥스틸 (FY2025) — <code>dart_md/KOSPI/092790_넥스틸_2025.md</code></li>
+<li>[093050] LF (FY2025) — <code>dart_md/KOSPI/093050_LF_2025.md</code></li>
+<li>[093240] 형지엘리트 (FY2025) — <code>dart_md/KOSPI/093240_형지엘리트_2025.md</code></li>
+<li>[093370] 후성 (FY2025) — <code>dart_md/KOSPI/093370_후성_2025.md</code></li>
+<li>[094280] 효성 ITX (FY2025) — <code>dart_md/KOSPI/094280_효성_ITX_2025.md</code></li>
+<li>[095570] AJ네트웍스 (FY2025) — <code>dart_md/KOSPI/095570_AJ네트웍스_2025.md</code></li>
+<li>[095720] 웅진씽크빅 (FY2025) — <code>dart_md/KOSPI/095720_웅진씽크빅_2025.md</code></li>
+<li>[096760] JW홀딩스 (FY2025) — <code>dart_md/KOSPI/096760_JW홀딩스_2025.md</code></li>
+<li>[096770] SK이노베이션 (FY2025) — <code>dart_md/KOSPI/096770_SK이노베이션_2025.md</code></li>
+<li>[097230] HJ중공업 (FY2025) — <code>dart_md/KOSPI/097230_HJ중공업_2025.md</code></li>
+<li>[097520] 엠씨넥스 (FY2025) — <code>dart_md/KOSPI/097520_엠씨넥스_2025.md</code></li>
+<li>[097950] CJ제일제당 (FY2025) — <code>dart_md/KOSPI/097950_CJ제일제당_2025.md</code></li>
+<li>[100090] SK오션플랜트 (FY2025) — <code>dart_md/KOSPI/100090_SK오션플랜트_2025.md</code></li>
+<li>[100220] 비상교육 (FY2025) — <code>dart_md/KOSPI/100220_비상교육_2025.md</code></li>
+<li>[100250] 진양홀딩스 (FY2025) — <code>dart_md/KOSPI/100250_진양홀딩스_2025.md</code></li>
+<li>[100840] SNT에너지 (FY2025) — <code>dart_md/KOSPI/100840_SNT에너지_2025.md</code></li>
+<li>[101140] 인바이오젠 (FY2025) — <code>dart_md/KOSPI/101140_인바이오젠_2025.md</code></li>
+<li>[101530] 해태제과식품 (FY2025) — <code>dart_md/KOSPI/101530_해태제과식품_2025.md</code></li>
+<li>[102260] 동성케미컬 (FY2025) — <code>dart_md/KOSPI/102260_동성케미컬_2025.md</code></li>
+<li>[102460] 이연제약 (FY2025) — <code>dart_md/KOSPI/102460_이연제약_2025.md</code></li>
+<li>[103140] 풍산 (FY2025) — <code>dart_md/KOSPI/103140_풍산_2025.md</code></li>
+<li>[103590] 일진전기 (FY2025) — <code>dart_md/KOSPI/103590_일진전기_2025.md</code></li>
+<li>[104700] 한국철강 (FY2025) — <code>dart_md/KOSPI/104700_한국철강_2025.md</code></li>
+<li>[105560] KB금융 (FY2024) — <code>dart_md/KOSPI/105560_KB금융_2024.md</code></li>
+<li>[105630] 한세실업 (FY2025) — <code>dart_md/KOSPI/105630_한세실업_2025.md</code></li>
+<li>[105840] 우진 (FY2025) — <code>dart_md/KOSPI/105840_우진_2025.md</code></li>
+<li>[107590] 미원홀딩스 (FY2025) — <code>dart_md/KOSPI/107590_미원홀딩스_2025.md</code></li>
+<li>[108320] LX세미콘 (FY2025) — <code>dart_md/KOSPI/108320_LX세미콘_2025.md</code></li>
+<li>[108670] LX하우시스 (FY2025) — <code>dart_md/KOSPI/108670_LX하우시스_2025.md</code></li>
+<li>[109070] 주성코퍼레이션 (FY2025) — <code>dart_md/KOSPI/109070_주성코퍼레이션_2025.md</code></li>
+<li>[111110] 호전실업 (FY2025) — <code>dart_md/KOSPI/111110_호전실업_2025.md</code></li>
+<li>[111380] 동인기연 (FY2025) — <code>dart_md/KOSPI/111380_동인기연_2025.md</code></li>
+<li>[111770] 영원무역 (FY2025) — <code>dart_md/KOSPI/111770_영원무역_2025.md</code></li>
+<li>[112610] 씨에스윈드 (FY2025) — <code>dart_md/KOSPI/112610_씨에스윈드_2025.md</code></li>
+<li>[114090] GKL (FY2025) — <code>dart_md/KOSPI/114090_GKL_2025.md</code></li>
+<li>[117580] 대성에너지 (FY2025) — <code>dart_md/KOSPI/117580_대성에너지_2025.md</code></li>
+<li>[118000] 메타케어 (FY2025) — <code>dart_md/KOSPI/118000_메타케어_2025.md</code></li>
+<li>[119650] KC코트렐 (FY2024) — <code>dart_md/KOSPI/119650_KC코트렐_2024.md</code></li>
+<li>[120030] 조선선재 (FY2025) — <code>dart_md/KOSPI/120030_조선선재_2025.md</code></li>
+<li>[120110] 코오롱인더 (FY2025) — <code>dart_md/KOSPI/120110_코오롱인더_2025.md</code></li>
+<li>[122900] 아이마켓코리아 (FY2025) — <code>dart_md/KOSPI/122900_아이마켓코리아_2025.md</code></li>
+<li>[123690] 한국화장품 (FY2025) — <code>dart_md/KOSPI/123690_한국화장품_2025.md</code></li>
+<li>[123700] 에스제이엠 (FY2025) — <code>dart_md/KOSPI/123700_에스제이엠_2025.md</code></li>
+<li>[123890] 한국자산신탁 (FY2025) — <code>dart_md/KOSPI/123890_한국자산신탁_2025.md</code></li>
+<li>[126560] 현대퓨처넷 (FY2025) — <code>dart_md/KOSPI/126560_현대퓨처넷_2025.md</code></li>
+<li>[126720] 수산인더스트리 (FY2025) — <code>dart_md/KOSPI/126720_수산인더스트리_2025.md</code></li>
+<li>[128820] 대성산업 (FY2025) — <code>dart_md/KOSPI/128820_대성산업_2025.md</code></li>
+<li>[128940] 한미약품 (FY2025) — <code>dart_md/KOSPI/128940_한미약품_2025.md</code></li>
+<li>[129260] 인터지스 (FY2025) — <code>dart_md/KOSPI/129260_인터지스_2025.md</code></li>
+<li>[130660] 한전산업 (FY2025) — <code>dart_md/KOSPI/130660_한전산업_2025.md</code></li>
+<li>[133820] 화인베스틸 (FY2025) — <code>dart_md/KOSPI/133820_화인베스틸_2025.md</code></li>
+<li>[134380] 미원화학 (FY2025) — <code>dart_md/KOSPI/134380_미원화학_2025.md</code></li>
+<li>[134790] 시디즈 (FY2025) — <code>dart_md/KOSPI/134790_시디즈_2025.md</code></li>
+<li>[136490] 선진 (FY2025) — <code>dart_md/KOSPI/136490_선진_2025.md</code></li>
+<li>[137310] 에스디바이오센서 (FY2025) — <code>dart_md/KOSPI/137310_에스디바이오센서_2025.md</code></li>
+<li>[138040] 메리츠금융지주 (FY2025) — <code>dart_md/KOSPI/138040_메리츠금융지주_2025.md</code></li>
+<li>[138930] BNK금융지주 (FY2025) — <code>dart_md/KOSPI/138930_BNK금융지주_2025.md</code></li>
+<li>[139130] iM금융지주 (FY2025) — <code>dart_md/KOSPI/139130_iM금융지주_2025.md</code></li>
+<li>[139480] 이마트 (FY2025) — <code>dart_md/KOSPI/139480_이마트_2025.md</code></li>
+<li>[139990] 아주스틸 (FY2025) — <code>dart_md/KOSPI/139990_아주스틸_2025.md</code></li>
+<li>[143210] 핸즈코퍼레이션 (FY2025) — <code>dart_md/KOSPI/143210_핸즈코퍼레이션_2025.md</code></li>
+<li>[145210] 다이나믹디자인 (FY2025) — <code>dart_md/KOSPI/145210_다이나믹디자인_2025.md</code></li>
+<li>[145270] 케이탑리츠 (FY2025) — <code>dart_md/KOSPI/145270_케이탑리츠_2025.md</code></li>
+<li>[145720] 덴티움 (FY2025) — <code>dart_md/KOSPI/145720_덴티움_2025.md</code></li>
+<li>[145990] 삼양사 (FY2025) — <code>dart_md/KOSPI/145990_삼양사_2025.md</code></li>
+<li>[155660] DSR (FY2025) — <code>dart_md/KOSPI/155660_DSR_2025.md</code></li>
+<li>[161000] 애경케미칼 (FY2025) — <code>dart_md/KOSPI/161000_애경케미칼_2025.md</code></li>
+<li>[161390] 한국타이어앤테크놀로지 (FY2025) — <code>dart_md/KOSPI/161390_한국타이어앤테크놀로지_2025.md</code></li>
+<li>[161890] 한국콜마 (FY2025) — <code>dart_md/KOSPI/161890_한국콜마_2025.md</code></li>
+<li>[163560] 동일고무벨트 (FY2025) — <code>dart_md/KOSPI/163560_동일고무벨트_2025.md</code></li>
+<li>[170900] 동아에스티 (FY2025) — <code>dart_md/KOSPI/170900_동아에스티_2025.md</code></li>
+<li>[175330] JB금융지주 (FY2025) — <code>dart_md/KOSPI/175330_JB금융지주_2025.md</code></li>
+<li>[178920] PI첨단소재 (FY2025) — <code>dart_md/KOSPI/178920_PI첨단소재_2025.md</code></li>
+<li>[180640] 한진칼 (FY2025) — <code>dart_md/KOSPI/180640_한진칼_2025.md</code></li>
+<li>[181710] NHN (FY2025) — <code>dart_md/KOSPI/181710_NHN_2025.md</code></li>
+<li>[183190] 아세아시멘트 (FY2025) — <code>dart_md/KOSPI/183190_아세아시멘트_2025.md</code></li>
+<li>[185750] 종근당 (FY2025) — <code>dart_md/KOSPI/185750_종근당_2025.md</code></li>
+<li>[192080] 더블유게임즈 (FY2025) — <code>dart_md/KOSPI/192080_더블유게임즈_2025.md</code></li>
+<li>[192400] 쿠쿠홀딩스 (FY2025) — <code>dart_md/KOSPI/192400_쿠쿠홀딩스_2025.md</code></li>
+<li>[192650] 드림텍 (FY2025) — <code>dart_md/KOSPI/192650_드림텍_2025.md</code></li>
+<li>[192820] 코스맥스 (FY2025) — <code>dart_md/KOSPI/192820_코스맥스_2025.md</code></li>
+<li>[194370] 제이에스코퍼레이션 (FY2025) — <code>dart_md/KOSPI/194370_제이에스코퍼레이션_2025.md</code></li>
+<li>[195870] 해성디에스 (FY2025) — <code>dart_md/KOSPI/195870_해성디에스_2025.md</code></li>
+<li>[200880] 서연이화 (FY2025) — <code>dart_md/KOSPI/200880_서연이화_2025.md</code></li>
+<li>[204320] HL만도 (FY2025) — <code>dart_md/KOSPI/204320_HL만도_2025.md</code></li>
+<li>[207940] 삼성바이오로직스 (FY2025) — <code>dart_md/KOSPI/207940_삼성바이오로직스_2025.md</code></li>
+<li>[210540] 디와이파워 (FY2025) — <code>dart_md/KOSPI/210540_디와이파워_2025.md</code></li>
+<li>[210980] SK디앤디 (FY2025) — <code>dart_md/KOSPI/210980_SK디앤디_2025.md</code></li>
+<li>[213500] 한솔제지 (FY2025) — <code>dart_md/KOSPI/213500_한솔제지_2025.md</code></li>
+<li>[214320] 이노션 (FY2025) — <code>dart_md/KOSPI/214320_이노션_2025.md</code></li>
+<li>[214330] 금호에이치티 (FY2025) — <code>dart_md/KOSPI/214330_금호에이치티_2025.md</code></li>
+<li>[214390] 경보제약 (FY2025) — <code>dart_md/KOSPI/214390_경보제약_2025.md</code></li>
+<li>[214420] 토니모리 (FY2025) — <code>dart_md/KOSPI/214420_토니모리_2025.md</code></li>
+<li>[217590] 티엠씨 (FY2025) — <code>dart_md/KOSPI/217590_티엠씨_2025.md</code></li>
+<li>[226320] 잇츠한불 (FY2025) — <code>dart_md/KOSPI/226320_잇츠한불_2025.md</code></li>
+<li>[227840] 현대코퍼레이션홀딩스 (FY2025) — <code>dart_md/KOSPI/227840_현대코퍼레이션홀딩스_2025.md</code></li>
+<li>[229640] LS에코에너지 (FY2025) — <code>dart_md/KOSPI/229640_LS에코에너지_2025.md</code></li>
+<li>[234080] JW생명과학 (FY2025) — <code>dart_md/KOSPI/234080_JW생명과학_2025.md</code></li>
+<li>[241560] 두산밥캣 (FY2025) — <code>dart_md/KOSPI/241560_두산밥캣_2025.md</code></li>
+<li>[241590] 화승엔터프라이즈 (FY2025) — <code>dart_md/KOSPI/241590_화승엔터프라이즈_2025.md</code></li>
+<li>[244920] 에이플러스에셋 (FY2025) — <code>dart_md/KOSPI/244920_에이플러스에셋_2025.md</code></li>
+<li>[248070] 솔루엠 (FY2025) — <code>dart_md/KOSPI/248070_솔루엠_2025.md</code></li>
+<li>[248170] 샘표식품 (FY2025) — <code>dart_md/KOSPI/248170_샘표식품_2025.md</code></li>
+<li>[249420] 일동제약 (FY2025) — <code>dart_md/KOSPI/249420_일동제약_2025.md</code></li>
+<li>[251270] 넷마블 (FY2025) — <code>dart_md/KOSPI/251270_넷마블_2025.md</code></li>
+<li>[259960] 크래프톤 (FY2025) — <code>dart_md/KOSPI/259960_크래프톤_2025.md</code></li>
+<li>[264900] 크라운제과 (FY2025) — <code>dart_md/KOSPI/264900_크라운제과_2025.md</code></li>
+<li>[267270] HD건설기계 (FY2025) — <code>dart_md/KOSPI/267270_HD건설기계_2025.md</code></li>
+<li>[267290] 경동도시가스 (FY2025) — <code>dart_md/KOSPI/267290_경동도시가스_2025.md</code></li>
+<li>[267850] 아시아나IDT (FY2025) — <code>dart_md/KOSPI/267850_아시아나IDT_2025.md</code></li>
+<li>[268280] 미원에스씨 (FY2025) — <code>dart_md/KOSPI/268280_미원에스씨_2025.md</code></li>
+<li>[271560] 오리온 (FY2025) — <code>dart_md/KOSPI/271560_오리온_2025.md</code></li>
+<li>[271940] 일진하이솔루스 (FY2025) — <code>dart_md/KOSPI/271940_일진하이솔루스_2025.md</code></li>
+<li>[271980] 제일약품 (FY2025) — <code>dart_md/KOSPI/271980_제일약품_2025.md</code></li>
+<li>[272210] 한화시스템 (FY2025) — <code>dart_md/KOSPI/272210_한화시스템_2025.md</code></li>
+<li>[272450] 진에어 (FY2025) — <code>dart_md/KOSPI/272450_진에어_2025.md</code></li>
+<li>[272550] 삼양패키징 (FY2025) — <code>dart_md/KOSPI/272550_삼양패키징_2025.md</code></li>
+<li>[278470] 에이피알 (FY2025) — <code>dart_md/KOSPI/278470_에이피알_2025.md</code></li>
+<li>[279570] 케이뱅크 (FY2025) — <code>dart_md/KOSPI/279570_케이뱅크_2025.md</code></li>
+<li>[280360] 롯데웰푸드 (FY2025) — <code>dart_md/KOSPI/280360_롯데웰푸드_2025.md</code></li>
+<li>[281820] 케이씨텍 (FY2025) — <code>dart_md/KOSPI/281820_케이씨텍_2025.md</code></li>
+<li>[282330] BGF리테일 (FY2025) — <code>dart_md/KOSPI/282330_BGF리테일_2025.md</code></li>
+<li>[284740] 쿠쿠홈시스 (FY2025) — <code>dart_md/KOSPI/284740_쿠쿠홈시스_2025.md</code></li>
+<li>[285130] SK케미칼 (FY2025) — <code>dart_md/KOSPI/285130_SK케미칼_2025.md</code></li>
+<li>[286940] 롯데이노베이트 (FY2025) — <code>dart_md/KOSPI/286940_롯데이노베이트_2025.md</code></li>
+<li>[293480] 하나제약 (FY2025) — <code>dart_md/KOSPI/293480_하나제약_2025.md</code></li>
+<li>[293940] 신한알파리츠 (FY2026) — <code>dart_md/KOSPI/293940_신한알파리츠_2026.md</code></li>
+<li>[294870] IPARK현대산업개발 (FY2025) — <code>dart_md/KOSPI/294870_IPARK현대산업개발_2025.md</code></li>
+<li>[298000] 효성화학 (FY2025) — <code>dart_md/KOSPI/298000_효성화학_2025.md</code></li>
+<li>[298020] 효성티앤씨 (FY2025) — <code>dart_md/KOSPI/298020_효성티앤씨_2025.md</code></li>
+<li>[298040] 효성중공업 (FY2025) — <code>dart_md/KOSPI/298040_효성중공업_2025.md</code></li>
+<li>[298050] HS효성첨단소재 (FY2025) — <code>dart_md/KOSPI/298050_HS효성첨단소재_2025.md</code></li>
+<li>[298690] 에어부산 (FY2025) — <code>dart_md/KOSPI/298690_에어부산_2025.md</code></li>
+<li>[300720] 한일시멘트 (FY2025) — <code>dart_md/KOSPI/300720_한일시멘트_2025.md</code></li>
+<li>[302440] SK바이오사이언스 (FY2025) — <code>dart_md/KOSPI/302440_SK바이오사이언스_2025.md</code></li>
+<li>[306200] 세아제강 (FY2025) — <code>dart_md/KOSPI/306200_세아제강_2025.md</code></li>
+<li>[308170] 씨티알모빌리티 (FY2025) — <code>dart_md/KOSPI/308170_씨티알모빌리티_2025.md</code></li>
+<li>[317400] 자이에스앤디 (FY2025) — <code>dart_md/KOSPI/317400_자이에스앤디_2025.md</code></li>
+<li>[317450] 명인제약 (FY2025) — <code>dart_md/KOSPI/317450_명인제약_2025.md</code></li>
+<li>[322000] HD현대에너지솔루션 (FY2025) — <code>dart_md/KOSPI/322000_HD현대에너지솔루션_2025.md</code></li>
+<li>[323410] 카카오뱅크 (FY2025) — <code>dart_md/KOSPI/323410_카카오뱅크_2025.md</code></li>
+<li>[326030] 에스케이바이오팜 (FY2025) — <code>dart_md/KOSPI/326030_에스케이바이오팜_2025.md</code></li>
+<li>[329180] HD현대중공업 (FY2025) — <code>dart_md/KOSPI/329180_HD현대중공업_2025.md</code></li>
+<li>[330590] 롯데리츠 (FY2025) — <code>dart_md/KOSPI/330590_롯데리츠_2025.md</code></li>
+<li>[334890] 이지스밸류플러스리츠 (FY2026) — <code>dart_md/KOSPI/334890_이지스밸류플러스리츠_2026.md</code></li>
+<li>[336260] 두산퓨얼셀 (FY2025) — <code>dart_md/KOSPI/336260_두산퓨얼셀_2025.md</code></li>
+<li>[336370] 솔루스첨단소재 (FY2025) — <code>dart_md/KOSPI/336370_솔루스첨단소재_2025.md</code></li>
+<li>[338100] NH프라임리츠 (FY2025) — <code>dart_md/KOSPI/338100_NH프라임리츠_2025.md</code></li>
+<li>[339770] 교촌에프앤비 (FY2025) — <code>dart_md/KOSPI/339770_교촌에프앤비_2025.md</code></li>
+<li>[344820] 케이씨씨글라스 (FY2025) — <code>dart_md/KOSPI/344820_케이씨씨글라스_2025.md</code></li>
+<li>[348950] 제이알글로벌리츠 (FY2025) — <code>dart_md/KOSPI/348950_제이알글로벌리츠_2025.md</code></li>
+<li>[350520] 이지스레지던스리츠 (FY2025) — <code>dart_md/KOSPI/350520_이지스레지던스리츠_2025.md</code></li>
+<li>[352820] 하이브 (FY2025) — <code>dart_md/KOSPI/352820_하이브_2025.md</code></li>
+<li>[353200] 대덕전자 (FY2025) — <code>dart_md/KOSPI/353200_대덕전자_2025.md</code></li>
+<li>[357120] 코람코라이프인프라리츠 (FY2025) — <code>dart_md/KOSPI/357120_코람코라이프인프라리츠_2025.md</code></li>
+<li>[357250] 미래에셋맵스리츠 (FY2025) — <code>dart_md/KOSPI/357250_미래에셋맵스리츠_2025.md</code></li>
+<li>[357430] 마스턴프리미어리츠 (FY2026) — <code>dart_md/KOSPI/357430_마스턴프리미어리츠_2026.md</code></li>
+<li>[361610] SK아이이테크놀로지 (FY2025) — <code>dart_md/KOSPI/361610_SK아이이테크놀로지_2025.md</code></li>
+<li>[363280] 티와이홀딩스 (FY2025) — <code>dart_md/KOSPI/363280_티와이홀딩스_2025.md</code></li>
+<li>[365550] ESR켄달스퀘어리츠 (FY2025) — <code>dart_md/KOSPI/365550_ESR켄달스퀘어리츠_2025.md</code></li>
+<li>[372910] 한컴라이프케어 (FY2025) — <code>dart_md/KOSPI/372910_한컴라이프케어_2025.md</code></li>
+<li>[373220] LG에너지솔루션 (FY2025) — <code>dart_md/KOSPI/373220_LG에너지솔루션_2025.md</code></li>
+<li>[375500] DL이앤씨 (FY2025) — <code>dart_md/KOSPI/375500_DL이앤씨_2025.md</code></li>
+<li>[377190] 디앤디플랫폼리츠 (FY2026) — <code>dart_md/KOSPI/377190_디앤디플랫폼리츠_2026.md</code></li>
+<li>[377300] 카카오페이 (FY2025) — <code>dart_md/KOSPI/377300_카카오페이_2025.md</code></li>
+<li>[377740] 바이오노트 (FY2025) — <code>dart_md/KOSPI/377740_바이오노트_2025.md</code></li>
+<li>[378850] 화승알앤에이 (FY2025) — <code>dart_md/KOSPI/378850_화승알앤에이_2025.md</code></li>
+<li>[381970] 케이카 (FY2025) — <code>dart_md/KOSPI/381970_케이카_2025.md</code></li>
+<li>[383220] F&amp;F (FY2025) — <code>dart_md/KOSPI/383220_F&amp;F_2025.md</code></li>
+<li>[383800] LX홀딩스 (FY2025) — <code>dart_md/KOSPI/383800_LX홀딩스_2025.md</code></li>
+<li>[395400] SK리츠 (FY2026) — <code>dart_md/KOSPI/395400_SK리츠_2026.md</code></li>
+<li>[396690] 미래에셋글로벌리츠 (FY2026) — <code>dart_md/KOSPI/396690_미래에셋글로벌리츠_2026.md</code></li>
+<li>[400760] NH올원리츠 (FY2025) — <code>dart_md/KOSPI/400760_NH올원리츠_2025.md</code></li>
+<li>[403550] 쏘카 (FY2025) — <code>dart_md/KOSPI/403550_쏘카_2025.md</code></li>
+<li>[404990] 신한서부티엔디리츠 (FY2025) — <code>dart_md/KOSPI/404990_신한서부티엔디리츠_2025.md</code></li>
+<li>[417310] 코람코더원리츠 (FY2026) — <code>dart_md/KOSPI/417310_코람코더원리츠_2026.md</code></li>
+<li>[432320] KB스타리츠 (FY2026) — <code>dart_md/KOSPI/432320_KB스타리츠_2026.md</code></li>
+<li>[439260] 대한조선 (FY2025) — <code>dart_md/KOSPI/439260_대한조선_2025.md</code></li>
+<li>[443060] HD현대마린솔루션 (FY2025) — <code>dart_md/KOSPI/443060_HD현대마린솔루션_2025.md</code></li>
+<li>[446070] 유니드비티플러스 (FY2025) — <code>dart_md/KOSPI/446070_유니드비티플러스_2025.md</code></li>
+<li>[448730] 삼성FN리츠 (FY2026) — <code>dart_md/KOSPI/448730_삼성FN리츠_2026.md</code></li>
+<li>[450080] 에코프로머티 (FY2025) — <code>dart_md/KOSPI/450080_에코프로머티_2025.md</code></li>
+<li>[451800] 한화리츠 (FY2025) — <code>dart_md/KOSPI/451800_한화리츠_2025.md</code></li>
+<li>[452260] 한화갤러리아 (FY2025) — <code>dart_md/KOSPI/452260_한화갤러리아_2025.md</code></li>
+<li>[453340] 현대그린푸드 (FY2025) — <code>dart_md/KOSPI/453340_현대그린푸드_2025.md</code></li>
+<li>[454910] 두산로보틱스 (FY2025) — <code>dart_md/KOSPI/454910_두산로보틱스_2025.md</code></li>
+<li>[456040] OCI (FY2025) — <code>dart_md/KOSPI/456040_OCI_2025.md</code></li>
+<li>[457190] 이수스페셜티케미컬 (FY2025) — <code>dart_md/KOSPI/457190_이수스페셜티케미컬_2025.md</code></li>
+<li>[460850] 동국씨엠 (FY2025) — <code>dart_md/KOSPI/460850_동국씨엠_2025.md</code></li>
+<li>[460860] 동국제강 (FY2025) — <code>dart_md/KOSPI/460860_동국제강_2025.md</code></li>
+<li>[462520] 조선내화 (FY2025) — <code>dart_md/KOSPI/462520_조선내화_2025.md</code></li>
+<li>[462870] 시프트업 (FY2025) — <code>dart_md/KOSPI/462870_시프트업_2025.md</code></li>
+<li>[465770] STX그린로지스 (FY2025) — <code>dart_md/KOSPI/465770_STX그린로지스_2025.md</code></li>
+<li>[475150] SK이터닉스 (FY2025) — <code>dart_md/KOSPI/475150_SK이터닉스_2025.md</code></li>
+<li>[475560] 더본코리아 (FY2025) — <code>dart_md/KOSPI/475560_더본코리아_2025.md</code></li>
+<li>[480370] 씨케이솔루션 (FY2025) — <code>dart_md/KOSPI/480370_씨케이솔루션_2025.md</code></li>
+<li>[481850] 신한글로벌액티브리츠 (FY2026) — <code>dart_md/KOSPI/481850_신한글로벌액티브리츠_2026.md</code></li>
+<li>[483650] 달바글로벌 (FY2025) — <code>dart_md/KOSPI/483650_달바글로벌_2025.md</code></li>
+<li>[484870] 엠앤씨솔루션 (FY2025) — <code>dart_md/KOSPI/484870_엠앤씨솔루션_2025.md</code></li>
+<li>[487570] HS효성 (FY2025) — <code>dart_md/KOSPI/487570_HS효성_2025.md</code></li>
+<li>[489790] 한화비전 (FY2025) — <code>dart_md/KOSPI/489790_한화비전_2025.md</code></li>
+<li>[499790] GS피앤엘 (FY2025) — <code>dart_md/KOSPI/499790_GS피앤엘_2025.md</code></li>
+<li>[900140] 엘브이엠씨 (FY2025) — <code>dart_md/KOSPI/900140_엘브이엠씨_2025.md</code></li>
+<li>[950210] 프레스티지바이오파마 (FY2025) — <code>dart_md/KOSPI/950210_프레스티지바이오파마_2025.md</code></li>
+</ul></article><hr/><div class="page-footer"></div></div><div class="right sidebar"><div class="graph"><h3>그래프 뷰</h3><div class="graph-outer"><div class="graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:1,&quot;scale&quot;:1.1,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.3,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1,&quot;showTags&quot;:true,&quot;removeTags&quot;:[],&quot;focusOnHover&quot;:false,&quot;enableRadial&quot;:false}"></div><button class="global-graph-icon" aria-label="Global Graph"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 55 55" fill="currentColor" xml:space="preserve"><path d="M49,0c-3.309,0-6,2.691-6,6c0,1.035,0.263,2.009,0.726,2.86l-9.829,9.829C32.542,17.634,30.846,17,29,17
+                s-3.542,0.634-4.898,1.688l-7.669-7.669C16.785,10.424,17,9.74,17,9c0-2.206-1.794-4-4-4S9,6.794,9,9s1.794,4,4,4
+                c0.74,0,1.424-0.215,2.019-0.567l7.669,7.669C21.634,21.458,21,23.154,21,25s0.634,3.542,1.688,4.897L10.024,42.562
+                C8.958,41.595,7.549,41,6,41c-3.309,0-6,2.691-6,6s2.691,6,6,6s6-2.691,6-6c0-1.035-0.263-2.009-0.726-2.86l12.829-12.829
+                c1.106,0.86,2.44,1.436,3.898,1.619v10.16c-2.833,0.478-5,2.942-5,5.91c0,3.309,2.691,6,6,6s6-2.691,6-6c0-2.967-2.167-5.431-5-5.91
+                v-10.16c1.458-0.183,2.792-0.759,3.898-1.619l7.669,7.669C41.215,39.576,41,40.26,41,41c0,2.206,1.794,4,4,4s4-1.794,4-4
+                s-1.794-4-4-4c-0.74,0-1.424,0.215-2.019,0.567l-7.669-7.669C36.366,28.542,37,26.846,37,25s-0.634-3.542-1.688-4.897l9.665-9.665
+                C46.042,11.405,47.451,12,49,12c3.309,0,6-2.691,6-6S52.309,0,49,0z M11,9c0-1.103,0.897-2,2-2s2,0.897,2,2s-0.897,2-2,2
+                S11,10.103,11,9z M6,51c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S8.206,51,6,51z M33,49c0,2.206-1.794,4-4,4s-4-1.794-4-4
+                s1.794-4,4-4S33,46.794,33,49z M29,31c-3.309,0-6-2.691-6-6s2.691-6,6-6s6,2.691,6,6S32.309,31,29,31z M47,41c0,1.103-0.897,2-2,2
+                s-2-0.897-2-2s0.897-2,2-2S47,39.897,47,41z M49,10c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S51.206,10,49,10z"></path></svg></button></div><div class="global-graph-outer"><div class="global-graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:-1,&quot;scale&quot;:0.9,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.2,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1,&quot;showTags&quot;:true,&quot;removeTags&quot;:[],&quot;focusOnHover&quot;:true,&quot;enableRadial&quot;:true}"></div></div></div><div class="toc desktop-only"><button type="button" class="toc-header" aria-controls="toc-1486" aria-expanded="true"><h3>목차</h3><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><ul id="list-1" class="toc-content overflow"><li class="depth-0"><a href="#kospi-인제스트-트래커" data-for="kospi-인제스트-트래커">KOSPI 인제스트 트래커</a></li><li class="depth-1"><a href="#-완료" data-for="-완료">✅ 완료</a></li><li class="depth-1"><a href="#-대기" data-for="-대기">⏳ 대기</a></li><li class="overflow-end"></li></ul></div><div class="backlinks"><h3>백링크</h3><ul id="list-2" class="overflow"><li><a href="../" class="internal">index</a></li><li><a href="../outputs/" class="internal">index</a></li><li class="overflow-end"></li></ul></div></div><footer class><p>Created with <a href="https://quartz.jzhao.xyz/">Quartz v4.5.2</a> © 2026</p><ul><li><a href="https://github.com/jackyzha0/quartz">GitHub</a></li><li><a href="https://discord.gg/cRFFHYye7t">Discord Community</a></li></ul></footer></div></div></body><script type="application/javascript" data-persist="true">function n(){let t=this.parentElement;t.classList.toggle("is-collapsed");let e=t.getElementsByClassName("callout-content")[0];if(!e)return;let l=t.classList.contains("is-collapsed");e.style.gridTemplateRows=l?"0fr":"1fr"}function c(){let t=document.getElementsByClassName("callout is-collapsible");for(let e of t){let l=e.getElementsByClassName("callout-title")[0],s=e.getElementsByClassName("callout-content")[0];if(!l||!s)continue;l.addEventListener("click",n),window.addCleanup(()=>l.removeEventListener("click",n));let o=e.classList.contains("is-collapsed");s.style.gridTemplateRows=o?"0fr":"1fr"}}document.addEventListener("nav",c);
+</script><script type="module" data-persist="true">function E(a,e){if(!a)return;function t(o){o.target===this&&(o.preventDefault(),o.stopPropagation(),e())}function n(o){o.key.startsWith("Esc")&&(o.preventDefault(),e())}a?.addEventListener("click",t),window.addCleanup(()=>a?.removeEventListener("click",t)),document.addEventListener("keydown",n),window.addCleanup(()=>document.removeEventListener("keydown",n))}function f(a){for(;a.firstChild;)a.removeChild(a.firstChild)}var m=class{constructor(e,t){this.container=e;this.content=t;this.setupEventListeners(),this.setupNavigationControls(),this.resetTransform()}isDragging=!1;startPan={x:0,y:0};currentPan={x:0,y:0};scale=1;MIN_SCALE=.5;MAX_SCALE=3;cleanups=[];setupEventListeners(){let e=this.onMouseDown.bind(this),t=this.onMouseMove.bind(this),n=this.onMouseUp.bind(this),o=this.onTouchStart.bind(this),r=this.onTouchMove.bind(this),i=this.onTouchEnd.bind(this),s=this.resetTransform.bind(this);this.container.addEventListener("mousedown",e),document.addEventListener("mousemove",t),document.addEventListener("mouseup",n),this.container.addEventListener("touchstart",o,{passive:!1}),document.addEventListener("touchmove",r,{passive:!1}),document.addEventListener("touchend",i),window.addEventListener("resize",s),this.cleanups.push(()=>this.container.removeEventListener("mousedown",e),()=>document.removeEventListener("mousemove",t),()=>document.removeEventListener("mouseup",n),()=>this.container.removeEventListener("touchstart",o),()=>document.removeEventListener("touchmove",r),()=>document.removeEventListener("touchend",i),()=>window.removeEventListener("resize",s))}cleanup(){for(let e of this.cleanups)e()}setupNavigationControls(){let e=document.createElement("div");e.className="mermaid-controls";let t=this.createButton("+",()=>this.zoom(.1)),n=this.createButton("-",()=>this.zoom(-.1)),o=this.createButton("Reset",()=>this.resetTransform());e.appendChild(n),e.appendChild(o),e.appendChild(t),this.container.appendChild(e)}createButton(e,t){let n=document.createElement("button");return n.textContent=e,n.className="mermaid-control-button",n.addEventListener("click",t),window.addCleanup(()=>n.removeEventListener("click",t)),n}onMouseDown(e){e.button===0&&(this.isDragging=!0,this.startPan={x:e.clientX-this.currentPan.x,y:e.clientY-this.currentPan.y},this.container.style.cursor="grabbing")}onMouseMove(e){this.isDragging&&(e.preventDefault(),this.currentPan={x:e.clientX-this.startPan.x,y:e.clientY-this.startPan.y},this.updateTransform())}onMouseUp(){this.isDragging=!1,this.container.style.cursor="grab"}onTouchStart(e){if(e.touches.length!==1)return;this.isDragging=!0;let t=e.touches[0];this.startPan={x:t.clientX-this.currentPan.x,y:t.clientY-this.currentPan.y}}onTouchMove(e){if(!this.isDragging||e.touches.length!==1)return;e.preventDefault();let t=e.touches[0];this.currentPan={x:t.clientX-this.startPan.x,y:t.clientY-this.startPan.y},this.updateTransform()}onTouchEnd(){this.isDragging=!1}zoom(e){let t=Math.min(Math.max(this.scale+e,this.MIN_SCALE),this.MAX_SCALE),n=this.content.getBoundingClientRect(),o=n.width/2,r=n.height/2,i=t-this.scale;this.currentPan.x-=o*i,this.currentPan.y-=r*i,this.scale=t,this.updateTransform()}updateTransform(){this.content.style.transform=`translate(${this.currentPan.x}px, ${this.currentPan.y}px) scale(${this.scale})`}resetTransform(){let t=this.content.querySelector("svg").getBoundingClientRect(),n=t.width/this.scale,o=t.height/this.scale;this.scale=1,this.currentPan={x:(this.container.clientWidth-n)/2,y:(this.container.clientHeight-o)/2},this.updateTransform()}},T=["--secondary","--tertiary","--gray","--light","--lightgray","--highlight","--dark","--darkgray","--codeFont"],y;document.addEventListener("nav",async()=>{let e=document.querySelector(".center").querySelectorAll("code.mermaid");if(e.length===0)return;y||=await import("https://cdnjs.cloudflare.com/ajax/libs/mermaid/11.4.0/mermaid.esm.min.mjs");let t=y.default,n=new WeakMap;for(let r of e)n.set(r,r.innerText);async function o(){for(let s of e){s.removeAttribute("data-processed");let c=n.get(s);c&&(s.innerHTML=c)}let r=T.reduce((s,c)=>(s[c]=window.getComputedStyle(document.documentElement).getPropertyValue(c),s),{}),i=document.documentElement.getAttribute("saved-theme")==="dark";t.initialize({startOnLoad:!1,securityLevel:"loose",theme:i?"dark":"base",themeVariables:{fontFamily:r["--codeFont"],primaryColor:r["--light"],primaryTextColor:r["--darkgray"],primaryBorderColor:r["--tertiary"],lineColor:r["--darkgray"],secondaryColor:r["--secondary"],tertiaryColor:r["--tertiary"],clusterBkg:r["--light"],edgeLabelBackground:r["--highlight"]}}),await t.run({nodes:e})}await o(),document.addEventListener("themechange",o),window.addCleanup(()=>document.removeEventListener("themechange",o));for(let r=0;r<e.length;r++){let v=function(){let g=l.querySelector("#mermaid-space"),h=l.querySelector(".mermaid-content");if(!h)return;f(h);let w=i.querySelector("svg").cloneNode(!0);h.appendChild(w),l.classList.add("active"),g.style.cursor="grab",u=new m(g,h)},M=function(){l.classList.remove("active"),u?.cleanup(),u=null},i=e[r],s=i.parentElement,c=s.querySelector(".clipboard-button"),d=s.querySelector(".expand-button"),p=window.getComputedStyle(c),L=c.offsetWidth+parseFloat(p.marginLeft||"0")+parseFloat(p.marginRight||"0");d.style.right=`calc(${L}px + 0.3rem)`,s.prepend(d);let l=s.querySelector("#mermaid-container");if(!l)return;let u=null;d.addEventListener("click",v),E(l,M),window.addCleanup(()=>{u?.cleanup(),d.removeEventListener("click",v)})}});
+</script><script src="../postscript.js" type="module" data-persist="true"></script></html>
