@@ -56,6 +56,15 @@ SK증권주식회사(한글 에스케이증권주식회사, 영문 SK Securities
 - [자기매매부문](/segments/SK증권_자기매매)
 - [저축은행업부문](/segments/SK증권_저축은행)
 
+## 주요 금융상품
+
+- [SK증권 위탁매매](/financial_products/SK증권_위탁매매) — 주식·채권·파생상품 중개 및 펀드·신탁·랩 자산관리(WM)
+- [SK증권 파생결합증권](/financial_products/SK증권_파생결합증권) — 자기매매부문 ELS·DLS 발행·판매
+
+## 신용등급
+
+- [SK증권 신용등급](/ratings/SK증권 신용등급) — Issuer Rating A-, 후순위채 BBB+, 단기 A2
+
 ## 주요 주주
 
 (기준일 2025.12.31)

@@ -46,6 +46,11 @@ source_count: 1
 - [LG전자 VS전장](/segments/LG전자_VS전장) — 텔레매틱스·전기차부품 (비중 12.5%)
 - [LG전자 ES](/segments/LG전자_ES) — 에어컨·HVAC (비중 10.5%)
 
+## 주요 제품·서비스
+
+- [OLED TV](/products/OLED_TV) — 자발광 OLED 패널 기반 프리미엄 TV, 글로벌 OLED TV 13년 연속 1위(MS 부문)
+- [카메라모듈](/products/카메라모듈) — 스마트폰·전장용 광학솔루션(이노텍 부문, [엘지이노텍](/companies/LG이노텍))
+
 ## 주요 주주
 
 (2025년말 기준)
