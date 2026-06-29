@@ -42,6 +42,10 @@ NI스틸(구 동성철강공업 → N.I테크 → N.I스틸)은 1975년 6월 유
 
 매출 구성(제54기): 제품 37.1% / 강재리스 26.6% / 기타(Deck·Curtain Wall 시공) 22.7% / 상품 10.6%.
 
+## 주요 제품·서비스
+
+- [강건재 합성보·합성기둥](/products/강건재_합성보·합성기둥) — ACT/D Column, HyFo/AU/TH Beam, Deck Plate, Steel Curtain Wall
+
 ## 주요 주주
 
 (기준일 2025-12-31, 보통주)

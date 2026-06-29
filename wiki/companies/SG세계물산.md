@@ -65,7 +65,12 @@ SG세계물산(공식명: 주식회사 에스지세계물산, 영문 SG CORPORAT
 ## 주요 상품
 
 - 의류수출: 우븐 JACKET·PANTS·COAT (OEM)
-- 패션 브랜드: BASSO, BASSO homme(남성정장), ab.f.z, ab.plus(여성복), COLOMBO(명품 피혁류)
+- 패션 브랜드: [BASSO](/products/BASSO), BASSO homme(남성정장), ab.f.z, ab.plus(여성복), [COLOMBO](/products/COLOMBO)(명품 피혁류)
+
+## 주요 제품·서비스
+
+- [BASSO](/products/BASSO) — 남성정장 대표 브랜드 (BASSO·BASSO homme)
+- [COLOMBO](/products/COLOMBO) — 이탈리아 장인 수공 하이엔드 명품 피혁류 브랜드
 
 ## 경영진
 

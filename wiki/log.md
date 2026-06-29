@@ -740,3 +740,5 @@
 **Batch Ingest (Products Backfill)** 청크 100개사 — 신규 노드 117개
 
 **Batch Ingest (Products Backfill)** 청크 100개사 — 신규 노드 100개
+
+**Batch Ingest (Products Backfill)** 청크 99개사 — 신규 노드 48개
