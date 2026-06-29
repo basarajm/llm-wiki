@@ -1,7 +1,7 @@
 ---
 type: Business Segment
 title: SK스퀘어 투자사업
-description: SK스퀘어의 지주·투자 부문 — 자회사·관계기업 지분 보유·관리 및 투자 (핵심: SK하이닉스 20.1%)
+description: "SK스퀘어의 지주·투자 부문 — 자회사·관계기업 지분 보유·관리 및 투자 (핵심: SK하이닉스 20.1%)"
 company: /companies/SK스퀘어
 revenue_share: 0.08
 tags: [사업부문, SK스퀘어]
