@@ -1,20 +1,20 @@
 [
  {
-  "name": "아진전자부품",
-  "ticker": "009320",
-  "industry": "자동차부품",
-  "resource": "dart_pipeline/dart_md/KOSPI/009320_아진전자부품_2025.md"
+  "name": "KC그린홀딩스",
+  "ticker": "009440",
+  "industry": "환경/지주회사",
+  "resource": "dart_pipeline/dart_md/KOSPI/009440_KC그린홀딩스_2025.md"
  },
  {
-  "name": "태영건설",
-  "ticker": "009410",
-  "industry": "건설",
-  "resource": "dart_pipeline/dart_md/KOSPI/009410_태영건설_2025.md"
+  "name": "경동나비엔",
+  "ticker": "009450",
+  "industry": "보일러·냉난방기기",
+  "resource": "dart_pipeline/dart_md/KOSPI/009450_경동나비엔_2025.md"
  },
  {
-  "name": "한올바이오파마",
-  "ticker": "009420",
-  "industry": "제약·바이오",
-  "resource": "dart_pipeline/dart_md/KOSPI/009420_한올바이오파마_2025.md"
+  "name": "한창제지",
+  "ticker": "009460",
+  "industry": "제지",
+  "resource": "dart_pipeline/dart_md/KOSPI/009460_한창제지_2025.md"
  }
 ]
