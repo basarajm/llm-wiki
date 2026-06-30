@@ -1,20 +1,20 @@
 [
  {
-  "name": "화천기공",
-  "ticker": "000850",
-  "industry": "공작기계",
-  "resource": "dart_pipeline/dart_md/KOSPI/000850_화천기공_2025.md"
+  "name": "보해양조",
+  "ticker": "000890",
+  "industry": "주류",
+  "resource": "dart_pipeline/dart_md/KOSPI/000890_보해양조_2025.md"
  },
  {
-  "name": "강남제비스코",
-  "ticker": "000860",
-  "industry": "화학",
-  "resource": "dart_pipeline/dart_md/KOSPI/000860_강남제비스코_2025.md"
+  "name": "유니온",
+  "ticker": "000910",
+  "industry": "시멘트",
+  "resource": "dart_pipeline/dart_md/KOSPI/000910_유니온_2025.md"
  },
  {
-  "name": "한화",
-  "ticker": "000880",
-  "industry": "지주회사",
-  "resource": "dart_pipeline/dart_md/KOSPI/000880_한화_2025.md"
+  "name": "전방",
+  "ticker": "000950",
+  "industry": "섬유",
+  "resource": ""
  }
 ]
