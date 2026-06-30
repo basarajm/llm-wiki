@@ -1,20 +1,20 @@
 [
  {
-  "name": "CJ",
-  "ticker": "001040",
-  "industry": "지주회사",
-  "resource": "dart_pipeline/dart_md/KOSPI/001040_CJ_2025.md"
+  "name": "만호제강",
+  "ticker": "001080",
+  "industry": "철강",
+  "resource": ""
  },
  {
-  "name": "JW중외제약",
-  "ticker": "001060",
-  "industry": "제약",
-  "resource": "dart_pipeline/dart_md/KOSPI/001060_JW중외제약_2025.md"
+  "name": "LX인터내셔널",
+  "ticker": "001120",
+  "industry": "종합상사",
+  "resource": "dart_pipeline/dart_md/KOSPI/001120_LX인터내셔널_2025.md"
  },
  {
-  "name": "대한방직",
-  "ticker": "001070",
-  "industry": "섬유",
-  "resource": "dart_pipeline/dart_md/KOSPI/001070_대한방직_2025.md"
+  "name": "대한제분",
+  "ticker": "001130",
+  "industry": "식품",
+  "resource": "dart_pipeline/dart_md/KOSPI/001130_대한제분_2025.md"
  }
 ]
