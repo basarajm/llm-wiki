@@ -1,20 +1,20 @@
 [
  {
-  "name": "케이비아이동국실업",
-  "ticker": "001620",
-  "industry": "자동차부품",
-  "resource": "dart_pipeline/dart_md/KOSPI/001620_케이비아이동국실업_2025.md"
+  "name": "신영증권",
+  "ticker": "001720",
+  "industry": "증권",
+  "resource": "source_documents/AnnualReport_Recent/신영증권-사업보고서-2026.03.md"
  },
  {
-  "name": "종근당홀딩스",
-  "ticker": "001630",
-  "industry": "지주회사",
-  "resource": "dart_pipeline/dart_md/KOSPI/001630_종근당홀딩스_2025.md"
+  "name": "SK네트웍스",
+  "ticker": "001740",
+  "industry": "종합상사",
+  "resource": "dart_pipeline/dart_md/KOSPI/001740_SK네트웍스_2025.md"
  },
  {
-  "name": "대상",
-  "ticker": "001680",
-  "industry": "식품",
-  "resource": "dart_pipeline/dart_md/KOSPI/001680_대상_2025.md"
+  "name": "한양증권",
+  "ticker": "001750",
+  "industry": "증권",
+  "resource": "dart_pipeline/dart_md/KOSPI/001750_한양증권_2025.md"
  }
 ]
