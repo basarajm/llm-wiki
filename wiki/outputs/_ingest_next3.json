@@ -1,20 +1,20 @@
 [
  {
-  "name": "아이에스동서",
-  "ticker": "010780",
-  "file": "dart_pipeline/dart_md/KOSPI/010780_아이에스동서_2025.md",
+  "name": "삼호개발",
+  "ticker": "010960",
+  "file": "dart_pipeline/dart_md/KOSPI/010960_삼호개발_2025.md",
   "fy": "2025"
  },
  {
-  "name": "퍼스텍",
-  "ticker": "010820",
-  "file": "dart_pipeline/dart_md/KOSPI/010820_퍼스텍_2025.md",
+  "name": "진원생명과학",
+  "ticker": "011000",
+  "file": "dart_pipeline/dart_md/KOSPI/011000_진원생명과학_2025.md",
   "fy": "2025"
  },
  {
-  "name": "S-Oil",
-  "ticker": "010950",
-  "file": "dart_pipeline/dart_md/KOSPI/010950_S-Oil_2025.md",
+  "name": "에넥스",
+  "ticker": "011090",
+  "file": "dart_pipeline/dart_md/KOSPI/011090_에넥스_2025.md",
   "fy": "2025"
  }
 ]
