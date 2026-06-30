@@ -1,20 +1,20 @@
 [
  {
-  "name": "대원제약",
-  "ticker": "003220",
-  "industry": "제약",
-  "resource": "dart_pipeline/dart_md/KOSPI/003220_대원제약_2025.md"
+  "name": "흥아해운",
+  "ticker": "003280",
+  "industry": "해운",
+  "resource": "dart_pipeline/dart_md/KOSPI/003280_흥아해운_2025.md"
  },
  {
-  "name": "삼양식품",
-  "ticker": "003230",
-  "industry": "식품",
-  "resource": "dart_pipeline/dart_md/KOSPI/003230_삼양식품_2025.md"
+  "name": "한일홀딩스",
+  "ticker": "003300",
+  "industry": "지주회사",
+  "resource": "dart_pipeline/dart_md/KOSPI/003300_한일홀딩스_2025.md"
  },
  {
-  "name": "태광산업",
-  "ticker": "003240",
-  "industry": "화학",
-  "resource": "dart_pipeline/dart_md/KOSPI/003240_태광산업_2025.md"
+  "name": "한국화장품제조",
+  "ticker": "003350",
+  "industry": "화장품",
+  "resource": "dart_pipeline/dart_md/KOSPI/003350_한국화장품제조_2025.md"
  }
 ]
