@@ -1,20 +1,20 @@
 [
  {
-  "name": "샘표",
-  "ticker": "007540",
-  "industry": "지주회사",
-  "resource": "dart_pipeline/dart_md/KOSPI/007540_샘표_2025.md"
+  "name": "선도전기",
+  "ticker": "007610",
+  "industry": "전력기기(중전기기)",
+  "resource": "dart_pipeline/dart_md/KOSPI/007610_선도전기_2025.md"
  },
  {
-  "name": "일양약품",
-  "ticker": "007570",
-  "industry": "제약",
-  "resource": "dart_pipeline/dart_md/KOSPI/007570_일양약품_2025.md"
+  "name": "이수페타시스",
+  "ticker": "007660",
+  "industry": "전자부품",
+  "resource": "dart_pipeline/dart_md/KOSPI/007660_이수페타시스_2025.md"
  },
  {
-  "name": "동방아그로",
-  "ticker": "007590",
-  "industry": "작물보호제",
-  "resource": "dart_pipeline/dart_md/KOSPI/007590_동방아그로_2025.md"
+  "name": "국도화학",
+  "ticker": "007690",
+  "industry": "석유화학",
+  "resource": "dart_pipeline/dart_md/KOSPI/007690_국도화학_2025.md"
  }
 ]
