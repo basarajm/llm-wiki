@@ -1,20 +1,20 @@
 [
  {
-  "name": "경농",
-  "ticker": "002100",
-  "industry": "화학",
-  "resource": "dart_pipeline/dart_md/KOSPI/002100_경농_2025.md"
+  "name": "삼양통상",
+  "ticker": "002170",
+  "industry": "피혁",
+  "resource": "dart_pipeline/dart_md/KOSPI/002170_SYTS_2025.md"
  },
  {
-  "name": "고려산업",
-  "ticker": "002140",
-  "industry": "식품",
-  "resource": "dart_pipeline/dart_md/KOSPI/002140_고려산업_2025.md"
+  "name": "한국수출포장공업",
+  "ticker": "002200",
+  "industry": "제지",
+  "resource": "dart_pipeline/dart_md/KOSPI/002200_한국수출포장공업_2025.md"
  },
  {
-  "name": "도화엔지니어링",
-  "ticker": "002150",
-  "industry": "건설",
-  "resource": "dart_pipeline/dart_md/KOSPI/002150_도화엔지니어링_2025.md"
+  "name": "동성제약",
+  "ticker": "002210",
+  "industry": "제약",
+  "resource": "dart_pipeline/dart_md/KOSPI/002210_동성제약_2025.md"
  }
 ]
