@@ -1,20 +1,20 @@
 [
  {
-  "name": "조광피혁",
-  "ticker": "004700",
-  "industry": "피혁",
-  "resource": "dart_pipeline/dart_md/KOSPI/004700_조광피혁_2025.md"
- },
- {
-  "name": "한솔테크닉스",
-  "ticker": "004710",
+  "name": "써니전자",
+  "ticker": "004770",
   "industry": "전자부품",
-  "resource": "dart_pipeline/dart_md/KOSPI/004710_한솔테크닉스_2025.md"
+  "resource": "dart_pipeline/dart_md/KOSPI/004770_써니전자_2025.md"
  },
  {
-  "name": "팜젠사이언스",
-  "ticker": "004720",
-  "industry": "제약",
-  "resource": "dart_pipeline/dart_md/KOSPI/004720_팜젠사이언스_2025.md"
+  "name": "효성",
+  "ticker": "004800",
+  "industry": "지주회사",
+  "resource": "dart_pipeline/dart_md/KOSPI/004800_효성_2025.md"
+ },
+ {
+  "name": "덕성",
+  "ticker": "004830",
+  "industry": "화학",
+  "resource": "dart_pipeline/dart_md/KOSPI/004830_덕성_2025.md"
  }
 ]
