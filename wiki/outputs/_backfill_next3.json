@@ -1,20 +1,20 @@
 [
  {
-  "name": "삼성생명보험",
-  "ticker": "032830",
-  "industry": "보험",
-  "resource": "dart_pipeline/dart_md/KOSPI/032830_삼성생명_2025.md"
- },
- {
-  "name": "LG디스플레이",
-  "ticker": "034220",
-  "industry": "디스플레이",
-  "resource": "dart_pipeline/dart_md/KOSPI/034220_LG디스플레이_2025.md"
- },
- {
-  "name": "주성엔지니어링",
-  "ticker": "036930",
+  "name": "한미반도체",
+  "ticker": "042700",
   "industry": "반도체장비",
-  "resource": "dart_pipeline/dart_md/KOSDAQ/036930_주성엔지니어링_2025.md"
+  "resource": "dart_pipeline/dart_md/KOSPI/042700_한미반도체_2025.md"
+ },
+ {
+  "name": "신한금융지주",
+  "ticker": "055550",
+  "industry": "금융지주",
+  "resource": "dart_pipeline/dart_md/KOSPI/055550_신한지주_2025.md"
+ },
+ {
+  "name": "에스피지",
+  "ticker": "058610",
+  "industry": "모터",
+  "resource": "dart_pipeline/dart_md/KOSDAQ/058610_에스피지_2025.md"
  }
 ]
