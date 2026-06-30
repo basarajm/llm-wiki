@@ -1,20 +1,20 @@
 [
  {
-  "name": "KB금융지주",
-  "ticker": "105560",
+  "name": "레인보우로보틱스",
+  "ticker": "277810",
+  "industry": "로봇",
+  "resource": "dart_pipeline/dart_md/KOSDAQ/277810_레인보우로보틱스_2025.md"
+ },
+ {
+  "name": "현대오토에버",
+  "ticker": "307950",
+  "industry": "IT서비스",
+  "resource": "dart_pipeline/dart_md/KOSPI/307950_현대오토에버_2025.md"
+ },
+ {
+  "name": "우리금융지주",
+  "ticker": "316140",
   "industry": "금융지주",
-  "resource": "dart_pipeline/dart_md/KOSPI/105560_KB금융_2024.md"
- },
- {
-  "name": "HD현대",
-  "ticker": "267250",
-  "industry": "지주회사",
-  "resource": "dart_pipeline/dart_md/KOSPI/267250_HD현대_2025.md"
- },
- {
-  "name": "HD현대일렉트릭",
-  "ticker": "267260",
-  "industry": "전력기기",
-  "resource": "dart_pipeline/dart_md/KOSPI/267260_HD현대일렉트릭_2025.md"
+  "resource": "dart_pipeline/dart_md/KOSPI/316140_우리금융지주_2025.md"
  }
 ]
