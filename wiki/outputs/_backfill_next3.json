@@ -1,20 +1,20 @@
 [
  {
-  "name": "대림바스",
-  "ticker": "005750",
-  "industry": "건자재",
-  "resource": "dart_pipeline/dart_md/KOSPI/005750_대림바스_2025.md"
+  "name": "원림",
+  "ticker": "005820",
+  "industry": "화학",
+  "resource": "dart_pipeline/dart_md/KOSPI/005820_원림_2025.md"
  },
  {
-  "name": "신영와코루",
-  "ticker": "005800",
-  "industry": "패션",
-  "resource": "dart_pipeline/dart_md/KOSPI/005800_신영와코루_2025.md"
+  "name": "DB손해보험",
+  "ticker": "005830",
+  "industry": "보험",
+  "resource": "dart_pipeline/dart_md/KOSPI/005830_DB손해보험_2025.md"
  },
  {
-  "name": "풍산홀딩스",
-  "ticker": "005810",
-  "industry": "지주회사",
-  "resource": "dart_pipeline/dart_md/KOSPI/005810_풍산홀딩스_2025.md"
+  "name": "에스엘",
+  "ticker": "005850",
+  "industry": "자동차부품",
+  "resource": "dart_pipeline/dart_md/KOSPI/005850_에스엘_2025.md"
  }
 ]
