@@ -1,20 +1,20 @@
 [
  {
-  "name": "삼일씨엔에스",
-  "ticker": "004440",
-  "industry": "건자재",
-  "resource": "dart_pipeline/dart_md/KOSPI/004440_삼일씨엔에스_2025.md"
+  "name": "깨끗한나라",
+  "ticker": "004540",
+  "industry": "제지",
+  "resource": "dart_pipeline/dart_md/KOSPI/004540_깨끗한나라_2025.md"
  },
  {
-  "name": "삼화왕관",
-  "ticker": "004450",
-  "industry": "포장재",
-  "resource": "dart_pipeline/dart_md/KOSPI/004450_삼화왕관_2025.md"
+  "name": "현대비앤지스틸",
+  "ticker": "004560",
+  "industry": "철강",
+  "resource": "dart_pipeline/dart_md/KOSPI/004560_현대비앤지스틸_2025.md"
  },
  {
-  "name": "세방전지",
-  "ticker": "004490",
-  "industry": "전지",
-  "resource": "dart_pipeline/dart_md/KOSPI/004490_세방전지_2025.md"
+  "name": "삼천리",
+  "ticker": "004690",
+  "industry": "도시가스",
+  "resource": "dart_pipeline/dart_md/KOSPI/004690_삼천리_2025.md"
  }
 ]
