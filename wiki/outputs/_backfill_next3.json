@@ -1,20 +1,20 @@
 [
  {
-  "name": "일동홀딩스",
-  "ticker": "000230",
-  "industry": "지주회사",
-  "resource": "dart_pipeline/dart_md/KOSPI/000230_일동홀딩스_2025.md"
+  "name": "DH오토웨어",
+  "ticker": "000300",
+  "industry": "자동차부품",
+  "resource": ""
  },
  {
-  "name": "한국앤컴퍼니",
-  "ticker": "000240",
+  "name": "노루홀딩스",
+  "ticker": "000320",
   "industry": "지주회사",
-  "resource": "dart_pipeline/dart_md/KOSPI/000240_한국앤컴퍼니_2025.md"
+  "resource": "dart_pipeline/dart_md/KOSPI/000320_노루홀딩스_2025.md"
  },
  {
-  "name": "기아",
-  "ticker": "000270",
-  "industry": "자동차",
-  "resource": "dart_pipeline/dart_md/KOSPI/000270_기아_2025.md"
+  "name": "한화손해보험",
+  "ticker": "000370",
+  "industry": "보험",
+  "resource": "dart_pipeline/dart_md/KOSPI/000370_한화손해보험_2025.md"
  }
 ]
