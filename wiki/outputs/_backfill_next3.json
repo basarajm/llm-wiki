@@ -1,20 +1,20 @@
 [
  {
-  "name": "코리안리",
-  "ticker": "003690",
-  "industry": "보험",
-  "resource": "dart_pipeline/dart_md/KOSPI/003690_코리안리_2025.md"
+  "name": "대한화섬",
+  "ticker": "003830",
+  "industry": "화학섬유",
+  "resource": "dart_pipeline/dart_md/KOSPI/003830_대한화섬_2025.md"
  },
  {
-  "name": "삼영",
-  "ticker": "003720",
-  "industry": "전자부품",
-  "resource": "dart_pipeline/dart_md/KOSPI/003720_삼영_2025.md"
+  "name": "보령",
+  "ticker": "003850",
+  "industry": "제약",
+  "resource": "dart_pipeline/dart_md/KOSPI/003850_보령_2025.md"
  },
  {
-  "name": "진양산업",
-  "ticker": "003780",
-  "industry": "화학",
-  "resource": "dart_pipeline/dart_md/KOSPI/003780_진양산업_2025.md"
+  "name": "남양유업",
+  "ticker": "003920",
+  "industry": "식품",
+  "resource": "dart_pipeline/dart_md/KOSPI/003920_남양유업_2025.md"
  }
 ]
