@@ -1,20 +1,20 @@
 [
  {
-  "name": "국제약품",
-  "ticker": "002720",
-  "industry": "제약",
-  "resource": "dart_pipeline/dart_md/KOSPI/002720_국제약품_2025.md"
+  "name": "아모레퍼시픽홀딩스",
+  "ticker": "002790",
+  "industry": "지주회사",
+  "resource": "dart_pipeline/dart_md/KOSPI/002790_아모레퍼시픽홀딩스_2025.md"
  },
  {
-  "name": "보락",
-  "ticker": "002760",
-  "industry": "화학",
-  "resource": "dart_pipeline/dart_md/KOSPI/002760_보락_2025.md"
+  "name": "삼영무역",
+  "ticker": "002810",
+  "industry": "종합상사",
+  "resource": "dart_pipeline/dart_md/KOSPI/002810_삼영무역_2025.md"
  },
  {
-  "name": "진흥기업",
-  "ticker": "002780",
-  "industry": "건설",
-  "resource": "dart_pipeline/dart_md/KOSPI/002780_진흥기업_2025.md"
+  "name": "SUN&L",
+  "ticker": "002820",
+  "industry": "목재",
+  "resource": "dart_pipeline/dart_md/KOSPI/002820_SUN&L_2025.md"
  }
 ]

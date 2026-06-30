@@ -3,6 +3,7 @@ type: Product
 title: CURL-FIT
 description: 삼영무역 종속회사 ㈜한국큐빅이 생산하는 수압전사(Cubic Printing) 곡면 표면처리 자동차 내장재 — 일본 Taica 국제특허 기반 국내 Master License 단독 보유
 category: 자동차부품
+resource: dart_pipeline/dart_md/KOSPI/002810_삼영무역_2025.md
 tags: [상품, 자동차부품]
 timestamp: 2026-06-29T00:00:00Z
 ---
