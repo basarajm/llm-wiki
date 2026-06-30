@@ -1,20 +1,20 @@
 [
  {
-  "name": "KC그린홀딩스",
-  "ticker": "009440",
-  "industry": "환경/지주회사",
-  "resource": "dart_pipeline/dart_md/KOSPI/009440_KC그린홀딩스_2025.md"
+  "name": "삼화전기",
+  "ticker": "009470",
+  "industry": "전자부품",
+  "resource": "dart_pipeline/dart_md/KOSPI/009470_삼화전기_2025.md"
  },
  {
-  "name": "경동나비엔",
-  "ticker": "009450",
-  "industry": "보일러·냉난방기기",
-  "resource": "dart_pipeline/dart_md/KOSPI/009450_경동나비엔_2025.md"
+  "name": "HD한국조선해양",
+  "ticker": "009540",
+  "industry": "조선",
+  "resource": "dart_pipeline/dart_md/KOSPI/009540_HD한국조선해양_2025.md"
  },
  {
-  "name": "한창제지",
-  "ticker": "009460",
+  "name": "무림P&P",
+  "ticker": "009580",
   "industry": "제지",
-  "resource": "dart_pipeline/dart_md/KOSPI/009460_한창제지_2025.md"
+  "resource": "dart_pipeline/dart_md/KOSPI/009580_무림P&P_2025.md"
  }
 ]
