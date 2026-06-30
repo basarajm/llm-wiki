@@ -744,3 +744,5 @@
 **Batch Ingest (Products Backfill)** 청크 99개사 — 신규 노드 48개
 
 **Backfill(B) 재개** 사업보고서 md 기반 정식 백필 시작(기존 병렬 테스트=Company 본문 기반 약한 채움은 무시·점진 대체). BF1 정식판 복원: 동화약품(까스활명수·판콜 products + 신용등급 A+)·KR모터스(아퀼라)·경방(0, 근거 없음). 트래커 backfill_status.py + backfill-done.json 복원. 이후 종목코드순 정식 백필 + KOSPI 신규 Full 인제스트(347/833→) 병행 예정.
+
+**Backfill(B)** 삼양홀딩스·하이트진로·유한양행 (000070~000100) — 사업보고서 원본 기반 products/ratings 소급. 삼양홀딩스: products 6(큐원설탕 32%·전분당 28%·밀가루 10%·이온교환수지 38%·PET보틀 28%·BPA 16%)+ratings 회사채 AA-/CP A1+회사 섹션. 하이트진로: products 5(참이슬·진로·테라·켈리·필라이트, 정식화/신규)+ratings 회사채 A+/CP A2++회사 섹션. 유한양행: products 4 신규(자디앙·로수바미브·코푸시럽·삐콤씨)+기존 3 유지(렉라자·안티푸라민·유한락스)+ratings AA-(한신평)+국내 제약 점유율 1위(6.3%) 표+회사 섹션. 백필 done 6/353.
