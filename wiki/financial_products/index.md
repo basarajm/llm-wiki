@@ -80,6 +80,9 @@
 * [KB 신탁](/financial_products/KB_신탁) - KB국민은행이 취급하는 신탁상품(특정금전·불특정금전·재산·상속증여·퇴직연금 신탁)
 * [KB 원화대출금](/financial_products/KB_원화대출금) - KB국민은행이 취급하는 원화 대출금(기업자금·가계자금) — 그룹 핵심 자산운용 수단
 * [KB 원화예수금](/financial_products/KB_원화예수금) - KB국민은행이 취급하는 원화 예수금(요구불·저축성 예금 등) — 그룹 핵심 자금조달원
+* [NH투자증권 IB부문 (인수·M&A·PF·채무보증)](/financial_products/NH투자증권_IB) - 기업 자금조달·인수주선·M&A·PF·PEF 운용 부문 — FY2025 연결 영업수익 11.0%, IB 수수료수지 4,371억(순영업수익의 16.3%), 전통 IB 리그테이블 Top-tier
+* [NH투자증권 Sales부문 (WM·브로커리지·금융상품판매)](/financial_products/NH투자증권_Sales) - 개인·기관 대상 증권위탁중개(Brokerage)·금융상품판매·자산관리 부문 — FY2025 연결 영업수익 40.6%, Brokerage 시장점유율(약정기준, ELW포함) 9.7%
+* [NH투자증권 Trading부문 (상품운용·자기자본투자)](/financial_products/NH투자증권_Trading) - 주식·채권 등 상품운용 및 파생상품 공급·자기자본투자 부문 — FY2025 연결 영업수익 29.6%, 운용손익 및 관련 이자수지 1조 1,654억(순영업수익의 43.5%)
 * [SK증권 위탁매매](/financial_products/SK증권_위탁매매) - SK증권의 국내외 주식·채권·파생상품 위탁매매 중개 및 펀드·신탁·랩 등 자산관리(WM) 서비스
 * [SK증권 파생결합증권](/financial_products/SK증권_파생결합증권) - SK증권이 고유자금 자기매매부문에서 발행·판매하는 ELS·DLS 등 파생결합증권
 * [SK증권 IB](/financial_products/SK증권_IB) - SK증권 IB부문의 증권 인수·주선, M&A 자문, 자산유동화·PF, PEF 등 투자금융 및 전략적 투자 서비스

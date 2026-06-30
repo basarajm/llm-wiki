@@ -1,20 +1,20 @@
 [
  {
-  "name": "휴니드테크놀러지스",
-  "ticker": "005870",
-  "industry": "방산",
-  "resource": "dart_pipeline/dart_md/KOSPI/005870_휴니드테크놀러지스_2025.md"
+  "name": "NH투자증권",
+  "ticker": "005940",
+  "industry": "증권",
+  "resource": "dart_pipeline/dart_md/KOSPI/005940_NH투자증권_2025.md"
  },
  {
-  "name": "대한해운",
-  "ticker": "005880",
-  "industry": "해운",
-  "resource": "dart_pipeline/dart_md/KOSPI/005880_대한해운_2025.md"
+  "name": "이수화학",
+  "ticker": "005950",
+  "industry": "화학",
+  "resource": "dart_pipeline/dart_md/KOSPI/005950_이수화학_2025.md"
  },
  {
-  "name": "삼성전자",
-  "ticker": "005930",
-  "industry": "반도체",
-  "resource": "dart_pipeline/dart_md/KOSPI/005930_삼성전자_2025.md"
+  "name": "동부건설",
+  "ticker": "005960",
+  "industry": "건설",
+  "resource": "dart_pipeline/dart_md/KOSPI/005960_동부건설_2025.md"
  }
 ]
