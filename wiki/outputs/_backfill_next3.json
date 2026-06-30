@@ -1,20 +1,20 @@
 [
  {
-  "name": "삼성전기",
-  "ticker": "009150",
-  "industry": "전자부품",
-  "resource": "dart_pipeline/dart_md/KOSPI/009150_삼성전기_2025.md"
+  "name": "대양금속",
+  "ticker": "009190",
+  "industry": "철강",
+  "resource": "dart_pipeline/dart_md/KOSPI/009190_대양금속_2025.md"
  },
  {
-  "name": "SIMPAC",
-  "ticker": "009160",
-  "industry": "기계",
-  "resource": "dart_pipeline/dart_md/KOSPI/009160_SIMPAC_2025.md"
+  "name": "무림페이퍼",
+  "ticker": "009200",
+  "industry": "제지",
+  "resource": "dart_pipeline/dart_md/KOSPI/009200_무림페이퍼_2025.md"
  },
  {
-  "name": "한솔로지스틱스",
-  "ticker": "009180",
-  "industry": "물류",
-  "resource": "dart_pipeline/dart_md/KOSPI/009180_한솔로지스틱스_2025.md"
+  "name": "한샘",
+  "ticker": "009240",
+  "industry": "가구/인테리어",
+  "resource": "dart_pipeline/dart_md/KOSPI/009240_한샘_2025.md"
  }
 ]
