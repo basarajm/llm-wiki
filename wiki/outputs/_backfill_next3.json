@@ -1,20 +1,20 @@
 [
  {
-  "name": "휴스틸",
-  "ticker": "005010",
-  "industry": "철강",
-  "resource": "dart_pipeline/dart_md/KOSPI/005010_휴스틸_2025.md"
+  "name": "SGC에너지",
+  "ticker": "005090",
+  "industry": "집단에너지",
+  "resource": "dart_pipeline/dart_md/KOSPI/005090_SGC에너지_2025.md"
  },
  {
-  "name": "부산주공",
-  "ticker": "005030",
-  "industry": "자동차부품",
-  "resource": "dart_pipeline/dart_md/KOSPI/005030_부산주공_2025.md"
+  "name": "한창",
+  "ticker": "005110",
+  "industry": "소방·복합사업",
+  "resource": "dart_pipeline/dart_md/KOSPI/005110_한창_2022.md"
  },
  {
-  "name": "코스모신소재",
-  "ticker": "005070",
-  "industry": "이차전지소재",
-  "resource": "dart_pipeline/dart_md/KOSPI/005070_코스모신소재_2025.md"
+  "name": "빙그레",
+  "ticker": "005180",
+  "industry": "식품",
+  "resource": "dart_pipeline/dart_md/KOSPI/005180_빙그레_2025.md"
  }
 ]
