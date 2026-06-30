@@ -1,20 +1,20 @@
 [
  {
-  "name": "금호건설",
-  "ticker": "002990",
-  "industry": "건설",
-  "resource": "dart_pipeline/dart_md/KOSPI/002990_금호건설_2025.md"
+  "name": "세아제강지주",
+  "ticker": "003030",
+  "industry": "철강",
+  "resource": "dart_pipeline/dart_md/KOSPI/003030_세아제강지주_2025.md"
  },
  {
-  "name": "부광약품",
-  "ticker": "003000",
+  "name": "에이프로젠바이오로직스",
+  "ticker": "003060",
   "industry": "제약",
-  "resource": "dart_pipeline/dart_md/KOSPI/003000_부광약품_2025.md"
+  "resource": "dart_pipeline/dart_md/KOSPI/003060_에이프로젠바이오로직스_2025.md"
  },
  {
-  "name": "혜인",
-  "ticker": "003010",
-  "industry": "건설기계유통",
-  "resource": "dart_pipeline/dart_md/KOSPI/003010_혜인_2025.md"
+  "name": "코오롱글로벌",
+  "ticker": "003070",
+  "industry": "건설",
+  "resource": "dart_pipeline/dart_md/KOSPI/003070_코오롱글로벌_2025.md"
  }
 ]
