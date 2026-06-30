@@ -1,20 +1,20 @@
 [
  {
-  "name": "DRB동일",
-  "ticker": "004840",
-  "industry": "자동차부품",
-  "resource": "dart_pipeline/dart_md/KOSPI/004840_DRB동일_2025.md"
+  "name": "조광페인트",
+  "ticker": "004910",
+  "industry": "화학",
+  "resource": "dart_pipeline/dart_md/KOSPI/004910_조광페인트_2025.md"
  },
  {
-  "name": "티웨이홀딩스",
-  "ticker": "004870",
-  "industry": "건자재",
-  "resource": "dart_pipeline/dart_md/KOSPI/004870_티웨이홀딩스_2025.md"
+  "name": "씨아이테크",
+  "ticker": "004920",
+  "industry": "전자부품",
+  "resource": "dart_pipeline/dart_md/KOSPI/004920_씨아이테크_2025.md"
  },
  {
-  "name": "동일산업",
-  "ticker": "004890",
-  "industry": "철강",
-  "resource": "dart_pipeline/dart_md/KOSPI/004890_동일산업_2025.md"
+  "name": "한신공영",
+  "ticker": "004960",
+  "industry": "건설",
+  "resource": "dart_pipeline/dart_md/KOSPI/004960_한신공영_2025.md"
  }
 ]
