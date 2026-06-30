@@ -1,20 +1,20 @@
 [
  {
-  "name": "한미반도체",
-  "ticker": "042700",
-  "industry": "반도체장비",
-  "resource": "dart_pipeline/dart_md/KOSPI/042700_한미반도체_2025.md"
+  "name": "LG전자",
+  "ticker": "066570",
+  "industry": "가전",
+  "resource": "dart_pipeline/dart_md/KOSPI/066570_LG전자_2025.md"
  },
  {
-  "name": "신한금융지주",
-  "ticker": "055550",
+  "name": "한국금융지주",
+  "ticker": "071050",
   "industry": "금융지주",
-  "resource": "dart_pipeline/dart_md/KOSPI/055550_신한지주_2025.md"
+  "resource": "dart_pipeline/dart_md/KOSPI/071050_한국금융지주_2025.md"
  },
  {
-  "name": "에스피지",
-  "ticker": "058610",
-  "industry": "모터",
-  "resource": "dart_pipeline/dart_md/KOSDAQ/058610_에스피지_2025.md"
+  "name": "하나금융지주",
+  "ticker": "086790",
+  "industry": "금융지주",
+  "resource": "dart_pipeline/dart_md/KOSPI/086790_하나금융지주_2025.md"
  }
 ]
