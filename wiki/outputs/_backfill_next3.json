@@ -1,20 +1,20 @@
 [
  {
-  "name": "대신증권",
-  "ticker": "003540",
-  "industry": "증권",
-  "resource": "dart_pipeline/dart_md/KOSPI/003540_대신증권_2025.md"
+  "name": "HLB글로벌",
+  "ticker": "003580",
+  "industry": "소비재·유통(미디어커머스)",
+  "resource": "dart_pipeline/dart_md/KOSPI/003580_HLB글로벌_2025.md"
  },
  {
-  "name": "LG",
-  "ticker": "003550",
-  "industry": "지주회사",
-  "resource": "dart_pipeline/dart_md/KOSPI/003550_LG_2025.md"
+  "name": "방림",
+  "ticker": "003610",
+  "industry": "섬유",
+  "resource": "dart_pipeline/dart_md/KOSPI/003610_방림_2025.md"
  },
  {
-  "name": "SNT다이내믹스",
-  "ticker": "003570",
-  "industry": "방산",
-  "resource": "dart_pipeline/dart_md/KOSPI/003570_SNT다이내믹스_2025.md"
+  "name": "KG모빌리티",
+  "ticker": "003620",
+  "industry": "자동차",
+  "resource": "dart_pipeline/dart_md/KOSPI/003620_KG모빌리티_2025.md"
  }
 ]
