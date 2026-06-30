@@ -1,20 +1,20 @@
 [
  {
-  "name": "KCC",
-  "ticker": "002380",
-  "industry": "화학",
-  "resource": "dart_pipeline/dart_md/KOSPI/002380_케이씨씨_2025.md"
+  "name": "세기상사",
+  "ticker": "002420",
+  "industry": "석유유통",
+  "resource": "dart_pipeline/dart_md/KOSPI/002420_세기상사_2025.md"
  },
  {
-  "name": "한독",
-  "ticker": "002390",
-  "industry": "제약",
-  "resource": "dart_pipeline/dart_md/KOSPI/002390_한독_2025.md"
+  "name": "삼익악기",
+  "ticker": "002450",
+  "industry": "악기제조",
+  "resource": "dart_pipeline/dart_md/KOSPI/002450_삼익악기_2025.md"
  },
  {
-  "name": "범양건영",
-  "ticker": "002410",
+  "name": "HS화성",
+  "ticker": "002460",
   "industry": "건설",
-  "resource": "dart_pipeline/dart_md/KOSPI/002410_범양건영_2025.md"
+  "resource": "dart_pipeline/dart_md/KOSPI/002460_HS화성_2025.md"
  }
 ]
