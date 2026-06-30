@@ -1,20 +1,20 @@
 [
  {
-  "name": "LG전자",
-  "ticker": "066570",
-  "industry": "가전",
-  "resource": "dart_pipeline/dart_md/KOSPI/066570_LG전자_2025.md"
+  "name": "KB금융지주",
+  "ticker": "105560",
+  "industry": "금융지주",
+  "resource": "dart_pipeline/dart_md/KOSPI/105560_KB금융_2024.md"
  },
  {
-  "name": "한국금융지주",
-  "ticker": "071050",
-  "industry": "금융지주",
-  "resource": "dart_pipeline/dart_md/KOSPI/071050_한국금융지주_2025.md"
+  "name": "HD현대",
+  "ticker": "267250",
+  "industry": "지주회사",
+  "resource": "dart_pipeline/dart_md/KOSPI/267250_HD현대_2025.md"
  },
  {
-  "name": "하나금융지주",
-  "ticker": "086790",
-  "industry": "금융지주",
-  "resource": "dart_pipeline/dart_md/KOSPI/086790_하나금융지주_2025.md"
+  "name": "HD현대일렉트릭",
+  "ticker": "267260",
+  "industry": "전력기기",
+  "resource": "dart_pipeline/dart_md/KOSPI/267260_HD현대일렉트릭_2025.md"
  }
 ]
