@@ -5,4 +5,5 @@
 * [Product·Financial Product 인제스트 누락 분석 및 재개 옵션](/outputs/ingest-scope-products-gap-2026-06-29) - KOSPI 배치 인제스트(347/833) 동안 products·financial_products·ratings 타입이 거의 갱신되지 않은 원인과 보완 선택지
 * [ingest-tracker-KOSPI](/outputs/ingest-tracker-KOSPI)
 * [위키 검진 리포트 2026-06-27](/outputs/lint-report-2026-06-27) - 16개 사업보고서 인제스트 직후의 위키 건강 검진 결과
+* [Product·Financial Product 백필 실행 계획 (옵션 B / B1)](/outputs/products-backfill-plan-2026-06-29) - 직전 gap 분석에서 결정된 옵션 B 백필을 B1(커밋된 위키 본문 추출) 방식으로 실행하기 위한 방법론·범위·오케스트레이션·진행 로그
 

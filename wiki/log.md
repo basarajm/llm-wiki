@@ -742,3 +742,5 @@
 **Batch Ingest (Products Backfill)** 청크 100개사 — 신규 노드 100개
 
 **Batch Ingest (Products Backfill)** 청크 99개사 — 신규 노드 48개
+
+**Backfill(B) 재개** 사업보고서 md 기반 정식 백필 시작(기존 병렬 테스트=Company 본문 기반 약한 채움은 무시·점진 대체). BF1 정식판 복원: 동화약품(까스활명수·판콜 products + 신용등급 A+)·KR모터스(아퀼라)·경방(0, 근거 없음). 트래커 backfill_status.py + backfill-done.json 복원. 이후 종목코드순 정식 백필 + KOSPI 신규 Full 인제스트(347/833→) 병행 예정.
