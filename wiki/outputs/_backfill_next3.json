@@ -1,20 +1,20 @@
 [
  {
-  "name": "KBI동양철관",
-  "ticker": "008970",
-  "industry": "철강",
-  "resource": "dart_pipeline/dart_md/KOSPI/008970_KBI동양철관_2025.md"
- },
- {
-  "name": "케이씨티시",
-  "ticker": "009070",
-  "industry": "물류",
-  "resource": "dart_pipeline/dart_md/KOSPI/009070_케이씨티시_2025.md"
- },
- {
-  "name": "경인전자",
-  "ticker": "009140",
+  "name": "삼성전기",
+  "ticker": "009150",
   "industry": "전자부품",
-  "resource": "dart_pipeline/dart_md/KOSPI/009140_경인전자_2025.md"
+  "resource": "dart_pipeline/dart_md/KOSPI/009150_삼성전기_2025.md"
+ },
+ {
+  "name": "SIMPAC",
+  "ticker": "009160",
+  "industry": "기계",
+  "resource": "dart_pipeline/dart_md/KOSPI/009160_SIMPAC_2025.md"
+ },
+ {
+  "name": "한솔로지스틱스",
+  "ticker": "009180",
+  "industry": "물류",
+  "resource": "dart_pipeline/dart_md/KOSPI/009180_한솔로지스틱스_2025.md"
  }
 ]
