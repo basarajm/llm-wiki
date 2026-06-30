@@ -1,20 +1,20 @@
 [
  {
-  "name": "세아베스틸지주",
-  "ticker": "001430",
-  "industry": "철강",
-  "resource": "dart_pipeline/dart_md/KOSPI/001430_세아베스틸지주_2025.md"
+  "name": "BYC",
+  "ticker": "001460",
+  "industry": "섬유",
+  "resource": "dart_pipeline/dart_md/KOSPI/001460_BYC_2025.md"
  },
  {
-  "name": "대한전선",
-  "ticker": "001440",
-  "industry": "전선",
-  "resource": "dart_pipeline/dart_md/KOSPI/001440_대한전선_2025.md"
+  "name": "삼부토건",
+  "ticker": "001470",
+  "industry": "건설",
+  "resource": "dart_pipeline/dart_md/KOSPI/001470_삼부토건_2025.md"
  },
  {
-  "name": "현대해상",
-  "ticker": "001450",
-  "industry": "보험",
-  "resource": "dart_pipeline/dart_md/KOSPI/001450_현대해상_2025.md"
+  "name": "현대차증권",
+  "ticker": "001500",
+  "industry": "증권",
+  "resource": "dart_pipeline/dart_md/KOSPI/001500_현대차증권_2025.md"
  }
 ]
