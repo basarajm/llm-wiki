@@ -1,20 +1,20 @@
 [
  {
-  "name": "진양폴리우레탄",
-  "ticker": "010640",
-  "industry": "화학",
-  "resource": "dart_pipeline/dart_md/KOSPI/010640_진양폴리우레탄_2025.md"
- },
- {
-  "name": "LG이노텍",
-  "ticker": "011070",
-  "industry": "전자부품",
-  "resource": "dart_pipeline/dart_md/KOSPI/011070_LG이노텍_2025.md"
- },
- {
-  "name": "현대위아",
-  "ticker": "011210",
+  "name": "현대모비스",
+  "ticker": "012330",
   "industry": "자동차부품",
-  "resource": "dart_pipeline/dart_md/KOSPI/011210_현대위아_2025.md"
+  "resource": "dart_pipeline/dart_md/KOSPI/012330_현대모비스_2025.md"
+ },
+ {
+  "name": "한국전력공사",
+  "ticker": "015760",
+  "industry": "전력",
+  "resource": "dart_pipeline/dart_md/KOSPI/015760_한국전력공사_2025.md"
+ },
+ {
+  "name": "삼성물산",
+  "ticker": "028260",
+  "industry": "건설",
+  "resource": "dart_pipeline/dart_md/KOSPI/028260_삼성물산_2025.md"
  }
 ]
