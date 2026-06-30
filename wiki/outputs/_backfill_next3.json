@@ -1,20 +1,20 @@
 [
  {
-  "name": "성창기업지주",
-  "ticker": "000180",
-  "industry": "목재",
-  "resource": "dart_pipeline/dart_md/KOSPI/000180_성창기업지주_2025.md"
- },
- {
-  "name": "DL",
-  "ticker": "000210",
+  "name": "일동홀딩스",
+  "ticker": "000230",
   "industry": "지주회사",
-  "resource": "dart_pipeline/dart_md/KOSPI/000210_DL_2025.md"
+  "resource": "dart_pipeline/dart_md/KOSPI/000230_일동홀딩스_2025.md"
  },
  {
-  "name": "유유제약",
-  "ticker": "000220",
-  "industry": "제약",
-  "resource": "dart_pipeline/dart_md/KOSPI/000220_유유제약_2025.md"
+  "name": "한국앤컴퍼니",
+  "ticker": "000240",
+  "industry": "지주회사",
+  "resource": "dart_pipeline/dart_md/KOSPI/000240_한국앤컴퍼니_2025.md"
+ },
+ {
+  "name": "기아",
+  "ticker": "000270",
+  "industry": "자동차",
+  "resource": "dart_pipeline/dart_md/KOSPI/000270_기아_2025.md"
  }
 ]
