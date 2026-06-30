@@ -1,20 +1,20 @@
 [
  {
-  "name": "윌비스",
-  "ticker": "008600",
-  "industry": "의류 OEM·교육",
-  "resource": "dart_pipeline/dart_md/KOSPI/008600_윌비스_2025.md"
+  "name": "호텔신라",
+  "ticker": "008770",
+  "industry": "면세/유통·호텔",
+  "resource": "dart_pipeline/dart_md/KOSPI/008770_호텔신라_2025.md"
  },
  {
-  "name": "아남전자",
-  "ticker": "008700",
-  "industry": "음향기기",
-  "resource": "dart_pipeline/dart_md/KOSPI/008700_아남전자_2025.md"
+  "name": "금비",
+  "ticker": "008870",
+  "industry": "포장재",
+  "resource": "dart_pipeline/dart_md/KOSPI/008870_금비_2025.md"
  },
  {
-  "name": "율촌화학",
-  "ticker": "008730",
-  "industry": "포장재·기능성 필름",
-  "resource": "dart_pipeline/dart_md/KOSPI/008730_율촌화학_2025.md"
+  "name": "한미사이언스",
+  "ticker": "008930",
+  "industry": "제약",
+  "resource": "dart_pipeline/dart_md/KOSPI/008930_한미사이언스_2025.md"
  }
 ]
