@@ -1,20 +1,20 @@
 [
  {
-  "name": "신원",
-  "ticker": "009270",
-  "industry": "패션",
-  "resource": "dart_pipeline/dart_md/KOSPI/009270_신원_2025.md"
+  "name": "아진전자부품",
+  "ticker": "009320",
+  "industry": "자동차부품",
+  "resource": "dart_pipeline/dart_md/KOSPI/009320_아진전자부품_2025.md"
  },
  {
-  "name": "광동제약",
-  "ticker": "009290",
-  "industry": "제약",
-  "resource": "dart_pipeline/dart_md/KOSPI/009290_광동제약_2025.md"
+  "name": "태영건설",
+  "ticker": "009410",
+  "industry": "건설",
+  "resource": "dart_pipeline/dart_md/KOSPI/009410_태영건설_2025.md"
  },
  {
-  "name": "참엔지니어링",
-  "ticker": "009310",
-  "industry": "디스플레이장비",
-  "resource": "dart_pipeline/dart_md/KOSPI/009310_참엔지니어링_2025.md"
+  "name": "한올바이오파마",
+  "ticker": "009420",
+  "industry": "제약·바이오",
+  "resource": "dart_pipeline/dart_md/KOSPI/009420_한올바이오파마_2025.md"
  }
 ]
