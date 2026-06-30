@@ -1,20 +1,20 @@
 [
  {
-  "name": "유화증권",
-  "ticker": "003460",
-  "industry": "증권",
-  "resource": "dart_pipeline/dart_md/KOSPI/003460_유화증권_2025.md"
+  "name": "대한항공",
+  "ticker": "003490",
+  "industry": "항공",
+  "resource": "dart_pipeline/dart_md/KOSPI/003490_대한항공_2025.md"
  },
  {
-  "name": "유안타증권",
-  "ticker": "003470",
-  "industry": "증권",
-  "resource": "dart_pipeline/dart_md/KOSPI/003470_유안타증권_2025.md"
+  "name": "영진약품",
+  "ticker": "003520",
+  "industry": "제약",
+  "resource": "dart_pipeline/dart_md/KOSPI/003520_영진약품_2025.md"
  },
  {
-  "name": "한진중공업홀딩스",
-  "ticker": "003480",
-  "industry": "지주회사",
-  "resource": "dart_pipeline/dart_md/KOSPI/003480_한진중공업홀딩스_2025.md"
+  "name": "한화투자증권",
+  "ticker": "003530",
+  "industry": "증권",
+  "resource": "dart_pipeline/dart_md/KOSPI/003530_한화투자증권_2025.md"
  }
 ]
