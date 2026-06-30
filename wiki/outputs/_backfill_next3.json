@@ -1,20 +1,20 @@
 [
  {
-  "name": "흥아해운",
-  "ticker": "003280",
-  "industry": "해운",
-  "resource": "dart_pipeline/dart_md/KOSPI/003280_흥아해운_2025.md"
+  "name": "유화증권",
+  "ticker": "003460",
+  "industry": "증권",
+  "resource": "dart_pipeline/dart_md/KOSPI/003460_유화증권_2025.md"
  },
  {
-  "name": "한일홀딩스",
-  "ticker": "003300",
+  "name": "유안타증권",
+  "ticker": "003470",
+  "industry": "증권",
+  "resource": "dart_pipeline/dart_md/KOSPI/003470_유안타증권_2025.md"
+ },
+ {
+  "name": "한진중공업홀딩스",
+  "ticker": "003480",
   "industry": "지주회사",
-  "resource": "dart_pipeline/dart_md/KOSPI/003300_한일홀딩스_2025.md"
- },
- {
-  "name": "한국화장품제조",
-  "ticker": "003350",
-  "industry": "화장품",
-  "resource": "dart_pipeline/dart_md/KOSPI/003350_한국화장품제조_2025.md"
+  "resource": "dart_pipeline/dart_md/KOSPI/003480_한진중공업홀딩스_2025.md"
  }
 ]
