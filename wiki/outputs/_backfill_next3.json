@@ -1,20 +1,20 @@
 [
  {
-  "name": "한국내화",
-  "ticker": "010040",
-  "industry": "철강",
-  "resource": "dart_pipeline/dart_md/KOSPI/010040_한국내화_2025.md"
+  "name": "LS일렉트릭",
+  "ticker": "010120",
+  "industry": "전력기기",
+  "resource": "dart_pipeline/dart_md/KOSPI/010120_엘에스일렉트릭_2025.md"
  },
  {
-  "name": "OCI홀딩스",
-  "ticker": "010060",
-  "industry": "지주회사",
-  "resource": "dart_pipeline/dart_md/KOSPI/010060_OCI홀딩스_2025.md"
+  "name": "고려아연",
+  "ticker": "010130",
+  "industry": "비철금속",
+  "resource": "dart_pipeline/dart_md/KOSPI/010130_고려아연_2025.md"
  },
  {
-  "name": "한국무브넥스",
-  "ticker": "010100",
-  "industry": "자동차부품",
-  "resource": "dart_pipeline/dart_md/KOSPI/010100_한국무브넥스_2025.md"
+  "name": "삼성중공업",
+  "ticker": "010140",
+  "industry": "조선",
+  "resource": "dart_pipeline/dart_md/KOSPI/010140_삼성중공업_2025.md"
  }
 ]
