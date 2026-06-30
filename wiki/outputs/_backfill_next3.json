@@ -1,20 +1,20 @@
 [
  {
-  "name": "세아제강지주",
-  "ticker": "003030",
-  "industry": "철강",
-  "resource": "dart_pipeline/dart_md/KOSPI/003030_세아제강지주_2025.md"
+  "name": "SB성보",
+  "ticker": "003080",
+  "industry": "화학",
+  "resource": "dart_pipeline/dart_md/KOSPI/003080_SB성보_2025.md"
  },
  {
-  "name": "에이프로젠바이오로직스",
-  "ticker": "003060",
-  "industry": "제약",
-  "resource": "dart_pipeline/dart_md/KOSPI/003060_에이프로젠바이오로직스_2025.md"
+  "name": "대웅",
+  "ticker": "003090",
+  "industry": "지주회사",
+  "resource": "dart_pipeline/dart_md/KOSPI/003090_대웅_2025.md"
  },
  {
-  "name": "코오롱글로벌",
-  "ticker": "003070",
-  "industry": "건설",
-  "resource": "dart_pipeline/dart_md/KOSPI/003070_코오롱글로벌_2025.md"
+  "name": "대신밸류리츠",
+  "ticker": "0030R0",
+  "industry": "리츠",
+  "resource": "dart_pipeline/dart_md/KOSPI/0030R0_대신밸류리츠_2026.md"
  }
 ]
