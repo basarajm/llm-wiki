@@ -1,20 +1,20 @@
 [
  {
-  "name": "LS일렉트릭",
-  "ticker": "010120",
-  "industry": "전력기기",
-  "resource": "dart_pipeline/dart_md/KOSPI/010120_엘에스일렉트릭_2025.md"
+  "name": "대한광통신",
+  "ticker": "010170",
+  "industry": "광통신부품",
+  "resource": "dart_pipeline/dart_md/KOSDAQ/010170_대한광통신_2025.md"
  },
  {
-  "name": "고려아연",
-  "ticker": "010130",
-  "industry": "비철금속",
-  "resource": "dart_pipeline/dart_md/KOSPI/010130_고려아연_2025.md"
+  "name": "우진아이엔에스",
+  "ticker": "010400",
+  "industry": "기계설비·건설",
+  "resource": "dart_pipeline/dart_md/KOSPI/010400_우진아이엔에스_2025.md"
  },
  {
-  "name": "삼성중공업",
-  "ticker": "010140",
-  "industry": "조선",
-  "resource": "dart_pipeline/dart_md/KOSPI/010140_삼성중공업_2025.md"
+  "name": "에스엠벡셀",
+  "ticker": "010580",
+  "industry": "자동차부품",
+  "resource": "dart_pipeline/dart_md/KOSPI/010580_에스엠벡셀_2025.md"
  }
 ]
