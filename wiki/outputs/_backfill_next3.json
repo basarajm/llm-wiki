@@ -1,20 +1,20 @@
 [
  {
-  "name": "신라교역",
-  "ticker": "004970",
-  "industry": "식품(수산)",
-  "resource": "dart_pipeline/dart_md/KOSPI/004970_신라교역_2025.md"
+  "name": "휴스틸",
+  "ticker": "005010",
+  "industry": "철강",
+  "resource": "dart_pipeline/dart_md/KOSPI/005010_휴스틸_2025.md"
  },
  {
-  "name": "성신양회",
-  "ticker": "004980",
-  "industry": "시멘트",
-  "resource": "dart_pipeline/dart_md/KOSPI/004980_성신양회_2025.md"
+  "name": "부산주공",
+  "ticker": "005030",
+  "industry": "자동차부품",
+  "resource": "dart_pipeline/dart_md/KOSPI/005030_부산주공_2025.md"
  },
  {
-  "name": "롯데지주",
-  "ticker": "004990",
-  "industry": "지주회사",
-  "resource": "dart_pipeline/dart_md/KOSPI/004990_롯데지주_2025.md"
+  "name": "코스모신소재",
+  "ticker": "005070",
+  "industry": "이차전지소재",
+  "resource": "dart_pipeline/dart_md/KOSPI/005070_코스모신소재_2025.md"
  }
 ]
