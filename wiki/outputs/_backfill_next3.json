@@ -1,20 +1,20 @@
 [
  {
-  "name": "삼양홀딩스",
-  "ticker": "000070",
+  "name": "CJ대한통운",
+  "ticker": "000120",
+  "industry": "물류",
+  "resource": "dart_pipeline/dart_md/KOSPI/000120_CJ대한통운_2025.md"
+ },
+ {
+  "name": "하이트진로홀딩스",
+  "ticker": "000140",
   "industry": "지주회사",
-  "resource": "dart_pipeline/dart_md/KOSPI/000070_삼양홀딩스_2025.md"
+  "resource": "dart_pipeline/dart_md/KOSPI/000140_하이트진로홀딩스_2025.md"
  },
  {
-  "name": "하이트진로",
-  "ticker": "000080",
-  "industry": "주류",
-  "resource": "dart_pipeline/dart_md/KOSPI/000080_하이트진로_2025.md"
- },
- {
-  "name": "유한양행",
-  "ticker": "000100",
-  "industry": "제약",
-  "resource": "dart_pipeline/dart_md/KOSPI/000100_유한양행_2025.md"
+  "name": "두산",
+  "ticker": "000150",
+  "industry": "지주회사",
+  "resource": "dart_pipeline/dart_md/KOSPI/000150_두산_2025.md"
  }
 ]

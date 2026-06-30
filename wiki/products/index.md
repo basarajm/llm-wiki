@@ -268,7 +268,9 @@
 * [Burn-In Board](/products/Burn-In_Board) - 번인 테스터에 장착되어 디바이스를 고온 챔버에서 초기 불량 선별하는 검사용 기판(BIB) — 디아이가 국내 시장점유율 약 38%(2025)로 선두권
 * [BYC 내의](/products/BYC_내의) - BYC의 대표 메리야스류 내의(이너웨어) 브랜드 — 국내 내의 시장 선도 브랜드
 * [CBN연마지석](/products/CBN연마지석) - 고속회전 고성능 연마용으로 쓰이는 입방정질화붕소(CBN) 기반 공업용 연마지석
-* [CJ대한통운 택배](/products/CJ대한통운_택배) - CJ대한통운이 운영하는 국내 최대 규모 택배·e-Fulfillment 서비스(국내 택배시장 1위권)
+* [CJ대한통운 글로벌(포워딩·해외물류)](/products/CJ대한통운_글로벌) - CJ대한통운의 글로벌 사업 — 항공·해상 포워딩·국제특송·해외물류. 전사 매출 비중 1위(35.4%)
+* [CJ대한통운 택배](/products/CJ대한통운_택배) - CJ대한통운이 운영하는 국내 최대 규모 택배·e-Fulfillment 서비스(국내 택배시장 점유율 1위, 43.4%)
+* [CJ대한통운 CL(계약물류)](/products/CJ대한통운_CL) - CJ대한통운의 계약물류(3PL) 사업 — 항만하역(P&D)에서 선석·순수 Bulk 기준 국내 M/S 1위
 * [COLOMBO](/products/COLOMBO) - SG세계물산의 이탈리아 장인 수공 생산 하이엔드 명품 피혁류 브랜드
 * [CURL-FIT](/products/CURL-FIT) - 삼영무역 종속회사 ㈜한국큐빅이 생산하는 수압전사(Cubic Printing) 곡면 표면처리 자동차 내장재 — 일본 Taica 국제특허 기반 국내 Master License 단독 보유
 * [CXL 메모리](/products/CXL메모리) - CXL(Compute Express Link) 인터페이스 기반 용량 확장형 메모리 — SK하이닉스 CMM-DDR5 라인업
