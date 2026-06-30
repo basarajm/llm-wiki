@@ -1,20 +1,20 @@
 [
  {
-  "name": "원림",
-  "ticker": "005820",
-  "industry": "화학",
-  "resource": "dart_pipeline/dart_md/KOSPI/005820_원림_2025.md"
+  "name": "휴니드테크놀러지스",
+  "ticker": "005870",
+  "industry": "방산",
+  "resource": "dart_pipeline/dart_md/KOSPI/005870_휴니드테크놀러지스_2025.md"
  },
  {
-  "name": "DB손해보험",
-  "ticker": "005830",
-  "industry": "보험",
-  "resource": "dart_pipeline/dart_md/KOSPI/005830_DB손해보험_2025.md"
+  "name": "대한해운",
+  "ticker": "005880",
+  "industry": "해운",
+  "resource": "dart_pipeline/dart_md/KOSPI/005880_대한해운_2025.md"
  },
  {
-  "name": "에스엘",
-  "ticker": "005850",
-  "industry": "자동차부품",
-  "resource": "dart_pipeline/dart_md/KOSPI/005850_에스엘_2025.md"
+  "name": "삼성전자",
+  "ticker": "005930",
+  "industry": "반도체",
+  "resource": "dart_pipeline/dart_md/KOSPI/005930_삼성전자_2025.md"
  }
 ]
