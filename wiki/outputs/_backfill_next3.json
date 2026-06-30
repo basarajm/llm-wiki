@@ -1,20 +1,20 @@
 [
  {
-  "name": "한진",
-  "ticker": "002320",
-  "industry": "물류",
-  "resource": "dart_pipeline/dart_md/KOSPI/002320_한진_2025.md"
- },
- {
-  "name": "넥센타이어",
-  "ticker": "002350",
-  "industry": "타이어",
-  "resource": "dart_pipeline/dart_md/KOSPI/002350_넥센타이어_2025.md"
- },
- {
-  "name": "SH에너지화학",
-  "ticker": "002360",
+  "name": "KCC",
+  "ticker": "002380",
   "industry": "화학",
-  "resource": "dart_pipeline/dart_md/KOSPI/002360_SH에너지화학_2025.md"
+  "resource": "dart_pipeline/dart_md/KOSPI/002380_케이씨씨_2025.md"
+ },
+ {
+  "name": "한독",
+  "ticker": "002390",
+  "industry": "제약",
+  "resource": "dart_pipeline/dart_md/KOSPI/002390_한독_2025.md"
+ },
+ {
+  "name": "범양건영",
+  "ticker": "002410",
+  "industry": "건설",
+  "resource": "dart_pipeline/dart_md/KOSPI/002410_범양건영_2025.md"
  }
 ]
