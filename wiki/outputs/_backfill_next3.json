@@ -1,20 +1,20 @@
 [
  {
-  "name": "삼진제약",
-  "ticker": "005500",
+  "name": "파미셀",
+  "ticker": "005690",
   "industry": "제약",
-  "resource": "dart_pipeline/dart_md/KOSPI/005500_삼진제약_2025.md"
+  "resource": "dart_pipeline/dart_md/KOSPI/005690_파미셀_2025.md"
  },
  {
-  "name": "삼립",
-  "ticker": "005610",
-  "industry": "식품",
-  "resource": "dart_pipeline/dart_md/KOSPI/005610_삼립_2025.md"
+  "name": "넥센",
+  "ticker": "005720",
+  "industry": "지주회사",
+  "resource": "dart_pipeline/dart_md/KOSPI/005720_넥센_2025.md"
  },
  {
-  "name": "삼영전자공업",
-  "ticker": "005680",
-  "industry": "전자부품",
-  "resource": "dart_pipeline/dart_md/KOSPI/005680_삼영전자공업_2025.md"
+  "name": "크라운해태홀딩스",
+  "ticker": "005740",
+  "industry": "지주회사",
+  "resource": "dart_pipeline/dart_md/KOSPI/005740_크라운해태홀딩스_2025.md"
  }
 ]
