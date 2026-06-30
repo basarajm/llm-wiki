@@ -1,20 +1,20 @@
 [
  {
-  "name": "조광페인트",
-  "ticker": "004910",
-  "industry": "화학",
-  "resource": "dart_pipeline/dart_md/KOSPI/004910_조광페인트_2025.md"
+  "name": "신라교역",
+  "ticker": "004970",
+  "industry": "식품(수산)",
+  "resource": "dart_pipeline/dart_md/KOSPI/004970_신라교역_2025.md"
  },
  {
-  "name": "씨아이테크",
-  "ticker": "004920",
-  "industry": "전자부품",
-  "resource": "dart_pipeline/dart_md/KOSPI/004920_씨아이테크_2025.md"
+  "name": "성신양회",
+  "ticker": "004980",
+  "industry": "시멘트",
+  "resource": "dart_pipeline/dart_md/KOSPI/004980_성신양회_2025.md"
  },
  {
-  "name": "한신공영",
-  "ticker": "004960",
-  "industry": "건설",
-  "resource": "dart_pipeline/dart_md/KOSPI/004960_한신공영_2025.md"
+  "name": "롯데지주",
+  "ticker": "004990",
+  "industry": "지주회사",
+  "resource": "dart_pipeline/dart_md/KOSPI/004990_롯데지주_2025.md"
  }
 ]
