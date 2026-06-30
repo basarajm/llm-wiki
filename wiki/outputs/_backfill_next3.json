@@ -1,20 +1,20 @@
 [
  {
-  "name": "SB성보",
-  "ticker": "003080",
-  "industry": "화학",
-  "resource": "dart_pipeline/dart_md/KOSPI/003080_SB성보_2025.md"
+  "name": "일성아이에스",
+  "ticker": "003120",
+  "industry": "제약",
+  "resource": "dart_pipeline/dart_md/KOSPI/003120_일성아이에스_2025.md"
  },
  {
-  "name": "대웅",
-  "ticker": "003090",
-  "industry": "지주회사",
-  "resource": "dart_pipeline/dart_md/KOSPI/003090_대웅_2025.md"
+  "name": "디아이",
+  "ticker": "003160",
+  "industry": "반도체장비",
+  "resource": "dart_pipeline/dart_md/KOSPI/003160_디아이_2025.md"
  },
  {
-  "name": "대신밸류리츠",
-  "ticker": "0030R0",
-  "industry": "리츠",
-  "resource": "dart_pipeline/dart_md/KOSPI/0030R0_대신밸류리츠_2026.md"
+  "name": "일신방직",
+  "ticker": "003200",
+  "industry": "섬유",
+  "resource": "dart_pipeline/dart_md/KOSPI/003200_일신방직_2025.md"
  }
 ]
