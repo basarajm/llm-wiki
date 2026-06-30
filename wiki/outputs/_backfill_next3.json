@@ -1,20 +1,20 @@
 [
  {
-  "name": "SGC에너지",
-  "ticker": "005090",
-  "industry": "집단에너지",
-  "resource": "dart_pipeline/dart_md/KOSPI/005090_SGC에너지_2025.md"
+  "name": "녹십자홀딩스",
+  "ticker": "005250",
+  "industry": "지주회사",
+  "resource": "dart_pipeline/dart_md/KOSPI/005250_녹십자홀딩스_2025.md"
  },
  {
-  "name": "한창",
-  "ticker": "005110",
-  "industry": "소방·복합사업",
-  "resource": "dart_pipeline/dart_md/KOSPI/005110_한창_2022.md"
+  "name": "롯데칠성음료",
+  "ticker": "005300",
+  "industry": "식품·음료",
+  "resource": "dart_pipeline/dart_md/KOSPI/005300_롯데칠성음료_2025.md"
  },
  {
-  "name": "빙그레",
-  "ticker": "005180",
-  "industry": "식품",
-  "resource": "dart_pipeline/dart_md/KOSPI/005180_빙그레_2025.md"
+  "name": "온타이드",
+  "ticker": "005320",
+  "industry": "패션",
+  "resource": "dart_pipeline/dart_md/KOSPI/005320_온타이드_2025.md"
  }
 ]
