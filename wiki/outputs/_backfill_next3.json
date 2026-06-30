@@ -1,20 +1,20 @@
 [
  {
-  "name": "녹십자홀딩스",
-  "ticker": "005250",
-  "industry": "지주회사",
-  "resource": "dart_pipeline/dart_md/KOSPI/005250_녹십자홀딩스_2025.md"
+  "name": "모나미",
+  "ticker": "005360",
+  "industry": "문구",
+  "resource": "dart_pipeline/dart_md/KOSPI/005360_모나미_2025.md"
  },
  {
-  "name": "롯데칠성음료",
-  "ticker": "005300",
-  "industry": "식품·음료",
-  "resource": "dart_pipeline/dart_md/KOSPI/005300_롯데칠성음료_2025.md"
+  "name": "현대자동차",
+  "ticker": "005380",
+  "industry": "자동차",
+  "resource": "dart_pipeline/dart_md/KOSPI/005380_현대자동차_2025.md"
  },
  {
-  "name": "온타이드",
-  "ticker": "005320",
-  "industry": "패션",
-  "resource": "dart_pipeline/dart_md/KOSPI/005320_온타이드_2025.md"
+  "name": "코스모화학",
+  "ticker": "005420",
+  "industry": "화학",
+  "resource": "dart_pipeline/dart_md/KOSPI/005420_코스모화학_2025.md"
  }
 ]
