@@ -1,20 +1,20 @@
 [
  {
-  "name": "HLB글로벌",
-  "ticker": "003580",
-  "industry": "소비재·유통(미디어커머스)",
-  "resource": "dart_pipeline/dart_md/KOSPI/003580_HLB글로벌_2025.md"
+  "name": "미창석유공업",
+  "ticker": "003650",
+  "industry": "화학",
+  "resource": "dart_pipeline/dart_md/KOSPI/003650_미창석유공업_2025.md"
  },
  {
-  "name": "방림",
-  "ticker": "003610",
-  "industry": "섬유",
-  "resource": "dart_pipeline/dart_md/KOSPI/003610_방림_2025.md"
+  "name": "포스코퓨처엠",
+  "ticker": "003670",
+  "industry": "이차전지소재",
+  "resource": "dart_pipeline/dart_md/KOSPI/003670_포스코퓨처엠_2025.md"
  },
  {
-  "name": "KG모빌리티",
-  "ticker": "003620",
-  "industry": "자동차",
-  "resource": "dart_pipeline/dart_md/KOSPI/003620_KG모빌리티_2025.md"
+  "name": "한성기업",
+  "ticker": "003680",
+  "industry": "식품",
+  "resource": "dart_pipeline/dart_md/KOSPI/003680_한성기업_2025.md"
  }
 ]
