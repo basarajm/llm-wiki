@@ -1,20 +1,20 @@
 [
  {
-  "name": "현대약품",
-  "ticker": "004310",
-  "industry": "제약",
-  "resource": "dart_pipeline/dart_md/KOSPI/004310_현대약품_2025.md"
+  "name": "삼익THK",
+  "ticker": "004380",
+  "industry": "기계부품",
+  "resource": "dart_pipeline/dart_md/KOSPI/004380_삼익THK_2025.md"
  },
  {
-  "name": "세방",
-  "ticker": "004360",
-  "industry": "물류",
-  "resource": "dart_pipeline/dart_md/KOSPI/004360_세방_2025.md"
- },
- {
-  "name": "농심",
-  "ticker": "004370",
+  "name": "서울식품공업",
+  "ticker": "004410",
   "industry": "식품",
-  "resource": "dart_pipeline/dart_md/KOSPI/004370_농심_2025.md"
+  "resource": "dart_pipeline/dart_md/KOSPI/004410_서울식품공업_2025.md"
+ },
+ {
+  "name": "송원산업",
+  "ticker": "004430",
+  "industry": "화학",
+  "resource": "dart_pipeline/dart_md/KOSPI/004430_송원산업_2025.md"
  }
 ]
