@@ -1,20 +1,20 @@
 [
  {
-  "name": "모토닉",
-  "ticker": "009680",
+  "name": "한화솔루션",
+  "ticker": "009830",
+  "industry": "화학",
+  "resource": "dart_pipeline/dart_md/KOSPI/009830_한화솔루션_2025.md"
+ },
+ {
+  "name": "명신산업",
+  "ticker": "009900",
   "industry": "자동차부품",
-  "resource": "dart_pipeline/dart_md/KOSPI/009680_모토닉_2025.md"
+  "resource": "dart_pipeline/dart_md/KOSPI/009900_명신산업_2025.md"
  },
  {
-  "name": "삼정펄프",
-  "ticker": "009770",
-  "industry": "제지(생활용지)",
-  "resource": "dart_pipeline/dart_md/KOSPI/009770_삼정펄프_2025.md"
- },
- {
-  "name": "플레이그램",
-  "ticker": "009810",
-  "industry": "콘텐츠",
-  "resource": "dart_pipeline/dart_md/KOSPI/009810_플레이그램_2025.md"
+  "name": "영원무역홀딩스",
+  "ticker": "009970",
+  "industry": "지주회사",
+  "resource": "dart_pipeline/dart_md/KOSPI/009970_영원무역홀딩스_2025.md"
  }
 ]
