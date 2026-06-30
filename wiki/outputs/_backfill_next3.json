@@ -1,20 +1,20 @@
 [
  {
-  "name": "대한화섬",
-  "ticker": "003830",
-  "industry": "화학섬유",
-  "resource": "dart_pipeline/dart_md/KOSPI/003830_대한화섬_2025.md"
- },
- {
-  "name": "보령",
-  "ticker": "003850",
-  "industry": "제약",
-  "resource": "dart_pipeline/dart_md/KOSPI/003850_보령_2025.md"
- },
- {
-  "name": "남양유업",
-  "ticker": "003920",
+  "name": "사조대림",
+  "ticker": "003960",
   "industry": "식품",
-  "resource": "dart_pipeline/dart_md/KOSPI/003920_남양유업_2025.md"
+  "resource": "dart_pipeline/dart_md/KOSPI/003960_사조대림_2025.md"
+ },
+ {
+  "name": "롯데정밀화학",
+  "ticker": "004000",
+  "industry": "화학",
+  "resource": "dart_pipeline/dart_md/KOSPI/004000_롯데정밀화학_2025.md"
+ },
+ {
+  "name": "현대제철",
+  "ticker": "004020",
+  "industry": "철강",
+  "resource": "dart_pipeline/dart_md/KOSPI/004020_현대제철_2025.md"
  }
 ]
