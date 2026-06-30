@@ -1,20 +1,20 @@
 [
  {
-  "name": "신송홀딩스",
-  "ticker": "006880",
-  "industry": "지주회사",
-  "resource": "dart_pipeline/dart_md/KOSPI/006880_신송홀딩스_2025.md"
+  "name": "GS리테일",
+  "ticker": "007070",
+  "industry": "유통",
+  "resource": "dart_pipeline/dart_md/KOSPI/007070_GS리테일_2025.md"
  },
  {
-  "name": "태경케미컬",
-  "ticker": "006890",
-  "industry": "산업가스·화학",
-  "resource": "dart_pipeline/dart_md/KOSPI/006890_태경케미컬_2025.md"
+  "name": "일신석재",
+  "ticker": "007110",
+  "industry": "석재·건축자재",
+  "resource": "dart_pipeline/dart_md/KOSPI/007110_일신석재_2025.md"
  },
  {
-  "name": "우성",
-  "ticker": "006980",
-  "industry": "사료(배합사료)",
-  "resource": "dart_pipeline/dart_md/KOSPI/006980_우성_2025.md"
+  "name": "미래아이앤지",
+  "ticker": "007120",
+  "industry": "소프트웨어",
+  "resource": "dart_pipeline/dart_md/KOSPI/007120_미래아이앤지_2025.md"
  }
 ]
