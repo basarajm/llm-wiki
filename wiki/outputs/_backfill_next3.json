@@ -1,20 +1,20 @@
 [
  {
-  "name": "삼화전기",
-  "ticker": "009470",
-  "industry": "전자부품",
-  "resource": "dart_pipeline/dart_md/KOSPI/009470_삼화전기_2025.md"
+  "name": "모토닉",
+  "ticker": "009680",
+  "industry": "자동차부품",
+  "resource": "dart_pipeline/dart_md/KOSPI/009680_모토닉_2025.md"
  },
  {
-  "name": "HD한국조선해양",
-  "ticker": "009540",
-  "industry": "조선",
-  "resource": "dart_pipeline/dart_md/KOSPI/009540_HD한국조선해양_2025.md"
+  "name": "삼정펄프",
+  "ticker": "009770",
+  "industry": "제지(생활용지)",
+  "resource": "dart_pipeline/dart_md/KOSPI/009770_삼정펄프_2025.md"
  },
  {
-  "name": "무림P&P",
-  "ticker": "009580",
-  "industry": "제지",
-  "resource": "dart_pipeline/dart_md/KOSPI/009580_무림P&P_2025.md"
+  "name": "플레이그램",
+  "ticker": "009810",
+  "industry": "콘텐츠",
+  "resource": "dart_pipeline/dart_md/KOSPI/009810_플레이그램_2025.md"
  }
 ]
