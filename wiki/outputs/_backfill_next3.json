@@ -1,20 +1,20 @@
 [
  {
-  "name": "DH오토웨어",
-  "ticker": "000300",
-  "industry": "자동차부품",
-  "resource": ""
+  "name": "삼화페인트공업",
+  "ticker": "000390",
+  "industry": "화학",
+  "resource": "dart_pipeline/dart_md/KOSPI/000390_SP삼화_2025.md"
  },
  {
-  "name": "노루홀딩스",
-  "ticker": "000320",
-  "industry": "지주회사",
-  "resource": "dart_pipeline/dart_md/KOSPI/000320_노루홀딩스_2025.md"
- },
- {
-  "name": "한화손해보험",
-  "ticker": "000370",
+  "name": "롯데손해보험",
+  "ticker": "000400",
   "industry": "보험",
-  "resource": "dart_pipeline/dart_md/KOSPI/000370_한화손해보험_2025.md"
+  "resource": "dart_pipeline/dart_md/KOSPI/000400_롯데손해보험_2025.md"
+ },
+ {
+  "name": "대원강업",
+  "ticker": "000430",
+  "industry": "자동차부품",
+  "resource": "dart_pipeline/dart_md/KOSPI/000430_대원강업_2025.md"
  }
 ]
