@@ -1,20 +1,20 @@
 [
  {
-  "name": "조흥",
-  "ticker": "002600",
-  "industry": "식품",
-  "resource": "dart_pipeline/dart_md/KOSPI/002600_조흥_2025.md"
+  "name": "동일제강",
+  "ticker": "002690",
+  "industry": "철강",
+  "resource": "dart_pipeline/dart_md/KOSPI/002690_동일제강_2025.md"
  },
  {
-  "name": "제일파마홀딩스",
-  "ticker": "002620",
-  "industry": "지주회사",
-  "resource": "dart_pipeline/dart_md/KOSPI/002620_제일파마홀딩스_2025.md"
+  "name": "신일전자",
+  "ticker": "002700",
+  "industry": "가전",
+  "resource": "dart_pipeline/dart_md/KOSPI/002700_신일전자_2025.md"
  },
  {
-  "name": "오리엔트바이오",
-  "ticker": "002630",
-  "industry": "실험동물·CRO",
-  "resource": "dart_pipeline/dart_md/KOSPI/002630_오리엔트바이오_2026.md"
+  "name": "TCC스틸",
+  "ticker": "002710",
+  "industry": "철강",
+  "resource": "dart_pipeline/dart_md/KOSPI/002710_TCC스틸_2025.md"
  }
 ]
