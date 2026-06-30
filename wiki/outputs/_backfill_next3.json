@@ -1,20 +1,20 @@
 [
  {
-  "name": "오리온홀딩스",
-  "ticker": "001800",
+  "name": "코오롱",
+  "ticker": "002020",
   "industry": "지주회사",
-  "resource": "dart_pipeline/dart_md/KOSPI/001800_오리온홀딩스_2025.md"
+  "resource": "dart_pipeline/dart_md/KOSPI/002020_코오롱_2025.md"
  },
  {
-  "name": "삼화콘덴서공업",
-  "ticker": "001820",
-  "industry": "전자부품",
-  "resource": "dart_pipeline/dart_md/KOSPI/001820_삼화콘덴서공업_2025.md"
+  "name": "아세아",
+  "ticker": "002030",
+  "industry": "지주회사",
+  "resource": "dart_pipeline/dart_md/KOSPI/002030_아세아_2025.md"
  },
  {
-  "name": "KISCO홀딩스",
-  "ticker": "001940",
-  "industry": "지주회사",
-  "resource": "dart_pipeline/dart_md/KOSPI/001940_KISCO홀딩스_2025.md"
+  "name": "비비안",
+  "ticker": "002070",
+  "industry": "섬유",
+  "resource": "dart_pipeline/dart_md/KOSPI/002070_비비안_2025.md"
  }
 ]
