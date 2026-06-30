@@ -1,20 +1,20 @@
 [
  {
-  "name": "대한항공",
-  "ticker": "003490",
-  "industry": "항공",
-  "resource": "dart_pipeline/dart_md/KOSPI/003490_대한항공_2025.md"
- },
- {
-  "name": "영진약품",
-  "ticker": "003520",
-  "industry": "제약",
-  "resource": "dart_pipeline/dart_md/KOSPI/003520_영진약품_2025.md"
- },
- {
-  "name": "한화투자증권",
-  "ticker": "003530",
+  "name": "대신증권",
+  "ticker": "003540",
   "industry": "증권",
-  "resource": "dart_pipeline/dart_md/KOSPI/003530_한화투자증권_2025.md"
+  "resource": "dart_pipeline/dart_md/KOSPI/003540_대신증권_2025.md"
+ },
+ {
+  "name": "LG",
+  "ticker": "003550",
+  "industry": "지주회사",
+  "resource": "dart_pipeline/dart_md/KOSPI/003550_LG_2025.md"
+ },
+ {
+  "name": "SNT다이내믹스",
+  "ticker": "003570",
+  "industry": "방산",
+  "resource": "dart_pipeline/dart_md/KOSPI/003570_SNT다이내믹스_2025.md"
  }
 ]
