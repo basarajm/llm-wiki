@@ -1,20 +1,20 @@
 [
  {
-  "name": "신세계",
-  "ticker": "004170",
-  "industry": "유통",
-  "resource": "dart_pipeline/dart_md/KOSPI/004170_신세계_2025.md"
+  "name": "현대약품",
+  "ticker": "004310",
+  "industry": "제약",
+  "resource": "dart_pipeline/dart_md/KOSPI/004310_현대약품_2025.md"
  },
  {
-  "name": "엔피씨",
-  "ticker": "004250",
-  "industry": "화학",
-  "resource": "dart_pipeline/dart_md/KOSPI/004250_엔피씨_2025.md"
+  "name": "세방",
+  "ticker": "004360",
+  "industry": "물류",
+  "resource": "dart_pipeline/dart_md/KOSPI/004360_세방_2025.md"
  },
  {
-  "name": "남성",
-  "ticker": "004270",
-  "industry": "자동차부품",
-  "resource": "dart_pipeline/dart_md/KOSPI/004270_남성_2025.md"
+  "name": "농심",
+  "ticker": "004370",
+  "industry": "식품",
+  "resource": "dart_pipeline/dart_md/KOSPI/004370_농심_2025.md"
  }
 ]
