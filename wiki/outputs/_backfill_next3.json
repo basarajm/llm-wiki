@@ -1,20 +1,20 @@
 [
  {
-  "name": "GS리테일",
-  "ticker": "007070",
-  "industry": "유통",
-  "resource": "dart_pipeline/dart_md/KOSPI/007070_GS리테일_2025.md"
+  "name": "사조산업",
+  "ticker": "007160",
+  "industry": "수산",
+  "resource": "dart_pipeline/dart_md/KOSPI/007160_사조산업_2025.md"
  },
  {
-  "name": "일신석재",
-  "ticker": "007110",
-  "industry": "석재·건축자재",
-  "resource": "dart_pipeline/dart_md/KOSPI/007110_일신석재_2025.md"
+  "name": "벽산",
+  "ticker": "007210",
+  "industry": "건축자재",
+  "resource": "dart_pipeline/dart_md/KOSPI/007210_벽산_2025.md"
  },
  {
-  "name": "미래아이앤지",
-  "ticker": "007120",
-  "industry": "소프트웨어",
-  "resource": "dart_pipeline/dart_md/KOSPI/007120_미래아이앤지_2025.md"
+  "name": "한국특강",
+  "ticker": "007280",
+  "industry": "철강",
+  "resource": "dart_pipeline/dart_md/KOSPI/007280_한국특강_2025.md"
  }
 ]
