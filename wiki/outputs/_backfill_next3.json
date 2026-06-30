@@ -1,20 +1,20 @@
 [
  {
-  "name": "아모레퍼시픽홀딩스",
-  "ticker": "002790",
-  "industry": "지주회사",
-  "resource": "dart_pipeline/dart_md/KOSPI/002790_아모레퍼시픽홀딩스_2025.md"
+  "name": "미원상사",
+  "ticker": "002840",
+  "industry": "화학",
+  "resource": "dart_pipeline/dart_md/KOSPI/002840_미원상사_2025.md"
  },
  {
-  "name": "삼영무역",
-  "ticker": "002810",
-  "industry": "종합상사",
-  "resource": "dart_pipeline/dart_md/KOSPI/002810_삼영무역_2025.md"
+  "name": "신풍",
+  "ticker": "002870",
+  "industry": "제지",
+  "resource": "dart_pipeline/dart_md/KOSPI/002870_신풍_2025.md"
  },
  {
-  "name": "SUN&L",
-  "ticker": "002820",
-  "industry": "목재",
-  "resource": "dart_pipeline/dart_md/KOSPI/002820_SUN&L_2025.md"
+  "name": "대유에이텍",
+  "ticker": "002880",
+  "industry": "자동차부품",
+  "resource": "dart_pipeline/dart_md/KOSPI/002880_디와이에이_2025.md"
  }
 ]
