@@ -1,20 +1,20 @@
 [
  {
-  "name": "SK증권",
-  "ticker": "001510",
-  "industry": "증권",
-  "resource": "dart_pipeline/dart_md/KOSPI/001510_SK증권_2025.md"
+  "name": "조비",
+  "ticker": "001550",
+  "industry": "화학",
+  "resource": "dart_pipeline/dart_md/KOSPI/001550_조비_2025.md"
  },
  {
-  "name": "동양",
-  "ticker": "001520",
-  "industry": "건자재",
-  "resource": "dart_pipeline/dart_md/KOSPI/001520_동양_2025.md"
+  "name": "제일연마공업",
+  "ticker": "001560",
+  "industry": "연마재",
+  "resource": "dart_pipeline/dart_md/KOSPI/001560_제일연마_2025.md"
  },
  {
-  "name": "디아이동일",
-  "ticker": "001530",
-  "industry": "섬유",
-  "resource": "dart_pipeline/dart_md/KOSPI/001530_디아이동일_2025.md"
+  "name": "금양",
+  "ticker": "001570",
+  "industry": "화학",
+  "resource": "dart_pipeline/dart_md/KOSPI/001570_금양_2025.md"
  }
 ]
