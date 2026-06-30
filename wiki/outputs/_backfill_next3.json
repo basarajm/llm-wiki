@@ -1,20 +1,14 @@
 [
  {
-  "name": "레인보우로보틱스",
-  "ticker": "277810",
-  "industry": "로봇",
-  "resource": "dart_pipeline/dart_md/KOSDAQ/277810_레인보우로보틱스_2025.md"
+  "name": "SK스퀘어",
+  "ticker": "402340",
+  "industry": "지주회사",
+  "resource": "dart_pipeline/dart_md/KOSPI/402340_SK스퀘어_2025.md"
  },
  {
-  "name": "현대오토에버",
-  "ticker": "307950",
-  "industry": "IT서비스",
-  "resource": "dart_pipeline/dart_md/KOSPI/307950_현대오토에버_2025.md"
- },
- {
-  "name": "우리금융지주",
-  "ticker": "316140",
-  "industry": "금융지주",
-  "resource": "dart_pipeline/dart_md/KOSPI/316140_우리금융지주_2025.md"
+  "name": "한국투자증권",
+  "ticker": "",
+  "industry": "증권",
+  "resource": ""
  }
 ]
