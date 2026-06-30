@@ -1,20 +1,20 @@
 [
  {
-  "name": "GS글로벌",
-  "ticker": "001250",
-  "industry": "종합상사",
-  "resource": "dart_pipeline/dart_md/KOSPI/001250_GS글로벌_2025.md"
- },
- {
-  "name": "남광토건",
-  "ticker": "001260",
-  "industry": "건설",
-  "resource": "dart_pipeline/dart_md/KOSPI/001260_남광토건_2025.md"
- },
- {
-  "name": "부국증권",
-  "ticker": "001270",
+  "name": "상상인증권",
+  "ticker": "001290",
   "industry": "증권",
-  "resource": "dart_pipeline/dart_md/KOSPI/001270_부국증권_2025.md"
+  "resource": "dart_pipeline/dart_md/KOSPI/001290_상상인증권_2025.md"
+ },
+ {
+  "name": "피케이씨",
+  "ticker": "001340",
+  "industry": "화학",
+  "resource": "dart_pipeline/dart_md/KOSPI/001340_PKC_2025.md"
+ },
+ {
+  "name": "삼성제약",
+  "ticker": "001360",
+  "industry": "제약",
+  "resource": "dart_pipeline/dart_md/KOSPI/001360_삼성제약_2025.md"
  }
 ]
