@@ -1,20 +1,20 @@
 [
  {
-  "name": "사조대림",
-  "ticker": "003960",
-  "industry": "식품",
-  "resource": "dart_pipeline/dart_md/KOSPI/003960_사조대림_2025.md"
+  "name": "SG세계물산",
+  "ticker": "004060",
+  "industry": "패션",
+  "resource": "dart_pipeline/dart_md/KOSPI/004060_SG세계물산_2025.md"
  },
  {
-  "name": "롯데정밀화학",
-  "ticker": "004000",
+  "name": "신흥",
+  "ticker": "004080",
+  "industry": "의료기기",
+  "resource": "dart_pipeline/dart_md/KOSPI/004080_신흥_2025.md"
+ },
+ {
+  "name": "한국석유공업",
+  "ticker": "004090",
   "industry": "화학",
-  "resource": "dart_pipeline/dart_md/KOSPI/004000_롯데정밀화학_2025.md"
- },
- {
-  "name": "현대제철",
-  "ticker": "004020",
-  "industry": "철강",
-  "resource": "dart_pipeline/dart_md/KOSPI/004020_현대제철_2025.md"
+  "resource": "dart_pipeline/dart_md/KOSPI/004090_한국석유공업_2025.md"
  }
 ]
