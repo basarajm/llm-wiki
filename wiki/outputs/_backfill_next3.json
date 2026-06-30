@@ -1,20 +1,20 @@
 [
  {
-  "name": "신화다이나믹스",
-  "ticker": "001770",
-  "industry": "철강",
-  "resource": "dart_pipeline/dart_md/KOSPI/001770_SHD_2025.md"
+  "name": "오리온홀딩스",
+  "ticker": "001800",
+  "industry": "지주회사",
+  "resource": "dart_pipeline/dart_md/KOSPI/001800_오리온홀딩스_2025.md"
  },
  {
-  "name": "알루코",
-  "ticker": "001780",
-  "industry": "비철금속",
-  "resource": "dart_pipeline/dart_md/KOSPI/001780_알루코_2025.md"
+  "name": "삼화콘덴서공업",
+  "ticker": "001820",
+  "industry": "전자부품",
+  "resource": "dart_pipeline/dart_md/KOSPI/001820_삼화콘덴서공업_2025.md"
  },
  {
-  "name": "대한제당",
-  "ticker": "001790",
-  "industry": "식품",
-  "resource": "dart_pipeline/dart_md/KOSPI/001790_대한제당_2025.md"
+  "name": "KISCO홀딩스",
+  "ticker": "001940",
+  "industry": "지주회사",
+  "resource": "dart_pipeline/dart_md/KOSPI/001940_KISCO홀딩스_2025.md"
  }
 ]
