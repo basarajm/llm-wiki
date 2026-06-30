@@ -1,20 +1,20 @@
 [
  {
-  "name": "카프로",
-  "ticker": "006380",
+  "name": "대림통상",
+  "ticker": "006570",
+  "industry": "건축자재",
+  "resource": "dart_pipeline/dart_md/KOSPI/006570_대림통상_2025.md"
+ },
+ {
+  "name": "대한유화",
+  "ticker": "006650",
   "industry": "석유화학",
-  "resource": "dart_pipeline/dart_md/KOSPI/006380_카프로_2025.md"
+  "resource": "dart_pipeline/dart_md/KOSPI/006650_대한유화_2025.md"
  },
  {
-  "name": "삼성SDI",
-  "ticker": "006400",
-  "industry": "이차전지",
-  "resource": "dart_pipeline/dart_md/KOSPI/006400_삼성SDI_2025.md"
- },
- {
-  "name": "프리티",
-  "ticker": "006490",
-  "industry": "알뜰폰(MVNO)",
-  "resource": "dart_pipeline/dart_md/KOSPI/006490_프리티_2025.md"
+  "name": "삼성공조",
+  "ticker": "006660",
+  "industry": "자동차부품",
+  "resource": "dart_pipeline/dart_md/KOSPI/006660_삼성공조_2025.md"
  }
 ]
