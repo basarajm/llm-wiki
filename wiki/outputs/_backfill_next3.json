@@ -1,20 +1,20 @@
 [
  {
-  "name": "제주은행",
-  "ticker": "006220",
-  "industry": "은행",
-  "resource": "dart_pipeline/dart_md/KOSPI/006220_제주은행_2025.md"
+  "name": "대원전선",
+  "ticker": "006340",
+  "industry": "전선",
+  "resource": "dart_pipeline/dart_md/KOSPI/006340_대원전선_2025.md"
  },
  {
-  "name": "LS",
-  "ticker": "006260",
-  "industry": "지주회사",
-  "resource": "dart_pipeline/dart_md/KOSPI/006260_LS_2025.md"
+  "name": "GS건설",
+  "ticker": "006360",
+  "industry": "건설",
+  "resource": "dart_pipeline/dart_md/KOSPI/006360_GS건설_2025.md"
  },
  {
-  "name": "녹십자",
-  "ticker": "006280",
-  "industry": "제약",
-  "resource": "dart_pipeline/dart_md/KOSPI/006280_녹십자_2025.md"
+  "name": "대구백화점",
+  "ticker": "006370",
+  "industry": "유통(백화점)",
+  "resource": "dart_pipeline/dart_md/KOSPI/006370_대구백화점_2025.md"
  }
 ]
