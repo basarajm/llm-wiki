@@ -1,20 +1,20 @@
 [
  {
-  "name": "동아쏘시오홀딩스",
-  "ticker": "000640",
+  "name": "영풍",
+  "ticker": "000670",
+  "industry": "비철금속",
+  "resource": "dart_pipeline/dart_md/KOSPI/000670_영풍_2025.md"
+ },
+ {
+  "name": "LS네트웍스",
+  "ticker": "000680",
+  "industry": "유통",
+  "resource": "dart_pipeline/dart_md/KOSPI/000680_LS네트웍스_2025.md"
+ },
+ {
+  "name": "유수홀딩스",
+  "ticker": "000700",
   "industry": "지주회사",
-  "resource": "dart_pipeline/dart_md/KOSPI/000640_동아쏘시오홀딩스_2025.md"
- },
- {
-  "name": "천일고속",
-  "ticker": "000650",
-  "industry": "운송",
-  "resource": "dart_pipeline/dart_md/KOSPI/000650_천일고속_2025.md"
- },
- {
-  "name": "SK하이닉스",
-  "ticker": "000660",
-  "industry": "반도체",
-  "resource": "source_documents/AnnualReport_Recent/SK하이닉스-사업보고서-2025.12.md"
+  "resource": "dart_pipeline/dart_md/KOSPI/000700_유수홀딩스_2025.md"
  }
 ]
