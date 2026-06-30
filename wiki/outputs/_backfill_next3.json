@@ -1,20 +1,20 @@
 [
  {
-  "name": "유진투자증권",
-  "ticker": "001200",
+  "name": "GS글로벌",
+  "ticker": "001250",
+  "industry": "종합상사",
+  "resource": "dart_pipeline/dart_md/KOSPI/001250_GS글로벌_2025.md"
+ },
+ {
+  "name": "남광토건",
+  "ticker": "001260",
+  "industry": "건설",
+  "resource": "dart_pipeline/dart_md/KOSPI/001260_남광토건_2025.md"
+ },
+ {
+  "name": "부국증권",
+  "ticker": "001270",
   "industry": "증권",
-  "resource": "dart_pipeline/dart_md/KOSPI/001200_유진증권_2025.md"
- },
- {
-  "name": "금호전기",
-  "ticker": "001210",
-  "industry": "조명",
-  "resource": "dart_pipeline/dart_md/KOSPI/001210_금호전기_2025.md"
- },
- {
-  "name": "동국홀딩스",
-  "ticker": "001230",
-  "industry": "지주회사",
-  "resource": "dart_pipeline/dart_md/KOSPI/001230_동국홀딩스_2025.md"
+  "resource": "dart_pipeline/dart_md/KOSPI/001270_부국증권_2025.md"
  }
 ]
