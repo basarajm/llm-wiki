@@ -1,20 +1,20 @@
 [
  {
-  "name": "동원산업",
-  "ticker": "006040",
-  "industry": "식품",
-  "resource": "dart_pipeline/dart_md/KOSPI/006040_동원산업_2025.md"
+  "name": "삼아알미늄",
+  "ticker": "006110",
+  "industry": "비철금속",
+  "resource": "dart_pipeline/dart_md/KOSPI/006110_삼아알미늄_2025.md"
  },
  {
-  "name": "화승인더스트리",
-  "ticker": "006060",
-  "industry": "화학",
-  "resource": "dart_pipeline/dart_md/KOSPI/006060_화승인더스트리_2025.md"
+  "name": "SK디스커버리",
+  "ticker": "006120",
+  "industry": "지주회사",
+  "resource": "dart_pipeline/dart_md/KOSPI/006120_SK디스커버리_2025.md"
  },
  {
-  "name": "사조오양",
-  "ticker": "006090",
-  "industry": "식품",
-  "resource": "dart_pipeline/dart_md/KOSPI/006090_사조오양_2025.md"
+  "name": "한국전자홀딩스",
+  "ticker": "006200",
+  "industry": "지주회사",
+  "resource": "dart_pipeline/dart_md/KOSPI/006200_한국전자홀딩스_2025.md"
  }
 ]
