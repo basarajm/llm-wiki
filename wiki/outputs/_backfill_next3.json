@@ -1,20 +1,20 @@
 [
  {
-  "name": "깨끗한나라",
-  "ticker": "004540",
-  "industry": "제지",
-  "resource": "dart_pipeline/dart_md/KOSPI/004540_깨끗한나라_2025.md"
+  "name": "조광피혁",
+  "ticker": "004700",
+  "industry": "피혁",
+  "resource": "dart_pipeline/dart_md/KOSPI/004700_조광피혁_2025.md"
  },
  {
-  "name": "현대비앤지스틸",
-  "ticker": "004560",
-  "industry": "철강",
-  "resource": "dart_pipeline/dart_md/KOSPI/004560_현대비앤지스틸_2025.md"
+  "name": "한솔테크닉스",
+  "ticker": "004710",
+  "industry": "전자부품",
+  "resource": "dart_pipeline/dart_md/KOSPI/004710_한솔테크닉스_2025.md"
  },
  {
-  "name": "삼천리",
-  "ticker": "004690",
-  "industry": "도시가스",
-  "resource": "dart_pipeline/dart_md/KOSPI/004690_삼천리_2025.md"
+  "name": "팜젠사이언스",
+  "ticker": "004720",
+  "industry": "제약",
+  "resource": "dart_pipeline/dart_md/KOSPI/004720_팜젠사이언스_2025.md"
  }
 ]
