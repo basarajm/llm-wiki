@@ -1,20 +1,20 @@
 [
  {
-  "name": "TYM",
-  "ticker": "002900",
-  "industry": "농기계",
-  "resource": "dart_pipeline/dart_md/KOSPI/002900_TYM_2025.md"
+  "name": "금호건설",
+  "ticker": "002990",
+  "industry": "건설",
+  "resource": "dart_pipeline/dart_md/KOSPI/002990_금호건설_2025.md"
  },
  {
-  "name": "유성기업",
-  "ticker": "002920",
-  "industry": "자동차부품",
-  "resource": "dart_pipeline/dart_md/KOSPI/002920_유성기업_2025.md"
+  "name": "부광약품",
+  "ticker": "003000",
+  "industry": "제약",
+  "resource": "dart_pipeline/dart_md/KOSPI/003000_부광약품_2025.md"
  },
  {
-  "name": "한국쉘석유",
-  "ticker": "002960",
-  "industry": "화학",
-  "resource": "dart_pipeline/dart_md/KOSPI/002960_한국쉘석유_2025.md"
+  "name": "혜인",
+  "ticker": "003010",
+  "industry": "건설기계유통",
+  "resource": "dart_pipeline/dart_md/KOSPI/003010_혜인_2025.md"
  }
 ]
