@@ -1,20 +1,20 @@
 [
  {
-  "name": "신영증권",
-  "ticker": "001720",
-  "industry": "증권",
-  "resource": "source_documents/AnnualReport_Recent/신영증권-사업보고서-2026.03.md"
+  "name": "신화다이나믹스",
+  "ticker": "001770",
+  "industry": "철강",
+  "resource": "dart_pipeline/dart_md/KOSPI/001770_SHD_2025.md"
  },
  {
-  "name": "SK네트웍스",
-  "ticker": "001740",
-  "industry": "종합상사",
-  "resource": "dart_pipeline/dart_md/KOSPI/001740_SK네트웍스_2025.md"
+  "name": "알루코",
+  "ticker": "001780",
+  "industry": "비철금속",
+  "resource": "dart_pipeline/dart_md/KOSPI/001780_알루코_2025.md"
  },
  {
-  "name": "한양증권",
-  "ticker": "001750",
-  "industry": "증권",
-  "resource": "dart_pipeline/dart_md/KOSPI/001750_한양증권_2025.md"
+  "name": "대한제당",
+  "ticker": "001790",
+  "industry": "식품",
+  "resource": "dart_pipeline/dart_md/KOSPI/001790_대한제당_2025.md"
  }
 ]
