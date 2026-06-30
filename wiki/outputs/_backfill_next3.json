@@ -1,20 +1,20 @@
 [
  {
-  "name": "미원상사",
-  "ticker": "002840",
-  "industry": "화학",
-  "resource": "dart_pipeline/dart_md/KOSPI/002840_미원상사_2025.md"
+  "name": "TYM",
+  "ticker": "002900",
+  "industry": "농기계",
+  "resource": "dart_pipeline/dart_md/KOSPI/002900_TYM_2025.md"
  },
  {
-  "name": "신풍",
-  "ticker": "002870",
-  "industry": "제지",
-  "resource": "dart_pipeline/dart_md/KOSPI/002870_신풍_2025.md"
- },
- {
-  "name": "대유에이텍",
-  "ticker": "002880",
+  "name": "유성기업",
+  "ticker": "002920",
   "industry": "자동차부품",
-  "resource": "dart_pipeline/dart_md/KOSPI/002880_디와이에이_2025.md"
+  "resource": "dart_pipeline/dart_md/KOSPI/002920_유성기업_2025.md"
+ },
+ {
+  "name": "한국쉘석유",
+  "ticker": "002960",
+  "industry": "화학",
+  "resource": "dart_pipeline/dart_md/KOSPI/002960_한국쉘석유_2025.md"
  }
 ]

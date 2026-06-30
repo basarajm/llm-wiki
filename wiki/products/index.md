@@ -379,6 +379,8 @@
 * [Samsung TV](/products/Samsung_TV) - 삼성전자 영상디스플레이 사업의 TV 완제품 — Neo QLED·OLED·The Frame 등, 글로벌 금액 기준 점유율 1위
 * [SG글로벌 자동차시트](/products/SG글로벌_자동차시트) - SG글로벌의 자동차시트(Car Seat) — 전사 매출의 25.8%를 차지하는 제2 주력 제품
 * [SG글로벌 자동차시트커버](/products/SG글로벌_자동차시트커버) - SG글로벌의 자동차시트커버(Seat Trim Cover) — 전사 매출의 62.8%를 차지하는 제1 주력 제품
+* [Shell 그리스](/products/Shell_그리스) - 한국쉘석유가 부산 용당 제유소에서 제조하는 Shell 브랜드 그리스 — 2025년 매출의 약 4.7%
+* [Shell 윤활유](/products/Shell_윤활유) - 한국쉘석유가 부산 용당 제유소에서 제조하는 Shell 브랜드 윤활유 — 2025년 매출의 약 80%
 * [SK매직](/products/SK매직) - SK네트웍스(SK인텔릭스)의 환경가전 제조·렌탈 대표 브랜드 — 정수기·공기청정기·식기세척기 등
 * [SNP](/products/SNP) - 에스디생명공학(대원제약 종속사)의 마스크팩·아이패치 화장품 대표 브랜드
 * [StarKist](/products/StarKist) - 동원산업의 미국 자회사 StarKist Co.가 생산하는 참치 통조림·파우치 브랜드. 미국 참치 시장 약 46% 점유율 1위.
