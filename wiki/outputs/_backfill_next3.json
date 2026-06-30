@@ -1,20 +1,20 @@
 [
  {
-  "name": "TP",
-  "ticker": "007980",
-  "industry": "의류 제조·OEM",
-  "resource": "dart_pipeline/dart_md/KOSPI/007980_TP_2025.md"
+  "name": "이건산업",
+  "ticker": "008250",
+  "industry": "목재·건축자재",
+  "resource": "dart_pipeline/dart_md/KOSPI/008250_이건산업_2025.md"
  },
  {
-  "name": "사조동아원",
-  "ticker": "008040",
-  "industry": "식품",
-  "resource": "dart_pipeline/dart_md/KOSPI/008040_사조동아원_2025.md"
+  "name": "NI스틸",
+  "ticker": "008260",
+  "industry": "철강",
+  "resource": "dart_pipeline/dart_md/KOSPI/008260_NI스틸_2025.md"
  },
  {
-  "name": "대덕",
-  "ticker": "008060",
-  "industry": "지주회사",
-  "resource": "dart_pipeline/dart_md/KOSPI/008060_대덕_2025.md"
+  "name": "남선알미늄",
+  "ticker": "008350",
+  "industry": "알루미늄·자동차부품",
+  "resource": "dart_pipeline/dart_md/KOSPI/008350_남선알미늄_2025.md"
  }
 ]
