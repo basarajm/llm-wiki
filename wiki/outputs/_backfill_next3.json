@@ -1,20 +1,20 @@
 [
  {
-  "name": "시알홀딩스",
-  "ticker": "000480",
+  "name": "삼일제약",
+  "ticker": "000520",
+  "industry": "제약",
+  "resource": "dart_pipeline/dart_md/KOSPI/000520_삼일제약_2025.md"
+ },
+ {
+  "name": "흥국화재",
+  "ticker": "000540",
+  "industry": "보험",
+  "resource": "dart_pipeline/dart_md/KOSPI/000540_흥국화재_2025.md"
+ },
+ {
+  "name": "CS홀딩스",
+  "ticker": "000590",
   "industry": "지주회사",
-  "resource": "dart_pipeline/dart_md/KOSPI/000480_시알홀딩스_2025.md"
- },
- {
-  "name": "대동",
-  "ticker": "000490",
-  "industry": "농기계",
-  "resource": "dart_pipeline/dart_md/KOSPI/000490_대동_2025.md"
- },
- {
-  "name": "가온전선",
-  "ticker": "000500",
-  "industry": "전선",
-  "resource": "dart_pipeline/dart_md/KOSPI/000500_가온전선_2025.md"
+  "resource": "dart_pipeline/dart_md/KOSPI/000590_CS홀딩스_2025.md"
  }
 ]
