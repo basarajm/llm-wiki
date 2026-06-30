@@ -1,20 +1,20 @@
 [
  {
-  "name": "미창석유공업",
-  "ticker": "003650",
+  "name": "코리안리",
+  "ticker": "003690",
+  "industry": "보험",
+  "resource": "dart_pipeline/dart_md/KOSPI/003690_코리안리_2025.md"
+ },
+ {
+  "name": "삼영",
+  "ticker": "003720",
+  "industry": "전자부품",
+  "resource": "dart_pipeline/dart_md/KOSPI/003720_삼영_2025.md"
+ },
+ {
+  "name": "진양산업",
+  "ticker": "003780",
   "industry": "화학",
-  "resource": "dart_pipeline/dart_md/KOSPI/003650_미창석유공업_2025.md"
- },
- {
-  "name": "포스코퓨처엠",
-  "ticker": "003670",
-  "industry": "이차전지소재",
-  "resource": "dart_pipeline/dart_md/KOSPI/003670_포스코퓨처엠_2025.md"
- },
- {
-  "name": "한성기업",
-  "ticker": "003680",
-  "industry": "식품",
-  "resource": "dart_pipeline/dart_md/KOSPI/003680_한성기업_2025.md"
+  "resource": "dart_pipeline/dart_md/KOSPI/003780_진양산업_2025.md"
  }
 ]
