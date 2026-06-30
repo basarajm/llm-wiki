@@ -323,6 +323,7 @@
 * [E-Shifter](/products/E-Shifter) - 전자식 변속레버(E-Shift/Shift Lever). 에스엘 전동화부문 대표 제품으로 친환경차 확산과 함께 채택 확대
 * [EMI SHIELD](/products/EMI_SHIELD) - 반도체 패키지 전자파 차폐(EMI Shield) 장비 — 점유율 1위
 * [eNisis](/products/eNisis) - 미래아이앤지가 자체 개발한 SWIFT 전문(메시지) 관리 솔루션. 국내 최초 SWIFT 솔루션 도입·구축의 선점효과로 국내 은행권에서 지배적 위치
+* [EPS레진](/products/EPS레진) - 발포폴리스티렌(스치로폴) 원료로 건물단열재·완충포장재에 쓰이는 합성수지. SH에너지화학의 주력 제품으로 2025년 국내 EPS 시장점유율 17.9%.
 * [ESS용 배터리](/products/ESS용_배터리) - 삼성SDI가 전력저장장치(ESS)에 공급하는 중대형 리튬이온 2차전지
 * [eSSD](/products/eSSD) - 데이터센터·AI 서버용 기업용 SSD(Enterprise SSD) — 고용량 QLC NAND 기반 저장 솔루션
 * [EV 각형 배터리](/products/EV_각형_배터리) - 삼성SDI가 글로벌 완성차 OEM에 공급하는 전기차(EV)용 각형(prismatic) 리튬이온 2차전지
