@@ -1,20 +1,20 @@
 [
  {
-  "name": "블루산업개발",
-  "ticker": "006740",
-  "industry": "제지",
-  "resource": "dart_pipeline/dart_md/KOSPI/006740_블루산업개발_2025.md"
- },
- {
-  "name": "미래에셋증권",
-  "ticker": "006800",
-  "industry": "증권",
-  "resource": "dart_pipeline/dart_md/KOSPI/006800_미래에셋증권_2025.md"
- },
- {
-  "name": "AK홀딩스",
-  "ticker": "006840",
+  "name": "신송홀딩스",
+  "ticker": "006880",
   "industry": "지주회사",
-  "resource": "dart_pipeline/dart_md/KOSPI/006840_AK홀딩스_2025.md"
+  "resource": "dart_pipeline/dart_md/KOSPI/006880_신송홀딩스_2025.md"
+ },
+ {
+  "name": "태경케미컬",
+  "ticker": "006890",
+  "industry": "산업가스·화학",
+  "resource": "dart_pipeline/dart_md/KOSPI/006890_태경케미컬_2025.md"
+ },
+ {
+  "name": "우성",
+  "ticker": "006980",
+  "industry": "사료(배합사료)",
+  "resource": "dart_pipeline/dart_md/KOSPI/006980_우성_2025.md"
  }
 ]
