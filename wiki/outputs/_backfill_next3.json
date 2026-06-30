@@ -1,20 +1,20 @@
 [
  {
-  "name": "대림통상",
-  "ticker": "006570",
-  "industry": "건축자재",
-  "resource": "dart_pipeline/dart_md/KOSPI/006570_대림통상_2025.md"
+  "name": "블루산업개발",
+  "ticker": "006740",
+  "industry": "제지",
+  "resource": "dart_pipeline/dart_md/KOSPI/006740_블루산업개발_2025.md"
  },
  {
-  "name": "대한유화",
-  "ticker": "006650",
-  "industry": "석유화학",
-  "resource": "dart_pipeline/dart_md/KOSPI/006650_대한유화_2025.md"
+  "name": "미래에셋증권",
+  "ticker": "006800",
+  "industry": "증권",
+  "resource": "dart_pipeline/dart_md/KOSPI/006800_미래에셋증권_2025.md"
  },
  {
-  "name": "삼성공조",
-  "ticker": "006660",
-  "industry": "자동차부품",
-  "resource": "dart_pipeline/dart_md/KOSPI/006660_삼성공조_2025.md"
+  "name": "AK홀딩스",
+  "ticker": "006840",
+  "industry": "지주회사",
+  "resource": "dart_pipeline/dart_md/KOSPI/006840_AK홀딩스_2025.md"
  }
 ]
