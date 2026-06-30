@@ -1,0 +1,20 @@
+[
+ {
+  "name": "화천기계",
+  "ticker": "010660",
+  "file": "dart_pipeline/dart_md/KOSPI/010660_화천기계_2025.md",
+  "fy": "2025"
+ },
+ {
+  "name": "화신",
+  "ticker": "010690",
+  "file": "dart_pipeline/dart_md/KOSPI/010690_화신_2025.md",
+  "fy": "2025"
+ },
+ {
+  "name": "평화홀딩스",
+  "ticker": "010770",
+  "file": "dart_pipeline/dart_md/KOSPI/010770_평화홀딩스_2025.md",
+  "fy": "2025"
+ }
+]
