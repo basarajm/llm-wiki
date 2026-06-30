@@ -1,20 +1,20 @@
 [
  {
-  "name": "보해양조",
-  "ticker": "000890",
-  "industry": "주류",
-  "resource": "dart_pipeline/dart_md/KOSPI/000890_보해양조_2025.md"
+  "name": "한국주철관공업",
+  "ticker": "000970",
+  "industry": "철강",
+  "resource": "dart_pipeline/dart_md/KOSPI/000970_한국주철관공업_2025.md"
  },
  {
-  "name": "유니온",
-  "ticker": "000910",
-  "industry": "시멘트",
-  "resource": "dart_pipeline/dart_md/KOSPI/000910_유니온_2025.md"
+  "name": "DB하이텍",
+  "ticker": "000990",
+  "industry": "반도체",
+  "resource": "dart_pipeline/dart_md/KOSPI/000990_DB하이텍_2025.md"
  },
  {
-  "name": "전방",
-  "ticker": "000950",
-  "industry": "섬유",
-  "resource": ""
+  "name": "페이퍼코리아",
+  "ticker": "001020",
+  "industry": "제지",
+  "resource": "dart_pipeline/dart_md/KOSPI/001020_페이퍼코리아_2025.md"
  }
 ]
