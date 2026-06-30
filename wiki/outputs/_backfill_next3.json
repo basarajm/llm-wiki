@@ -1,20 +1,20 @@
 [
  {
-  "name": "삼양통상",
-  "ticker": "002170",
-  "industry": "피혁",
-  "resource": "dart_pipeline/dart_md/KOSPI/002170_SYTS_2025.md"
+  "name": "한일철강",
+  "ticker": "002220",
+  "industry": "철강",
+  "resource": "dart_pipeline/dart_md/KOSPI/002220_한일철강_2025.md"
  },
  {
-  "name": "한국수출포장공업",
-  "ticker": "002200",
+  "name": "고려제강",
+  "ticker": "002240",
+  "industry": "철강",
+  "resource": "dart_pipeline/dart_md/KOSPI/002240_고려제강_2025.md"
+ },
+ {
+  "name": "아세아제지",
+  "ticker": "002310",
   "industry": "제지",
-  "resource": "dart_pipeline/dart_md/KOSPI/002200_한국수출포장공업_2025.md"
- },
- {
-  "name": "동성제약",
-  "ticker": "002210",
-  "industry": "제약",
-  "resource": "dart_pipeline/dart_md/KOSPI/002210_동성제약_2025.md"
+  "resource": "dart_pipeline/dart_md/KOSPI/002310_아세아제지_2025.md"
  }
 ]
