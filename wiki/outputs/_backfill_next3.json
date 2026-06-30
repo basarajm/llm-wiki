@@ -1,20 +1,20 @@
 [
  {
-  "name": "영풍",
-  "ticker": "000670",
-  "industry": "비철금속",
-  "resource": "dart_pipeline/dart_md/KOSPI/000670_영풍_2025.md"
+  "name": "현대건설",
+  "ticker": "000720",
+  "industry": "건설",
+  "resource": "dart_pipeline/dart_md/KOSPI/000720_현대건설_2025.md"
  },
  {
-  "name": "LS네트웍스",
-  "ticker": "000680",
-  "industry": "유통",
-  "resource": "dart_pipeline/dart_md/KOSPI/000680_LS네트웍스_2025.md"
+  "name": "이화산업",
+  "ticker": "000760",
+  "industry": "화학",
+  "resource": "dart_pipeline/dart_md/KOSPI/000760_이화산업_2025.md"
  },
  {
-  "name": "유수홀딩스",
-  "ticker": "000700",
-  "industry": "지주회사",
-  "resource": "dart_pipeline/dart_md/KOSPI/000700_유수홀딩스_2025.md"
+  "name": "삼성화재",
+  "ticker": "000810",
+  "industry": "보험",
+  "resource": "dart_pipeline/dart_md/KOSPI/000810_삼성화재해상보험_2025.md"
  }
 ]

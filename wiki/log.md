@@ -764,3 +764,5 @@
 **Backfill(B)** 동아쏘시오홀딩스·천일고속·SK하이닉스 (000640~000660) — 원본 기반. 동아쏘시오홀딩스: 0 products(지주, 점유율은 자회사 동아제약 소관)+ratings 회사채 A/CP A1(보증)+회사 섹션. 천일고속: 0·0(제한적 단일 운송업, 점유율 미공시·무발행채무). SK하이닉스: products DRAM(M/S 34.3% 2위)·NAND(19.7%) 보강·HBM 정성 보강·eSSD 신규+ratings 국내 AA+(2026 상향)·Moody's Baa1·S&P BBB+·Fitch BBB+회사 섹션. 백필 done 30/353.
 
 **Backfill(B)** 영풍·LS네트웍스·유수홀딩스 (000670~000700) — 원본 기반. 영풍: products 영풍_PCB 신규(매출 64.88% 최대)·아연괴 보강(국내 비철 시장지배적)+ratings 기업신용 A+(2025 AA-→A+ 하향)+회사 섹션. LS네트웍스: products 프로스펙스 보강(브랜드 매출 54.2%)+ratings 회사채 BBB+/담보부 AAA(KAMCO 보증)+회사 섹션. 유수홀딩스: 0 products(자체 점유율 근거 없음)+ratings 기업신용 BBB-+회사 섹션. 백필 done 33/353.
+
+**Backfill(B)** 현대건설·이화산업·삼성화재 (000720~000810) — 원본 기반. 현대건설: products 디에이치·힐스테이트 기존 완비+ratings 회사채 AA-(국내 3사) 신규+회사 섹션. 이화산업: products 화성품(매출 29.83% 최대)·반응성염료(염료 5~6사 70% 점유) 신규+회사 섹션, ratings 0(무발행채무). 삼성화재(금융사): financial_products 3(장기 54.8%·자동차 30.4%·일반 14.8%, 손보 1위 M/S 22.6%)+ratings S&P AA-·A.M.Best A++·K-ICS 262.9%(기존 검증). 백필 done 36/353.
