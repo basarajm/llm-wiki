@@ -1,20 +1,20 @@
 [
  {
-  "name": "현대모비스",
-  "ticker": "012330",
-  "industry": "자동차부품",
-  "resource": "dart_pipeline/dart_md/KOSPI/012330_현대모비스_2025.md"
+  "name": "삼성생명보험",
+  "ticker": "032830",
+  "industry": "보험",
+  "resource": "dart_pipeline/dart_md/KOSPI/032830_삼성생명_2025.md"
  },
  {
-  "name": "한국전력공사",
-  "ticker": "015760",
-  "industry": "전력",
-  "resource": "dart_pipeline/dart_md/KOSPI/015760_한국전력공사_2025.md"
+  "name": "LG디스플레이",
+  "ticker": "034220",
+  "industry": "디스플레이",
+  "resource": "dart_pipeline/dart_md/KOSPI/034220_LG디스플레이_2025.md"
  },
  {
-  "name": "삼성물산",
-  "ticker": "028260",
-  "industry": "건설",
-  "resource": "dart_pipeline/dart_md/KOSPI/028260_삼성물산_2025.md"
+  "name": "주성엔지니어링",
+  "ticker": "036930",
+  "industry": "반도체장비",
+  "resource": "dart_pipeline/dart_md/KOSDAQ/036930_주성엔지니어링_2025.md"
  }
 ]
