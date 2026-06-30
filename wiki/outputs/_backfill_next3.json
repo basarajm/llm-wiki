@@ -1,20 +1,20 @@
 [
  {
-  "name": "이건산업",
-  "ticker": "008250",
-  "industry": "목재·건축자재",
-  "resource": "dart_pipeline/dart_md/KOSPI/008250_이건산업_2025.md"
- },
- {
-  "name": "NI스틸",
-  "ticker": "008260",
+  "name": "문배철강",
+  "ticker": "008420",
   "industry": "철강",
-  "resource": "dart_pipeline/dart_md/KOSPI/008260_NI스틸_2025.md"
+  "resource": "dart_pipeline/dart_md/KOSPI/008420_문배철강_2025.md"
  },
  {
-  "name": "남선알미늄",
-  "ticker": "008350",
-  "industry": "알루미늄·자동차부품",
-  "resource": "dart_pipeline/dart_md/KOSPI/008350_남선알미늄_2025.md"
+  "name": "서흥",
+  "ticker": "008490",
+  "industry": "건강기능식품/제약",
+  "resource": "dart_pipeline/dart_md/KOSPI/008490_서흥_2025.md"
+ },
+ {
+  "name": "일정실업",
+  "ticker": "008500",
+  "industry": "자동차부품",
+  "resource": "dart_pipeline/dart_md/KOSPI/008500_일정실업_2025.md"
  }
 ]
