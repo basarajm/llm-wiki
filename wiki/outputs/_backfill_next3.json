@@ -1,20 +1,20 @@
 [
  {
-  "name": "삼아알미늄",
-  "ticker": "006110",
-  "industry": "비철금속",
-  "resource": "dart_pipeline/dart_md/KOSPI/006110_삼아알미늄_2025.md"
+  "name": "제주은행",
+  "ticker": "006220",
+  "industry": "은행",
+  "resource": "dart_pipeline/dart_md/KOSPI/006220_제주은행_2025.md"
  },
  {
-  "name": "SK디스커버리",
-  "ticker": "006120",
+  "name": "LS",
+  "ticker": "006260",
   "industry": "지주회사",
-  "resource": "dart_pipeline/dart_md/KOSPI/006120_SK디스커버리_2025.md"
+  "resource": "dart_pipeline/dart_md/KOSPI/006260_LS_2025.md"
  },
  {
-  "name": "한국전자홀딩스",
-  "ticker": "006200",
-  "industry": "지주회사",
-  "resource": "dart_pipeline/dart_md/KOSPI/006200_한국전자홀딩스_2025.md"
+  "name": "녹십자",
+  "ticker": "006280",
+  "industry": "제약",
+  "resource": "dart_pipeline/dart_md/KOSPI/006280_녹십자_2025.md"
  }
 ]
