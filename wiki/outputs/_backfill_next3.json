@@ -1,20 +1,20 @@
 [
  {
-  "name": "세기상사",
-  "ticker": "002420",
-  "industry": "석유유통",
-  "resource": "dart_pipeline/dart_md/KOSPI/002420_세기상사_2025.md"
+  "name": "조흥",
+  "ticker": "002600",
+  "industry": "식품",
+  "resource": "dart_pipeline/dart_md/KOSPI/002600_조흥_2025.md"
  },
  {
-  "name": "삼익악기",
-  "ticker": "002450",
-  "industry": "악기제조",
-  "resource": "dart_pipeline/dart_md/KOSPI/002450_삼익악기_2025.md"
+  "name": "제일파마홀딩스",
+  "ticker": "002620",
+  "industry": "지주회사",
+  "resource": "dart_pipeline/dart_md/KOSPI/002620_제일파마홀딩스_2025.md"
  },
  {
-  "name": "HS화성",
-  "ticker": "002460",
-  "industry": "건설",
-  "resource": "dart_pipeline/dart_md/KOSPI/002460_HS화성_2025.md"
+  "name": "오리엔트바이오",
+  "ticker": "002630",
+  "industry": "실험동물·CRO",
+  "resource": "dart_pipeline/dart_md/KOSPI/002630_오리엔트바이오_2026.md"
  }
 ]
