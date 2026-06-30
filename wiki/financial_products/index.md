@@ -61,4 +61,5 @@
 * [KB 원화예수금](/financial_products/KB_원화예수금) - KB국민은행이 취급하는 원화 예수금(요구불·저축성 예금 등) — 그룹 핵심 자금조달원
 * [SK증권 위탁매매](/financial_products/SK증권_위탁매매) - SK증권의 국내외 주식·채권·파생상품 위탁매매 중개 및 펀드·신탁·랩 등 자산관리(WM) 서비스
 * [SK증권 파생결합증권](/financial_products/SK증권_파생결합증권) - SK증권이 고유자금 자기매매부문에서 발행·판매하는 ELS·DLS 등 파생결합증권
+* [SK증권 IB](/financial_products/SK증권_IB) - SK증권 IB부문의 증권 인수·주선, M&A 자문, 자산유동화·PF, PEF 등 투자금융 및 전략적 투자 서비스
 

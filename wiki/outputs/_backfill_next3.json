@@ -1,20 +1,20 @@
 [
  {
-  "name": "BYC",
-  "ticker": "001460",
-  "industry": "섬유",
-  "resource": "dart_pipeline/dart_md/KOSPI/001460_BYC_2025.md"
- },
- {
-  "name": "삼부토건",
-  "ticker": "001470",
-  "industry": "건설",
-  "resource": "dart_pipeline/dart_md/KOSPI/001470_삼부토건_2025.md"
- },
- {
-  "name": "현대차증권",
-  "ticker": "001500",
+  "name": "SK증권",
+  "ticker": "001510",
   "industry": "증권",
-  "resource": "dart_pipeline/dart_md/KOSPI/001500_현대차증권_2025.md"
+  "resource": "dart_pipeline/dart_md/KOSPI/001510_SK증권_2025.md"
+ },
+ {
+  "name": "동양",
+  "ticker": "001520",
+  "industry": "건자재",
+  "resource": "dart_pipeline/dart_md/KOSPI/001520_동양_2025.md"
+ },
+ {
+  "name": "디아이동일",
+  "ticker": "001530",
+  "industry": "섬유",
+  "resource": "dart_pipeline/dart_md/KOSPI/001530_디아이동일_2025.md"
  }
 ]

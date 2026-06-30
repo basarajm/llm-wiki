@@ -9,7 +9,7 @@ industry: 증권
 is_stub: false
 source_count: 1
 tags: [기업, 증권, KOSPI]
-timestamp: 2026-06-28T00:00:00Z
+timestamp: 2026-06-30T00:00:00Z
 ---
 
 # SK증권
@@ -59,6 +59,7 @@ SK증권주식회사(한글 에스케이증권주식회사, 영문 SK Securities
 ## 주요 금융상품
 
 - [SK증권 위탁매매](/financial_products/SK증권_위탁매매) — 주식·채권·파생상품 중개 및 펀드·신탁·랩 자산관리(WM)
+- [SK증권 IB](/financial_products/SK증권_IB) — 증권 인수·주선·M&A 자문·자산유동화·PF·PEF (2025년 세전손익 +811억, 흑자전환 1등 공신)
 - [SK증권 파생결합증권](/financial_products/SK증권_파생결합증권) — 자기매매부문 ELS·DLS 발행·판매
 
 ## 신용등급
