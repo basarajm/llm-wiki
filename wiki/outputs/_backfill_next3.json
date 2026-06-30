@@ -1,20 +1,20 @@
 [
  {
-  "name": "코오롱",
-  "ticker": "002020",
-  "industry": "지주회사",
-  "resource": "dart_pipeline/dart_md/KOSPI/002020_코오롱_2025.md"
+  "name": "경농",
+  "ticker": "002100",
+  "industry": "화학",
+  "resource": "dart_pipeline/dart_md/KOSPI/002100_경농_2025.md"
  },
  {
-  "name": "아세아",
-  "ticker": "002030",
-  "industry": "지주회사",
-  "resource": "dart_pipeline/dart_md/KOSPI/002030_아세아_2025.md"
+  "name": "고려산업",
+  "ticker": "002140",
+  "industry": "식품",
+  "resource": "dart_pipeline/dart_md/KOSPI/002140_고려산업_2025.md"
  },
  {
-  "name": "비비안",
-  "ticker": "002070",
-  "industry": "섬유",
-  "resource": "dart_pipeline/dart_md/KOSPI/002070_비비안_2025.md"
+  "name": "도화엔지니어링",
+  "ticker": "002150",
+  "industry": "건설",
+  "resource": "dart_pipeline/dart_md/KOSPI/002150_도화엔지니어링_2025.md"
  }
 ]
