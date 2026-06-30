@@ -1,20 +1,20 @@
 [
  {
-  "name": "써니전자",
-  "ticker": "004770",
-  "industry": "전자부품",
-  "resource": "dart_pipeline/dart_md/KOSPI/004770_써니전자_2025.md"
+  "name": "DRB동일",
+  "ticker": "004840",
+  "industry": "자동차부품",
+  "resource": "dart_pipeline/dart_md/KOSPI/004840_DRB동일_2025.md"
  },
  {
-  "name": "효성",
-  "ticker": "004800",
-  "industry": "지주회사",
-  "resource": "dart_pipeline/dart_md/KOSPI/004800_효성_2025.md"
+  "name": "티웨이홀딩스",
+  "ticker": "004870",
+  "industry": "건자재",
+  "resource": "dart_pipeline/dart_md/KOSPI/004870_티웨이홀딩스_2025.md"
  },
  {
-  "name": "덕성",
-  "ticker": "004830",
-  "industry": "화학",
-  "resource": "dart_pipeline/dart_md/KOSPI/004830_덕성_2025.md"
+  "name": "동일산업",
+  "ticker": "004890",
+  "industry": "철강",
+  "resource": "dart_pipeline/dart_md/KOSPI/004890_동일산업_2025.md"
  }
 ]
