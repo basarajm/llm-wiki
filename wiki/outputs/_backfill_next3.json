@@ -1,20 +1,20 @@
 [
  {
-  "name": "삼익THK",
-  "ticker": "004380",
-  "industry": "기계부품",
-  "resource": "dart_pipeline/dart_md/KOSPI/004380_삼익THK_2025.md"
+  "name": "삼일씨엔에스",
+  "ticker": "004440",
+  "industry": "건자재",
+  "resource": "dart_pipeline/dart_md/KOSPI/004440_삼일씨엔에스_2025.md"
  },
  {
-  "name": "서울식품공업",
-  "ticker": "004410",
-  "industry": "식품",
-  "resource": "dart_pipeline/dart_md/KOSPI/004410_서울식품공업_2025.md"
+  "name": "삼화왕관",
+  "ticker": "004450",
+  "industry": "포장재",
+  "resource": "dart_pipeline/dart_md/KOSPI/004450_삼화왕관_2025.md"
  },
  {
-  "name": "송원산업",
-  "ticker": "004430",
-  "industry": "화학",
-  "resource": "dart_pipeline/dart_md/KOSPI/004430_송원산업_2025.md"
+  "name": "세방전지",
+  "ticker": "004490",
+  "industry": "전지",
+  "resource": "dart_pipeline/dart_md/KOSPI/004490_세방전지_2025.md"
  }
 ]
