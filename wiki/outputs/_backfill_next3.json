@@ -1,20 +1,20 @@
 [
  {
-  "name": "사조산업",
-  "ticker": "007160",
-  "industry": "수산",
-  "resource": "dart_pipeline/dart_md/KOSPI/007160_사조산업_2025.md"
+  "name": "오뚜기",
+  "ticker": "007310",
+  "industry": "식품",
+  "resource": "dart_pipeline/dart_md/KOSPI/007310_오뚜기_2025.md"
  },
  {
-  "name": "벽산",
-  "ticker": "007210",
-  "industry": "건축자재",
-  "resource": "dart_pipeline/dart_md/KOSPI/007210_벽산_2025.md"
+  "name": "DN오토모티브",
+  "ticker": "007340",
+  "industry": "자동차부품",
+  "resource": "dart_pipeline/dart_md/KOSPI/007340_DN오토모티브_2025.md"
  },
  {
-  "name": "한국특강",
-  "ticker": "007280",
-  "industry": "철강",
-  "resource": "dart_pipeline/dart_md/KOSPI/007280_한국특강_2025.md"
+  "name": "에이프로젠",
+  "ticker": "007460",
+  "industry": "제약·바이오",
+  "resource": "dart_pipeline/dart_md/KOSPI/007460_에이프로젠_2025.md"
  }
 ]
