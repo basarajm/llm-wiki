@@ -1,20 +1,20 @@
 [
  {
-  "name": "한화솔루션",
-  "ticker": "009830",
-  "industry": "화학",
-  "resource": "dart_pipeline/dart_md/KOSPI/009830_한화솔루션_2025.md"
+  "name": "한국내화",
+  "ticker": "010040",
+  "industry": "철강",
+  "resource": "dart_pipeline/dart_md/KOSPI/010040_한국내화_2025.md"
  },
  {
-  "name": "명신산업",
-  "ticker": "009900",
-  "industry": "자동차부품",
-  "resource": "dart_pipeline/dart_md/KOSPI/009900_명신산업_2025.md"
- },
- {
-  "name": "영원무역홀딩스",
-  "ticker": "009970",
+  "name": "OCI홀딩스",
+  "ticker": "010060",
   "industry": "지주회사",
-  "resource": "dart_pipeline/dart_md/KOSPI/009970_영원무역홀딩스_2025.md"
+  "resource": "dart_pipeline/dart_md/KOSPI/010060_OCI홀딩스_2025.md"
+ },
+ {
+  "name": "한국무브넥스",
+  "ticker": "010100",
+  "industry": "자동차부품",
+  "resource": "dart_pipeline/dart_md/KOSPI/010100_한국무브넥스_2025.md"
  }
 ]
