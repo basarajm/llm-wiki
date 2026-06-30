@@ -1,20 +1,20 @@
 [
  {
-  "name": "현대건설",
-  "ticker": "000720",
-  "industry": "건설",
-  "resource": "dart_pipeline/dart_md/KOSPI/000720_현대건설_2025.md"
+  "name": "화천기공",
+  "ticker": "000850",
+  "industry": "공작기계",
+  "resource": "dart_pipeline/dart_md/KOSPI/000850_화천기공_2025.md"
  },
  {
-  "name": "이화산업",
-  "ticker": "000760",
+  "name": "강남제비스코",
+  "ticker": "000860",
   "industry": "화학",
-  "resource": "dart_pipeline/dart_md/KOSPI/000760_이화산업_2025.md"
+  "resource": "dart_pipeline/dart_md/KOSPI/000860_강남제비스코_2025.md"
  },
  {
-  "name": "삼성화재",
-  "ticker": "000810",
-  "industry": "보험",
-  "resource": "dart_pipeline/dart_md/KOSPI/000810_삼성화재해상보험_2025.md"
+  "name": "한화",
+  "ticker": "000880",
+  "industry": "지주회사",
+  "resource": "dart_pipeline/dart_md/KOSPI/000880_한화_2025.md"
  }
 ]
