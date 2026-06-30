@@ -290,6 +290,7 @@
 * [EMI SHIELD](/products/EMI_SHIELD) - 반도체 패키지 전자파 차폐(EMI Shield) 장비 — 점유율 1위
 * [eNisis](/products/eNisis) - 미래아이앤지가 자체 개발한 SWIFT 전문(메시지) 관리 솔루션. 국내 최초 SWIFT 솔루션 도입·구축의 선점효과로 국내 은행권에서 지배적 위치
 * [ESS용 배터리](/products/ESS용_배터리) - 삼성SDI가 전력저장장치(ESS)에 공급하는 중대형 리튬이온 2차전지
+* [eSSD](/products/eSSD) - 데이터센터·AI 서버용 기업용 SSD(Enterprise SSD) — 고용량 QLC NAND 기반 저장 솔루션
 * [EV 각형 배터리](/products/EV_각형_배터리) - 삼성SDI가 글로벌 완성차 OEM에 공급하는 전기차(EV)용 각형(prismatic) 리튬이온 2차전지
 * [Galaxy 스마트폰](/products/Galaxy_스마트폰) - 삼성전자 모바일경험(MX) 사업의 스마트폰 브랜드 — Galaxy S·Z 시리즈와 Galaxy AI, 글로벌 수량 기준 상위 점유율
 * [Green-Cap](/products/Green-Cap) - 삼화전기의 전기이중층콘덴서(EDLC) 브랜드 — 급속 충방전·반영구 수명의 에너지 저장 소자

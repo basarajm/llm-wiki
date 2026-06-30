@@ -76,9 +76,10 @@ source_count: 1
 
 ## 주요 상품
 
-- [HBM](/products/HBM) — AI 가속기용 고대역폭메모리. 업계 최초 HBM4 양산. HBM 매출 전년 대비 2배 이상.
-- [DRAM](/products/DRAM) — DDR5/LPDDR5X, 256GB DDR5 모듈. 글로벌 점유율 약 34%(2025 3Q).
-- [NAND](/products/NAND_Flash) — 321단 QLC, 기업용 SSD(eSSD). 글로벌 점유율 약 20%.
+- [HBM](/products/HBM) — AI 가속기용 고대역폭메모리. 2025.09 세계 최초 HBM4 양산 체제 확보, 주력 HBM3E. AI 메모리 시장 1위(추정).
+- [DRAM](/products/DRAM) — DDR5/LPDDR5X, 256GB DDR5 모듈. 글로벌 점유율 34.3%(2025 3Q, IDC 매출액 기준).
+- [NAND Flash](/products/NAND_Flash) — 321단 QLC(세계 최초 2Tb), AIN Family. 글로벌 점유율 19.7%(2025 3Q, IDC 매출액 기준).
+- [eSSD](/products/eSSD) — 데이터센터·AI 서버용 기업용 SSD. Solidigm 통합, 고용량 QLC eSSD 선도 입지 확대.
 - [CXL 메모리](/products/CXL메모리) — CMM-DDR5 96GB/128GB 인증 완료.
 
 ## 경영진
@@ -87,6 +88,22 @@ source_count: 1
 - [안현](/executives/안현) — 사내이사.
 - 김우현 — 재무부문장(작성책임자).
 - 사외이사: 한애라, 정덕균, 김정원, 양동훈, 손현철. 기타비상무이사: 장용호, 한명진.
+
+## 신용등급
+
+상세 이력은 [SK하이닉스 신용등급](/ratings/SK하이닉스 신용등급) 참조.
+
+| 구분 | 평가기관 | 등급 | 평가일 |
+|---|---|---|---|
+| 국내 | 한국기업평가 | AA+ | 2026-01-29 |
+| 국내 | NICE신용평가 | AA+ | 2026-03-05 |
+| 국내 | 한국신용평가 | AA+ | 2026-03-11 |
+| 해외 | Moody's | Baa1 | 2025-12-12 |
+| 해외 | S&P | BBB+ | 2026-02-05 |
+| 해외 | Fitch | BBB | 2025-08-25 |
+
+- 2026년 1~3월 국내 3사가 회사채를 **AA → AA+로 상향**(2025년 사상 최대 실적·HBM 리더십 반영). 기업어음은 국내 3사 A1.
+- 해외도 2025~2026년 Moody's Baa2→Baa1, S&P BBB→BBB+로 상향.
 
 ## 리스크
 
