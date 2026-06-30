@@ -1,20 +1,20 @@
 [
  {
-  "name": "대원전선",
-  "ticker": "006340",
-  "industry": "전선",
-  "resource": "dart_pipeline/dart_md/KOSPI/006340_대원전선_2025.md"
+  "name": "카프로",
+  "ticker": "006380",
+  "industry": "석유화학",
+  "resource": "dart_pipeline/dart_md/KOSPI/006380_카프로_2025.md"
  },
  {
-  "name": "GS건설",
-  "ticker": "006360",
-  "industry": "건설",
-  "resource": "dart_pipeline/dart_md/KOSPI/006360_GS건설_2025.md"
+  "name": "삼성SDI",
+  "ticker": "006400",
+  "industry": "이차전지",
+  "resource": "dart_pipeline/dart_md/KOSPI/006400_삼성SDI_2025.md"
  },
  {
-  "name": "대구백화점",
-  "ticker": "006370",
-  "industry": "유통(백화점)",
-  "resource": "dart_pipeline/dart_md/KOSPI/006370_대구백화점_2025.md"
+  "name": "프리티",
+  "ticker": "006490",
+  "industry": "알뜰폰(MVNO)",
+  "resource": "dart_pipeline/dart_md/KOSPI/006490_프리티_2025.md"
  }
 ]
