@@ -1,20 +1,20 @@
 [
  {
-  "name": "SG세계물산",
-  "ticker": "004060",
-  "industry": "패션",
-  "resource": "dart_pipeline/dart_md/KOSPI/004060_SG세계물산_2025.md"
+  "name": "태양금속공업",
+  "ticker": "004100",
+  "industry": "자동차부품",
+  "resource": "dart_pipeline/dart_md/KOSPI/004100_태양금속공업_2025.md"
  },
  {
-  "name": "신흥",
-  "ticker": "004080",
-  "industry": "의료기기",
-  "resource": "dart_pipeline/dart_md/KOSPI/004080_신흥_2025.md"
+  "name": "동방",
+  "ticker": "004140",
+  "industry": "물류·운송",
+  "resource": "dart_pipeline/dart_md/KOSPI/004140_동방_2025.md"
  },
  {
-  "name": "한국석유공업",
-  "ticker": "004090",
-  "industry": "화학",
-  "resource": "dart_pipeline/dart_md/KOSPI/004090_한국석유공업_2025.md"
+  "name": "한솔홀딩스",
+  "ticker": "004150",
+  "industry": "지주회사",
+  "resource": "dart_pipeline/dart_md/KOSPI/004150_한솔홀딩스_2025.md"
  }
 ]
