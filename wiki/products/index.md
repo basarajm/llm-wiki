@@ -539,6 +539,7 @@
 * [OPU](/products/OPU) - 하이브리드 차량 자동변속기용 오일펌프 제어기 — 모토닉의 전장부품 주력 제품, 관련 특허 보유
 * [PAIL 용기](/products/PAIL용기) - 한국석유공업이 외주 생산하는 합성수지 PAIL 용기(PAIL Containers) — 2025년 국내 점유율 15.0%
 * [PEG 유도체](/products/PEG_유도체) - 파미셀 바이오케미컬 사업부가 제조하는 의약용 약물전달(DDS)·LNP용 PEG(폴리에틸렌글리콜) 유도체
+* [PHC PILE](/products/PHC_PILE) - 고강도 콘크리트 기초 파일 — 토목·건축 기초자재. 아이에스동서가 국내 최초 자체 개발
 * [PHC파일](/products/PHC파일) - 삼일씨엔에스가 'Hypile' 상표로 생산하는 고강도 콘크리트 파일(PHC PILE)·PC 건축 기초 건자재
 * [Phoretar 난연제](/products/Phoretar_난연제) - 파미셀 바이오케미컬 사업부가 제조하는 친환경 인계(燐系) 난연제 (폴리에스터 섬유용·전자재료용)
 * [PLC](/products/PLC) - 산업 공정 제어용 프로그래머블 로직 컨트롤러(PLC)
@@ -550,6 +551,7 @@
 * [PU합성피혁](/products/PU합성피혁) - 폴리우레탄(PU) 합성피혁 — 천연피혁을 대체하는 인조피혁 소재. 덕성이 1966년 국내 최초로 생산
 * [PVC](/products/PVC) - 한화솔루션 케미칼 부문의 폴리염화비닐(PVC) — 국내 최초 생산, 국내시장 점유율 약 46%(2025, 회사 추정)
 * [RENDY FABRIC](/products/RENDY FABRIC) - 일정실업의 가구용 직물 브랜드(RENDY FABRIC). 별도 매출의 약 20%를 차지하는 비(非)자동차 최대 제품으로 전량 수출(미국 VALDESE 등).
+* [S-Oil 윤활기유](/products/S-Oil_윤활기유) - S-Oil의 고급 Group III 윤활기유 — 국내 최고 점유율, 세계 시장 선도
 * [Samsung TV](/products/Samsung_TV) - 삼성전자 영상디스플레이 사업의 TV 완제품 — Neo QLED·OLED·The Frame 등, 글로벌 금액 기준 점유율 1위
 * [SG글로벌 자동차시트](/products/SG글로벌_자동차시트) - SG글로벌의 자동차시트(Car Seat) — 전사 매출의 25.8%를 차지하는 제2 주력 제품
 * [SG글로벌 자동차시트커버](/products/SG글로벌_자동차시트커버) - SG글로벌의 자동차시트커버(Seat Trim Cover) — 전사 매출의 62.8%를 차지하는 제1 주력 제품
