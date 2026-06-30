@@ -1,20 +1,20 @@
 [
  {
-  "name": "상상인증권",
-  "ticker": "001290",
-  "industry": "증권",
-  "resource": "dart_pipeline/dart_md/KOSPI/001290_상상인증권_2025.md"
+  "name": "SG글로벌",
+  "ticker": "001380",
+  "industry": "자동차부품",
+  "resource": "dart_pipeline/dart_md/KOSPI/001380_SG글로벌_2025.md"
  },
  {
-  "name": "피케이씨",
-  "ticker": "001340",
+  "name": "KG케미칼",
+  "ticker": "001390",
   "industry": "화학",
-  "resource": "dart_pipeline/dart_md/KOSPI/001340_PKC_2025.md"
+  "resource": "dart_pipeline/dart_md/KOSPI/001390_KG케미칼_2025.md"
  },
  {
-  "name": "삼성제약",
-  "ticker": "001360",
-  "industry": "제약",
-  "resource": "dart_pipeline/dart_md/KOSPI/001360_삼성제약_2025.md"
+  "name": "태원물산",
+  "ticker": "001420",
+  "industry": "자동차부품",
+  "resource": "dart_pipeline/dart_md/KOSPI/001420_태원물산_2025.md"
  }
 ]
