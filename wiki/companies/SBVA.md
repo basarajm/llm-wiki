@@ -1,0 +1,19 @@
+---
+type: Company
+title: SBVA
+description: 국내 VC 운용자산(AUM) 기준 2위 벤처투자회사(구 소프트뱅크벤처스)
+ticker: ""
+market: Private
+industry: 벤처캐피탈(VC)
+is_stub: true
+tags: [기업, 벤처캐피탈, 비상장]
+timestamp: 2026-07-01T00:00:00Z
+---
+
+## 사업 개요
+
+SBVA(구 소프트뱅크벤처스)는 2025년 말 VC 운용자산(AUM) 기준 국내 2위 벤처투자회사(22,625억원, 자료: 더벨 리그테이블 2025.12.31)이다. DSC인베스트먼트의 경쟁사로 사업보고서에 언급됨.
+
+# Citations
+
+- [DSC인베스트먼트 2025 사업보고서](/sources/DSC인베스트먼트_2025_사업보고서)

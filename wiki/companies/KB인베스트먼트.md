@@ -1,0 +1,19 @@
+---
+type: Company
+title: KB인베스트먼트
+description: 국내 VC 운용자산(AUM) 기준 3위 벤처투자회사, KB금융그룹 계열 VC
+ticker: ""
+market: Private
+industry: 벤처캐피탈(VC)
+is_stub: true
+tags: [기업, 벤처캐피탈, 비상장]
+timestamp: 2026-07-01T00:00:00Z
+---
+
+## 사업 개요
+
+KB인베스트먼트는 2025년 말 VC 운용자산(AUM) 기준 국내 3위 벤처투자회사(21,660억원, 자료: 더벨 리그테이블 2025.12.31)이다. DSC인베스트먼트의 경쟁사로 사업보고서에 언급됨. 그룹 소속 여부는 본 사업보고서 본문에 명시되지 않음(미확인).
+
+# Citations
+
+- [DSC인베스트먼트 2025 사업보고서](/sources/DSC인베스트먼트_2025_사업보고서)

@@ -6,6 +6,7 @@ ticker: "000300"
 market: KOSPI
 market_page: /markets/KOSPI
 industry: 자동차부품
+group: /groups/DH그룹
 is_stub: false
 tags: [기업, 자동차부품, KOSPI]
 timestamp: 2026-06-28T00:00:00Z
@@ -36,7 +37,7 @@ source_count: 1
 ## 산업 및 그룹
 
 - 산업: [자동차부품](/industries/자동차부품)
-- 그룹: DH그룹 (위키에 그룹 페이지 미생성 — group_todo)
+- 그룹: [DH그룹](/groups/DH그룹)
 
 ## 재무 하이라이트
 

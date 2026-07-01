@@ -1,27 +1,17 @@
 # 로컬 아카이브(AnnualReport_MD) 인제스트 트래커
 
 - 아카이브 회사 수: **2736건** (source_documents/AnnualReport_MD/, 각 머신에 로컬 배치 필요·git 미포함)
-- 완료(done, Full): **356건**
-- 대기(pending): **2380건** (이 중 stub→Full 승급 대상 106건)
+- 완료(done, Full): **366건**
+- 대기(pending): **2370건** (이 중 stub→Full 승급 대상 109건)
 
 > done 기준: wiki/companies/<회사>.md 가 존재하고 is_stub:false.
 > 이 파일은 `python dart_pipeline/local_archive_status.py` 로 재생성됩니다.
 > 다음 N개사 산출: `python dart_pipeline/local_archive_status.py --next N`
 
-## ⏳ 대기 (상위 50건, 전체 2380건)
+## ⏳ 대기 (상위 50건, 전체 2370건)
 
 - APS이노베이션 — `source_documents/AnnualReport_MD/APS이노베이션-사업보고서-2024.12.md`
-- BNK금융지주 — `source_documents/AnnualReport_MD/BNK금융지주-사업보고서-2025.12.md`
-- CG인바이츠 — `source_documents/AnnualReport_MD/CG인바이츠-사업보고서-2025.12.md`
-- CJ CGV — `source_documents/AnnualReport_MD/CJ CGV-사업보고서-2025.12.md`
-- CJ ENM — `source_documents/AnnualReport_MD/CJ ENM-사업보고서-2025.12.md`
-- CJ 바이오사이언스 — `source_documents/AnnualReport_MD/CJ 바이오사이언스-사업보고서-2025.12.md`
-- CJ제일제당 — `source_documents/AnnualReport_MD/CJ제일제당-사업보고서-2025.12.md`
-- CJ프레시웨이 — `source_documents/AnnualReport_MD/CJ프레시웨이-사업보고서-2025.12.md`
-- CMG제약 — `source_documents/AnnualReport_MD/CMG제약-사업보고서-2025.12.md`
-- CNT85 — `source_documents/AnnualReport_MD/CNT85-사업보고서-2025.12.md`
 - CS — `source_documents/AnnualReport_MD/CS-사업보고서-2025.12.md`
-- CSA 코스믹 — `source_documents/AnnualReport_MD/CSA 코스믹-사업보고서-2025.12.md`
 - DB — `source_documents/AnnualReport_MD/DB-사업보고서-2025.12.md`
 - DB증권 — `source_documents/AnnualReport_MD/DB증권-사업보고서-2025.12.md`
 - DGI — `source_documents/AnnualReport_MD/DGI-사업보고서-2025.12.md`
@@ -60,3 +50,13 @@
 - HC홈센타 — `source_documents/AnnualReport_MD/HC홈센타-사업보고서-2025.12.md`
 - HDC — `source_documents/AnnualReport_MD/HDC-사업보고서-2025.12.md`
 - HDC랩스 — `source_documents/AnnualReport_MD/HDC랩스-사업보고서-2025.12.md`
+- HDC현대EP — `source_documents/AnnualReport_MD/HDC현대EP-사업보고서-2025.12.md`
+- HD건설기계 — `source_documents/AnnualReport_MD/HD건설기계-사업보고서-2025.12.md`
+- HD현대마린솔루션 — `source_documents/AnnualReport_MD/HD현대마린솔루션-사업보고서-2025.12.md`
+- HD현대마린엔진 — `source_documents/AnnualReport_MD/HD현대마린엔진-사업보고서-2025.12.md`
+- HD현대에너지솔루션 — `source_documents/AnnualReport_MD/HD현대에너지솔루션-사업보고서-2025.12.md`
+- HD현대중공업 — `source_documents/AnnualReport_MD/HD현대중공업-사업보고서-2025.12.md`
+- HEM파마 — `source_documents/AnnualReport_MD/HEM파마-사업보고서-2025.12.md`
+- HJ중공업 — `source_documents/AnnualReport_MD/HJ중공업-사업보고서-2025.12.md`
+- HK이노엔 — `source_documents/AnnualReport_MD/HK이노엔-사업보고서-2025.12.md`
+- HL D&I — `source_documents/AnnualReport_MD/HL D&I-사업보고서-2025.12.md`

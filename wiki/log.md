@@ -992,3 +992,5 @@
 **Ingest(IG)** 롯데케미칼·CJ씨푸드·HMM·3S·AJ네트웍스·APS·디이엔티·AP시스템·AP위성·BGF·BGF리테일·BGF에코머티리얼즈 Full 인제스트 (source: AnnualReport_MD 로컬 아카이브)
 
 **Ingest(IG)** BNK금융지주·CG인바이츠·CJ CGV·CJ ENM·CJ 바이오사이언스·CJ제일제당·CJ프레시웨이·CMG제약·CNT85·씨에스·CSA 코스믹·DB Inc. Full 인제스트 (source: AnnualReport_MD 로컬 아카이브, 인터럽트 후 재개)
+
+**Ingest(IG)** DB증권·디지아이티엑스·DH오토리드·DKME·DL이앤씨·DMS·DSC인베스트먼트·DSR·DSR제강·DS단석·디엑스앤브이엑스·DYP Full 인제스트 (source: AnnualReport_MD 로컬 아카이브)

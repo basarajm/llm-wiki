@@ -6,6 +6,7 @@ ticker: "000210"
 market: KOSPI
 market_page: /markets/KOSPI
 industry: 지주회사
+group: /groups/DL그룹
 is_stub: false
 tags: [기업, 지주회사, KOSPI]
 timestamp: 2026-06-28T00:00:00Z
@@ -34,7 +35,7 @@ DL㈜(영문 DL Holdings Co., Ltd.)는 DL그룹(구 대림그룹)의 **지주회
 ## 산업 및 그룹
 
 - 산업: 지주회사
-- 그룹: DL그룹 (지주회사 DL㈜ — group_todo: `/groups/DL` 페이지 미존재)
+- 그룹: [DL그룹](/groups/DL그룹) (지주회사 DL㈜)
 
 ## 재무 하이라이트
 
