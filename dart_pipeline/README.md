@@ -103,3 +103,24 @@ python run.py --no-resume     # 진행기록 무시하고 처음부터
 변환된 MD는 `dart_md/<시장>/` 에 저장됩니다. 이를 위키 인제스트 대상으로 쓰려면
 해당 파일을 `source_documents/raw/` 로 복사하거나, `/ingest` 시 경로를 직접 지정하세요.
 프론트매터의 `dart_url`·`rcept_no` 로 원본 추적이 가능합니다.
+
+---
+
+## 로컬 아카이브 기반 인제스트 (DART API 키 없이, 2026-07-01 추가)
+
+`dart_md/`는 `.gitignore` 대상이라 다른 PC에서는 비어 있고, 채우려면 DART API 키로
+`run.py`를 다시 돌려야 합니다. 그런데 **DART API 없이도** 사업보고서 MD를 대량으로
+확보한 경우(예: 별도 프로젝트에서 이미 변환한 아카이브), 다음 경로가 그 용도로
+예약되어 있습니다.
+
+- `source_documents/AnnualReport_MD/` — 사업보고서 아카이브(`.gitignore` 대상, 각 머신에
+  로컬로 채워야 함). 파일명 규칙은 `<회사명>-사업보고서-<YYYY.MM>.md`
+  (`source_documents/AnnualReport_Recent/`의 16개 샘플과 동일 포맷 — **프론트매터 없음**,
+  종목코드·상장시장은 본문(예: "유가증권시장 상장"·"종목코드 011150)")에서 직접 추출).
+- `dart_pipeline/local_archive_status.py` — 이 아카이브를 ground truth로 삼아
+  done(위키에 Full로 존재)/pending을 계산하는 트래커. `ingest_status.py`(dart_md 기준)를
+  대체하는 것이 아니라, 원본 확보 경로가 다를 때 쓰는 대안이다.
+  ```bash
+  python dart_pipeline/local_archive_status.py            # 현황 + wiki/outputs/ingest-tracker-local.md 갱신
+  python dart_pipeline/local_archive_status.py --next 3   # 다음 3개사 JSON (배치 인제스트용)
+  ```

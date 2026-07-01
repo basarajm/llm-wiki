@@ -3,7 +3,7 @@ type: Corporate Group
 title: CJ그룹
 description: 이재현 회장을 동일인으로 하는 식품·물류·바이오·엔터테인먼트 기업집단 — ㈜CJ 지주 체제
 controlling_person: 이재현
-member_companies: [/companies/CJ, /companies/CJ대한통운]
+member_companies: [/companies/CJ, /companies/CJ대한통운, /companies/CJ씨푸드]
 tags: [기업집단, CJ]
 timestamp: 2026-06-28T00:00:00Z
 ---
@@ -25,6 +25,7 @@ CJ그룹은 동일인 **이재현** 회장이 이끄는 식품·식품서비스,
 | CJ프레시웨이 | 식자재유통·단체급식 | 비핵심 |
 | CJ올리브영 | H&B 리테일 | 핵심(비상장) |
 | CJ CGV | 영화상영 | 비핵심 |
+| [CJ씨푸드](/companies/CJ씨푸드) | 수산물·김 가공식품(CJ제일제당 46.26% 보유) | 비핵심 |
 
 > CJ제일제당·CJ ENM·CJ올리브영 등 개별 페이지는 추후 ingest 예정. 지배구조: 이재현 → ㈜CJ → CJ제일제당 → CJ대한통운(40.16%).
 
@@ -38,3 +39,4 @@ CJ그룹은 동일인 **이재현** 회장이 이끄는 식품·식품서비스,
 
 - [CJ 2025 사업보고서](/sources/CJ_2025_사업보고서)
 - [CJ대한통운 2025 사업보고서](/sources/CJ대한통운_2025_사업보고서)
+- [CJ씨푸드 2025 사업보고서](/sources/CJ씨푸드_2025_사업보고서)

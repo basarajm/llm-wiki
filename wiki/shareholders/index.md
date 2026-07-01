@@ -1,5 +1,16 @@
 # 주주 (shareholders\)
 
+* [APS](/shareholders/APS) - APS그룹 사업지주회사 — AP시스템 최대주주(25.44%)
+* [BGF](/shareholders/BGF) - BGF그룹 순수지주회사 — BGF리테일(30.00%)·BGF에코머티리얼즈 최대주주
+* [BlackRock Fund Advisors](/shareholders/BlackRock) - 삼성전자 지분 5.07%를 보유한 세계 최대 자산운용사
+* [CJ제일제당](/shareholders/CJ제일제당) - CJ그룹 핵심 식품·바이오 계열사, CJ씨푸드 최대주주(46.26%)
+* [HD현대](/shareholders/HD현대) - HD현대일렉트릭의 최대주주인 HD현대그룹 지주회사
+* [(주)LG](/shareholders/LG) - LG전자의 최대주주인 LG그룹 지주회사
+* [LG전자](/shareholders/LG전자) - LG이노텍의 최대주주(40.79%)인 LG그룹 핵심 전자 사업회사
+* [LOTTE HOLDINGS CO.,LTD(日)](/shareholders/LOTTE_HOLDINGS_일본법인) - 일본 롯데홀딩스 — 롯데케미칼 특수관계인 주주(9.19%)
+* [NOK Corporation](/shareholders/NOK Corporation) - 평화홀딩스 지분 14.4%를 보유한 일본 씰·전자부품 제조사
+* [SK](/shareholders/SK) - SK스퀘어 최대주주(32.16%)인 SK그룹 지주회사 SK㈜
+* [SK스퀘어](/shareholders/SK스퀘어) - SK하이닉스의 최대주주인 SK그룹 반도체·ICT 중간지주회사
 * [경농](/shareholders/경농) - 조비 최대주주(54.56%)인 동오그룹 작물보호제(농약) 상장사
 * [곽동신](/shareholders/곽동신) - 한미반도체 대표이사 회장이자 최대주주
 * [국민연금공단](/shareholders/국민연금공단) - 국내 최대 기관투자자로 주요 상장기업의 핵심 주주인 공적 연기금
@@ -9,6 +20,12 @@
 * [김종석](/shareholders/김종석) - 평화그룹 회장이자 평화홀딩스 최대주주(26.12%)
 * [김주영](/shareholders/김주영) - 평화홀딩스 대표이사 사장이자 2대주주(25.95%)
 * [대한민국정부](/shareholders/대한민국정부) - 한국전력공사 등 주요 공기업 지분을 직접 보유한 정부
+* [더제이자산운용](/shareholders/더제이자산운용) - AP시스템 5% 이상 기관 주주(6.39%)
+* [롯데지주](/shareholders/롯데지주) - 롯데그룹 지주회사, 롯데케미칼 최대주주(25.31%)
+* [류장수](/shareholders/류장수) - AP위성 개인 주요 주주(8.01%)
+* [문덕영](/shareholders/문덕영) - AJ네트웍스 前 최대주주(現 6.63% 보유) — 2025.06 지분 증여, 이사회 의장 겸직
+* [문선우](/shareholders/문선우) - AJ네트웍스 특수관계인 주주(24.26%) — 2025.06 문덕영으로부터 증여로 취득
+* [문지회](/shareholders/문지회) - AJ네트웍스 최대주주(24.26%)이자 대표이사 — 2025.06 문덕영으로부터 증여로 취득
 * [미래에셋캐피탈](/shareholders/미래에셋캐피탈) - 미래에셋증권의 최대주주인 미래에셋그룹 지배구조 정점의 여신전문금융회사
 * [삼성물산](/shareholders/삼성물산) - 삼성전자 지분 5.05%를 보유한 삼성그룹 사실상 지주회사 역할 계열사
 * [삼성생명보험](/shareholders/삼성생명보험) - 삼성전자의 최대주주인 삼성그룹 핵심 금융 계열사
@@ -18,18 +35,19 @@
 * [이재용](/shareholders/이재용) - 삼성그룹 동일인 — 삼성물산·삼성생명 등 핵심 지분 보유
 * [이종호](/shareholders/이종호) - 삼호개발 창업주 회장이자 최대주주(18.68%)
 * [정몽준](/shareholders/정몽준) - HD현대그룹 동일인 — 지주회사 HD현대 최대주주(26.60%)
+* [(주)컨텍](/shareholders/컨텍) - AP위성 최대주주(24.73%) — 지상국·위성데이터 서비스 기업
 * [한국금융지주](/shareholders/한국금융지주) - 한국투자증권을 100% 보유한 한국투자금융그룹 지주회사
 * [한국산업은행](/shareholders/한국산업은행) - 한국전력공사 최대주주(32.90%)인 국책은행 (정부 100% 출자)
+* [한국웨이퍼홀딩스](/shareholders/한국웨이퍼홀딩스) - 사모펀드 노버스크로스로드 계열 투자기구, 2025년 3S 최대주주로 등극(12.00%)
+* [한국해양진흥공사](/shareholders/한국해양진흥공사) - 해운산업 지원을 위해 설립된 국책 공사, HMM 공동 최대주주(35.08%)
 * [한화생명보험](/shareholders/한화생명보험) - 한화손해보험 최대주주(63.30%)인 한화그룹 생명보험사
 * [현대모비스](/shareholders/현대모비스) - 현대자동차 최대주주이자 현대오토에버 주요 주주인 현대차그룹 순환출자 최상단 계열사
 * [현대자동차](/shareholders/현대자동차) - 현대오토에버의 최대주주이자 기아 지분을 보유한 현대차그룹 핵심 사업회사
+* [홈스(주)](/shareholders/홈스) - AP위성 기관 주요 주주(7.86%)
+* [홍라영](/shareholders/홍라영) - BGF 오너 일가 — BGF리테일 5.33%, BGF 1.80% 보유
+* [홍석조](/shareholders/홍석조) - BGF그룹 동일인(회장) — BGF(32.40%)·BGF리테일(7.36%) 최대주주
+* [홍정국](/shareholders/홍정국) - BGF 대표이사(부회장)이자 최대주주 홍석조의 자 — BGF 지분 20.77% 보유
+* [홍정혁](/shareholders/홍정혁) - BGF에코머티리얼즈 임원이자 최대주주 홍석조의 자 — BGF 지분 10.50% 보유
 * [화신정공](/shareholders/화신정공) - 화신의 관계회사 주주(5.75%)인 비상장 법인
 * [황철주](/shareholders/황철주) - 주성엔지니어링 창업자 겸 대표이사 회장이자 최대주주
-* [BlackRock Fund Advisors](/shareholders/BlackRock) - 삼성전자 지분 5.07%를 보유한 세계 최대 자산운용사
-* [HD현대](/shareholders/HD현대) - HD현대일렉트릭의 최대주주인 HD현대그룹 지주회사
-* [(주)LG](/shareholders/LG) - LG전자의 최대주주인 LG그룹 지주회사
-* [LG전자](/shareholders/LG전자) - LG이노텍의 최대주주(40.79%)인 LG그룹 핵심 전자 사업회사
-* [NOK Corporation](/shareholders/NOK Corporation) - 평화홀딩스 지분 14.4%를 보유한 일본 씰·전자부품 제조사
-* [SK](/shareholders/SK) - SK스퀘어 최대주주(32.16%)인 SK그룹 지주회사 SK㈜
-* [SK스퀘어](/shareholders/SK스퀘어) - SK하이닉스의 최대주주인 SK그룹 반도체·ICT 중간지주회사
 

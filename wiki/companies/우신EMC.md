@@ -1,0 +1,18 @@
+---
+type: Company
+title: 우신EMC
+description: 설비자동화 업체, 3S FA사업부(공장자동화)의 주요 매출처
+is_stub: true
+tags: [기업]
+timestamp: 2026-07-01T00:00:00Z
+---
+
+# 우신EMC
+
+## 사업 개요
+
+우신EMC는 국내 설비자동화 업체로, [3S](/companies/3S) FA사업부(공장자동화 물류 시스템)의 주요 매출처 중 하나로 사업보고서에 언급되어 있다. 3S FA사업부는 2025년 10월부터 영업이 중단된 상태다.
+
+# Citations
+
+- source_documents/AnnualReport_MD/3S-사업보고서-2026.03.md
