@@ -21,6 +21,7 @@ IT서비스 산업은 시스템 통합(SI), IT 아웃소싱·운영(ITO), 그리
 - [삼성SDS](/companies/삼성SDS) — 삼성그룹 IT서비스·물류 (stub).
 - [LG CNS](/companies/LG_CNS) — LG그룹 IT서비스 (stub).
 - [미래아이앤지](/companies/미래아이앤지) — 금융 IT(SWIFT·AML 솔루션)·B&E 사업 중소형사. 2025년 별도 매출 141억·영업이익 38억(지분법손실로 순손실).
+- [DB Inc.](/companies/DB Inc.) — DB그룹 계열 IT서비스(SI/ITO)·상사(무역)·브랜드 사업 겸영. 2025년 연결 매출 6,435억원(IT서비스 비중 56.2%).
 
 ## 경쟁 구도
 

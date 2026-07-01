@@ -1,6 +1,6 @@
 # 분석 결과물 (outputs\)
 
-* [작업 핸드오프 — 2026-07-01 (백필 완료 + 인제스트 IG4까지)](/outputs/handoff-2026-07-01) - 다른 PC에서 KOSPI/KOSDAQ 인제스트/백필 작업을 재개하기 위한 진행상황·재개절차·미해결 항목 정리
+* [작업 핸드오프 — 2026-07-01 (백필 완료 + 인제스트 IG5까지)](/outputs/handoff-2026-07-01) - 다른 PC에서 KOSPI/KOSDAQ 인제스트/백필 작업을 재개하기 위한 진행상황·재개절차·미해결 항목 정리
 * [Product·Financial Product 인제스트 누락 분석 및 재개 옵션](/outputs/ingest-scope-products-gap-2026-06-29) - KOSPI 배치 인제스트(347/833) 동안 products·financial_products·ratings 타입이 거의 갱신되지 않은 원인과 보완 선택지
 * [ingest-tracker-KOSPI](/outputs/ingest-tracker-KOSPI)
 * [ingest-tracker-local](/outputs/ingest-tracker-local)

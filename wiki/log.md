@@ -990,3 +990,5 @@
 **Handoff** 2026-07-01 — 사용자 요청으로 IG배치3까지 정리 후 작업 중단(다른 PC에서 재개 예정). 인제스트 356/833, 잔여 477. IG배치4(CJ씨푸드·롯데케미칼·HMM 011150~011200) 시작했다가 중단, 부분 생성 파일 삭제하여 IG3 상태로 복원. 재개 정본 문서 wiki/outputs/handoff-2026-07-01.md 작성(클론·재다운로드·재개 루프·미해결 항목·환경 주의 포함). 백필 트랙은 353/353 완료 상태.
 
 **Ingest(IG)** 롯데케미칼·CJ씨푸드·HMM·3S·AJ네트웍스·APS·디이엔티·AP시스템·AP위성·BGF·BGF리테일·BGF에코머티리얼즈 Full 인제스트 (source: AnnualReport_MD 로컬 아카이브)
+
+**Ingest(IG)** BNK금융지주·CG인바이츠·CJ CGV·CJ ENM·CJ 바이오사이언스·CJ제일제당·CJ프레시웨이·CMG제약·CNT85·씨에스·CSA 코스믹·DB Inc. Full 인제스트 (source: AnnualReport_MD 로컬 아카이브, 인터럽트 후 재개)
