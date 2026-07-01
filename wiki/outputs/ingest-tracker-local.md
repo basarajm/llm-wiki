@@ -1,31 +1,21 @@
 # 로컬 아카이브(AnnualReport_MD) 인제스트 트래커
 
 - 아카이브 회사 수: **2736건** (source_documents/AnnualReport_MD/, 각 머신에 로컬 배치 필요·git 미포함)
-- 완료(done, Full): **366건**
-- 대기(pending): **2370건** (이 중 stub→Full 승급 대상 109건)
+- 완료(done, Full): **376건**
+- 대기(pending): **2360건** (이 중 stub→Full 승급 대상 115건)
 
 > done 기준: wiki/companies/<회사>.md 가 존재하고 is_stub:false.
 > 이 파일은 `python dart_pipeline/local_archive_status.py` 로 재생성됩니다.
 > 다음 N개사 산출: `python dart_pipeline/local_archive_status.py --next N`
 
-## ⏳ 대기 (상위 50건, 전체 2370건)
+## ⏳ 대기 (상위 50건, 전체 2360건)
 
 - APS이노베이션 — `source_documents/AnnualReport_MD/APS이노베이션-사업보고서-2024.12.md`
 - CS — `source_documents/AnnualReport_MD/CS-사업보고서-2025.12.md`
 - DB — `source_documents/AnnualReport_MD/DB-사업보고서-2025.12.md`
-- DB증권 — `source_documents/AnnualReport_MD/DB증권-사업보고서-2025.12.md`
 - DGI — `source_documents/AnnualReport_MD/DGI-사업보고서-2025.12.md`
 - DH오토넥스 — `source_documents/AnnualReport_MD/DH오토넥스-사업보고서-2025.12.md`
-- DH오토리드 — `source_documents/AnnualReport_MD/DH오토리드-사업보고서-2025.12.md`
-- DKME — `source_documents/AnnualReport_MD/DKME-사업보고서-2025.12.md`
-- DL이앤씨 — `source_documents/AnnualReport_MD/DL이앤씨-사업보고서-2025.12.md`
-- DMS — `source_documents/AnnualReport_MD/DMS-사업보고서-2025.12.md`
-- DSC인베스트먼트 — `source_documents/AnnualReport_MD/DSC인베스트먼트-사업보고서-2025.12.md`
-- DSR — `source_documents/AnnualReport_MD/DSR-사업보고서-2025.12.md`
-- DSR제강 — `source_documents/AnnualReport_MD/DSR제강-사업보고서-2025.12.md`
-- DS단석 — `source_documents/AnnualReport_MD/DS단석-사업보고서-2025.12.md`
 - DXVX — `source_documents/AnnualReport_MD/DXVX-사업보고서-2025.12.md`
-- DYP — `source_documents/AnnualReport_MD/DYP-사업보고서-2025.12.md`
 - E1 — `source_documents/AnnualReport_MD/E1-사업보고서-2025.12.md`
 - E8 — `source_documents/AnnualReport_MD/E8-사업보고서-2025.12.md`
 - EDGC — `source_documents/AnnualReport_MD/EDGC-사업보고서-2025.12.md`
@@ -60,3 +50,13 @@
 - HJ중공업 — `source_documents/AnnualReport_MD/HJ중공업-사업보고서-2025.12.md`
 - HK이노엔 — `source_documents/AnnualReport_MD/HK이노엔-사업보고서-2025.12.md`
 - HL D&I — `source_documents/AnnualReport_MD/HL D&I-사업보고서-2025.12.md`
+- HLB — `source_documents/AnnualReport_MD/HLB-사업보고서-2025.12.md`
+- HLB바이오스텝 — `source_documents/AnnualReport_MD/HLB바이오스텝-사업보고서-2025.12.md`
+- HLB생명과학 — `source_documents/AnnualReport_MD/HLB생명과학-사업보고서-2025.12.md`
+- HLB이노베이션 — `source_documents/AnnualReport_MD/HLB이노베이션-사업보고서-2025.12.md`
+- HLB제넥스 — `source_documents/AnnualReport_MD/HLB제넥스-사업보고서-2025.12.md`
+- HLB제약 — `source_documents/AnnualReport_MD/HLB제약-사업보고서-2025.12.md`
+- HLB테라퓨틱스 — `source_documents/AnnualReport_MD/HLB테라퓨틱스-사업보고서-2025.12.md`
+- HLB파나진 — `source_documents/AnnualReport_MD/HLB파나진-사업보고서-2025.12.md`
+- HLB펩 — `source_documents/AnnualReport_MD/HLB펩-사업보고서-2025.12.md`
+- HL만도 — `source_documents/AnnualReport_MD/HL만도-사업보고서-2025.12.md`
