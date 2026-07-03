@@ -29,8 +29,7 @@ HS효성 연결 종속회사 HS Hyosung USA, Inc.(미국 Decatur 소재) 등이 
 
 ## 주요 제품·서비스
 
-- 타이어코드, 카페트 등 (HS Hyosung USA, Inc.)
-- → [금융자동화기기](/products/금융자동화기기) 등 타 계열 제품과 구분되는 순수 산업자재 라인
+- [타이어보강재](/products/타이어보강재)(타이어코드), 카페트 등 (HS Hyosung USA, Inc.)
 
 ## 경쟁 현황
 

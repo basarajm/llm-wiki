@@ -34,6 +34,7 @@
 * [BYC](/companies/BYC) - 80년 역사의 국내 대표 내의(이너웨어) 전문기업이자 대규모 보유부동산 임대수익을 가진 자산주 (KOSPI 001460)
 * [Carhartt](/companies/Carhartt) - 미국의 워크웨어 의류 브랜드로 TP의 의류 OEM 주요 바이어
 * [CG인바이츠](/companies/CG인바이츠) - 유전체/신약 개발과 AI헬스케어솔루션, 온열패치 제조를 영위하는 코스닥 상장 바이오 기업 (구 크리스탈지노믹스)
+* [Chery](/companies/Chery) - 중국 체리자동차 — 에이치엘만도의 중국 로컬 완성차 고객
 * [Cinemark](/companies/Cinemark) - 미국 주요 극장체인 — CJ 4DPLEX의 4DX·SCREEN X 기술특별관 공급 계약 고객사
 * [Cinepolis](/companies/Cinepolis) - 멕시코 기반 글로벌 극장체인 — CJ 4DPLEX의 4DX·SCREEN X 기술특별관 공급 계약 고객사
 * [CJ CGV](/companies/CJ CGV) - 국내 최초 멀티플렉스 영화관 도입 기업 — 한국·중국·베트남·인도네시아·튀르키예 5개국에서 극장·기술특별관(4DX·SCREEN X)·IT서비스 사업을 영위 (KOSPI 079160)
@@ -89,7 +90,9 @@
 * [ESR켄달스퀘어리츠](/companies/ESR켄달스퀘어리츠) - 물류센터 특화 KOSPI 상장 위탁관리부동산투자회사(REIT), 전국 21개 물류센터에 자회사·수익증권을 통해 간접 투자, 자산총계 약 2조 8,358억원
 * [F&F](/companies/F&F) - F&F그룹의 패션사업 핵심 자회사 — MLB·DISCOVERY·SUPRA·SERGIO TACCHINI 등 글로벌 브랜드 전개
 * [F&F홀딩스](/companies/F&F홀딩스) - F&F그룹의 지주회사로, 패션 자회사 F&F(MLB·DISCOVERY)의 지분 관리와 상표권 라이선스를 영위
+* [Fiat](/companies/Fiat) - 이탈리아 피아트(스텔란티스 계열) — 에이치엘만도의 유럽 완성차 고객 다변화 대상 OEM
 * [Ficosa](/companies/Ficosa) - 스페인계 자동차 비전·커넥티비티 부품사 — 아진전자부품의 해외 수출 거래처
+* [Ford](/companies/Ford) - 미국 포드자동차 — 에이치엘만도의 주요 글로벌 완성차 고객사(북미 OEM)
 * [GAP](/companies/GAP) - 미국 의류 소매기업, 윌비스 섬유부문 주요 바이어 (OLD NAVY 포함)
 * [GKL](/companies/GKL) - 서울·부산에서 외국인 전용 카지노 3개 사업장을 운영하는 한국관광공사 자회사 겸 코스피 상장 공기업
 * [Glencore](/companies/Glencore) - 스위스 기반 글로벌 광산·원자재 트레이딩 기업
@@ -233,6 +236,7 @@
 * [Oxford Vacmedix](/companies/Oxford_Vacmedix) - 영국 소재 재조합 중복펩타이드(ROP) 백신 기술 보유 관계회사, 디엑스앤브이엑스에 OVM-200 항암백신 기술 라이선스 제공
 * [Phillips 66](/companies/Phillips 66) - 미국계 글로벌 정유·에너지 기업, DS단석의 SAF 전처리 제품 대형 공급계약 상대방
 * [PT.DUA KUDA](/companies/PT.DUA KUDA) - DS단석 플라스틱 리사이클 사업부의 주요 원재료(스테아린산 외) 매입처
+* [Renault](/companies/Renault) - 프랑스 르노 — 에이치엘만도의 유럽 완성차 고객 다변화 대상 OEM
 * [Roivant Sciences](/companies/Roivant Sciences) - 한올바이오파마 HL161 계열 항체신약 라이선스 계약 상대방이자 Immunovant 모회사 (스위스/미국)
 * [Saudi Aramco](/companies/Saudi Aramco) - 사우디아라비아 국영 석유회사 — S-Oil의 최종 지배기업이자 원유 공급사
 * [SBVA](/companies/SBVA) - 국내 VC 운용자산(AUM) 기준 2위 벤처투자회사(구 소프트뱅크벤처스)
@@ -266,6 +270,7 @@
 * [Stellantis](/companies/Stellantis) - 다국적 완성차 그룹, 삼성SDI와 미국 StarPlus Energy 배터리 합작
 * [SUN&L](/companies/SUN&L) - 합판·MDF 등 목재 유통, 인테리어(도어·가구), 생활용품(플라스틱 용기)을 영위하는 종합소재 기업 (구 선창산업, KOSPI 002820)
 * [TARGET](/companies/TARGET) - 미국의 대형 종합 유통기업으로 TP의 의류 OEM 주요 바이어
+* [TATA](/companies/TATA) - 인도 타타자동차 — 에이치엘만도의 인도 로컬 완성차 고객
 * [TCC스틸](/companies/TCC스틸) - 주석도금강판·니켈도금강판 등 표면처리강판 제조 전문 KOSPI 상장 철강사 (구 TCC동양, KOSPI 002710)
 * [THE CHILDREN'S PLACE](/companies/THE CHILDRENS PLACE) - 미국 아동의류 소매기업, 윌비스 섬유부문 주요 바이어
 * [THE WILLBES DOMINCANA INC.](/companies/THE WILLBES DOMINCANA) - 윌비스의 도미니카공화국 봉제 생산법인
@@ -278,6 +283,8 @@
 * [TY홀딩스](/companies/TY홀딩스) - 태영그룹의 지주회사(㈜티와이홀딩스), 태영건설 등 계열사 지분 관리·투자 (KOSPI 363280)
 * [Vale International](/companies/Vale_International) - 브라질 광산기업 Vale S.A.의 국제 무역 자회사 — HMM과 철광석 장기운송계약을 체결한 벌크 부문 주요 고객사
 * [VGXI, Inc.](/companies/VGXI) - 진원생명과학의 미국 자회사 — 플라스미드 DNA·mRNA CDMO 생산기업
+* [Volkswagen](/companies/Volkswagen) - 독일 폭스바겐 — 에이치엘만도의 유럽 완성차 고객 다변화 대상 OEM
+* [Volvo](/companies/Volvo) - 스웨덴 볼보자동차 — 에이치엘만도의 유럽 완성차 고객 다변화 대상 OEM
 * [Yamaha](/companies/Yamaha) - 일본 음향기기·악기 기업 — 아남전자의 ODM 고객사
 * [ZF](/companies/ZF) - 독일계 글로벌 자동차부품 제조사(조향·구동·안전시스템), DH오토리드의 해외 경쟁사
 * [ZF Friedrichshafen AG](/companies/ZF_Friedrichshafen_AG) - 독일 자동차·산업기계 부품 제조사 — HD건설기계에 Wheel Loader 핵심 유압부품(Main Control Valve) 공급
@@ -434,6 +441,7 @@
 * [롯데케미칼](/companies/롯데케미칼) - 롯데그룹 화학군 핵심 석유화학 기업 — 기초화학·첨단소재·정밀화학·전지소재 사업 영위 (KOSPI 011170)
 * [마이크론](/companies/마이크론) - 미국의 메모리 반도체 제조사 — DRAM·NAND·HBM (Micron Technology)
 * [마진산업](/companies/마진산업) - 선도전기㈜의 7.41% 지분을 보유한 특수관계인 법인
+* [마힌드라](/companies/마힌드라) - 인도 마힌드라&마힌드라(M&M) — 에이치엘만도의 인도 로컬 완성차 고객
 * [막스코](/companies/막스코) - LF와 International Fashion Trading S.a.r.l의 합작사 — 막스마라 브랜드 국내 유통
 * [만호제강](/companies/만호제강) - 와이어로프·특수강선·섬유로프 제조 전문기업 (KOSPI 001080, 의견거절로 거래정지 중)
 * [매직홀딩스](/companies/매직홀딩스) - 한국특강의 최대주주(지분 38.49%)인 비상장 지주회사
@@ -661,6 +669,7 @@
 * [에프앤에프로지스틱스](/companies/에프앤에프로지스틱스) - F&F홀딩스의 물류 아웃소싱 종속회사 — 이천 물류센터 기반 종합물류서비스
 * [에프앤에프차이나](/companies/에프앤에프차이나) - F&F의 중국 의류 도소매·수출입 종속회사
 * [에프앤에프파트너스](/companies/에프앤에프파트너스) - F&F홀딩스 그룹의 신기술사업금융·스타트업 투자 종속회사
+* [(주)에프앤코](/companies/에프앤코) - F&F그룹 계열사로, F&F홀딩스 지분 4.84%를 보유한 비상장 특수관계인 법인
 * [에프엠씨코리아](/companies/에프엠씨코리아) - FMC Korea — 글로벌 농화학사 FMC의 국내 법인, 동방아그로 원제 공급사
 * [엔투텍](/companies/엔투텍) - 에이프로젠그룹 연결 종속회사 — 반도체 장비 부품 제조·판매
 * [엔피씨](/companies/엔피씨) - 1965년 설립된 국내 최대 플라스틱 사출성형 기업 — 산업용 파렛트·컨테이너·물류기자재 제조·렌탈 (구 내쇼날푸라스틱, KOSPI 004250)
@@ -772,6 +781,7 @@
 * [종근당홀딩스](/companies/종근당홀딩스) - 종근당그룹의 지주회사 — 경영자문료·브랜드사용료·배당금수익으로 종근당·경보제약·종근당바이오·종근당건강 등 자회사를 관리 (KOSPI 001630)
 * [주성엔지니어링](/companies/주성엔지니어링) - 반도체·태양전지·디스플레이용 ALD/CVD 증착장비 전문 제조기업 (KOSDAQ 036930)
 * [중앙레미콘](/companies/중앙레미콘) - 레미콘 제조·판매업, 아이에스동서 콘크리트사업부문 비상장 종속회사
+* [지리기차](/companies/지리기차) - 중국 지리기차(Geely) — 에이치엘만도의 중국 로컬 완성차 고객(합작사 경로 포함)
 * [지엠티홀딩스](/companies/지엠티홀딩스) - DN오토모티브 그룹의 공작기계 지주성 종속회사 (디엔솔루션즈 인수 주체)
 * [지오영](/companies/지오영) - 국내 최대 규모의 의약품 도매·유통 기업 (대원제약 제약부문 단일 최대 고객)
 * [지케이엘위드](/companies/지케이엘위드) - GKL이 지분 100% 보유한 카지노 영업장 운영 서비스업 종속회사
