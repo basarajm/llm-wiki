@@ -2,7 +2,78 @@
 
 ## 2026-07-03
 
+**Ingest** 금호타이어-사업보고서-2025.12 (source_documents/AnnualReport_MD, 제23기) Full 인제스트.
+wiki/companies/금호타이어.md 기존 stub(SIMPAC·다이나믹디자인 거래상대방 언급 기반)을 정식 Company
+페이지로 승격 (KOSPI 073240, market_page /markets/KOSPI, is_stub: false). 2025년 연결 매출액
+4조 7,013억원(+3.7% YoY), 영업이익 5,759억원(-2.2% YoY), 당기순이익 3,768억원(+7.2% YoY, 지배기업
+소유주 귀속 3,474억원). 최대주주는 싱웨이코리아 주식회사(45.00%, 중국 더블스타그룹 Doublestar Group
+계열), 2대주주 한국산업은행(7.43%). 대표이사 정일택(사장, 사내이사). 한국·중국(3개)·미국·베트남
+8개 생산공장, 2025년 9월 폴란드 신공장(Kumho Tire Poland) 설립. 2025년 광주공장 화재로 국내
+생산실적 전년 대비 약 25% 감소 영향 확인. 신규: sources/금호타이어_2025_사업보고서.md,
+segments/금호타이어_타이어부문.md(매출 99.9% 비중), value_chain/금호타이어_밸류체인.md(원재료
+공급사 금호석유화학·LG화학·효성·코오롱 등 기존 페이지 링크), products/금호타이어_승용차용_타이어.md
+(Kumho·Marshal 브랜드, EnnoV 전기차 타이어), ratings/금호타이어_신용등급.md(회사채 A, 한국기업평가·
+NICE신용평가 2025.04), executives 3종(정일택 — 대표이사, 차이용션 — 기타비상무이사·더블스타그룹
+회장, 장쥔화 — 기타비상무이사·더블스타그룹 CEO), shareholders/싱웨이코리아.md(최대주주 45%, 기업
+페이지 양방향 링크), companies stub 2종(싱웨이코리아 — 비상장 투자회사, 더블스타그룹 — 중국
+최상위 지배회사). 기존 페이지 갱신: shareholders/한국산업은행.md(금호타이어 7.43% 보유 종목 추가).
+Corporate Group 페이지는 미생성(공정위 계열회사 현황표 미기재 — 국내 기업집단 소속 아님, 최상위
+지배회사는 해외 비상장 기업집단). 갱신: markets/KOSPI.md(금호타이어 073240 상장기업 목록 추가),
+wiki/index.md(신규 페이지 전건 반영, 병행 세션 편집과의 충돌 재조회 후 재시도로 해결, 중복 라인
+정리). 신규 페이지 총 11건(company 승격 1 + sources 1 + segments 1 + value_chain 1 + products 1 +
+ratings 1 + executives 3 + shareholders 1 + companies stub 2) + 기존 페이지 갱신 1건
+(shareholders/한국산업은행.md) + 공유 페이지 갱신 2건(markets/KOSPI.md, wiki/index.md).
+
+---
+
+**Ingest** 대한조선-사업보고서-2025.12 (source_documents/AnnualReport_MD, 제39기) Full 인제스트. wiki/companies/대한조선.md 신규 생성(기존 페이지·stub 없음 확인, KOSPI 460850, market_page /markets/KOSPI, group /groups/케이에이치아이, is_stub: false). 1987년 신영조선공업으로 설립, 2004년 대한조선으로 상호변경, 2008년 금융위기 이후 워크아웃·기업회생절차(2014~2015)를 거쳐 2024년 말 회생채무 전액 변제 완료, 2025년 8월 코스피 상장. 수에즈막스·아프라막스급 원유운반선·정유운반선·셔틀탱커·8,000TEU급 컨테이너선 건조 조선업체. 신규: sources/대한조선 2025 사업보고서.md, companies/대한조선.md, 신규 Corporate Group groups/케이에이치아이.md(동일인 김광호, 21개 계열사), value_chain/대한조선_밸류체인.md(공급사 현대제철·HD현대중공업 등, 고객 집중도 높음 — 상위 고객 매출비중 85.8%), products/원유운반선(대한조선).md(Suezmax 세계 2위, Aframax 세계 1위 실적), shareholders/케이에이치아이.md(최대주주 46.1%, 기업 페이지 양방향 링크), executives 3종(이석문 — 대표이사 관리부문, 왕삼동 — 대표이사 사업부문, 차국진 — 사외이사·감사위원장 회계재무전문가), companies stub 7종(케이에이치아이 — 최대주주 비상장 지주, 포스텍·포스텍서비스 — 내부거래 계열사, 스테프코리아·동일기업·범양산업·윌트론 — 소수지분 보유 계열사). Credit Rating 페이지는 미생성(사업보고서 내 신용평가에 관한 사항 해당사항 없음 명시 확인). 갱신: markets/KOSPI.md(대한조선 460850 상장기업 목록 추가), wiki/index.md(신규 페이지 전건 반영 확인, 병행 세션 build-index 재실행으로 이미 반영됨 확인). 핵심 수치(연결, 제39기 2025년): 매출액 1조 2,281억원(+14.2% YoY), 영업이익 2,941억원(+86.0% YoY), 당기순이익 2,488억원(+44.1% YoY), 자산총계 1조 5,381억원, 자본총계 1조 924억원(+140.9% YoY, IPO 유상증자 반영). 최대주주 (주)케이에이치아이 46.1%(특수관계인 포함 47.7%). 신규 페이지 총 15건(company 1 + sources 1 + group 1 + value_chain 1 + products 1 + shareholders 1 + executives 3 + companies stub 7) + 공유 페이지 갱신 2건(markets/KOSPI.md, wiki/index.md). 병행 인제스트 세션과의 공유 파일 편집은 재조회 후 재시도로 충돌 없이 처리.
+
+---
+
+**Ingest** 대우건설-사업보고서-2025.12 (source_documents/AnnualReport_MD, 제26기) Full 인제스트.
+wiki/companies/대우건설.md 기존 stub(NI스틸 거래상대방 언급 기반)을 정식 Company 페이지로 승격
+(KOSPI 047040, market_page /markets/KOSPI, group /groups/중흥그룹, is_stub: false). 2025년 연결 매출
+8조 546억 원(전년 10조 504억), 영업손실 8,154억 원(전년 영업이익 4,031억 원), 순손실 9,161억 원으로
+토목부문 해외 프로젝트 손실 영향 적자 전환. 최대주주는 중흥토건㈜(40.60%), 특수관계인 중흥건설㈜(10.15%)
+포함 합산 50.75%. 대표이사 김보현(사장, 사내이사). 신규: sources/대우건설_2025_사업보고서.md,
+신규 Corporate Group groups/중흥그룹.md(동일인 정원주), segments 4종(토목·건축·플랜트·기타부문),
+value_chain/대우건설_밸류체인.md, ratings/대우건설_신용등급.md(무보증사채 A, CP/전단채 A2, 2023~2025
+등급 유지), shareholders 2종 신규(중흥토건㈜ — 최대주주 40.60%, 중흥건설㈜ — 10.15%) + 기존
+국민연금공단.md에 대우건설 5.43% 보유 종목 추가, executives 3종 신규(김보현 — 대표이사 사장,
+김재웅 — 사외이사·감사위원, 김재중 — 사외이사·신세계인터내셔날 사외이사 겸직). markets/KOSPI.md
+상장기업 목록에 대우건설 추가. wiki/index.md 전 섹션(companies·groups·shareholders·value_chain·
+segments·executives·ratings·sources) 갱신. 신규 페이지 12개 생성, 기존 페이지 3개(대우건설.md,
+국민연금공단.md, markets/KOSPI.md) 갱신.
+
+**Ingest** 대상홀딩스-사업보고서-2025.12 (source_documents/AnnualReport_MD, 제21기) Full 인제스트.
+wiki/companies/대상홀딩스.md 신규 생성(기존 페이지·stub 없음 확인, KOSPI, market_page /markets/KOSPI,
+group /groups/대상그룹, is_stub: false). 2005년 8월 1일 대상㈜에서 인적분할하여 설립된 순수지주회사로,
+같은 해 8월 17일 유가증권시장 상장. 자회사 자금·업무지원·상표권 관리 등을 영위하며 연결대상 종속회사
+48개사(상장 1개사 대상㈜, 비상장 47개사)를 지배. 신규: sources/대상홀딩스_2025_사업보고서.md,
+companies/대상홀딩스.md, 신규 Corporate Group groups/대상그룹.md(동일인 임상민, 지주회사 대상홀딩스),
+segments/대상홀딩스_지주사업부문.md, ratings/대상홀딩스 신용등급.md(NICE신용평가·한신평 AA-, 2021~2025
+전 기간 등급 유지), shareholders 2종(임상민 — 36.71% 최대주주, 임세령 — 20.41% 특수관계인·대상㈜ 부회장
+겸 0.46% 주주), executives 3종(임창욱 — 대표이사 회장, 최성수 — 대표이사, 임세령 — 부회장·대상㈜ 부회장
+겸직), companies stub 10종(대상건설·대상정보기술·대상커뮤니케이션즈·대상웰라이프·대상네트웍스·대상셀진·
+혜성프로비젼·대상펫라이프·마이크로알지에스크어스·홍보에너지 — 비상장 계열사). 기존 wiki/companies/대상.md
+갱신(group_todo → group: /groups/대상그룹, 대상홀딩스·임세령·임상민 상호링크 보강). 기존
+executives/임정배.md 갱신(대상홀딩스 기타비상무이사 겸직 명시). 갱신: markets/KOSPI.md(대상홀딩스 상장기업
+목록 추가), wiki/index.md(engine/scripts/build-index.ps1 재실행으로 전체 반영). 핵심 수치(연결, 제21기
+2025년): 매출액 56,288억원(+5.1% YoY), 영업이익 1,998억원(+8.6% YoY), 당기순이익(지배주주)
+-1,069억원(전기 204억원에서 적자전환, 자회사 대상㈜의 공정거래위원회 과징금 충당부채 인식 영향으로 추정).
+별도(개별) 기준 당기순이익은 101억원으로 전기(95억원) 대비 증가. 최대주주 임상민(보통주 36.71%), 특수관계인
+포함 합계 67.30%. 신규 페이지 총 18건(company 1 + sources 1 + group 1 + segments 1 + ratings 1 +
+shareholders 2 + executives 3 + companies stub 10) + 기존 페이지 갱신 2건(companies/대상.md,
+executives/임정배.md) + 공유 페이지 갱신 2건(markets/KOSPI.md, wiki/index.md). 병행 인제스트 세션과의
+공유 파일 편집 시 재조회 후 재시도로 충돌 없이 처리.
+
+---
+
 **Ingest(IG17)** KOSPI 로컬 아카이브 Full 인제스트 12개사 후속 정리 완료. 대상 12개사: 까뮤이앤씨(013700)·기신정기·기업은행(024110)·금호에이치티(084370)·대교(019680)·노루페인트(090350)·넥스틸(092790)·다스코(033100)·키움증권(039490)·달바글로벌(532940)·다이나믹디자인(043370)·다올투자증권(030210). 확인·완료 항목: (1) markets/KOSPI.md — 12개사 전건 상장기업 목록 반영 확인; (2) groups/index.md·groups/ — 신규 5개 기업집단 반영 확인(IBK기업은행·노루그룹·다우키움그룹·대교그룹·베이스그룹); (3) shareholders 양방향 링크 — 국민연금공단·대한민국정부·한국산업은행·금호에이치티 등 지분 보유 페이지에 기업 페이지 링크 보강 확인; (4) `engine/scripts/build-index.ps1` 실행으로 wiki/index.md 및 디렉토리별 index.md 전체 재생성(210줄 갱신, 신규 companies/executives/groups/products/ratings/segments/shareholders/sources/value_chain 반영). 개별 기업 상세 내역은 각 sources/*_2025_사업보고서.md 및 companies/*.md 참조.
+
+---
+
+**Ingest(IG18)** KOSPI 로컬 아카이브 Full 인제스트 12개사 후속 정리 완료. 대상 12개사: 금호타이어(073240)·남해화학(025860)·넷마블(251270)·농심(004370)·농심홀딩스(072710)·대덕전자(353200)·대상(대상홀딩스 자회사)·대우건설(047040)·대웅제약·신한은행·율촌화학(008730)·한국가스공사. 확인·완료 항목: (1) markets/KOSPI.md — 12개사 전건 상장기업 목록 반영 확인(금호타이어·남해화학·넷마블·농심·농심홀딩스·율촌화학·대덕전자·대상홀딩스·대우건설·대한조선 등 신규 라인 확인); (2) groups/ — 신규·갱신 기업집단 반영 확인(대상그룹·중흥그룹·케이에이치아이·농심 계열 등); (3) shareholders 양방향 링크 — 국민연금공단·한국산업은행·싱웨이코리아·중흥토건·중흥건설·임상민·임세령 등 지분 보유 페이지에 기업 페이지 링크 보강 확인; (4) `engine/scripts/build-index.ps1` 실행으로 wiki/index.md 및 디렉토리별 index.md 전체 재생성(companies·executives·groups·products·ratings·segments·shareholders·sources·value_chain 전 섹션 반영, 213줄 추가). 개별 기업 상세 내역(재무지표·최대주주·경영진·세그먼트 등)은 각 sources/*_2025_사업보고서.md 및 companies/*.md, 그리고 위 로그의 개별 Ingest 항목(금호타이어·대한조선·대우건설·대상홀딩스) 참조.
 
 ---
 
@@ -1418,3 +1489,53 @@
 - 갱신: markets/KOSPI.md(상장기업 목록에 까뮤이앤씨 013700 추가), wiki/index.md(companies·groups·shareholders·segments·value_chain·executives·ratings·sources 8개 섹션 반영). 병행 인제스트 세션과의 공유 파일 편집 충돌 다수 발생 → 매 건 재조회 후 병합 적용 및 중복 라인 정리로 해결.
 - 핵심 수치(연결, 제47기 2025년): 매출액 2,974.5억원(+14.2% YoY), 영업이익 238.5억원(흑자전환, 전기 영업손실 -181.0억원), 당기순이익 200.3억원(흑자전환, 전기 순손실 -219.2억원). 별도 기준 매출 2,345.9억원(+13%), 영업이익 257.8억원, 당기순이익 200.7억원. 최대주주는 (주)베이스 44.74%(특수관계인 합산 53.66%), 2014년 이후 최대주주 변경 없음. 2025.12.31 이은규 각자대표이사 사임으로 손병재 단독 대표이사 체제 전환.
 - 신규 페이지 총 13개(회사 1 + sources 1 + groups 1 + segments 2 + value_chain 1 + executives 2 + shareholders 3 + ratings 1 + companies stub 2) — Financial Product·Industry 페이지는 금융업 아님 및 기존 산업 페이지 부재로 생성 보류(건설업 Industry 페이지는 추후 검토 필요).
+
+**Ingest** 넷마블-사업보고서-2025.12 (source_documents/AnnualReport_MD, 제15기) Full 인제스트. wiki/companies/넷마블.md 기존 stub(CJ ENM PRS 기초자산 stub, is_stub: true)을 정식 페이지로 승격(KOSPI 251270, market_page /markets/KOSPI, group /groups/넷마블). 2011년 씨제이게임즈㈜로 설립, 2017년 유가증권시장 상장, 2018년 현재 사명으로 변경. 모바일게임 개발·퍼블리싱 전문 기업.
+- 신규: sources/넷마블_2025_사업보고서.md, groups/넷마블.md(신규 그룹 페이지, 상장2·비상장28개사), segments/넷마블_모바일게임.md(매출비중 91.97%), value_chain/넷마블_밸류체인.md, products 2종(세븐나이츠 리버스·MARVEL Contest of Champions), executives 2종(방준혁 이사회 의장·김병규 대표이사), shareholders/방준혁.md(최대주주 24.12%), ratings/넷마블_신용등급.md(회사채 A+·기업어음 A2+), companies stub 1종(코웨이 — 방준혁 겸직).
+- 갱신: companies/넷마블.md(stub→정식 승격), companies/엔씨소프트.md(넷마블 지분 6.80% 보유 역링크 추가), markets/KOSPI.md(상장기업 목록에 넷마블 251270 추가), wiki/index.md(companies·groups·shareholders·segments·value_chain·products·executives·ratings 섹션 반영, sources 섹션은 병행 세션과의 반복적 편집 충돌로 일부 미반영 가능 — 후속 재확인 필요).
+- 핵심 수치(연결, 제15기 2025년): 매출액 2조 8,351억원(+6.4% YoY), 영업이익 3,525억원(+63.5%, 2년 연속 흑자 확대), 당기순이익(지배지분) 2,250억원(전기 256억원 대비 대폭 개선). 별도 기준 매출 1조 3,704억원, 영업이익 548억원, 당기순이익 2,095억원. 최대주주는 방준혁 24.12%(개인), 특수관계인 합산 24.16%. 주요 주주로 HAN RIVER INVESTMENT PTE. LTD. 17.52%, CJ ENM 16.78%, 엔씨소프트 6.80%, 국민연금공단 6.10%.
+- 신규 페이지 총 12개(회사 1[stub 승격] + sources 1 + groups 1 + segments 1 + value_chain 1 + products 2 + executives 2 + shareholders 1 + ratings 1 + companies stub 1) — Financial Product·Industry 페이지는 금융업 아님 및 게임 산업 페이지 부재로 생성 보류(게임 Industry 페이지는 추후 검토 필요). 병행 인제스트 세션과 wiki/index.md 편집 시 다수 재조회 후 병합 시도.
+
+## 2026-07-03
+
+**Ingest** 대덕전자-사업보고서-2025.12 (source_documents/AnnualReport_MD, 제6기) Full 인제스트. wiki/companies/대덕전자.md 기존 stub(is_stub: true)을 정식 페이지로 승격(KOSPI 353200, market_page /markets/KOSPI, group /groups/대덕).
+- 신규: sources/대덕전자_2025_사업보고서.md, segments/대덕전자_PCB사업부문.md(매출비중 100%), products/대덕전자_반도체패키지기판.md(FCBGA 등, 국내 5개사 시장점유율 비교), value_chain/대덕전자_밸류체인.md, executives 4종(신영환·배영근·정승부·박찬호_대덕전자), shareholders/대덕.md(최대주주 31.46%), ratings/대덕전자_신용등급.md(A-, 이크레더블), companies stub 3종(Daeduck Vietnam·DD USA·Daeduck Electronics(SHANGHAI) — 해외 종속회사).
+- 갱신: companies/대덕전자.md(stub→정식 승격), shareholders/국민연금공단.md(대덕전자 12.03% 보유 역링크 추가), wiki/index.md(companies·products·segments·value_chain·executives·shareholders·ratings·sources 섹션 반영).
+- 핵심 수치(연결, 제6기 2025년): 매출액 1조 653억원(+19.4% YoY), 영업이익 491억원(+335.7%, 전년 113억원 대비 약 4.4배 증가), 당기순이익 476억원(+100.4%). 영업이익률 4.6%(전년 1.3%). 별도 기준 매출 1조 647억원, 영업이익 488억원, 순이익 466억원. 최대주주는 ㈜대덕 31.46%(대덕그룹 지주회사), 5% 이상 주주로 국민연금공단 12.03%. 신용등급 A-(이크레더블, 2025.09.19).
+- 신규 페이지 총 11개(sources 1 + segments 1 + products 1 + value_chain 1 + executives 4 + shareholders 1 + ratings 1 + companies stub 3, 회사 페이지는 stub 승격이라 신규 카운트 제외) — 대덕그룹(groups/대덕.md)·지주회사(companies/대덕.md)는 기존 페이지 존재하여 상호링크만 확인, 그룹 계열사 목록에 이미 대덕전자 포함되어 있음을 확인.
+
+**Ingest** 대웅제약-사업보고서-2025.12 (source_documents/AnnualReport_MD, 제24기) Full 인제스트. wiki/companies/대웅제약.md 기존 stub(is_stub: true, 한올바이오파마 보고서 인용 기반)을 자체 사업보고서 기준 정식 페이지로 승격(KOSPI 069620, market_page /markets/KOSPI, group /groups/대웅그룹).
+- 신규: sources/대웅제약_2025_사업보고서.md, segments/대웅제약_의약품.md(매출비중 96%), value_chain/대웅제약_밸류체인.md, products 3종(나보타·펙수클루·우루사), executives 2종(이창재·박성수 각자대표이사), shareholders/대웅재단.md(5% 이상 주주 8.62%), ratings/대웅제약_신용등급.md(한국기업평가·NICE신용평가 회사채 A+ Stable), companies stub 9종(에볼루스[나보타 미국 파트너]·다나아데이터·대웅펫·대웅테라퓨틱스·아피셀테라퓨틱스·아이엔테라퓨틱스[연결제외 관계기업 전환]·에이스바이오팜·나르샤팜·이지바이오팜[원료의약품 공급사]).
+- 갱신: shareholders/국민연금공단.md(대웅제약 10.32% 보유 항목 추가), groups/대웅그룹.md(대웅제약을 정식 페이지로 링크 전환 및 신규 계열사 stub 링크 보강). wiki/index.md는 병행 build-index 프로세스에 의해 companies·shareholders·segments·value_chain·products·executives·ratings·sources 섹션 전체 반영 확인(수동 편집 불요).
+- 핵심 수치(연결, 제24기 2025년): 매출액 1조 5,709억원(+10.4% YoY), 영업이익 1,968억원(+33.0%), 당기순이익 1,929억원(+726.3%, 전년 저조 기저). 별도 기준 매출 1조 3,910억원(+9.9%), 영업이익 약 2,036억원(+24.3%). 최대주주는 (주)대웅 52.29%(특수관계인 합산 61.34%), 국민연금공단 10.32%, 대웅재단 8.62%. 나보타 연 매출 2,289억원(최초 2,000억원 돌파, 수출비중 84%, 미국 미용톡신 시장점유율 14%), 펙수클루 982억원, 우루사 1,004억원.
+- 신규 페이지 총 16개(회사 1[stub 승격] + sources 1 + segments 1 + value_chain 1 + products 3 + executives 2 + shareholders 1 + ratings 1 + companies stub 9 = 20, Corporate Group·Financial Product 페이지는 기존 대웅그룹 페이지 존재·금융업 아님으로 신규 생성하지 않음). 병행 인제스트 세션과의 공유 파일(index.md 등) 편집 충돌 없이 자동 반영 확인.
+
+**Ingest** 대영포장-사업보고서-2025.12 (source_documents/AnnualReport_MD, 제47기) Full 인제스트. wiki/companies/대영포장.md 신규 생성(기존 페이지·stub 없음 확인, KOSPI 006890, market_page /markets/KOSPI, group /groups/신대양그룹). 1979년 설립, 1990년 유가증권시장 상장, 골판지 원단·상자 일괄 생산·판매 전문업체.
+- 신규: sources/대영포장_2025_사업보고서.md, companies/대영포장.md, groups/신대양그룹.md(신규 그룹 페이지, 상장2·비상장6개사), segments/대영포장_골판지사업.md(단일 사업부문), value_chain/대영포장_밸류체인.md, executives 4종(권혁홍 회장·권택환 부회장·강병은 대표이사·손용수 대표이사), shareholders 3종(신대양제지 45.97%·신대양제지반월 3.26%·광신판지 2.11%), companies stub 9종(신대양제지·신대양제지반월·광신판지·대양제지공업·신대한판지·대양판지·신대양포장[계열사]·태림포장·삼보판지[경쟁사]·세원물산[원재료 공급사]). 신용평가 등급 정보 미확인으로 ratings 페이지는 생성하지 않음.
+- 갱신: markets/KOSPI.md(상장기업 목록에 대영포장 006890 추가), wiki/index.md(companies·groups·shareholders·segments·value_chain·executives·sources 섹션 반영). 병행 인제스트 세션과의 공유 파일 편집 충돌 발생 → 재조회 후 병합 적용으로 해결.
+- 핵심 수치(별도, 제47기 2025년): 매출액 2,837억원(+1.0% YoY), 영업이익 8.8억원(-4.5%, 2년 연속 영업이익률 1% 미만), 당기순이익 15.0억원(흑자전환, 전기 -0.3억원). 최대주주는 신대양제지 45.97%(특수관계인 합산 51.43%). 유형자산 271.7억원 증가(설비투자 확대)로 차입금 증가(단기+장기 약 284억원).
+- 신규 페이지 총 18개(회사 1 + sources 1 + groups 1 + segments 1 + value_chain 1 + executives 4 + shareholders 3 + companies stub 9 — 중복 집계 없이 실질 신규 20개, ratings·products·financial_products는 대상 없음/미확인으로 생성 보류).
+
+**Ingest** 대성홀딩스-사업보고서-2025.12 (source_documents/AnnualReport_MD, 제43기) Full 인제스트. wiki/companies/대성홀딩스.md 신규 생성(기존 페이지·stub 없음 확인, KOSPI 016710, market_page /markets/KOSPI, group /groups/대성그룹(대구)). 1983년 대구도시가스로 설립, 1999년 유가증권시장 상장, 2009년 물적분할 후 현재 상호로 지주회사 전환.
+- 신규: sources/대성홀딩스_2025_사업보고서.md, companies/대성홀딩스.md, groups/대성그룹(대구).md(신규 그룹 페이지 — 기존 groups/대성그룹.md은 2019년 독립경영 인정으로 분리된 별개 기업집단(김영대 계열, 대성산업 중심)임을 확인하고 명확히 구분), segments 2종(경영관리본부·IT사업부), value_chain/대성홀딩스_밸류체인.md, products 2종(도시가스 공급 서비스·IT 시스템 통합·유지보수 서비스), executives 3종(김영훈 대표이사 회장 겸 최대주주 39.90%·김정주 대표이사 부회장·김의한 사장), shareholders/알앤알.md(2대주주 32.84%), ratings/대성홀딩스_신용등급.md(회사채 A+, 한국기업평가·한국신용평가), companies stub 13종(대성에너지·대성청정에너지·대성글로벌네트웍·대성이앤씨·대성창업투자·대성환경에너지[이상 종속회사]·알앤알·코리아닷컴커뮤니케이션즈·㈜대성(비상장)[이상 계열/겸직회사]·대구그린파워·대구그린에너지센터[관계기업]·수협은행·대구은행[신규] / 한국가스공사·신한은행은 기존 stub에 대성홀딩스 관련 내용 보강).
+- 갱신: markets/KOSPI.md(상장기업 목록에 대성홀딩스 016710 추가), wiki/index.md(병행 build-index 프로세스에 의해 전체 섹션 자동 반영 확인, 수동 편집 불요). companies/한국가스공사.md·companies/신한은행.md는 기존 stub 파일 확인 후 대성홀딩스 관련 내용을 추가하는 방식으로 병합(덮어쓰기 없음).
+- 핵심 수치(연결, 제43기 2025년): 매출액 12,226억원(+0.84% YoY), 영업이익 281억원(+20.5%), 당기순이익 223억원(-49.6%, 지배주주순이익 172억원). 별도 기준 당기순이익 -18.5억원 적자전환. 최대주주는 김영훈 39.90%, 2대주주 ㈜알앤알 32.84%(특수관계인 합산 72.74%). 도시가스 관리대행 서비스센터 6개사 2025년 중 청산 완료.
+- 신규 페이지 총 24개(회사 1 + sources 1 + groups 1 + segments 2 + value_chain 1 + products 2 + executives 3 + shareholders 1 + ratings 1 + companies stub 11[순수 신규] = 24, 기존 stub 2종[한국가스공사·신한은행]은 보강만 수행). Financial Product 페이지는 대성홀딩스가 금융업 영위 주체가 아니므로 생성하지 않음.
+
+**Ingest** 농심홀딩스-사업보고서-2025.12 (source_documents/AnnualReport_MD, 제23기) Full 인제스트. wiki/companies/농심홀딩스.md 기존 stub(is_stub: true, 율촌화학 보고서 인용 기반)을 자체 사업보고서 기준 정식 페이지로 승격(KOSPI 072710, market_page /markets/KOSPI, group /groups/농심).
+- 신규: sources/농심홀딩스_2025_사업보고서.md, segments 4종(지주회사투자·제조·엔지니어링·레저 부문), value_chain/농심홀딩스_밸류체인.md, ratings/농심홀딩스 신용등급.md(회사채 AA0·기업어음 A1, 한국신용평가·NICE신용평가·서울신용평가), shareholders 4종(신동원 42.92%·신동윤 13.18%·율촌재단 2.01%·농심근로복지기금 1.44%), executives 5종(박준_농심홀딩스·이석현_농심홀딩스[현대해상 동명이인과 구분]·홍영규 상근감사·장승엽 상무·황청용 사내이사 선임예정), companies stub 5종(세우[2025.8 신규 편입]·농심태경·농심개발·농심엔지니어링·캐처스).
+- 갱신: companies/농심홀딩스.md(stub→정식 승격), companies/농심.md(농심홀딩스 링크 정비), companies/율촌화학.md(최대주주·2대주주 링크 정비), groups/농심.md(계열사 목록·지배구조 섹션에 농심홀딩스·신규 자회사 링크 보강), executives/신동원_농심.md·executives/신동윤.md(농심홀딩스 겸직·주주 페이지 상호링크 추가), markets/KOSPI.md(농심·농심홀딩스·율촌화학 3종 상장기업 목록 추가 — 기존 누락 확인 후 보완).
+- 핵심 수치(연결, 제23기 2025년): 매출액 8,588억원(+7.6% YoY), 영업이익 811억원(-6.4%), 당기순이익(지배주주) 1,146억원(+53.3%, 기타영업외수익 급증 영향). 별도(지주) 기준 매출(배당수익) 317억원, 영업이익 262억원, 순이익 260억원. 최대주주는 신동원 회장 42.92%(특수관계인 합산 66.74%). 2025.8.1 장류·조미식품 제조사 ㈜세우 지분 100% 인수로 자회사 편입. 신용등급 회사채 AA0(안정적), 기업어음 A1.
+- 신규 페이지 총 15개(sources 1 + segments 4 + value_chain 1 + ratings 1 + shareholders 4 + executives 5 + companies stub 5 = 21, 회사 페이지는 stub 승격이라 신규 카운트 제외). 공유 파일(index.md·markets/KOSPI.md·log.md) 편집 시 병렬 세션과의 충돌 없이 반영 확인(index.md는 병행 build-index 프로세스로 이미 최신 상태였음).
+
+**Ingest** 대성산업-사업보고서-2025.12 (source_documents/AnnualReport_MD, 제16기) Full 인제스트. wiki/companies/대성산업.md 신규 생성(기존 페이지·stub 없음 확인, KOSPI 128820, market_page /markets/KOSPI, group /groups/대성그룹, is_stub: false).
+- 신규: sources/대성산업_2025_사업보고서.md, companies/대성산업.md, 신규 Corporate Group groups/대성그룹.md(동일인 김영대 — 기존 대성그룹(대구, 동일인 김영훈) 그룹과는 별개 계열), segments 4종(석유가스부문·전력발전부문·에너지부문·기계부문), value_chain/대성산업_밸류체인.md, products/대성산업_석유_가스.md, ratings/대성산업 신용등급.md(한국기업평가 BB+ 안정적, 2025.05.23 본평가), executives 3종(김영대 — 최대주주 겸 공동대표이사(회장) 32.09%, 이은우 — 공동대표이사(사장), 김정민 — 사내이사·부사장 CFO), shareholders 2종(김신한 4.47%, 차정현 0.75%, 모두 특수관계인·기타비상무이사), companies stub 5종(대성지주·디에스파워[전력발전 자회사 지분 81.8%]·대성쎌틱에너시스[에너지 자회사 지분 100%]·대성나찌유압공업[기계 자회사]·대성계전·대성씨앤에스[김영대 겸직 계열사] — 비상장).
+- 갱신: wiki/markets/KOSPI.md 상장기업 목록에 대성산업 추가(공유 파일 편집 시 재조회 재시도로 반영). wiki/index.md는 병행 build-index 프로세스에 의해 companies·groups·segments·value_chain·products·executives·shareholders·ratings·sources 섹션 전체 반영 확인.
+- 핵심 수치(연결, 제16기 2025년): 매출액 1조 5,659억원(+6.0% YoY), 영업이익 108억원(-50.4%, 자회사 투자주식·유무형자산 손상평가 반영), 당기순손실 617억원(전년 순이익 84억원에서 적자전환). 별도 기준 매출 8,641억원(+18.8%), 영업이익 23억원, 당기순손실 748억원. 최대주주는 김영대 32.09%(의결권 기준 38.75%), 특수관계인 합산 40.08%. 신용등급 BB+(안정적, 한국기업평가, 2025.05.23).
+
+**Ingest** 남해화학-사업보고서-2025.12 (source_documents/AnnualReport_MD, 제52기) Full 인제스트. wiki/companies/남해화학.md 기존 stub(is_stub: true, 카프로 밸류체인 인용 기반)을 자체 사업보고서 기준 정식 페이지로 승격(KOSPI 025860, market_page /markets/KOSPI, group /groups/농협).
+- 신규: sources/남해화학_2025_사업보고서.md, segments 2종(비료화학사업 매출비중 64%·유류사업 35%), value_chain/남해화학_밸류체인.md(공급사 Ma'aden·Yara·OCP·Canpotex·GS칼텍스·S-OIL, 고객사 농협경제지주 43%·TKG휴켐스·삼성물산), executives/김창수(남해화학).md(대표이사, 전 농협경제지주 상무), shareholders/농협경제지주.md(최대주주 56.00%), products 2종(복합비료 내수점유율 42.5%·암모니아), ratings/남해화학 신용등급.md(이크레더블 기업경영상태평가 A, 3개년 연속), companies stub 3종(농협경제지주[최대주주 겸 최대매출처, groups/농협 계열사 목록에 추가]·TKG휴켐스[화학제품 고객]·NES머티리얼즈[반도체용 황산 연결 종속회사]).
+- 갱신: companies/남해화학.md(stub→정식 승격), groups/농협.md(계열사 목록에 농협경제지주 추가), markets/KOSPI.md(상장기업 목록에 남해화학 025860 추가), wiki/index.md(병행 build-index 프로세스와 수동 반영 중복 발생 → 링크 기준 dedupe 스크립트로 정리 후 반영 확인).
+- 핵심 수치(연결, 제52기 2025년): 매출액 1조 6,044억원(+5.6% YoY), 영업이익 431억원(+18.9%), 당기순이익(지배주주) 292억원(+16.0%). 최대주주는 농협경제지주 56.00%(27,820,149주), 대표이사 김창수(2024.03.22 취임, 전 농협경제지주 상무). 비료화학부문 매출 1조 298억원(영업이익 504억원), 유류부문 매출 5,654억원(영업손실), 반도체용 황산(NES머티리얼즈) 매출 92억원(영업손실 73억원, 초기 가동).
+- 신규 페이지 총 10개(sources 1 + segments 2 + value_chain 1 + executives 1 + shareholders 1 + products 2 + ratings 1 + companies stub 3 = 12, 회사 페이지는 stub 승격이라 신규 카운트 제외).
+- 신규 페이지 총 17개(회사 1 + sources 1 + Corporate Group 1 + segments 4 + value_chain 1 + products 1 + ratings 1 + executives 3 + shareholders 2 + companies stub 5, 일부 특수관계자는 지분·사업 내용 미확인으로 stub 생성 보류). 병행 인제스트 세션과의 공유 파일 편집 충돌 발생 시 재조회 후 재시도로 정상 반영.
