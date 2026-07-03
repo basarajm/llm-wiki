@@ -6,9 +6,10 @@ ticker: "002380"
 market: KOSPI
 market_page: /markets/KOSPI
 industry: 화학
+group: /groups/KCC
 is_stub: false
 tags: [기업, 화학, KOSPI]
-timestamp: 2026-06-28T00:00:00Z
+timestamp: 2026-07-04T00:00:00Z
 source_count: 1
 ---
 
@@ -29,7 +30,7 @@ source_count: 1
 ## 산업 및 그룹
 
 - 산업: [화학](/industries/화학)
-- 그룹: KCC그룹 (group_todo — `/groups/KCC` 미생성)
+- 그룹: [KCC그룹](/groups/KCC) — 계열사: [KCC글라스](/companies/KCC글라스)
 
 ## 재무 하이라이트
 
@@ -73,7 +74,7 @@ source_count: 1
 | 주주 | 지분율 | 유형 |
 |---|---|---|
 | 정몽진 | 20.00% | 개인(최대주주, 대표이사 회장) |
-| 국민연금공단 | 11.37% | 기관 |
+| [국민연금공단](/shareholders/국민연금공단) | 11.37% | 기관 |
 | 정몽열 | 6.31% | 개인(특수관계인, 혈족2촌) |
 | 정몽익 | 2.80% | 개인(특수관계인, 혈족2촌) |
 | 서전문화재단법인 | 3.00% | 출연재단(특수관계인) |
@@ -85,6 +86,9 @@ source_count: 1
   (출처: [HL홀딩스 2025 사업보고서](/sources/에이치엘홀딩스_2025_사업보고서)).
 - (주)KCC는 [HL D&I](/companies/HL D&I) 지분 9.78%도 보유한 우호 주주로 등재되어 있음
   (출처: [HL D&I 사업보고서 2025](/sources/HL_D&I_사업보고서_2025)).
+- (주)KCC는 [노루홀딩스](/companies/노루홀딩스) 지분 9.90%도 보유하고 있음
+  (출처: [노루홀딩스 사업보고서](/companies/노루홀딩스)).
+- (주)KCC는 계열회사 [KCC글라스](/companies/KCC글라스) 지분 2.99%를 보유.
 
 ## 밸류체인
 
