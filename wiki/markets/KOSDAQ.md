@@ -60,6 +60,14 @@ KOSDAQ(코스닥시장)는 한국거래소(KRX)가 운영하는 시장으로, �
 - [프레스티지바이오로직스](/companies/프레스티지바이오로직스) — 항체의약품 위탁개발생산(CDEMO) 전문기업, 프레스티지바이오파마 종속회사(지분 40.03%) (KOSDAQ 334970, stub)
 - [플라즈맵](/companies/플라즈맵) — 플라즈마 저온멸균(STERLINK)·표면활성(ACTILINK) 의료기기 전문기업, 드림텍 관계기업(최대주주 27.68%)
 - [하림](/companies/하림) — 국내 육계업계 1위 계열화 업체(도축실적 점유율 20.7%), 마니커의 최대 경쟁사, 하림그룹 핵심 사업회사 (KOSDAQ 136480)
+- [EG](/companies/EG) — 페라이트 자성소재(산화철) 제조 전문기업, 세계 고급산화철 시장점유율 12~15% 추정 (KOSDAQ 037010)
+- [E8](/companies/E8) — 온톨로지 기반 AI 디지털 트윈 플랫폼(NDX PRO AI)·CFD 시뮬레이션(NFLOW AI) 개발기업 (KOSDAQ 418470)
+- [EDGC](/companies/EDGC) — 유전체 진단(NGS·GSA)·NIPT 서비스를 제공하는 유전체 빅데이터 기업 (KOSDAQ 245620)
+- [ES큐브](/companies/ES큐브) — 글로벌 아웃도어 브랜드向 레저·기능성 텐트 ODM/OEM 제조기업 (KOSDAQ 060370)
+- [FSN](/companies/FSN) — 디지털 마케팅(카울리·애드쿠아인터렉티브)과 D2C 커머스 브랜드(링티·르무통)를 영위하는 마케팅·플랫폼 기업 (KOSDAQ 214270)
+- [유비케어](/companies/유비케어) — 국내 최대 EMR 플랫폼(의사랑 등) 개발기업, GC(녹십자)그룹 계열(브랜드명 GC메디아이) (KOSDAQ 032620)
+- [GH신소재](/companies/GH신소재) — 자동차 내장용 부직포(Floor Carpet·ISO Dash 등) 및 원사 제조기업 (KOSDAQ 060260)
+- [GRT](/companies/GRT) — 홍콩 지주회사, 중국 자회사를 통해 광학보호필름·자동차필름을 제조하는 외국기업 (KOSDAQ 900290)
 
 # Citations
 

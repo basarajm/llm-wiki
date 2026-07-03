@@ -1,15 +1,15 @@
 # 로컬 아카이브(AnnualReport_MD) 인제스트 트래커
 
 - 아카이브 회사 수: **2736건** (source_documents/AnnualReport_MD/, 각 머신에 로컬 배치 필요·git 미포함)
-- 완료(done, Full): **528건**
-- 대기(pending): **2208건** (이 중 stub→Full 승급 대상 142건)
+- 완료(done, Full): **771건**
+- 대기(pending): **1965건** (이 중 stub→Full 승급 대상 152건)
 
 > done 기준: wiki/companies/<회사>.md 가 존재하고 is_stub:false.
 > market 판정: 위키 frontmatter 우선, 없으면 원본 MD의 '상장 유형' 표(유가증권시장/코스닥시장 상장)에서 추출.
 > 이 파일은 `python dart_pipeline/local_archive_status.py [--market KOSPI|KOSDAQ]` 로 재생성됩니다.
 > 다음 N개사 산출: `python dart_pipeline/local_archive_status.py [--market KOSPI|KOSDAQ] --next N`
 
-## ⏳ 대기 (상위 50건, 전체 2208건)
+## ⏳ 대기 (상위 50건, 전체 1965건)
 
 - APS이노베이션 (`KOSDAQ`) — `source_documents/AnnualReport_MD/APS이노베이션-사업보고서-2024.12.md`
 - CS (`KOSDAQ`) — `source_documents/AnnualReport_MD/CS-사업보고서-2025.12.md`
@@ -37,7 +37,7 @@
 - HEM파마 (`KOSDAQ`) — `source_documents/AnnualReport_MD/HEM파마-사업보고서-2025.12.md`
 - HK이노엔 (`KOSDAQ`) — `source_documents/AnnualReport_MD/HK이노엔-사업보고서-2025.12.md`
 - HLB (`KOSDAQ`) — `source_documents/AnnualReport_MD/HLB-사업보고서-2025.12.md`
-- HLB바이오스텝 (`KOSDAQ`) — `source_documents/AnnualReport_MD/HLB바이오스텝-사업보고서-2025.12.md`
+- HLB바이오스텝 (`Private`) — `source_documents/AnnualReport_MD/HLB바이오스텝-사업보고서-2025.12.md`
 - HLB생명과학 (`KOSDAQ`) — `source_documents/AnnualReport_MD/HLB생명과학-사업보고서-2025.12.md`
 - HLB이노베이션 (`KOSDAQ`) — `source_documents/AnnualReport_MD/HLB이노베이션-사업보고서-2025.12.md`
 - HLB제넥스 (`KOSDAQ`) — `source_documents/AnnualReport_MD/HLB제넥스-사업보고서-2025.12.md`
@@ -59,5 +59,5 @@
 - KBG (`KOSDAQ`) — `source_documents/AnnualReport_MD/KBG-사업보고서-2025.12.md`
 - KBI메탈 (`KOSDAQ`) — `source_documents/AnnualReport_MD/KBI메탈-사업보고서-2025.12.md`
 - KB금융 (`KOSPI`) — `source_documents/AnnualReport_MD/KB금융-사업보고서-2025.12.md`
-- KB오토시스 (`KOSDAQ`) — `source_documents/AnnualReport_MD/KB오토시스-사업보고서-2025.12.md`
+- KB오토시스 (`Private`) — `source_documents/AnnualReport_MD/KB오토시스-사업보고서-2025.12.md`
 - KB제29호스팩 (`KOSDAQ`) — `source_documents/AnnualReport_MD/KB제29호스팩-사업보고서-2025.12.md`
