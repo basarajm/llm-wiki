@@ -100,6 +100,7 @@
 * [KCC창호](/products/KCC창호) - 주거·상업용 PVC창호 및 AL+PVC 복합창호 — KCC 건자재 부문 주력, 국내 PVC창호 점유율 공동 1위(37%)
 * [KEC 전력반도체(TR·IC)](/products/KEC_전력반도체) - KEC가 생산하는 비메모리 전력반도체(트랜지스터·IC 등) 제품군
 * [KG케미칼 비료](/products/KG케미칼_비료) - KG케미칼의 친환경·완효성·유기질 비료 등 비료 제품군으로 국내 점유율 5.5%
+* [KOLMAR 상표권](/products/KOLMAR 상표권) - 콜마홀딩스가 자회사에 라이선스하는 KOLMAR 브랜드 상표권
 * [LAMI FABRIC](/products/LAMI FABRIC) - 일정실업의 자동차 시트용 라미네이팅 원단(LAMI FABRIC). 별도 매출의 약 64%를 차지하는 최대 매출 제품으로 현대자동차 등 완성차·시트 제조사에 납품.
 * [LAMINATED 칼라강판](/products/LAMINATED_칼라강판) - 전기아연도금강판 등을 소재로 표면에 필름을 라미네이팅한 가전제품 외장용 코팅강판
 * [LG에너지솔루션 배터리](/products/LG에너지솔루션_배터리) - LG에너지솔루션의 EV용·ESS용·소형 Application용 리튬이온배터리
