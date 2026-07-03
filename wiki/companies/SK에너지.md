@@ -1,7 +1,7 @@
 ---
 type: Company
 title: SK에너지
-description: 카프로에 유황을 공급하는 정유·석유화학 기업
+description: 카프로에 유황을, 제주항공에 항공유를 공급하는 정유·석유화학 기업
 market: Private
 industry: 석유화학
 is_stub: true
@@ -16,6 +16,9 @@ SK에너지는 SK이노베이션 계열의 정유·석유화학 기업입니다.
 
 → [카프로 밸류체인](/value_chain/카프로_밸류체인)
 
+[제주항공](/companies/제주항공)에도 항공유(항공기 연료)를 공급하는 주요 정유사 중 하나다.
+
 # Citations
 
 - [카프로 2025 사업보고서](/sources/카프로_2025_사업보고서)
+- [제주항공 2025 사업보고서](/sources/제주항공_2025_사업보고서) — 항공유 주요 매입처(GS칼텍스, SK에너지 외)로 기재

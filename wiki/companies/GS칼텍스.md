@@ -1,7 +1,7 @@
 ---
 type: Company
 title: GS칼텍스
-description: GS와 미국 Chevron이 합작한 국내 정유·석유화학 기업 — 롯데케미칼 나프타 공급사이자 HMM 원유운송 고객사
+description: GS와 미국 Chevron이 합작한 국내 정유·석유화학 기업 — 롯데케미칼 나프타 공급사, HMM 원유운송 고객사, 제주항공 항공유 공급사
 market: Private
 industry: 정유
 is_stub: true
@@ -16,8 +16,10 @@ GS칼텍스(GS Caltex)는 [GS](/companies/GS)와 미국 Chevron이 합작 설립
 여수산업단지에 정제시설을 보유하고 있다. [롯데케미칼](/companies/롯데케미칼)의 기초화학 사업 부문에
 나프타(Naphtha)를 공급하는 주요 매입처이며, [HMM](/companies/HMM)과는 원유 장기운송계약(CVC 형태,
 2022~2032년·2023~2032년, 합계 약 1조 5,039억 원 규모)을 체결한 벌크 부문 주요 고객사이기도 하다.
+또한 [제주항공](/companies/제주항공)에 항공유(항공기 연료)를 공급하는 주요 정유사 중 하나다.
 
 # Citations
 
 - [롯데케미칼 2025 사업보고서](/sources/롯데케미칼_2025_사업보고서) — 「II. 사업의 내용 3. 원재료 및 생산설비」 나프타 주요 매입처로 기재
 - [HMM 2025 사업보고서](/sources/HMM_2025_사업보고서)
+- [제주항공 2025 사업보고서](/sources/제주항공_2025_사업보고서) — 항공유 주요 매입처(GS칼텍스, SK에너지 외)로 기재
