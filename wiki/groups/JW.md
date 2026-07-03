@@ -3,7 +3,7 @@ type: Corporate Group
 title: JW그룹
 description: 제약·수액·헬스케어를 아우르는 JW그룹(동일인 이경하) — JW홀딩스를 지주로 JW중외제약·JW생명과학 등을 지배
 controlling_person: 이경하
-member_companies: [/companies/JW홀딩스, /companies/JW중외제약, /companies/JW생명과학, /companies/JW케미타운]
+member_companies: [/companies/JW홀딩스, /companies/JW중외제약, /companies/JW생명과학, /companies/JW케미타운, /companies/JW신약]
 tags: [기업집단, 제약, JW그룹]
 timestamp: 2026-07-03T00:00:00Z
 ---
@@ -23,6 +23,7 @@ JW그룹은 지주회사 [JW홀딩스](/companies/JW홀딩스)를 정점으로 �
 | [JW중외제약](/companies/JW중외제약) | 전문의약품·수액 제조 (KOSPI 001060) | 핵심 |
 | [JW생명과학](/companies/JW생명과학) | 수액(기초·특수·영양) 전문 제조, 국내 점유율 1위 (KOSPI) | 핵심 |
 | [JW케미타운](/companies/JW케미타운) | 수액백자재 제조 (JW생명과학 비상장 자회사) | 비핵심 |
+| [JW신약](/companies/JW신약) | 제약 (KOSDAQ 상장, stub — 시장구분은 JW중외제약 페이지 근거, 자체 사업보고서 미검증) | 비핵심 |
 
 ## 지배구조
 

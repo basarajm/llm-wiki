@@ -140,6 +140,9 @@
 * [HDC 건설부문](/segments/HDC_건설부문) - HDC그룹의 건설 및 부동산 개발운영 사업부문(HDC현대산업개발·HDC아이앤콘스)
 * [HDC 발전부문](/segments/HDC_발전부문) - HDC그룹의 LNG 복합화력발전 사업부문(통영에코파워)
 * [HDC 소재부문](/segments/HDC_소재부문) - HDC그룹의 화학소재 제조·판매 사업부문(HDC현대EP)
+* [HDC랩스 건설솔루션부문](/segments/HDC랩스_건설솔루션부문) - HDC랩스의 IBS·소방시스템·SOC·기계설비·조경인테리어 건설공사 사업 부문
+* [HDC랩스 라이프솔루션부문](/segments/HDC랩스_라이프솔루션부문) - HDC랩스의 홈네트워크·스마트홈·시설물 유지관리 사업 부문
+* [HDC랩스 리얼티부문](/segments/HDC랩스_리얼티부문) - HDC랩스의 부동산 종합관리(FM·PM)·프롭테크 데이터솔루션 사업 부문
 * [HDC현대EP PO부문](/segments/HDC현대EP_PO부문) - HDC현대EP의 복합PP/PE 등 자동차·전기전자·건설·소비재용 플라스틱 소재 사업 부문
 * [HDC현대EP PS부문](/segments/HDC현대EP_PS부문) - HDC현대EP의 PS(HIPS/GPPS)·EPS 등 범용 플라스틱 소재 사업 부문
 * [HDC현대EP 건자재부문](/segments/HDC현대EP_건자재부문) - HDC현대EP의 위생배관·소방배관(C-PVC) 등 건축자재 사업 부문
@@ -187,6 +190,7 @@
 * [JB금융지주 은행업 부문](/segments/JB금융지주_은행업부문) - JB금융지주의 은행업 부문 — 전북은행·광주은행·캄보디아 프놈펜상업은행(PPCBank) 중심
 * [JW생명과학 수액](/segments/JW생명과학_수액) - JW생명과학의 수액(전문의약품) 제조·판매 사업 부문
 * [JW중외제약 의약품](/segments/JW중외제약_의약품) - JW중외제약의 의약품(전문의약품·일반의약품·수액제) 사업 부문
+* [JW홀딩스 지주및의약품수출입](/segments/JW홀딩스_지주및의약품수출입) - JW홀딩스의 지주사업(배당·브랜드사용료)과 의약품수출입업 사업 부문
 * [KBI동양철관 강관](/segments/KBI동양철관_강관) - KBI동양철관의 강관 사업 부문 — 배관용·도복장 강관, 강관말뚝, 가스관 등
 * [KBI동양철관 동합금](/segments/KBI동양철관_동합금) - KBI동양철관의 동합금 사업 부문 — 종속회사 케이비아이알로이㈜가 영위하는 합금동 제조
 * [KB금융지주 보험부문](/segments/KB금융지주_보험) - KB금융지주의 보험 사업 부문 — KB손해보험·KB라이프생명, 그룹 당기순이익의 약 15% 차지
@@ -202,15 +206,30 @@
 * [KC그린홀딩스 환경서비스](/segments/KC그린홀딩스_환경서비스) - KC그린홀딩스의 산업폐기물 처리·매립·바이오 연료 환경서비스 사업 부문
 * [KC그린홀딩스 환경엔지니어링](/segments/KC그린홀딩스_환경엔지니어링) - KC그린홀딩스의 대기오염방지 환경엔지니어링(집진·가스처리·탈황 설비) 사업 부문
 * [KG모빌리티 자동차제조](/segments/KG모빌리티_자동차제조) - KG모빌리티의 완성차·부품 제조 사업 부문 (SUV·픽업·전동화 차량)
+* [KG스틸 기타부문](/segments/KG스틸_기타부문) - KG스틸 종속회사가 영위하는 항만하역·임대용역·금속산화물 제조 부문
+* [KG스틸 철강부문](/segments/KG스틸_철강부문) - KG스틸의 냉연·아연도·X-TONE·석도강판 및 PEB 생산·판매 부문
 * [KG케미칼 자동차제조 및 판매](/segments/KG케미칼_자동차제조및판매) - KG케미칼 연결 자동차제조 및 판매 부문 (핵심 종속사 KG모빌리티)
 * [KG케미칼 전자결제](/segments/KG케미칼_전자결제) - KG케미칼 연결 전자결제(PG) 부문 (KG이니시스·KG모빌리언스)
 * [KG케미칼 철강 및 항만업](/segments/KG케미칼_철강및항만업) - KG케미칼 연결 철강 및 항만업 부문 (핵심 종속사 KG스틸)
 * [KG케미칼 화학](/segments/KG케미칼_화학) - KG케미칼의 화학(비료·건설화학소재) 본사 사업 부문
 * [KISCO홀딩스 지주부문](/segments/KISCO홀딩스_지주부문) - KISCO홀딩스의 지주부문 — 자회사 배당금수익과 경영관리용역 수익
 * [KISCO홀딩스 철강제조부문](/segments/KISCO홀딩스_철강제조부문) - KISCO홀딩스의 철강제조부문 — 자회사 한국철강·환영철강공업의 철근 제조·판매
+* [KPX케미칼 PPG부문](/segments/KPX케미칼_PPG부문) - KPX케미칼의 PPG(폴리프로필렌글리콜) 단일 영업부문
 * [KR모터스 이륜차](/segments/KR모터스_이륜차) - KR모터스의 이륜차(모터사이클) 사업 부문 — 회사의 단일 영업부문
+* [KSS해운 CHEMICAL선](/segments/KSS해운_CHEMICAL선) - KSS해운의 CHEMICAL선 사업 부문 — B.OIL·메탄올·BTX 등 케미칼 화물 해상운송
+* [KSS해운 GAS선](/segments/KSS해운_GAS선) - KSS해운의 GAS선 사업 부문 — LPG·암모니아 등 가스화물 해상운송, 전사 최대 매출 부문
+* [KSS해운 PRODUCT선](/segments/KSS해운_PRODUCT선) - KSS해운의 PRODUCT선 사업 부문 — CPP·메탄올 등 석유화학제품 해상운송
+* [KTis 번호안내사업](/segments/KTis_번호안내사업) - KTis의 114번호안내 및 우선번호안내 서비스 사업 부문
+* [KTis 유통사업](/segments/KTis_유통사업) - KTis의 KT 통신상품 및 KT플라자 유통 사업 부문
+* [KTis 컨택센터사업](/segments/KTis_컨택센터사업) - KTis의 KT고객센터 및 일반컨택센터(Open Market) 운영 사업 부문
+* [LF 금융사업](/segments/LF_금융사업) - LF의 부동산신탁·자산운용·신기술사업금융 및 부동산(물류센터·데이터센터) 임대 사업 부문
+* [LF 식품사업](/segments/LF_식품사업) - LF의 식자재 유통·가공식품 제조 및 HMR 브랜드 사업 부문
+* [LF 패션사업](/segments/LF_패션사업) - LF의 남성복·여성복·수입의류·스포츠의류·ACC 등 패션 브랜드 사업 부문
 * [LG 지주사업](/segments/LG_지주사업) - (주)LG의 지주회사 사업 부문 — 배당·상표권 사용·임대 수익으로 구성된 단일 영업부문
 * [LG디스플레이 Display사업부문](/segments/LG디스플레이_Display사업부문) - LG디스플레이의 단일 보고부문인 Display 사업부문 (OLED·LCD 패널)
+* [LG생활건강 Beauty](/segments/LG생활건강_Beauty) - LG생활건강의 화장품 사업 부문 — 더후·숨37˚·오휘·CNP·더페이스샵·빌리프 등 럭셔리·프리미엄·색조 브랜드
+* [LG생활건강 HDB](/segments/LG생활건강_HDB) - LG생활건강의 생활용품(Home Care & Daily Beauty) 사업 부문 — 샴푸·치약·세제 등, 국내 시장 1위
+* [LG생활건강 Refreshment](/segments/LG생활건강_Refreshment) - LG생활건강의 음료 사업 부문 — 코카콜라 보틀링 등 탄산·비탄산음료·생수
 * [LG이노텍 광학솔루션](/segments/LG이노텍_광학솔루션) - LG이노텍의 광학솔루션(카메라모듈) 사업 부문
 * [LG이노텍 모빌리티솔루션](/segments/LG이노텍_모빌리티솔루션) - LG이노텍의 모빌리티솔루션(전장부품) 사업 부문
 * [LG이노텍 패키지솔루션](/segments/LG이노텍_패키지솔루션) - LG이노텍의 패키지솔루션(반도체기판·소재) 사업 부문

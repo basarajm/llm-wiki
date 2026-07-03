@@ -3,7 +3,7 @@ type: Corporate Group
 title: HDC
 description: 건설·소재·발전·유통을 아우르는 HDC그룹(에이치디씨 기업집단, 동일인 정몽규)
 controlling_person: 정몽규
-member_companies: [/companies/HDC, /companies/HDC현대산업개발, /companies/HDC현대EP]
+member_companies: [/companies/HDC, /companies/HDC현대산업개발, /companies/HDC현대EP, /companies/HDC랩스]
 tags: [기업집단, 건설, HDC]
 timestamp: 2026-07-03T00:00:00Z
 ---
@@ -21,8 +21,9 @@ HDC그룹(에이치디씨 기업집단)은 2018년 현대산업개발의 인적�
 | [HDC](/companies/HDC) | 지주회사 (그룹 정점, KOSPI 012630) | 핵심 |
 | [HDC현대산업개발](/companies/HDC현대산업개발) | 건설(아이파크) | 핵심 |
 | [HDC현대EP](/companies/HDC현대EP) | 화학소재(플라스틱 컴파운드, PO·PS·건자재부문, KOSPI 011780) | 핵심 |
+| [HDC랩스](/companies/HDC랩스) | 라이프솔루션(홈서비스)·건설솔루션·리얼티(부동산종합관리) (KOSPI, 최대주주 HDC 2019.04.12부터) | 핵심 |
 
-그 외 HDC랩스(AIoT)·HDC아이앤콘스·HDC영창(악기)·HDC아이파크몰(유통)·통영에코파워(발전) 등
+그 외 HDC아이앤콘스·HDC영창(악기)·HDC아이파크몰(유통)·통영에코파워(발전) 등
 비상장 계열사가 있다(상장 4개·비상장 29개, 총 33개사 — 2025년 기준, 세부 미노드화).
 
 ## 지배구조
