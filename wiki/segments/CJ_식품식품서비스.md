@@ -5,7 +5,7 @@ description: CJ그룹의 식품 & 식품서비스 사업군 — CJ제일제당 �
 company: /companies/CJ
 revenue_share: 33.1
 tags: [사업부문, CJ]
-timestamp: 2026-06-28T00:00:00Z
+timestamp: 2026-07-03T00:00:00Z
 ---
 
 # CJ 식품&식품서비스

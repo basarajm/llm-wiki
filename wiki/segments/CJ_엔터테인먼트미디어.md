@@ -5,7 +5,7 @@ description: CJ그룹의 엔터테인먼트 & 미디어 사업군 — CJ ENM 미
 company: /companies/CJ
 revenue_share: 11.2
 tags: [사업부문, CJ]
-timestamp: 2026-06-28T00:00:00Z
+timestamp: 2026-07-03T00:00:00Z
 ---
 
 # CJ 엔터테인먼트&미디어

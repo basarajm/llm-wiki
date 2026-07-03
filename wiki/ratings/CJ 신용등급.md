@@ -4,7 +4,7 @@ title: CJ 신용등급
 description: CJ(씨제이주식회사, KOSPI 001040)의 회사채·기업어음 신용평가 등급 이력
 issuer: /companies/CJ
 tags: [신용평가, CJ]
-timestamp: 2026-06-30T00:00:00Z
+timestamp: 2026-07-03T00:00:00Z
 ---
 
 # CJ 신용등급

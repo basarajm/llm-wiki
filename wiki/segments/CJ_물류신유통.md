@@ -5,7 +5,7 @@ description: CJ그룹의 물류 & 신유통 사업군 — CJ대한통운(물류)
 company: /companies/CJ
 revenue_share: 41.3
 tags: [사업부문, CJ]
-timestamp: 2026-06-28T00:00:00Z
+timestamp: 2026-07-03T00:00:00Z
 ---
 
 # CJ 물류&신유통

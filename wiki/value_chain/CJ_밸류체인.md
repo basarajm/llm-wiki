@@ -4,7 +4,7 @@ title: CJ 밸류체인
 description: CJ(지주회사)의 자회사 및 수익원 관계 구조
 company: /companies/CJ
 tags: [밸류체인, CJ]
-timestamp: 2026-06-28T00:00:00Z
+timestamp: 2026-07-03T00:00:00Z
 ---
 
 # CJ 밸류체인
