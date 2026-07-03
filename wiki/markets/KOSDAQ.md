@@ -68,6 +68,15 @@ KOSDAQ(코스닥시장)는 한국거래소(KRX)가 운영하는 시장으로, �
 - [유비케어](/companies/유비케어) — 국내 최대 EMR 플랫폼(의사랑 등) 개발기업, GC(녹십자)그룹 계열(브랜드명 GC메디아이) (KOSDAQ 032620)
 - [GH신소재](/companies/GH신소재) — 자동차 내장용 부직포(Floor Carpet·ISO Dash 등) 및 원사 제조기업 (KOSDAQ 060260)
 - [GRT](/companies/GRT) — 홍콩 지주회사, 중국 자회사를 통해 광학보호필름·자동차필름을 제조하는 외국기업 (KOSDAQ 900290)
+- [한솔아이원스](/companies/한솔아이원스) — 반도체·디스플레이 장비부품 정밀가공 및 세정·코팅 전문기업, 한솔그룹 계열 (KOSDAQ 093370)
+- [GST](/companies/GST) — 반도체·디스플레이 공정용 가스정화장비(Scrubber)·온도조절장비(Chiller) 제조기업 (KOSDAQ)
+- [HB솔루션](/companies/HB솔루션) — 디스플레이 측정·검사·도포 장비 제조기업(구 엘이티), HB테크놀러지그룹 계열 (KOSDAQ)
+- [HB테크놀러지](/companies/HB테크놀러지) — LCD·AMOLED·이차전지 검사장비 및 도광판 제조기업, HB테크놀러지그룹 지주 성격 계열사 (KOSDAQ)
+- [HB인베스트먼트](/companies/HB인베스트먼트) — 벤처투자촉진법 기반 벤처캐피탈(VC)사, HB테크놀러지그룹 계열 (KOSDAQ)
+- [HC홈센타](/companies/HC홈센타) — 건축자재 도소매·레저사업 지주회사, 레미콘·아스콘 계열사군 보유, HC그룹 지주회사 (KOSDAQ)
+- [HC보광산업](/companies/HC보광산업) — 토사석 골재 채취·아스콘·레미콘 제조기업(구 보광산업), HC그룹 계열 (KOSDAQ)
+- [HEM파마](/companies/HEM파마) — 마이크로바이옴 기반 프로바이오틱스·건강기능식품·신약 개발기업 (KOSDAQ)
+- [에이치케이이노엔](/companies/에이치케이이노엔) — 전문의약품(케이캡 등)·H&B 사업 영위, 콜마그룹 계열, 매출 1조 원 돌파 (KOSDAQ 195940)
 
 # Citations
 
