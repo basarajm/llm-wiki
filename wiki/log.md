@@ -1,6 +1,22 @@
-# 위키 작업 이력
+﻿# 위키 작업 이력
 
 
+
+**Ingest** 디와이덕양-사업보고서-2025.12 (source_documents/AnnualReport_MD, 제49기) Full 인제스트.
+wiki/companies/디와이덕양.md 신규 생성 (KOSPI 008040, market_page /markets/KOSPI, is_stub: false).
+현대차그룹向 Cockpit Module(Crash Pad)·Door Trim 등 자동차 내장재 전문 제조사(舊 덕양산업, 2025.04 사명변경).
+2025년 연결매출 1조 7,381억원(전년比 -7.7%), 영업이익 320억원(-61.0%), 당기순이익(지배주주) 124억원(-92.6%)로
+수익성 급락. 최대주주는 윤성희(본인, 대표이사부회장, 20.04%)이며 특수관계인 포함 총 43.15% 보유
+(이국진 회장 12.95%, 로고스산업 5.68%, 하란수 1.93%, 윤미희 1.40%, 윤규호 0.70%, 박상희 0.45%).
+각자대표이사 윤성희·배운교(2025.6 선임, 4번째 대표이사 교체). 지주회사 없는 개인 최대주주 체제로
+별도 그룹 페이지는 생성하지 않음 — 위키 내 동명 "디와이"(DY그룹, /groups/DY)·"디와이홀딩스"
+(에스에프에이 계열)와는 무관한 별개 상장사임을 groups/DY.md에 명시.
+신규: sources/디와이덕양_2025_사업보고서.md, segments 2종(Cockpit Module 81.14%, Door Trim 13.35%),
+products 2종(Cockpit Module, Door Trim), value_chain/디와이덕양_밸류체인.md
+(공급사 현대모비스·LX하우시스·유라코퍼레이션·에코플라스틱·한국석유공업, 고객사 현대자동차),
+executives 3종(윤성희·배운교·이국진), shareholders 3종(윤성희·이국진·로고스산업),
+companies stub 2종 신규(유라코퍼레이션·에코플라스틱; 현대모비스·한국석유공업·LX하우시스는 기존 full 페이지 재사용).
+신용등급 미확인(회사채 등급 공시 없음)으로 ratings 페이지는 생성하지 않음. markets/KOSPI.md·wiki/index.md 갱신.
 
 **Ingest** 대창단조-사업보고서-2025.12 (source_documents/AnnualReport_MD, 제45기) Full 인제스트.
 wiki/companies/대창단조.md 신규 생성 (KOSPI 015590, market_page /markets/KOSPI, group /groups/대창그룹, is_stub: false).
@@ -32,6 +48,20 @@ executives 5종(강동엽 — 대표이사·최대주주, 허훈종 — 사내�
 (미확인). markets/KOSPI.md, wiki/index.md 갱신, log.md 기록.
 
 ## 2026-07-03
+
+**Ingest** 디와이-사업보고서-2025.12 (source_documents/AnnualReport_MD, 제48기) Full 인제스트.
+wiki/companies/디와이.md 기존 stub(is_stub: true, ticker 빈값, 병렬 작업 중이던 디와이파워 인제스트가 생성)을
+Full 승격(ticker 003460, market_page /markets/KOSPI, is_stub: false). DY그룹 지주회사(舊 동양기전),
+대표이사 김진호. 2025년 연결매출 1조 2,448억 원(+6.6%), 영업이익 480.6억 원(+34.9%), 당기순이익 300.2억 원.
+최대주주 조병호 31.80%(특수관계인 합산 37.36%, 보고서 제출일 기준 43.63%), 2025.12 대표이사직 사임 후
+미등기 회장(그룹 최고 ESG 책임자) 전환. 신규: sources/디와이_2025_사업보고서.md, segments 2종 신규
+(디와이오토_자동차부품, 디와이이노베이트_산업기계 — 디와이파워_유압기기는 기존 페이지 재사용),
+value_chain/디와이_밸류체인.md, executives 3종 신규(김진호_디와이, 조병호, 김법문), shareholders/조병호.md,
+companies stub 6종 신규(디와이오토·디와이이노베이트·디와이씨스·세일전장·에이치에스테크놀로지·나누리).
+groups/DY.md(병렬 작업 중이던 기존 페이지)에 계열사 8개사 목록·controlling_person(조병호) 보강.
+markets/KOSPI.md 디와이 항목 stub 해제 갱신. wiki/index.md 전 섹션(companies·groups·shareholders·
+value_chain·segments·executives·sources) 갱신. 신규 페이지 13개 생성, 기존 페이지 3개(디와이.md,
+groups/DY.md, markets/KOSPI.md) 갱신. 병렬 인제스트 중인 디와이파워 관련 페이지와 중복 생성 없이 조율.
 **Ingest** 더블유게임즈-사업보고서-2025.12 (source_documents/AnnualReport_MD, 제14기) Full 인제스트.
 wiki/companies/더블유게임즈.md 신규 생성 (KOSPI 192080, market_page /markets/KOSPI, is_stub: false).
 연결 매출액 7,198.97억 원(+13.6% YoY), 영업이익 2,321.34억 원(-6.7% YoY), 당기순이익 1,798.11억 원(-26.1% YoY).
@@ -1674,3 +1704,34 @@ wiki/companies/동양고속.md 신규 생성 (KOSPI 084670, market_page /markets
 **Ingest** 동아지질-사업보고서-2025.12.md (제53기, source_documents/AnnualReport_MD) — Full 인제스트, 신규 페이지 생성(기존 companies/동아지질 stub 없었음). companies/동아지질(KOSPI 028100): 연결 매출액 4,677억 원(+18.9% YoY), 영업이익 181억 원(+88.0%), 당기순이익 187억 원(+64.4%). 부채비율 76.25%→99.11%로 급등(해외 프로젝트 확대). 최대주주 도버홀딩스유한회사 34.23%(크레센도PE 계열 사모투자법인), 2대주주 이정우(창업 원로·회장) 13.11%. 2025년 5월 최대주주의 지분 매각 추진설 보도(KB증권 자문사 선정) — 회사는 미확정으로 해명공시. 2025.03 정기주총에서 대표이사 정경수·사외이사 강석도 신규선임(박만규·조건식 임기만료 퇴임). 신규 15개: sources/동아지질_2025_사업보고서, segments 2건(토목부문 99.98%·기타부문 0.02%), value_chain/동아지질_밸류체인(발주처 한국전력공사·한국도로공사·싱가폴 LTA·필리핀 DotR 등), ratings/동아지질 신용등급(이크레더블 BBB·한국평가데이터 A·나이스디앤비 A·전문건설공제조합 AA), executives 8건(최정욱·정경수·박성민·박진수·정두회·강석도·김형섭(동아지질, 기존 SNT에너지 김형섭과 동명이인 구분)·이정우), shareholders 3건(도버홀딩스·크레센도제2의에이호사모투자합자회사·이정우). companies stub 1건 신규(Dongah Geological Engineering India — 인도 종속법인). industries/건설.md·markets/KOSPI.md·wiki/index.md 갱신(공유 파일, 병행 인제스트 세션과의 편집 충돌은 재조회 후 재시도로 해소). financial_products 페이지는 비금융사이므로 생성하지 않음. 신규 페이지 총 16개(회사 1 + sources 1 + segments 2 + value_chain 1 + ratings 1 + executives 8 + shareholders 3 + companies stub 1 = 17, 표기상 이정우는 shareholders/executives 양쪽에 별도 페이지 존재).
 
 **Ingest** 동서-사업보고서-2025.12.md (제51기, source_documents/AnnualReport_MD) — Full 인제스트, companies/동서.md 신규 생성 (KOSPI 026960, group /groups/동서그룹, is_stub: false). 연결 매출액 5,328.8억원(+9.0% YoY), 영업이익 453.4억원(+1.9%), 당기순이익 1,464.6억원(-7.9%, 지분법이익 축소 영향). 별도 매출 4,972.8억원·영업이익 426.3억원·순이익 1,448.8억원. 최대주주 김상헌 16.25%, 특수관계인 28명 합산 67.52%(김석수 17.09%, 김종희 14.59% 등). 대표이사 2025.03 김종원→윤세철 교체(김종원 부회장 이동), 상근감사 김창수 신규 선임. 신용등급 나이스디앤비 AAA(3개년 연속). 신규 페이지: sources/동서_2025_사업보고서, groups/동서그룹(동일인 김상헌, 계열사 9개 전원 비상장), segments 3종(식품사업부문 56.2%·제조부문 22.6%·구매수출부문 19.6%), value_chain/동서_밸류체인(최대 고객 동서식품·동서유지 지분법 공동기업), ratings/동서_신용등급, shareholders 3종(김상헌·김석수·김종희), executives 5종(윤세철·김종원·최은성·김낙회·김창수(동서) — 기존 F&F홀딩스 김창수와 동명이인이라 파일명 구분), companies stub 5종(동서식품·동서유지·동서물산·동서음료·미가방). markets/KOSPI.md·wiki/index.md 갱신(공유 파일 동시편집 충돌은 재조회 후 재시도로 해소). 신규 페이지 총 20개: companies 1(신규) + sources 1 + groups 1 + segments 3 + value_chain 1 + ratings 1 + shareholders 3 + executives 5 + companies stub 5 = 21.
+
+**Ingest** 디와이파워-사업보고서-2025.12.md (제12기, source_documents/AnnualReport_MD) — Full 인제스트, companies/디와이파워.md 신규 생성(KOSPI 210540, group /groups/DY, market_page /markets/KOSPI, is_stub: false). 건설기계용 유압실린더 등 유압기기 단일 사업부문(매출 비중 100%). 연결 매출액 3,827억원(-0.5% YoY), 영업이익 304억원(+19.2%, 영업이익률 8.0%), 당기순이익(지배지분) 251억원(+16.7%). 별도 매출 2,468억원·영업이익 148억원·순이익 224억원. 최대주주 디와이(주) 38.52%(최대주주 및 특수관계인 합산, 공시대상기간 중 지분 변동 없음). 대표이사 박치웅(2025.03 재선임), 사내이사 김진호(디와이(주) 대표이사 겸직, 이사회 의장). 주요 고객 HD건설기계·HDX·두산밥캣·TEREX·HITACHI·JLG·VOLVO. 신규 페이지: sources/디와이파워_2025_사업보고서, companies/디와이(그룹 지주사, stub), groups/DY(신규 — 디와이·디와이파워·해외 종속/특수관계법인 5개사 기재. 위키 기존 groups/에스에프에이(디와이홀딩스 계열)·companies/디와이덕양과 명칭 유사하나 무관함을 명시), segments/디와이파워_유압기기, value_chain/디와이파워_밸류체인, executives 2종(박치웅·김진호, 해외 계열법인 겸직 다수), shareholders/디와이_디와이파워, products/유압실린더_디와이파워. 신용등급 공시 미확인으로 ratings 페이지 미생성. markets/KOSPI.md·wiki/index.md 갱신(공유 파일, 병행 인제스트 세션과의 편집 충돌 없이 반영 완료). 신규 페이지 총 8개: companies 2(디와이파워 정식 + 디와이 stub) + sources 1 + groups 1 + segments 1 + value_chain 1 + executives 2 + shareholders 1 + products 1 = 10.
+
+**Ingest** 드림텍-사업보고서-2025.12.md (제28기, source_documents/AnnualReport_MD) — Full 인제스트, companies/드림텍.md 신규 생성(KOSPI 192650, group /groups/드림텍, market_page /markets/KOSPI, is_stub: false). EMS/ODM 전문기업, IMC(IT&Mobile Communications)·BHC(Biometrics, Healthcare & Convergence)·CCM(Compact Camera Module) 3개 사업부. 연결 매출액 12,306억원(+5.0% YoY), 영업이익 314억원(+33.2% YoY, 영업이익률 2.0%→2.5%), 당기순이익(연결) 132억원(+4.0%). 별도 매출 5,193억원·영업이익 221억원·순이익 224억원. 2025년 11월 메모리 모듈(DRAM/SSD) 양산 개시로 IMC 매출 견인(+15.6% YoY), BHC는 -12.9% 역성장, CCM은 +2.1% 성장. 최대주주 임창완 33.89%(2023.10 유니퀘스트(주) 투자부문 합병으로 최대주주 변경, 2025년 중 지분 변동 없음), 특수관계인 김영호(이사회 의장) 5.04% 등 특수관계인 합산 44.10%(자기주식 4.51% 포함). 대표이사 각자대표 김형민·박찬홍 체제 유지. 신용등급 이크레더블 BBB-(4회 연속 유지). 신규 계열사: 종속회사 나무가(KOSPI 상장, 카메라모듈, 지분 39.0%)·에이아이매틱스(비상장, AI솔루션, 지분 53.0%) 등, 관계기업 플라즈맵(KOSPI 상장, 지분 27.7%). 신규 페이지 총 15개: companies 4(드림텍 정식 + 나무가·플라즈맵·에이아이매틱스 stub) + sources 1 + groups 1(드림텍, 동일인 임창완) + segments 3(IMC·BHC·CCM) + value_chain 1 + products 1(PBA 모듈) + ratings 1 + executives 2(김형민·박찬홍) + shareholders 2(임창완·김영호) = 16. markets/KOSPI.md·wiki/index.md 갱신(공유 파일, 병행 인제스트 세션과의 편집 충돌 없이 반영 완료).
+
+## 2026-07-03
+
+**Ingest** 동인기연-사업보고서-2025.12 (source_documents/AnnualReport_MD, 제34기) Full 인제스트.
+wiki/companies/동인기연.md 신규 생성 (KOSPI 016380, market_page /markets/KOSPI, is_stub: false).
+아웃도어 배낭·가방 ODM 전문기업, 40여개 글로벌 브랜드 공급, 필리핀 12개·베트남 1개 생산법인 운영.
+2025년(34기) 연결 매출액 2,441억원(+7.7%), 영업이익 226억원(+7.0%), 연결당기순이익 110억원(-35.1%).
+최대주주 정인수(대표이사, 66.85%), 사내이사 박기정(부사장), 상근감사 신경택, 사외이사 김재익·신동우.
+신규: sources/동인기연_2025_사업보고서.md, groups/동인그룹.md(14개 종속회사 기업집단, 신규),
+segments 2종(가방 ODM 73.5%, 아웃도어용품·자사브랜드 26.1%), value_chain/동인기연_밸류체인.md,
+shareholders/정인수.md, executives/정인수.md·박기정.md, ratings/동인기연_신용등급.md(회사채 BB),
+products 3종(포브·인수스·젠틀우프), companies stub 2종(ESGS·WAYB, 필리핀·미국 종속법인).
+markets/KOSPI.md·wiki/index.md 갱신(신규 12페이지 반영).
+
+**Ingest** 디씨엠-사업보고서-2025.12.md — 신규 기업 디씨엠(KOSPI 092200) 인제스트. 회사·사업보고서 요약·사업부문·밸류체인·상품 2건(LAMINATED 칼라강판, 알루미늄 복합판넬)·임원 3인(정연택·정동우·김연식)·개인주주 2인(문정혜·정동은)·관계기업 stub 2건(도림통산·마스콤) 생성. 매출 2,271억 원(-5.8%), 영업이익 96억 원(-43.6%), 최대주주 정연택 외 특수관계인 46.39%. markets/KOSPI.md·index.md 갱신.
+
+**Ingest** 두산퓨얼셀-사업보고서-2025.12.md (제7기, source_documents/AnnualReport_MD) — Full 인제스트, companies/두산퓨얼셀.md 신규 생성(KOSPI 336260, group /groups/두산, market_page /markets/KOSPI, is_stub: false). 발전용 연료전지(PAFC·SOFC) 기자재 공급 및 장기유지보수서비스 영위, 국내 시장 누적점유율 1위. 연결 매출액 4,548억원(+10.4% YoY), 영업손실 -1,057억원(전년 -17억원에서 적자 확대 — SOFC 신제품 양산 초기 수율 이슈 및 PAFC 원자재(백금) 가격 상승 영향), 당기순손실 -1,328억원. 자산총계 1조 1,984억원, 부채비율 226.1%(전년 136.5%에서 급등). 최대주주 [두산에너빌리티](/companies/두산에너빌리티) 보통주 34.78%(발행주식총수 기준 30.33%). 2025.03 대표이사 윤재동(CFO) 신규 선임, 이두순(CEO)과 각자대표 체제. 자회사 하이엑시움모터스(지분 100%, 친환경 상용차)를 통한 신사업 추진 중. 신규 페이지: sources/두산퓨얼셀_2025_사업보고서, segments 2건(발전용연료전지·친환경상용차), value_chain/두산퓨얼셀_밸류체인(공급사 하이에어코리아·데스틴파워·제이앤엘테크, 해외 파트너 Ballard Power Systems·HyAxiom MOU), products 2건(발전용연료전지_PAFC·발전용연료전지_SOFC), ratings/두산퓨얼셀_신용등급(회사채 BBB, 2023~2025 유지), executives 2건(이두순·윤재동), shareholders/두산에너빌리티(신규, entity_type 상장기업, company_page 양방향 링크). companies stub 6건 신규(하이엑시움모터스·하이에어코리아·데스틴파워·제이앤엘테크·Ballard Power Systems·HyAxiom). groups/두산.md 계열사 목록 갱신(두산퓨얼셀 '페이지 미생성' 표기 → 정식 페이지 링크). markets/KOSPI.md·wiki/index.md 갱신(공유 파일, 병행 인제스트 세션과의 편집 충돌은 재조회 후 재시도로 해소). 신규 페이지 총 15개(회사 1 + sources 1 + segments 2 + value_chain 1 + products 2 + ratings 1 + executives 2 + shareholders 1 + companies stub 6 = 15, groups/두산.md 갱신 1건 별도).
+
+**Ingest** 디앤디플랫폼리츠-사업보고서-2026.03.md (제12기, source_documents/AnnualReport_MD) — Full 인제스트, companies/디앤디플랫폼리츠.md 신규 생성(KOSPI 253850, group /groups/디앤디플랫폼리츠, market_page /markets/KOSPI, is_stub: false). 상장 위탁관리 부동산투자회사(리츠)로, 국내 오피스·물류센터 자리츠 지분증권 및 해외(일본) 물류펀드 수익증권에 재간접 투자하는 구조. 연결(반기, 제12기 2025.10~2026.03) 영업수익 297.6억원, 영업이익 198.2억원, 당기순이익 70.9억원, 자산총계 1조 624억원. 2024년 12월 최대주주가 코람코주택도시기금위탁관리부동산투자회사에서 미래에셋자산운용으로 변경, 2026.03말 지분 25.59%까지 확대. 2026.03말 매각예정비유동자산 5,427억원 신규 계상(자산 유동화 진행). 신용등급 기업신용등급 A-(안정적)/단기사채 A2- 유지(NICE·한국기업평가·한국신용평가). 신규 페이지: sources/디앤디플랫폼리츠_2025_사업보고서, groups/디앤디플랫폼리츠(신규 — 종속 자리츠 4개사+관계기업 1개사), segments/디앤디플랫폼리츠_부동산임대업, value_chain/디앤디플랫폼리츠_밸류체인, ratings/디앤디플랫폼리츠 신용등급, products 5종(세미콜론문래·세미콜론명동·세미콜론수송·FASSTO_용인1센터·FASSTO_용인2센터), executives 6종(이양원 대표이사·정경훈·임동수·김준범(디앤디플랫폼리츠, 기존 HL홀딩스 김준범과 동명이인이라 파일명 구분)·차태진·주홍주 감사), shareholders 2종(미래에셋자산운용·코람코주택도시기금위탁관리부동산투자회사). companies stub 12건 신규(종속·관계 자리츠 5개사 — 세미콜론문래·디디아이백암로지스틱스·디디아이백암로지스틱스2호·세미콜론명동·세미콜론수송위탁관리부동산투자회사, 이지스글로벌일반사모부동산투자신탁300호, 자산관리·수탁사 7개사 — 디앤디인베스트먼트·신한펀드파트너스·신한자산신탁·우리자산신탁·대신자산신탁·중소기업은행·파스토, 임차인/겸직법인 3개사 — 무신사·씨비알이코리아·어번에스테이트플래닝). markets/KOSPI.md·wiki/index.md 갱신(공유 파일, 재조회 후 반영). 신규 페이지 총 31개: companies 1(정식) + sources 1 + groups 1 + segments 1 + value_chain 1 + ratings 1 + products 5 + executives 6 + shareholders 2 + companies stub 12 = 31.
+
+**Ingest** 롯데관광개발-사업보고서-2025.12.md (제55기, source_documents/AnnualReport_MD) — Full 인제스트, companies/롯데관광개발.md 신규 생성(KOSPI 032350, group /groups/LT(롯데투어), market_page /markets/KOSPI, is_stub: false). 사명에 "롯데"가 포함되나 롯데지주 계열 롯데그룹과는 무관한 독립 기업집단(LT, 동일인 김기병). 제주 드림타워 복합리조트(그랜드 하얏트 제주 호텔·엘티카지노·HAN Collection 리테일)를 중심으로 여행·호텔·카지노 사업 영위. 2025년 연결 영업수익 6,534억원(+38.6% YoY), 영업이익 1,433억원(전년 390억→3.7배), 당기순이익(지배지분) 278억원으로 3년 만에 흑자전환 — 종속회사 엘티엔터테인먼트(외국인전용 엘티카지노)가 연결 매출의 72.9%(4,767억원)를 차지하며 실적 견인. 별도기준은 매출 2,762억원·영업손실 251억원으로 여전히 적자. 최대주주 김기병(대표이사회장, 22.72%), 특수관계인(배우자 신정희 1.77%·자녀 김한성 2.66%·김한준 1.26%·계열사 동화투자개발 11.09%) 합산 39.49%. 국민연금공단 10.34% 보유(5% 이상 주주). 대표이사 3인 체제(김기병 회장·백현 사장·김한준 사장). 2025.12 서울보증보험 구상채무 지연손해금 소송 대법원 최종 패소, 323억원 변제 완료(우발채무 해소). 신규: sources/롯데관광개발_2025_사업보고서, groups/LT(롯데투어)(신규 — 비상장 8개 계열사), segments 3종(카지노 72.94%·여행업 13.64%·호텔업 12.53%), value_chain/롯데관광개발_밸류체인, products/엘티카지노, shareholders/김기병, executives 3종(김기병·백현·김한준), companies stub 8건(동화투자개발·동화면세점·동화뉴텍·엘티엔터테인먼트·엘티크루즈홀리데이·용산역세권개발·마이데일리·롯데관광, 해외 stub 하얏트그룹). shareholders/국민연금공단.md 보유종목 표에 롯데관광개발 추가(양방향 링크). markets/KOSPI.md·wiki/index.md 갱신(공유 파일, 병행 인제스트 세션과의 동시편집 충돌은 재조회 후 재시도로 해소). 신규 페이지 총 18개: companies 1(정식) + sources 1 + groups 1 + segments 3 + value_chain 1 + products 1 + shareholders 1 + executives 3 + companies stub 9 - 1(하얏트그룹은 stub 포함되어 총 9) = companies stub 9종 → 합계 18개.
+
+**Ingest** 디아이씨-사업보고서-2025.12.md (제50기, source_documents/AnnualReport_MD) — Full 인제스트, companies/디아이씨.md 신규 생성(KOSPI 006400, group /groups/디아이씨, market_page /markets/KOSPI, is_stub: false). 울산 소재 자동차·중장비(지게차) 변속기·동력전달장치(Gear & Shaft) 전문 제조사(舊 대일공업, 2006년 사명변경, 2007년 상장). 자동차부품(현대차·기아·현대트랜시스·한국GM 공급) 매출비중 90.35%, 중장비부품(두산밥캣코리아·HD현대사이트솔루션·클라크 독점 공급) 9.65%. 2025년 연결 매출 7,573억원(+5.3% YoY), 영업이익 186억원(-15.0%), 당기순이익(지배지분) -105억원으로 적자전환(전년 +142억원). 연결대상 종속회사 8→6개사로 축소((주)디아이씨전장기술연구소 청산, Custom Chrome Europe GmbH 지배력 상실). 최대주주(본인) 김성문 회장 2.27%, 특수관계인 중 대표이사 김정렬 부회장이 개인 최대 지분 18.02% 보유, 관계회사 중원기계공업 9.82%; 특수관계인 합계 41.80%→37.49%로 축소. 신용등급 BB0(NICE평가정보) 3개년 유지. 신규: sources/디아이씨_2025_사업보고서, groups/디아이씨(신규 — 종속회사 6개사), segments 2종(자동차부품 90.35%·중장비부품 9.65%), value_chain/디아이씨_밸류체인(공급사 중원기계공업·정광기계·에스아이씨·알지테크놀로지 등 특수관계자, 고객사 현대자동차·기아·현대트랜시스·한국GM·두산밥캣코리아·HD현대사이트솔루션 — 기존 페이지 재사용), products 3종(자동차변속기부품·전동화부품·지게차부품), ratings/디아이씨 신용등급, executives 5종(김성문·김정렬은 현대비앤지스틸/ISC 동명 임원과 구분을 위해 파일명에 _디아이씨 접미사 사용 — 김성문_디아이씨·김정렬_디아이씨·전석기·정수현·한개철), shareholders 3종(중원기계공업 entity_type 상장기업 stub 겸용·김성문·김정렬 개인). companies stub 10건 신규(대일이노텍·대호기계공업·DAE-IL_USA·대일기배유한공사·제인모터스·디아이씨신소재 — 이상 종속회사; 중원기계공업·정광기계·에스아이씨·알지테크놀로지 — 특수관계자 매입거래처). 고객사 현대자동차·기아·현대트랜시스·한국GM·두산밥캣코리아·HD현대사이트솔루션은 기존 페이지 재사용. markets/KOSPI.md·wiki/index.md 갱신(공유 파일, 병행 인제스트 세션과의 동시편집 충돌은 재조회 후 재시도로 해소). 신규 페이지 총 25개: companies 1(정식) + sources 1 + groups 1 + segments 2 + value_chain 1 + products 3 + ratings 1 + executives 5 + shareholders 3 + companies stub 10 = 28(중원기계공업은 companies stub과 shareholders 양쪽에 각 1건씩 카운트).
+
+**Ingest** 동성화인텍-사업보고서-2025.12 (제41기, source_documents/AnnualReport_MD) — Full 인제스트, wiki/companies/동성화인텍.md stub 승급(is_stub: true→false). 시장 정정: 기존 stub이 KOSPI로 잘못 기재되어 있던 것을 KOSDAQ(130660, 1997.12 상장)로 정정, market_page를 /markets/KOSPI → /markets/KOSDAQ로 이동. 최대주주는 [동성케미컬](/companies/동성케미컬) 38.01%(11,378,299주, 기중 제4회차 교환사채 교환권 청구로 자기주식 90만주 교부되어 39.19%→38.01% 희석). 2025년(41기) 연결 매출 7,421.9억원(+24.2% YoY), 영업이익 725.6억원(+34.4%), 당기순이익 558.8억원(+42.0%). PU단열재사업(매출비중 96.2%, 초저온보냉재·PU System — 국내 조선3사向)과 가스사업(3.8%, 냉매·냉매Recycle — 삼성전자·LG전자·현대차·기아 등向) 2부문. 대표이사 최용석(2023.03 선임), 사내이사 백진우(동성케미컬 대표이사 겸직), 회장 백정호(미등기), 사외이사 이병승, 상근감사 이경구. 2025.10월 사내이사 장흥수 해임 등 임원진 다수 변동. 신용등급 BBB+(2025.4, 한국평가데이터, 2021년 BBB0에서 지속 상향). 신규: sources/동성화인텍_2025_사업보고서, segments 2종(PU단열재사업 96.2%·가스사업 3.8%), value_chain/동성화인텍_밸류체인(공급사 KPX케미칼·애경유화·POSCO·금호미쓰이화학·오웬스코닝, 고객사 HD현대중공업·HD현대삼호·삼성중공업·한화오션·삼성전자·LG전자·현대자동차·기아·HD현대인프라코어·SK하이닉스 — 대부분 기존 페이지 존재), ratings/동성화인텍 신용등급, shareholders/동성케미컬(신규, entity_type 상장기업, company_page 양방향 링크), executives 3종(최용석·이병승·이경구, 백진우 기존 페이지에 동성화인텍 겸직 추가), companies stub 1건 신규(애경유화). markets/KOSPI.md에서 동성화인텍 항목 삭제, markets/KOSDAQ.md·wiki/index.md 갱신(공유 파일, 병행 인제스트 세션과의 동시편집 충돌은 재조회 후 재시도로 해소). groups/DY.md 등 무관 공유 파일은 건드리지 않음(동성그룹은 별도 Corporate Group 페이지 미생성 — 동성케미컬 기업 페이지에서 지배구조 서술로 갈음). 신규 페이지 총 9개: sources 1 + segments 2 + value_chain 1 + ratings 1 + shareholders 1 + executives 3 + companies stub 1 = 9개 (company 승급 1건은 신규 카운트 제외).
+
+**Ingest(IG21)** KOSPI 로컬 아카이브 Full 인제스트 12개사 완료 — 디와이덕양·디와이·디와이파워(DY그룹 3사 완결)·드림텍(+나무가·플라즈맵·에이아이매틱스 계열)·동인기연(+ESGS·WAYB 해외법인)·디씨엠·두산퓨얼셀(두산그룹 계열 승급)·디앤디플랫폼리츠(+종속 자리츠 4사)·롯데관광개발(LT그룹, 롯데그룹과 무관)·디아이씨·동성화인텍(stub→정식 승급, KOSPI→KOSDAQ 시장 정정) 11개 신규/승급 + 관련 stub 다수 신규 노드화. groups 신규 5건(DY·드림텍·동인그룹·디아이씨·디앤디플랫폼리츠·LT(롯데투어) — 6건, 디와이홀딩스·디와이덕양과 명칭 유사한 DY그룹은 무관 별개임을 groups/DY.md 본문에 명시하여 혼선 방지), groups/두산.md 갱신 1건. shareholders 양방향 링크: 국민연금공단(롯데관광개발 10.34% 추가), 동성케미컬·두산에너빌리티(신규 entity_type 상장기업, company_page 상호 링크), 김기병·임창완 등 개인주주 다수. markets/KOSPI.md 신규 상장기업 다수 반영 및 동성화인텍 KOSDAQ 이관, markets/KOSDAQ.md 갱신. wiki/index.md 전체 재생성(build-index.ps1) 후 `sort | uniq -d` 중복 라인 없음 확인. 로컬 아카이브 누적 진행 528/2736(완료), 대기 2208.
