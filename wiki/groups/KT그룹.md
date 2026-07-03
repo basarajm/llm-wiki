@@ -2,7 +2,7 @@
 type: Corporate Group
 title: KT그룹
 description: 통신(MNO)을 모태로 위성방송·카드·컨택센터 등으로 확장한 KT그룹
-member_companies: [/companies/KT, /companies/KTis, /companies/KT스카이라이프, /companies/비씨카드, /companies/케이티씨에스]
+member_companies: [/companies/KT, /companies/KTis, /companies/KT스카이라이프, /companies/비씨카드, /companies/KTcs]
 tags: [기업집단, 통신, KT그룹]
 timestamp: 2026-07-03T00:00:00Z
 ---
@@ -20,7 +20,7 @@ KT그룹은 국내 이동통신 3사 중 하나인 종합 통신사업자 [KT](/
 | [KTis](/companies/KTis) | 컨택센터(BPO)·통신유통·114번호안내 (KOSPI) | 핵심 |
 | [KT스카이라이프](/companies/KT스카이라이프) | 위성방송(DTH)·미디어 (KOSPI 053210) | 핵심 |
 | [비씨카드](/companies/비씨카드) | 신용카드 결제망·카드 발급 (비상장) | 비핵심 |
-| [케이티씨에스](/companies/케이티씨에스) | KTis 관계기업 (비상장, 사업내용 미확인) | 비핵심 |
+| [KTcs](/companies/KTcs) | 컨택센터(BPO)·통신유통·114번호안내 (KOSPI 058850) | 핵심 |
 
 ## 지배구조
 

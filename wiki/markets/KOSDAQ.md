@@ -32,8 +32,10 @@ KOSDAQ(코스닥시장)는 한국거래소(KRX)가 운영하는 시장으로, �
 - [DH오토리드](/companies/DH오토리드) — 자동차 스티어링휠 국내 1위 제조사, LPG연료탱크 등 겸영 (KOSDAQ, DH그룹 계열)
 - [DMS](/companies/DMS) — 디스플레이 패널 공정용 습식장비(세정·현상·식각·박리) 제조사 (KOSDAQ 068790)
 - [DSC인베스트먼트](/companies/DSC인베스트먼트) — 벤처투자조합 결성·운용을 주력 사업으로 하는 벤처캐피탈(VC) (KOSDAQ 130500)
+- [MDS테크](/companies/MDS테크) — TRACE32 등 임베디드 시스템 개발장비·솔루션 전문기업, 플레이그램 종속회사 (KOSDAQ)
 - [레인보우로보틱스](/companies/레인보우로보틱스) — 협동로봇·휴머노이드·초정밀지향마운트 전문기업, 2025년 삼성전자가 최대주주로 편입한 KAIST HUBO 기반 로봇 벤처
 - [씨에스](/companies/씨에스) — 이동통신중계기 전문 제조사(구 CS CORPORATION) — SK텔레콤·NTT DoCoMo向 5G 중계기 공급 (KOSDAQ 065770)
+- [NHN KCP](/companies/NHN_KCP) — 온라인·오프라인 결제대행(PG)·부가통신망(VAN) 서비스를 영위하는 종합 결제기업, NHN 그룹 계열 (KOSDAQ 060250)
 - [에스피지](/companies/에스피지) — 정밀 제어용 기어드 모터·정밀감속기 전문 제조기업 — 로봇·반도체장비·가전용 모터 및 감속기 (KOSDAQ 058610)
 - [주성엔지니어링](/companies/주성엔지니어링) — 반도체·태양전지·디스플레이용 ALD/CVD 증착장비 전문 제조기업 (KOSDAQ 036930)
 

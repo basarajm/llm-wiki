@@ -46,4 +46,5 @@ timestamp: 2026-06-30T00:00:00Z
 # Citations
 
 - [플레이그램 2025 사업보고서](/sources/플레이그램_2025_사업보고서)
+- [MDS테크 2025 사업보고서](/sources/MDS테크_2025_사업보고서)
 - resource: dart_pipeline/dart_md/KOSPI/009810_플레이그램_2025.md (「II. 사업의 내용 > 2. 주요 제품 및 서비스」)

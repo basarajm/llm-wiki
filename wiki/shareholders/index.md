@@ -17,8 +17,12 @@
 * [HD현대사이트솔루션](/shareholders/HD현대사이트솔루션) - HD건설기계의 최대주주(37.59%)인 HD현대그룹 계열 비상장사
 * [JW홀딩스](/shareholders/JW홀딩스) - JW그룹 지주회사, JW생명과학·JW중외제약 최대주주
 * [KCC](/shareholders/KCC) - HL D&I 3대 주주, 도료·실리콘·건자재를 영위하는 KOSPI 상장 정밀화학 기업
-* [(주)LG](/shareholders/LG) - LG전자·LG생활건강 등 LG그룹 계열사의 최대주주인 LG그룹 지주회사
+* [(주)LG](/shareholders/LG) - LG전자·LG생활건강·LG유플러스 등 LG그룹 계열사의 최대주주인 LG그룹 지주회사
+* [LG (주주로서)](/shareholders/LG_주주) - LG씨엔에스의 최대주주 — LG그룹 지주회사, KOSPI 상장기업
+* [LG연암문화재단](/shareholders/LG연암문화재단) - (주)LG의 특수관계법인으로 LG화학 등 그룹 계열사 소수 지분을 보유한 공익재단
+* [LG유플러스](/shareholders/LG유플러스) - LG헬로비전의 최대주주(지분 58.61%), LG그룹 계열 통신사
 * [LG전자](/shareholders/LG전자) - LG이노텍의 최대주주(40.79%)인 LG그룹 핵심 전자 사업회사
+* [LG화학](/shareholders/LG화학) - LG에너지솔루션 최대주주(79.38%), LG그룹 종합 화학·배터리소재 기업
 * [LOTTE HOLDINGS CO.,LTD(日)](/shareholders/LOTTE_HOLDINGS_일본법인) - 일본 롯데홀딩스 — 롯데케미칼 특수관계인 주주(9.19%)
 * [NOK Corporation](/shareholders/NOK Corporation) - 평화홀딩스 지분 14.4%를 보유한 일본 씰·전자부품 제조사
 * [Silchester International Investors LLP](/shareholders/Silchester_International_Investors) - 영국계 자산운용사, LG생활건강 5% 이상 주주(6.1%)
@@ -40,6 +44,7 @@
 * [김준기](/shareholders/김준기) - DB그룹(구 동부그룹) 창업주, DB손해보험·DB증권 등 계열사 특수관계 개인 주주
 * [김창수](/shareholders/김창수) - F&F홀딩스 최대주주(지분 62.84%)이자 F&F그룹 창업주·회장
 * [김태영](/shareholders/김태영) - F&F홀딩스 최대주주 김창수 회장의 친인척으로 지분 6.13%를 보유한 개인 주주
+* [김택진](/shareholders/김택진) - 엔씨소프트 창업자 겸 대표이사이자 최대주주 개인
 * [네이버](/shareholders/네이버) - CJ ENM의 5% 이상 주주(4.996%)인 인터넷 플랫폼 기업
 * [뉴레이크인바이츠투자](/shareholders/뉴레이크인바이츠투자) - CG인바이츠의 최대주주(26.77%)인 투자법인
 * [대한민국정부](/shareholders/대한민국정부) - 한국전력공사 등 주요 공기업 지분을 직접 보유한 정부
@@ -75,18 +80,23 @@
 * [에코프라임마린퍼시픽](/shareholders/에코프라임마린퍼시픽) - HJ중공업의 최대주주인 비상장 투자목적회사 — 에코프라임마린 기업재무안정 사모투자합자회사와 동부건설㈜이 각 50%씩 공동 지배
 * [(주)에프앤코](/shareholders/에프앤코) - F&F홀딩스의 계열회사로 지분 4.84%를 보유한 특수관계인 법인 주주
 * [엔알제일호재기지원펀드투자목적회사](/shareholders/엔알제일호재기지원펀드투자목적회사) - DH오토넥스의 최대주주인 비상장 투자목적회사 — 2024년 M&A로 DH그룹의 DH오토넥스 인수 주체
+* [엔에이치엔페이코](/shareholders/엔에이치엔페이코) - NHN KCP의 최대주주로 간편결제(페이코) 및 광고사업을 영위하는 NHN 그룹 계열사
 * [윤건수](/shareholders/윤건수) - DSC인베스트먼트 대표이사, 2012년 설립 이래 재직 중인 창업 경영진
 * [이영열](/shareholders/이영열) - 삼호개발 대표이사 사장이자 2대주주(10.38%)
 * [이재용](/shareholders/이재용) - 삼성그룹 동일인 — 삼성물산·삼성생명 등 핵심 지분 보유
 * [이종호](/shareholders/이종호) - 삼호개발 창업주 회장이자 최대주주(18.68%)
+* [이준호](/shareholders/이준호) - NHN 최대주주(29.65%), 이사회 의장·회장
 * [임종윤](/shareholders/임종윤) - 디엑스앤브이엑스(DXVX) 최대주주, COREE그룹 회장
 * [정몽원 외 4인](/shareholders/정몽원) - HL D&I 개인 최대주주 그룹(정몽원 및 특수관계인 4인), HL그룹(옛 한라그룹) 총수 일가
 * [정몽준](/shareholders/정몽준) - HD현대그룹 동일인 — 지주회사 HD현대 최대주주(26.60%)
 * [정흥식](/shareholders/정흥식) - 씨에스 대표이사 회장이자 최대주주
 * [제이더블유이종호재단](/shareholders/제이더블유이종호재단) - JW홀딩스 특수관계인 재단법인, 지분 7.48% 보유
 * [조토리](/shareholders/조토리) - CSA 코스믹 5% 이상 주주(6.94%)
+* [주식회사엘아이지](/shareholders/주식회사엘아이지) - LIG그룹 지주회사 — LIG디펜스앤에어로스페이스(舊 LIG넥스원)의 최대주주 (비상장)
 * [지앤비조합](/shareholders/지앤비조합) - CSA 코스믹의 최대주주(13.16%) — ㈜아이에이치큐의 100% 자회사 투자조합
 * [(주)컨텍](/shareholders/컨텍) - AP위성 최대주주(24.73%) — 지상국·위성데이터 서비스 기업
+* [케이티알파](/shareholders/케이티알파) - KT그룹 계열회사, KTcs 지분 11.25% 보유
+* [플레이그램](/shareholders/플레이그램) - MDS테크의 최대주주(지분 25.50%)인 KOSPI 상장 지주성 사업회사
 * [학교법인 동양학원](/shareholders/학교법인_동양학원) - 효성그룹 계열 학교법인으로 HS효성 지분 1.43% 보유(공정거래법상 의결권 제한)
 * [한국관광공사](/shareholders/한국관광공사) - GKL 지분 51.00%를 보유한 최대주주, 관광 진흥 목적의 비상장 공기업(모회사)
 * [한국금융지주](/shareholders/한국금융지주) - 한국투자증권을 100% 보유한 한국투자금융그룹 지주회사
