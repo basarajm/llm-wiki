@@ -4,7 +4,7 @@ title: DN오토모티브 밸류체인
 description: DN오토모티브의 주요 공급사와 고객사 관계
 company: /companies/DN오토모티브
 tags: [밸류체인, DN오토모티브]
-timestamp: 2026-06-29T00:00:00Z
+timestamp: 2026-07-03T00:00:00Z
 ---
 
 ## 주요 공급사

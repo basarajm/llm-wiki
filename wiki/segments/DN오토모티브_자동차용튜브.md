@@ -5,7 +5,7 @@ description: DN오토모티브의 자동차용 튜브 사업 부문 (동아타�
 company: /companies/DN오토모티브
 revenue_share: 5.2
 tags: [사업부문, DN오토모티브]
-timestamp: 2026-06-29T00:00:00Z
+timestamp: 2026-07-03T00:00:00Z
 ---
 
 ## 사업 내용

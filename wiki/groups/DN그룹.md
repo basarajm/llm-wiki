@@ -3,7 +3,7 @@ type: Corporate Group
 title: DN그룹
 description: 자동차 방진부품·공작기계를 아우르는 DN그룹(동일인 김상헌)
 tags: [기업집단, 자동차부품, 공작기계, DN]
-timestamp: 2026-06-29T00:00:00Z
+timestamp: 2026-07-03T00:00:00Z
 ---
 
 ## 개요

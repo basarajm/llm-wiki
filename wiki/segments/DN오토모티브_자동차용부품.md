@@ -5,7 +5,7 @@ description: DN오토모티브의 자동차용 방진부품 및 축전지(배터
 company: /companies/DN오토모티브
 revenue_share: 47.8
 tags: [사업부문, DN오토모티브]
-timestamp: 2026-06-29T00:00:00Z
+timestamp: 2026-07-03T00:00:00Z
 ---
 
 ## 사업 내용

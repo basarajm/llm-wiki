@@ -9,7 +9,7 @@ industry: 자동차부품
 group: /groups/DN그룹
 is_stub: false
 tags: [기업, 자동차부품, KOSPI]
-timestamp: 2026-06-29T00:00:00Z
+timestamp: 2026-07-03T00:00:00Z
 source_count: 1
 ---
 
