@@ -1,6 +1,75 @@
 # 위키 작업 이력
 
+
+
+**Ingest** 대창단조-사업보고서-2025.12 (source_documents/AnnualReport_MD, 제45기) Full 인제스트.
+wiki/companies/대창단조.md 신규 생성 (KOSPI 015590, market_page /markets/KOSPI, group /groups/대창그룹, is_stub: false).
+중장비 하부주행체 부품(링크·로라·슈 등)과 자동차 크랑크샤프트를 제조하는 단조 전문기업.
+2025년 연결매출 3,462.7억원(+8.32% YoY), 영업이익 380.3억원(+26.5%, 영업이익률 11.47%),
+당기순이익 274.8억원(전년 대비 감소). 최대주주는 박안식(본인, 2.19%)이며 특수관계인 포함 총 45.78% 보유
+(박권일 대표이사 20.05%, 박권욱 부사장 12.86%, 박형식 4.13%, 박선영 0.05%, (주)DCF TREK 4.66%, 동창단조 1.84%).
+대표이사 박권일. 미국 자회사 Trek Inc(100%), 인도 합작법인 TDI(66.67%), 중국 지분법 대상회사
+Sunway Daechang Forging(50%) 보유. 신규: sources/대창단조_2025_사업보고서.md, groups/대창그룹.md(동일인 박안식),
+segments 2종(단조부품 제조부문 59.6%, 상품유통부문 35.2%), value_chain/대창단조_밸류체인.md
+(공급사 세아베스틸, 고객사 볼보그룹코리아·HD건설기계·HD현대인프라코어·현대자동차·쌍용자동차),
+products 2종(링크슈아세이, 크랑크샤프트), ratings/대창단조 신용등급.md(KCR2 A등급),
+executives 3종(박권일·박안식·박권욱), shareholders 3종(박안식·박형식·박선영),
+companies stub 6종(DCF트랙, 동창단조, 봉림금속, Trek_Inc, 볼보그룹코리아, 쌍용자동차; HD건설기계·HD현대인프라코어·현대자동차는 기존 페이지 재사용).
+wiki/index.md·markets/KOSPI.md 갱신.
+**Ingest** 대원화성-사업보고서-2025.12 (source_documents/AnnualReport_MD, 제52기) Full 인제스트.
+wiki/companies/대원화성.md 신규 생성 (KOSPI 003580, market_page /markets/KOSPI, is_stub: false).
+신발용·자동차 내장재용 폴리우레탄 합성피혁 제조 전문기업. 2025년 연결 매출액 1,264억원(+0.4% YoY),
+영업이익 8.7억원(2023·2024 연속 적자에서 흑자 전환), 당기순이익(지배기업 귀속) 26.6억원(2024년
+(109.4억원) 적자에서 흑자 전환, 중단영업손익 77.3억 반영). 최대주주는 강동엽(11.76%, 대표이사),
+특수관계인 강상엽(9.84%)·강기엽(9.84%)·강수창(5.88%)·소타인베스트먼트(9.18%, 특수관계법인).
+대표이사 강동엽. 베트남·중국·인도네시아·멕시코 4개 해외 생산법인 보유. 신규: sources/대원화성_2025_사업보고서.md,
+segments/대원화성_합성피혁부문.md(매출 90.9% 비중, Nike·Adidas·Wilson·Spalding 등 고객), segments/대원화성_정제부문.md
+(폐DMF 정제, 국내 점유율 약 39% 추정), value_chain/대원화성_밸류체인.md, products/PU합성피혁.md 갱신(대원화성 점유율 약 9% 추정, Nike·Adidas 고객사 링크 추가),
+executives 5종(강동엽 — 대표이사·최대주주, 허훈종 — 사내이사·감사위원, 변용석 — 사외이사·감사위원장·공인회계사,
+김동준 — 사외이사·감사위원, 김용진 — 사외이사·감사위원·지호홀딩스 대표이사 겸직), shareholders 6종(강동엽·강상엽·강기엽·
+강수창·소타인베스트먼트·김병욱), companies stub 3종(나이키, 아디다스 — 신발용 원단 고객사, 지호홀딩스 — 김용진 겸직 법인).
+신용평가 등급(Credit Rating) 페이지는 미생성 — 사업보고서에 공모 회사채·기업어음에 대한 외부 신용평가기관 등급 공시 없음
+(미확인). markets/KOSPI.md, wiki/index.md 갱신, log.md 기록.
+
 ## 2026-07-03
+**Ingest** 더블유게임즈-사업보고서-2025.12 (source_documents/AnnualReport_MD, 제14기) Full 인제스트.
+wiki/companies/더블유게임즈.md 신규 생성 (KOSPI 192080, market_page /markets/KOSPI, is_stub: false).
+연결 매출액 7,198.97억 원(+13.6% YoY), 영업이익 2,321.34억 원(-6.7% YoY), 당기순이익 1,798.11억 원(-26.1% YoY).
+최대주주 김가람(대표이사) 41.37%, 특수관계인 포함 44.30%. 5% 이상 주주: 자사주 10.31%, 국민연금공단 6.97%.
+사업부문: 게임(웹·모바일, 매출비중 87.9%), 아이게이밍(SuprNation AB, 매출비중 12.0%, 전년대비 92.4% 성장).
+신규 페이지: sources 1건, segments 2건(게임부문·아이게이밍부문), value_chain 1건, products 1건(더블유카지노),
+executives 3건(김가람·박신정·최재영), shareholders 1건(김가람, 국민연금공단은 기존 페이지 갱신),
+ratings 1건, companies stub 1건(더블다운인터액티브, 미국 NASDAQ ADR 상장 종속회사).
+markets/KOSPI.md·wiki/index.md·wiki/shareholders/국민연금공단.md 갱신.
+
+**Ingest** 동남합성-사업보고서-2025.12 (source_documents/AnnualReport_MD, 제61기) Full 인제스트.
+wiki/companies/동남합성.md 신규 생성 (KOSPI 005710, market_page /markets/KOSPI, is_stub: false, group: /groups/미원).
+별도 매출액 1,943억 원(+4.2% YoY), 영업이익 93.7억 원(+4.8% YoY), 당기순이익 70.0억 원. 연결재무제표 해당사항 없음.
+최대주주 미원홀딩스(주) 42.29%, 5% 이상 주주 미원상사(주) 8.54%·이주희 8.79%. 대표이사 박미령(전무, 사내이사).
+미원그룹(미원상사 및 관계사) 계열사로 wiki/groups/미원.md·wiki/companies/미원상사.md 상호 링크 보강.
+신규 페이지: sources 1건, segments 1건(계면활성제), value_chain 1건, products 1건(MONOPOL),
+executives 3건(박미령·김정돈·김태준), shareholders 2건(미원홀딩스·이주희), companies stub 1건(미원홀딩스).
+신용평가: 사업보고서 내 신용평가 등급 공시 없어 ratings 페이지 미생성. markets/KOSPI.md·wiki/index.md·wiki/groups/미원.md 갱신.
+
+**Ingest** 동국씨엠-사업보고서-2025.12 (source_documents/AnnualReport_MD, 제3기) Full 인제스트.
+wiki/companies/동국씨엠.md 신규 생성 (KOSPI 460850, market_page /markets/KOSPI, is_stub: false, group: 동국제강그룹).
+연결 매출액 27,687억 원(+27.9% YoY), 영업손실 -388억 원(전년 영업이익 773억에서 적자전환), 연결 당기순손실 -699억 원.
+최대주주 동국홀딩스(주) 33.60%(2025년 중 경영권 영향목적 장내매수로 30.34%→33.60% 확대), 특수관계인 합산 33.63%.
+대표이사 박상훈(사내이사). 2025.01 아주스틸(주) 인수 최종완료로 연결범위 확대(해외법인 다수 편입).
+신규 페이지: sources 1건, segments 1건(철강부문), value_chain 1건, products 1건(Luxteel·Appsteel 컬러강판),
+shareholders 1건(JFE 스틸 인터내셔널 유럽), executives 1건(박상훈), companies stub 2건(아주스틸·POSCO).
+신용평가: 2023년 신설법인으로 평가 이력 없어 ratings 페이지 미생성. markets/KOSPI.md·wiki/index.md 갱신.
+
+**Ingest** 대호에이엘-사업보고서-2025.12 (source_documents/AnnualReport_MD, 제24기) Full 인제스트.
+wiki/companies/대호에이엘.md 신규 생성 (KOSPI 008040, market_page /markets/KOSPI, is_stub: false).
+연결 매출액 2,156억 원(+28% YoY), 영업이익 34.7억 원(-40% YoY), 당기순이익 -325.0억 원(대규모 순손실).
+**주의: 제24기 개별·연결 감사보고서 모두 한영회계법인 의견거절(핵심감사사항: 매출의 기간귀속)** — 전기 적정의견 대비 유의미한 리스크.
+최대주주 (주)비즈알파(3.64%)+특수관계인 김석진(10.55%), 합계 10.79%(2023.08.22 최대주주 변경).
+대표이사 육영수(2026.02.13 각자대표 선임, 보고서 기준일 이후). 전 대표이사 김영대(2026.03.16 해임).
+2025.04.30 구지공장 분할하여 (주)진머티리얼즈 신설, 다수 자회사 신규 연결.
+신규 페이지: sources 1건, segments 1건(알미늄판재), value_chain 1건, products 2건(AL COIL·AL CIRCLE),
+shareholders 2건(비즈알파·김석진), executives 4건(육영수·김영대(대호에이엘)·변찬호·다니엘 오),
+ratings 1건, groups 1건(비즈알파), companies stub 2건(글렌코아·백산산업). markets/KOSPI.md·wiki/index.md 갱신.
 
 **Ingest** 금호타이어-사업보고서-2025.12 (source_documents/AnnualReport_MD, 제23기) Full 인제스트.
 wiki/companies/금호타이어.md 기존 stub(SIMPAC·다이나믹디자인 거래상대방 언급 기반)을 정식 Company
@@ -1539,3 +1608,40 @@ executives/임정배.md) + 공유 페이지 갱신 2건(markets/KOSPI.md, wiki/i
 - 핵심 수치(연결, 제52기 2025년): 매출액 1조 6,044억원(+5.6% YoY), 영업이익 431억원(+18.9%), 당기순이익(지배주주) 292억원(+16.0%). 최대주주는 농협경제지주 56.00%(27,820,149주), 대표이사 김창수(2024.03.22 취임, 전 농협경제지주 상무). 비료화학부문 매출 1조 298억원(영업이익 504억원), 유류부문 매출 5,654억원(영업손실), 반도체용 황산(NES머티리얼즈) 매출 92억원(영업손실 73억원, 초기 가동).
 - 신규 페이지 총 10개(sources 1 + segments 2 + value_chain 1 + executives 1 + shareholders 1 + products 2 + ratings 1 + companies stub 3 = 12, 회사 페이지는 stub 승격이라 신규 카운트 제외).
 - 신규 페이지 총 17개(회사 1 + sources 1 + Corporate Group 1 + segments 4 + value_chain 1 + products 1 + ratings 1 + executives 3 + shareholders 2 + companies stub 5, 일부 특수관계자는 지분·사업 내용 미확인으로 stub 생성 보류). 병행 인제스트 세션과의 공유 파일 편집 충돌 발생 시 재조회 후 재시도로 정상 반영.
+**Ingest** 덴티움-사업보고서-2025.12 (source_documents/AnnualReport_MD, 제26기) Full 인제스트. wiki/companies/덴티움.md 신규 생성(기존 페이지·stub 없음 확인, KOSPI 145720, market_page /markets/KOSPI, is_stub: false).
+- 신규: sources/덴티움_2025_사업보고서.md, companies/덴티움.md, segments 2종(덴탈부문·에너지부문[SOFC 신규사업]), value_chain/덴티움_밸류체인.md, executives 3종(서승우·윤병호 — 각자대표이사, 정성민 — 최대주주 겸 사내이사·제노스 대표이사 겸임), shareholders/얼라인파트너스.md(8.16%, 5% 이상 주주), companies stub 3종(제노스[정성민 겸직 관계사]·IMG_GmBH[독일 최대 고객사, 매출비중 14.4%]·유한회사_더브라이트[서승우 겸직 비상장 관계사]). Financial Product·Credit Rating 페이지는 회사채 신용등급 공시가 확인되지 않아 생성하지 않음.
+- 갱신: shareholders/국민연금공단.md(보유 종목 표에 덴티움 5.78% 추가), markets/KOSPI.md(상장기업 목록에 덴티움 145720 추가), wiki/index.md(companies·sources·segments·value_chain·executives·shareholders 섹션 전체 반영, 병렬 세션과의 편집 충돌은 재조회 후 재시도로 해소).
+- 핵심 수치(연결, 제26기 2025년): 매출액 3,464.5억원(-15.0% YoY), 영업이익 641.1억원(-34.9%), 당기순이익(지배지분) 164.1억원(-77.4%, 중국向 매출 급감 영향). 별도 기준 매출 2,669.8억원, 영업이익 441.7억원, 당기순이익 251.5억원. 최대주주는 정성민 17.34%(특수관계인 합산 18.95%), 5% 이상 주주로 얼라인파트너스 8.16%·국민연금공단 5.78%. 2026년 2~3월 자기주식 2,444,939주(발행주식의 약 22.1%) 전량 이익소각. 에너지 부문(SOFC) 2025년 매출 미발생, 영업손실 54.8억원, 베트남 생산시설 건설 중.
+- 신규 페이지 총 10개(회사 1 + sources 1 + segments 2 + value_chain 1 + executives 3 + shareholders 1 + companies stub 3 = 12, 회사 페이지·sources 포함 전체 12개).
+
+**Ingest** 대현-사업보고서-2025.12 (source_documents/AnnualReport_MD, 제44기) Full 인제스트.
+wiki/companies/대현.md 신규 생성 (KOSPI 016090, market_page /markets/KOSPI, is_stub: false).
+2025년 별도 매출액 2,405억원(-7.2% YoY), 영업이익 71억원(-50.75% YoY), 당기순이익 110억원(-30.72% YoY).
+최대주주 신윤황 대표이사(27.44%, 특수관계인 합계 47.28%, 계열회사 없음). 여성복 7개 브랜드(씨씨콜렉트·
+주크·모조·듀엘·데카브·르하스·엘유브이엠) 전개, 2025년 8월 편집샵 '바운더리' 신규 오픈. 신규:
+sources/대현_2025_사업보고서.md, segments/대현_의류부문.md(매출비중 99.35%)·대현_임대부문.md(0.65%),
+value_chain/대현_밸류체인.md(외주가공 생산, 자체 유통망 366개), products 4종(씨씨콜렉트·주크·모조·듀엘),
+executives 6종(신윤황 — 대표이사 겸 최대주주, 이원재 — 상무, 김상표 — 이사 2025 신규선임, 이준섭·조정환·
+최원석_대현 — 사외이사 감사위원, 최원석은 기존 진양산업 최원석과 동명이인이라 최원석_대현으로 분리 생성),
+shareholders 3종(신현균 10.61%·정복희 5.12%·신윤건 4.11%, 모두 오너 일가 개인주주). Credit Rating 페이지는
+미생성(공시 회사채 신용등급 정보 확인 안 됨). markets/KOSPI.md 상장기업 목록 갱신.
+**Ingest** 대창-사업보고서-2025.12 (source_documents/AnnualReport_MD, 제49기) Full 인제스트.
+wiki/companies/대창.md 신규 생성 (KOSPI 012800, market_page /markets/KOSPI, is_stub: false; 기존 페이지·stub 없음 확인).
+핵심 수치(연결, 제49기 2025년): 매출액 1조 4,702억원(+10.0% YoY), 영업이익 515억원(+64.4%), 당기순이익(지배지분) 21억원(-52.4%).
+별도 기준 매출 5,573억원(+8.1%), 영업이익 167억원, 당기순손실 105억원. 최대주주는 (주)서원 37.2%(28,393,034주), 조시영 대표이사(회장) 겸 서원·태우·에쎈테크 대표이사 겸직.
+신규: sources/대창_2025_사업보고서.md, groups/대창(주)그룹.md(동일인 조시영 — 단조업체 대창단조가 속한 기존 groups/대창그룹[동일인 박안식]과 파일명 충돌 회피 위해 "대창(주)그룹"으로 명명),
+segments 2종(대창_비철금속제조[매출비중 99.4%]·대창_분양사업[0.6%]), value_chain/대창_밸류체인.md, products/황동봉.md, ratings/대창_신용등급.md(한국신용평가 BB+/안정적),
+executives 4종(조시영 — 회장 겸 대표이사, 김옥열 — 부회장 겸 대표이사, 조경호 — 부회장·서원 대표이사 겸직, 전도영 — 사외이사 2025 신규선임),
+shareholders/서원.md(대창 최대주주 37.2%, 기존 companies stub에 병합 개요 반영), companies stub 4종(태우·에쎈테크·아이엔스틸인더스트리 — 종속회사, 엘에스엠앤엠 — 원재료 매입처).
+companies/서원.md는 기존 대림통상 관련 stub이 있어 대창 최대주주 정보를 병합 보강(source_count 1→2).
+markets/KOSPI.md 상장기업 목록에 대창(012800)·에쎈테크(stub) 추가, wiki/index.md 전 섹션(companies·groups·shareholders·value_chain·segments·products·executives·ratings·sources) 반영.
+병행 인제스트 세션과의 공유 파일(index.md·log.md·markets/KOSPI.md·groups/대창그룹.md) 편집 충돌은 재조회 후 재시도로 해소.
+신규 페이지 총 16개(회사 1 + sources 1 + groups 1 + segments 2 + value_chain 1 + products 1 + ratings 1 + executives 4 + shareholders 1 + companies stub 4 - 서원 stub 기존 병합분 = 순수 신규 16개).
+
+
+## 2026-07-03
+
+**Ingest** 더존비즈온 2025 사업보고서(제49기) Full 인제스트 완료 — stub 승급, 신규/갱신 15개 페이지(회사 1, sources 1, segments 2, value_chain 1, executives 5, products 1, ratings 1, shareholders 갱신 2, companies stub 9). 최대주주 도로니쿰(주) 매각계약 체결 등 반영.
+
+**Ingest** 더본코리아-사업보고서-2025.12.md — Full 인제스트. companies/더본코리아(신규, KOSPI 475560), sources/더본코리아_2025_사업보고서, segments 3건(가맹/유통/호텔사업), value_chain/더본코리아_밸류체인, executives 4건(백종원·강석원·최경선·강석천), shareholders 2건(백종원·강석원), products/빽다방, ratings/더본코리아_신용등급 생성. 계열사·겸직법인 stub 11건 신규(성림쓰리에이통상, 디에스아이시스템, 티엠씨엔터, THE BORN AMERICA INC., NOODLE J1 INC, THE BORN JAPAN, 청도더본음식문화유한공사, 농업회사법인 시트러스, 쿡솔루션, 피앤홀딩스, 예촌교육문화재단) 및 거래상대방 stub 2건(CJ ENM, 코스트코코리아). markets/KOSPI.md·wiki/index.md 갱신.
+**Ingest** 동국제강-사업보고서-2025.12.md — Full 인제스트 (stub → 정식 페이지 승급). companies/동국제강(KOSPI, group /groups/동국제강그룹), sources/동국제강_2025_사업보고서(제3기, 매출 3조 2,034억·영업이익 594억·순이익 82억), segments 2건(봉형강부문 69.93%, 후판부문 27.81%), value_chain/동국제강_밸류체인, executives 6건(최삼영·곽진수·민동준·남동국·남태연·김한철), shareholders/동국홀딩스(최대주주 33.60%), groups/동국제강그룹(신규, 동일인 장세주) 생성. 거래상대방 stub 2건(JFE스틸, 태영인프라) 신규. companies/동국홀딩스에 group 필드 보강. markets/KOSPI.md·wiki/index.md 갱신.
