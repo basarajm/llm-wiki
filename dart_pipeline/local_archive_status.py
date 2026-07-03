@@ -75,15 +75,15 @@ def detect_market_from_source(path):
         txt = open(path, encoding="utf-8", errors="ignore").read()
     except OSError:
         return "Unknown"
-    found = {}
+    # 회사 자체의 "주권상장 및 특례상장에 관한 사항" 표는 사업보고서 최상단(I.회사의 개요)에
+    # 한 번만 등장한다. 본문 뒤쪽에는 대주주·비교기업 등 다른 법인의 상장 정보가 표 형태로
+    # 재등장할 수 있으므로, "가장 먼저 매칭되고 날짜가 실제로 채워진(해당사항 없음이 아닌)"
+    # 행을 채택한다 — 두 시장 라벨 중 어느 쪽이 문서에 먼저 나오는지로 판정.
     for m in MARKET_ROW_RE.finditer(txt):
         label, date_col, _ = m.groups()
         listed = bool(date_col) and "해당사항 없음" not in date_col
-        found[label] = listed
-    if found.get("유가증권시장 상장"):
-        return "KOSPI"
-    if found.get("코스닥시장 상장"):
-        return "KOSDAQ"
+        if listed:
+            return "KOSPI" if label == "유가증권시장 상장" else "KOSDAQ"
     return "Unknown"
 
 

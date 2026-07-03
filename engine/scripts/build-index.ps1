@@ -1,4 +1,4 @@
-# index.md 재생성
+﻿# index.md 재생성
 # 각 콘텐츠 디렉토리의 페이지 frontmatter(title/description)에서 디렉토리별 index.md를 재생성하고,
 # 루트 index.md를 카테고리별로 갱신한다. (OKF progressive-disclosure)
 # 사용: pwsh scripts\build-index.ps1

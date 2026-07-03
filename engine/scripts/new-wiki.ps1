@@ -1,4 +1,4 @@
-# 새 빈 위키 부트스트랩 — 엔진(재사용 파일)만 복사하고 콘텐츠/원본 데이터는 제외.
+﻿# 새 빈 위키 부트스트랩 — 엔진(재사용 파일)만 복사하고 콘텐츠/원본 데이터는 제외.
 # 새 구조: <대상>\CLAUDE.md, README.md, .gitignore, .claude\, engine\, wiki\, source_documents\
 # 사용: pwsh engine\scripts\new-wiki.ps1 -Target C:\path\to\new-wiki [-Force]
 

@@ -1,4 +1,4 @@
-# 공통 헬퍼 — 다른 스크립트에서 dot-source 하여 사용
+﻿# 공통 헬퍼 — 다른 스크립트에서 dot-source 하여 사용
 # 사용: . "$PSScriptRoot\_common.ps1"
 
 $OutputEncoding = [System.Text.Encoding]::UTF8

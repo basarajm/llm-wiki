@@ -3,7 +3,7 @@ type: Corporate Group
 title: LG그룹
 description: 구광모 회장을 동일인으로 하는 전자·화학·통신 중심 기업집단 — (주)LG 지주 체제
 controlling_person: 구광모
-member_companies: [/companies/LG, /companies/LG전자, /companies/LG디스플레이, /companies/LG화학, /companies/LG이노텍, /companies/LG에너지솔루션, /companies/LG유플러스, /companies/LG생활건강, /companies/LG씨엔에스]
+member_companies: [/companies/LG, /companies/LG전자, /companies/LG디스플레이, /companies/LG화학, /companies/LG이노텍, /companies/LG에너지솔루션, /companies/LG유플러스, /companies/LG생활건강, /companies/LG씨엔에스, /companies/HS애드]
 tags: [기업집단, LG]
 timestamp: 2026-06-27T00:00:00Z
 ---
@@ -27,6 +27,7 @@ LG그룹은 동일인 **구광모** 회장이 이끄는 전자·화학·통신 �
 | [LG유플러스](/companies/LG유플러스) | 이동통신·유선·미디어 | 핵심 |
 | [LG생활건강](/companies/LG생활건강) | 화장품·생활용품·음료 | 비핵심 |
 | [LG씨엔에스](/companies/LG씨엔에스) | IT서비스(SI·클라우드·AI) | 핵심 |
+| [HS애드](/companies/HS애드) | 종합광고대행업 (KOSPI 035000) | 비핵심 |
 
 ## 지배구조
 
@@ -40,3 +41,4 @@ LG그룹은 국내 대표적인 **지주회사 체제**를 운영하며, 순환�
 # Citations
 
 - [LG전자 2025 사업보고서](/sources/LG전자_2025_사업보고서)
+- [HS애드 2025 사업보고서](/sources/HS애드_2025_사업보고서)

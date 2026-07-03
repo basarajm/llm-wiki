@@ -1,42 +1,24 @@
 # 로컬 아카이브(AnnualReport_MD) 인제스트 트래커 (KOSPI)
 
-- 아카이브 회사 수: **775건** (source_documents/AnnualReport_MD/, 각 머신에 로컬 배치 필요·git 미포함)
-- 완료(done, Full): **357건**
-- 대기(pending): **418건** (이 중 stub→Full 승급 대상 67건)
+- 아카이브 회사 수: **814건** (source_documents/AnnualReport_MD/, 각 머신에 로컬 배치 필요·git 미포함)
+- 완료(done, Full): **376건**
+- 대기(pending): **438건** (이 중 stub→Full 승급 대상 72건)
 
 > done 기준: wiki/companies/<회사>.md 가 존재하고 is_stub:false.
 > market 판정: 위키 frontmatter 우선, 없으면 원본 MD의 '상장 유형' 표(유가증권시장/코스닥시장 상장)에서 추출.
 > 이 파일은 `python dart_pipeline/local_archive_status.py [--market KOSPI|KOSDAQ]` 로 재생성됩니다.
 > 다음 N개사 산출: `python dart_pipeline/local_archive_status.py [--market KOSPI|KOSDAQ] --next N`
 
-## ⏳ 대기 (상위 50건, 전체 418건)
+## ⏳ 대기 (상위 50건, 전체 438건)
 
 - DB (`KOSPI`) — `source_documents/AnnualReport_MD/DB-사업보고서-2025.12.md`
 - DH오토넥스 (`KOSPI`) — `source_documents/AnnualReport_MD/DH오토넥스-사업보고서-2025.12.md`
-- E1 (`KOSPI`) — `source_documents/AnnualReport_MD/E1-사업보고서-2025.12.md`
+- ESR켄달스퀘어리츠 (`KOSPI`) — `source_documents/AnnualReport_MD/ESR켄달스퀘어리츠-사업보고서-2025.11.md`
 - F&F 홀딩스 (`KOSPI`) — `source_documents/AnnualReport_MD/F&F 홀딩스-사업보고서-2025.12.md`
-- GKL (`KOSPI`) — `source_documents/AnnualReport_MD/GKL-사업보고서-2025.12.md`
-- GS (`KOSPI`) — `source_documents/AnnualReport_MD/GS-사업보고서-2025.12.md`
-- GS피앤엘 (`KOSPI`) — `source_documents/AnnualReport_MD/GS피앤엘-사업보고서-2025.12.md`
-- HDC (`KOSPI`) — `source_documents/AnnualReport_MD/HDC-사업보고서-2025.12.md`
-- HDC현대EP (`KOSPI`) — `source_documents/AnnualReport_MD/HDC현대EP-사업보고서-2025.12.md`
-- HD건설기계 (`KOSPI`) — `source_documents/AnnualReport_MD/HD건설기계-사업보고서-2025.12.md`
-- HD현대마린솔루션 (`KOSPI`) — `source_documents/AnnualReport_MD/HD현대마린솔루션-사업보고서-2025.12.md`
-- HD현대마린엔진 (`KOSPI`) — `source_documents/AnnualReport_MD/HD현대마린엔진-사업보고서-2025.12.md`
-- HD현대에너지솔루션 (`KOSPI`) — `source_documents/AnnualReport_MD/HD현대에너지솔루션-사업보고서-2025.12.md`
-- HD현대중공업 (`KOSPI`) — `source_documents/AnnualReport_MD/HD현대중공업-사업보고서-2025.12.md`
-- HJ중공업 (`KOSPI`) — `source_documents/AnnualReport_MD/HJ중공업-사업보고서-2025.12.md`
-- HL D&I (`KOSPI`) — `source_documents/AnnualReport_MD/HL D&I-사업보고서-2025.12.md`
+- HDC랩스 (`KOSPI`) — `source_documents/AnnualReport_MD/HDC랩스-사업보고서-2025.12.md`
 - HL만도 (`KOSPI`) — `source_documents/AnnualReport_MD/HL만도-사업보고서-2025.12.md`
 - HL홀딩스 (`KOSPI`) — `source_documents/AnnualReport_MD/HL홀딩스-사업보고서-2025.12.md`
-- HS애드 (`KOSPI`) — `source_documents/AnnualReport_MD/HS애드-사업보고서-2025.12.md`
-- HS효성 (`KOSPI`) — `source_documents/AnnualReport_MD/HS효성-사업보고서-2025.12.md`
-- HS효성첨단소재 (`KOSPI`) — `source_documents/AnnualReport_MD/HS효성첨단소재-사업보고서-2025.12.md`
-- INVENI (`KOSPI`) — `source_documents/AnnualReport_MD/INVENI-사업보고서-2025.12.md`
 - IPARK현대산업개발 (`KOSPI`) — `source_documents/AnnualReport_MD/IPARK현대산업개발-사업보고서-2025.12.md`
-- ISC (`KOSPI`) — `source_documents/AnnualReport_MD/ISC-사업보고서-2025.12.md`
-- JB금융지주 (`KOSPI`) — `source_documents/AnnualReport_MD/JB금융지주-사업보고서-2025.12.md`
-- JW생명과학 (`KOSPI`) — `source_documents/AnnualReport_MD/JW생명과학-사업보고서-2025.12.md`
 - JW홀딩스 (`KOSPI`) — `source_documents/AnnualReport_MD/JW홀딩스-사업보고서-2025.12.md`
 - KB금융 (`KOSPI`) — `source_documents/AnnualReport_MD/KB금융-사업보고서-2025.12.md`
 - KB스타리츠 (`KOSPI`) — `source_documents/AnnualReport_MD/KB스타리츠-사업보고서-2026.01.md`
@@ -61,3 +43,21 @@
 - MH에탄올 (`KOSPI`) — `source_documents/AnnualReport_MD/MH에탄올-사업보고서-2025.12.md`
 - NAVER (`KOSPI`) — `source_documents/AnnualReport_MD/NAVER-사업보고서-2025.12.md`
 - NC (`KOSPI`) — `source_documents/AnnualReport_MD/NC-사업보고서-2025.12.md`
+- NH올원리츠 (`KOSPI`) — `source_documents/AnnualReport_MD/NH올원리츠-사업보고서-2025.12.md`
+- NH프라임리츠 (`KOSPI`) — `source_documents/AnnualReport_MD/NH프라임리츠-사업보고서-2025.11.md`
+- NICE (`KOSPI`) — `source_documents/AnnualReport_MD/NICE-사업보고서-2025.12.md`
+- NICE평가정보 (`KOSPI`) — `source_documents/AnnualReport_MD/NICE평가정보-사업보고서-2025.12.md`
+- OCI (`KOSPI`) — `source_documents/AnnualReport_MD/OCI-사업보고서-2025.12.md`
+- PI첨단소재 (`KOSPI`) — `source_documents/AnnualReport_MD/PI첨단소재-사업보고서-2025.12.md`
+- PKC (`KOSPI`) — `source_documents/AnnualReport_MD/PKC-사업보고서-2025.12.md`
+- POSCO홀딩스 (`KOSPI`) — `source_documents/AnnualReport_MD/POSCO홀딩스-사업보고서-2025.12.md`
+- SBS (`KOSPI`) — `source_documents/AnnualReport_MD/SBS-사업보고서-2025.12.md`
+- SFA반도체 (`KOSPI`) — `source_documents/AnnualReport_MD/SFA반도체-사업보고서-2025.12.md`
+- SHD (`KOSPI`) — `source_documents/AnnualReport_MD/SHD-사업보고서-2025.12.md`
+- SJG세종 (`KOSPI`) — `source_documents/AnnualReport_MD/SJG세종-사업보고서-2024.12.md`
+- SK (`KOSPI`) — `source_documents/AnnualReport_MD/SK-사업보고서-2025.12.md`
+- SKC (`KOSPI`) — `source_documents/AnnualReport_MD/SKC-사업보고서-2025.12.md`
+- SK가스 (`KOSPI`) — `source_documents/AnnualReport_MD/SK가스-사업보고서-2025.12.md`
+- SK디앤디 (`KOSPI`) — `source_documents/AnnualReport_MD/SK디앤디-사업보고서-2025.12.md`
+- SK리츠 (`KOSPI`) — `source_documents/AnnualReport_MD/SK리츠-사업보고서-2026.03.md`
+- SK바이오사이언스 (`KOSPI`) — `source_documents/AnnualReport_MD/SK바이오사이언스-사업보고서-2025.12.md`

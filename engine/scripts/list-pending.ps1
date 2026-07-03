@@ -1,4 +1,4 @@
-# 미처리 원본 목록
+﻿# 미처리 원본 목록
 # source_documents\<SourceDir>의 원본 .md 중, wiki\sources\에 resource:로 참조되지 않은 파일을 출력.
 # 사용: pwsh engine\scripts\list-pending.ps1 [-SourceDir AnnualReport_Recent]
 
