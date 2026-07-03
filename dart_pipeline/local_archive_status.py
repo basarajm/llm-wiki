@@ -15,9 +15,10 @@ MD 파일(파일명 패턴: "<회사명>-사업보고서-<YYYY.MM>.md")을 기�
   - --next N 으로 다음 N개 회사를 JSON으로 산출(배치 작업용)
 
 사용:
-  python local_archive_status.py                    # 현황 출력 + 트래커 갱신
-  python local_archive_status.py --next 3            # 다음 3개사 JSON 출력
-  python local_archive_status.py --mark "회사A,회사B" # 수동 done 표시(트래커 재계산에는 영향 없음, 참고용)
+  python local_archive_status.py                           # 현황 출력 + 트래커 갱신
+  python local_archive_status.py --next 3                 # 다음 3개사 JSON 출력
+  python local_archive_status.py --market KOSPI --next 6  # KOSPI 중 다음 6개사 JSON 출력
+  python local_archive_status.py --market KOSDAQ --next 6 # KOSDAQ 중 다음 6개사 JSON 출력
 """
 
 import argparse
@@ -66,7 +67,7 @@ def list_archive():
 
 
 def wiki_company_status():
-    """회사명 -> 'full' | 'stub'."""
+    """회사명 -> {'status': 'full' | 'stub', 'market': 'KOSPI' | 'KOSDAQ' | ...}."""
     out = {}
     d = os.path.join(WIKI, "companies")
     if not os.path.isdir(d):
@@ -75,20 +76,31 @@ def wiki_company_status():
         if not fn.endswith(".md") or fn == "index.md":
             continue
         fm = read_frontmatter(os.path.join(d, fn))
-        out[fn[:-3]] = "stub" if fm.get("is_stub", "").lower() == "true" else "full"
+        out[fn[:-3]] = {
+            "status": "stub" if fm.get("is_stub", "").lower() == "true" else "full",
+            "market": fm.get("market", "Unknown")
+        }
     return out
 
 
-def compute():
+def compute(market_filter=None):
+    """market_filter: None(all) | 'KOSPI' | 'KOSDAQ'"""
     archive = list_archive()
     status = wiki_company_status()
     done, pending, stub_upgradeable = [], [], []
     for name, fn in archive.items():
         st = status.get(name)
         entry = {"name": name, "file": f"source_documents/AnnualReport_MD/{fn}"}
-        if st == "full":
+        market = st.get("market", "Unknown") if st else "Unknown"
+        entry["market"] = market
+
+        # market 필터 적용
+        if market_filter and market != market_filter:
+            continue
+
+        if st and st["status"] == "full":
             done.append(entry)
-        elif st == "stub":
+        elif st and st["status"] == "stub":
             stub_upgradeable.append(entry)
             pending.append(entry)
         else:
@@ -128,17 +140,21 @@ def write_md_tracker(done, pending, stub_upgradeable):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--next", type=int, default=0, help="다음 N개사를 JSON으로 출력")
+    ap.add_argument("--market", choices=["KOSPI", "KOSDAQ"], help="특정 시장만 필터링 (KOSPI|KOSDAQ)")
     args = ap.parse_args()
 
-    archive, done, pending, stub_upgradeable = compute()
+    archive, done, pending, stub_upgradeable = compute(market_filter=args.market)
 
     if args.next:
-        print(json.dumps(pending[: args.next], ensure_ascii=False, indent=1))
+        result = pending[: args.next]
+        # market 정보 추출 (pending에 이미 market 필드 있음)
+        print(json.dumps(result, ensure_ascii=False, indent=1))
         return
 
     md = write_md_tracker(done, pending, stub_upgradeable)
+    market_suffix = f" ({args.market})" if args.market else ""
     print(
-        f"아카이브 {len(archive)} / 완료 {len(done)} / 대기 {len(pending)} "
+        f"아카이브{market_suffix} {len(done) + len(pending)} / 완료 {len(done)} / 대기 {len(pending)} "
         f"(stub 승급 대상 {len(stub_upgradeable)})"
     )
     print(f"트래커: {md}")
