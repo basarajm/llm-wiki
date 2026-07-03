@@ -4712,6 +4712,7 @@
 * [ingest-tracker-local](/outputs/ingest-tracker-local)
 * [ingest-tracker-local-kosdaq](/outputs/ingest-tracker-local-kosdaq)
 * [ingest-tracker-local-kospi](/outputs/ingest-tracker-local-kospi)
+* [인제스트 후속 검토 이슈 트래커](/outputs/ingest-followups) - 배치 인제스트 중 발견되었으나 즉시 처리하지 않고 이월한 낮은 우선순위 이슈 누적 기록
 * [위키 검진 리포트 2026-06-27](/outputs/lint-report-2026-06-27) - 16개 사업보고서 인제스트 직후의 위키 건강 검진 결과
 * [Product·Financial Product 백필 실행 계획 (옵션 B / B1)](/outputs/products-backfill-plan-2026-06-29) - 직전 gap 분석에서 결정된 옵션 B 백필을 B1(커밋된 위키 본문 추출) 방식으로 실행하기 위한 방법론·범위·오케스트레이션·진행 로그
 * [반도체 3사 비교 (삼성전자·SK하이닉스·한미반도체)](/outputs/반도체_3사_비교_2026-06-27) - 2025년 실적 기준 메모리·장비 3사의 수익성과 포지셔닝 비교
