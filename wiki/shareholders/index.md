@@ -10,16 +10,17 @@
 * [DL](/shareholders/DL) - DL그룹 지주회사이자 DL이앤씨의 최대주주
 * [DSR제강](/shareholders/DSR제강) - DSR그룹 계열 상장사, DSR㈜ 지분을 보유한 상호출자 관계의 주주
 * [GS](/shareholders/GS) - GS피앤엘의 최대주주(58.62%) — GS그룹 지주회사
-* [HDC](/shareholders/HDC) - HDC현대EP의 최대주주(지배기업)이자 HDC그룹 지주회사
+* [HDC](/shareholders/HDC) - HDC현대산업개발·HDC현대EP의 최대주주(지배기업)이자 HDC그룹 지주회사
 * [HD한국조선해양](/shareholders/HD한국조선해양) - HD현대에너지솔루션·HD현대중공업·HD현대마린엔진의 최대주주 — HD현대그룹 조선·해양 중간지주회사
 * [HD현대](/shareholders/HD현대) - HD현대일렉트릭의 최대주주인 HD현대그룹 지주회사
 * [HD현대사이트솔루션](/shareholders/HD현대사이트솔루션) - HD건설기계의 최대주주(37.59%)인 HD현대그룹 계열 비상장사
 * [JW홀딩스](/shareholders/JW홀딩스) - JW그룹 지주회사, JW생명과학·JW중외제약 최대주주
 * [KCC](/shareholders/KCC) - HL D&I 3대 주주, 도료·실리콘·건자재를 영위하는 KOSPI 상장 정밀화학 기업
-* [(주)LG](/shareholders/LG) - LG전자의 최대주주인 LG그룹 지주회사
+* [(주)LG](/shareholders/LG) - LG전자·LG생활건강 등 LG그룹 계열사의 최대주주인 LG그룹 지주회사
 * [LG전자](/shareholders/LG전자) - LG이노텍의 최대주주(40.79%)인 LG그룹 핵심 전자 사업회사
 * [LOTTE HOLDINGS CO.,LTD(日)](/shareholders/LOTTE_HOLDINGS_일본법인) - 일본 롯데홀딩스 — 롯데케미칼 특수관계인 주주(9.19%)
 * [NOK Corporation](/shareholders/NOK Corporation) - 평화홀딩스 지분 14.4%를 보유한 일본 씰·전자부품 제조사
+* [Silchester International Investors LLP](/shareholders/Silchester_International_Investors) - 영국계 자산운용사, LG생활건강 5% 이상 주주(6.1%)
 * [SK](/shareholders/SK) - SK스퀘어 최대주주(32.16%)인 SK그룹 지주회사 SK㈜
 * [SK스퀘어](/shareholders/SK스퀘어) - SK하이닉스의 최대주주인 SK그룹 반도체·ICT 중간지주회사
 * [경농](/shareholders/경농) - 조비 최대주주(54.56%)인 동오그룹 작물보호제(농약) 상장사
@@ -76,6 +77,7 @@
 * [정몽원 외 4인](/shareholders/정몽원) - HL D&I 개인 최대주주 그룹(정몽원 및 특수관계인 4인), HL그룹(옛 한라그룹) 총수 일가
 * [정몽준](/shareholders/정몽준) - HD현대그룹 동일인 — 지주회사 HD현대 최대주주(26.60%)
 * [정흥식](/shareholders/정흥식) - 씨에스 대표이사 회장이자 최대주주
+* [제이더블유이종호재단](/shareholders/제이더블유이종호재단) - JW홀딩스 특수관계인 재단법인, 지분 7.48% 보유
 * [조토리](/shareholders/조토리) - CSA 코스믹 5% 이상 주주(6.94%)
 * [지앤비조합](/shareholders/지앤비조합) - CSA 코스믹의 최대주주(13.16%) — ㈜아이에이치큐의 100% 자회사 투자조합
 * [(주)컨텍](/shareholders/컨텍) - AP위성 최대주주(24.73%) — 지상국·위성데이터 서비스 기업
