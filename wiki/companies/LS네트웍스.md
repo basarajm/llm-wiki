@@ -6,6 +6,7 @@ ticker: "000680"
 market: KOSPI
 market_page: /markets/KOSPI
 industry: 유통
+group: /groups/LS
 is_stub: false
 tags: [기업, 유통, KOSPI]
 timestamp: 2026-06-28T00:00:00Z
@@ -13,8 +14,6 @@ source_count: 1
 ---
 
 # LS네트웍스
-
-> **group_todo:** LS그룹 소속이나 `/groups/LS` 페이지가 아직 없어 `group` frontmatter는 생략. LS 그룹 페이지 생성 시 `group: /groups/LS` 추가 및 양방향 링크 필요.
 
 ## 사업 개요
 
@@ -35,7 +34,7 @@ LS증권 편입으로 연결 외형(매출 2.6조, 자산 11.7조)은 본업 대
 ## 산업 및 그룹
 
 - 산업: 유통(스포츠/패션 브랜드 유통), 부동산임대, 증권(자회사)
-- 그룹: LS그룹 (지배기업 [E1](/shareholders/E1) → 그룹 페이지 `/groups/LS` 미생성, group_todo)
+- 그룹: [LS그룹](/groups/LS) (지배기업 [E1](/companies/E1))
 
 ## 재무 하이라이트
 

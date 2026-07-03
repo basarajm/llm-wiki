@@ -1,15 +1,15 @@
 # 로컬 아카이브(AnnualReport_MD) 인제스트 트래커
 
 - 아카이브 회사 수: **2736건** (source_documents/AnnualReport_MD/, 각 머신에 로컬 배치 필요·git 미포함)
-- 완료(done, Full): **376건**
-- 대기(pending): **2360건** (이 중 stub→Full 승급 대상 115건)
+- 완료(done, Full): **387건**
+- 대기(pending): **2349건** (이 중 stub→Full 승급 대상 113건)
 
 > done 기준: wiki/companies/<회사>.md 가 존재하고 is_stub:false.
 > market 판정: 위키 frontmatter 우선, 없으면 원본 MD의 '상장 유형' 표(유가증권시장/코스닥시장 상장)에서 추출.
 > 이 파일은 `python dart_pipeline/local_archive_status.py [--market KOSPI|KOSDAQ]` 로 재생성됩니다.
 > 다음 N개사 산출: `python dart_pipeline/local_archive_status.py [--market KOSPI|KOSDAQ] --next N`
 
-## ⏳ 대기 (상위 50건, 전체 2360건)
+## ⏳ 대기 (상위 50건, 전체 2349건)
 
 - APS이노베이션 (`KOSDAQ`) — `source_documents/AnnualReport_MD/APS이노베이션-사업보고서-2024.12.md`
 - CS (`KOSDAQ`) — `source_documents/AnnualReport_MD/CS-사업보고서-2025.12.md`
@@ -17,7 +17,6 @@
 - DGI (`KOSDAQ`) — `source_documents/AnnualReport_MD/DGI-사업보고서-2025.12.md`
 - DH오토넥스 (`KOSPI`) — `source_documents/AnnualReport_MD/DH오토넥스-사업보고서-2025.12.md`
 - DXVX (`KOSDAQ`) — `source_documents/AnnualReport_MD/DXVX-사업보고서-2025.12.md`
-- E1 (`KOSPI`) — `source_documents/AnnualReport_MD/E1-사업보고서-2025.12.md`
 - E8 (`Unknown`) — `source_documents/AnnualReport_MD/E8-사업보고서-2025.12.md`
 - EDGC (`KOSDAQ`) — `source_documents/AnnualReport_MD/EDGC-사업보고서-2025.12.md`
 - EG (`KOSDAQ`) — `source_documents/AnnualReport_MD/EG-사업보고서-2025.12.md`
@@ -29,24 +28,14 @@
 - FSN (`KOSDAQ`) — `source_documents/AnnualReport_MD/FSN-사업보고서-2025.12.md`
 - GC메디아이 (`KOSDAQ`) — `source_documents/AnnualReport_MD/GC메디아이-사업보고서-2025.12.md`
 - GH신소재 (`KOSDAQ`) — `source_documents/AnnualReport_MD/GH신소재-사업보고서-2025.12.md`
-- GKL (`KOSPI`) — `source_documents/AnnualReport_MD/GKL-사업보고서-2025.12.md`
 - GRT (`Unknown`) — `source_documents/AnnualReport_MD/GRT-사업보고서-2025.06.md`
-- GS (`KOSPI`) — `source_documents/AnnualReport_MD/GS-사업보고서-2025.12.md`
 - GST (`KOSDAQ`) — `source_documents/AnnualReport_MD/GST-사업보고서-2025.12.md`
-- GS피앤엘 (`KOSPI`) — `source_documents/AnnualReport_MD/GS피앤엘-사업보고서-2025.12.md`
 - HB솔루션 (`KOSDAQ`) — `source_documents/AnnualReport_MD/HB솔루션-사업보고서-2025.12.md`
 - HB인베스트먼트 (`KOSDAQ`) — `source_documents/AnnualReport_MD/HB인베스트먼트-사업보고서-2025.12.md`
 - HB테크놀러지 (`KOSDAQ`) — `source_documents/AnnualReport_MD/HB테크놀러지-사업보고서-2025.12.md`
 - HC보광산업 (`KOSDAQ`) — `source_documents/AnnualReport_MD/HC보광산업-사업보고서-2025.12.md`
 - HC홈센타 (`KOSDAQ`) — `source_documents/AnnualReport_MD/HC홈센타-사업보고서-2025.12.md`
-- HDC (`KOSPI`) — `source_documents/AnnualReport_MD/HDC-사업보고서-2025.12.md`
 - HDC랩스 (`Unknown`) — `source_documents/AnnualReport_MD/HDC랩스-사업보고서-2025.12.md`
-- HDC현대EP (`KOSPI`) — `source_documents/AnnualReport_MD/HDC현대EP-사업보고서-2025.12.md`
-- HD건설기계 (`KOSPI`) — `source_documents/AnnualReport_MD/HD건설기계-사업보고서-2025.12.md`
-- HD현대마린솔루션 (`KOSPI`) — `source_documents/AnnualReport_MD/HD현대마린솔루션-사업보고서-2025.12.md`
-- HD현대마린엔진 (`KOSPI`) — `source_documents/AnnualReport_MD/HD현대마린엔진-사업보고서-2025.12.md`
-- HD현대에너지솔루션 (`KOSPI`) — `source_documents/AnnualReport_MD/HD현대에너지솔루션-사업보고서-2025.12.md`
-- HD현대중공업 (`KOSPI`) — `source_documents/AnnualReport_MD/HD현대중공업-사업보고서-2025.12.md`
 - HEM파마 (`KOSDAQ`) — `source_documents/AnnualReport_MD/HEM파마-사업보고서-2025.12.md`
 - HJ중공업 (`KOSPI`) — `source_documents/AnnualReport_MD/HJ중공업-사업보고서-2025.12.md`
 - HK이노엔 (`KOSDAQ`) — `source_documents/AnnualReport_MD/HK이노엔-사업보고서-2025.12.md`
@@ -61,3 +50,14 @@
 - HLB파나진 (`KOSDAQ`) — `source_documents/AnnualReport_MD/HLB파나진-사업보고서-2025.12.md`
 - HLB펩 (`KOSDAQ`) — `source_documents/AnnualReport_MD/HLB펩-사업보고서-2025.12.md`
 - HL만도 (`KOSPI`) — `source_documents/AnnualReport_MD/HL만도-사업보고서-2025.12.md`
+- HL홀딩스 (`KOSPI`) — `source_documents/AnnualReport_MD/HL홀딩스-사업보고서-2025.12.md`
+- HPSP (`KOSDAQ`) — `source_documents/AnnualReport_MD/HPSP-사업보고서-2025.12.md`
+- HRS (`KOSDAQ`) — `source_documents/AnnualReport_MD/HRS-사업보고서-2025.12.md`
+- HS애드 (`KOSPI`) — `source_documents/AnnualReport_MD/HS애드-사업보고서-2025.12.md`
+- HS효성 (`KOSPI`) — `source_documents/AnnualReport_MD/HS효성-사업보고서-2025.12.md`
+- HS효성첨단소재 (`KOSPI`) — `source_documents/AnnualReport_MD/HS효성첨단소재-사업보고서-2025.12.md`
+- IBKS제23호스팩 (`KOSDAQ`) — `source_documents/AnnualReport_MD/IBKS제23호스팩-사업보고서-2025.12.md`
+- IBKS제24호스팩 (`KOSDAQ`) — `source_documents/AnnualReport_MD/IBKS제24호스팩-사업보고서-2025.12.md`
+- IBKS제25호스팩 (`KOSDAQ`) — `source_documents/AnnualReport_MD/IBKS제25호스팩-사업보고서-2025.12.md`
+- INVENI (`KOSPI`) — `source_documents/AnnualReport_MD/INVENI-사업보고서-2025.12.md`
+- IPARK현대산업개발 (`KOSPI`) — `source_documents/AnnualReport_MD/IPARK현대산업개발-사업보고서-2025.12.md`

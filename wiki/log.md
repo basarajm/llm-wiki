@@ -998,3 +998,20 @@
 ## 2026-07-03
 
 **Lint 정정** KB금융지주 financial_products 오귀속 수정(task_6f1c0d0d 후속). KB_원화예수금·KB_원화대출금·KB_신탁 3종의 `issuer`를 `/companies/KB금융지주`→`/companies/KB국민은행`으로, KB_신용카드는 `/companies/KB국민카드`로 정정(본문은 이미 자회사로 정확히 서술되어 있었음, frontmatter만 오류). KB국민카드 stub 페이지 신규 생성(companies, is_stub: true, groups/KB금융 계열사 목록에는 기존부터 링크되어 있었으나 페이지 부재였음). index.md에 KB국민카드 등록.
+
+**Ingest(IG7)** E1·F&F홀딩스·GKL·GS·GS피앤엘·HDC·HDC현대EP·HD건설기계·HD현대마린솔루션·HD현대마린엔진·HD현대에너지솔루션·HD현대중공업 12개사 Full 인제스트 병합 완료 (source: AnnualReport_MD 로컬 아카이브, 개별 에이전트 결과 병합).
+
+- **E1**(KOSPI 017940, LS그룹): stub→Full 승급. 2025년(제42기) 별도 매출 약 7.11조원, 당기순이익(연결) 1,048억·(별도) 1,079억. 신규 9페이지(sources·segments·value_chain·executives 3·ratings·companies stub 2: 평택에너지앤파워·LS증권).
+- **F&F홀딩스**(KOSPI 007700, F&F그룹): 동일 보고서 기준 기존 Full 페이지 완비 확인 — 재처리 없음(중복 방지 원칙).
+- **GKL**(KOSPI 114090): 신규 Full. 2025년(제21기) 연결 매출 4,229억(+6.7%)·영업이익 526억(+37.4%)·순이익 471억(+42.4%), 최대주주 한국관광공사 51.00%. 신규 8페이지(companies·sources·value_chain·executives 2·companies stub 2·shareholders).
+- **GS**(KOSPI 078930, GS그룹): stub→Full 승급. 2025년(제22기) 연결 매출 25.18조(-0.3%)·영업이익 2.94조(-4.6%)·지배주주순이익 7,987억(+40.9%). 4개 보고부문(유통·무역·가스전력사업·투자및기타) 세그먼트 신설, 최대주주 허창수(4.68%, 특수관계인 포함 53.59%). 신규 14페이지(sources·segments 4·value_chain·executives 2·ratings·companies stub 5: GS에너지·GS이피에스·GS이앤알·GS스포츠·GS벤처스).
+- **GS피앤엘**(KOSPI, GS그룹): 신규 Full. 2024년 GS리테일 인적분할·2025년(제2기, 연환산) 연결 매출 4,816.8억·영업이익 780.2억·순이익 299.4억. 최대주주 GS 58.62%. 신규 12페이지(companies·sources·companies stub 2: 파르나스호텔·후레쉬미트·segments 5·value_chain·executives·ratings).
+- **HDC**(KOSPI 012630, HDC그룹): stub→Full 승급. 2025년(제49기) 연결 매출 6.58조(+6.2%)·영업이익 6,489억(+88.2%)·순이익 4,165억, 발전부문(통영에코파워) 본격 가동 기여. 최대주주 정몽규 33.68%. 신규 14페이지(sources·segments 3·value_chain·executives 2·ratings·companies stub 5: 현대엘리베이터·KCC글라스·한국가스공사·한국전력거래소·한국철도시설공단).
+- **HDC현대EP**(KOSPI 011780, HDC그룹): 신규 Full. 2025년(제26기) 연결 매출 9,926.6억(+0.2%)·영업이익 496.9억(+52.1%)·순이익 302.4억(+90.2%), PO부문 호조 견인. 최대주주 HDC(지분율 원문 미기재). 신규 14페이지(sources·segments 3·value_chain·executives·ratings·shareholders(HDC)·companies stub 5: HDC현대산업개발·폴리미래·SK지오센트릭·한화토탈·금호폴리켐).
+- **HD건설기계**(KOSPI 267270, HD현대그룹, 구 HD현대건설기계): 신규 Full. 2025년(제9기) 연결 매출 3.78조(+9.8%)·영업이익 1,709억(-10.2%)·순이익 870억, 매출 91.4% 수출. 2026.01.01 HD현대인프라코어 흡수합병(존속법인). 최대주주 HD현대사이트솔루션 37.59%. 신규 10페이지(companies·sources·segments·value_chain·executives·ratings·companies stub 2: HD현대사이트솔루션·ZF Friedrichshafen AG·shareholders 2: HD현대사이트솔루션·아산사회복지재단).
+- **HD현대마린솔루션**(KOSPI 083160, HD현대그룹): 신규 Full. 2025년(제10기) 연결 매출 1.98조(+13.6%)·영업이익 3,501억(+28.9%, 사상 최대)·순이익 2,696억. 4대 사업(AM솔루션·벙커링·친환경솔루션·디지털솔루션). 최대주주 HD현대(지분율 원문 미기재). 신규 7페이지(sources·segments 4·value_chain·executives), shareholders/HD현대.md 보유종목 표 갱신.
+- **HD현대마린엔진**(KOSPI 071970, HD현대그룹, 구 STX중공업): stub→Full 승급. 2025년(제25기) 연결 매출 4,024억(+27%)·영업이익 759억(+129%)·순이익 1,651억(+118%, 내동공장 매각 처분이익 포함). 최대주주 HD한국조선해양 35.05%. 신규 5페이지(sources·value_chain·executives·ratings·companies stub: HD현대크랭크샤프트).
+- **HD현대에너지솔루션**(KOSPI 322000, HD현대그룹): stub→Full 승급. 2025년(제10기) 연결 매출 4,927억(+16.6%)·영업이익 412억(전년 35억 대비 급증)·순이익 417억. 최대주주 HD한국조선해양 53.57%. 신규 5페이지(sources·value_chain·executives·shareholders(HD한국조선해양)·companies stub: HD현대에너지솔루션아메리카).
+- **HD현대중공업**(KOSPI, HD현대그룹): stub→Full 승급. 2025년(제7기) 연결 매출 17.58조(+21.4%)·영업이익 2.04조(영업이익률 11.6%, 전년 4.9%)·지배주주순이익 1.42조 — 조선 슈퍼사이클 반영. 3개 사업부문(조선·엔진기계·해양플랜트). 최대주주 HD한국조선해양 69.23%. 2025.12.01 HD현대미포 흡수합병. 신규 10페이지(sources·segments 3·value_chain·executives 2·ratings·companies stub 2: HD현대이엔티·HD현대엔진), shareholders/HD한국조선해양.md 갱신.
+
+**공유노드 갱신**: markets/KOSPI.md 상장기업 목록에 12개사 전원 이미 반영 확인(추가 변경 없음). groups/GS.md·groups/HDC.md·groups/HD현대.md·groups/LS.md 계열사 목록에 해당사 반영 확인(HDC 그룹페이지는 이번 배치에서 신규 생성). shareholders 8종 신규/갱신(GS·한국관광공사·HD한국조선해양·HD현대사이트솔루션·아산사회복지재단·HDC·HD현대·국민연금공단) — 모두 company_page 양방향 링크 확인. wiki/index.md는 engine/scripts/build-index.ps1 재실행으로 전체 재생성(신규 companies 26·executives 17·segments 23·ratings 8·sources 11·value_chain 11·shareholders 6·groups 1 등 전량 등록).

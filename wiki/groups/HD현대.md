@@ -3,7 +3,7 @@ type: Corporate Group
 title: HD현대그룹
 description: 정몽준을 동일인으로 하는 조선·에너지·기계 중심 기업집단 — HD현대 지주 체제
 controlling_person: 정몽준
-member_companies: [/companies/HD현대, /companies/HD현대일렉트릭, /companies/HD한국조선해양, /companies/HD현대중공업, /companies/HD현대오일뱅크, /companies/HD현대인프라코어]
+member_companies: [/companies/HD현대, /companies/HD현대일렉트릭, /companies/HD한국조선해양, /companies/HD현대중공업, /companies/HD현대오일뱅크, /companies/HD건설기계, /companies/HD현대마린솔루션, /companies/HD현대마린엔진, /companies/HD현대에너지솔루션]
 tags: [기업집단, HD현대]
 timestamp: 2026-06-27T00:00:00Z
 ---
@@ -23,7 +23,11 @@ HD현대그룹은 동일인 **정몽준**을 정점으로 하는 조선·에너�
 | [HD한국조선해양](/companies/HD한국조선해양) | 조선·해양 중간지주 | 핵심 |
 | [HD현대중공업](/companies/HD현대중공업) | 조선·해양플랜트·엔진 | 핵심 |
 | [HD현대오일뱅크](/companies/HD현대오일뱅크) | 정유·석유화학 | 핵심 |
-| [HD현대인프라코어](/companies/HD현대인프라코어) | 건설기계·엔진 | 비핵심 |
+| [HD현대인프라코어](/companies/HD현대인프라코어) | 건설기계·엔진 (2026.01.01 HD건설기계에 흡수합병) | 비핵심 |
+| [HD건설기계](/companies/HD건설기계) | 건설기계·산업차량·부품 (구 HD현대건설기계, HD현대인프라코어 존속법인) | 핵심 |
+| [HD현대마린솔루션](/companies/HD현대마린솔루션) | 선박 애프터서비스(AM솔루션·벙커링·친환경·디지털솔루션) | 핵심 |
+| [HD현대마린엔진](/companies/HD현대마린엔진) | 선박용 저속엔진·엔진부품 (구 STX중공업) | 비핵심 |
+| [HD현대에너지솔루션](/companies/HD현대에너지솔루션) | 태양광 셀·모듈·인버터(PCS)·ESS | 비핵심 |
 
 ## 지배구조
 
