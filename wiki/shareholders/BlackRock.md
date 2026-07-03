@@ -25,6 +25,7 @@ BlackRock Fund Advisors는 세계 최대 자산운용사 BlackRock 계열의 펀
 | [하나금융지주](/companies/하나금융지주) | 6.58% | 5% 이상 주주 |
 | [우리금융지주](/companies/우리금융지주) | 6.14% | 5% 이상 주주 |
 | [NAVER](/companies/NAVER) | 6.12% | 5% 이상 주주 |
+| [삼성E&A](/companies/삼성E&A) | 4.83% | 5% 미만 보유(BlackRock, Inc. 명의) |
 
 ## 투자 성향
 
@@ -35,3 +36,4 @@ BlackRock Fund Advisors는 세계 최대 자산운용사 BlackRock 계열의 펀
 
 - [삼성전자 2025 사업보고서](/sources/삼성전자_2025_사업보고서)
 - [NAVER 2025 사업보고서](/sources/NAVER_2025_사업보고서)
+- [삼성E&A 2025 사업보고서](/sources/삼성E&A_2025_사업보고서)
