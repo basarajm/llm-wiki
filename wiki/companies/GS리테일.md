@@ -99,7 +99,12 @@ GS리테일(주식회사 GS리테일, GS Retail CO., LTD.)은 GS그룹 계열의
 - CP·전자단기사채: A1 (최고등급)
 - 상세 이력: [GS리테일 신용등급](/ratings/GS리테일 신용등급)
 
+## 밸류체인 (참고)
+
+[NH올원리츠](/companies/NH올원리츠) 자회사([엔에이치제7호위탁관리부동산투자회사](/companies/엔에이치제7호위탁관리부동산투자회사))가 보유한 복합쇼핑몰 N-Square(전남 무안군)에 대해 임대차 계약(임차인)을 체결했다.
+
 # Citations
 
 - [GS리테일 2025 사업보고서](/sources/GS리테일_2025_사업보고서)
 - 원본: source_documents 대응 `dart_pipeline/dart_md/KOSPI/007070_GS리테일_2025.md` (DART 접수번호 20260311004487)
+- [NH올원리츠 2025 사업보고서](/sources/NH올원리츠_2025_사업보고서)

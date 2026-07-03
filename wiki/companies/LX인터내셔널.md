@@ -6,6 +6,7 @@ ticker: "001120"
 market: KOSPI
 market_page: /markets/KOSPI
 industry: 종합상사
+group: /groups/LX그룹
 is_stub: false
 tags: [기업, 종합상사, KOSPI]
 timestamp: 2026-06-28T00:00:00Z

@@ -270,26 +270,48 @@
 * [LS일렉트릭 금속](/segments/LS일렉트릭_금속) - LS일렉트릭의 금속 사업 부문 (LS메탈, 동관·STS관·후육관)
 * [LS일렉트릭 자동화](/segments/LS일렉트릭_자동화) - LS일렉트릭의 산업자동화 사업 부문 (PLC·인버터·HMI)
 * [LS일렉트릭 전력](/segments/LS일렉트릭_전력) - LS일렉트릭의 전력기기·전력인프라 사업 부문 (전사 매출의 핵심)
+* [LX세미콘 시스템반도체](/segments/LX세미콘_시스템반도체) - LX세미콘의 Driver-IC·T-Con·PMIC 설계·판매 단일 사업부문
 * [LX인터내셔널 Trading_신성장](/segments/LX인터내셔널_Trading_신성장) - LX인터내셔널의 Trading/신성장(자원·소재·IT부품 트레이딩 및 투자) 사업 부문
 * [LX인터내셔널 물류](/segments/LX인터내셔널_물류) - LX인터내셔널의 물류(포워딩·CL) 사업 부문
 * [LX인터내셔널 자원](/segments/LX인터내셔널_자원) - LX인터내셔널의 자원(광물자원·팜) 사업 부문
+* [LX하우시스 건축자재부문](/segments/LX하우시스_건축자재부문) - LX하우시스의 창호·바닥재·벽지·단열재 등 건축자재 사업 부문
+* [LX하우시스 자동차소재/산업용필름부문](/segments/LX하우시스_자동차소재산업용필름부문) - LX하우시스의 자동차용 원단·부품 및 산업용 필름 사업 부문
+* [LX홀딩스 지주부문](/segments/LX홀딩스_지주부문) - LX홀딩스의 지주회사 사업 부문 — 자회사 배당수익·상표권 사용수익
 * [MDS테크 임베디드SW](/segments/MDS테크_임베디드SW) - MDS테크(지배기업)의 임베디드 SW 개발솔루션·시스템SW·산업자동화 솔루션 사업 부문
+* [MH에탄올 골프장 사업부](/segments/MH에탄올_골프장사업부) - MH에탄올 종속회사(용원개발·진해오션리조트·진해오션)가 영위하는 골프장 및 관련 자산관리 사업
+* [MH에탄올 주정 사업부](/segments/MH에탄올_주정사업부) - MH에탄올의 주정(에탄올) 제조·판매 핵심 사업 부문
+* [NAVER 서치플랫폼](/segments/NAVER_서치플랫폼) - NAVER의 검색·디스플레이 광고 사업 부문
+* [NAVER 엔터프라이즈](/segments/NAVER_엔터프라이즈) - NAVER의 클라우드·AI·협업솔루션 B2B 사업 부문
+* [NAVER 커머스](/segments/NAVER_커머스) - NAVER의 커머스 광고·중개판매·멤버십 사업 부문
+* [NAVER 콘텐츠](/segments/NAVER_콘텐츠) - NAVER의 웹툰·웹소설·스노우 등 콘텐츠 사업 부문
+* [NAVER 핀테크](/segments/NAVER_핀테크) - NAVER의 페이·디지털금융 서비스 사업 부문
 * [NHN KCP 오프라인결제](/segments/NHN_KCP_오프라인결제) - NHN KCP의 오프라인 부가통신망(VAN) 사업 및 결제 단말기 공급 부문
 * [NHN KCP 온라인결제](/segments/NHN_KCP_온라인결제) - NHN KCP의 온라인 PG(전자지급결제대행) 및 온라인 부가통신망(VAN) 사업 부문
 * [NHN KCP 프로젝트사업](/segments/NHN_KCP_프로젝트사업) - NHN KCP의 O2O 결제 연계, 무인주문결제, 클라우드 POS 등 신사업 부문
 * [NHN 게임](/segments/NHN_게임) - NHN의 온라인/모바일/콘솔/아케이드 게임 개발 및 서비스 사업 부문
 * [NHN 결제·광고](/segments/NHN_결제광고) - NHN의 PG·VAN 서비스 및 PAYCO 간편결제, 광고 사업 부문
 * [NHN 클라우드·기타](/segments/NHN_클라우드기타) - NHN의 CSP/MSP 클라우드 기술사업 및 커머스·티켓·웹툰 등 기타 사업 부문
+* [NH올원리츠 부동산투자운용](/segments/NH올원리츠_부동산투자운용) - NH올원리츠의 오피스·물류·리테일 자산 투자·운용 부문
 * [NH투자증권 IB부문](/segments/NH투자증권_IB) - NH투자증권의 IB(투자은행·기업금융) 사업 부문
 * [NH투자증권 Sales부문](/segments/NH투자증권_Sales) - NH투자증권의 Sales(WM·자산관리) 사업 부문
 * [NH투자증권 Trading부문](/segments/NH투자증권_Trading) - NH투자증권의 Trading(상품운용·자기자본투자) 사업 부문
+* [NICE평가정보 개인신용정보사업](/segments/NICE평가정보_개인신용정보사업) - NICE평가정보의 개인신용정보(CB) 사업 부문 — 국내 최대 규모 신용정보 DB 기반
+* [NICE평가정보 기업정보사업](/segments/NICE평가정보_기업정보사업) - NICE평가정보의 기업정보 제공·컨설팅 사업 부문 — NICE BizLINE 등
+* [NICE홀딩스 기업평가](/segments/NICE홀딩스_기업평가) - NICE홀딩스의 신용평가(회사채·기업어음·ICR) 사업 부문
+* [NICE홀딩스 무인화운영](/segments/NICE홀딩스_무인화운영) - NICE홀딩스의 무인자동화(ATM·주차·EV충전·키오스크) 사업 부문
+* [NICE홀딩스 신용정보](/segments/NICE홀딩스_신용정보) - NICE홀딩스의 개인·기업 신용정보(CB) 사업 부문
+* [NICE홀딩스 제조부문](/segments/NICE홀딩스_제조부문) - NICE홀딩스의 2차전지 보호회로·비철금속 등 제조업 사업 부문
+* [NICE홀딩스 지급결제](/segments/NICE홀딩스_지급결제) - NICE홀딩스의 지급결제(VAN·PG·TRS) 사업 부문
 * [NI스틸 강건재](/segments/NI스틸_강건재) - NI스틸의 합성보·합성기둥·Deck Plate·Steel Curtain Wall 제조·시공 부문
 * [NI스틸 강재리스](/segments/NI스틸_강재리스) - NI스틸의 Sheet Pile·H/Beam·N.I-Strut·System비계 강재리스 부문
 * [NI스틸 철강유통](/segments/NI스틸_철강유통) - NI스틸의 형강 등 철강 상품 판매 부문
+* [OCI 베이직케미컬](/segments/OCI_베이직케미컬) - OCI㈜의 베이직케미컬 사업 부문 — 반도체용 폴리실리콘·과산화수소·인산·HCDS·클로르알칼리
+* [OCI 카본케미컬](/segments/OCI_카본케미컬) - OCI㈜의 카본케미컬 사업 부문 — 카본블랙·핏치·BTX·가소제·PA
 * [OCI홀딩스 도시개발사업](/segments/OCI홀딩스_도시개발사업) - OCI홀딩스의 도시개발 사업 부문 — 부동산·도시개발(㈜디씨알이)
 * [OCI홀딩스 신재생에너지](/segments/OCI홀딩스_신재생에너지) - OCI홀딩스의 신재생에너지 사업 부문 — 태양광용 폴리실리콘
 * [OCI홀딩스 에너지솔루션](/segments/OCI홀딩스_에너지솔루션) - OCI홀딩스의 에너지솔루션 사업 부문 — 열병합발전·전기 및 미국 태양광/ESS
 * [OCI홀딩스 화학소재](/segments/OCI홀딩스_화학소재) - OCI홀딩스의 화학소재 사업 부문 — 과산화수소·TDI·카본블랙·핏치 등 기초화학
+* [PI첨단소재 PI필름·소재 부문](/segments/PI첨단소재_PI필름소재부문) - PI첨단소재의 PI필름·바니쉬·파우더/성형품 제조·판매 사업
 * [SB성보 임대](/segments/SB성보_임대) - SB성보의 부동산 임대 사업 부문
 * [SB성보 작물보호제](/segments/SB성보_작물보호제) - SB성보의 작물보호제(농약) 제조·판매 사업 부문
 * [SGC에너지 건설및부동산](/segments/SGC에너지_건설및부동산) - SGC에너지의 건설 및 부동산 사업 부문 — SGC이앤씨 플랜트 EPC·건축·해외
