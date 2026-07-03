@@ -1059,3 +1059,26 @@
 **Ingest(IG9)** KOSPI 로컬 아카이브 Full 인제스트 12개사 (398→408/2736, stub 승급분 포함 아카이브 done 카운트 기준) 병합 완료: ESR켄달스퀘어리츠(신규, KOSPI 365550, 물류센터 특화 REIT, 자산총계 2.84조·순손실 34.4억)·HDC랩스(신규, KOSPI, HDC그룹, 매출 6,457억·영업이익 106억)·JW홀딩스(stub→Full, KOSPI, JW그룹 지주, 매출 9,696억·영업이익 1,679억)·KB스타리츠(신규, KOSPI, 글로벌 분산형 REIT, 자산총계 1.09조·순손실 210.6억)·KEC(신규, KOSPI 092220, KEC그룹, 매출 2,296억·영업손실 218억)·KG스틸(신규, KOSPI, KG그룹, 舊 동부제철, 매출 3.19조·영업이익 1,507억)·KPX케미칼(stub→Full, KOSPI 025000, 진양그룹, PPG 국내 1위, 매출 8,084억·영업이익 274억)·KPX홀딩스(신규, KOSPI 025980, 진양그룹 지주, 매출 1.16조·영업이익 430억)·KSS해운(신규, KOSPI 044450, GAS선 특수선사, 매출 5,614억·영업이익 1,103억)·KTis(신규, KOSPI, KT그룹, 매출 5,888억·영업이익 247억)·LF(신규, KOSPI 093050, LF그룹 지주 성격 사업회사, 매출 1.88조·영업이익 1,681억)·LG생활건강(stub→Full, KOSPI 051900, LG그룹, 매출 6.36조·영업손실 전환 순손실 858억). 신규 그룹 페이지 2종(groups/KT그룹.md·groups/LF.md), groups/HDC.md·groups/JW.md·groups/KG.md·groups/진양그룹.md 계열사 목록 갱신, markets/KOSPI.md 상장기업 목록에 12개사 전원 추가. 다수 stub 노드화(HDC아이파크몰·HDC자산운용·한화생명보험·쿠팡풀필먼트·JW신약·KG에코솔루션·KG_STEEL_USA·SK가스·SK온·KT스카이라이프·비씨카드·케이티씨에스·코카콜라음료·아모레퍼시픽·연우·엘에프푸드 외 다수).
 
 **공유노드 갱신(IG9)**: wiki/index.md는 engine/scripts/build-index.ps1 재실행으로 전체 재생성. 대주주 중 상장기업은 한국전자홀딩스(KEC 최대주주, 기존 shareholders 페이지 확인)·KPX홀딩스(KPX케미칼 최대주주, companies 페이지로 상호 링크)뿐이며 모두 양방향 링크 기확인. 후속 필요사항은 wiki/outputs/ingest-followups.md `## IG9` 섹션에 기록.
+
+**Batch Re-ingest(P1·P2 완료 통합 기록)** — 원본 손상 복구 및 XML 파싱 오류 안전 확보 배치 전체 완료.
+
+**P1 배치 (12개사)**: GS · HDC현대EP · HD현대마린솔루션 · HS효성첨단소재 · HDC현대산업개발 · HL D&I · 에이치엘홀딩스 · HDC랩스 · JW홀딩스 · KTis · LF · LG생활건강.
+- 절단·손상 확인된 원본 MD 재다운로드 후 로컬 아카이브에 반영 완료 — "Ⅶ/주주에 관한 사항"·"Ⅷ/임원 및 직원" 섹션 존재 확인.
+- 기존 위키 페이지 전체 갱신 (sources·companies·segments·value_chain·executives·ratings 등 48개 페이지), timestamp 일괄 2026-07-03 최신화.
+- **결과**: 임원·주주 상세정보 충실화 완료.
+
+**P2 배치 (35개사 중 30개사 처리)**: CJ ENM·CJ·DN오토모티브·E1·GS피앤엘·HD현대일렉트릭·HS애드·SK하이닉스·넥센타이어·아세아·보령·온타이드·미래에셋증권·유안타증권·하나금융지주·한미사이언스·S-Oil·SGC에너지 등.
+- XML 파싱 오류 목록(162개 파일 중 35개 사) 대상 재인제스트 — 로컬 아카이브 갱신 분 안전 확보.
+- source resource 필드 전환 (dart_pipeline → source_documents/AnnualReport_MD), timestamp 전체 2026-07-03 최신화.
+- 임원·주주·신용등급·금융상품 등 기존 "미확인" 항목 채우기 또는 검증 완료 (신규/갱신 페이지 약 80개).
+- **결과**: XML 파싱 오류 대상 안전 확보 완료. 미처리 5개(JB금융지주·LS네트웍스 등 경로 미정) 제외.
+
+**커밋 이력**:
+- `reingest(P1): 원본 손상 복구 완료(12개사)` (5ce9381)
+- `reingest(P2-1): XML 파싱오류 안전 확보(7개사 재인제스트, 5개사 스킵)` (b80af2e)
+- `reingest(P2-2): XML 파싱오류 안전 확보(10개사 완료)` (7f60ac8)
+- `fix(ingest): 한미사이언스 resource 필드 전환 및 timestamp 갱신` (11a0644)
+- `re-ingest(유안타증권): 2025 사업보고서 AnnualReport_MD 재처리` (0949cbf)
+- `fix(ingest): 하나금융지주 resource 필드 전환` (2da80d1)
+
+**최종 현황**: wiki/outputs/reingest-schedule-2026-07-03.md에 완료 요약 기록. P1·P2 종료 후, 정방향 IG10 배치 재개 가능. 미처리 5개사 및 P3 계획은 별도 세션에서 처리.
