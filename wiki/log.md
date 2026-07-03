@@ -994,3 +994,7 @@
 **Ingest(IG)** BNK금융지주·CG인바이츠·CJ CGV·CJ ENM·CJ 바이오사이언스·CJ제일제당·CJ프레시웨이·CMG제약·CNT85·씨에스·CSA 코스믹·DB Inc. Full 인제스트 (source: AnnualReport_MD 로컬 아카이브, 인터럽트 후 재개)
 
 **Ingest(IG)** DB증권·디지아이티엑스·DH오토리드·DKME·DL이앤씨·DMS·DSC인베스트먼트·DSR·DSR제강·DS단석·디엑스앤브이엑스·DYP Full 인제스트 (source: AnnualReport_MD 로컬 아카이브)
+
+## 2026-07-03
+
+**Lint 정정** KB금융지주 financial_products 오귀속 수정(task_6f1c0d0d 후속). KB_원화예수금·KB_원화대출금·KB_신탁 3종의 `issuer`를 `/companies/KB금융지주`→`/companies/KB국민은행`으로, KB_신용카드는 `/companies/KB국민카드`로 정정(본문은 이미 자회사로 정확히 서술되어 있었음, frontmatter만 오류). KB국민카드 stub 페이지 신규 생성(companies, is_stub: true, groups/KB금융 계열사 목록에는 기존부터 링크되어 있었으나 페이지 부재였음). index.md에 KB국민카드 등록.

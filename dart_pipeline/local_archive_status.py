@@ -11,17 +11,20 @@ MD 파일(파일명 패턴: "<회사명>-사업보고서-<YYYY.MM>.md")을 기�
 기능:
   - AnnualReport_MD/ 의 회사명 목록 산출(파일명에서 추출)
   - 각 회사가 위키에 이미 Full(is_stub:false)로 인제스트되었는지 판정
+  - 원본 MD 파일 본문의 "상장 유형" 표(유가증권시장 상장/코스닥시장 상장 행)를 파싱하여
+    시장 구분(KOSPI/KOSDAQ/기타)을 산출 — 위키 미등재 회사도 시장별 필터링 가능
   - done/pending 목록 산출, 사람이 읽는 트래커(wiki/outputs/ingest-tracker-local.md) 출력
   - --next N 으로 다음 N개 회사를 JSON으로 산출(배치 작업용)
 
 사용:
   python local_archive_status.py                           # 현황 출력 + 트래커 갱신
-  python local_archive_status.py --next 3                 # 다음 3개사 JSON 출력
-  python local_archive_status.py --market KOSPI --next 6  # KOSPI 중 다음 6개사 JSON 출력
-  python local_archive_status.py --market KOSDAQ --next 6 # KOSDAQ 중 다음 6개사 JSON 출력
+  python local_archive_status.py --next 3                  # 다음 3개사 JSON 출력
+  python local_archive_status.py --market KOSPI --next 6   # KOSPI 중 다음 6개사 JSON 출력
+  python local_archive_status.py --market KOSDAQ --next 6  # KOSDAQ 중 다음 6개사 JSON 출력
 """
 
 import argparse
+import functools
 import json
 import os
 import re
@@ -29,11 +32,24 @@ import re
 import config
 
 WIKI = os.path.normpath(os.path.join(config.BASE_DIR, "..", "wiki"))
-SRC_DIR = os.path.normpath(
+
+# 원본 사업보고서 폴더. 기본값은 리포 표준 위치(source_documents/AnnualReport_MD/)이며,
+# 환경변수 ANNUALREPORT_MD_DIR 로 다른 로컬 경로(예: 원본 아카이브 폴더)를 직접 지정할 수 있다.
+# (개인 경로를 코드에 하드코딩하지 않기 위해 환경변수로 주입 — README/OPERATIONS 참고)
+_DEFAULT_SRC_DIR = os.path.normpath(
     os.path.join(config.BASE_DIR, "..", "source_documents", "AnnualReport_MD")
 )
+SRC_DIR = os.environ.get("ANNUALREPORT_MD_DIR", "").strip() or _DEFAULT_SRC_DIR
 
 NAME_RE = re.compile(r"^(.*?)-사업보고서-\d{4}\.\d{2}\.md$")
+
+# 원본 MD 본문의 "상장 유형" 표에서 시장 행을 찾는 패턴.
+# 예: "| 유가증권시장 상장 | 2004.08.05 | 해당사항 없음 |"
+#     "| 코스닥시장 상장 | 2007.02.21 | 해당사항 없음 |"
+# 날짜 칸이 "해당사항 없음"이 아니면 그 시장에 실제 상장된 것으로 판단.
+MARKET_ROW_RE = re.compile(
+    r"(유가증권시장 상장|코스닥시장 상장)\s*\|\s*([^\|]*?)\s*\|\s*([^\|]*?)\s*\|"
+)
 
 
 def read_frontmatter(path):
@@ -50,6 +66,25 @@ def read_frontmatter(path):
         if mm:
             fm[mm.group(1)] = mm.group(2).strip()
     return fm
+
+
+@functools.lru_cache(maxsize=None)
+def detect_market_from_source(path):
+    """원본 사업보고서 MD 본문에서 상장 유형 표를 읽어 KOSPI/KOSDAQ/Unknown 판정."""
+    try:
+        txt = open(path, encoding="utf-8", errors="ignore").read()
+    except OSError:
+        return "Unknown"
+    found = {}
+    for m in MARKET_ROW_RE.finditer(txt):
+        label, date_col, _ = m.groups()
+        listed = bool(date_col) and "해당사항 없음" not in date_col
+        found[label] = listed
+    if found.get("유가증권시장 상장"):
+        return "KOSPI"
+    if found.get("코스닥시장 상장"):
+        return "KOSDAQ"
+    return "Unknown"
 
 
 def list_archive():
@@ -78,9 +113,17 @@ def wiki_company_status():
         fm = read_frontmatter(os.path.join(d, fn))
         out[fn[:-3]] = {
             "status": "stub" if fm.get("is_stub", "").lower() == "true" else "full",
-            "market": fm.get("market", "Unknown")
+            "market": fm.get("market", "Unknown"),
         }
     return out
+
+
+def resolve_market(wiki_entry, src_path):
+    """위키 frontmatter의 market이 있으면 우선 사용, 없으면 원본 MD에서 판정."""
+    wiki_market = wiki_entry.get("market") if wiki_entry else None
+    if wiki_market and wiki_market not in ("Unknown", ""):
+        return wiki_market
+    return detect_market_from_source(src_path)
 
 
 def compute(market_filter=None):
@@ -90,11 +133,14 @@ def compute(market_filter=None):
     done, pending, stub_upgradeable = [], [], []
     for name, fn in archive.items():
         st = status.get(name)
-        entry = {"name": name, "file": f"source_documents/AnnualReport_MD/{fn}"}
-        market = st.get("market", "Unknown") if st else "Unknown"
-        entry["market"] = market
+        src_path = os.path.join(SRC_DIR, fn)
+        market = resolve_market(st, src_path)
+        entry = {
+            "name": name,
+            "file": f"source_documents/AnnualReport_MD/{fn}",
+            "market": market,
+        }
 
-        # market 필터 적용
         if market_filter and market != market_filter:
             continue
 
@@ -111,12 +157,14 @@ def compute(market_filter=None):
     return archive, done, pending, stub_upgradeable
 
 
-def write_md_tracker(done, pending, stub_upgradeable):
+def write_md_tracker(done, pending, stub_upgradeable, market_filter=None):
     out_dir = os.path.join(WIKI, "outputs")
     os.makedirs(out_dir, exist_ok=True)
-    path = os.path.join(out_dir, "ingest-tracker-local.md")
+    suffix = f"-{market_filter.lower()}" if market_filter else ""
+    path = os.path.join(out_dir, f"ingest-tracker-local{suffix}.md")
+    title_suffix = f" ({market_filter})" if market_filter else ""
     lines = [
-        "# 로컬 아카이브(AnnualReport_MD) 인제스트 트래커",
+        f"# 로컬 아카이브(AnnualReport_MD) 인제스트 트래커{title_suffix}",
         "",
         f"- 아카이브 회사 수: **{len(done) + len(pending)}건** "
         "(source_documents/AnnualReport_MD/, 각 머신에 로컬 배치 필요·git 미포함)",
@@ -124,14 +172,15 @@ def write_md_tracker(done, pending, stub_upgradeable):
         f"- 대기(pending): **{len(pending)}건** (이 중 stub→Full 승급 대상 {len(stub_upgradeable)}건)",
         "",
         "> done 기준: wiki/companies/<회사>.md 가 존재하고 is_stub:false.",
-        "> 이 파일은 `python dart_pipeline/local_archive_status.py` 로 재생성됩니다.",
-        "> 다음 N개사 산출: `python dart_pipeline/local_archive_status.py --next N`",
+        "> market 판정: 위키 frontmatter 우선, 없으면 원본 MD의 '상장 유형' 표(유가증권시장/코스닥시장 상장)에서 추출.",
+        "> 이 파일은 `python dart_pipeline/local_archive_status.py [--market KOSPI|KOSDAQ]` 로 재생성됩니다.",
+        "> 다음 N개사 산출: `python dart_pipeline/local_archive_status.py [--market KOSPI|KOSDAQ] --next N`",
         "",
         f"## ⏳ 대기 (상위 50건, 전체 {len(pending)}건)",
         "",
     ]
     for r in pending[:50]:
-        lines.append(f"- {r['name']} — `{r['file']}`")
+        lines.append(f"- {r['name']} (`{r['market']}`) — `{r['file']}`")
     lines.append("")
     open(path, "w", encoding="utf-8").write("\n".join(lines))
     return os.path.relpath(path, config.BASE_DIR)
@@ -140,18 +189,18 @@ def write_md_tracker(done, pending, stub_upgradeable):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--next", type=int, default=0, help="다음 N개사를 JSON으로 출력")
-    ap.add_argument("--market", choices=["KOSPI", "KOSDAQ"], help="특정 시장만 필터링 (KOSPI|KOSDAQ)")
+    ap.add_argument(
+        "--market", choices=["KOSPI", "KOSDAQ"], help="특정 시장만 필터링 (KOSPI|KOSDAQ)"
+    )
     args = ap.parse_args()
 
     archive, done, pending, stub_upgradeable = compute(market_filter=args.market)
 
     if args.next:
-        result = pending[: args.next]
-        # market 정보 추출 (pending에 이미 market 필드 있음)
-        print(json.dumps(result, ensure_ascii=False, indent=1))
+        print(json.dumps(pending[: args.next], ensure_ascii=False, indent=1))
         return
 
-    md = write_md_tracker(done, pending, stub_upgradeable)
+    md = write_md_tracker(done, pending, stub_upgradeable, market_filter=args.market)
     market_suffix = f" ({args.market})" if args.market else ""
     print(
         f"아카이브{market_suffix} {len(done) + len(pending)} / 완료 {len(done)} / 대기 {len(pending)} "

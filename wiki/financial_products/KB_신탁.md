@@ -2,7 +2,7 @@
 type: Financial Product
 title: KB 신탁
 description: KB국민은행이 취급하는 신탁상품(특정금전·불특정금전·재산·상속증여·퇴직연금 신탁)
-issuer: /companies/KB금융지주
+issuer: /companies/KB국민은행
 product_type: 신탁
 tags: [금융상품, 신탁]
 timestamp: 2026-06-27T00:00:00Z

@@ -2,7 +2,7 @@
 type: Financial Product
 title: KB 원화예수금
 description: KB국민은행이 취급하는 원화 예수금(요구불·저축성 예금 등) — 그룹 핵심 자금조달원
-issuer: /companies/KB금융지주
+issuer: /companies/KB국민은행
 product_type: 예금
 tags: [금융상품, 예금]
 timestamp: 2026-06-27T00:00:00Z

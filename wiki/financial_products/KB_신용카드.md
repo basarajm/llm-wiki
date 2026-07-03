@@ -2,7 +2,7 @@
 type: Financial Product
 title: KB 신용카드
 description: KB국민카드가 발행·관리하는 신용/체크/선불카드 및 카드론·현금서비스·리볼빙
-issuer: /companies/KB금융지주
+issuer: /companies/KB국민카드
 product_type: 카드
 tags: [금융상품, 카드]
 timestamp: 2026-06-27T00:00:00Z

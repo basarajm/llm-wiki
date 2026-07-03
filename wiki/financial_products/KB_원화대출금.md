@@ -2,7 +2,7 @@
 type: Financial Product
 title: KB 원화대출금
 description: KB국민은행이 취급하는 원화 대출금(기업자금·가계자금) — 그룹 핵심 자산운용 수단
-issuer: /companies/KB금융지주
+issuer: /companies/KB국민은행
 product_type: 대출
 tags: [금융상품, 대출]
 timestamp: 2026-06-27T00:00:00Z
