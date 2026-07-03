@@ -6,6 +6,7 @@ ticker: "000590"
 market: KOSPI
 market_page: /markets/KOSPI
 industry: 지주회사
+group: /groups/CS홀딩스
 is_stub: false
 tags: [기업, 지주회사, KOSPI]
 timestamp: 2026-06-28T00:00:00Z
@@ -29,7 +30,7 @@ CS홀딩스(주)(영문 CS HOLDINGS Co., Ltd.)는 1949년 1월 12일 용접재�
 ## 산업 및 그룹
 
 - 산업: [지주회사](/industries/지주회사)
-- 그룹: 조선선재 계열(공정거래법상 지주회사 체제) — 위키에 그룹 페이지 미생성(group_todo)
+- 그룹: [CS홀딩스 (조선선재 계열)](/groups/CS홀딩스) — 공정거래법상 지주회사 체제
 
 ## 재무 하이라이트
 
