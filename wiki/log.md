@@ -1,5 +1,74 @@
 ﻿# 위키 작업 이력
 
+**Ingest(IG26)** KOSPI 로컬 아카이브 Full 인제스트 12개사: 삼성카드, 선진, 성문전자, 세아제강, 세아홀딩스,
+세우글로벌, 세원정공, 세이브존I&C, 세진중공업, 셀트리온, 솔루스첨단소재, 솔루엠.
+Post-batch consolidation: markets/KOSPI.md 상장기업 목록에 12개사 전건 반영 확인,
+groups/세아.md 계열사 목록에 세아홀딩스·세아제강 계열(세아특수강·세아엠앤에스·세아엘앤에스·동아스틸·에스에스아이케이·에이팩인베스터스) 통합 갱신 확인,
+shareholders 양방향 링크 검증(국민연금공단↔삼성카드, 브이아이피자산운용↔솔루엠 등 정상),
+wiki/index.md 전체 재생성(engine/scripts/build-index.ps1) 및 중복 라인 없음 확인(sort | uniq -d).
+신규 stub 다수: BASF, 동방선기, 동아스틸, 리텍, 서한스카이, 선진한마을, 성문디엠, 성문전자인도법인,
+세아엘앤에스, 세아엠앤에스, 세아특수강, 세이브존, 세이브존리베라, 셀트리온바이오솔루션스, 셀트리온제약,
+셀트리온홀딩스, 솔루스아이테크, 애그리로보텍, 에스에스아이케이, 에이스나노켐, 에이팩인베스터스, 엔에스쇼핑,
+일승, 제일사료, 청도성문전자유한공사, 팜스코, 팬오션, 하림지주, 하림푸드, SEJIN_VIETNAM.
+
+**Ingest** 세아홀딩스-사업보고서-2025.12 (source_documents/AnnualReport_MD, 제25기 2025.01~12) Full 인제스트.
+wiki/companies/세아홀딩스.md 신규 생성(KOSPI 058650, market_page /markets/KOSPI, is_stub: false, group: /groups/세아).
+세아그룹 특수강 축 순수지주회사. 연결 매출액 6조 6,111억 원(전기 대비 +9.9%), 영업이익 1,755억 원(전기 대비 +76.9%),
+당기순이익 859억 원(전기 대비 +151.3%). 별도(지주) 영업수익 507억 원(배당수익 비중 61.9%), 별도 영업이익 317억 원.
+최대주주 이태성 35.12%(본인, 세아홀딩스·세아베스틸지주 대표이사), 이주성 17.95%, (주)에이치피피 9.38%,
+박의숙 6.00%, 이순형 4.01%. 최대주주 및 특수관계인 합계 80.68%. 최근 5개년 최대주주 변동 없음.
+2025.10.30 이사회 결의 → 2026.01.26 효력, 종속회사 세아특수강과 포괄적 주식교환으로 완전자회사화(2026.02.12 상장폐지).
+신규: sources/세아홀딩스_2025_사업보고서.md, segments/세아홀딩스_지주부문.md, value_chain/세아홀딩스_밸류체인.md,
+ratings/세아홀딩스 신용등급.md, shareholders/이태성.md, executives/박의숙.md(신규),
+companies/세아엠앤에스.md·세아특수강.md·세아엘앤에스.md(stub, 세아홀딩스 계열).
+기존 페이지 갱신: executives/이순형.md·이태성.md·김수호.md(세아홀딩스 겸직 양방향 링크 보강),
+groups/세아.md(계열사 목록에 세아홀딩스·세아특수강·세아엠앤에스·세아엘앤에스 추가), markets/KOSPI.md(상장기업 목록에 세아홀딩스 추가).
+신용등급: 무보증사채 A(안정적), 기업어음 A2 (한국기업평가·한국신용평가·NICE신용평가, 2023~2025 유지).
+
+**Ingest** 세진중공업-사업보고서-2025.12 (source_documents/AnnualReport_MD, 제27기 2025.01~12) Full 인제스트.
+wiki/companies/세진중공업.md 신규 생성(KOSPI 075580, market_page /markets/KOSPI, is_stub: false).
+조선기자재(선실·선체 블록) 및 플랜트 구조물 제조사. 종속회사 ㈜일승·㈜동방선기·SEJIN VIETNAM CO., Ltd. 등 6개사 연결.
+매출액 402,686백만원(전기 대비 +14.3%), 영업이익 73,389백만원(전기 대비 +104.0%), 당기순이익 59,844백만원(연결 기준).
+최대주주 윤지원 44.10%(2020.09 부친 윤종국으로부터 승계), 특수관계인 윤종국 11.87%·윤지현 0.01%·최양환 0.01%·(유)에스앤티이노베이션 3.43%(합산 59.42%). 대표이사 최양환.
+신규: sources/세진중공업_2025_사업보고서.md, segments/세진중공업_조선부문.md·세진중공업_플랜트부문.md, value_chain/세진중공업_밸류체인.md,
+shareholders/윤지원.md·윤종국.md, executives/최양환.md·윤종국.md·윤지원.md,
+companies/일승.md·동방선기.md·SEJIN_VIETNAM.md(stub).
+기존 페이지 갱신: markets/KOSPI.md(상장기업 목록), industries/조선.md(주요 플레이어), wiki/index.md 반영.
+세아그룹(groups/세아.md)과 무관한 별도 기업(오너 일가: 윤씨 가문) — 그룹 페이지 생성/편집하지 않음.
+신용등급: 해당사항 없음(사업보고서 명시). 금융상품 페이지 해당 없음(비금융기업).
+
+**Ingest** 세우글로벌-사업보고서-2025.12 (source_documents/AnnualReport_MD, 제48기 2025.01~12) Full 인제스트.
+wiki/companies/세우글로벌.md 신규 생성(KOSPI, market_page /markets/KOSPI, is_stub: false).
+엔지니어링 플라스틱·ABS수지 등 고분자 석유화학 상품 유통 및 컴파운딩(SELAC) 제조사. SABIC INNOVATIVE PLASTICS 국내대리점.
+매출액 32,680백만원(전기 대비 -8.9%), 영업이익 2,433백만원, 당기순이익 3,726백만원(관계기업 투자지분 처분이익 등 반영, 전기 대비 +7.7%).
+최대주주 안백순 31.74%(특수관계인 합산 37.54%, 서한스카이 신규 편입 1.77%), 5% 이상 주주 에이스나노켐(5.80%). 대표이사 안백순.
+신규: sources/세우글로벌_2025_사업보고서.md, segments/세우글로벌_POLYMER_부문.md, value_chain/세우글로벌_밸류체인.md,
+products/SELAC.md, shareholders/안백순.md, executives/안백순·안병화·안현식·최영희·홍영표·신대호·김형모.md,
+companies/서한스카이.md·에이스나노켐.md·BASF.md(stub).
+기존 페이지 갱신: markets/KOSPI.md·wiki/index.md 반영. 그룹 페이지 미생성 — 계열사 없음(2025년 종속기업 청산 완료, 연결대상 없음).
+
+**Ingest** 세이브존I&C-사업보고서-2025.12 (source_documents/AnnualReport_MD, 제24기 2025.01~12) Full 인제스트.
+wiki/companies/세이브존I&C.md 신규 생성(KOSPI 081000, market_page /markets/KOSPI, is_stub: false).
+전국 6개 점포(노원점·성남점·광명점·대전점·부천상동점·전주코아점)의 백화점형 할인점(세이브존) 운영기업.
+별도기준 매출액 118,101백만원(전기 대비 +0.7%), 영업이익 4,586백만원(전기 대비 -41.0%), 당기순이익 7,754백만원(전기 대비 -38.7%).
+최대주주 (주)세이브존 49.06%(특수관계인 합산 52.72%, 의결권 기준 57.43%), 5% 이상 주주 HOLDCO OPPORTUNITIES FUND II, L.P.(5.31%). 대표이사 이상준.
+신용등급 정보 사업보고서 내 미기재(신용평가 페이지 미생성).
+신규: sources/세이브존I&C_2025_사업보고서.md, segments/세이브존I&C_할인점사업부문.md, value_chain/세이브존I&C_밸류체인.md,
+executives/이상준_세이브존I&C.md·용석봉.md·박선규.md, shareholders/세이브존.md·세이브존리베라.md·HOLDCO_OPPORTUNITIES_FUND_II.md,
+companies/세이브존.md·세이브존리베라.md(stub, 비상장 최대주주 및 계열사).
+기존 페이지 갱신: markets/KOSPI.md·wiki/index.md 반영(build-index.ps1). 세아그룹과 무관(세이브존은 별도 계열, groups 페이지 미생성).
+
+**Ingest** 세원정공-사업보고서-2025.06 (source_documents/AnnualReport_MD, 제36기 2024.07~2025.06) Full 인제스트.
+wiki/companies/세원정공.md 신규 생성(KOSPI 021820, market_page /markets/KOSPI, is_stub: false).
+현대차그룹向 차체 부품(COWL CROSS MEMBER·DASH PANEL·RADIATOR SUPPORT 등) 전문 제조사, 한국·중국(삼하세원 등) 생산.
+연결 매출액 179,354백만원(전기 대비 +10.35%), 영업이익 17,028백만원, 당기순이익 48,754백만원(지배지분 46,464백만원).
+별도기준 매출액 91,471백만원, 영업이익 14,301백만원, 당기순이익 21,699백만원.
+최대주주 (주)에스엔아이 21.01%(특수관계인 합산 47.56%), 5% 이상 주주 김문기(10.48%)·스틸드림(5.68%). 대표이사 장제상.
+신용등급 NICE신용평가 BBB-(2024.04)→A-(2025.03) 상승.
+신규: sources/세원정공_2025_사업보고서.md, value_chain/세원정공_밸류체인.md, executives/장제상.md,
+shareholders/에스엔아이.md·김문기.md·스틸드림.md, ratings/세원정공 신용등급.md.
+기존 페이지 갱신: markets/KOSPI.md·wiki/index.md 반영(build-index.ps1). 그룹 페이지(세원그룹) 미생성 — 계열사(세원물산 등)만 개별 처리, groups/세원.md는 후속 검토 대상으로 보류.
+
 **Ingest** 삼양바이오팜-사업보고서-2025.12 (source_documents/AnnualReport_MD, 제1기 2025.11~12) Full 인제스트.
 wiki/companies/삼양바이오팜.md 신규 생성(KOSPI 007450, market_page /markets/KOSPI, is_stub: false).
 삼양홀딩스 의약바이오 사업부문 인적분할로 2025.11.1 설립, 2025.11.24 KOSPI 재상장.
@@ -1949,3 +2018,17 @@ wiki/index.md 반영(companies는 기존 stub 항목 유지, segments/value_chai
 **Ingest** 서울도시가스-사업보고서-2025.12.md (제43기, source_documents/AnnualReport_MD) — Full 인제스트 신규 생성. wiki/companies/서울도시가스.md 신규 생성(ticker 017390, KOSPI, market_page /markets/KOSPI, group /groups/대성그룹(대구), is_stub: false). 서울 11개구(강서·관악·동작·마포·영등포·은평 등, 232.7㎢)와 경기 고양·김포·파주(1,104.5㎢)에 도시가스를 공급, 해외자원개발(리비아 NC174 광구 지분 0.2%)과 부동산 임대(종속회사 지알엠㈜)를 겸영. 2025년 연결 매출 1조 8,280억원(전년比 +7.3%), 영업이익 174억원(전년 -103억원에서 흑자전환), 당기순이익 310억원(-9.7%). 별도 기준 영업이익 116억원, 순이익 240억원. 연결 EPS 7,866원, 주당 현금배당금 2,750원(배당성향 34.9%). 최대주주 보운㈜ 26.27%(계열 지주사, 대표 김영민), 2대주주 대성홀딩스㈜ 13.20%. 기업신용등급 A+(NICE평가정보, 2025.04). 대표이사 진용민·황주석 공동대표(2025.03 신규 선임), 사외이사 이석문·조승삼·박정수(박정수는 2025.08 중도퇴임). 신규 페이지 16개: sources/서울도시가스_2025_사업보고서, segments 3종(도시가스공급·해외자원개발·부동산임대), value_chain/서울도시가스_밸류체인, ratings/서울도시가스 신용등급, executives 6종(진용민·황주석·임규성·조승삼·박정수·이석문(서울도시가스) — 이석문은 기존 대한조선 동명이인과 구분하여 파일명 분리), shareholders 2종(보운·대성홀딩스), companies stub 2건(보운·지알엠). 기존 wiki/products/도시가스.md(삼천리 인제스트 시 생성)에 서울도시가스를 경쟁사로 cross-link 추가. 공유 파일 갱신: groups/대성그룹(대구).md — 서울도시가스·보운·지알엠을 계열사 목록(member_companies)에 추가, 알앤알을 통한 보운·대성홀딩스 지분 연결 관계 기술 보강(공유 파일이므로 재조회 후 편집, 충돌 없음). markets/KOSPI.md·wiki/index.md 반영(신규 항목 다수가 이미 자동 색인에 반영되어 있음을 확인, 중복 없음).
 
 **Ingest(IG25)** KOSPI 로컬 아카이브 Full 인제스트 배치 완료(12개사) — 삼성SDS·삼성증권·삼양사·삼성출판사·삼원강재·새론오토모티브·서울도시가스·서울보증보험 등. 공유 파일 후속 정리: groups/삼성.md 계열사 목록(member_companies)에 삼성증권·삼성선물 추가 통합(중복 없음 확인), markets/KOSPI.md 상장기업 목록에 12개사 링크 반영(삼성SDS·삼성증권·삼성출판사·삼원강재·새론오토모티브·서울도시가스·서울보증보험·샘표·샘표식품·상신브레이크·삼양바이오팜·삼양패키징), shareholders(국민연금공단·삼성생명보험·삼성전자·이재용 등) 보유종목표에 양방향 링크 반영 확인. wiki/index.md 전체 재생성(engine/scripts/build-index.ps1) 및 중복 라인 없음 확인(sort | uniq -d 결과 0건).
+
+**Ingest** 세아제강-사업보고서-2025.12.md (제8기, source_documents/AnnualReport_MD) — Full 인제스트, wiki/companies/세아제강.md 기존 stub(is_stub: true, KBI동양철관 고객 언급만 존재)을 Full 페이지로 승급(ticker 306200, KOSPI, market_page /markets/KOSPI, group /groups/세아, is_stub: false). 강관(배관용·유정용·구조용) 전문 제조사, 2018년 세아제강지주에서 인적분할 설립, 4개 공장(포항·군산·순천·창원). 2025년 연결 매출 1조 4,848억원(전년比 -18.0%), 영업이익 496억원(-75.6%, 강관 판가 하락·수출 물량 감소), 당기순이익(지배주주) 300억원(-78.1%). 별도 영업이익 519억원·순이익 387억원. 최대주주 세아제강지주 50.11%, 특수관계인(이순형 회장 7.82% 등) 합계 63.59%. 대표이사 이휘령(부회장)·홍만기(부사장) 각자대표. 주당 현금배당금 5,500원(배당성향 52.0%). 신용등급 회사채 A+(한국신용평가·NICE신용평가, 3개년 유지). 신규 페이지 10개: sources/세아제강_2025_사업보고서, segments/세아제강_강관, value_chain/세아제강_밸류체인, ratings/세아제강 신용등급, executives 2종(이휘령·홍만기), shareholders/이순형, companies stub 3건(에스에스아이케이·동아스틸·에이팩인베스터스 — 세아제강 종속·특수관계 법인). 공유 파일 갱신: groups/세아.md 계열사 목록에 세아제강(승급)·동아스틸·에스에스아이케이·에이팩인베스터스 반영(세아제강지주 병렬 ingest와의 동시편집은 재조회 후 재적용으로 해소), markets/KOSPI.md·wiki/index.md 반영(다수 항목이 병렬 세션에 의해 이미 자동 반영되어 있음을 확인, value_chain·segments 2건만 추가 보완).
+
+**Ingest** 삼성카드-사업보고서-2025.12.md (제43기, source_documents/AnnualReport_MD) — Full 인제스트, wiki/companies/삼성카드.md 기존 stub(is_stub: true, 최대주주 언급만 존재)을 Full 페이지로 승급(ticker 029780, KOSPI, market_page /markets/KOSPI, group /groups/삼성, is_stub: false). 신용카드·여신전문금융 계열사(1983년 설립, 2007년 상장), 카드사업·할부리스사업·기타 3개 부문 영위, 신용카드회원 약 1,352만명·가맹점 약 306만개. 2025년 연결 영업수익 4조 3,829억원(-0.01%), 영업이익 8,537억원(-3.6%), 당기순이익 6,459억원(-2.8%, 파생상품평가이익 감소 영향), ROE 6.61%·조정자기자본비율 30.36%. 최대주주 삼성생명보험 71.86%, 2대주주 국민연금공단 5.93%. 대표이사 김이태 사장(2025.3.20 신규 취임, 김대환 교체). 신용등급 회사채 AA+(Stable)·CP/전단채 A1 (3개 신평사 공통, 6개년 유지). 신규/갱신 페이지 9종: sources/삼성카드_2025_사업보고서, segments 2종(카드사업·할부리스사업), value_chain/삼성카드_밸류체인, ratings/삼성카드 신용등급, executives 3종(김이태·김태선·황성원). 공유 파일 갱신: groups/삼성.md 계열사 목록에 삼성카드 추가(재조회 후 편집, 충돌 없음), shareholders/국민연금공단.md 보유종목표에 삼성카드 5.93% 추가, markets/KOSPI.md 상장기업 목록에 삼성카드 링크 반영. wiki/index.md 전체 재생성(engine/scripts/build-index.ps1)으로 신규 페이지 전항목 반영 확인.
+
+**Ingest** 셀트리온-사업보고서-2025.12.md (제35기, source_documents/AnnualReport_MD) — Full 인제스트 신규 생성. wiki/companies/셀트리온.md 신규 생성(ticker 068270, KOSPI, market_page /markets/KOSPI, group /groups/셀트리온그룹, is_stub: false). 바이오시밀러(항체의약품) 전문 글로벌 생명공학기업, 램시마·트룩시마·허쥬마 등 11개 제품 글로벌 허가 보유. 2025년 연결 매출 4조 1,625억원(전년比 +17.01%), 영업이익 1조 1,685억원(+137.49%, 영업이익률 28.1%), 당기순이익(지배지분) 1조 296억원. 별도 매출 2조 9,286억원. 최대주주 (주)셀트리온홀딩스 24.44%(특수관계인 포함 31.21%, 셀트리온홀딩스의 최대출자자는 서정진 98.13%). 3인 대표이사 체제: 서진석(경영사업부)·기우성(제조개발사업부)·김형기(글로벌판매사업부, 전 셀트리온헬스케어 대표, 2023.12 합병으로 취임). 신용등급 기업어음 A1(나이스신용평가·한국기업평가, 2025.11 정기평가 유지). 신규 페이지 16개: sources/셀트리온_2025_사업보고서, segments/셀트리온_바이오의약품, value_chain/셀트리온_밸류체인, products 4종(램시마·트룩시마·허쥬마·유플라이마), ratings/셀트리온_신용등급, executives 4종(서정진·서진석·기우성·김형기), shareholders/셀트리온홀딩스, companies stub 3건(셀트리온홀딩스·셀트리온제약·셀트리온바이오솔루션스), groups/셀트리온그룹.md 신규 생성(계열사: 셀트리온·셀트리온제약·셀트리온바이오솔루션스·셀트리온홀딩스). 공유 파일 갱신: markets/KOSPI.md 상장기업 목록에 셀트리온 추가(병렬 세션 동시편집 충돌 재조회 후 재시도로 해소, 최초 시도 중 중복 라인 발생하여 dedupe 처리), wiki/index.md는 병렬 인제스트 자동색인 갱신으로 이미 신규 항목 전체 반영 확인(중복 없음). groups/세아.md는 본 ingest와 무관하여 미접촉.
+
+**Ingest** 솔루엠-사업보고서-2025.12.md (제11기, source_documents/AnnualReport_MD) — Full 인제스트, wiki/companies/솔루엠.md 신규 생성(ticker 248070, KOSPI, market_page /markets/KOSPI, is_stub: false). 전자부품(파워모듈·3IN1보드)·ICT(ESL·IoT) 2대 사업부문 영위, 2015년 설립·2021년 상장, 삼성전기 출신 경영진 다수. 2025년 연결 매출 1조 7,002억원(전년比 +6.6%), 영업이익 465억원(-32.7%), 당기순이익 142억원(-62.4%), 별도기준 당기순손실(-8.5억원, 적자전환). 최대주주 전성호 대표이사(13.05%, 특수관계인 포함 14.22%), 5% 이상 주주 얼라인파트너스자산운용(8.04%)·브이아이피자산운용(5.74%). 2025.7 상환전환우선주(RCPS) 7,000,000주 제3자배정 발행(소푸스 제일차 등 4개 기관, 지분율 12.77%). 신용등급 나이스디앤비 BBB-, 이크레더블 BB(3개년 하향 추세). 신규 페이지 10건: sources/솔루엠_2025_사업보고서, segments 2종(솔루엠_전자부품·솔루엠_ICT), value_chain/솔루엠_밸류체인, products/ESL_전자가격표시기, executives 3종(전성호·김재원_솔루엠·유동균), shareholders 2종 신규(소푸스_제일차) 및 1종 갱신(브이아이피자산운용 보유종목 추가; 얼라인파트너스자산운용 신규), ratings/솔루엠_신용등급. 공유 파일 갱신: markets/KOSPI.md 상장기업 목록에 솔루엠 링크 반영(병렬 세션 동시편집 충돌 확인 후 bash 기반 안전 삽입으로 해소), wiki/index.md 전체 재생성(engine/scripts/build-index.ps1). 세아그룹 계열 여부 미확인 — 사업보고서 계열회사 현황상 기업집단명 "솔루엠"으로 자체 그룹 표기, groups/세아.md 미편집.
+
+**Ingest** 선진-사업보고서-2025.12.md (제15기, source_documents/AnnualReport_MD) — Full 인제스트 신규 생성. wiki/companies/선진.md 신규 생성(ticker 136490, KOSPI, market_page /markets/KOSPI, group /groups/하림, is_stub: false). 하림그룹 계열 사료·양돈·식육·육가공 종합축산식품기업, 2011년 (주)선진지주와 인적분할 재상장. 2025년 연결 매출 1조 8,957.4억원(전년比 +12.75%), 영업이익 1,791.9억원(+44.4%), 당기순이익 1,260.3억원(전년 66.4억원에서 급증, 지배기업 소유주 귀속분 1,189.4억원). 사업부문 사료 42.54%·식육 22.59%·양돈 17.09%·육가공 12.53%·기타 5.25%. 최대주주 (주)하림지주 50.00%(변동 없음). 대표이사 이범권(2011년~현재 재직). 신용등급 BBB+(NICE평가정보, 3개년 유지). 신규 페이지 18개: sources/선진_2025_사업보고서, segments 4종(사료·식육·양돈·육가공부문), value_chain/선진_밸류체인, products 2종(선진사료·선진포크), executives 3종(이범권_선진·문웅기_선진·이종익_선진), ratings/선진_신용등급, shareholders/하림지주(entity_type 상장기업, company_page 양방향 연결), companies stub 7건(하림지주·팬오션·엔에스쇼핑·팜스코·제일사료·선진한마을·애그리로보텍·하림푸드). 신규 groups/하림.md 생성(Corporate Group, controlling_person 김홍국, member_companies에 하림지주·선진·하림·팬오션·엔에스쇼핑·팜스코·제일사료 등록) — 그룹 페이지가 기존에 없어 신설. 기존 companies/하림.md(마니커 경쟁사 stub)에 group: /groups/하림 필드 및 하림지주 지분(57.37%) 언급 추가. 공유 파일 갱신: markets/KOSPI.md 상장기업 목록에 선진 링크 반영(병렬 세션 동시편집 충돌은 PowerShell 기반 재조회·재시도 삽입으로 해소), wiki/index.md는 병렬 프로세스에 의해 이미 신규 페이지 전건이 반영된 상태 확인(별도 재생성 불필요).
+
+**Ingest** 성문전자-사업보고서-2025.12.md (제46기, source_documents/AnnualReport_MD) — Full 인제스트 신규 생성. wiki/companies/성문전자.md 신규 생성(ticker 014910, KOSPI, market_page /markets/KOSPI, is_stub: false). 콘덴서(Capacitor)용 금속증착필름 제조 전문기업, 세계시장 점유율 약 20%·국내 약 70%(회사 추정), 수출 비중 96% 이상. 2025년 연결 매출 537억원(전년比 +11.7%), 영업이익 16.7억원(+51.7%), 당기순이익 20.2억원(-25.3%, 전년 기타수익 급증 기저효과). 별도 매출 275억원, 영업이익 6.8억원. 최대주주 신준섭(대표이사, 14.19%) — 2024.8.14 부친 신동열(전 대표이사, 현 회장)로부터 지분 증여로 최대주주 승계. 5% 이상 주주 신승섭(상무이사, 6.56%, 신준섭 형제). 신용등급 BB+(한국평가데이터, 2025.04.28). 종속회사 3개(청도성문전자유한공사·성문전자인도법인·성문디엠), 대규모기업집단 미해당(별도 그룹 페이지 생성 안함). 신규 페이지 14개: sources/성문전자_2025_사업보고서, segments 2종(성문전자_콘덴서용필름·성문전자_DM사업), value_chain/성문전자_밸류체인, products/금속증착필름, executives 3종(신준섭·신동열·신승섭), shareholders 2종(신준섭·신승섭), ratings/성문전자 신용등급, companies stub 3건(청도성문전자유한공사·성문전자인도법인·성문디엠). 공유 파일 갱신: markets/KOSPI.md 상장기업 목록에 성문전자 링크 추가(병렬 세션 동시편집 충돌 1회 발생 — 재조회 후 재시도로 해소), wiki/index.md는 병렬 프로세스가 이미 신규 항목 대부분 반영한 상태 확인 — companies 섹션에 중복 삽입 1건 발생하여 dedupe 처리 후 최종 확정. groups/세아.md는 본 ingest와 무관하여 미접촉.
+
+**Ingest** 솔루스첨단소재-사업보고서-2025.12.md (제7기, source_documents/AnnualReport_MD) — Full 인제스트 신규 생성. wiki/companies/솔루스첨단소재.md 신규 생성(ticker 336370, KOSPI, market_page /markets/KOSPI, group /groups/스카이레이크, is_stub: false). 전지박·OLED·첨단소재 3개 사업부문 영위, 2019.10.1 두산 전자BG 인적분할로 설립(두산솔루스→2020.12 사명변경), 2019.10 유가증권시장 상장. 2025년 연결 매출 6,161억원(전년比 +7.9%), 영업손실 -733억원(전년 -544억원, 손실 확대), 당기순손실 -1,384억원(전년 -427억원). 사업부문별 매출: 전지박 4,899억원(80%, 영업손실 -894억원), OLED 1,145억원(19%, 영업이익 169억원, 유일한 흑자부문), 첨단소재 276억원(4%, 영업손실 -11억원). 최대주주 스카이레이크롱텀스트래티직인베스트먼트㈜ 41.06%(37,327,840주, PEF 투자목적회사). 대표이사 곽근만(2024.03.28 선임). 신용평가 해당사항 없음(공모채 미보유, 사모 회사채 2건 발행). 신규 페이지 13개: sources/솔루스첨단소재_2025_사업보고서, segments 3종(전지박·OLED·첨단소재 사업부문), value_chain/솔루스첨단소재_밸류체인, products 2종(전지박·OLED소재), executives 4종(곽근만·이남혁·이상일·안영욱), shareholders/스카이레이크롱텀스트래티직인베스트먼트(신규), companies stub 2건(솔루스아이테크·리텍), groups/스카이레이크.md 신규 생성(Corporate Group, controlling_person 스카이레이크에쿼티파트너스, member_companies에 솔루스첨단소재·리텍·솔루스아이테크 등록 — 그룹 페이지 기존 부재로 신설). 공유 파일 갱신: markets/KOSPI.md 상장기업 목록에 솔루스첨단소재 링크 추가(병렬 세션 동시편집 충돌 발생 — bash sed 기반 안전 삽입으로 해소), wiki/index.md는 병렬 프로세스와의 동시 편집으로 companies/groups/shareholders/segments/sources 섹션에 중복·상대경로 오류 다수 발생 — python 스크립트로 재조회 후 dedupe 및 절대경로(/dir/page) 통일 처리. groups/세아.md는 본 ingest와 무관하여 미접촉.
