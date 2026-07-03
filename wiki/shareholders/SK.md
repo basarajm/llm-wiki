@@ -1,7 +1,7 @@
 ---
 type: Shareholder
 title: SK
-description: SK스퀘어(32.16%)·SKC(40.64%) 최대주주인 SK그룹 지주회사 SK㈜
+description: SK스퀘어(32.16%)·SKC(40.64%)·SK이노베이션(52.09%) 최대주주인 SK그룹 지주회사 SK㈜
 entity_type: 상장기업
 company_page: /companies/SK
 tags: [주주, 상장기업]
@@ -25,6 +25,9 @@ SK㈜는 SK그룹의 지주회사로, 반도체·ICT 투자전문 중간지주 [
 | [SK스퀘어](/companies/SK스퀘어) | 32.16% | 최대주주(특수관계인 포함) |
 | [SKC](/companies/SKC) | 40.64% | 최대주주 |
 | [SK리츠](/companies/SK리츠) | 29.09% | 최대주주 (2026.3.31 기준) |
+| [SK이노베이션](/companies/SK이노베이션) | 52.09% | 최대주주 (2025.9.5 유상증자 참여) |
+| [SK텔레콤](/companies/SK텔레콤) | 30.57% | 최대주주 |
+| [SK시그넷](/companies/SK시그넷) | 66.71% | 최대주주 (2025년 2차례 유상증자 참여, 자본잠식 해소) |
 
 ## 기업 정보
 
@@ -34,3 +37,6 @@ SK㈜는 SK그룹의 지주회사로, 반도체·ICT 투자전문 중간지주 [
 
 - [SK스퀘어 2025 사업보고서](/sources/SK스퀘어_2025_사업보고서)
 - [SKC 2025 사업보고서](/sources/SKC_2025_사업보고서)
+- [SK이노베이션 2025 사업보고서](/sources/SK이노베이션_2025_사업보고서)
+- [SK텔레콤 2025 사업보고서](/sources/SK텔레콤_2025_사업보고서)
+- [SK시그넷 2025 사업보고서](/sources/SK시그넷_2025_사업보고서)
