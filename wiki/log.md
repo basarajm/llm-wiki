@@ -1,12 +1,31 @@
 # 위키 작업 이력
 
 ## 2026-07-03
+**Ingest** 경동도시가스-사업보고서-2025.12 (source_documents/AnnualReport_MD, 제9기) Full 인제스트. wiki/companies/경동도시가스.md 신규 생성(기존 페이지·stub 없음 확인, KOSPI 267290, market_page /markets/KOSPI, group /groups/경동홀딩스그룹, is_stub: false). 울산·양산 권역 도시가스 공급업체. 신규: sources/경동도시가스_2025_사업보고서.md, companies/경동도시가스.md, segments 2종(도시가스 공급 매출비중 100.0%, 안전관리 서비스 0.8%), value_chain/경동도시가스_밸류체인.md(공급사 한국가스공사 — LNG 전량 매입 20년 장기계약), executives 5종(송재호 — 대표이사 회장/경동홀딩스·경동 대표 겸직, 나윤호 — 대표이사 사장, 손원락 — 기타비상무이사, 김용래 — 사외이사/DL 사외이사 겸직, 김택선 — 상근감사), companies stub 3종(경동인베스트·경동홀딩스·경동, 이후 병렬 에이전트가 경동인베스트를 정식 페이지로 승격). 갱신: markets/KOSPI.md(경동도시가스·경동인베스트 상장기업 목록 추가), groups/경동홀딩스그룹.md(member_companies에 경동도시가스·경동홀딩스 추가), companies/DL.md(김용래 겸직 명시). 핵심 수치(연결, 제9기 2025년): 매출액 1조 7,595억원(-1.8% YoY), 영업이익 330억원(+22.5% YoY), 당기순이익 328억원(+14.7% YoY). 최대주주 (주)경동인베스트 37.04%, 특수관계인 포함 50.91%. 신규 페이지 13건 + 공유 페이지 보강 3건. 병렬 경동인베스트 ingest 에이전트와 companies/경동인베스트.md·shareholders/경동홀딩스.md에서 중복 작업 확인 — 상대측 상세 버전 유지, 크로스링크만 보강.
+
+**Ingest** 경동인베스트-사업보고서-2025.12 (source_documents/AnnualReport_MD, 제49기) Full 인제스트. wiki/companies/경동인베스트.md는 기존 stub(is_stub: true, 경동도시가스 인제스트 과정에서 최대주주로 생성)이었으며 이번 인제스트로 정식 페이지로 승급(is_stub: false, ticker 012320, market: KOSPI, market_page /markets/KOSPI, group /groups/경동홀딩스그룹). sources/경동인베스트_2025_사업보고서 신규 생성. 신규 Corporate Group groups/경동홀딩스그룹.md 생성(주의: 기존 groups/경동그룹.md(경동나비엔·경동원 계열, 동일인 손연호)와 명칭 유사하나 지배구조상 별개 — 경동인베스트 계열은 (주)경동홀딩스 정점, 최대주주 손원락). segments 6종 신규 생성(지주사업 4.7%, 플랜트및물류 25.1%, 전기발전 4.4%, 건설 17.0%, 광업/자원개발/E&C 45.9%(최대), 보관및운송 2.8%). value_chain/경동인베스트_밸류체인 신규 생성(계열사向 경영자문료·브랜드사용료 매출 중심). executives 6종 신규 생성(정승진 — 대표이사, 손원락 — 부회장/최대주주 등기임원, 나윤호 — 기타비상무이사/경동도시가스 대표이사 겸직, 김동욱 — 사외이사, 최병선 — 상근감사, 우영진 — 상무보/재무담당임원). shareholders/경동홀딩스.md 신규 생성(최대주주 45.17%, 연탄사업 겸영 비상장 지주사) 및 companies/경동홀딩스 상호링크. 신규 계열사 stub 5종(경동건설 71.1%, 경동이앤에스 100%, 케이디파워텍 100%, 경동 98.6%, 경동탱크터미널 100% — 모두 경동인베스트 종속회사). Credit Rating 페이지는 생성하지 않음(신용평가 미수행 명시). 핵심 수치(연결, 제49기 2025년): 매출액 2,761.6억원(-6.0% YoY), 영업이익 188.2억원(-22.8% YoY), 연결당기순이익 187.4억원(-14.8% YoY). 최대주주 (주)경동홀딩스 45.17%, 대표이사 정승진. 신규 페이지 총 22건(회사 승급 1 + sources 1 + group 1 + segments 6 + value_chain 1 + executives 6 + shareholders 1 + 계열사 stub 5).
+
+---
+
+**Ingest** STX엔진-사업보고서-2025.12 (source_documents/AnnualReport_MD, 제22기) Full 인제스트. wiki/companies/STX엔진.md 신규 생성(기존 페이지·stub 없음 확인, KOSPI 077970, market_page /markets/KOSPI, is_stub: false). 디젤엔진·방산 특수엔진·전자통신장비를 영위하는 창원 소재 종합 엔진기업, 2024.05 KOSPI 상장.
+- 신규: sources/STX엔진_2025_사업보고서.md, companies/STX엔진.md, segments 3종(민수사업 매출비중 37.2%, 특수사업 45.9%, 전자통신사업 16.8%), value_chain/STX엔진_밸류체인.md(핵심 공급사 MAN Diesel·MTU 라이선스 의존, 고객사 한화에어로스페이스·방위사업청·SK오션플랜트 등), executives 4종(이상수 — 대표이사 사장, 박일동·신현승 — 사외이사, 김두일 — 기타비상무이사·연합자산관리 그룹장 겸직), shareholders/유암코기업리바운스제팔차기업재무안정사모투자합자회사.md(최대주주 61.68%), products 2종(디젤엔진 STX-MAN, 특수엔진 STX-MTU), companies stub 4종(연합자산관리 — 최대주주의 최대주주 UAMCO, 방위사업청 — 정부기관 발주처, 현대로템 — 방산 고객사, 강남 — 해경 함정 발주처 비상장).
+- 갱신: markets/KOSPI.md(상장기업 목록에 STX엔진·현대로템 추가, 병렬 에이전트와 공유 파일 재조회 후 병합), wiki/index.md(빌드/병렬 반영 확인).
+- Credit Rating 페이지는 생성하지 않음 — 공시 본문에 회사채·기업어음 미상환 잔액 수치는 있으나 외부 신용평가기관 등급 정보가 확인되지 않음(추가 확인 필요, ingest-followups 후보).
+- 핵심 수치(연결, 제22기 2025년): 매출액 7,893억원(+8.9% YoY), 영업이익 696억원(+64.8% YoY), 당기순이익 689억원(+153.4% YoY). 최대주주 유암코기업리바운스제팔차기업재무안정사모투자합자회사 61.68%(업무집행조합원 연합자산관리 100% 출자), 국민연금공단 6.99%. 2025.03 전환사채·전환주 전환으로 자본금 691억→1,004억원 확대. 한국수력원자력 입찰참가자격 제한(~2026.06) 리스크 존재.
+
 **Ingest** SK텔레콤-사업보고서-2025.12 (source_documents/AnnualReport_MD, 제42기) Full 인제스트. wiki/companies/SK텔레콤.md는 기존 stub(is_stub: true, 인스코비(프리티) 밸류체인 ingest 과정에서 MVNO 망 공급자로 생성)이었으며 이번 인제스트로 정식 페이지로 승급(is_stub: false, ticker 017670, market: KOSPI, market_page /markets/KOSPI, group /groups/SK). sources/SK텔레콤_2025_사업보고서 신규 생성. segments 2종(SK텔레콤_무선통신사업 매출비중 73%, SK텔레콤_유선통신사업 매출비중 25%) 신규 생성. value_chain/SK텔레콤_밸류체인 신규 생성(계열 공급사 SK오앤에스·피에스앤마케팅·서비스에이스, MVNO향 망 도매 고객 — 프리티 종속회사 프리텔레콤 연결). executives 3종(유영상 — 대표이사 사장, 김양섭 — Corp.Planning센터장/CFO, 강동수 — 기타비상무이사·SK Inc. PM부문장 겸직) 신규 생성. shareholders/SK.md·국민연금공단.md에 SK텔레콤 지분(각 30.57%·6.67%) 양방향 보강(병렬 에이전트와 공유 파일 재조회 후 병합). products/SK텔레콤_5G 신규 생성. ratings/SK텔레콤 신용등급 신규 생성(회사채 AAA(Stable) 5개년 유지, 기업어음 A1, 해외신용 Fitch A-/S&P A-/Moody's A3). 신규 계열사 stub 4종(SK브로드밴드, SK오앤에스, 피에스앤마케팅, 서비스에이스). 핵심 수치(연결, 제42기 2025년): 매출액 17조 992억원(-4.7%), 영업이익 1조 732억원(-41.1%), 당기순이익 3,751억원(-73.0%) — 2025년 사이버 침해 사고 후속조치 비용(매출차감 4,541억원)이 실적 감소 주 요인. 최대주주 SK(주) 30.57%(30.59% 특수관계인 포함), 국민연금공단 6.67%, Citibank ADR 6.25%. 신규 페이지 10종(회사 stub 승급 1 + sources 1 + segments 2 + value_chain 1 + executives 3 + products 1 + ratings 1) + 계열사 stub 4건 + 기존 공유 페이지(SK 그룹 주주·국민연금공단) 보강 2건.
 
 식: `## YYYY-MM-DD` 헤딩 + **볼드 액션어** 설명*
 *액션어: Ingest | Update | Creation | Query | Lint | Taxonomy*
 
 ---
+
+**Ingest** 강원랜드-사업보고서-2025.12 (source_documents/AnnualReport_MD, 제28기) Full 인제스트. wiki/companies/강원랜드.md 신규 생성(기존 페이지·stub 없음 확인, KOSPI 035250, market_page /markets/KOSPI, is_stub: false). 국내 유일 내국인 출입 카지노 운영 시장형 공기업.
+- 신규: sources/강원랜드_2025_사업보고서.md, companies/강원랜드.md, segments 2종(카지노부문 매출비중 86.85%, 리조트부문 약 11.10%), value_chain/강원랜드_밸류체인.md, executives 3종(남한규 — 대표이사 직무대행/경영지원본부장, 안광복 — 상임감사위원, 오영섭 — 비상임이사/감사위원장), shareholders 2종(한국광해광업공단 — 최대주주 36.27%, 정선군청 — 5.02%), products/강원랜드_카지노게임기구.md, companies stub 2종(하이원추추파크·하이원파트너스 — 연결 자회사).
+- 갱신: shareholders/국민연금공단.md(강원랜드 5.27% 보유 종목 및 Citations 추가), markets/KOSPI.md(상장기업 목록에 강원랜드 추가), wiki/index.md(build-index.ps1 재실행으로 전체 반영).
+- Credit Rating 페이지는 생성하지 않음 — 공시 기준 회사채·기업어음·단기사채 미상환 잔액 전부 0(무차입 경영)으로 외부 신용등급 정보 없음.
+- 핵심 수치(연결, 제28기 2025년): 매출액 1조 4,767억원(+3.5% YoY), 영업이익 2,353억원(-17.7% YoY), 당기순이익 3,182억원(-30.4% YoY, 전년 일회성 요인 영향 추정). 최대주주 한국광해광업공단 36.27%(자본잠식 상태), 국민연금공단 5.27%, 정선군청 5.02%. 대표이사 정식 선임 없이 직무대행 체제 장기화(2023.12 최철규→2026.3 남한규).
+- 신규 페이지 총 10종(회사 1 + sources 1 + segments 2 + value_chain 1 + executives 3 + shareholders 2 + products 1) + stub 2건(하이원추추파크·하이원파트너스) = 12개. 병행 인제스트 세션과의 공유 파일(markets/KOSPI.md, wiki/index.md, wiki/log.md) 편집은 재조회 후 병합 적용으로 처리.
 
 **Ingest** SK아이이테크놀로지 2025년 사업보고서(제7기) Full 인제스트 — company(SK아이이테크놀로지, 신규), segments(LiBS), value_chain, executives(이상민), shareholders(SK이노베이션), sources 생성. 최대주주 SK이노베이션(53.35%) stub 노드화(병렬 세션에서 정식 페이지로 승격됨), groups/SK.md 계열사 목록 갱신. 연결 매출 2,619억/영업손실 2,464억.
 
@@ -1235,3 +1254,50 @@
 - 신규 페이지 총 10종(sources 1 + segments 2 + value_chain 1 + products 2 + ratings 1 + executives 2 + shareholders 2) + stub 1건(SK멀티유틸리티) = 11개. 병행 인제스트 세션과의 공유 파일(wiki/index.md, wiki/log.md, markets/KOSPI.md, groups/SK디스커버리.md) 편집은 재조회 후 병합/재시도로 처리 — index.md는 병행 세션의 자동 빌드 결과와 일치함을 확인.
 
 **Ingest** SNT홀딩스-사업보고서-2025.12 (source_documents/AnnualReport_MD, 제44기) Full 인제스트. wiki/companies/SNT홀딩스.md 신규 생성(기존 stub 없음, KOSPI 003300, market_page /markets/KOSPI, group /groups/SNT그룹). sources/SNT홀딩스_2025_사업보고서 신규 생성. segments 3종(차량부품부문 매출비중 61.2%-SNT다이내믹스·SNT모티브, 산업설비부문 25.1%-SNT에너지·SNT Gulf, 기타부문 13.7%-공작기계·방산품·SCMC) 신규 생성. value_chain/SNT홀딩스_밸류체인 신규 생성(순수지주회사 특성상 자회사向 내부거래 중심). shareholders/최평규 신규 생성(최대주주 50.76%, SNT그룹 회장) — 개인이므로 company_page 미해당. ratings/SNT홀딩스_신용등급 신규 생성(2025.07.14 사모 교환사채 700억, 공모 등급 미공시). 기존 executives/김도환·박재석 페이지의 SNT홀딩스 링크 TODO 해소(정식 company 페이지 생성으로 겸직 확정), 김도환은 SNT홀딩스 대표이사로 company/position 갱신. groups/SNT그룹.md 계열사 목록에 SNT홀딩스 링크 보강 및 지배구조 서술 갱신(병렬 SNT모티브·SNT에너지 ingest 트랙과 병합 정리). markets/KOSPI.md 상장기업 목록에 SNT홀딩스(003300) 추가. wiki/index.md는 병렬 세션의 build-index 실행으로 이미 전체 갱신됨(회사·segments·value_chain·shareholders·ratings·sources 전 항목 반영 확인). 핵심 수치(연결, 제44기 2025년): 매출액 2조 2,357억원(+22.8%), 영업이익 3,007억원(+30.1%), 지배기업 소유주 귀속 당기순이익 1,299억원(-9.1%, 비지배지분 귀속 897억원 별도). 최대주주 최평규 회장 50.76%(특수관계인 포함 64.47%). 신규 페이지 8종(회사 1 + sources 1 + segments 3 + value_chain 1 + shareholders 1 + ratings 1) + 기존 페이지(김도환·박재석·SNT그룹·KOSPI) 보강 4건.
+
+**Ingest** STX그린로지스-사업보고서-2025.12 (source_documents/AnnualReport_MD, 제3기) Full 인제스트. wiki/companies/STX그린로지스.md 신규 생성(기존 페이지 없음 확인, KOSPI 465100, market_page /markets/KOSPI, group /groups/STX). 2023년 (주)STX 인적분할로 설립·재상장.
+- 신규: sources/STX그린로지스_2025_사업보고서.md, companies/STX그린로지스.md, segments 3종(해운업 61.38%·선박관리업 35.73%·제조업 2.89%), value_chain/STX그린로지스_밸류체인.md, products/재생알루미늄.md, ratings/STX그린로지스_신용등급.md(한국평가데이터 BB+), executives/유재호.md(대표이사, 2025.03 선임)·김연석.md(감사), companies stub 3종(STX썬에이스해운·STX오션서비스·STX에코).
+- 갱신: shareholders/에이피씨머큐리.md(STX그린로지스 46.05% 보유 추가), executives/홍라정.md(STX그린로지스 이사회 의장 겸직 추가), markets/KOSPI.md(상장기업 목록에 STX그린로지스 추가), wiki/index.md(신규 페이지 전체 반영).
+- 핵심 수치(연결, 제3기 2025년): 매출액 1,913억원(+171.3% YoY), 영업손실 125억원(전기 영업이익 72억원에서 적자전환, -274%), 당기순손실 377억원(전기 순이익 256억원에서 적자전환, -247%). 최대주주 에이피씨머큐리(유) 46.05%(3,302,618주, STX와 동일 최대주주 법인). 대표이사 2025.03.28 설재근→유재호 교체.
+- 신규 페이지 총 11종(회사 1 + sources 1 + segments 3 + value_chain 1 + products 1 + ratings 1 + executives 2 + stub 3) = 13개(stub 포함). 병행 인제스트 세션과의 공유 파일(markets/KOSPI.md, wiki/index.md) 편집은 재조회 후 병합 적용으로 처리.
+
+**Ingest** YG PLUS-사업보고서-2025.12 (source_documents/AnnualReport_MD, 제30기) Full 인제스트. wiki/companies/YG PLUS.md 신규 생성(기존 페이지 없음 확인, KOSDAQ 037270, market_page /markets/KOSDAQ, group /groups/YG엔터테인먼트그룹).
+- 신규: sources/YG PLUS 2025 사업보고서.md, companies/YG PLUS.md, segments 2종(음악사업부문 매출비중 45.16
+**Ingest** 갤럭시아에스엠-사업보고서-2025.12 (source_documents/AnnualReport_MD, 제51기) Full 인제스트. wiki/companies/갤럭시아에스엠.md 신규 생성(기존 페이지·stub 없음 확인, KOSPI 011420, market_page /markets/KOSPI, group /groups/효성). 1975년 설립, 1989년 유가증권시장 상장, 2011년 효성그룹 계열 편입. 테크노짐(이탈리아 프리미엄 피트니스) 국내 총판 유통 + 아파트 분양 마케팅 서비스 2개 부문.
+- 신규: sources/갤럭시아에스엠_2025_사업보고서.md, companies/갤럭시아에스엠.md, segments 2종(프리미엄피트니스 매출비중 65%·마케팅서비스 35%), value_chain/갤럭시아에스엠_밸류체인.md, products/테크노짐_피트니스장비.md, ratings/갤럭시아에스엠 신용등급.md(이크레더블 BBB+, 2025.04.29 상향), executives/이반석.md(대표이사)·강인식.md(기타비상무이사, 효성에프엠에스 대표이사 겸직), shareholders/트리니티에셋매니지먼트.md(최대주주 22.41%, 효성그룹 계열 비상장), companies/신동진.md(신규 stub, 특수관계인 6.30% 보유).
+- 갱신: groups/효성.md(계열사 목록에 갤럭시아에스엠 추가 + Citations 추가), markets/KOSPI.md(상장기업 목록에 갤럭시아에스엠 011420 추가), wiki/index.md(신규 페이지 전체 반영 — 병행 세션의 자동 인덱스 갱신과 병합 확인).
+- 핵심 수치(별도, 제51기 2025년): 매출액 403.4억원(+24.2% YoY), 영업이익 39.9억원(+23.6% YoY), 당기순이익 37.2억원(+28.4% YoY). 프리미엄 피트니스 260.7억원(+44.0%, 비중 65%), 마케팅 서비스 142.8억원(-0.8%, 비중 35%). 최대주주 트리니티에셋매니지먼트(주) 22.41%, 특수관계인 조현준 11.35%·㈜신동진 6.30%·조현상 0.88%(합산 40.94%). 신용등급 BBB→BBB+ 상향(이크레더블, 2025.04.29).
+- 신규 페이지 총 10종(회사 1 + sources 1 + segments 2 + value_chain 1 + products 1 + ratings 1 + executives 2 + shareholders 1) + stub 1건(신동진) = 11개. 병행 인제스트 세션과의 공유 파일(markets/KOSPI.md, wiki/index.md, groups/효성.md) 편집은 재조회 후 병합 적용으로 처리(충돌 없음, index.md는 병행 세션 자동 빌드와 일치 확인).
+
+**Ingest** YG PLUS-사업보고서-2025.12 (source_documents/AnnualReport_MD, 제30기) Full 인제스트. wiki/companies/YG PLUS.md 신규 생성(기존 페이지 없음 확인, KOSDAQ 037270, market_page /markets/KOSDAQ, group /groups/YG엔터테인먼트그룹).
+- 신규: sources/YG PLUS 2025 사업보고서.md, companies/YG PLUS.md, segments 2종(음악사업부문 매출비중 45.16%, 상ㆍIP사업부문 43.41%), value_chain/YG PLUS_밸류체인.md, executives 6종(최성준 대표이사·양민석 사내이사(이사회 의장)·최선 기타비상무이사·이문환/정원재 사외이사·안태열 감사), shareholders 3종(YG엔터테인먼트 30.11%·위버스컴퍼니 10.19%·양민석 3.49%), groups/YG엔터테인먼트그룹.md 신규 생성, companies stub 7종(YG엔터테인먼트·위버스컴퍼니·포레스트팩토리·YG인베스트먼트·하이브·케이뱅크·우리카드).
+- 갱신: markets/KOSDAQ.md(상장기업 목록에 YG PLUS 추가), groups/우리금융.md(계열사 표에 우리카드 링크 보강), wiki/index.md(build-index.ps1 재실행으로 전체 반영).
+- 핵심 수치(연결, 제30기 2025년): 매출액 2,360억원(+27.6% YoY), 영업이익 323억원(전기 영업손실 -7.3억원에서 흑자전환), 당기순이익 236억원(지배지분 224억원). 최대주주 YG엔터테인먼트 30.11%(19,170,124주), 2대주주 위버스컴퍼니 10.19%.
+- 신규 페이지 총 13종(회사 1 + sources 1 + segments 2 + value_chain 1 + executives 6 + shareholders 3 + groups 1) + stub 7건(YG엔터테인먼트·위버스컴퍼니·포레스트팩토리·YG인베스트먼트·하이브·케이뱅크·우리카드) = 20개 신규. 병행 인제스트 세션과의 공유 파일(markets/KOSDAQ.md, groups/우리금융.md, wiki/index.md, wiki/log.md) 편집은 재조회 후 반영.
+
+**Ingest** 경보제약-사업보고서-2025.12 (source_documents/AnnualReport_MD, 제39기) Full 인제스트. wiki/companies/경보제약.md 신규 생성(기존 페이지 없음 확인, KOSPI, ticker 214390은 원문 미기재로 공개정보 기반 추정치 — group_todo에 확인 필요 명시, group /groups/종근당그룹 미생성).
+- 신규: sources/경보제약_2025_사업보고서.md, companies/경보제약.md, segments 2종(원료의약품 매출비중 50.7%·완제의약품 47.9%, 기타 의료기기·동물사업 포함), value_chain/경보제약_밸류체인.md(원료 매입처 SINOBRIGHT 등 해외·매출처 종근당천안공장 등), products/세파계 API.md, ratings/경보제약 신용등급.md(신용평가 해당사항 없음), executives/김태영_경보제약.md(대표이사, 기존 executives/김태영.md는 KTis 동명이인이라 별도 파일)·황재택.md(전무·연구소장), shareholders/종근당홀딩스.md(경보제약 최대주주 43.41%로 신규 생성, company_page 상장기업).
+- 갱신: companies/종근당홀딩스.md(자회사 목록에 경보제약 링크 보강), executives/이장한.md(경보제약 회장 겸직 정보 추가), markets/KOSPI.md(상장기업 목록 가나다순 위치에 경보제약 추가 — 편집 시점 확인 결과 충돌 없이 반영됨), wiki/index.md(신규 페이지 전 항목 반영 확인, 병행 세션 build-index 실행 결과와 일치).
+- 핵심 수치(별도, 제39기 2025년): 매출액 2,641억원(+10.7% YoY), 영업이익 35억원(-66.3%), 당기순이익 2억원(-96.1%). 최대주주 (주)종근당홀딩스 43.41%(최근 5개년 변동 없음). 리스크: 2024년 횡령·배임 혐의 주권매매거래정지 이력, 2025년 판매금지 위반으로 23개 품목 허가취소(취소소송 진행 중).
+- 신규 페이지 총 8종(회사 1 + sources 1 + segments 2 + value_chain 1 + products 1 + ratings 1 + executives 2 + shareholders 1) = 9개. 병행 인제스트 세션과의 공유 파일(markets/KOSPI.md, wiki/index.md) 편집은 재조회 후 이미 반영됨을 확인 — 충돌 없음.
+**Ingest** iM금융지주-사업보고서-2025.12 (source_documents/AnnualReport_MD, 제15기) Full 인제스트. wiki/companies/iM금융지주.md 신규 생성(기존 페이지·stub 없음 확인, KOSPI 139130, market_page /markets/KOSPI, group /groups/iM금융그룹). 舊 DGB금융지주, 2025.03.26 사명 변경, 2024.05 시중은행지주회사 전환.
+- 신규: sources/iM금융지주_2025_사업보고서.md, companies/iM금융지주.md, groups/iM금융그룹.md, segments 5종(은행부문·증권부문·생명보험부문·여신전문부문·자산운용부문), value_chain/iM금융지주_밸류체인.md, financial_products/iM증권_IB_PF금융.md, ratings/iM금융지주_신용등급.md(무보증사채 AAA, 조건부자본증권 AA-), executives/황병우.md(대표이사 회장), shareholders/오케이저축은행.md(최대주주, 특수관계인 합산 9.99%), companies stub 6종(iM뱅크·iM증권·iM라이프생명보험·iM캐피탈·iM에셋자산운용·오케이저축은행).
+- 갱신: markets/KOSPI.md(상장기업 목록에 iM금융지주 139130 추가), wiki/index.md(신규 페이지 전체 반영).
+- 핵심 수치(연결, 제15기 2025년): 영업수익 8조 409.7억원, 영업이익 5,832.4억원(전년 2,634.3억원 대비 대폭 증가, 2024년 증권부문 부동산PF 손실 기저효과), 총당기순이익 4,574.9억원, 지배주주지분순이익 4,439.0억원. 최대주주 (주)오케이저축은행 외 2개사 9.99%(2025.12.31 기준).
+- 신규 페이지 총 11종(회사 1 + sources 1 + groups 1 + segments 5 + value_chain 1 + financial_products 1 + ratings 1 + executives 1 + shareholders 1) + stub 6건(iM뱅크·iM증권·iM라이프생명보험·iM캐피탈·iM에셋자산운용·오케이저축은행) = 17개. 병행 인제스트 세션과의 공유 파일(markets/KOSPI.md, wiki/index.md) 편집은 재조회 후 병합 적용으로 처리(충돌 없음).
+
+**Ingest** WISCOM-사업보고서-2025.12 (source_documents/AnnualReport_MD, 제48기) Full 인제스트. wiki/companies/WISCOM.md 신규 생성(기존 페이지 없음 확인, KOSPI 038460, market_page /markets/KOSPI, 그룹 소속 없음 — 위스텍·우일화성은 최대주주 특수관계 비상장 계열회사로 별도 Corporate Group 미구성). 1978년 설립, PVC 등 합성수지(Compound) 제조·가공·판매 전문기업.
+- 신규: sources/WISCOM_2025_사업보고서.md, companies/WISCOM.md, segments 3종(제품부문 66.9%·임가공부문 26.9%·중국부문 12.3%), value_chain/WISCOM_밸류체인.md, products/PVC_Compound.md, executives 6종(구조웅 회장·구영일 대표이사·안영준 CFO·조진한/신현호/김대우 사외이사 겸 감사위원), shareholders 2종(구영일·구조웅, 개인 최대주주 및 특수관계인), companies stub 8종(서울전선·모보·대륙전선·조양케미칼·엘엑스엠엠에이·케이알엠·위스텍·우일화성).
+- 갱신: markets/KOSPI.md(상장기업 목록에 WISCOM 038460 추가). wiki/index.md는 병행 build-index 프로세스에 의해 이미 전체 반영 확인(추가 편집 불요).
+- 핵심 수치(연결, 제48기 2025년): 매출액 1,033억원(+4.8% YoY), 영업손실 7억원(전기 영업손실 89억원 대비 적자 대폭 축소), 당기순이익 13억원(전기 순손실 239억원에서 흑자전환). 최대주주는 구영일(대표이사) 40.04%(6,136,066주) — 2025년 중 부(구조웅)로부터 지분 증여받아 급증(기초 10.73%), 최대주주 및 특수관계인 합계 52.45%. 신용등급(Credit Rating)·금융상품(Financial Product) 페이지는 회사채 등급·금융업 관련 공시가 확인되지 않아 생성하지 않음.
+- 신규 페이지 총 21개(회사 1 + sources 1 + segments 3 + value_chain 1 + products 1 + executives 6 + shareholders 2 + companies stub 8). 병행 인제스트 세션과의 공유 파일(markets/KOSPI.md, wiki/index.md, wiki/log.md) 편집은 재조회 후 병합 적용으로 처리.
+
+---
+
+**Ingest(IG15)** KOSPI·KOSDAQ 로컬 아카이브 Full 인제스트 10개사 완결(경동도시가스·경동인베스트·STX엔진·강원랜드·STX그린로지스·YG PLUS·갤럭시아에스엠·경보제약·iM금융지주·WISCOM, 위 개별 로그 항목 참조). 후속 정리 작업 일괄 수행:
+- markets/KOSPI.md·KOSDAQ.md: 10개사 상장기업 목록 전수 반영 확인(경동도시가스·경동인베스트·STX엔진·강원랜드·STX그린로지스·갤럭시아에스엠·경보제약·iM금융지주·WISCOM은 KOSPI, YG PLUS는 KOSDAQ).
+- groups: 신규 3종(경동홀딩스그룹·YG엔터테인먼트그룹·iM금융그룹) 생성 확인, 기존 그룹(효성·SNT그룹·STX·우리금융) 계열사 목록 갱신 확인.
+- shareholders 양방향 링크: 상장 주주(오케이저축은행 → iM금융지주, 종근당홀딩스 → 경보제약) company_page 및 기업 페이지 `## 주요 주주` 상호 링크 확인. 비상장 법인 주주(한국광해광업공단·트리니티에셋매니지먼트·에이피씨머큐리·유암코기업리바운스제팔차기업재무안정사모투자합자회사)는 정책대로 company_page 미부여.
+- wiki/index.md: `engine/scripts/build-index.ps1` 재실행으로 루트 및 전 디렉토리 인덱스 재생성 완료(companies·groups·shareholders·markets·sources 등 신규 페이지 전체 반영).
+- 신규 companies stub 다수(STX썬에이스해운·STX오션서비스·STX에코·연합자산관리·방위사업청·현대로템·강남·하이원추추파크·하이원파트너스·YG엔터테인먼트·위버스컴퍼니·포레스트팩토리·YG인베스트먼트·하이브·케이뱅크·우리카드·신동진·오케이저축은행 외 iM금융그룹 계열 5종·서울전선·모보·대륙전선·조양케미칼·엘엑스엠엠에이·케이알엠·위스텍·우일화성 등) 및 경동홀딩스그룹 계열 stub 포함 — 각 회사 개별 Ingest 로그 항목에 상세 기재.
+- 병행 인제스트 세션 간 공유 파일(markets/KOSPI.md, markets/KOSDAQ.md, wiki/index.md, wiki/log.md, groups/*) 충돌은 재조회 후 병합 적용으로 처리, 최종 검증 결과 누락·충돌 없음 확인.

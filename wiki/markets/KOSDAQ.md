@@ -38,6 +38,7 @@ KOSDAQ(코스닥시장)는 한국거래소(KRX)가 운영하는 시장으로, �
 - [NHN KCP](/companies/NHN_KCP) — 온라인·오프라인 결제대행(PG)·부가통신망(VAN) 서비스를 영위하는 종합 결제기업, NHN 그룹 계열 (KOSDAQ 060250)
 - [에스피지](/companies/에스피지) — 정밀 제어용 기어드 모터·정밀감속기 전문 제조기업 — 로봇·반도체장비·가전용 모터 및 감속기 (KOSDAQ 058610)
 - [주성엔지니어링](/companies/주성엔지니어링) — 반도체·태양전지·디스플레이용 ALD/CVD 증착장비 전문 제조기업 (KOSDAQ 036930)
+- [YG PLUS](/companies/YG PLUS) — 음악 유통·플랫폼 운영대행 및 아티스트·캐릭터 IP 기반 MD·라이선싱 사업을 영위하는 YG엔터테인먼트 계열사 (KOSDAQ 037270)
 
 # Citations
 
