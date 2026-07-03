@@ -16,8 +16,10 @@ DRB그룹은 산업용 고무제품(전동벨트·컨베어벨트·러버트랙)
 ## 계열사
 
 - [DRB동일](/companies/DRB동일) — 그룹 순수지주, 산업용 고무·자동차 고무부품 (KOSPI 004840)
-- 동일고무벨트(163560) — 벨트 사업 자회사, 상장사(향후 노드화)
-- 디알비오토모티브·DRB인터내셔널·DRB오토메이션·DRB헬스케어 + 해외법인(DRB Vietnam/Qingdao/Slovakia 등)
+- [동일고무벨트](/companies/동일고무벨트) — 전동벨트·컨베어벨트·러버트랙 등 산업용 고무제품 핵심 자회사, 상장사 (KOSPI 163560)
+- [DRB오토모티브](/companies/DRB오토모티브) — 자동차 고무부품(비히클실링)
+- [DRB인터내셔널](/companies/DRB인터내셔널), [DRB오토메이션](/companies/DRB오토메이션), [DRB헬스케어](/companies/DRB헬스케어), [DRB유니온벨티노](/companies/DRB유니온벨티노), [세일기업](/companies/세일기업) — 국내 계열사
+- 해외법인: [DRB_Vietnam](/companies/DRB_Vietnam), [DRB_Qingdao](/companies/DRB_Qingdao), [DRB_Shanghai](/companies/DRB_Shanghai), [DRB_America](/companies/DRB_America), [DRB_Japan](/companies/DRB_Japan), DRB Slovakia 등
 
 ## 지배구조
 
