@@ -1,5 +1,90 @@
 ﻿# 위키 작업 이력
 
+**Ingest** 삼양바이오팜-사업보고서-2025.12 (source_documents/AnnualReport_MD, 제1기 2025.11~12) Full 인제스트.
+wiki/companies/삼양바이오팜.md 신규 생성(KOSPI 007450, market_page /markets/KOSPI, is_stub: false).
+삼양홀딩스 의약바이오 사업부문 인적분할로 2025.11.1 설립, 2025.11.24 KOSPI 재상장.
+의료기기(봉합사·지혈제, 매출 179억·영업이익 61억)·의약품(항암제, 매출 106억·영업이익 10억)·신약개발(SENS 플랫폼) 3개 부문.
+제1기(2개월) 매출 286억원, 영업이익 27억원, 당기순이익 22억원, 자산총계 3,393억원.
+최대주주 김원(5.80%, 특수관계인 합산 46.39%), 5% 이상 주주 양영재단(5.98%)·김정(5.21%). 대표이사 김경진.
+신규: sources/삼양바이오팜 2025 사업보고서.md, segments/삼양바이오팜_의료기기부문.md·삼양바이오팜_의약품부문.md·삼양바이오팜_신약개발부문.md,
+value_chain/삼양바이오팜_밸류체인.md, shareholders/김원.md·양영재단.md·김정.md,
+executives/김경진_삼양바이오팜.md·이현수_삼양바이오팜.md·박경수_삼양바이오팜.md·강동우_삼양바이오팜.md·정성훈_삼양바이오팜.md,
+ratings/삼양바이오팜 신용등급.md, products/써지가드.md·제넥솔주.md.
+기존 페이지 갱신: markets/KOSPI.md·wiki/index.md 반영. 그룹 페이지(삼양그룹) 미생성 — 삼양홀딩스와 동일하게 group_todo로 보류.
+
+**Ingest** 서울보증보험-사업보고서-2025.12 (source_documents/AnnualReport_MD, 제59기) Full 인제스트.
+wiki/companies/서울보증보험.md 신규 생성(KOSPI 030210, market_page /markets/KOSPI, is_stub: false).
+보험영업부문(신원·이행·선급금이행·신용보증 74개 상품)·투자영업부문 2개 부문 체제.
+2025년 연결 보험영업수익 2조 3,132억원, 투자영업수익 4,455억원, 영업이익 3,757억원, 당기순이익 2,684억원.
+K-ICS 지급여력비율 397.4%. 2025.3.14 KOSPI 신규상장(전량 구주매출), 최대주주는 예금보험공사(83.85%, 상장전 93.85%).
+대표이사 이명순(2024.01~).
+신규: sources/서울보증보험_2025_사업보고서.md, segments/서울보증보험_보험영업.md·서울보증보험_투자영업.md,
+value_chain/서울보증보험_밸류체인.md, shareholders/예금보험공사.md,
+executives/이명순.md·심성보.md·김호중.md, ratings/서울보증보험 신용등급.md,
+financial_products/서울보증보험_이행보증보험.md·서울보증보험_신용보증보험.md·서울보증보험_신원보증보험.md,
+companies/에스지아이신용정보.md·SEOUL GUARANTEE INSURANCE MANAGEMENT(MENA) LTD.md(자회사 stub).
+기존 페이지 갱신: markets/KOSPI.md·wiki/index.md 반영.
+
+
+**Ingest** 삼양패키징-사업보고서-2025.12 (source_documents/AnnualReport_MD, 제12기) Full 인제스트.
+wiki/companies/삼양패키징.md 신규 생성(ticker: 272550, market: KOSPI, market_page /markets/KOSPI, group: /companies/삼양사, is_stub: false).
+사업부문 3개: PET용기부문(매출비중 99.5%, 시장점유율 28%)·아셉틱음료OEM부문·Recycling부문(종속회사 삼양에코테크, 시장점유율 8%).
+2025년 연결 매출 4,202억원(전년比 -6.2%), 영업이익 246억원(전년 338억, -27%), 당기순이익 177억원(전년 204억).
+최대주주 [삼양사](/shareholders/삼양사_삼양패키징) 72.72%(지배기업). 대표이사 [김재홍](/executives/김재홍_삼양패키징),
+사내이사 [김정](/executives/김정_삼양패키징), 사외이사 [지창훈](/executives/지창훈_삼양패키징)(에스엠엔터테인먼트 사외이사 겸직 이력).
+신용등급 A-(안정적), 한국기업평가·나이스신용평가(2023~2025년 연속). 2025년 자기주식 720,265주 전량 소각.
+신규 페이지: sources/삼양패키징_2025_사업보고서.md, companies/삼양패키징.md, companies/삼양에코테크.md(stub),
+companies/에스엠엔터테인먼트.md(stub), segments/삼양패키징_PET용기부문.md·아셉틱음료OEM부문.md·Recycling부문.md,
+value_chain/삼양패키징_밸류체인.md, products/PET용기.md·재활용PET플레이크.md, executives/김재홍_삼양패키징.md·김정_삼양패키징.md·지창훈_삼양패키징.md,
+shareholders/삼양사_삼양패키징.md, ratings/삼양패키징_신용등급.md. companies/삼양사.md 갱신(삼양패키징 최대주주 관계 추가).
+markets/KOSPI.md 상장기업 목록에 삼양패키징 추가.
+
+**Ingest** 삼성에스디에스-사업보고서-2025.12 (source_documents/AnnualReport_MD, 제41기) Full 인제스트.
+wiki/companies/삼성SDS.md stub → 정식 페이지 승급(ticker 018260, market: KOSPI, market_page /markets/KOSPI,
+group /groups/삼성, is_stub: false). 사업부문 2개: IT서비스(클라우드·SI·ITO, 매출 6조 5,435억·비중 47.0%)·
+물류(Cello/Cello Square, 매출 7조 3,864억·비중 53.0%). 2025년 연결 매출 13조 9,299억원(전년比 +0.7%),
+영업이익 9,571억원(+5.0%), 당기순이익(지배지분) 7,595억원. 최대주주 [삼성전자](/shareholders/삼성전자)
+22.58%, 특수관계인 [이재용](/shareholders/이재용) 9.20%·[홍라희](/shareholders/홍라희) 0.00%.
+대표이사 [이준희](/executives/이준희_삼성SDS)(2025.3 신규 선임), 사내이사 [안정태](/executives/안정태)·
+[이호준](/executives/이호준), 사외이사 [신현한](/executives/신현한)·[문무일](/executives/문무일)·
+[이재진](/executives/이재진)·[이인실](/executives/이인실). 신용등급 A1(기업어음, 2024년부터 미평가).
+신규 페이지: sources/삼성SDS_2025_사업보고서.md, segments/삼성SDS_IT서비스.md·삼성SDS_물류.md,
+value_chain/삼성SDS_밸류체인.md, ratings/삼성SDS_신용등급.md, executives/이준희_삼성SDS.md·안정태.md·
+이호준.md·신현한.md·문무일.md·이재진.md·이인실.md, shareholders/홍라희.md, products/삼성클라우드플랫폼.md·
+Cello_Square.md·Brity_Works.md, companies/엠로.md·OpenAI.md·레드햇.md·IBM.md·서비스나우.md(신규 stub).
+기존 shareholders/삼성전자.md·이재용.md에 삼성SDS 보유 종목 추가. markets/KOSPI.md 상장기업 목록에
+삼성SDS 추가. groups/삼성.md는 이미 삼성SDS를 계열사로 포함하고 있어 별도 수정 없음.
+
+**Ingest** 상신브레이크-사업보고서-2025.12 (source_documents/AnnualReport_MD, 제51기) Full 인제스트.
+wiki/companies/상신브레이크.md 신규 생성(market: KOSPI 041650, market_page /markets/KOSPI, is_stub: false).
+사업부문 2개: 제동부문(PAD·LINING·SHOE/BRAKE/AXLE ASSEMBLY, 매출 6,975.5억)·설비부문(제동설비 제작, 52.7억).
+2025년 연결 매출 5,422.6억원(전년比 -6.3%), 영업손실 13.6억원(전년 영업이익 206.5억, 적자전환),
+당기순손실 120.2억원. 최대주주 [정성한](/shareholders/정성한) 13.63%(특수관계인 합산 45.26%),
+2대주주 [듀오정보](/shareholders/듀오정보)(계열사) 11.83%. 대표이사 [박세종](/executives/박세종),
+부회장 [정성한](/executives/정성한)(최대주주 겸임), 회장 [정도철](/executives/정도철). 연결대상 종속회사
+12개(미국·멕시코·중국·인도·브라질·폴란드 등 해외 다수), 계열회사 총 16개(상장 1·비상장 15).
+외부 신용평가등급 공시 확인 안 됨(ratings 페이지 미생성).
+신규 페이지: sources/상신브레이크_2025_사업보고서.md, companies/상신브레이크.md,
+segments/상신브레이크_제동부문.md, segments/상신브레이크_설비부문.md,
+value_chain/상신브레이크_밸류체인.md, executives/박세종.md·정성한.md·정도철.md,
+shareholders/정성한.md·듀오정보.md, products/브레이크_패드.md,
+companies/HL만도.md(고객사 stub)·상신이엔지.md(종속회사 stub).
+기존 페이지 갱신: industries/자동차부품.md(플레이어 목록 추가), markets/KOSPI.md(상장기업 목록 추가),
+wiki/index.md(build-index.ps1 재생성).
+※ 그룹 페이지(Corporate Group)는 별도 지주회사 구조가 아니므로 미생성(오너 일가 직접 지배).
+
+**Ingest** 샘표식품-사업보고서-2025.12 (source_documents/AnnualReport_MD, 제10기) Full 인제스트.
+wiki/companies/샘표식품.md stub → 정식 페이지 승격(market: KOSPI, market_page /markets/KOSPI, is_stub: false).
+단일 식품제조 사업부문(장류 51.3%, 장류 외 48.7%). 2025년 연결 매출 4,089.3억원(전년比 +1.0%),
+영업이익 244.8억원(전년比 +279%, 전년 64.6억), 당기순이익 199.5억원. 최대주주는 [샘표(주)](/companies/샘표) 49.38%
+(샘표의 최대주주는 박진선 34.05%). 대표이사 [박진선](/executives/박진선)(샘표 대표이사 겸임). 신용등급 A+(한국평가데이터,
+2023~2025 3개년 연속 유지). 연결대상 종속회사 SFS(미국)·선부(상해)상무유한공사(중국) 비상장 2개사.
+신규 페이지: sources/샘표식품_2025_사업보고서.md, ratings/샘표식품 신용등급.md.
+기존 페이지 갱신: companies/샘표식품.md(stub→정식), groups/샘표그룹.md, segments/샘표_식품사업.md,
+value_chain/샘표_밸류체인.md, executives/박진선.md, industries/식품.md(플레이어 목록 추가),
+markets/KOSPI.md·wiki/index.md 반영.
+※ 별도 종목코드는 사업보고서 원문에 명시 기재 없어 미확인 처리.
+
 **Ingest** 산일전기-사업보고서-2025.12 (source_documents/AnnualReport_MD, 제32기) Full 인제스트.
 wiki/companies/산일전기.md 신규 생성(KOSPI 062040, market_page /markets/KOSPI, is_stub: false).
 전기사업(변압기·리액터·소프트스타터)·신재생에너지사업(자회사 산일파트너스) 2개 부문 체제.
@@ -1850,3 +1935,17 @@ wiki/index.md 반영(companies는 기존 stub 항목 유지, segments/value_chai
 
 **Ingest** 삼성FN리츠-사업보고서-2026.01.md (제13기, 2025.11~2026.01, source_documents/AnnualReport_MD) — Full 인제스트 신규 생성. wiki/companies/삼성FN리츠.md 신규 생성(market KOSPI, market_page /markets/KOSPI, group /groups/삼성, is_stub: false, 종목코드 사업보고서 원문 미기재로 미확인). 삼성그룹 계열 위탁관리 부동산투자회사(리츠) — 에프엔타워 대치·순화·판교 3개 오피스 자산 보유(공실률 0%). 사업연도 3개월 단위. 제13기(2025.11~2026.01) 영업수익 121억 9,631만원, 영업이익 85억 7,310만원, 당기순이익 43억 1,602만원(EPS 47원), 자산총계 8,662억원, 자본총계 4,046억원. 최대주주 삼성생명보험㈜ 19.51%(2대주주 삼성화재해상보험 18.73%), 5% 이상 주주 새마을금고중앙회 8.35%·교보생명보험 6.47%·한화생명보험 5.93%. 대표이사 이명규(2024.10 선임), 기타비상무이사 나기원·임승철·감사 정승욱(2025.07 중임, 부동산투자회사법상 사외이사·감사위원회 미설치). 신용등급 A+/안정적(한국신용평가·한국기업평가). 신규 페이지 9개: sources/삼성FN리츠_2026.01_사업보고서, segments/삼성FN리츠_부동산임대, products/에프엔타워_오피스임대, value_chain/삼성FN리츠_밸류체인, executives 4종(이명규_삼성FN리츠·나기원·임승철·정승욱), ratings/삼성FN리츠_신용등급. 신규 stub 3건: companies/한화시스템(에프엔타워 판교 100% 임차인)·소크라에이아이(에프엔타워 대치 입주사)·삼성에스알에이자산운용(자산관리회사), 및 companies/에스원(에프엔타워 순화 100% 임차인, KOSPI stub 신규). 기존 페이지 갱신: shareholders/삼성생명보험·새마을금고중앙회·교보생명보험·한화생명보험.md에 삼성FN리츠 보유종목 추가, companies/삼성화재.md에 삼성FN리츠 지분(18.73%) 언급 추가, groups/삼성.md 계열사 목록에 삼성FN리츠 추가(병렬 삼성 계열사 ingest와의 동시편집은 재조회 후 재적용으로 해소), markets/KOSPI.md·wiki/index.md 반영.
 **Ingest(IG24)** KOSPI 로컬 아카이브 Full 인제스트 배치 완료(12개사, 병렬 세션 처리) — 부국철강·부산산업·비상교육·비에이치·백산·바이오노트·사조씨푸드·산일전기·삼성E&A·삼성바이오로직스·삼성FN리츠·미래에셋글로벌리츠. 삼성그룹 계열 4개사(삼성E&A·삼성바이오로직스·삼성FN리츠, 및 인적분할 신설 삼성에피스홀딩스)를 groups/삼성.md 계열사 목록(member_companies)에 중복 없이 통합. shareholders(삼성물산·삼성전자·국민연금공단·BlackRock·삼성생명보험·새마을금고중앙회·교보생명보험·한화생명보험 등) 보유종목표에 양방향 링크 반영 확인. markets/KOSPI.md 상장기업 목록에 12개사 링크 반영. wiki/index.md 전체 재생성(engine/scripts/build-index.ps1) 및 중복 라인 없음 확인(sort | uniq -d 결과 0건). 별도로 log.md 내 기존(비-IG24) 중복 라인 1건(YG PLUS 절단 잔여물, line 1523 부근) 정리.
+
+**Ingest** 삼성증권-사업보고서-2025.12.md (제44기, source_documents/AnnualReport_MD) — Full 인제스트. wiki/companies/삼성증권.md 기존 stub(is_stub: true, INVENI 타법인출자 언급만 존재)을 Full 페이지로 승급(ticker 016360, KOSPI, market_page /markets/KOSPI, group /groups/삼성, is_stub: false). 삼성그룹 계열 종합증권사, 위탁매매·기업금융(IB)·자기매매·Sales&Trading·선물중개업·해외영업 6개 부문. 2025년 연결 영업이익 1조 3,757억원(전년比 +14.1%), 당기순이익(지배주주) 1조 72억원(+12.0%), 자기자본 8조 681억원, 연결 자산총계 79.7조원, ROE 13.1%. 최대주주 삼성생명보험 29.39%(특수관계인 포함 29.62%), 5% 이상 주주 국민연금공단 13.31%. 대표이사 박종문(사장), WM부문장 박경희(부사장). 신용등급 무보증사채 AA+(한국기업평가·NICE신용평가·한국신용평가), 단기 A1, Moody's Baa2/P-2, Fitch BBB+/F2. 신규 페이지 12개: sources/삼성증권_2025_사업보고서, segments 3종(위탁매매·기업금융·자산관리WM), value_chain/삼성증권_밸류체인, financial_products/삼성증권_랩어카운트, ratings/삼성증권_신용등급, executives 2종(박종문·박경희), companies stub 1건(삼성선물, 100% 자회사), shareholders/국민연금공단.md 보유종목표에 삼성증권 추가. 공유 파일 갱신: shareholders/삼성생명보험.md에 삼성증권 최대주주 관계 양방향 반영(다른 세션이 이미 생성한 Full 삼성생명보험 companies 페이지와 충돌 없이 병합), wiki/index.md 반영(companies 항목을 stub 설명에서 Full 설명으로 교체, 신규 sources/segments/value_chain/financial_products/ratings/companies(삼성선물)/shareholders 라인 추가). groups/삼성.md는 병렬 삼성 계열 ingest와의 동시편집 충돌을 피하기 위해 재조회 후 계열사 목록에 삼성증권 추가를 시도.
+
+**Ingest** 삼성출판사-사업보고서-2025.12.md (제24기, source_documents/AnnualReport_MD) — 신규 Full 인제스트, wiki/companies/삼성출판사.md 신규 생성(ticker 068290, KOSPI, market_page /markets/KOSPI, is_stub: false). 유아동·교육 출판(마이리틀타이거, 삼성영어교재)과 부동산 임대업 영위. 2025년 매출 402.9억원(전기 405.7억원, 소폭 감소; 출판 374.7억원·임대 28.2억원), 영업이익 △7.95억원(전기 △1.81억원, 영업손실 확대), 당기순이익 40.5억원(전기 108.5억원 대비 -62.7%, 관계기업 아트박스 지분법이익 축소 영향). 자산총계 1,947.8억원, 부채총계 307.4억원, 자본총계 1,640.4억원. 주당 현금배당금 200원(배당성향 49.4%) 유지. 최대주주 겸 대표이사 김진용 42.44%, 특수관계인 합계 61.76%(자녀 김민석 6.16%·김우석 5.19%, 처 김미재 3.71%, 숙부 김종규 3.28%, 조카 김진욱 0.98%). 신용등급 A0(NICE디앤비, 2025.12). 신규 페이지 13개: sources/삼성출판사_2025_사업보고서, segments 2종(삼성출판사_출판·삼성출판사_임대), products 2종(마이리틀타이거·삼성영어교재), value_chain/삼성출판사_밸류체인, shareholders/삼성출판사_최대주주및특수관계인, executives 3종(김진용_삼성출판사·김우석_삼성출판사·김민권_삼성출판사), ratings/삼성출판사_신용등급, companies stub 2건(아트박스 — 관계기업 지분율 30.16%, 한솔제지 — 주요 용지 매입처). markets/KOSPI.md·wiki/index.md 갱신(공유 파일, 삼성그룹 계열 병행 인제스트 세션(삼성에스디에스·삼성화재해상보험·삼성증권)과의 동시편집은 재조회 후 재시도로 해소; groups/삼성.md은 삼성출판사가 삼성그룹 공정위 계열사가 아니므로(최대주주가 개인 김진용, 그룹 지배구조와 무관) 변경하지 않음).
+
+**Ingest** 새론오토모티브-사업보고서-2025.12.md (제27기, source_documents/AnnualReport_MD) — Full 인제스트 신규 생성. wiki/companies/새론오토모티브.md 신규 생성(ticker 070950, KOSPI, market_page /markets/KOSPI, is_stub: false). 자동차 브레이크 마찰재(Brake Pad·Lining·Rotor Facing) 전문 제조사, 1999년 설립, 2005년 상장. 2025년 연결 매출 1,387억원(전년比 -2.3%), 영업손실 7.4억원(전년 -57.8억원에서 87.2% 개선), 당기순손실 5.2억원(적자 전환). 국내 브레이크 마찰재 시장점유율 14%(3위, 1위 상신브레이크 51%·2위 KB오토시스 24%). 최대주주 닛신보 홀딩스(일본, Nisshinbo Holdings Inc.) 65.0%(변동 없음), 5% 이상 주주 김형인외 특수관계인 16.49%·에이치엘만도 5.42%. 대표이사 쿠마카와 테츠야(2025.12.30 공동대표이사 1인 유고로 단독 대표 체제 전환, 2026.03 정석태 신규 사내이사 선임). 외부 신용평가등급 공시 확인 안 됨(ratings 페이지 미생성). 신규 페이지 15개: sources/새론오토모티브_2025_사업보고서, segments/새론오토모티브_마찰재, value_chain/새론오토모티브_밸류체인, executives 3종(쿠마카와테츠야·치카자와사토시·이데요시오), shareholders 2종(닛신보홀딩스·김형인), products 3종(Brake_Pad·Brake_Lining·Rotor_Facing), companies stub 5건(닛신보홀딩스·이래오토모티브·Hitachi_Astemo·Brembo·KB오토시스). 공유 파일 갱신: markets/KOSPI.md·wiki/index.md에 신규 항목 반영(공유 파일 동시편집은 재조회 후 재시도로 해소). 기존 companies/에이치엘만도·상신브레이크·한온시스템·ZF.md는 이미 존재하여 재생성 없이 cross-link만 활용.
+
+## 2026-07-03
+
+**Ingest** 삼원강재-사업보고서-2025.12.md (제34기, source_documents/AnnualReport_MD) — Full 인제스트 신규 생성. wiki/companies/삼원강재.md 신규 생성(ticker 019690, KOSPI, market_page /markets/KOSPI, group /groups/현대백화점, is_stub: false; 기존 index.md상 미생성 stub 항목을 실제 Full 페이지로 승급). 자동차용 스프링 소재(평강·봉강·소재가공품) 전문 제조사, 1992년 설립(구 대경특수강), 2011년 KOSPI 상장, 2023년 3월 상호출자제한기업집단 현대백화점그룹 편입. 2025년(별도) 매출 3,592.87억원(전년比 +4.58%), 영업이익 98.79억원(-15.97%), 당기순이익 107.02억원(-19.19%, 통상임금 산정기준 변경에 따른 노무비 증가 영향). 최대주주 [대원강업](/companies/대원강업) 54.64%(대원강업의 최대주주는 현대지에프홀딩스 32.77%). 대표이사 장범석·박민희(박민희는 대원강업·대원정밀공업 대표이사 겸직), 사내이사 박대수(대원정밀공업 겸직). 열간압연 스프링 소재 시장점유율 100%, 소재가공품·판스프링은 대원강업과 합산 각 약 88%·78%(잔여는 와이에이치오토). 신규 페이지 9개: sources/삼원강재_2025_사업보고서, segments 2종(삼원강재_스프링·삼원강재_소재가공), value_chain/삼원강재_밸류체인, executives 2종(장범석·박대수), companies stub 2건(와이에이치오토 — 경쟁사, 대원정밀공업 — 겸직 계열사). 기존 페이지 갱신: executives/박민희.md에 삼원강재 대표이사 겸직 반영, companies/대원강업.md·value_chain/대원강업_밸류체인.md에 삼원강재를 최대주주 겸 공급사로 양방향 링크 추가, products/서스펜션_스프링.md에 삼원강재의 정량 시장점유율 데이터 보강, groups/현대백화점.md 계열사 목록에 삼원강재 추가. 신용평가등급 공시 확인 안 됨(ratings 페이지 미생성). markets/KOSPI.md·wiki/index.md 반영(공유 파일 동시편집 충돌 없이 완료, 병렬 삼성그룹 계열(삼성에스디에스·삼성화재해상보험·삼성증권) ingest와 겹치는 파일 없음).
+
+**Ingest** 서울도시가스-사업보고서-2025.12.md (제43기, source_documents/AnnualReport_MD) — Full 인제스트 신규 생성. wiki/companies/서울도시가스.md 신규 생성(ticker 017390, KOSPI, market_page /markets/KOSPI, group /groups/대성그룹(대구), is_stub: false). 서울 11개구(강서·관악·동작·마포·영등포·은평 등, 232.7㎢)와 경기 고양·김포·파주(1,104.5㎢)에 도시가스를 공급, 해외자원개발(리비아 NC174 광구 지분 0.2%)과 부동산 임대(종속회사 지알엠㈜)를 겸영. 2025년 연결 매출 1조 8,280억원(전년比 +7.3%), 영업이익 174억원(전년 -103억원에서 흑자전환), 당기순이익 310억원(-9.7%). 별도 기준 영업이익 116억원, 순이익 240억원. 연결 EPS 7,866원, 주당 현금배당금 2,750원(배당성향 34.9%). 최대주주 보운㈜ 26.27%(계열 지주사, 대표 김영민), 2대주주 대성홀딩스㈜ 13.20%. 기업신용등급 A+(NICE평가정보, 2025.04). 대표이사 진용민·황주석 공동대표(2025.03 신규 선임), 사외이사 이석문·조승삼·박정수(박정수는 2025.08 중도퇴임). 신규 페이지 16개: sources/서울도시가스_2025_사업보고서, segments 3종(도시가스공급·해외자원개발·부동산임대), value_chain/서울도시가스_밸류체인, ratings/서울도시가스 신용등급, executives 6종(진용민·황주석·임규성·조승삼·박정수·이석문(서울도시가스) — 이석문은 기존 대한조선 동명이인과 구분하여 파일명 분리), shareholders 2종(보운·대성홀딩스), companies stub 2건(보운·지알엠). 기존 wiki/products/도시가스.md(삼천리 인제스트 시 생성)에 서울도시가스를 경쟁사로 cross-link 추가. 공유 파일 갱신: groups/대성그룹(대구).md — 서울도시가스·보운·지알엠을 계열사 목록(member_companies)에 추가, 알앤알을 통한 보운·대성홀딩스 지분 연결 관계 기술 보강(공유 파일이므로 재조회 후 편집, 충돌 없음). markets/KOSPI.md·wiki/index.md 반영(신규 항목 다수가 이미 자동 색인에 반영되어 있음을 확인, 중복 없음).
+
+**Ingest(IG25)** KOSPI 로컬 아카이브 Full 인제스트 배치 완료(12개사) — 삼성SDS·삼성증권·삼양사·삼성출판사·삼원강재·새론오토모티브·서울도시가스·서울보증보험 등. 공유 파일 후속 정리: groups/삼성.md 계열사 목록(member_companies)에 삼성증권·삼성선물 추가 통합(중복 없음 확인), markets/KOSPI.md 상장기업 목록에 12개사 링크 반영(삼성SDS·삼성증권·삼성출판사·삼원강재·새론오토모티브·서울도시가스·서울보증보험·샘표·샘표식품·상신브레이크·삼양바이오팜·삼양패키징), shareholders(국민연금공단·삼성생명보험·삼성전자·이재용 등) 보유종목표에 양방향 링크 반영 확인. wiki/index.md 전체 재생성(engine/scripts/build-index.ps1) 및 중복 라인 없음 확인(sort | uniq -d 결과 0건).
