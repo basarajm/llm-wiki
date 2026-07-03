@@ -15,11 +15,12 @@ TARGET(타깃)은 미국의 대형 종합 유통(디스카운트 리테일) 기�
 다양한 상품을 판매한다. [TP](/companies/TP)의 의류부문 주요 바이어 중 하나로,
 TP가 OEM·ODM 방식으로 의류를 생산·공급한다.
 
-또한 [신원](/companies/신원) 수출부문의 KNIT·SWEATER OEM/ODM 주요 바이어이기도 하다.
+또한 [신원](/companies/신원) 수출부문의 KNIT·SWEATER OEM/ODM 주요 바이어이며, [한세실업](/companies/한세실업) OEM/ODM부문(의류)의 주요 바이어이기도 하다(2025년 매출 비중 87.7% 품목군에 포함).
 
-→ 고객 관계: [TP 밸류체인](/value_chain/TP_밸류체인), [신원 밸류체인](/value_chain/신원_밸류체인)
+→ 고객 관계: [TP 밸류체인](/value_chain/TP_밸류체인), [신원 밸류체인](/value_chain/신원_밸류체인), [한세실업 밸류체인](/value_chain/한세실업_밸류체인)
 
 # Citations
 
 - [TP 2025 사업보고서](/sources/TP_2025_사업보고서)
 - [신원 2025 사업보고서](/sources/신원_2025_사업보고서)
+- [한세실업 2025 사업보고서](/sources/한세실업_2025_사업보고서)
