@@ -3,7 +3,7 @@ type: Corporate Group
 title: SK그룹
 description: 최태원 회장을 동일인으로 하는 에너지·반도체·통신 중심 기업집단 — SK(주) 지주 체제
 controlling_person: 최태원
-member_companies: [/companies/SK, /companies/SK스퀘어, /companies/SK하이닉스, /companies/SK실트론, /companies/SK이노베이션, /companies/SK텔레콤, /companies/SK네트웍스, /companies/SKC, /companies/ISC]
+member_companies: [/companies/SK, /companies/SK스퀘어, /companies/SK하이닉스, /companies/SK실트론, /companies/SK이노베이션, /companies/SK텔레콤, /companies/SK네트웍스, /companies/SKC, /companies/ISC, /companies/SK리츠]
 tags: [기업집단, SK]
 timestamp: 2026-06-27T00:00:00Z
 ---
@@ -27,6 +27,7 @@ SK그룹은 동일인 **최태원** 회장이 이끄는 에너지·반도체·�
 | [SK네트웍스](/companies/SK네트웍스) | 정보통신유통·렌탈·트레이딩·AI | 비핵심 |
 | [SKC](/companies/SKC) | 화학·반도체소재·이차전지소재 (KOSPI 011790) | 비핵심 |
 | [ISC](/companies/ISC) | 반도체 테스트소켓, SKC 자회사(지분 45.03%→48.5%) (KOSDAQ 095340) | 비핵심 |
+| [SK리츠](/companies/SK리츠) | 부동산투자회사(REIT), SK그룹 우량 오피스 자산 운용 (KOSPI 395400) | 비핵심 |
 
 ## 지배구조
 

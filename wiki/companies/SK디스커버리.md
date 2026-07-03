@@ -1,7 +1,7 @@
 ---
 type: Company
 title: SK디스커버리
-description: SK디스커버리그룹(최창원 부회장 계열)의 순수지주회사 — SK케미칼·SK가스·SK바이오사이언스·SK디앤디 등을 지배하며 배당금수익이 주수입원 (KOSPI 006120, 2025 연결매출 10.2조 원)
+description: SK디스커버리그룹(최창원 부회장 계열)의 순수지주회사 — SK케미칼·SK가스·SK바이오사이언스를 지배하며 배당금수익이 주수입원. 2025년 SK디앤디 지분 매각(최대주주 지위 상실) (KOSPI 006120, 2025 연결매출 10.2조 원)
 ticker: "006120"
 market: KOSPI
 market_page: /markets/KOSPI
