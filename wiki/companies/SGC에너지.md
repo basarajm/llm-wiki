@@ -9,7 +9,7 @@ industry: 집단에너지
 group: /groups/SGC
 is_stub: false
 tags: [기업, 집단에너지, 건설, 유리, KOSPI]
-timestamp: 2026-06-28T00:00:00Z
+timestamp: 2026-07-03T00:00:00Z
 source_count: 1
 ---
 

@@ -244,6 +244,7 @@
 * [SH에너지화학](/companies/SH에너지화학) - EPS레진(발포폴리스티렌 원료)을 주력으로 하는 합성수지 제조 화학기업 (KOSPI 002360)
 * [SIMPAC](/companies/SIMPAC) - 프레스(금속성형기계)·합금철·Roll·트레이딩·산업기계를 영위하는 SIMPAC그룹의 사업지주 겸 핵심 제조회사
 * [SIMPAC인더스트리](/companies/SIMPAC인더스트리) - SIMPAC의 합금철·산업기계·주물 사업 종속회사 (구 봉신)
+* [S-International Ltd.](/companies/S-International Ltd.) - S-Oil의 100% 자회사로 원유거래 중개 및 원유수입 자금조달 역할을 담당하는 특수목적 법인
 * [SK SILTRON](/companies/SK SILTRON) - 실리콘 웨이퍼 제조업체, 3S의 웨이퍼캐리어(FOSB·O/C) 주요 고객사
 * [SK 어드밴스드](/companies/SK_어드밴스드) - SK가스 계열 프로필렌(PDH) 생산 기업 — 롯데정밀화학에 프로필렌 공급
 * [SKC](/companies/SKC) - SK그룹 계열의 소재 전문기업 — 2차전지 소재(전지박), 화학(PO/PG), 반도체 소재/부품 사업을 영위하며 ISC의 최대주주
@@ -259,6 +260,8 @@
 * [SK텔레콤](/companies/SK텔레콤) - SK그룹 계열 국내 1위 이동통신사업자 (MNO)
 * [SK하이닉스](/companies/SK하이닉스) - DRAM·NAND Flash 중심의 글로벌 메모리 반도체 기업. AI 메모리(HBM) 시장 선도.
 * [SNT다이내믹스](/companies/SNT다이내믹스) - 방산용 변속기(자주포·전차)·화력장비와 차량용 변속기·차축, 공작기계를 제조하는 SNT그룹 계열 기업 (구 통일중공업·S&T중공업·SNT중공업, KOSPI 003570)
+* [S-Oil Europe B.V.](/companies/S-Oil Europe B.V.) - S-Oil의 100% 자회사로 암스테르담 지사를 법인화한 유럽 거점 회사 (2025년 신설)
+* [S-Oil Singapore Pte. Ltd.](/companies/S-Oil Singapore Pte. Ltd.) - S-Oil의 100% 자회사로 윤활기유 매매 및 마케팅 지원 사업을 담당하는 싱가포르 법인
 * [S-Oil](/companies/S-Oil) - 사우디 Aramco 계열의 한국 4대 정유사 — 정유·윤활·석유화학 통합 사업 영위
 * [Stellantis](/companies/Stellantis) - 다국적 완성차 그룹, 삼성SDI와 미국 StarPlus Energy 배터리 합작
 * [SUN&L](/companies/SUN&L) - 합판·MDF 등 목재 유통, 인테리어(도어·가구), 생활용품(플라스틱 용기)을 영위하는 종합소재 기업 (구 선창산업, KOSPI 002820)

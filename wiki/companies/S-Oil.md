@@ -8,7 +8,7 @@ market_page: /markets/KOSPI
 industry: 정유
 is_stub: false
 tags: [기업, 정유, KOSPI]
-timestamp: 2026-07-01T00:00:00Z
+timestamp: 2026-07-03T00:00:00Z
 source_count: 1
 ---
 
@@ -67,6 +67,18 @@ source_count: 1
 
 - 국내: 한국기업평가 AA+(안정적), NICE·한국신용평가 AA(긍정적) (2025년말)
 - 국제: 무디스 Baa2(부정적), S&P BBB(안정적) (2025년말)
+
+## 종속회사 및 관계회사
+
+S-Oil은 3개의 연결대상 종속회사(100% 자회사)를 보유하고 있다.
+
+| 회사명 | 설립/편입 | 사업 내용 | 지분율 |
+|---|---|---|---|
+| [S-International Ltd.](/companies/S-International%20Ltd.) | 2017.03.17 | 원유거래 중개 및 원유수입 자금조달 | 100% |
+| [S-Oil Singapore Pte. Ltd.](/companies/S-Oil%20Singapore%20Pte.%20Ltd.) | 2019.12.02 | 윤활기유 매매 및 마케팅 지원 | 100% |
+| [S-Oil Europe B.V.](/companies/S-Oil%20Europe%20B.V.) | 2025.01.02 | 윤활기유 매매 및 마케팅 지원 (유럽 거점) | 100% |
+
+> 참고: S-Oil Singapore는 2025년말 자산규모 감소로 주요종속회사 기준에서 제외됨.
 
 ## 리스크
 

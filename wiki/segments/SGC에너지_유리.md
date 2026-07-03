@@ -5,7 +5,7 @@ description: SGC에너지의 유리 사업 부문 — SGC솔루션 유리병(B2B
 company: /companies/SGC에너지
 revenue_share: 14
 tags: [사업부문, SGC에너지, 유리]
-timestamp: 2026-06-28T00:00:00Z
+timestamp: 2026-07-03T00:00:00Z
 ---
 
 ## 사업 내용

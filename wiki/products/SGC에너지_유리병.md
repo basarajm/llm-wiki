@@ -5,7 +5,7 @@ description: SGC솔루션(SGC에너지 종속회사)이 생산하는 포장용 �
 category: 포장용 유리(제병)
 market_share: "미확인 (연결 유리 부문 매출의 34.8%)"
 tags: [상품, 유리, SGC에너지]
-timestamp: 2026-07-01T00:00:00Z
+timestamp: 2026-07-03T00:00:00Z
 ---
 
 # SGC에너지 유리병

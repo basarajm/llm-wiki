@@ -4,7 +4,7 @@ title: S-Oil 신용등급
 description: S-Oil의 국내·국제 신용평가 등급 이력 (회사채 기준)
 issuer: /companies/S-Oil
 tags: [신용평가, S-Oil]
-timestamp: 2026-07-01T00:00:00Z
+timestamp: 2026-07-03T00:00:00Z
 ---
 
 ## 등급 이력

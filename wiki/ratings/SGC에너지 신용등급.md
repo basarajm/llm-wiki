@@ -4,7 +4,7 @@ title: SGC에너지 신용등급
 description: SGC에너지(KOSPI 005090)의 신용평가 등급 이력 — 회사채 A(한국기업평가·한국신용평가)·기업어음 A2
 issuer: /companies/SGC에너지
 tags: [신용평가, SGC에너지]
-timestamp: 2026-07-01T00:00:00Z
+timestamp: 2026-07-03T00:00:00Z
 ---
 
 # SGC에너지 신용등급

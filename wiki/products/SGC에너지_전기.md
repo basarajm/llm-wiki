@@ -5,7 +5,7 @@ description: SGC에너지가 군산 열병합발전소에서 생산해 전력시
 category: 전력(집단에너지)
 market_share: "미확인 (별도 발전/에너지 부문 매출의 48.5%)"
 tags: [상품, 전력, SGC에너지]
-timestamp: 2026-07-01T00:00:00Z
+timestamp: 2026-07-03T00:00:00Z
 ---
 
 # SGC에너지 전기

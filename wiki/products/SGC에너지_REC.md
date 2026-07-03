@@ -5,7 +5,7 @@ description: SGC에너지가 바이오매스 발전을 통해 확보·판매하�
 category: 신재생에너지 인증서(REC)
 market_share: "미확인 (별도 발전/에너지 부문 매출의 28.5%)"
 tags: [상품, 신재생에너지, SGC에너지]
-timestamp: 2026-07-01T00:00:00Z
+timestamp: 2026-07-03T00:00:00Z
 ---
 
 # SGC에너지 REC

@@ -4,7 +4,7 @@ title: S-Oil 밸류체인
 description: S-Oil의 주요 공급사(원유)와 고객사(석유제품 수출·내수) 관계
 company: /companies/S-Oil
 tags: [밸류체인, S-Oil]
-timestamp: 2026-07-01T00:00:00Z
+timestamp: 2026-07-03T00:00:00Z
 ---
 
 ## 주요 공급사

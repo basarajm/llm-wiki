@@ -5,7 +5,7 @@ description: S-Oil의 윤활 사업 부문 — 고급 윤활기유·윤활유 �
 company: /companies/S-Oil
 revenue_share: 8.8
 tags: [사업부문, S-Oil]
-timestamp: 2026-07-01T00:00:00Z
+timestamp: 2026-07-03T00:00:00Z
 ---
 
 ## 사업 내용

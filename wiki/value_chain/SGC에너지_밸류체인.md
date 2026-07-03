@@ -4,7 +4,7 @@ title: SGC에너지 밸류체인
 description: SGC에너지의 주요 공급사(연료·유리원료)와 고객사(전력거래소·음료/주류) 관계
 company: /companies/SGC에너지
 tags: [밸류체인, SGC에너지]
-timestamp: 2026-06-28T00:00:00Z
+timestamp: 2026-07-03T00:00:00Z
 ---
 
 ## 주요 공급사

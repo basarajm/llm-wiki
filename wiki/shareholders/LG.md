@@ -5,7 +5,7 @@ description: LG전자·LG생활건강 등 LG그룹 계열사의 최대주주인 
 entity_type: 상장기업
 company_page: /companies/LG
 tags: [주주, 상장기업]
-timestamp: 2026-07-03T12:00:00Z
+timestamp: 2026-07-03T00:00:00Z
 ---
 
 # (주)LG
@@ -24,6 +24,7 @@ timestamp: 2026-07-03T12:00:00Z
 |---|---|---|
 | [LG전자](/companies/LG전자) | 35.3% | 최대주주 |
 | [LG생활건강](/companies/LG생활건강) | 34.74% | 최대주주, 5,315,500주 |
+| [HS애드](/companies/HS애드) | 35.78% | 최대주주, 광고대행사 계열사 |
 
 ## 기업 정보
 
@@ -33,3 +34,4 @@ timestamp: 2026-07-03T12:00:00Z
 
 - [LG전자 2025 사업보고서](/sources/LG전자_2025_사업보고서)
 - [LG생활건강 2025 사업보고서](/sources/LG생활건강_2025_사업보고서)
+- [HS애드 2025 사업보고서](/sources/HS애드_2025_사업보고서)

@@ -66,6 +66,30 @@ timestamp: 2026-07-03T00:00:00Z
 - [x] **LG생활건강 주주 현황 전체 미확인 → 해소(2026-07-03 재인제스트)** — 사용자가 DART에서 온전한 원본을 재확보(1,482줄→10,079줄), 재-ingest 완료. 최대주주 (주)LG 34.74%(5,315,500주), 5% 이상 주주 Silchester International Investors LLP 6.1%·국민연금공단 6.1% 확인. 등기·미등기임원 전원 경력·겸직, 이정애·이명석 개인별 보수(5억원 이상), 계열회사(62개사)·타법인출자(44개사, 장부가액 1조 6,506억) 상세 반영. 신규 페이지: `executives/이명석.md`·`이우영.md`·`김재환.md`·`이상철.md`·`이승윤.md`, `shareholders/Silchester_International_Investors.md`. 갱신: `companies/LG생활건강.md`, `executives/이선주.md`·`이정애.md`·`하범종.md`, `shareholders/LG.md`. 잔여 미확인: 이선주 대표이사 개인별 보수(2025.11 취임으로 5억원 이상 공시 미해당 추정), 신용등급 산정 정성적 근거.
 - [ ] **KSS해운 신용평가·Product 페이지 미생성** — 원문에 "신용평가에 관한 사항 해당사항 없음" 명시, 시장점유율 수치도 없어 두 페이지 모두 미생성(정상 처리, 후속 조치 불요 — 기록용).
 
+## P2-1 재인제스트 배치 (2026-07-03, KOSPI 12개사) 진행 중
+
+진행 상황: 완료 8개사·스킵 4개사.
+
+### 완료 항목 [x]
+- **CJ ENM** — sources/CJ ENM_2025_사업보고서·executives 페이지 갱신
+- **CJ** — shareholders·executives 페이지 갱신 (CJ그룹 계열사 링크 정리)
+- **DN오토모티브** — sources/DN오토모티브_2025_사업보고서·segments 갱신 (DN그룹 계열사 구조 정리)
+- **E1** — sources/E1_2025_사업보고서·segments·value_chain 갱신 (LS그룹 계열사 구조)
+- **GS피앤엘** — executives 신규 4개(이태형·이경숙·이상훈·김동주)·기존 1개 갱신, companies/GS피앤엘 경영진 섹션 전면 개편
+- **HD현대일렉트릭** — sources/HD현대일렉트릭_2025_사업보고서·segments(전력기기·배전기기·회전기기)·executives(김영기·조석) 갱신
+- **HS애드** — executives 신규 3개(윤창병·송광륜·김정옥)·갱신 3개(companies/HS애드·shareholders/LG) (원본 AnnualReport_MD, 손상 이력 없음)
+- **SK하이닉스** — ratings/SK하이닉스 신용등급 정정 (AA+ → AA++) (원본 AnnualReport_Recent, 손상 미검출)
+
+### 스킵 항목 [ ]
+- **JB금융지주** — ticker(종목코드) 미기재. 원본 발췌본 한계. DART 재확인 후 추후 수동 정정 필요.
+- **S-Oil** — 출처 전환 중(DART → 로컬 아카이브). 별도 추진 대기.
+- **SGC에너지** — 출처 미정. 로컬 아카이브 확인 대기.
+- **LS네트웍스** — 출처 미정. 로컬 아카이브 확인 대기.
+
+### 신규 식별 이슈 (P2-1 유래)
+- [ ] **CJ ENM FIFTH SEASON 원제목 오기재** — 문서명은 "CJ ENM FIFTH SEASON"이나 실제법인명은 "CJ ENM Fifth Season LLC." (영문 소문자 s) — 추후 정정 필요.
+- [ ] **DN오토모티브 계열사 구조 정리** — DN솔루션즈, 산업용 축전지 제조사명 미확인. 향후 계열사 Full ingest 시 재검증.
+
 ## P1 병합 완료 확인 (2026-07-03)
 
 `wiki/outputs/reingest-schedule-2026-07-03.md`의 P1(12개사: GS·HDC현대EP·HD현대마린솔루션·HS효성첨단소재·

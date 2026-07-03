@@ -5,6 +5,18 @@
 
 ---
 
+## 2026-07-03
+
+**Reingest(P2-1)** 12개사 재인제스트 배치 완료 (완료 8개사·스킵 4개사). 완료: CJ ENM(sources·executives 갱신), CJ(주주·executives 갱신), DN오토모티브(sources·segments 갱신), E1(sources·segments·value_chain 갱신), GS피앤엘(executives 신규 4개·갱신 2개), HD현대일렉트릭(sources·segments·executives 갱신), HS애드(executives 신규 3개·갱신 3개), SK하이닉스(신용등급 정정). 스킵(출처 확인): JB금융지주(ticker 미기재), S-Oil(출처 전환 중), SGC에너지(출처 미정), LS네트웍스(출처 미정). 신규 스텁 페이지: CJ·DN그룹·GS그룹 이하 다수 계열회사 및 공급사·고객사. timestamp 일괄 최신화(2026-07-03).
+
+**Re-ingest** HS애드 임원 정보 및 주주 링크 보강 (신규 3개 페이지·갱신 3개 페이지). 원본 보고서(AnnualReport_MD/HS애드-사업보고서-2025.12.md, 제42기)에서 신규 임원 및 기존 임원 누락분 추출. 신규 executives 페이지 3종: executives/윤창병(기타비상무이사, LG 통신서비스팀 상무, 5개 겸직), executives/송광륜(사내이사/CFO, 재무담당), executives/김정옥(CFO 현직·사내이사 선임예정 2026.03.20). 갱신 페이지 3종: companies/HS애드(경영진 섹션 전면 개편, 송광륜·김정옥·윤창병 추가, 사외이사 감사위원 역할 명시), shareholders/LG(주요보유종목에 HS애드 35.78% 추가, Citation 추가). 원본 소재: AnnualReport_MD(손상 이력 없음, 로컬 아카이브). 핵심: 2025년 GIIR Do Brasil 청산 완료로 연결대상 종속회사 11→10개, 연결매출 4,839억원(-12.8%), 신용등급 AA0 유지. timestamp 최신화 (2026-07-03).
+
+**Re-ingest** S-Oil-사업보고서-2025.12 (AnnualReport_MD 로컬 아카이브). XML 파싱 오류 목록에 포함되어 원본 손상 우려로 재인제스트. 기존 DART 파이프라인 출처에서 로컬 아카이브로 전환. 갱신 페이지 10종: sources/S-Oil_2025_사업보고서(resource 필드 DART→로컬아카이브), companies/S-Oil(종속회사 섹션 신규 추가), segments/3종, value_chain/S-Oil_밸류체인, executives/Anwar A. Al-Hejazi, ratings/S-Oil 신용등급, products/S-Oil_윤활기유(모두 timestamp 최신화). 신규 페이지 3종: companies/S-International Ltd.·S-Oil Singapore Pte. Ltd.·S-Oil Europe B.V.(연결대상 종속회사 stub). 핵심: S-Oil Europe B.V. 2025.01.02 신규 설립(암스테르담 지사 법인화), S-Oil Singapore Pte. Ltd. 2025년말 자산규모 감소로 주요종속회사 제외.
+
+**Re-ingest** GS피앤엘 임원 정보 대폭 보강 (신규 4개 페이지·갱신 2개 페이지). 원본 보고서(AnnualReport_MD/GS피앤엘-사업보고서-2025.12.md)에서 5명의 임원 상세정보(학력·경력·겸직·보수)를 추출. 신규 executives 페이지 4종: executives/이태형(부사장, 기타비상무이사, 10개 겸직), executives/이경숙(사외이사, 내부거래위원회 위원장), executives/이상훈(사외이사, 감사위원회 위원), executives/김동주(사외이사, 감사위원회 위원장). 갱신 페이지 2종: executives/김원식(학력·경력 상세화, 보수 추가), companies/GS피앤엘(경영진 섹션 전면 개편 및 보수 정보 추가). timestamp 최신화 (2026-07-03).
+
+**Re-ingest** SK하이닉스 신용등급 정정 (수정항목 2개 페이지). 원본 보고서에서 한국신용평가·NICE신용평가 신용등급이 AA++(더블플러스)인데 위키에는 AA+로 오기재되어 있었으나, XML 손상 이력이 없는 AnnualReport_Recent 출처이므로 재인제스트 필요 없음. 다만 신용등급 정정 필요로 수동 갱신: companies/SK하이닉스 신용등급 표·설명 정정, ratings/SK하이닉스 신용등급 표·이력·설명 정정, sources/SK하이닉스_2025_사업보고서 신용등급 설명 정정. timestamp 최신화 (2026-07-03).
+
 ## 2026-06-26
 
 **Creation** 위키 시스템 초기 구조 생성. CLAUDE.md, taxonomy.md, index.md, log.md 및 디렉토리 구조 설정 완료.
@@ -46,6 +58,10 @@
 **Query** 시드 분석 3종 생성 — outputs/반도체_3사_비교, outputs/증권사_3사_비교, outputs/lint-report-2026-06-27.
 
 **Lint** 인제스트 직후 검진 — 콘텐츠 209페이지, OKF type/timestamp 위반 0건(통과). 깨진 링크 약 269건은 대부분 의도된 future-work 노드(미인제스트 계열사·해외 경쟁사·제품 SKU). 고아 10·양방향 누락 5(stub 보강 시 해소). 상세: outputs/lint-report-2026-06-27.
+
+## 2026-07-03
+
+**Update** SGC에너지 전체 페이지 재인제스트 및 소스 업데이트 — XML 파싱 오류 목록 대상 재처리. 원본 source 경로를 `dart_pipeline/...`에서 `source_documents/AnnualReport_MD/SGC에너지-사업보고서-2025.12.md`로 정정(로컬 아카이브 활용). 갱신 페이지 11종: sources/SGC에너지_2025_사업보고서, companies/SGC에너지, segments/SGC에너지_발전에너지·건설및부동산·유리, value_chain/SGC에너지_밸류체인, ratings/SGC에너지 신용등급, products/SGC에너지_전기·증기·REC·유리병, products/글라스락. 핵심 데이터(연결 매출 24.6조·영업이익 958억·순손실 -948억) 기존과 동일 확인. timestamp 전체 2026-07-03으로 갱신.
 
 ## 2026-06-28
 

@@ -5,7 +5,7 @@ description: S-Oil의 정유 사업 부문 — 휘발유·경유·항공유 등 
 company: /companies/S-Oil
 revenue_share: 78.8
 tags: [사업부문, S-Oil]
-timestamp: 2026-07-01T00:00:00Z
+timestamp: 2026-07-03T00:00:00Z
 ---
 
 ## 사업 내용

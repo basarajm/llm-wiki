@@ -5,7 +5,7 @@ description: SGC에너지의 발전/에너지 사업 부문 — 군산 열병합
 company: /companies/SGC에너지
 revenue_share: 34
 tags: [사업부문, SGC에너지, 집단에너지, 발전]
-timestamp: 2026-06-28T00:00:00Z
+timestamp: 2026-07-03T00:00:00Z
 ---
 
 ## 사업 내용

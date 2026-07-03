@@ -77,7 +77,7 @@
 * [SK디스커버리 신용등급](/ratings/SK디스커버리 신용등급) - SK디스커버리(KOSPI 006120)의 공모 회사채·기업어음 신용평가 등급 이력 (회사채 A+, CP A2+)
 * [SK스퀘어 신용등급](/ratings/SK스퀘어 신용등급) - SK스퀘어(KOSPI 402340) 별도(지주) 자체의 신용평가 등급 — Issuer Rating AA(긍정적), 기업어음·전자단기사채 A1
 * [SK증권 신용등급](/ratings/SK증권 신용등급) - SK증권의 신용평가 등급 이력 — Issuer Rating A-, 후순위채 BBB+, 기업어음·전자단기사채 A2
-* [SK하이닉스 신용등급](/ratings/SK하이닉스 신용등급) - SK하이닉스㈜의 회사채·기업어음 신용평가 등급 이력 — 국내 3사 AA+(2026년 상향), 해외 Moody's Baa1·S&P BBB+·Fitch BBB
+* [SK하이닉스 신용등급](/ratings/SK하이닉스 신용등급) - SK하이닉스㈜의 회사채·기업어음 신용평가 등급 이력 — 국내 한국기업평가 AA+, 한국신용평가·NICE신용평가 AA++(2026년 상향), 해외 Moody's Baa1·S&P BBB+·Fitch BBB
 * [SNT다이내믹스 신용등급](/ratings/SNT다이내믹스 신용등급) - SNT다이내믹스의 기업신용평가등급 이력 (이크레더블 A+ / 한국평가데이터 AA)
 * [S-Oil 신용등급](/ratings/S-Oil 신용등급) - S-Oil의 국내·국제 신용평가 등급 이력 (회사채 기준)
 * [TCC스틸 신용등급](/ratings/TCC스틸 신용등급) - TCC스틸(KOSPI 002710)의 신용평가 등급 이력 — 무보증회사채 BB+ (나이스신용평가)

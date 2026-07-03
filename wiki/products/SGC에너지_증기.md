@@ -5,7 +5,7 @@ description: SGC에너지가 군산 산업단지에 공급하는 산업용 증�
 category: 산업용 증기(집단에너지)
 market_share: "미확인 (별도 발전/에너지 부문 매출의 19.1%)"
 tags: [상품, 집단에너지, SGC에너지]
-timestamp: 2026-07-01T00:00:00Z
+timestamp: 2026-07-03T00:00:00Z
 ---
 
 # SGC에너지 증기

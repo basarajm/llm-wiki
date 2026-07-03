@@ -5,7 +5,7 @@ description: S-Oil 대표이사 CEO(사내이사) — 전 Aramco Asia 사장
 company: /companies/S-Oil
 position: 대표이사
 tags: [임원, S-Oil]
-timestamp: 2026-07-01T00:00:00Z
+timestamp: 2026-07-03T00:00:00Z
 ---
 
 ## 개요

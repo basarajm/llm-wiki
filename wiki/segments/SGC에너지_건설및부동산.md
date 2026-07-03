@@ -5,7 +5,7 @@ description: SGC에너지의 건설 및 부동산 사업 부문 — SGC이앤씨
 company: /companies/SGC에너지
 revenue_share: 56
 tags: [사업부문, SGC에너지, 건설, 플랜트]
-timestamp: 2026-06-28T00:00:00Z
+timestamp: 2026-07-03T00:00:00Z
 ---
 
 ## 사업 내용
