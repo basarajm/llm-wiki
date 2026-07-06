@@ -19,6 +19,7 @@
 * [FIDELITY PURITAN TRUST FIDELITY LOW PRICED STOCK FUND](/shareholders/FIDELITY_PURITAN_TRUST) - 퍼시스 5% 이상 보유 외국인 기관투자자
 * [FIDELITY PURITAN TRUST FIDELITY LOW PRICED STOCK FUND](/shareholders/FIDELITY_PURITAN_TRUST_FIDELITY_LOW_PRICED_STOCK_FUND) - 환인제약 지분 5.64%를 보유한 미국계 외국인 기관투자자
 * [FIRST EAGLE OVERSEAS FUND](/shareholders/FIRST_EAGLE_OVERSEAS_FUND) - 퍼시스 5% 이상 보유 외국인 기관투자자
+* [GC케어](/shareholders/GC케어) - 유비케어(GC메디아이)의 최대주주, GC(녹십자)그룹 계열 헬스케어 서비스 회사
 * [Gen to Gen Holdings Co., Ltd](/shareholders/Gen_to_Gen_Holdings) - 엘브이엠씨홀딩스 2대 주주(특수관계자), 2025년 인도차이나뱅크 지분 인수로 등극
 * [Glaxo Group Limited](/shareholders/Glaxo Group Limited) - GSK(글락소스미스클라인) 계열 지주법인 — 동아에스티의 5% 이상 외국인 주주
 * [GMB CORPORATION](/shareholders/GMB_CORPORATION) - 지엠비코리아의 최대주주, 일본 도쿄증권거래소 상장 자동차부품 제조사
@@ -29,6 +30,11 @@
 * [HD한국조선해양](/shareholders/HD한국조선해양) - HD현대에너지솔루션·HD현대중공업·HD현대마린엔진의 최대주주 — HD현대그룹 조선·해양 중간지주회사
 * [HD현대](/shareholders/HD현대) - HD현대일렉트릭의 최대주주인 HD현대그룹 지주회사
 * [HD현대사이트솔루션](/shareholders/HD현대사이트솔루션) - HD건설기계의 최대주주(37.59%)인 HD현대그룹 계열 비상장사
+* [HLB (주주)](/shareholders/HLB) - HLB이노베이션 최대주주(17.73%), HLB그룹 핵심 지배회사
+* [HLB생명과학 (주주)](/shareholders/HLB생명과학) - HLB이노베이션 특수관계 주주(0.88%)
+* [HLB인베스트먼트 (주주)](/shareholders/HLB인베스트먼트) - HLB이노베이션 특수관계 주주(0.88%)
+* [HLB제약 (주주)](/shareholders/HLB제약) - HLB이노베이션 특수관계 주요주주(9.07%)
+* [HLB테라퓨틱스 (주주)](/shareholders/HLB테라퓨틱스) - HLB이노베이션 특수관계 주주(0.88%)
 * [HOLDCO OPPORTUNITIES FUND II, L.P.](/shareholders/HOLDCO_OPPORTUNITIES_FUND_II) - 세이브존I&C 지분 5.31%를 보유한 외국계 투자펀드(5% 이상 주주)
 * [IB Capital Ltd](/shareholders/IB_Capital_Ltd) - 일성건설의 최대주주인 해외(역외) 투자법인
 * [JFE 스틸 인터내셔널 유럽](/shareholders/JFE 스틸 인터내셔널 유럽) - 일본 JFE 스틸 계열 해외법인, 동국씨엠 5% 이상 주주 겸 원재료(HRC) 공급사
@@ -191,6 +197,7 @@
 * [대덕(주)](/shareholders/대덕) - 대덕전자의 최대주주 — 대덕그룹 지주회사(KOSPI 상장)
 * [대성홀딩스](/shareholders/대성홀딩스) - 서울도시가스 2대 주주(13.20%)이자 대구·경북 도시가스 계열의 상장 지주회사
 * [대웅재단](/shareholders/대웅재단) - 대웅그룹 오너 일가 출연 공익재단, 대웅·대웅제약 등 계열사 특수관계인 주주
+* [대한그린에너지](/shareholders/대한그린에너지) - 디지아이티엑스의 최대주주(지분 30.92%)인 신재생에너지 법인, 대표이사 박근식이 지분 83.33% 보유
 * [대한민국정부](/shareholders/대한민국정부) - 한국전력공사 등 주요 공기업 지분을 직접 보유한 정부
 * [더베스트리소스](/shareholders/더베스트리소스) - 와이투솔루션 5% 이상 주주(8.03%)
 * [더블유에스](/shareholders/더블유에스) - 성안머티리얼스의 최대주주(지분 16.87%)인 비상장 법인, 대표이사 임종찬
@@ -386,7 +393,13 @@
 * [에스케이씨](/shareholders/에스케이씨) - ISC의 최대주주(45.03%)이자 SK그룹 계열의 KOSPI 상장 소재기업(SKC)
 * [에스투비네트워크](/shareholders/에스투비네트워크) - NICE홀딩스 최대주주 김원우의 특수관계인 법인 주주
 * [에이유이](/shareholders/에이유이) - 광전자(주)의 특수관계인(계열회사), 지분 16.45%
+* [에이치에스이노베이션](/shareholders/에이치에스이노베이션) - 디지아이티엑스 지분 10.87%를 보유한 5% 이상 주주
 * [에이치엘만도](/shareholders/에이치엘만도) - 새론오토모티브 5% 이상 주주(5.42%), 자동차 섀시 부품 전문 제조사
+* [에이치엘비(HLB)](/shareholders/에이치엘비) - HLB그룹 지주 성격의 핵심 상장사이자 다수 계열사의 최대주주
+* [에이치엘비바이오스텝](/shareholders/에이치엘비바이오스텝) - HLB파나진 최대주주의 특수관계인(계열 상장사)
+* [에이치엘비이노베이션](/shareholders/에이치엘비이노베이션) - HLB파나진 최대주주의 특수관계인(그룹 계열 상장사)
+* [에이치엘비인베스트먼트](/shareholders/에이치엘비인베스트먼트) - HLB파나진 최대주주의 특수관계인(그룹 투자 계열사)
+* [에이치엘비테라퓨틱스 (HLB파나진 주주로서)](/shareholders/에이치엘비테라퓨틱스) - HLB파나진 최대주주의 특수관계인(그룹 계열 코스닥 상장사)
 * [에이치엘홀딩스](/shareholders/에이치엘홀딩스) - HL그룹의 지주회사, HL D&I·HL만도 등 계열사의 최대주주
 * [에이팀하모니제1호사모투자합자회사](/shareholders/에이팀하모니제1호사모투자합자회사) - 사모투자 합자회사, 이엔플러스의 구 최대주주
 * [에이피씨머큐리(유)](/shareholders/에이피씨머큐리) - STX의 최대주주인 사모투자 관련 유한회사
@@ -615,6 +628,7 @@
 * [한국전자홀딩스](/shareholders/한국전자홀딩스) - KEC그룹 순수지주회사, KEC의 최대주주(지분 29.59%)
 * [한국제강](/shareholders/한국제강) - 한국주강(주)의 최대주주(지분 52.04%)이자 비상장 계열사
 * [한국종합기술홀딩스](/shareholders/한국종합기술홀딩스) - 한국종합기술의 최대주주(52.96%) — 우리사주조합원들이 설립한 비상장 경영자문·컨설팅 법인
+* [한국콜마](/shareholders/한국콜마) - 콜마홀딩스 자회사, 화장품 ODM 1위권 기업이자 에이치케이이노엔 최대주주(43.01%)
 * [한국타이어앤테크놀로지](/shareholders/한국타이어앤테크놀로지) - 극동유화·한온시스템 등의 최대주주인 상장 타이어·자동차부품 제조기업
 * [한국투자증권](/shareholders/한국투자증권) - 카카오뱅크 2대주주(27.16%) — 한국금융지주 계열 증권사
 * [한국해양진흥공사](/shareholders/한국해양진흥공사) - 해운산업 지원을 위해 설립된 국책 공사, HMM 공동 최대주주(35.08%)

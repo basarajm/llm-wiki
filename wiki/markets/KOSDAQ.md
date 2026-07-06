@@ -77,6 +77,12 @@ KOSDAQ(코스닥시장)는 한국거래소(KRX)가 운영하는 시장으로, �
 - [HC홈센타](/companies/HC홈센타) — 건축자재 도소매·레저사업 지주회사, 레미콘·아스콘 계열사군 보유, HC그룹 지주회사 (KOSDAQ)
 - [HC보광산업](/companies/HC보광산업) — 토사석 골재 채취·아스콘·레미콘 제조기업(구 보광산업), HC그룹 계열 (KOSDAQ)
 - [HEM파마](/companies/HEM파마) — 마이크로바이옴 기반 프로바이오틱스·건강기능식품·신약 개발기업 (KOSDAQ)
+- [HLB](/companies/HLB) — 항암신약(리보세라닙)·면역치료제 개발 및 체외진단·조선기자재·미디어커머스 겸영, HLB그룹 지배회사 (KOSDAQ 028300)
+- [HLB생명과학](/companies/HLB생명과학) — 메디케어(체외진단의료기기)·의료기기·바이오개발·에너지 4개 사업부문, HLB그룹 계열 (KOSDAQ 067630)
+- [HLB이노베이션](/companies/HLB이노베이션) — 반도체 리드프레임·컨택핀 제조 + 바이오(Verismo Therapeutics, CAR-T), HLB그룹 계열 (KOSDAQ 047920)
+- [HLB제넥스](/companies/HLB제넥스) — 산업용 특수 효소·바이오헬스케어 소재(구 제노포커스), HLB그룹 계열 (KOSDAQ 122310)
+- [HLB파나진](/companies/HLB파나진) — PNA 기반 분자진단·바이오 소재 전문기업, HLB그룹 계열 (KOSDAQ 119610)
+- [HLB테라퓨틱스](/companies/HLB테라퓨틱스) — 안과·뇌종양 신약 파이프라인 및 콜드체인 유통, HLB그룹 계열 (KOSDAQ 115450)
 - [에이치케이이노엔](/companies/에이치케이이노엔) — 전문의약품(케이캡 등)·H&B 사업 영위, 콜마그룹 계열, 매출 1조 원 돌파 (KOSDAQ 195940)
 
 # Citations

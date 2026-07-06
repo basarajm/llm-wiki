@@ -49,6 +49,7 @@
 * [CXL 메모리](/products/CXL메모리) - CXL(Compute Express Link) 인터페이스 기반 용량 확장형 메모리 — SK하이닉스 CMM-DDR5 라인업
 * [d'Alba 미스트](/products/d'Alba_미스트) - 달바글로벌의 화이트 트러플 스프레이 세럼(미스트) 제품군, 화장품 부문 최대 매출 품목
 * [DC-Link 커패시터](/products/DC-Link_커패시터) - 전기차·하이브리드차 인버터·컨버터의 고전압 전력변환에 쓰이는 전장용 필름 커패시터
+* [DGI 영상보안장비(DVR·NVR·IP카메라)](/products/DGI_영상보안장비) - 디지아이티엑스가 개발·생산·판매하는 영상감시·저장 장비(DVR·NVR·IP카메라)
 * [DNT/MNB](/products/DNT_MNB) - 폴리우레탄 중간소재로 사용되는 정밀화학 제품(TKG휴켐스 NT계열)
 * [Door Trim](/products/Door_Trim) - 자동차 도어 내장 트림 부품
 * [DRAM](/products/DRAM) - 휘발성 메모리 반도체 — PC·서버·모바일·그래픽스 등에 광범위하게 사용되는 주기억장치
@@ -78,6 +79,7 @@
 * [FOSB (Front Opening Shipping Box)](/products/FOSB) - 웨이퍼 생산업체가 반도체 생산업체로 완성 웨이퍼를 출하 수송할 때 사용하는 클린진공박스
 * [Galaxy 스마트폰](/products/Galaxy_스마트폰) - 삼성전자 모바일경험(MX) 사업의 스마트폰 브랜드 — Galaxy S·Z 시리즈와 Galaxy AI, 글로벌 수량 기준 상위 점유율
 * [Gas 공급장치](/products/Gas_공급장치) - 반도체·디스플레이 공정에 필요한 원료 가스를 지정 압력으로 공급하는 장치
+* [GFzyme Proteinase K](/products/GFzyme-Proteinase-K) - HLB제넥스가 국산화에 성공한 분자진단·유전공학 실험용 효소
 * [GMT](/products/GMT) - 한화첨단소재(한화솔루션 첨단소재 부문)의 자동차 경량복합소재 GMT — 세계시장 점유율 약 63%(세계 1위, 2025, 회사 추정)
 * [Green-Cap](/products/Green-Cap) - 삼화전기의 전기이중층콘덴서(EDLC) 브랜드 — 급속 충방전·반영구 수명의 에너지 저장 소자
 * [GS SHOP](/products/GS_SHOP) - GS리테일이 운영하는 홈쇼핑 브랜드로 홈쇼핑 시장 취급액 약 20% 점유 추정
@@ -103,11 +105,13 @@
 * [IVI 인포테인먼트 시스템](/products/IVI_인포테인먼트_시스템) - 차량용 In-Vehicle Infotainment(IVI) 시스템 — 무선 Android Auto/CarPlay 등 커넥티비티 지원
 * [JEVISCO 도료](/products/JEVISCO_도료) - 강남제비스코의 건축·공업·자동차보수·선박·분체 도료 브랜드 (국내 도료시장 점유율 8.2%)
 * [K5 방독면](/products/K5방독면) - 대한민국 국군에 납품되는 방위산업 지정 군용 방독면
+* [Katalase](/products/Katalase) - HLB제넥스가 개발한 반도체·섬유 공정용 카탈라제(과산화수소 분해 효소)
 * [KBI동양철관 강관](/products/KBI동양철관_강관) - 배관용·상수도용 도복장강관 등 강관류 — KBI동양철관의 대표·주력 제품(연결 매출 58.28%, 별도 제품매출 73.43%)
 * [KCC창호](/products/KCC창호) - 주거·상업용 PVC창호 및 AL+PVC 복합창호 — KCC 건자재 부문 주력, 국내 PVC창호 점유율 공동 1위(37%)
 * [KEC 전력반도체(TR·IC)](/products/KEC_전력반도체) - KEC가 생산하는 비메모리 전력반도체(트랜지스터·IC 등) 제품군
 * [KG케미칼 비료](/products/KG케미칼_비료) - KG케미칼의 친환경·완효성·유기질 비료 등 비료 제품군으로 국내 점유율 5.5%
 * [KOLMAR 상표권](/products/KOLMAR 상표권) - 콜마홀딩스가 자회사에 라이선스하는 KOLMAR 브랜드 상표권
+* [Lactazyme-B](/products/Lactazyme-B) - HLB제넥스가 개발한 유제품 가공용 락타아제(갈락토올리고당 제조 효소)
 * [LAMI FABRIC](/products/LAMI FABRIC) - 일정실업의 자동차 시트용 라미네이팅 원단(LAMI FABRIC). 별도 매출의 약 64%를 차지하는 최대 매출 제품으로 현대자동차 등 완성차·시트 제조사에 납품.
 * [LAMINATED 칼라강판](/products/LAMINATED_칼라강판) - 전기아연도금강판 등을 소재로 표면에 필름을 라미네이팅한 가전제품 외장용 코팅강판
 * [LG에너지솔루션 배터리](/products/LG에너지솔루션_배터리) - LG에너지솔루션의 EV용·ESS용·소형 Application용 리튬이온배터리
@@ -153,6 +157,7 @@
 * [NICE(NIPT)](/products/NICE_NIPT) - 이원다이애그노믹스(EDGC)의 비침습 산전 진단검사(NIPT) 서비스 브랜드
 * [O/C (Open Cassette)](/products/O_C_Open_Cassette) - 웨이퍼 제조공정에서 잉곳 절단 웨이퍼를 운송하는 데 쓰이는 웨이퍼용 카세트
 * [OIS (광학식 손떨림 보정장치)](/products/OIS) - 스마트폰 카메라 모듈의 손떨림을 실시간 보정하는 2~3축 구동 액추에이터
+* [OKN-007](/products/OKN-007) - HLB테라퓨틱스 자회사 Oblato가 개발 중인 교모세포종(뇌종양) 치료제
 * [OLED Oxide TFT 증착장비](/products/OLED_Oxide_TFT_증착장비) - OLED 패널 구동 박막트랜지스터(Oxide TFT)용 CVD/ALD 증착장비. 세계 최초 TSD CVD 방식 상용화
 * [OLED TV](/products/OLED_TV) - 자발광 OLED 패널 기반 프리미엄 TV — LG전자 알파 프로세서·webOS 탑재
 * [OLED소재](/products/OLED소재) - OLED 디스플레이 패널용 유기발광재료 및 기능성 신소재
@@ -169,6 +174,7 @@
 * [Phoretar 난연제](/products/Phoretar_난연제) - 파미셀 바이오케미컬 사업부가 제조하는 친환경 인계(燐系) 난연제 (폴리에스터 섬유용·전자재료용)
 * [PLC](/products/PLC) - 산업 공정 제어용 프로그래머블 로직 컨트롤러(PLC)
 * [PLUX](/products/PLUX) - 롯데하이마트의 자체 브랜드(PB) 생활·소형가전 라인업
+* [PNAClamp™](/products/PNAClamp) - HLB파나진의 PNA 기반 암 체세포 돌연변이 검출 분자진단 시약 시리즈
 * [PNS 분산제](/products/PNS_분산제) - 석고보드·PHC파일·염료 등에 쓰이는 나프탈렌계 분산제로 KG케미칼이 국내 점유율 1위(68.5%)
 * [Potassium Clavulanate](/products/Potassium_Clavulanate) - 페니실린계 항생제의 β-Lactamase 저해 원료의약품 (종근당바이오 주력 수출 제품)
 * [PP/PE BAG](/products/PP_PE BAG) - 원림의 주력 산업용 합성수지 포장재 (공산품 포장용 포대·마대), 국내 시장 점유율 약 60%(당사 추정)
@@ -183,7 +189,9 @@
 * [PVC](/products/PVC) - 한화솔루션 케미칼 부문의 폴리염화비닐(PVC) — 국내 최초 생산, 국내시장 점유율 약 46%(2025, 회사 추정)
 * [PVC Compound](/products/PVC_Compound) - 전선·자동차·건축자재용 PVC 합성수지 중간제품(Compound)
 * [PVC 인조피혁](/products/PVC_인조피혁) - 진양화학이 제조하는 자동차 시트·내장재용 PVC/PU 인조피혁(레쟈류)
+* [QuantumPACK™](/products/QuantumPACK) - 종속회사 바이오스퀘어의 퀀텀닷 기반 형광 면역진단 카트리지 시리즈
 * [RENDY FABRIC](/products/RENDY FABRIC) - 일정실업의 가구용 직물 브랜드(RENDY FABRIC). 별도 매출의 약 20%를 차지하는 비(非)자동차 최대 제품으로 전량 수출(미국 VALDESE 등).
+* [RGN-259](/products/RGN-259) - HLB테라퓨틱스 자회사 ReGenTree가 개발 중인 안구건조증·신경영양성각막염 치료제
 * [Rotor Facing](/products/Rotor_Facing) - 브레이크 디스크 로터 표면가공 관련 자동차 마찰재 부품
 * [Samsung TV](/products/Samsung_TV) - 삼성전자 영상디스플레이 사업의 TV 완제품 — Neo QLED·OLED·The Frame 등, 글로벌 금액 기준 점유율 1위
 * [SbW(Steer-by-Wire)](/products/SbW(Steer-by-Wire)) - 에이치엘만도의 전동 조향 시스템 — 기계적 연결 없이 전자 신호로 조향하는 차세대 조향 시스템, 세계 최초 양산
@@ -372,6 +380,7 @@
 * [로젯정](/products/로젯정) - 명문제약의 고지혈증치료제, 별도 기준 제품매출 비중 1위 품목
 * [로즈버드](/products/로즈버드) - 비비안의 여성 란제리 브랜드 'ROSEBUD' — 2025년 비비안 여성내의 부문 매출 1위 브랜드
 * [루송채콘도](/products/루송채콘도) - 모나용평이 2025년 6월 준공·분양한 콘도미니엄(60실)
+* [리드프레임 (HLB이노베이션)](/products/리드프레임_HLB이노베이션) - HLB이노베이션이 생산하는 반도체 패키지 핵심부품 리드프레임(LEAD FRAME)
 * [리바로](/products/리바로) - JW중외제약의 고지혈증(이상지질혈증) 치료제, 피타바스타틴 성분 대표 브랜드
 * [리박트](/products/리박트) - 삼일제약이 자체 개발·생산하는 성분영양제(간질환 영역 대표 제품)
 * [리츠(REITs) 자산관리](/products/리츠_자산관리) - 부동산투자회사법에 의한 위탁관리 부동산투자회사(REITs) 자산관리회사(AMC) 업무
@@ -693,6 +702,7 @@
 * [음극재](/products/음극재) - 이차전지(배터리) 4대 핵심소재 중 충전속도·수명을 결정하는 음극 활물질. 포스코퓨처엠은 흑연계 음극재를 국내 유일하게 생산
 * [음압구급차](/products/음압구급차) - 오텍이 생산하는 -200Pa 압력차·H14급 헤파필터 적용 감염병 이송용 특수형 앰뷸런스
 * [의료서비스컨설팅(MSO)](/products/의료서비스컨설팅_MSO) - 모발이식 전문병원 대상 경영컨설팅·마케팅·시설관리 서비스
+* [의사랑](/products/의사랑) - 유비케어(GC메디아이)의 국내 요양기관 EMR(전자의무기록) 시장 점유율 1위 솔루션 브랜드
 * [이가탄F](/products/이가탄F) - 명인제약의 잇몸질환치료제 대표 일반의약품 브랜드
 * [이산화티타늄](/products/이산화티타늄) - 코스모화학이 제조하는 백색안료용 이산화티타늄(아나타제·루타일) — 국내 유일 생산, 국내 범용 아나타제 시장 약 70% 점유, 대표상표 COTIOX
 * [이앙기](/products/이앙기) - 대동 농기계부문의 벼 모내기(이앙)용 농업기계로, 트랙터·콤바인과 함께 핵심 3대 기종
@@ -792,6 +802,7 @@
 * [철도차량 알루미늄 프레임](/products/철도차량_알루미늄_프레임) - 알루코가 국내 독점 생산하는 지하철·경전철 등 철도차량용 알루미늄 압출 프레임
 * [철판 (열연강판)](/products/철판) - 한일철강의 주력 제품 — 자동차·선박기계·건설·보일러 및 구조물용 열연 철판류
 * [청하](/products/청하) - 롯데칠성음료의 대표 청주 브랜드, 국내 청주 시장 1위 제품
+* [체외진단의료기기](/products/체외진단의료기기) - HLB생명과학 메디케어사업 부문의 체외진단용 의료기기 및 기타 의료용기기
 * [초고압변압기](/products/초고압변압기) - 발전·송전 단계의 전압을 변환하는 초고압(EHV) 전력변압기
 * [초고압케이블](/products/초고압케이블) - 154kV급 이상 고전압 송·배전에 쓰이는 전력케이블로, 대한전선이 국내 2위·500kV 턴키 역량을 보유한 핵심 주력 제품
 * [초정밀지향마운트](/products/초정밀지향마운트) - 파동(하모닉) 감속기 기반 1초각(arcsec) 정밀도의 천문 관측·정찰위성 탐색용 지향 마운트
@@ -812,6 +823,7 @@
 * [캔박카스](/products/캔박카스) - 동아에스티가 판매하는 에너지드링크 상품 — 해외사업부문 핵심 수출품
 * [케라시스](/products/케라시스) - 애경산업의 대표 헤어케어(샴푸) 브랜드
 * [케이씨티시 양곡부두 하역](/products/케이씨티시 양곡부두 하역) - 케이씨티시가 운영하는 부산항 유일의 사일로 시설 기반 양곡(밀·옥수수) 하역 서비스
+* [케이캡](/products/케이캡) - 에이치케이이노엔의 국내 30호 신약, 소화성궤양용제(P-CAB) 시장점유율 1위
 * [케토톱](/products/케토톱) - 한독의 케토프로펜 함유 진통소염 패치(플라스타)·겔 대표 브랜드
 * [켈리](/products/켈리) - 하이트진로의 프리미엄 라거 맥주 브랜드 — 2023년 출시, 누적 약 7.6억병 판매
 * [코대원](/products/코대원) - 대원제약의 진해거담제 브랜드 — 코대원포르테/에스, 제약부문 최대 매출 품목
