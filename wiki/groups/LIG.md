@@ -3,7 +3,7 @@ type: Corporate Group
 title: LIG그룹
 description: 방위산업(LIG디펜스앤에어로스페이스)을 핵심 계열사로 둔 기업집단 — 지주회사 (주)엘아이지 중심
 controlling_person: 구본상
-member_companies: [/companies/LIG디펜스앤에어로스페이스, /companies/주식회사엘아이지, /companies/엘아이지정밀기술]
+member_companies: [/companies/LIG디펜스앤에어로스페이스, /companies/주식회사엘아이지, /companies/엘아이지정밀기술, /companies/LIG아큐버, /companies/엘아이지시스템, /companies/동아일렉콤, /companies/명성라이픽스]
 tags: [기업집단, LIG]
 timestamp: 2026-07-03T00:00:00Z
 ---
@@ -23,10 +23,10 @@ KOSPI 079550)를 핵심 계열사로 하는 기업집단이다. 모태는 1976�
 | [LIG디펜스앤에어로스페이스](/companies/LIG디펜스앤에어로스페이스) | 38.01% | 핵심 계열사, 방산(KOSPI 079550) |
 | [엘아이지정밀기술](/companies/엘아이지정밀기술) | - (LIG디펜스앤에어로스페이스 종속) | 방산 전자부품, 비상장 |
 | (주)엘아이지휴세코 | 100.00% | 완전자회사 |
-| (주)엘아이지시스템 | 100.00% | 완전자회사 |
-| (주)이노와이어리스 | 30.00% | 지분법 관계기업 |
+| [엘아이지시스템](/companies/엘아이지시스템) | 100.00% | 완전자회사 |
+| [LIG아큐버](/companies/LIG아큐버) | 30.00% | 지분법 관계기업, 舊 이노와이어리스(KOSDAQ 073490) |
 | (주)엘아이지홈앤밀 | 94.12% | 舊 호박패밀리 |
-| (주)동아일렉콤 | 57.60% | 2025.7 인수 |
+| [동아일렉콤](/companies/동아일렉콤) | 57.60% | 2025.7 인수 |
 | PT SINARMAS HUSECO INDONESIA | 87.57% | 해외 종속회사(2025.8 인수) |
 | Ghost Robotics Corporation | 60%(LNGR LLC 경유) | 미국 로봇업체, LIG디펜스앤에어로스페이스 종속 |
 

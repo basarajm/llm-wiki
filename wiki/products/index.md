@@ -18,6 +18,7 @@
 * [AXLE (리어액슬)](/products/AXLE_리어액슬) - 체시스의 주력 제품으로 차량 후단부에 장착되는 자동차 현가장치 부품
 * [BASSO](/products/BASSO) - SG세계물산이 1989년 출시한 남성정장 대표 브랜드 (BASSO·BASSO homme)
 * [BIZBOX](/products/BIZBOX) - 더존비즈온의 그룹웨어·업무 플랫폼 브랜드
+* [Black Powder](/products/Black_Powder) - 전기차 배터리 스크랩에서 추출한 2차전지 양극재 원료
 * [BLOW 용기](/products/BLOW용기) - 한국석유공업이 화성 공장에서 자체 생산하는 합성수지 BLOW 용기(BLOW Bottles) — 2025년 국내 점유율 18.0%, 정밀화학 대용량 용기로 시장 확대
 * [Bobcat Compact Equipment](/products/Bobcat_Compact_Equipment) - 두산밥캣의 소형 건설기계·농업조경 장비 제품군 (Skid-Steer Loader, Mini Excavator 등)
 * [BOPP 이축연신필름](/products/BOPP_이축연신필름) - 식품포장용 이축연신 폴리프로필렌(BOPP) 필름 — 삼영 청주공장 생산, 전체 매출 19.7%·국내 점유율 약 17%
@@ -50,6 +51,7 @@
 * [CXL 메모리](/products/CXL메모리) - CXL(Compute Express Link) 인터페이스 기반 용량 확장형 메모리 — SK하이닉스 CMM-DDR5 라인업
 * [d'Alba 미스트](/products/d'Alba_미스트) - 달바글로벌의 화이트 트러플 스프레이 세럼(미스트) 제품군, 화장품 부문 최대 매출 품목
 * [DC-Link 커패시터](/products/DC-Link_커패시터) - 전기차·하이브리드차 인버터·컨버터의 고전압 전력변환에 쓰이는 전장용 필름 커패시터
+* [DDI 후공정(Bumping/Test)](/products/DDI_후공정) - 디스플레이 구동칩(DDI) 등 비메모리 반도체의 Bumping·패키징·테스트 후공정 서비스
 * [DGI 영상보안장비(DVR·NVR·IP카메라)](/products/DGI_영상보안장비) - 디지아이티엑스가 개발·생산·판매하는 영상감시·저장 장비(DVR·NVR·IP카메라)
 * [DNT/MNB](/products/DNT_MNB) - 폴리우레탄 중간소재로 사용되는 정밀화학 제품(TKG휴켐스 NT계열)
 * [Door Trim](/products/Door_Trim) - 자동차 도어 내장 트림 부품
@@ -81,6 +83,7 @@
 * [Galaxy 스마트폰](/products/Galaxy_스마트폰) - 삼성전자 모바일경험(MX) 사업의 스마트폰 브랜드 — Galaxy S·Z 시리즈와 Galaxy AI, 글로벌 수량 기준 상위 점유율
 * [Gas 공급장치](/products/Gas_공급장치) - 반도체·디스플레이 공정에 필요한 원료 가스를 지정 압력으로 공급하는 장치
 * [GFzyme Proteinase K](/products/GFzyme-Proteinase-K) - HLB제넥스가 국산화에 성공한 분자진단·유전공학 실험용 효소
+* [Glassom (LCD 셀 보호막)](/products/Glassom_LCD셀보호막) - 나노캠텍의 LCD Glass Cell 운송용 간지 및 보호막 제품
 * [GMT](/products/GMT) - 한화첨단소재(한화솔루션 첨단소재 부문)의 자동차 경량복합소재 GMT — 세계시장 점유율 약 63%(세계 1위, 2025, 회사 추정)
 * [Green-Cap](/products/Green-Cap) - 삼화전기의 전기이중층콘덴서(EDLC) 브랜드 — 급속 충방전·반영구 수명의 에너지 저장 소자
 * [GS SHOP](/products/GS_SHOP) - GS리테일이 운영하는 홈쇼핑 브랜드로 홈쇼핑 시장 취급액 약 20% 점유 추정
@@ -115,12 +118,15 @@
 * [Lactazyme-B](/products/Lactazyme-B) - HLB제넥스가 개발한 유제품 가공용 락타아제(갈락토올리고당 제조 효소)
 * [LAMI FABRIC](/products/LAMI FABRIC) - 일정실업의 자동차 시트용 라미네이팅 원단(LAMI FABRIC). 별도 매출의 약 64%를 차지하는 최대 매출 제품으로 현대자동차 등 완성차·시트 제조사에 납품.
 * [LAMINATED 칼라강판](/products/LAMINATED_칼라강판) - 전기아연도금강판 등을 소재로 표면에 필름을 라미네이팅한 가전제품 외장용 코팅강판
+* [LB인베스트먼트 벤처투자조합](/products/LB인베스트먼트_벤처투자조합) - LB인베스트먼트가 결성·운용하는 벤처투자조합(VC펀드) 라인업
 * [LG에너지솔루션 배터리](/products/LG에너지솔루션_배터리) - LG에너지솔루션의 EV용·ESS용·소형 Application용 리튬이온배터리
 * [LG전자 디지털 사이니지](/products/LG전자_디지털사이니지) - LED 기반 등 LG전자 MS부문 인포메이션 디스플레이(ID) B2B 사이니지 제품군
 * [LG전자 모니터](/products/LG전자_모니터) - 게이밍·OLED·스마트 모니터 등 LG전자 MS부문 IT 디스플레이 제품군
 * [LG전자 차량 인포테인먼트(AV/AVN)](/products/LG전자_차량인포테인먼트) - 차량용 디스플레이 오디오·내비게이션(AV/AVN) — LG전자 VS부문 인포테인먼트
 * [LIB 양극집전체용 알루미늄박](/products/LIB_양극집전체용_알루미늄박) - 리튬이온배터리 양극 활물질과 외부 회로 간 전자 이동 통로 역할을 하는 양극집전체(양극박)용 알루미늄박
 * [LiPF6 (육불화인산리튬)](/products/LiPF6) - 이차전지 전해질의 핵심 소재인 리튬염
+* [LK삼양 교환렌즈](/products/LK삼양_교환렌즈) - LK삼양이 개발·생산하는 카메라용 교환렌즈(MF·AF·XEEN 시리즈)
+* [LK삼양 열화상카메라](/products/LK삼양_열화상카메라) - LK삼양의 열화상 카메라 기반 화재 감지·설비 모니터링 솔루션
 * [LLOYD](/products/LLOYD) - 이월드 쥬얼리사업부의 골드·실버 쥬얼리 및 시계 브랜드
 * [LM가이드](/products/LM가이드) - 레일과 블록 사이 볼의 구름 운동으로 무거운 물체를 직선으로 정밀 이동시키는 직선운동(LM) 기계요소부품
 * [LNG 보냉재](/products/LNG_보냉재) - LNG운반선 화물창의 초저온 단열을 담당하는 절연·보냉 복합소재
@@ -133,6 +139,7 @@
 * [LX하우시스 바닥재](/products/LX하우시스_바닥재) - LX하우시스의 PVC 바닥재 및 인테리어 마감재 제품군
 * [LX하우시스 자동차소재부품](/products/LX하우시스_자동차소재부품) - LX하우시스의 자동차용 원단·경량화 부품 및 데코시트·가전필름 등 산업용 필름
 * [LX하우시스 창호](/products/LX하우시스_창호) - LX하우시스의 플라스틱·알루미늄 창호 제품군 (Z:IN 브랜드)
+* [MagGuard](/products/MagGuard) - KZ정밀의 자체 브랜드 원심펌프(마그네틱 드라이브 펌프 계열)
 * [MARVEL Contest of Champions](/products/MARVEL_Contest_of_Champions) - 넷마블(카밤) 개발·퍼블리싱하는 마블 IP 기반 모바일 대전 액션게임
 * [Mattress-in-a-Box](/products/Mattress-in-a-Box) - 매트리스를 소형 박스에 압축 포장해 배송하는 온라인 유통 특화 포장 방식 및 제품군
 * [MDF](/products/MDF) - 중밀도 섬유판(Medium Density Fiberboard) — 가구·건축 내장재용 목질판상재
@@ -150,9 +157,11 @@
 * [MRO 구매대행](/products/MRO구매대행) - 플레이그램 지배회사가 직접 영위하는 기업 통합구매대행(MRO) 서비스 — 연결 구매대행 매출비중 22.37%
 * [MUFFLER(소음기)](/products/MUFFLER) - 자동차 배기가스 소음을 줄이는 배기계 부품
 * [NAND Flash](/products/NAND_Flash) - 비휘발성 메모리 반도체 — SSD·모바일 저장장치 등에 사용되는 데이터 저장용 메모리
+* [Nanos (도전성 소재)](/products/Nanos_도전성소재) - 나노캠텍의 도전성 플라스틱 쉬트·레진 등 대표 도전성 소재 제품군
 * [NAVER Cloud Platform](/products/NAVER_Cloud_Platform) - NAVER의 IaaS·PaaS·SaaS 통합 클라우드 플랫폼
 * [NBA (한세엠케이 브랜드)](/products/NBA) - 한세엠케이가 라이선스 운영하는 NBA 스트리트 캐주얼·키즈 브랜드
 * [NDX PRO AI](/products/NDX_PRO_AI) - 온톨로지 기반 AI 디지털 트윈 플랫폼
+* [NEW 영화상품](/products/NEW_영화상품) - NEW가 투자·배급하는 극장 상영용 영화 콘텐츠
 * [NH올원리츠 수익증권](/products/NH올원리츠_수익증권) - NH올원리츠가 발행한 상장 보통주(리츠 주식) 및 배당 상품
 * [NICE BizLINE](/products/NICE_BizLINE) - NICE평가정보의 온라인 기업정보 제공 서비스(구 KISLINE)
 * [NICE(NIPT)](/products/NICE_NIPT) - 이원다이애그노믹스(EDGC)의 비침습 산전 진단검사(NIPT) 서비스 브랜드
@@ -214,6 +223,7 @@
 * [STANDARD M](/products/STANDARD_M) - 에스디바이오센서의 PCR 기반 중앙검사실용 분자진단 시약 브랜드
 * [STANDARD Q](/products/STANDARD_Q) - 에스디바이오센서의 항원-항체 반응 기반 신속진단(POCT) 브랜드
 * [StarKist](/products/StarKist) - 동원산업의 미국 자회사 StarKist Co.가 생산하는 참치 통조림·파우치 브랜드. 미국 참치 시장 약 46% 점유율 1위.
+* [STARVAL](/products/STARVAL) - KZ정밀의 자체 브랜드 산업용 밸브(Chemical Plant Valve, 주로 BALL VALVE)
 * [STERLINK](/products/STERLINK) - 플라즈맵의 플라즈마 기반 저온멸균기 제품군(Premium/Universal 라인업)
 * [STS관](/products/STS관) - 건축·플랜트·조선용 스테인레스관(Stainless Steel Welded Pipes) — LS메탈 국내 점유율 16%
 * [STX엔진 디젤엔진 (STX-MAN)](/products/STX엔진_디젤엔진) - 선박용·발전용 디젤엔진 제품군, MAN Diesel 라이선스 기반
@@ -902,6 +912,7 @@
 * [포브](/products/포브) - 동인기연이 2006년 론칭한 국내 유아용품 브랜드 (카시트·아기띠)
 * [포터](/products/포터) - 현대자동차의 1톤급 소형 상용 트럭 — 국내 대표 상용차
 * [포토마스크 (Photomask)](/products/포토마스크) - 디스플레이 패널 회로 패턴을 노광 공정에 전사하는 정밀 마스크 — OLED 등 프리미엄 디스플레이용
+* [폴더블 힌지](/products/폴더블_힌지) - 폴더블 스마트폰의 접이식 메커니즘을 구현하는 정밀 금속가공 힌지 부품
 * [폴리머안정제](/products/폴리머안정제) - 플라스틱·고분자의 열화·산화를 방지하는 첨가제(산화방지제) — 송원산업이 세계 수요점유율 약 22%로 세계 2위
 * [폴리에스터 직물(가공단)](/products/폴리에스터_직물) - 성안머티리얼스가 STARTEX·SOFSIL 브랜드로 생산·수출하는 의류·비의류용 폴리에스터(PET) 직물
 * [폴리에스터 필라멘트(ACEPORA)](/products/폴리에스터_필라멘트_ACEPORA) - 대한화섬이 울산공장에서 생산하는 직물용 폴리에스터 원사로, 대표상표는 ACEPORA
@@ -946,6 +957,7 @@
 * [한솔테크닉스 태양광모듈](/products/한솔테크닉스_태양광모듈) - 고효율·특수형 태양광 모듈 — 한솔테크닉스가 국내시장에서 견고한 위치를 점유하는 친환경 제품
 * [한솔테크닉스 파워보드](/products/한솔테크닉스_파워보드) - TV·생활가전용 파워모듈/파워보드 — 한솔테크닉스 전자부품 사업의 중심 제품군(연결매출 41.5%, 최대 부문)
 * [한신더휴](/products/한신더휴) - 한신공영의 아파트 주거 브랜드 (THE HUE) — 분양·도시정비(재개발·재건축) 주택
+* [한일오닉스 주방기기](/products/한일오닉스_주방기기) - 종속회사 한일오닉스가 제조·판매하는 주방기기 제품군
 * [한진택배](/products/한진택배) - 한진이 운영하는 B2C·B2B 택배 배송 브랜드 (개인고객 익일택배 및 기업 물량 배송)
 * [한창제지 백판지](/products/한창제지_백판지) - 한창제지의 주력 제품인 마닐라 판지·백판지(산업용 고급 포장용지). 별도 매출의 99.7%를 차지하며, 추정 국내 내수 시장점유율 약 20.2%(2025).
 * [한화리츠 오피스임대](/products/한화리츠_오피스임대) - 한화리츠가 6개 오피스 사옥에서 얻는 임대료·관리수익·주차수익
