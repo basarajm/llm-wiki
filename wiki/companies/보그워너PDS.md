@@ -1,0 +1,18 @@
+---
+type: Company
+title: 보그워너PDS
+description: KBI메탈 전장사업부의 주요 고객사(자동차 전장부품)
+industry: 자동차부품
+is_stub: true
+tags: [기업, 자동차부품]
+timestamp: 2026-07-06T00:00:00Z
+---
+
+## 사업 개요
+
+보그워너PDS는 [KBI메탈](/companies/KBI메탈) 전장사업부의 주요 거래처로, CORE 및 전장품(ALTERNATOR·
+STARTER MOTOR 등)을 공급받는다. 글로벌 자동차 부품기업 보그워너(BorgWarner) 계열로 추정(미확인).
+
+# Citations
+
+- [KBI메탈 2025 사업보고서](/sources/KBI메탈_2025_사업보고서)

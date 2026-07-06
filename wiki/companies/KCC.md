@@ -30,7 +30,7 @@ source_count: 1
 ## 산업 및 그룹
 
 - 산업: [화학](/industries/화학)
-- 그룹: [KCC그룹](/groups/KCC) — 계열사: [KCC글라스](/companies/KCC글라스)
+- 그룹: [KCC그룹](/groups/KCC) — 계열사: [KCC글라스](/companies/KCC글라스), [KCC건설](/companies/KCC건설)(최대주주 36.03%)
 
 ## 재무 하이라이트
 

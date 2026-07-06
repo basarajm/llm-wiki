@@ -2,7 +2,7 @@
 type: Corporate Group
 title: KG
 description: 화학·비료·자동차·미디어·전자결제·철강을 아우르는 KG그룹(동일인 곽재선)
-member_companies: [/companies/KG케미칼, /companies/KG모빌리티, /companies/KG스틸, /companies/KG에코솔루션]
+member_companies: [/companies/KG케미칼, /companies/KG모빌리티, /companies/KG스틸, /companies/KG에코솔루션, /companies/KG이니시스, /companies/KG파이낸셜]
 tags: [기업집단, KG]
 timestamp: 2026-06-28T00:00:00Z
 ---
@@ -19,7 +19,9 @@ KG에듀원), 철강(KG스틸), 완성차([KG모빌리티], 구 쌍용자동차)
 - [KG모빌리티](/companies/KG모빌리티) — 완성차(SUV·픽업), 구 쌍용자동차, KG에코솔루션 54.35% 보유 (KOSPI 003620)
 - [KG스틸](/companies/KG스틸) — 냉연·아연도·칼라·석도강판 철강 전문회사(구 동부제철), 최대주주 [KG에코솔루션](/companies/KG에코솔루션) 44.98% (KOSPI, 1986년 상장)
 - [KG에코솔루션](/companies/KG에코솔루션) — KG스틸 최대주주(44.98%)·KG모빌리티 지분(54.35%) 보유 비상장 중간지주 (stub)
-- KG이니시스·KG모빌리언스·KG에듀원·이데일리 등 계열 (향후 노드화)
+- [KG이니시스](/companies/KG이니시스) — 전자지불결제대행(PG) 전문 KOSDAQ 상장사, 최대주주 KG케미칼(40.09%), 2025년 연결 매출 1조 3,589억원
+- [KG파이낸셜](/companies/KG파이낸셜) — 전자결제(PG)·선불결제(모빌리언스카드)·MVNO(KG모바일)·교육사업, 구 KG모빌리언스, 최대주주 KG이니시스(51.45%) (KOSDAQ 046440)
+- KG에듀원·이데일리 등 계열 (향후 노드화)
 
 ## 지배구조
 
