@@ -1,0 +1,20 @@
+---
+type: Company
+title: HY모빌리티
+description: hy그룹 계열 비상장 모빌리티 법인
+market: Private
+industry: 모빌리티
+group: /groups/hy그룹
+is_stub: true
+tags: [기업, hy그룹]
+timestamp: 2026-07-08T00:00:00Z
+source_count: 1
+---
+
+## 사업 개요
+
+(주)HY모빌리티는 hy그룹의 비상장 계열회사이다. NE능률 2025년 사업보고서상 hy 계열회사 목록에 기재되어 있다.
+
+# Citations
+
+- [NE능률 2025 사업보고서](/sources/NE능률_2025_사업보고서)
