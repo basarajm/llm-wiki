@@ -21,6 +21,7 @@
 * [AGE20's](/products/AGE20's) - 애경산업의 에센스파운데이션 대표 화장품 브랜드
 * [AgensGraph](/products/AgensGraph) - SKAI(舊 비트나인)의 그래프 데이터베이스 제품
 * [AgensSQL](/products/AgensSQL) - SKAI(舊 비트나인)의 관계형 데이터베이스 제품
+* [AI VINU](/products/AI_VINU) - 에이럭스의 언플러그드 코딩 교육 로봇, CES 2024 로보틱스 부문 혁신상 수상
 * [AI Worker](/products/AI_Worker) - 로보티즈의 피지컬 AI 기반 양팔 작업형 휴머노이드 로봇
 * [AIONCLOUD](/products/AIONCLOUD) - 모니터랩의 SECaaS 기반 클라우드 보안(SSE) 구독 서비스 플랫폼
 * [AIONE](/products/AIONE) - SKAI의 AI 마케팅 콘텐츠 자동화 솔루션
@@ -350,6 +351,7 @@
 * [RemoteMeeting](/products/RemoteMeeting) - 알서포트의 화상회의 서비스
 * [RemoteView](/products/RemoteView) - 알서포트의 원격제어 서비스
 * [RENDY FABRIC](/products/RENDY FABRIC) - 일정실업의 가구용 직물 브랜드(RENDY FABRIC). 별도 매출의 약 20%를 차지하는 비(非)자동차 최대 제품으로 전량 수출(미국 VALDESE 등).
+* [RETINA-4FN/RETINA-6F 이미징 레이다](/products/RETINA_이미징레이다) - 스마트레이더시스템의 자율주행·ADAS용 4D 이미징 레이다 제품군
 * [RF 필터 파운드리(TF-SAW)](/products/RF_필터_파운드리_TF-SAW) - 쏘닉스의 4인치 LT / 6인치 TF-SAW 웨이퍼 기반 RF 필터 파운드리 제품
 * [RGN-259](/products/RGN-259) - HLB테라퓨틱스 자회사 ReGenTree가 개발 중인 안구건조증·신경영양성각막염 치료제
 * [RMS/POP BPO 솔루션](/products/RMS_POP_BPO솔루션) - 세중 에스앤씨사업부의 비대면 Pre-Sales 관리 및 매장 디지털 사이니지 솔루션
@@ -418,6 +420,7 @@
 * [Tuznue (HD201)](/products/Tuznue) - 프레스티지바이오파마의 허셉틴 바이오시밀러, 2024년 EU 품목허가 획득
 * [TVS 반도체](/products/TVS_반도체) - 전자기기의 신호·전원 단자를 정전기 방전(ESD)·과전류로부터 보호하는 서지보호 소자
 * [UTG(초박형강화유리)](/products/UTG(초박형강화유리)) - 폴더블 디스플레이 커버윈도우에 적용되는 초박형 강화유리(Ultra Thin Glass)
+* [UviMax DHHB](/products/UviMax DHHB) - 에이에스텍의 자외선 차단제 원료(UV 필터), DHHB(디에틸아미노 하이드록시벤조일 헥실벤조에이트) 기반
 * [V/Spool](/products/V_Spool) - 자동변속기(Auto T/M) Valve Body에 조립되는 유압제어부품
 * [VAIV Agent](/products/VAIV_Agent) - 바이브컴퍼니의 자율 업무수행형 AI 에이전트 솔루션
 * [VAIV Search](/products/VAIV_Search) - 바이브컴퍼니의 Agentic RAG 기반 차세대 검색 솔루션
@@ -434,6 +437,7 @@
 * [XARVIS(자비스)](/products/XARVIS) - 에스투더블유의 국가안보·범죄수사 빅데이터 분석 플랫폼
 * [XComPro·XGemPro](/products/XComPro_XGemPro) - 링크제니시스의 SECS/GEM 통신 드라이버 소프트웨어
 * [Xi옵션](/products/Xi옵션) - 자이에스앤디가 아파트 입주자에게 판매·설치하는 시스템에어컨 등 빌트인가전 옵션 상품
+* [X-MAZE](/products/X-MAZE) - 에이럭스의 근거리 정찰 방산 드론, KOLAS·KCMVP 인증 보유
 * [XoMotion](/products/XoMotion) - 베노티앤알(관계기업 Human in Motion Robotics)이 개발한 재활치료용 외골격 웨어러블 로봇
 * [Zenius EMS](/products/Zenius_EMS) - 브레인즈컴퍼니의 IT 인프라 통합관리 솔루션 제품군
 * [가공직물](/products/가공직물) - 방림의 면방 주력 제품 — 원면·생지를 염색·표백·날염 가공한 면직물·염색원단으로, 별도 매출의 81.8%를 차지하는 대표 상품
@@ -460,6 +464,7 @@
 * [강판](/products/강판) - 부국철강의 주력 철강 판재 제품
 * [개별공조 케이지 시스템](/products/개별공조_케이지_시스템) - 오리엔트바이오가 독자 개발한 실험동물 사육용 개별공조 케이지 시스템(MSRS) — 2005년 세계일류상품 선정 수출품
 * [건설사업관리(CM) 서비스](/products/건설사업관리_서비스) - 발주자를 대신해 건설 프로젝트 기획·설계·시공·감리·사후관리를 대행하는 기술용역 서비스
+* [건식세정장비(AP플라즈마·USC)](/products/건식세정장비(AP플라즈마·USC)) - 반도체·디스플레이·2차전지 제조공정용 건식세정장비(대기압 플라즈마, 초음파 건식 세정기 등)
 * [건축용도료](/products/건축용도료) - 건물 내·외장 마감에 사용되는 건축용 도료(인테리어·내화도료 포함) — 삼화페인트공업의 전통적 주력 도료군
 * [게보린](/products/게보린) - 삼진제약의 대표 일반의약품(OTC) 소염진통제 브랜드 — 정제
 * [겔포스](/products/겔포스) - 보령의 일반의약품(OTC) 위장약 대표 브랜드 — 위 점막보호 제산제, 겔포스엠·겔포스엘로 라인업 확장
@@ -1166,6 +1171,7 @@
 * [주연테크 데스크탑PC](/products/주연테크_데스크탑PC) - 주연테크의 자체 브랜드 데스크탑PC 및 PC 본체 제품군
 * [주크](/products/주크) - 대현의 여성복 브랜드, 2025년 매출 비중 26.58%
 * [죽산목공소](/products/죽산목공소) - 스튜디오삼익의 엔틱 스타일 원목가구 브랜드
+* [중앙전해액공급시스템(CESS)](/products/중앙전해액공급시스템(CESS)) - 2차전지 생산설비에 전해액을 중앙집중 공급하는 시스템, 에이아이코리아 핵심 제품
 * [지관용원지](/products/지관용원지) - 화섬·면방 섬유봉·실패의 원자재로 쓰이는 고평량 지관용원지 — 블루산업개발 제지부문 핵심 품목, 국내 점유율 약 17%(제56기)
 * [지역난방(열) 공급](/products/지역난방_열공급) - 열병합발전·집단에너지시설을 통한 주택·업무·공공용 난방열 공급 서비스
 * [지크](/products/지크) - 신원이 전개하는 20~30대 남성 타깃 패션 브랜드(SIEG)
@@ -1219,6 +1225,7 @@
 * [켈리](/products/켈리) - 하이트진로의 프리미엄 라거 맥주 브랜드 — 2023년 출시, 누적 약 7.6억병 판매
 * [코대원](/products/코대원) - 대원제약의 진해거담제 브랜드 — 코대원포르테/에스, 제약부문 최대 매출 품목
 * [코데날](/products/코데날) - 삼아제약의 진해거담제, 정제(코데날정)·액제(코데날액) 제형으로 판매되는 호흡기계 브랜드
+* [코드드론 (CodeDrone)](/products/코드드론) - 에이럭스가 개발한 교육용 AI 드론, FC·ESC·모터 일체형 자체 플랫폼 탑재
 * [코딩스토리](/products/코딩스토리) - 로보로보의 하드웨어 조립 최소화·소프트웨어 중심 저가형 코딩 교육 브랜드
 * [코레나 프리미엄](/products/코레나_프리미엄) - 바이오비쥬의 리도카인 함유 히알루론산 필러(조직수복용 생체재료) 자사 브랜드 제품
 * [코리아써키트 FPCB](/products/코리아써키트_FPCB) - 코리아써키트(인터플렉스)의 연성인쇄회로기판 — 스마트폰·카메라모듈·OLED용 FPCB
