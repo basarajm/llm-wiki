@@ -2,7 +2,7 @@
 type: Corporate Group
 title: KT그룹
 description: 통신(MNO)을 모태로 위성방송·카드·컨택센터 등으로 확장한 KT그룹
-member_companies: [/companies/케이티, /companies/KTis, /companies/케이티스카이라이프, /companies/비씨카드, /companies/KTcs, /companies/케이티에이치씨엔, /companies/케이티이엔에이, /companies/케이티샛, /companies/KT밀리의서재, /companies/케이티지니뮤직, /companies/케이티스튜디오지니]
+member_companies: [/companies/케이티, /companies/KTis, /companies/케이티스카이라이프, /companies/비씨카드, /companies/KTcs, /companies/케이티에이치씨엔, /companies/케이티이엔에이, /companies/케이티샛, /companies/KT밀리의서재, /companies/케이티지니뮤직, /companies/케이티스튜디오지니, /companies/KT나스미디어]
 tags: [기업집단, 통신, KT그룹]
 timestamp: 2026-07-04T00:00:00Z
 ---
@@ -28,6 +28,7 @@ KT그룹은 국내 이동통신 3사 중 하나인 종합 통신사업자 [케�
 | [KT밀리의서재](/companies/KT밀리의서재) | 전자책 구독 플랫폼 '밀리의서재' (KOSDAQ 418470), 공정거래법상 계열편입 유예 법인(2028.09.29까지) | 비핵심 |
 | [케이티지니뮤직](/companies/케이티지니뮤직) | 음악 스트리밍·음원 유통 (비상장), KT밀리의서재 최대주주(38.41%) | 비핵심 |
 | [케이티스튜디오지니](/companies/케이티스튜디오지니) | 콘텐츠 제작·투자 (비상장), 케이티지니뮤직 최대주주(35.97%) | 비핵심 |
+| [KT나스미디어](/companies/KT나스미디어) | 디지털 광고 매체판매대행 (KOSDAQ 089600), 舊 나스미디어(2025.03 상호변경), 케이티 최대주주(43.06%) | 비핵심 |
 
 ## 지배구조
 
@@ -39,6 +40,7 @@ KT그룹은 국내 이동통신 3사 중 하나인 종합 통신사업자 [케�
 - [케이티](/companies/케이티)가 [케이티스튜디오지니](/companies/케이티스튜디오지니)의 지분 90.91%를 보유.
 - [케이티스튜디오지니](/companies/케이티스튜디오지니)가 [케이티지니뮤직](/companies/케이티지니뮤직)의 최대주주(지분 35.97%).
 - [케이티지니뮤직](/companies/케이티지니뮤직)이 [KT밀리의서재](/companies/KT밀리의서재)의 최대주주(지분 38.41%, 2021.09 지분인수로 편입).
+- [케이티](/companies/케이티)가 [KT나스미디어](/companies/KT나스미디어)의 최대주주(지분 43.06%, 최근 5개년 변동 없음).
 - 그 외 계열사 간 출자 관계는 미확인(후속 ingest 시 보강 필요).
 
 # Citations
@@ -47,3 +49,4 @@ KT그룹은 국내 이동통신 3사 중 하나인 종합 통신사업자 [케�
 - [케이티스카이라이프 2025 사업보고서](/sources/케이티스카이라이프_2025_사업보고서)
 - [케이티 2025 사업보고서](/sources/케이티_2025_사업보고서)
 - [KT밀리의서재 2025 사업보고서](/sources/KT밀리의서재_2025_사업보고서)
+- [KT나스미디어 2025 사업보고서](/sources/KT나스미디어_2025_사업보고서)
