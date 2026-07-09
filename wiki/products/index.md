@@ -76,6 +76,8 @@
 * [DGI 영상보안장비(DVR·NVR·IP카메라)](/products/DGI_영상보안장비) - 디지아이티엑스가 개발·생산·판매하는 영상감시·저장 장비(DVR·NVR·IP카메라)
 * [Diagnostic X-ray Stationary System](/products/Diagnostic_X-ray_Stationary_System) - 디알젬의 고정형 진단용 엑스선 촬영장치 제품군(GXR-S/SD, GXR-ES, DIAMOND, VXR 시리즈)
 * [DIPAS](/products/DIPAS) - 디엔에프의 DPT(Double Patterning Technology)용 반도체 패터닝 소재
+* [DK-Lok Fitting](/products/DK-Lok_Fitting) - 디케이락의 계장용 배관 이음쇠(Tube Fitting) 브랜드
+* [DK-Lok Valve](/products/DK-Lok_Valve) - 디케이락의 계장용 고압 밸브 브랜드
 * [DNT/MNB](/products/DNT_MNB) - 폴리우레탄 중간소재로 사용되는 정밀화학 제품(TKG휴켐스 NT계열)
 * [Door Trim](/products/Door_Trim) - 자동차 도어 내장 트림 부품
 * [DRAM](/products/DRAM) - 휘발성 메모리 반도체 — PC·서버·모바일·그래픽스 등에 광범위하게 사용되는 주기억장치
@@ -137,6 +139,7 @@
 * [HBM](/products/HBM) - AI 가속기용 고대역폭 메모리(High Bandwidth Memory) — DRAM 다이를 수직 적층한 초고성능 메모리
 * [HCDS](/products/HCDS) - 디엔에프의 저온 공정용 SiO/SiN 전구체 반도체 소재
 * [HDC(고집적세정장비)](/products/HDC_고집적세정장비) - DMS의 디스플레이 패널 증착 전 세정장비 — 전세계 Wet Cleaner 시장 약 20년간 점유율 1위(추정)
+* [HiCardi](/products/HiCardi) - 메쥬의 웨어러블 패치형 환자감시장치 및 홀터심전계 제품군
 * [HiFi ROSE](/products/HiFi_ROSE) - 씨아이테크의 자체 브랜드 프리미엄 네트워크 오디오 — 고음질 음원 재생과 네트워크 스트리밍을 결합한 하이파이오디오, 약 40개국 공급
 * [HLR/UDM](/products/HLR_UDM) - 이동통신 가입자의 위치 정보 및 프로파일 정보를 관리하는 음성핵심망 솔루션
 * [HL써밋스코어](/products/HL써밋스코어) - 대교의 초중등 수학 학습지 브랜드
@@ -277,6 +280,7 @@
 * [RDPLINE](/products/RDPLINE) - 비큐AI의 실시간 AI 학습 데이터 공급 플랫폼
 * [RENDY FABRIC](/products/RENDY FABRIC) - 일정실업의 가구용 직물 브랜드(RENDY FABRIC). 별도 매출의 약 20%를 차지하는 비(非)자동차 최대 제품으로 전량 수출(미국 VALDESE 등).
 * [RGN-259](/products/RGN-259) - HLB테라퓨틱스 자회사 ReGenTree가 개발 중인 안구건조증·신경영양성각막염 치료제
+* [RMS/POP BPO 솔루션](/products/RMS_POP_BPO솔루션) - 세중 에스앤씨사업부의 비대면 Pre-Sales 관리 및 매장 디지털 사이니지 솔루션
 * [Rotor Facing](/products/Rotor_Facing) - 브레이크 디스크 로터 표면가공 관련 자동차 마찰재 부품
 * [RUE KWAVE](/products/RUE_KWAVE) - 글로본이 전개하는 중국·동남아·중동향 K-뷰티 화장품 브랜드
 * [Samsung TV](/products/Samsung_TV) - 삼성전자 영상디스플레이 사업의 TV 완제품 — Neo QLED·OLED·The Frame 등, 글로벌 금액 기준 점유율 1위
@@ -291,6 +295,7 @@
 * [SG글로벌 자동차시트커버](/products/SG글로벌_자동차시트커버) - SG글로벌의 자동차시트커버(Seat Trim Cover) — 전사 매출의 62.8%를 차지하는 제1 주력 제품
 * [Shell 그리스](/products/Shell_그리스) - 한국쉘석유가 부산 용당 제유소에서 제조하는 Shell 브랜드 그리스 — 2025년 매출의 약 4.7%
 * [Shell 윤활유](/products/Shell_윤활유) - 한국쉘석유가 부산 용당 제유소에서 제조하는 Shell 브랜드 윤활유 — 2025년 매출의 약 80%
+* [Siemens PLM 소프트웨어(NX·Solid Edge·TeamCenter)](/products/Siemens_PLM_소프트웨어) - 세중이 국내 총판을 담당하는 Siemens의 제품수명관리(PLM) 소프트웨어 제품군
 * [SK매직](/products/SK매직) - SK네트웍스(SK인텔릭스)의 환경가전 제조·렌탈 대표 브랜드 — 정수기·공기청정기·식기세척기 등
 * [SK시그넷 급속충전기](/products/SK시그넷_급속충전기) - 병렬모듈형 분산제어 방식의 50kW~600kW급 전기차 급속·초급속 충전기 (V2 플랫폼)
 * [SK텔레콤 5G](/products/SK텔레콤_5G) - SK텔레콤의 5G 이동통신 서비스 (T, 5GX, T플랜 등)
@@ -312,6 +317,7 @@
 * [STX엔진 특수엔진 (STX-MTU)](/products/STX엔진_특수엔진) - K1전차·K9자주포 등 육군 궤도차량 및 함정용 특수고속엔진, MTU 라이선스 기반
 * [SUN&L 목창호(도어)](/products/SUN&L_목창호) - SUN&L 인테리어 부문의 대표 제품 — 목창호(목재 도어). 국내 최대 목창호 생산·시공업체로 평가
 * [SUN&L 펌프 디스펜서·트리거 스프레이어](/products/SUN&L_펌프디스펜서) - SUN&L 생활용품 부문의 대표 제품 — 플라스틱 펌프 디스펜서·트리거 스프레이어. 국내 펌프 디스펜서·스프레이 시장 점유율 약 63%(2025년 추정)
+* [SWEEP](/products/SWEEP) - 세림B&G가 유통하는 산업용 로봇청소기 브랜드(푸두 로보틱스 파트너십)
 * [Synozol 반응성염료](/products/Synozol_반응성염료) - 경인양행의 반응성염료 브랜드로 화학·천연섬유·가죽제품 염색에 사용
 * [Sys Clein](/products/Sys_Clein) - 자이에스앤디가 시공·판매하는 환기형 공기청정기 브랜드
 * [TAPEX 이차전지용 테이프](/products/TAPEX_이차전지용_테이프) - 테이팩스가 생산하는 이차전지 안정성·수명 향상용 테이프 브랜드
@@ -508,6 +514,7 @@
 * [리바로](/products/리바로) - JW중외제약의 고지혈증(이상지질혈증) 치료제, 피타바스타틴 성분 대표 브랜드
 * [리박트](/products/리박트) - 삼일제약이 자체 개발·생산하는 성분영양제(간질환 영역 대표 제품)
 * [리액터](/products/리액터) - 에어컨·태양광·자동차 전장에 사용되는 에너지절감용 리액터 제품
+* [리체나(RICHENNA)](/products/리체나) - 세화피앤씨의 홈쇼핑 채널 염모제 브랜드
 * [리츠(REITs) 자산관리](/products/리츠_자산관리) - 부동산투자회사법에 의한 위탁관리 부동산투자회사(REITs) 자산관리회사(AMC) 업무
 * [리튬화합물](/products/리튬화합물) - 폐리튬 재활용·리튬수용액 추출을 통해 생산하는 고순도 리튬화합물
 * [리포락셀액](/products/리포락셀액) - 대화제약이 개발한 세계 최초 경구용 파클리탁셀 항암제(DHP107)
@@ -544,6 +551,7 @@
 * [모닝](/products/모닝) - 기아의 경차 대표 차종(승용 라인업)
 * [모두의주차장](/products/모두의주차장) - 쏘카가 운영하는 국내 최대 주차 공유·정보 플랫폼
 * [모듈부품](/products/모듈부품) - 현대위아의 차량부품 핵심 품목 — 플랫폼·샤시·타이어 모듈, 국내 자동차부품 모듈 분야 상위권 시장점유율
+* [모레모(moremo)](/products/모레모) - 세화피앤씨의 헤어·바디케어 화장품 브랜드
 * [모빌리언스카드](/products/모빌리언스카드) - KG파이낸셜의 휴대폰결제 연계 온/오프라인 겸용 선불 실물카드
 * [모이몰른](/products/모이몰른) - 한세엠케이의 북유럽 감성 유아동복 브랜드 (MOIMOLN)
 * [모조](/products/모조) - 대현의 여성복 브랜드, 2025년 매출 비중 26.78%(최대 매출 브랜드)
@@ -690,6 +698,7 @@
 * [세보프레인](/products/세보프레인) - 일성아이에스의 대표 전신마취제 — 흡입마취제(세보플루란)
 * [세븐나이츠 리버스](/products/세븐나이츠_리버스) - 넷마블의 대표 모바일 RPG 게임 라인업
 * [세븐에이트](/products/세븐에이트) - 동성제약의 대표 염모제(헤어 컬러) 브랜드
+* [세아메카닉스 TV 거치대(Stand·Wall Mount)](/products/세아메카닉스_TV거치대) - 세아메카닉스가 LG전자向으로 공급하는 알루미늄 다이캐스팅 TV Stand·Wall Mount·롤러블 구동 메커니즘 제품군
 * [세파계 API](/products/세파계 API) - 경보제약의 세파계 항생제 원료의약품(API) — 세프트리악손 등
 * [세파계 항생제](/products/세파계_항생제) - 영진약품의 세파계(cephalosporin) 항생제 원료(API)·완제·주사제 제품군, 일본 수출 주력
 * [센트레빌](/products/센트레빌) - 동부건설의 아파트 주거 브랜드 (Centreville) — 분양·도시정비(재건축·재개발) 주택
@@ -916,6 +925,7 @@
 * [자동화기기](/products/자동화기기) - 산업자동화 기기(PLC·인버터·HMI·자동화시스템) — LS일렉트릭 국내 점유율 31.4%
 * [자디앙](/products/자디앙) - 유한양행이 국내 판매하는 SGLT-2 억제제 계열 당뇨병 치료제 — 약품사업부문 처방약 단일 품목 매출 1위(매출비중 4.6%)
 * [자연N](/products/자연N) - 조광페인트의 건축용·중방식 도료 브랜드 — 별도 매출비중 15.7%
+* [자외선 차단 소재](/products/자외선_차단_소재) - 화장품용 자외선 차단 원료 소재 시장 및 주요 제조사
 * [자이](/products/자이) - GS건설의 프리미엄 아파트 브랜드(Xi) — 도시정비·분양주택 대표 브랜드
 * [자일리톨](/products/자일리톨) - 롯데웰푸드의 대표 껌 브랜드
 * [자큐보정](/products/자큐보정) - 제일약품이 개발한 국내 37호 신약 — P-CAB 계열 미란성 위식도역류질환 치료제
