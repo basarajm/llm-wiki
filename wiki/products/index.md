@@ -242,6 +242,7 @@
 * [LPG연료탱크](/products/LPG연료탱크) - LPG 차량용 연료탱크(LPG BOMBE) — 용접·프레스 제조 기술 기반 완성차 OEM 납품용 연료저장장치
 * [LPI System](/products/LPI_System) - LPG 연료를 엔진에 직접 분사하는 연료시스템 — 모토닉의 대표 주력 제품으로 국내 LPG 차량용 연료시스템 시장 주요 공급자
 * [LumirX](/products/LumirX) - 루미르가 개발한 초고해상도 초소형 X-Band SAR 인공위성
+* [LUNA 자동세포카운터](/products/LUNA_자동세포카운터) - 얼라인드제네틱스의 자동 세포 카운팅 시스템 제품군
 * [Luxteel·Appsteel 컬러강판](/products/Luxteel_Appsteel_컬러강판) - 동국씨엠의 프리미엄 컬러강판 브랜드, 세계일류상품 선정
 * [LX인터내셔널 물류(포워딩·CL)](/products/LX인터내셔널_물류) - LX인터내셔널의 국제물류(포워딩·계약물류) 사업 — 자회사 LX판토스 중심, 연결 매출 비중 47.1%로 최대 부문
 * [LX인터내셔널 자원개발(석탄·팜오일)](/products/LX인터내셔널_자원개발) - LX인터내셔널의 자원 부문 — 호주·인니 석탄 광산 및 인니 팜농장(CPO) 운영·트레이딩, 연결 매출 비중 7.3%
@@ -448,6 +449,7 @@
 * [WOLED TV패널](/products/WOLED_TV패널) - 대형 TV용 화이트 OLED(WOLED) 패널 — LG디스플레이가 양산 주도하는 자발광 대형 디스플레이
 * [XAIVA](/products/XAIVA) - 씨이랩의 실시간 AI 영상분석 플랫폼(Vision AI 사업부문 핵심 제품)
 * [XARVIS(자비스)](/products/XARVIS) - 에스투더블유의 국가안보·범죄수사 빅데이터 분석 플랫폼
+* [X-CLARITY 조직투명화시스템](/products/X-CLARITY_조직투명화시스템) - 얼라인드제네틱스가 세계 최초로 상용화한 생체조직 투명화 및 이미징 시스템
 * [XComPro·XGemPro](/products/XComPro_XGemPro) - 링크제니시스의 SECS/GEM 통신 드라이버 소프트웨어
 * [Xi옵션](/products/Xi옵션) - 자이에스앤디가 아파트 입주자에게 판매·설치하는 시스템에어컨 등 빌트인가전 옵션 상품
 * [X-MAZE](/products/X-MAZE) - 에이럭스의 근거리 정찰 방산 드론, KOLAS·KCMVP 인증 보유
