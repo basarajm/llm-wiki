@@ -142,6 +142,7 @@
 * [ESS용 배터리](/products/ESS용_배터리) - 삼성SDI가 전력저장장치(ESS)에 공급하는 중대형 리튬이온 2차전지
 * [EV 각형 배터리](/products/EV_각형_배터리) - 삼성SDI가 글로벌 완성차 OEM에 공급하는 전기차(EV)용 각형(prismatic) 리튬이온 2차전지
 * [eWalker](/products/eWalker) - 수산아이앤티의 웹 보안솔루션 브랜드(SWG·DLP·WAF·SSL VPN 등 제품군)
+* [exemONE](/products/exemONE) - 엑셈의 온프레미스·클라우드 통합 풀스택 옵저버빌리티(모니터링) 솔루션
 * [Eye Level](/products/Eye_Level) - 대교 해외교육사업의 수학 등 학습 프로그램 브랜드
 * [FASSTO 용인1센터](/products/FASSTO_용인1센터) - 디앤디플랫폼리츠 기초자산 물류센터(용인시 처인구 백암면), 파스토 책임임차, 매출 비중 7.6%
 * [FASSTO 용인2센터](/products/FASSTO_용인2센터) - 디앤디플랫폼리츠 기초자산 물류센터(용인시 처인구 백암면), 파스토 책임임차, 매출 비중 7.5%
@@ -207,6 +208,7 @@
 * [IMB-102](/products/IMB-102) - OX40L 타깃 단일항체, 아토피성 피부염 등 자가면역질환 치료제 후보물질(코드명 NAV-140)
 * [IMS](/products/IMS) - LTE 등 데이터망에서 HD급 음성 통화 서비스를 제공하는 무선데이터 솔루션
 * [InSmart AOI](/products/InSmart_AOI) - 기가비스의 반도체 기판용 자동광학검사기(AOI) 제품군
+* [InterMax](/products/InterMax) - 엑셈의 전구간(End-to-End) 애플리케이션 성능 관리(APM) 솔루션
 * [IPRON](/products/IPRON) - 브리지텍의 All IP 기반 멀티미디어 컨택센터 토탈 솔루션(IPCC)
 * [IPRON Cloud](/products/IPRON_Cloud) - 브리지텍의 CSAP 인증 클라우드 컨택센터(CCaaS) 서비스
 * [IT 시스템 통합·유지보수 서비스](/products/IT_시스템_통합_유지보수_서비스) - 대성홀딩스 IT사업부가 제공하는 전산시스템 구축·유지보수 및 컨설팅 서비스
@@ -261,10 +263,12 @@
 * [LX하우시스 바닥재](/products/LX하우시스_바닥재) - LX하우시스의 PVC 바닥재 및 인테리어 마감재 제품군
 * [LX하우시스 자동차소재부품](/products/LX하우시스_자동차소재부품) - LX하우시스의 자동차용 원단·경량화 부품 및 데코시트·가전필름 등 산업용 필름
 * [LX하우시스 창호](/products/LX하우시스_창호) - LX하우시스의 플라스틱·알루미늄 창호 제품군 (Z:IN 브랜드)
+* [MaaT 시리즈](/products/MaaT_시리즈) - 라닉스의 하이패스(ETC/DSRC)용 SoC 제품군
 * [MagGuard](/products/MagGuard) - KZ정밀의 자체 브랜드 원심펌프(마그네틱 드라이브 펌프 계열)
 * [MARS 플랫폼](/products/MARS_플랫폼) - 시큐레터의 리버스 엔지니어링 기반 악성코드 진단·탐지 플랫폼
 * [MARVEL Contest of Champions](/products/MARVEL_Contest_of_Champions) - 넷마블(카밤) 개발·퍼블리싱하는 마블 IP 기반 모바일 대전 액션게임
 * [Mattress-in-a-Box](/products/Mattress-in-a-Box) - 매트리스를 소형 박스에 압축 포장해 배송하는 온라인 유통 특화 포장 방식 및 제품군
+* [MaxGauge](/products/MaxGauge) - 엑셈의 DB(데이터베이스) 성능 관리(DBPM) 솔루션
 * [MBJ 3D 프린터](/products/MBJ_3D프린터) - 금속 분말에 바인더를 분사해 적층하는 3D 프린팅 방식 및 장비
 * [MDF](/products/MDF) - 중밀도 섬유판(Medium Density Fiberboard) — 가구·건축 내장재용 목질판상재
 * [MetiEye](/products/MetiEye) - 에스에스알의 웹서버 보안(웹쉘 탐지) 솔루션
@@ -316,6 +320,7 @@
 * [O/C (Open Cassette)](/products/O_C_Open_Cassette) - 웨이퍼 제조공정에서 잉곳 절단 웨이퍼를 운송하는 데 쓰이는 웨이퍼용 카세트
 * [OA Finisher](/products/OA_Finisher) - 복사기용 마무리(제본·정합) 장치, 삼진엘앤디 제품사업부문의 주력 제품
 * [OcuCool](/products/OcuCool) - 리센스메디컬의 정밀냉각기술 기반 안과용 의료기기
+* [ODISEI](/products/ODISEI) - 오가노이드사이언스의 오가노이드 기반 신소재 효능평가 솔루션
 * [OIS (광학식 손떨림 보정장치)](/products/OIS) - 스마트폰 카메라 모듈의 손떨림을 실시간 보정하는 2~3축 구동 액추에이터
 * [OKN-007](/products/OKN-007) - HLB테라퓨틱스 자회사 Oblato가 개발 중인 교모세포종(뇌종양) 치료제
 * [OLED Oxide TFT 증착장비](/products/OLED_Oxide_TFT_증착장비) - OLED 패널 구동 박막트랜지스터(Oxide TFT)용 CVD/ALD 증착장비. 세계 최초 TSD CVD 방식 상용화
@@ -441,6 +446,7 @@
 * [TC본더](/products/TC본더) - HBM 적층 본딩 장비 — DRAM 다이를 열·압력으로 접합하는 반도체 후공정 핵심 장비
 * [TDI](/products/TDI) - 한화솔루션 케미칼 부문의 톨루엔디이소시아네이트(TDI) — 국내시장 점유율 약 41%(2025, 회사 추정)
 * [TDM](/products/TDM) - 이수스페셜티케미컬이 국내 유일 생산하는 Mercaptan계 분자량조절제
+* [Tea Baby 영유아 화장품](/products/Tea_Baby_영유아_화장품) - 오가닉티코스메틱의 차 추출물 기반 영유아용 화장품 브랜드
 * [Tera Harz Clear](/products/Tera_Harz_Clear) - 그래피가 개발한 세계 최초 구강온도 형상기억 3D프린팅 소재, 형상기억 투명교정장치(SMA)의 핵심 소재
 * [THERMOPRENE(TPE)](/products/THERMOPRENE_TPE) - 화승코퍼레이션이 독자 개발한 올레핀계 열가소성 고무 소재
 * [thynC](/products/thynC) - 씨어스의 입원환자 실시간 생체신호 통합 모니터링 솔루션
@@ -455,6 +461,7 @@
 * [UTG(초박형강화유리)](/products/UTG(초박형강화유리)) - 폴더블 디스플레이 커버윈도우에 적용되는 초박형 강화유리(Ultra Thin Glass)
 * [UviMax DHHB](/products/UviMax DHHB) - 에이에스텍의 자외선 차단제 원료(UV 필터), DHHB(디에틸아미노 하이드록시벤조일 헥실벤조에이트) 기반
 * [V/Spool](/products/V_Spool) - 자동변속기(Auto T/M) Valve Body에 조립되는 유압제어부품
+* [V2X WAVE 시리즈](/products/V2X_WAVE_시리즈) - 라닉스의 V2X(차량-사물 통신) 솔루션 제품군
 * [VAIV Agent](/products/VAIV_Agent) - 바이브컴퍼니의 자율 업무수행형 AI 에이전트 솔루션
 * [VAIV Search](/products/VAIV_Search) - 바이브컴퍼니의 Agentic RAG 기반 차세대 검색 솔루션
 * [VCSEL Driver IC](/products/VCSEL_Driver_IC) - 자율주행·산업용 LiDAR용 VCSEL(수직공동표면발광레이저) 구동 IC
@@ -714,6 +721,7 @@
 * [메디아나 환자감시장치(Patient Monitor)](/products/메디아나_환자감시장치) - 메디아나의 병원용 환자 생체신호 모니터링 장치 제품군
 * [메디커튼주](/products/메디커튼주) - 신풍제약의 유착방지제로 2025년 매출비중 1위(5.12%)를 기록한 대표 제품
 * [메로나](/products/메로나) - 빙그레의 대표 막대형 아이스크림 브랜드
+* [메리메이어(Mary Meyer)](/products/메리메이어) - 오로라가 2024년 6월 인수한 미국 프리미엄 유아용품 브랜드
 * [메셀로스](/products/메셀로스) - 롯데정밀화학의 메틸셀룰로스(MECELLOSE®) 브랜드. 시멘트·모르타르 물성 향상 및 세라믹 필터용 산업용 셀룰로스 유도체
 * [메이킨Q](/products/메이킨Q) - 명인제약의 변비치료제 대표 일반의약품 브랜드
 * [메타랩스 패션브랜드](/products/메타랩스_패션브랜드) - 메타랩스가 제조·가공·도소매하는 의류·잡화·장신구 브랜드 상품군
