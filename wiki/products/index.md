@@ -216,6 +216,7 @@
 * [MONOPOL](/products/MONOPOL) - 동남합성의 계면활성제 대표 상표(세제 등 원부재료용)
 * [Montes](/products/Montes) - 나라셀라가 수입·유통하는 칠레 대표 와인 브랜드, 국내 와인 최초 누적판매 1,000만병 돌파
 * [MRO 구매대행](/products/MRO구매대행) - 플레이그램 지배회사가 직접 영위하는 기업 통합구매대행(MRO) 서비스 — 연결 구매대행 매출비중 22.37%
+* [MucoPEG](/products/MucoPEG) - 선바이오가 개발한 구강건조증치료제, 미국 FDA 판매허가 획득
 * [MUFFLER(소음기)](/products/MUFFLER) - 자동차 배기가스 소음을 줄이는 배기계 부품
 * [Namu AI Agent(NAA)](/products/Namu_AI_Agent) - 나무기술이 개발한 엔터프라이즈 소버린 AI 에이전트 플랫폼
 * [NAND Flash](/products/NAND_Flash) - 비휘발성 메모리 반도체 — SSD·모바일 저장장치 등에 사용되는 데이터 저장용 메모리
@@ -250,6 +251,7 @@
 * [PBA 모듈](/products/PBA_모듈) - 스마트폰·웨어러블기기 등 IT기기에 탑재되는 통합 인쇄회로기판(PBA) 조립 모듈
 * [PECAP(신재생에너지용 커패시터)](/products/PECAP_신재생에너지용_커패시터) - 뉴인텍의 태양광·풍력·친환경자동차용 DC Link 커패시터
 * [PEG 유도체](/products/PEG_유도체) - 파미셀 바이오케미컬 사업부가 제조하는 의약용 약물전달(DDS)·LNP용 PEG(폴리에틸렌글리콜) 유도체
+* [Pegfilgrastim 바이오시밀러 (Pelgraz/Lapelga/Neupeg)](/products/Pegfilgrastim_바이오시밀러) - 선바이오가 개발하고 Intas Pharma에 기술이전한 호중구감소증치료제 바이오시밀러
 * [PET 이형필름](/products/PET_이형필름) - 이차전지 조립(스태킹) 공정용 대전방지 기능 PET 이형필름
 * [PET용기](/products/PET용기) - 음료·생수·주류 등 포장에 사용되는 PET(폴리에틸렌테레프탈레이트) 병 제품군
 * [PHC PILE](/products/PHC_PILE) - 고강도 콘크리트 기초 파일 — 토목·건축 기초자재. 아이에스동서가 국내 최초 자체 개발
@@ -275,6 +277,7 @@
 * [PVC Compound](/products/PVC_Compound) - 전선·자동차·건축자재용 PVC 합성수지 중간제품(Compound)
 * [PVC 인조피혁](/products/PVC_인조피혁) - 진양화학이 제조하는 자동차 시트·내장재용 PVC/PU 인조피혁(레쟈류)
 * [Pyrogel](/products/Pyrogel) - 미국 Aspen Aerogels가 개발하고 KBG 종속회사 에어로젤코리아가 국내 독점 유통하는 고온용 실리카 에어로젤 단열재
+* [QD9/QD9+ 합성쿼츠 부품](/products/QD9_합성쿼츠부품) - 비씨엔씨가 자체 국산화한 합성쿼츠(Synthetic Quartz) 소재 기반 반도체 식각·증착 공정용 부품 브랜드
 * [QRP](/products/QRP) - 모비스의 All-in-One MES(제조실행시스템) 스마트팩토리 솔루션
 * [QuantumPACK™](/products/QuantumPACK) - 종속회사 바이오스퀘어의 퀀텀닷 기반 형광 면역진단 카트리지 시리즈
 * [RDPLINE](/products/RDPLINE) - 비큐AI의 실시간 AI 학습 데이터 공급 플랫폼
@@ -338,6 +341,7 @@
 * [Weather Strip](/products/Weather_Strip) - 자동차 도어·차체용 누수방지·방음 고무부품(Sealing Products)
 * [WOLED TV패널](/products/WOLED_TV패널) - 대형 TV용 화이트 OLED(WOLED) 패널 — LG디스플레이가 양산 주도하는 자발광 대형 디스플레이
 * [Xi옵션](/products/Xi옵션) - 자이에스앤디가 아파트 입주자에게 판매·설치하는 시스템에어컨 등 빌트인가전 옵션 상품
+* [Zenius EMS](/products/Zenius_EMS) - 브레인즈컴퍼니의 IT 인프라 통합관리 솔루션 제품군
 * [가공직물](/products/가공직물) - 방림의 면방 주력 제품 — 원면·생지를 염색·표백·날염 가공한 면직물·염색원단으로, 별도 매출의 81.8%를 차지하는 대표 상품
 * [가도비전](/products/가도비전) - 동국생명과학의 가도부트롤(Gadobutrol) 성분 MRI 조영제
 * [가성소다](/products/가성소다) - 롯데정밀화학 케미칼사업부문의 가성소다(수산화나트륨, NaOH). 섬유·의약·제지·세제 등 화학 기초원료, 국내시장 점유율 20%(2025, 회사 추정)
