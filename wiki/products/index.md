@@ -31,6 +31,8 @@
 * [AISURFER](/products/AISURFER) - 비큐AI의 AI 에이전트 기반 뉴스 데이터 인사이트 플랫폼
 * [AL CIRCLE](/products/AL_CIRCLE) - 대호에이엘이 생산하는 알루미늄 환절판(원형판) 제품, 주방용품 등에 사용
 * [AL COIL](/products/AL_COIL) - 대호에이엘이 생산하는 알루미늄 코일 반제품, 전기·전자·자동차 등에 사용
+* [APB-A1](/products/APB-A1) - 에이프릴바이오의 SAFA 플랫폼 기반 자가면역질환 치료제 파이프라인, 룬드벡에 기술이전
+* [APB-R3](/products/APB-R3) - 에이프릴바이오의 SAFA 플랫폼 기반 염증질환 치료제 파이프라인, 에보뮨에 기술이전
 * [ArtiSeal](/products/ArtiSeal) - 리브스메드의 다관절 혈관봉합기, RF 제너레이터 기반 자체 봉합 알고리즘 탑재
 * [ArtiSential](/products/ArtiSential) - 리브스메드의 핸드헬드 다관절 복강경 수술기구, 90° 관절 가동 범위 구현
 * [AstraGo](/products/AstraGo) - 씨이랩의 GPU 자원 오케스트레이션/스케줄링 솔루션(AI Infra 사업부문 핵심 제품)
@@ -90,6 +92,7 @@
 * [DC-Link 커패시터](/products/DC-Link_커패시터) - 전기차·하이브리드차 인버터·컨버터의 고전압 전력변환에 쓰이는 전장용 필름 커패시터
 * [DDI 후공정(Bumping/Test)](/products/DDI_후공정) - 디스플레이 구동칩(DDI) 등 비메모리 반도체의 Bumping·패키징·테스트 후공정 서비스
 * [DECIBEL·EXFIT 블루투스 이어폰](/products/DECIBEL_EXFIT_블루투스이어폰) - 블루콤의 자체 브랜드 블루투스 이어폰(넥밴드형·TWS) 및 LG전자 ODM 공급 제품
+* [Denps 유산균](/products/Denps_유산균) - 에이치피오의 프리미엄 건강기능식품 브랜드 Denps의 프로바이오틱스·비타민 제품군
 * [DGI 영상보안장비(DVR·NVR·IP카메라)](/products/DGI_영상보안장비) - 디지아이티엑스가 개발·생산·판매하는 영상감시·저장 장비(DVR·NVR·IP카메라)
 * [Diagnostic X-ray Stationary System](/products/Diagnostic_X-ray_Stationary_System) - 디알젬의 고정형 진단용 엑스선 촬영장치 제품군(GXR-S/SD, GXR-ES, DIAMOND, VXR 시리즈)
 * [DIFF-CASE](/products/DIFF-CASE) - 우수AMS가 제조하는 6속 변속기용 디퍼렌셜 케이스(자동차 파워트레인 핵심 부품)
@@ -269,6 +272,7 @@
 * [mobiCARE](/products/mobiCARE) - 씨어스의 웨어러블 심전도 분석·부정맥 스크리닝 구독형 솔루션
 * [Mobile Digital X-ray System](/products/Mobile_Digital_X-ray_System) - 디알젬의 이동형 디지털 진단용 엑스선 촬영장치 제품군(TOPAZ, JADE, PROMO, RAYMO 시리즈)
 * [mobilgene](/products/mobilgene) - 현대오토에버의 AUTOSAR 기반 차량 SW 플랫폼(미들웨어) 제품군
+* [MOLD 금형](/products/MOLD_금형) - 에이테크솔루션이 생산하는 대형 사출금형 — 가전제품 및 자동차부품 생산용
 * [MONOPOL](/products/MONOPOL) - 동남합성의 계면활성제 대표 상표(세제 등 원부재료용)
 * [Montes](/products/Montes) - 나라셀라가 수입·유통하는 칠레 대표 와인 브랜드, 국내 와인 최초 누적판매 1,000만병 돌파
 * [MRO 구매대행](/products/MRO구매대행) - 플레이그램 지배회사가 직접 영위하는 기업 통합구매대행(MRO) 서비스 — 연결 구매대행 매출비중 22.37%
@@ -367,6 +371,7 @@
 * [RZ-001](/products/RZ-001) - 알지노믹스의 hTERT mRNA 표적 RNA 치환효소 기반 항암 유전자치료제(간세포암·교모세포종)
 * [RZ-003](/products/RZ-003) - 알지노믹스의 APOE4 표적 RNA 편집 기반 알츠하이머병 유전자치료제
 * [RZ-004](/products/RZ-004) - 알지노믹스의 로돕신(RHO) 유전자 표적 유전성 망막색소변성증(AdRP) 유전자치료제
+* [SAFA 지속형 플랫폼](/products/SAFA_지속형_플랫폼) - 에이프릴바이오의 혈청알부민 결합 Fab 항체절편(SL335) 기반 약효단백질 반감기 증대 원천기술
 * [SAIP](/products/SAIP) - 에스투더블유의 도메인 특화 온톨로지·산업 AI 플랫폼
 * [Samsung TV](/products/Samsung_TV) - 삼성전자 영상디스플레이 사업의 TV 완제품 — Neo QLED·OLED·The Frame 등, 글로벌 금액 기준 점유율 1위
 * [SbW(Steer-by-Wire)](/products/SbW(Steer-by-Wire)) - 에이치엘만도의 전동 조향 시스템 — 기계적 연결 없이 전자 신호로 조향하는 차세대 조향 시스템, 세계 최초 양산
