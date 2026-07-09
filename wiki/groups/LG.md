@@ -3,7 +3,7 @@ type: Corporate Group
 title: LG그룹
 description: 구광모 회장을 동일인으로 하는 전자·화학·통신 중심 기업집단 — (주)LG 지주 체제
 controlling_person: 구광모
-member_companies: [/companies/LG, /companies/LG전자, /companies/LG디스플레이, /companies/LG화학, /companies/LG이노텍, /companies/LG에너지솔루션, /companies/LG유플러스, /companies/LG생활건강, /companies/LG씨엔에스, /companies/HS애드, /companies/LG헬로비전, /companies/미디어로그]
+member_companies: [/companies/LG, /companies/LG전자, /companies/LG디스플레이, /companies/LG화학, /companies/LG이노텍, /companies/LG에너지솔루션, /companies/LG유플러스, /companies/LG생활건강, /companies/LG씨엔에스, /companies/HS애드, /companies/LG헬로비전, /companies/미디어로그, /companies/로보스타]
 tags: [기업집단, LG]
 timestamp: 2026-06-27T00:00:00Z
 ---
@@ -30,6 +30,7 @@ LG그룹은 동일인 **구광모** 회장이 이끄는 전자·화학·통신 �
 | [HS애드](/companies/HS애드) | 종합광고대행업 (KOSPI 035000) | 비핵심 |
 | [LG헬로비전](/companies/LG헬로비전) | 케이블TV·초고속인터넷·MVNO(MSO) (KOSPI 037560) | 비핵심 |
 | [미디어로그](/companies/미디어로그) | LG유플러스 종속 미디어 자회사 (비상장) | 비핵심 |
+| [로보스타](/companies/로보스타) | 산업용 로봇·자동화 장비 (KOSDAQ, LG전자 33.40% 최대주주) | 비핵심 |
 
 ## 지배구조
 
@@ -38,7 +39,7 @@ LG그룹은 국내 대표적인 **지주회사 체제**를 운영하며, 순환�
 - 지배 라인: **구광모 → [(주)LG](/companies/LG)(지주) → 각 계열사**.
 - 동일인 **구광모**는 그룹 지주회사인 [(주)LG](/companies/LG)의 최대주주로서 그룹 전반을 지배합니다.
 - [(주)LG](/companies/LG)는 [LG전자](/companies/LG전자), [LG화학](/companies/LG화학), [LG유플러스](/companies/LG유플러스), [LG생활건강](/companies/LG생활건강) 등 주력 계열사 지분을 직접 보유합니다.
-- [LG전자](/companies/LG전자)는 [LG디스플레이](/companies/LG디스플레이)·[LG이노텍](/companies/LG이노텍)을, [LG화학](/companies/LG화학)은 [LG에너지솔루션](/companies/LG에너지솔루션)을 자회사로 지배하는 2단계 출자 구조를 형성합니다.
+- [LG전자](/companies/LG전자)는 [LG디스플레이](/companies/LG디스플레이)·[LG이노텍](/companies/LG이노텍)·[로보스타](/companies/로보스타)(33.40%)를 자회사로 지배하는 2단계 출자 구조를 형성합니다.
 
 # Citations
 

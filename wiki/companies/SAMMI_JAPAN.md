@@ -1,0 +1,18 @@
+---
+type: Company
+title: SAMMI JAPAN INC.
+description: 베노티앤알 계열의 비상장 일본 계열회사(사업 내용 미확인)
+group: /groups/베노티앤알
+is_stub: true
+tags: [기업, 비상장, 베노티앤알, 일본]
+timestamp: 2026-07-09T00:00:00Z
+---
+
+## 사업 개요
+
+[베노티앤알](/companies/베노티앤알)의 계열회사(비상장, 일본). 사업 내용은 본 ingest 원본(베노티앤알
+사업보고서)에 상세 기재되지 않음.
+
+# Citations
+
+- [베노티앤알 2025 사업보고서](/sources/베노티앤알_2025_사업보고서)
