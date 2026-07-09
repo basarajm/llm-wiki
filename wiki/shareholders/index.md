@@ -28,6 +28,7 @@
 * [FIDELITY PURITAN TRUST FIDELITY LOW PRICED STOCK FUND](/shareholders/FIDELITY_PURITAN_TRUST) - 퍼시스 5% 이상 보유 외국인 기관투자자
 * [FIDELITY PURITAN TRUST FIDELITY LOW PRICED STOCK FUND](/shareholders/FIDELITY_PURITAN_TRUST_FIDELITY_LOW_PRICED_STOCK_FUND) - 환인제약 지분 5.64%를 보유한 미국계 외국인 기관투자자
 * [FIRST EAGLE OVERSEAS FUND](/shareholders/FIRST_EAGLE_OVERSEAS_FUND) - 퍼시스 5% 이상 보유 외국인 기관투자자
+* [Foster Electric Co., Ltd.](/shareholders/Foster_Electric) - 에스텍의 최대주주인 일본 스피커·음향기기 제조사
 * [FUJIFILM Corporation](/shareholders/FUJIFILM_Corporation) - 디알젬 지분 14.25%를 보유한 일본 후지필름 그룹의 지주회사, 의료영상·헬스케어 분야 전략적 투자자
 * [GC케어](/shareholders/GC케어) - 유비케어(GC메디아이)의 최대주주, GC(녹십자)그룹 계열 헬스케어 서비스 회사
 * [Gen to Gen Holdings Co., Ltd](/shareholders/Gen_to_Gen_Holdings) - 엘브이엠씨홀딩스 2대 주주(특수관계자), 2025년 인도차이나뱅크 지분 인수로 등극
@@ -88,6 +89,7 @@
 * [NORGES BANK](/shareholders/NORGES_BANK) - 노르웨이 중앙은행(노르웨이 국부펀드 운용기관), 리메드 등 다수 한국 상장기업 지분 보유
 * [OCI홀딩스](/shareholders/OCI홀딩스) - OCI그룹 지주회사 — OCI㈜의 최대주주 (지분 46.51%)
 * [Orbis Investment Management Limited](/shareholders/Orbis_Investment_Management) - 다우기술 지분 9.84%를 보유한 외국계 자산운용사
+* [Restar Corporation](/shareholders/Restar_Corporation) - 씨유테크의 최대주주인 일본 소재 법인(지분 69.4%)
 * [RFHIC](/shareholders/RFHIC) - RF시스템즈의 최상위지배주주이자 반도체 기반 Microwave Generator 등을 생산하는 코스닥 상장기업
 * [RF머트리얼즈](/shareholders/RF머트리얼즈) - RF시스템즈의 최대주주이자 광통신·RF 트랜지스터 패키지 제조업체(코스닥 상장)
 * [Rorze International](/shareholders/Rorze_International) - 로체시스템즈의 최대주주인 싱가포르 소재 투자법인, 일본 RORZE CORPORATION의 100% 자회사
@@ -281,6 +283,7 @@
 * [김정](/shareholders/김정) - 삼양바이오팜 5% 이상 주주, 최대주주 특수관계인(친인척)
 * [김정렬](/shareholders/김정렬) - 디아이씨 대표이사 부회장, 개인 최대 지분 보유자(18.02%)
 * [김정미](/shareholders/김정미) - 라이콤 특수관계인 주요 주주이자 상근 부사장(연구소장)
+* [김정수(에스지헬스케어)](/shareholders/김정수_에스지헬스케어) - 에스지헬스케어 대표이사 겸 최대주주(2025년말 지분율 30.03%)
 * [김정아](/shareholders/김정아) - 아이비김영 특수관계인 주주(지분 3.34%)
 * [김종규](/shareholders/김종규) - 블루콤 대표이사 겸 특수관계 주요주주 (지분율 14.81%)
 * [김종석](/shareholders/김종석) - 평화그룹 회장이자 평화홀딩스 최대주주(26.12%)
@@ -641,6 +644,7 @@
 * [셀바스에이아이](/shareholders/셀바스에이아이) - 메디아나 최대주주(31.69%), KOSDAQ 상장 AI 기업
 * [셀바스헬스케어](/shareholders/셀바스헬스케어) - 메디아나 특수관계인 주주(5.83%), 셀바스그룹 계열 헬스케어 기업
 * [셀트리온홀딩스](/shareholders/셀트리온홀딩스) - 셀트리온그룹의 지주회사이자 셀트리온의 최대주주
+* [셀피글로벌주주1호조합](/shareholders/셀피글로벌주주1호조합) - 셀피글로벌의 최대주주인 투자조합(대표조합원 윤정엽)
 * [소노스퀘어](/shareholders/소노스퀘어) - 대명소노그룹 계열사 — 티웨이항공 지분 9.48% 보유 특수관계인
 * [소노인터내셔널](/shareholders/소노인터내셔널) - 대명소노그룹 계열 종합리조트 기업 — 2025년 티웨이항공 최대주주(43.58%)
 * [소시어스웰투시인베스트먼트제2호기업재무안정](/shareholders/소시어스웰투시인베스트먼트제2호기업재무안정) - 엠앤씨솔루션 최대주주 — 사모투자 목적 기업재무안정 투자회사(PE 계열)
@@ -686,6 +690,7 @@
 * [신성델타테크](/shareholders/신성델타테크) - 신성에스티의 최대주주 법인
 * [신세계 (주주)](/shareholders/신세계) - 신세계그룹 지배회사로서 계열 백화점 운영법인의 최대주주
 * [신승섭](/shareholders/신승섭) - 성문전자 5% 이상 주주이자 상무이사
+* [신승원](/shareholders/신승원) - 에스투더블유의 5% 이상 개인 주주로, 최대주주와 의결권 공동행사 약정을 체결한 특별관계자
 * [신안캐피탈](/shareholders/신안캐피탈) - CNT85의 최대주주(26.99%) — 여신전문금융업 관련 캐피탈사로 추정
 * [신영자산운용](/shareholders/신영자산운용) - 신도리코 지분 5% 이상을 보유한 국내 기관투자자(자산운용사)
 * [신윤건](/shareholders/신윤건) - 대현 주요주주(4.11%), 신윤황 대표이사의 종형(사촌형)
@@ -775,6 +780,7 @@
 * [에스엔아이](/shareholders/에스엔아이) - 세원정공의 최대주주로 전산시스템 용역업을 영위하는 비상장 특수관계법인
 * [에스엠엔터테인먼트](/shareholders/에스엠엔터테인먼트) - SM Life Design·디어유·SM C&C의 최대주주인 KOSPI 상장 엔터테인먼트사, 카카오 계열
 * [유한책임회사 에스오큐알아이](/shareholders/에스오큐알아이) - 쏘카의 최대주주인 비상장 유한책임회사
+* [에스와이](/shareholders/에스와이) - 에스와이스틸텍의 최대주주인 상장기업(에스와이그룹 지주회사격)
 * [에스제이더블유&골드투자조합](/shareholders/에스제이더블유&골드투자조합) - 골드앤에스 최대주주(지분 50.34%)인 투자조합
 * [에스제이엠 문화재단](/shareholders/에스제이엠문화재단) - 에스제이엠 최대주주 측 특수관계인(공익재단) 주주
 * [에스제이엠홀딩스 (주주)](/shareholders/에스제이엠홀딩스) - 에스제이엠의 최대주주(지분 40.60%) — KOSPI 상장 지주회사
@@ -833,6 +839,7 @@
 * [연제량](/shareholders/연제량) - 블루엠텍 창업자·최대주주(개인)
 * [염동현](/shareholders/염동현) - 네오셈 대표이사이자 최대주주(지분 41.65%)
 * [염종학](/shareholders/염종학) - 서산 최대주주 겸 대표이사
+* [염호영](/shareholders/염호영) - 에스켐 창업자·대표이사이자 최대주주(개인)
 * [예금보험공사](/shareholders/예금보험공사) - 예금자보호법에 따라 설립된 공적기관, 서울보증보험 최대주주(83.85%)
 * [오광근](/shareholders/오광근) - 앱코의 대표이사 겸 최대주주(개인)
 * [오리온홀딩스](/shareholders/오리온홀딩스) - 오리온그룹 지주회사 겸 쇼박스 최대주주(지분 57.47%)
@@ -988,6 +995,7 @@
 * [이종주](/shareholders/이종주) - 나우로보틱스 대표이사 겸 최대주주 (지분율 44.85%)
 * [이종호](/shareholders/이종호) - 삼호개발 창업주 회장이자 최대주주(18.68%)
 * [이종훈](/shareholders/이종훈) - 인천도시가스 최대주주(지분 40.53%)이자 회장
+* [이주영](/shareholders/이주영) - 에스제이그룹 대표이사 겸 최대주주(32.30%)
 * [이주희](/shareholders/이주희) - 동남합성 5% 이상 개인 주주(8.79%)
 * [이준용 (덕우전자)](/shareholders/이준용_덕우전자) - 덕우전자 대표이사·부회장, 덕우전자 최대주주(38.54%)이자 와이투솔루션 이사회 의장 겸직
 * [이준호](/shareholders/이준호) - NHN 최대주주(29.65%), 이사회 의장·회장
@@ -1072,6 +1080,7 @@
 * [정인수](/shareholders/정인수) - 동인기연 최대주주이자 대표이사, 지분 66.85% 보유
 * [정재준](/shareholders/정재준) - 소룩스 대표이사 겸 최대주주(9.40%), 아리바이오 CEO 겸직
 * [정종평](/shareholders/정종평) - 나이벡 대표이사이자 설립 이후 변동 없는 최대주주(15.18%)
+* [정지성](/shareholders/정지성) - 에스오에스랩 창업자 및 대표이사, 최대주주(19.23%)
 * [정한](/shareholders/정한) - 아이쓰리시스템 대표이사이자 최대주주 (지분 33.80%)
 * [정해운](/shareholders/정해운) - 닷밀 창업자 겸 대표이사, 닷밀 최대주주(개인)
 * [정혜승](/shareholders/정혜승) - 인지컨트롤스 대표이사이자 2026년 3월 최대주주로 변경된 개인 주주
@@ -1172,6 +1181,7 @@
 * [최봉진 (디바이스)](/shareholders/최봉진_디바이스) - 디바이스 창업자 겸 최대주주·각자대표이사
 * [최상주](/shareholders/최상주) - 케이엑스이노베이션(KX)의 최대주주이자 KX그룹(舊 KMH그룹) 회장
 * [최성욱](/shareholders/최성욱) - 동양고속 부회장이자 최대주주 최성원의 친인척 주주
+* [최승호](/shareholders/최승호) - 에스엠씨지 대표이사 겸 최대주주(지분 28.02%)
 * [최영민](/shareholders/최영민) - 한신기계공업 최대주주(20.87%)이자 대표이사
 * [최영석](/shareholders/최영석) - 로보로보 대표이사(회장)이자 최대주주(지분 35.15%)
 * [최영욱](/shareholders/최영욱) - 아우딘퓨쳐스 창업자·대표이사이자 前 최대주주(개인)
@@ -1374,6 +1384,7 @@
 * [홍정국](/shareholders/홍정국) - BGF 대표이사(부회장)이자 최대주주 홍석조의 자 — BGF 지분 20.77% 보유
 * [홍정혁](/shareholders/홍정혁) - BGF에코머티리얼즈 임원이자 최대주주 홍석조의 자 — BGF 지분 10.50% 보유
 * [홍춘근](/shareholders/홍춘근) - 서전기전 창립자이자 최대주주(회장), 지분 43.74% 보유
+* [홍콩셩다국제유한공사](/shareholders/홍콩셩다국제유한공사) - 소프트센의 최대주주인 홍콩 소재 투자법인, 조우춘허 1인 소유
 * [홍하종](/shareholders/홍하종) - DSR제강 대표이사 겸 최대주주, DSR그룹 오너 일가
 * [화승인더스트리](/shareholders/화승인더스트리) - 화승엔터프라이즈 최대주주(68.37%)이자 화승그룹 상장 사업지주격 계열사
 * [화신정공](/shareholders/화신정공) - 화신의 관계회사 주주(5.75%)인 비상장 법인
