@@ -60,6 +60,7 @@
 * [CELBIC](/products/CELBIC) - 마이크로디지탈의 일회용 세포배양시스템(바이오프로세스 핵심 제품)
 * [Cello Square](/products/Cello_Square) - 삼성SDS의 디지털 포워딩·글로벌 통합물류 플랫폼
 * [Chemical 공급장치](/products/Chemical_공급장치) - 반도체·디스플레이 공정용 화학약품을 중앙에서 분산·자동화 공급하는 기술 집약 장치
+* [CHIP LED](/products/CHIP_LED) - 에이치엠넥스의 차량용 LED 패키지 주력 제품, 현대·기아자동차 전장품 조명에 공급
 * [CJ대한통운 CL(계약물류)](/products/CJ대한통운_CL) - CJ대한통운의 계약물류(3PL) 사업 — 항만하역(P&D)에서 선석·순수 Bulk 기준 국내 M/S 1위
 * [CJ대한통운 글로벌(포워딩·해외물류)](/products/CJ대한통운_글로벌) - CJ대한통운의 글로벌 사업 — 항공·해상 포워딩·국제특송·해외물류. 전사 매출 비중 1위(35.4%)
 * [CJ대한통운 택배](/products/CJ대한통운_택배) - CJ대한통운이 운영하는 국내 최대 규모 택배·e-Fulfillment 서비스(국내 택배시장 점유율 1위, 43.4%)
@@ -211,10 +212,13 @@
 * [Lactazyme-B](/products/Lactazyme-B) - HLB제넥스가 개발한 유제품 가공용 락타아제(갈락토올리고당 제조 효소)
 * [LAMI FABRIC](/products/LAMI FABRIC) - 일정실업의 자동차 시트용 라미네이팅 원단(LAMI FABRIC). 별도 매출의 약 64%를 차지하는 최대 매출 제품으로 현대자동차 등 완성차·시트 제조사에 납품.
 * [LAMINATED 칼라강판](/products/LAMINATED_칼라강판) - 전기아연도금강판 등을 소재로 표면에 필름을 라미네이팅한 가전제품 외장용 코팅강판
+* [LapBag](/products/LapBag) - 복강경 수술 중 제거하는 용종·종양을 체외로 적출하기 위한 일회용 생체검사용 도구
+* [LapSingle](/products/LapSingle) - 배꼽 절개 하나로 여러 복강경 수술기구가 진입 가능한 일회용 단일공 개창기구
 * [Laser Bump Mounter](/products/Laser_Bump_Mounter) - 다원넥스뷰의 반도체 패키징용 솔더볼 젯팅·마운팅 레이저 장비
 * [Laser Micro-Bonding System](/products/Laser_Micro-Bonding_System) - 다원넥스뷰의 반도체 테스트용 프로브카드 탐침 레이저 마이크로본딩 핵심 장비
 * [LB인베스트먼트 벤처투자조합](/products/LB인베스트먼트_벤처투자조합) - LB인베스트먼트가 결성·운용하는 벤처투자조합(VC펀드) 라인업
 * [LDI-TOF](/products/LDI-TOF) - 아스타의 산업용 레이저 탈착 이온화 질량분석기(디스플레이·2차전지·반도체 QC용)
+* [LDS(Liquid Delivery System)](/products/LDS) - 에스엠아이(에이치엠넥스 종속회사)가 제조하는 반도체 특수액체가스 외부공급장치
 * [LED Dot Matrix Module](/products/LED_Dot_Matrix_Module) - 빛샘전자 LED사업부의 전광판·표시장치용 LED 모듈 제품
 * [LED 조명 (알에프세미)](/products/LED_조명(알에프세미)) - 알에프세미의 AC 직결형 LED 조명 완제품(보안등·콘벌브 등)
 * [LEENO PIN](/products/LEENO_PIN) - 리노공업이 국내 최초로 자체 개발한 검사용 스프링 콘택트 프로브
@@ -333,6 +337,7 @@
 * [PPG(폴리프로필렌글리콜)](/products/PPG) - 폴리우레탄의 핵심 기초원료로 사용되는 유기화학 중간재
 * [PROM SIEM](/products/PROM_SIEM) - 싸이버원이 자체 개발한 빅데이터 기반 통합보안관제시스템(SIEM)
 * [PSU(전원공급장치)](/products/PSU_전원공급장치) - TV·SIGNAGE·모니터 등 전자제품용 전원공급장치(Power Supply Unit)
+* [PT Cell](/products/PT_Cell) - 셀바이오휴먼텍의 대나무 셀룰로스 소재 마스크팩 시트 브랜드
 * [PTA](/products/PTA) - 고순도테레프탈산. 폴리에스터 섬유·PET병·필름의 기초원료로, 태광산업 석유화학부문 핵심 제품이며 국내 시장점유율 약 20.3%.
 * [PTC Heater](/products/PTC_Heater) - PTC Thermistor를 열원으로 사용하는 자동차·전기차용 보조·메인 난방 히터
 * [PU FOAM](/products/PU_FOAM) - 진양폴리우레탄이 제조하는 우레탄 연질 슬라브폼(Polyurethane Slab Foam), 침구·의류·신발·자동차내장재용 쿠션·흡음·단열 중간소재
@@ -367,6 +372,7 @@
 * [SbW(Steer-by-Wire)](/products/SbW(Steer-by-Wire)) - 에이치엘만도의 전동 조향 시스템 — 기계적 연결 없이 전자 신호로 조향하는 차세대 조향 시스템, 세계 최초 양산
 * [SECUVE TOS](/products/SECUVE_TOS) - 시큐브의 보안운영체제(Secure OS) 솔루션, 국내 최초 상용화 제품
 * [SELAC(ABS 컴파운드)](/products/SELAC) - 세우글로벌이 컴파운딩 생산하는 ABS 수지 브랜드
+* [Semi Gel](/products/Semi_Gel) - 셀바이오휴먼텍의 젤 형태 고흡수성 라이오셀 소재 마스크팩 시트 브랜드
 * [SG 에코스틸아스콘](/products/SG_에코스틸아스콘) - 제강 슬래그를 천연골재 대신 사용한 SG의 친환경 고성능 아스콘 제품
 * [SGC에너지 REC](/products/SGC에너지_REC) - SGC에너지가 바이오매스 발전을 통해 확보·판매하는 신재생에너지 공급인증서(REC) — 발전/에너지 부문 매출의 28.5%
 * [SGC에너지 유리병](/products/SGC에너지_유리병) - SGC솔루션(SGC에너지 종속회사)이 생산하는 포장용 일반 유리병(제병제품) — 유리 부문 최대 제품 매출(연결 부문 매출의 34.8%)
@@ -417,6 +423,7 @@
 * [TITAMAX](/products/TITAMAX) - 황금에스티가 출시한 고품질 표면처리 건축소재 브랜드
 * [TJ RealMaster](/products/TJ_RealMaster) - TJ미디어의 전문가용 노래반주기 브랜드
 * [TOEFL TPO](/products/TOEFL_TPO) - ETS 공식 토플 온라인 모의고사(TOEFL Practice Online)를 국내에 독점 판매하는 교육 서비스
+* [Trocar](/products/Trocar) - 복강경 수술기구가 환자 체내외로 드나드는 채널 역할을 하는 일회용 투관침
 * [TUNEMAKERS](/products/TUNEMAKERS) - 씨엑스아이가 판매 계약을 통해 진출한 스킨케어 화장품 브랜드, 중국 온라인 쇼핑몰 중심 판매
 * [Tuznue (HD201)](/products/Tuznue) - 프레스티지바이오파마의 허셉틴 바이오시밀러, 2024년 EU 품목허가 획득
 * [TVS 반도체](/products/TVS_반도체) - 전자기기의 신호·전원 단자를 정전기 방전(ESD)·과전류로부터 보호하는 서지보호 소자
@@ -1049,6 +1056,7 @@
 * [원자로계통설계(NSSS)](/products/원자로계통설계) - 원자력발전소의 1차 계통(원자로) 설계 및 원전 종합설계(A/E) 엔지니어링 서비스
 * [원패스(OnePass)](/products/원패스(OnePass)) - 라온시큐어의 FIDO 기반 다요소 생체인증 통합인증 플랫폼
 * [월드콘](/products/월드콘) - 롯데웰푸드의 대표 콘형 아이스크림 브랜드
+* [웰로리아](/products/웰로리아) - 사토시홀딩스의 자사 건강기능식품 브랜드
 * [위너프](/products/위너프) - JW생명과학의 TPN(종합영양수액) 대표 브랜드, 국내 영양수액시장 점유율 1위 제품군
 * [위생도기](/products/위생도기) - 양변기·세면기·소변기 등 욕실용 도기 제품. 대림바스가 국내 출하 점유율 61.8%(2025)로 22년 연속 1위를 차지하는 핵심 제품군
 * [위성휴대폰](/products/위성휴대폰) - AP위성이 THURAYA向으로 단독 개발·공급하는 이동위성통신용 휴대형 단말기
@@ -1248,6 +1256,7 @@
 * [콜로소](/products/콜로소) - 데이원컴퍼니가 운영하는 창의·예술 실무 기술 교육 콘텐츠 브랜드
 * [콤바인](/products/콤바인) - 대동 농기계부문의 곡물 수확·탈곡용 자주식 농기계로, 2025년 업계 최초 자율작업 콤바인 출시
 * [쿠에타핀](/products/쿠에타핀) - 환인제약의 대표 정신신경용제(조현병 치료제)
+* [쿠프](/products/쿠프) - 사토시홀딩스의 고기능성 여성 위생팬티 브랜드(KHUF)
 * [큐브마인](/products/큐브마인) - 애드포러스의 DSP 광고 플랫폼
 * [큐알론점안액](/products/큐알론점안액) - 국제약품의 대표 점안제로 각결막상피장해·건성안(안구건조증) 치료에 쓰이는 안과 전문의약품
 * [큐원 설탕](/products/큐원 설탕) - 삼양사(삼양홀딩스 자회사)가 제조·판매하는 제당(설탕) 브랜드 — 국내 제당 시장점유율 약 32%
