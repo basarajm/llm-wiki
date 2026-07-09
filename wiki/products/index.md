@@ -31,6 +31,9 @@
 * [AISURFER](/products/AISURFER) - 비큐AI의 AI 에이전트 기반 뉴스 데이터 인사이트 플랫폼
 * [AL CIRCLE](/products/AL_CIRCLE) - 대호에이엘이 생산하는 알루미늄 환절판(원형판) 제품, 주방용품 등에 사용
 * [AL COIL](/products/AL_COIL) - 대호에이엘이 생산하는 알루미늄 코일 반제품, 전기·전자·자동차 등에 사용
+* [angel GEAR (ANGEL X)](/products/angel_GEAR) - 엔젤로보틱스의 산업안전용 웨어러블 슈트
+* [angel MEDI (엔젤렉스 M20)](/products/angel_MEDI) - 엔젤로보틱스의 보행치료용 헬스케어 웨어러블 로봇, 매출액 기준 시장 1위
+* [angel SUIT (H10)](/products/angel_SUIT) - 엔젤로보틱스의 병원·가정용 경증 보행장애 치료 웨어러블 로봇
 * [APB-A1](/products/APB-A1) - 에이프릴바이오의 SAFA 플랫폼 기반 자가면역질환 치료제 파이프라인, 룬드벡에 기술이전
 * [APB-R3](/products/APB-R3) - 에이프릴바이오의 SAFA 플랫폼 기반 염증질환 치료제 파이프라인, 에보뮨에 기술이전
 * [ArtiSeal](/products/ArtiSeal) - 리브스메드의 다관절 혈관봉합기, RF 제너레이터 기반 자체 봉합 알고리즘 탑재
@@ -121,6 +124,7 @@
 * [Edge Grinder](/products/Edge_Grinder) - 미래컴퍼니의 디스플레이 패널 엣지 정밀 연삭 가공 장비
 * [EG-MCV4(4가 수막구균 접합백신)](/products/EG-MCV4) - 아이진이 유바이오로직스로부터 기술도입하여 개발 중인 4가 수막구균 접합백신
 * [EG-rBTX100(재조합 보툴리눔 톡신)](/products/EG-rBTX100) - 아이진이 엠브릭스로부터 기술도입한 차세대 유전자재조합 뉴로톡신(보툴리눔 톡신)
+* [EHD 잉크젯 프린터](/products/EHD_잉크젯_프린터) - 정전기력 기반 초미세 패턴 인쇄·코팅용 EHD 잉크젯 프린터 및 코터
 * [Electric Water Pump](/products/Electric_Water_Pump) - 전기차·하이브리드차 냉각시스템에 적용되는 전동화 워터펌프(EWP)
 * [Electrical Panel](/products/Electrical Panel) - 휴니드테크놀러지스 해외사업의 대표 제품군 — 보잉 등 글로벌 방산기업 협력 항공 전기/전자장비·와이어하네스, 2025년 매출 비중 31.8%
 * [EMC](/products/EMC) - 삼성SDI 전자재료 부문의 반도체 패키징용 봉지재(Epoxy Molding Compound) — 브랜드 스타콤
