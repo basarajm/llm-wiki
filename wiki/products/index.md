@@ -10,6 +10,7 @@
 * [8인치 아날로그·전력반도체 파운드리](/products/8인치_아날로그_전력반도체_파운드리) - DB하이텍의 8인치(200mm) 순수 파운드리 위탁생산 서비스 — 아날로그·전력반도체 공정 특화
 * [ACEPORA-ECO](/products/ACEPORA-ECO) - 태광산업 화섬부문 편·직물용 원사 브랜드(나일론·아크릴 등). 별도 매출의 약 11.3%를 차지하며 국내 나일론 필라멘트(Nylon F) 점유율 50~100% 수준.
 * [ACTILINK](/products/ACTILINK) - 플라즈맵의 임플란트 표면 재생활성 플라즈마 솔루션
+* [ADAM-rWBC](/products/ADAM-rWBC) - 나노엔텍의 혈액제제 잔존백혈구 자동계수기, 미국 적십자 표준 검사장비
 * [ADIDAS 신발 ODM](/products/ADIDAS_신발_ODM) - 화승인더스트리 ODM부문이 베트남·인도네시아·중국 생산법인에서 ADIDAS 신발을 ODM 방식으로 생산하는 핵심 제품(연결 매출비중 91.7%, 아디다스 운동화 ODM M/S 2위)
 * [AF·OIS Driver IC](/products/AF_OIS_Driver_IC) - 스마트폰 카메라 모터 구동용 자동초점(AF)·광학식 손떨림 보정(OIS) 구동 IC
 * [AGE20's](/products/AGE20's) - 애경산업의 에센스파운데이션 대표 화장품 브랜드
@@ -60,6 +61,7 @@
 * [DC-Link 커패시터](/products/DC-Link_커패시터) - 전기차·하이브리드차 인버터·컨버터의 고전압 전력변환에 쓰이는 전장용 필름 커패시터
 * [DDI 후공정(Bumping/Test)](/products/DDI_후공정) - 디스플레이 구동칩(DDI) 등 비메모리 반도체의 Bumping·패키징·테스트 후공정 서비스
 * [DGI 영상보안장비(DVR·NVR·IP카메라)](/products/DGI_영상보안장비) - 디지아이티엑스가 개발·생산·판매하는 영상감시·저장 장비(DVR·NVR·IP카메라)
+* [Diagnostic X-ray Stationary System](/products/Diagnostic_X-ray_Stationary_System) - 디알젬의 고정형 진단용 엑스선 촬영장치 제품군(GXR-S/SD, GXR-ES, DIAMOND, VXR 시리즈)
 * [DNT/MNB](/products/DNT_MNB) - 폴리우레탄 중간소재로 사용되는 정밀화학 제품(TKG휴켐스 NT계열)
 * [Door Trim](/products/Door_Trim) - 자동차 도어 내장 트림 부품
 * [DRAM](/products/DRAM) - 휘발성 메모리 반도체 — PC·서버·모바일·그래픽스 등에 광범위하게 사용되는 주기억장치
@@ -92,6 +94,7 @@
 * [FPCA(Main)](/products/FPCA_Main) - 스마트폰용 메인 연성인쇄회로 조립체(FPCA) — S&K폴리텍 종속회사 (주)캐프가 SMT 기술로 생산
 * [FPCA(TSP)](/products/FPCA_TSP) - 스마트폰용 터치스크린패널(TSP) FPCA — S&K폴리텍 종속회사 (주)캐프가 SMT 기술로 생산
 * [FPCB (연성인쇄회로기판)](/products/FPCB) - 유연성 있는 회로 기판으로 모바일·전장·산업기기 등에 사용되는 전자부품
+* [FREND System](/products/FREND System) - 나노엔텍의 랩온어칩 기반 형광 면역진단 현장진단(POCT) 플랫폼
 * [Galaxy 스마트폰](/products/Galaxy_스마트폰) - 삼성전자 모바일경험(MX) 사업의 스마트폰 브랜드 — Galaxy S·Z 시리즈와 Galaxy AI, 글로벌 수량 기준 상위 점유율
 * [Gas 공급장치](/products/Gas_공급장치) - 반도체·디스플레이 공정에 필요한 원료 가스를 지정 압력으로 공급하는 장치
 * [GFzyme Proteinase K](/products/GFzyme-Proteinase-K) - HLB제넥스가 국산화에 성공한 분자진단·유전공학 실험용 효소
@@ -169,6 +172,7 @@
 * [MLB 상표권 라이선스](/products/MLB_상표권_라이선스) - F&F홀딩스가 보유한 MLB 브랜드 상표권을 자회사 F&F에 사용시켜 로열티 수익을 창출하는 라이선스 사업
 * [MLCC](/products/MLCC) - 적층세라믹콘덴서 — 전자회로의 전류 제어·노이즈 제거에 쓰이는 핵심 수동소자
 * [MLCC용 이형필름](/products/MLCC용 이형필름) - 코스모신소재의 제2 주력 제품 — MLCC 제조공정에 사용되는 기능성 이형필름(PET 필름에 실리콘 이형액 박막 코팅) (2025년 매출비중 25.3%)
+* [Mobile Digital X-ray System](/products/Mobile_Digital_X-ray_System) - 디알젬의 이동형 디지털 진단용 엑스선 촬영장치 제품군(TOPAZ, JADE, PROMO, RAYMO 시리즈)
 * [mobilgene](/products/mobilgene) - 현대오토에버의 AUTOSAR 기반 차량 SW 플랫폼(미들웨어) 제품군
 * [MONOPOL](/products/MONOPOL) - 동남합성의 계면활성제 대표 상표(세제 등 원부재료용)
 * [MRO 구매대행](/products/MRO구매대행) - 플레이그램 지배회사가 직접 영위하는 기업 통합구매대행(MRO) 서비스 — 연결 구매대행 매출비중 22.37%
@@ -188,6 +192,7 @@
 * [NH올원리츠 수익증권](/products/NH올원리츠_수익증권) - NH올원리츠가 발행한 상장 보통주(리츠 주식) 및 배당 상품
 * [NICE BizLINE](/products/NICE_BizLINE) - NICE평가정보의 온라인 기업정보 제공 서비스(구 KISLINE)
 * [NICE(NIPT)](/products/NICE_NIPT) - 이원다이애그노믹스(EDGC)의 비침습 산전 진단검사(NIPT) 서비스 브랜드
+* [NT-I7](/products/NT-I7) - 네오이뮨텍이 개발하는 장기 지속형 IL-7 계열 T 세포 증폭제, 급성 방사선 증후군·CAR-T 병용 파이프라인 핵심 물질
 * [O/C (Open Cassette)](/products/O_C_Open_Cassette) - 웨이퍼 제조공정에서 잉곳 절단 웨이퍼를 운송하는 데 쓰이는 웨이퍼용 카세트
 * [OIS (광학식 손떨림 보정장치)](/products/OIS) - 스마트폰 카메라 모듈의 손떨림을 실시간 보정하는 2~3축 구동 액추에이터
 * [OKN-007](/products/OKN-007) - HLB테라퓨틱스 자회사 Oblato가 개발 중인 교모세포종(뇌종양) 치료제
@@ -205,6 +210,7 @@
 * [PHC PILE](/products/PHC_PILE) - 고강도 콘크리트 기초 파일 — 토목·건축 기초자재. 아이에스동서가 국내 최초 자체 개발
 * [PHC파일](/products/PHC파일) - 삼일씨엔에스가 'Hypile' 상표로 생산하는 고강도 콘크리트 파일(PHC PILE)·PC 건축 기초 건자재
 * [Phoretar 난연제](/products/Phoretar_난연제) - 파미셀 바이오케미컬 사업부가 제조하는 친환경 인계(燐系) 난연제 (폴리에스터 섬유용·전자재료용)
+* [Plasma Guard 222](/products/Plasma_Guard_222) - 나노씨엠에스의 인체에 안전한 원자외선(Far UV-C 222nm) 방역 램프
 * [PLC](/products/PLC) - 산업 공정 제어용 프로그래머블 로직 컨트롤러(PLC)
 * [PLUX](/products/PLUX) - 롯데하이마트의 자체 브랜드(PB) 생활·소형가전 라인업
 * [PNAClamp™](/products/PNAClamp) - HLB파나진의 PNA 기반 암 체세포 돌연변이 검출 분자진단 시약 시리즈
@@ -589,6 +595,7 @@
 * [선풍기](/products/선풍기) - 신일전자의 핵심 하절기 소형가전 제품으로, '신일' 브랜드의 대표 품목이자 전사 매출의 약 절반을 차지하는 주력 제품
 * [섬유로프](/products/섬유로프) - 합성섬유(PP·PE 등)를 꼬아 만든 수산·양식·계류·산업용 로프. 만호제강이 회사 추정 국내 섬유제품 약 25% 점유
 * [세그멘트](/products/세그멘트) - 태명실업이 생산하는 지하철·전력구 터널공사용 프리캐스트 콘크리트 세그멘트
+* [세금환급대행서비스 (Tax Refund)](/products/세금환급대행서비스) - 외국인 관광객의 국내 소비에 대한 부가가치세·개별소비세 환급을 대행하는 서비스
 * [세노바메이트](/products/세노바메이트) - 에스케이바이오팜이 개발한 뇌전증 치료 신약 (미국 XCOPRI®, 유럽 ONTOZRY®)
 * [세미콜론명동](/products/세미콜론명동) - 디앤디플랫폼리츠 기초자산 오피스·판매시설(중구 명동), 매출 비중 18.7%
 * [세미콜론문래](/products/세미콜론문래) - 디앤디플랫폼리츠 최대 기초자산 오피스(영등포구 문래동), 매출 비중 66.2%
@@ -711,6 +718,7 @@
 * [에프엔타워 오피스 임대](/products/에프엔타워_오피스임대) - 삼성FN리츠가 보유한 3개 오피스 빌딩(대치·순화·판교)의 임대 서비스
 * [에피론 (EPIRON)](/products/에피론) - 영보화학의 가교발포 폴리올레핀 폼 자동차 내장재 브랜드
 * [엑티몬](/products/엑티몬) - 감성코퍼레이션이 전개하는 휴대폰 보조배터리·액세서리 브랜드(ACTIMON)
+* [엔다리](/products/엔다리) - 미국 FDA 승인 겸상적혈구질환 치료제, 네오이뮨텍이 2025년 12월 북미 독점 유통권을 확보한 상업화 제품
 * [엔지니어링 플라스틱 부품(EP)](/products/엔지니어링_플라스틱_부품) - 자동차 경량화를 위한 엔지니어링 플라스틱 부품(실린더 헤드 커버, 에어 인테이크 매니폴드 등)
 * [엘리가드](/products/엘리가드) - 한올바이오파마가 도입·판매하는 항암제(전립선암·성조숙증) 상품으로 2025년 도입 상품 매출 비중 2위(11.1%)를 차지하는 대표 품목
 * [엘티카지노](/products/엘티카지노) - 롯데관광개발 종속회사 엘티엔터테인먼트가 제주 드림타워 복합리조트에서 운영하는 외국인전용 카지노
