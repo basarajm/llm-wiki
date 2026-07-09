@@ -40,6 +40,7 @@
 * [ArtiSential](/products/ArtiSential) - 리브스메드의 핸드헬드 다관절 복강경 수술기구, 90° 관절 가동 범위 구현
 * [AstraGo](/products/AstraGo) - 씨이랩의 GPU 자원 오케스트레이션/스케줄링 솔루션(AI Infra 사업부문 핵심 제품)
 * [ATHENA](/products/ATHENA) - 브리지텍의 인공지능 컨택센터(AICC) 플랫폼
+* [AUD 플랫폼](/products/AUD플랫폼) - 비아이매트릭스의 Low-code 기반 BI/OLAP·SCM 통합 업무 플랫폼
 * [AXCUT](/products/AXCUT) - 액스비스의 레이저 절단·노칭 장비 — 전기차 모터·이차전지 부품, 전자·전장 부품 제조 공정용
 * [Axle Assembly](/products/Axle_Assembly) - 한국무브넥스가 현대차·기아에 공급하는 액슬 어셈블리(Front/Rear) — 차량 구동·현가 핵심 모듈
 * [AXLE (리어액슬)](/products/AXLE_리어액슬) - 체시스의 주력 제품으로 차량 후단부에 장착되는 자동차 현가장치 부품
@@ -172,6 +173,7 @@
 * [GFX](/products/GFX) - 바이오에프디엔씨의 성장인자(Growth Factor Complex) 기반 화장품 원료 완제품
 * [GFzyme Proteinase K](/products/GFzyme-Proteinase-K) - HLB제넥스가 국산화에 성공한 분자진단·유전공학 실험용 효소
 * [Glassom (LCD 셀 보호막)](/products/Glassom_LCD셀보호막) - 나노캠텍의 LCD Glass Cell 운송용 간지 및 보호막 제품
+* [G-MATRIX](/products/G-MATRIX) - 비아이매트릭스의 AI 기반 코딩 자동화·생성형 AI 결합 데이터 분석 솔루션
 * [GMT](/products/GMT) - 한화첨단소재(한화솔루션 첨단소재 부문)의 자동차 경량복합소재 GMT — 세계시장 점유율 약 63%(세계 1위, 2025, 회사 추정)
 * [GPON 단말](/products/GPON_단말) - 기가비트 수동 광네트워크(GPON) 기반 가정용 통신 단말 제품
 * [Green-Cap](/products/Green-Cap) - 삼화전기의 전기이중층콘덴서(EDLC) 브랜드 — 급속 충방전·반영구 수명의 에너지 저장 소자
@@ -221,6 +223,7 @@
 * [KG케미칼 비료](/products/KG케미칼_비료) - KG케미칼의 친환경·완효성·유기질 비료 등 비료 제품군으로 국내 점유율 5.5%
 * [KOLMAR 상표권](/products/KOLMAR 상표권) - 콜마홀딩스가 자회사에 라이선스하는 KOLMAR 브랜드 상표권
 * [KROKY](/products/KROKY) - 넥스틴의 HBM(고대역폭메모리) 적층 공정 전용 웨이퍼 패턴 결함 검사장비
+* [K-System](/products/K-System) - 영림원소프트랩의 구축형(On-premise) ERP 패키지 제품군
 * [Lactazyme-B](/products/Lactazyme-B) - HLB제넥스가 개발한 유제품 가공용 락타아제(갈락토올리고당 제조 효소)
 * [LAMI FABRIC](/products/LAMI FABRIC) - 일정실업의 자동차 시트용 라미네이팅 원단(LAMI FABRIC). 별도 매출의 약 64%를 차지하는 최대 매출 제품으로 현대자동차 등 완성차·시트 제조사에 납품.
 * [LAMINATED 칼라강판](/products/LAMINATED_칼라강판) - 전기아연도금강판 등을 소재로 표면에 필름을 라미네이팅한 가전제품 외장용 코팅강판
@@ -431,6 +434,7 @@
 * [SWEEP](/products/SWEEP) - 세림B&G가 유통하는 산업용 로봇청소기 브랜드(푸두 로보틱스 파트너십)
 * [Synozol 반응성염료](/products/Synozol_반응성염료) - 경인양행의 반응성염료 브랜드로 화학·천연섬유·가죽제품 염색에 사용
 * [Sys Clein](/products/Sys_Clein) - 자이에스앤디가 시공·판매하는 환기형 공기청정기 브랜드
+* [SystemEver](/products/SystemEver) - 영림원소프트랩의 클라우드 SaaS ERP 서비스(월 과금형)
 * [TAPEX 이차전지용 테이프](/products/TAPEX_이차전지용_테이프) - 테이팩스가 생산하는 이차전지 안정성·수명 향상용 테이프 브랜드
 * [TargetCool](/products/TargetCool) - 리센스메디컬의 극저온-열전복합 급속정밀냉각 피부과용 의료기기
 * [TCO 타겟](/products/TCO_타겟) - 디스플레이·태양전지용 투명전도성 산화물(TCO) 타겟 소재
@@ -443,6 +447,7 @@
 * [TITAMAX](/products/TITAMAX) - 황금에스티가 출시한 고품질 표면처리 건축소재 브랜드
 * [TJ RealMaster](/products/TJ_RealMaster) - TJ미디어의 전문가용 노래반주기 브랜드
 * [TOEFL TPO](/products/TOEFL_TPO) - ETS 공식 토플 온라인 모의고사(TOEFL Practice Online)를 국내에 독점 판매하는 교육 서비스
+* [TRINITY](/products/TRINITY) - 비아이매트릭스의 Ontology 기반 Agentic AI 개발 플랫폼
 * [Trocar](/products/Trocar) - 복강경 수술기구가 환자 체내외로 드나드는 채널 역할을 하는 일회용 투관침
 * [TUNEMAKERS](/products/TUNEMAKERS) - 씨엑스아이가 판매 계약을 통해 진출한 스킨케어 화장품 브랜드, 중국 온라인 쇼핑몰 중심 판매
 * [Tuznue (HD201)](/products/Tuznue) - 프레스티지바이오파마의 허셉틴 바이오시밀러, 2024년 EU 품목허가 획득
@@ -459,6 +464,7 @@
 * [VLAD](/products/VLAD) - 링크제니시스의 AI 기반 영상 인식·검증 소프트웨어 패키지
 * [Weather Strip](/products/Weather_Strip) - 자동차 도어·차체용 누수방지·방음 고무부품(Sealing Products)
 * [WHOTAG](/products/WHOTAG) - 바이브컴퍼니의 멀티모달 AI 기반 글로벌 인플루언서 프로파일링·마케팅 서비스
+* [Why?시리즈](/products/Why시리즈) - 예림당의 대표 아동·유아용 학습만화 도서 브랜드
 * [WICOP](/products/WICOP) - 서울반도체의 와이어·패키지·광학 렌즈 없는 2세대 LED 기술
 * [WOLED TV패널](/products/WOLED_TV패널) - 대형 TV용 화이트 OLED(WOLED) 패널 — LG디스플레이가 양산 주도하는 자발광 대형 디스플레이
 * [XAIVA](/products/XAIVA) - 씨이랩의 실시간 AI 영상분석 플랫폼(Vision AI 사업부문 핵심 제품)
@@ -908,6 +914,8 @@
 * [슈펙트](/products/슈펙트) - 일양약품이 개발한 국산 18호 신약 만성골수성백혈병(CML) 치료제(라도티닙)
 * [스노우피크 어패럴](/products/스노우피크_어패럴) - 감성코퍼레이션이 전개하는 아웃도어 라이프스타일 의류 브랜드
 * [스마트55](/products/스마트55) - 우성(주)/우성사료의 가축용 배합사료 대표 브랜드 — 양돈·양계·축우용 배합사료 라인
+* [스마트HMI 'TOP'](/products/스마트HMI_TOP) - 엠투아이코퍼레이션의 대표 산업용 HMI(Human-Machine Interface) 브랜드
+* [스마트SCADA](/products/스마트SCADA) - 엠투아이코퍼레이션의 원격 감시제어 및 데이터 수집(SCADA) 솔루션
 * [스마트카드/USIM(LETA)](/products/스마트카드_USIM_LETA) - 엑스큐어의 4G/5G 통신·금융용 스마트카드(USIM) 브랜드
 * [스마트파워앰프 (아이언디바이스)](/products/스마트파워앰프_아이언디바이스) - 아이언디바이스가 설계·판매하는 혼성신호 SoC 기반 고효율 스피커앰프
 * [스칸디아](/products/스칸디아) - 스튜디오삼익의 스칸디나비안 스타일 중저가 가구 브랜드
@@ -1020,6 +1028,8 @@
 * [에소메졸](/products/에소메졸) - 한미약품의 역류성식도염 치료제(에스오메프라졸 계열)
 * [에스엔시스 선박평형수처리시스템(BWMS)](/products/에스엔시스_BWMS) - 에스엔시스의 친환경 선박평형수처리시스템 및 이중연료공급장치 제품군
 * [에스엔시스 배전반](/products/에스엔시스_배전반) - 에스엔시스의 선박·해양·육상용 고압·저압 배전반 및 전력관리시스템 제품군
+* [에스엠코어 물류자동화설비](/products/에스엠코어_물류자동화설비) - 에스엠코어의 창고자동화·물류이송 제품군(Rack·Stacker Crane·Conveyor·AGV·LGV·WMS 등)
+* [에스엠코어 반도체물류장비](/products/에스엠코어_반도체물류장비) - 에스엠코어의 반도체 전·후공정 물류이송장비(Conveyor·Stocker·AGV/LGV·EBS)
 * [에스오에스랩 ML 라이다](/products/에스오에스랩_ML라이다) - 에스오에스랩의 3D 고정형 라이다 주력 제품군(ML 시리즈)
 * [에스지헬스케어 의료용 영상진단기기](/products/에스지헬스케어_의료용_영상진단기기) - 에스지헬스케어의 X-ray·C-arm·CT·MRI 등 의료용 영상진단기기 제품군
 * [에스페로](/products/에스페로) - SB성보의 살충제 대표 품목, 살충제 부문(매출비중 22.57%) 대표 제품
@@ -1049,7 +1059,10 @@
 * [영구자석 이중여자제어 동기발전기 (SESG)](/products/영구자석_이중여자제어_동기발전기) - 썬테크의 영구자석 활용 고효율 비상발전기 브랜드(SESG)
 * [영생활력](/products/영생활력) - 씨엑스아이 자회사가 한약재를 기반으로 제조·판매하는 건강기능식품 브랜드(캡슐·정제·과립·차 등)
 * [영양수액](/products/영양수액) - JW중외제약의 영양수액(단백·아미노산 공급) 제품군, 위너프(Winuf) 대표 브랜드
+* [영우디에스피 디스플레이 검사장비](/products/영우디에스피_디스플레이검사장비) - 영우디에스피의 OLED·LCD 패널 CELL/Module 공정용 검사설비
 * [영풍 PCB·FPCB](/products/영풍_PCB) - 영풍 종속회사(코리아써키트·인터플렉스·테라닉스·영풍전자)가 생산하는 인쇄회로기판(경성 PCB·연성 FPCB), 영풍 연결 매출의 최대 비중 제품군
+* [예선테크 Bonding Tape](/products/예선테크_Bonding_Tape) - 디스플레이·2차전지 등에 부착되는 접착소재 제조 제품군 (상표 YST), 예선테크 최대 매출 품목
+* [예선테크 Foam Pad](/products/예선테크_Foam_Pad) - LCD TV·모니터 패널을 가이드패널/백커버에 부착하는 기능성 접착소재 (상표 YST)
 * [오가본](/products/오가본) - 뉴키즈온 자회사 에코더마랩이 운영하는 영유아 대상 오가닉 스킨케어 브랜드
 * [오구멘틴](/products/오구멘틴) - 일성아이에스의 최대 매출 품목 — 페니실린계 항생제(GSK 라이선스 국내 생산)
 * [오뚜기밥](/products/오뚜기밥) - 오뚜기의 즉석밥 대표 브랜드. 즉석밥 시장점유율 32.2%의 주요 플레이어
@@ -1327,6 +1340,7 @@
 * [특수강](/products/특수강) - 자동차·기계·조선·건설중장비용 봉강·선재·형단조 등 특수강 소재. 세아베스틸지주(세아베스틸·세아창원특수강) 국내 특수강 1위
 * [특수방화복](/products/특수방화복) - PBI·아라미드 소재 기반의 소방대원용 고성능 방화복
 * [특장차](/products/특장차) - 기본차 샤시에 특수장치를 부착해 특수 용도로 제작하는 차량(탑차·건설차량·소방차 등)
+* [티머니 솔루션](/products/티머니_솔루션) - 아톤이 제조·공급하는 T-Money 교통카드 칩 기반 솔루션
 * [티엠버스주](/products/티엠버스주) - 종근당바이오의 보툴리눔독소A형 제제 — 2025년 국내 식약처 품목허가 획득
 * [티웨이항공 여객운송](/products/티웨이항공_여객운송) - 티웨이항공의 국내외 정기편 여객 운송 서비스
 * [티웨이홀딩스 PHC파일](/products/티웨이홀딩스_PHC파일) - 티웨이홀딩스가 경기 포천 공장에서 자체 제조·판매하는 PHC파일(고강도 콘크리트 말뚝) — 2025년 별도매출의 100%를 차지하는 단일 주력 제품(매출 50.35억 원)
