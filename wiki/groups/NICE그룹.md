@@ -3,7 +3,7 @@ type: Corporate Group
 title: NICE그룹
 description: 지주회사 NICE홀딩스를 중심으로 신용정보·지급결제·무인화운영·신용평가 등을 영위하는 기업집단
 controlling_person: 김원우
-member_companies: [/companies/NICE홀딩스, /companies/NICE평가정보, /companies/나이스신용평가, /companies/나이스정보통신, /companies/아이티엠반도체, /companies/나이스디앤비]
+member_companies: [/companies/NICE홀딩스, /companies/NICE평가정보, /companies/나이스신용평가, /companies/나이스정보통신, /companies/아이티엠반도체, /companies/나이스디앤비, /companies/서울전자통신]
 tags: [기업집단, NICE그룹]
 timestamp: 2026-07-03T00:00:00Z
 ---
@@ -29,6 +29,7 @@ NICE홀딩스의 최대주주는 개인 김원우(지분 25.30%)이며, 특수�
 - 나이스피앤아이㈜ — 채권평가
 - 나이스인베스팅㈜ — 컨설팅 사업(2025년 신설)
 - 나이스페이먼츠, KIS정보통신, 나이스엘엠에스 등 다수 (총 43개 종속회사, 상장 4개·비상장 39개)
+- [서울전자통신](/companies/서울전자통신) — 전원부품(트랜스포머·SMPS)·ODM(전기차충전기·전자담배 카트리지 등), KOSDAQ 상장(033770), 최대주주 김원우(개인) 30.4%
 
 ## 지배구조
 
@@ -42,3 +43,4 @@ NICE홀딩스의 최대주주는 개인 김원우(지분 25.30%)이며, 특수�
 - [NICE 2025 사업보고서](/sources/NICE_2025_사업보고서)
 - [NICE평가정보 2025년 사업보고서](/sources/NICE평가정보_2025_사업보고서)
 - [나이스디앤비 2025 사업보고서](/sources/나이스디앤비_2025_사업보고서)
+- [서울전자통신 2025 사업보고서](/sources/서울전자통신_2025_사업보고서)
