@@ -309,6 +309,7 @@
 * [NICE(NIPT)](/products/NICE_NIPT) - 이원다이애그노믹스(EDGC)의 비침습 산전 진단검사(NIPT) 서비스 브랜드
 * [NT-I7](/products/NT-I7) - 네오이뮨텍이 개발하는 장기 지속형 IL-7 계열 T 세포 증폭제, 급성 방사선 증후군·CAR-T 병용 파이프라인 핵심 물질
 * [NUBISON AX](/products/NUBISON_AX) - 심플랫폼이 개발·공급하는 산업용 AX(AI Transformation) 올인원 플랫폼
+* [NuGel](/products/NuGel) - 샤페론이 개발 중인 GPCR19 표적 염증복합체 억제제 기반 아토피피부염 치료제(외용제)
 * [O/C (Open Cassette)](/products/O_C_Open_Cassette) - 웨이퍼 제조공정에서 잉곳 절단 웨이퍼를 운송하는 데 쓰이는 웨이퍼용 카세트
 * [OA Finisher](/products/OA_Finisher) - 복사기용 마무리(제본·정합) 장치, 삼진엘앤디 제품사업부문의 주력 제품
 * [OcuCool](/products/OcuCool) - 리센스메디컬의 정밀냉각기술 기반 안과용 의료기기
@@ -324,6 +325,7 @@
 * [OPGW](/products/OPGW) - 광복합가공지선 — 송전선로 가공지선에 광섬유를 내장한 전력·통신 복합 케이블
 * [OPU](/products/OPU) - 하이브리드 차량 자동변속기용 오일펌프 제어기 — 모토닉의 전장부품 주력 제품, 관련 특허 보유
 * [PAIL 용기](/products/PAIL용기) - 한국석유공업이 외주 생산하는 합성수지 PAIL 용기(PAIL Containers) — 2025년 국내 점유율 15.0%
+* [Papiliximab](/products/Papiliximab) - 샤페론의 나노맙 이중항체 플랫폼 기반 PD-L1×CD47 표적 항암제 파이프라인(AML 대상)
 * [PATHPLORER](/products/PATHPLORER) - 바이오다인의 액상세포검사(LBC) 자동화 진단장비 및 연계 시약키트 브랜드
 * [PAYCO](/products/PAYCO) - NHN이 운영하는 간편결제 및 핀테크 플랫폼
 * [PBA 모듈](/products/PBA_모듈) - 스마트폰·웨어러블기기 등 IT기기에 탑재되는 통합 인쇄회로기판(PBA) 조립 모듈
@@ -338,6 +340,7 @@
 * [PHC PILE](/products/PHC_PILE) - 고강도 콘크리트 기초 파일 — 토목·건축 기초자재. 아이에스동서가 국내 최초 자체 개발
 * [PHC파일](/products/PHC파일) - 삼일씨엔에스가 'Hypile' 상표로 생산하는 고강도 콘크리트 파일(PHC PILE)·PC 건축 기초 건자재
 * [Phoretar 난연제](/products/Phoretar_난연제) - 파미셀 바이오케미컬 사업부가 제조하는 친환경 인계(燐系) 난연제 (폴리에스터 섬유용·전자재료용)
+* [Pitavastatin API](/products/Pitavastatin_API) - 고지혈증·고혈압 등 심혈관계 질환 치료제용 원료의약품
 * [Plasma Guard 222](/products/Plasma_Guard_222) - 나노씨엠에스의 인체에 안전한 원자외선(Far UV-C 222nm) 방역 램프
 * [PLC](/products/PLC) - 산업 공정 제어용 프로그래머블 로직 컨트롤러(PLC)
 * [PLUX](/products/PLUX) - 롯데하이마트의 자체 브랜드(PB) 생활·소형가전 라인업
@@ -376,6 +379,7 @@
 * [RGN-259](/products/RGN-259) - HLB테라퓨틱스 자회사 ReGenTree가 개발 중인 안구건조증·신경영양성각막염 치료제
 * [RMS/POP BPO 솔루션](/products/RMS_POP_BPO솔루션) - 세중 에스앤씨사업부의 비대면 Pre-Sales 관리 및 매장 디지털 사이니지 솔루션
 * [ROBO BEARING](/products/ROBO_BEARING) - 에스비비테크의 반도체 진공 로봇 구동용 박형(Ultra Slim) 베어링
+* [Rosuvastatin Strontium API](/products/Rosuvastatin_Strontium_API) - 고지혈증 치료제용 원료의약품(Statin계열)
 * [Rotor Facing](/products/Rotor_Facing) - 브레이크 디스크 로터 표면가공 관련 자동차 마찰재 부품
 * [RUE KWAVE](/products/RUE_KWAVE) - 글로본이 전개하는 중국·동남아·중동향 K-뷰티 화장품 브랜드
 * [RZ-001](/products/RZ-001) - 알지노믹스의 hTERT mRNA 표적 RNA 치환효소 기반 항암 유전자치료제(간세포암·교모세포종)
@@ -384,6 +388,7 @@
 * [SAFA 지속형 플랫폼](/products/SAFA_지속형_플랫폼) - 에이프릴바이오의 혈청알부민 결합 Fab 항체절편(SL335) 기반 약효단백질 반감기 증대 원천기술
 * [SAIP](/products/SAIP) - 에스투더블유의 도메인 특화 온톨로지·산업 AI 플랫폼
 * [Samsung TV](/products/Samsung_TV) - 삼성전자 영상디스플레이 사업의 TV 완제품 — Neo QLED·OLED·The Frame 등, 글로벌 금액 기준 점유율 1위
+* [Sarpogrelate API](/products/Sarpogrelate_API) - 항혈소판제(순환계통 질환)용 원료의약품
 * [SbW(Steer-by-Wire)](/products/SbW(Steer-by-Wire)) - 에이치엘만도의 전동 조향 시스템 — 기계적 연결 없이 전자 신호로 조향하는 차세대 조향 시스템, 세계 최초 양산
 * [SECUVE TOS](/products/SECUVE_TOS) - 시큐브의 보안운영체제(Secure OS) 솔루션, 국내 최초 상용화 제품
 * [SELAC(ABS 컴파운드)](/products/SELAC) - 세우글로벌이 컴파운딩 생산하는 ABS 수지 브랜드
