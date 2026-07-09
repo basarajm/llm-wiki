@@ -249,6 +249,8 @@
 * [miLab™](/products/miLab) - 노을이 개발한 세계 최초의 온디바이스 AI 진단랩 솔루션
 * [MIPHOTO](/products/MIPHOTO) - 미원상사 전자재료 사업군의 반도체·디스플레이용 첨단 전자소재 대표 브랜드 (포토레지스트 폴리머·PAC·OLED 소재 등)
 * [MIRAMER](/products/MIRAMER) - 미원에스씨의 에너지경화수지(UV/EB curing) 핵심 원료 브랜드 — 아크릴계 모노머·올리고머
+* [MIVE 시니어폰](/products/MIVE_시니어폰) - 알트가 국내 통신 3사向으로 공급하는 65세 이상 시니어용 통신단말
+* [MIVE 키즈폰](/products/MIVE_키즈폰) - 알트가 국내 통신 3사向으로 공급하는 4~12세 어린이용 스마트폰
 * [MLB 상표권 라이선스](/products/MLB_상표권_라이선스) - F&F홀딩스가 보유한 MLB 브랜드 상표권을 자회사 F&F에 사용시켜 로열티 수익을 창출하는 라이선스 사업
 * [MLCC](/products/MLCC) - 적층세라믹콘덴서 — 전자회로의 전류 제어·노이즈 제거에 쓰이는 핵심 수동소자
 * [MLCC용 이형필름](/products/MLCC용 이형필름) - 코스모신소재의 제2 주력 제품 — MLCC 제조공정에 사용되는 기능성 이형필름(PET 필름에 실리콘 이형액 박막 코팅) (2025년 매출비중 25.3%)
@@ -340,6 +342,9 @@
 * [RMS/POP BPO 솔루션](/products/RMS_POP_BPO솔루션) - 세중 에스앤씨사업부의 비대면 Pre-Sales 관리 및 매장 디지털 사이니지 솔루션
 * [Rotor Facing](/products/Rotor_Facing) - 브레이크 디스크 로터 표면가공 관련 자동차 마찰재 부품
 * [RUE KWAVE](/products/RUE_KWAVE) - 글로본이 전개하는 중국·동남아·중동향 K-뷰티 화장품 브랜드
+* [RZ-001](/products/RZ-001) - 알지노믹스의 hTERT mRNA 표적 RNA 치환효소 기반 항암 유전자치료제(간세포암·교모세포종)
+* [RZ-003](/products/RZ-003) - 알지노믹스의 APOE4 표적 RNA 편집 기반 알츠하이머병 유전자치료제
+* [RZ-004](/products/RZ-004) - 알지노믹스의 로돕신(RHO) 유전자 표적 유전성 망막색소변성증(AdRP) 유전자치료제
 * [Samsung TV](/products/Samsung_TV) - 삼성전자 영상디스플레이 사업의 TV 완제품 — Neo QLED·OLED·The Frame 등, 글로벌 금액 기준 점유율 1위
 * [SbW(Steer-by-Wire)](/products/SbW(Steer-by-Wire)) - 에이치엘만도의 전동 조향 시스템 — 기계적 연결 없이 전자 신호로 조향하는 차세대 조향 시스템, 세계 최초 양산
 * [SECUVE TOS](/products/SECUVE_TOS) - 시큐브의 보안운영체제(Secure OS) 솔루션, 국내 최초 상용화 제품
