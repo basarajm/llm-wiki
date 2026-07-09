@@ -28,6 +28,8 @@
 * [AISURFER](/products/AISURFER) - 비큐AI의 AI 에이전트 기반 뉴스 데이터 인사이트 플랫폼
 * [AL CIRCLE](/products/AL_CIRCLE) - 대호에이엘이 생산하는 알루미늄 환절판(원형판) 제품, 주방용품 등에 사용
 * [AL COIL](/products/AL_COIL) - 대호에이엘이 생산하는 알루미늄 코일 반제품, 전기·전자·자동차 등에 사용
+* [ArtiSeal](/products/ArtiSeal) - 리브스메드의 다관절 혈관봉합기, RF 제너레이터 기반 자체 봉합 알고리즘 탑재
+* [ArtiSential](/products/ArtiSential) - 리브스메드의 핸드헬드 다관절 복강경 수술기구, 90° 관절 가동 범위 구현
 * [AstraGo](/products/AstraGo) - 씨이랩의 GPU 자원 오케스트레이션/스케줄링 솔루션(AI Infra 사업부문 핵심 제품)
 * [ATHENA](/products/ATHENA) - 브리지텍의 인공지능 컨택센터(AICC) 플랫폼
 * [Axle Assembly](/products/Axle_Assembly) - 한국무브넥스가 현대차·기아에 공급하는 액슬 어셈블리(Front/Rear) — 차량 구동·현가 핵심 모듈
@@ -89,6 +91,7 @@
 * [DK-Lok Valve](/products/DK-Lok_Valve) - 디케이락의 계장용 고압 밸브 브랜드
 * [DNT/MNB](/products/DNT_MNB) - 폴리우레탄 중간소재로 사용되는 정밀화학 제품(TKG휴켐스 NT계열)
 * [Door Trim](/products/Door_Trim) - 자동차 도어 내장 트림 부품
+* [Dr.INVIVO 장기재생플랫폼](/products/Dr.INVIVO_장기재생플랫폼) - 로킷헬스케어의 AI-바이오프린터-일회성 재생 키트 결합 의료용 장기재생 플랫폼
 * [DRAM](/products/DRAM) - 휘발성 메모리 반도체 — PC·서버·모바일·그래픽스 등에 광범위하게 사용되는 주기억장치
 * [Driver-IC](/products/Driver-IC) - 디스플레이 패널을 구동하는 핵심 반도체 부품(DDI)
 * [D-SaLife 타액당 측정시스템](/products/D-SaLife_타액당_측정시스템) - 채혈 없이 타액으로 당(혈당) 수치를 측정하는 체외진단 의료기기
@@ -202,12 +205,14 @@
 * [LG전자 차량 인포테인먼트(AV/AVN)](/products/LG전자_차량인포테인먼트) - 차량용 디스플레이 오디오·내비게이션(AV/AVN) — LG전자 VS부문 인포테인먼트
 * [LIB 양극집전체용 알루미늄박](/products/LIB_양극집전체용_알루미늄박) - 리튬이온배터리 양극 활물질과 외부 회로 간 전자 이동 통로 역할을 하는 양극집전체(양극박)용 알루미늄박
 * [LiPF6 (육불화인산리튬)](/products/LiPF6) - 이차전지 전해질의 핵심 소재인 리튬염
+* [Lipo-pam®](/products/Lipo-pam) - 차백신연구소가 개발한 리포좀(liposome) 제형의 면역증강제(Adjuvant)
 * [LK삼양 교환렌즈](/products/LK삼양_교환렌즈) - LK삼양이 개발·생산하는 카메라용 교환렌즈(MF·AF·XEEN 시리즈)
 * [LK삼양 열화상카메라](/products/LK삼양_열화상카메라) - LK삼양의 열화상 카메라 기반 화재 감지·설비 모니터링 솔루션
 * [LLOYD](/products/LLOYD) - 이월드 쥬얼리사업부의 골드·실버 쥬얼리 및 시계 브랜드
 * [LM가이드](/products/LM가이드) - 레일과 블록 사이 볼의 구름 운동으로 무거운 물체를 직선으로 정밀 이동시키는 직선운동(LM) 기계요소부품
 * [LNG 보냉재](/products/LNG_보냉재) - LNG운반선 화물창의 초저온 단열을 담당하는 절연·보냉 복합소재
 * [LNG운반선](/products/LNG운반선) - 삼성중공업의 고부가가치 핵심 선종으로, LNG(액화천연가스)를 운반하는 특수 운반선
+* [L-pampo®](/products/L-pampo) - 차백신연구소가 자체 개발한 TLR2/TLR3 리간드 복합체 면역증강제(Adjuvant)
 * [LPG연료탱크](/products/LPG연료탱크) - LPG 차량용 연료탱크(LPG BOMBE) — 용접·프레스 제조 기술 기반 완성차 OEM 납품용 연료저장장치
 * [LPI System](/products/LPI_System) - LPG 연료를 엔진에 직접 분사하는 연료시스템 — 모토닉의 대표 주력 제품으로 국내 LPG 차량용 연료시스템 시장 주요 공급자
 * [LumirX](/products/LumirX) - 루미르가 개발한 초고해상도 초소형 X-Band SAR 인공위성
@@ -855,6 +860,8 @@
 * [아세아제지 골판지상자](/products/아세아제지_골판지상자) - 아세아제지 골판지부문의 대표 제품 — 골판지 원단·상자. 골판지부문 매출 비중 47.3%
 * [아세아제지 골판지원지](/products/아세아제지_골판지원지) - 아세아제지의 대표 제품 — 라이너·골심지 등 산업용지. 제지부문 매출 비중 51.7%, 골판지원지 시장 선도적 지위
 * [아셀렉스](/products/아셀렉스) - CG인바이츠가 개발한 골관절염 소염진통제 — 국내 22호 신약(바이오벤처 1호)
+* [아스플로 튜브/파이프](/products/아스플로_튜브파이프) - 반도체 공정 가스 공급용 초고청정 튜브·파이프
+* [아시아종묘 채소종자](/products/아시아종묘_채소종자) - 아시아종묘가 개발·생산·판매하는 양배추·양파·고추·무 등 채소종자(243개 작물 1,444품종)
 * [아연](/products/아연) - 고려아연이 온산제련소·호주 SMC에서 생산하는 아연괴로, 단일 제련소 기준 생산 세계 1위
 * [아연괴](/products/아연괴) - 영풍 석포제련소가 아연정광을 제련해 생산하는 전기아연(아연괴), 철강 도금용 국가 기간 소재
 * [아이덴젤트주사](/products/아이덴젤트주사) - 국제약품이 셀트리온제약과 공동판매하는 황반변성(안과) 치료용 바이오시밀러 주사제
