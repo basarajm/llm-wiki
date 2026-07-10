@@ -89,8 +89,10 @@
 * [Brity Works](/products/Brity_Works) - 삼성SDS의 클라우드 기반 기업용 협업 SaaS 솔루션군
 * [BUCKAROO](/products/BUCKAROO) - 한세엠케이의 정통 데님 진 캐주얼 브랜드
 * [Burn-In Board](/products/Burn-In_Board) - 번인 테스터에 장착되어 디바이스를 고온 챔버에서 초기 불량 선별하는 검사용 기판(BIB) — 디아이가 국내 시장점유율 약 38%(2025)로 선두권
+* [Busway](/products/Busway) - 케이블을 대체하는 차세대 전력배전설비(부스덕트)
 * [BYC 내의](/products/BYC_내의) - BYC의 대표 메리야스류 내의(이너웨어) 브랜드 — 국내 내의 시장 선도 브랜드
 * [CAN Gateway](/products/CAN_Gateway) - CAN(Controller Area Network) 기반 자동차용 게이트웨이 및 전장 제어 제품군
+* [C-ARM](/products/C-ARM) - 정형외과·신경외과 수술용 이동형 X-ray 투시촬영 진단장비
 * [CATOS](/products/CATOS) - 토탈소프트뱅크가 개발한 컨테이너·자동화 터미널 운영시스템(Computer Automated Terminal Operating System)
 * [Caymus](/products/Caymus) - 나라셀라가 수입·유통하는 미국 나파밸리 프리미엄 와인 브랜드
 * [CBN연마지석](/products/CBN연마지석) - 고속회전 고성능 연마용으로 쓰이는 입방정질화붕소(CBN) 기반 공업용 연마지석
@@ -124,6 +126,7 @@
 * [Cocktail Cloud](/products/Cocktail_Cloud) - 나무기술이 개발한 쿠버네티스 기반 컨테이너 PaaS 클라우드 네이티브 플랫폼
 * [codes-combine](/products/codes-combine) - 코데즈컴바인의 여성 캐주얼 의류 대표 브랜드
 * [COLOMBO](/products/COLOMBO) - SG세계물산의 이탈리아 장인 수공 생산 하이엔드 명품 피혁류 브랜드
+* [Compact Camera Module 자동화장비](/products/Compact_Camera_Module_자동화장비) - 스마트폰용 Compact Camera Module 검사·조립 자동화 장비
 * [Conveyor](/products/Conveyor) - 와이제이링크의 SMT 라인 PCB 이송·연결 장비, 2025년 별도 매출 비중 1위 품목
 * [Copolyester 수지](/products/Copolyester_수지) - SK케미칼의 고기능성 Copolyester 수지 제품군(SKYGREEN·ECOZEN·ECOTRIA 등)
 * [CPX](/products/CPX) - 큐리오시스의 콜로니 피킹 시스템(CPX®·씨피엑스)
@@ -200,6 +203,8 @@
 * [ESS용 배터리](/products/ESS용_배터리) - 삼성SDI가 전력저장장치(ESS)에 공급하는 중대형 리튬이온 2차전지
 * [ETaaS(ECS Technology as a Service)](/products/ETaaS(ECS_Technology_as_a_Service)) - 이씨에스텔레콤의 컨택센터 인프라 구축·운영·유지관리 관리형 서비스 브랜드
 * [Ethyl acetate](/products/Ethyl_acetate) - 대정화금이 생산하는 무색 투명액체 용매, 2025년 매출 비중 3.48%
+* [EU101 (항4-1BB 항체)](/products/EU101) - 유틸렉스가 개발한 인간 T세포 활성화 자극인자(4-1BB) 결합 항체치료제로, 중국에 라이선스아웃됨
+* [EU307 (GPC3-IL18 CAR-T)](/products/EU307) - 유틸렉스가 개발 중인 4세대 Armored CAR-T 치료제로, 고형암(간암 등)의 GPC3를 표적으로 IL-18을 발현
 * [EV Relay](/products/EV_Relay) - 전기차·ESS·태양광 인버터에 적용되는 직류 고전압 릴레이(스위치 개폐 장치)
 * [EV 각형 배터리](/products/EV_각형_배터리) - 삼성SDI가 글로벌 완성차 OEM에 공급하는 전기차(EV)용 각형(prismatic) 리튬이온 2차전지
 * [EV 완속 유선충전기](/products/EV_완속_유선충전기) - 현대케피코와 공동 개발한 7kW급 전기차 완속 유선충전기
@@ -225,6 +230,7 @@
 * [FPCB (연성인쇄회로기판)](/products/FPCB) - 유연성 있는 회로 기판으로 모바일·전장·산업기기 등에 사용되는 전자부품
 * [FREND System](/products/FREND System) - 나노엔텍의 랩온어칩 기반 형광 면역진단 현장진단(POCT) 플랫폼
 * [fromm](/products/fromm) - 노머스가 운영하는 아티스트-팬 프라이빗 메시지·멤버십·콘텐츠 통합 팬덤 플랫폼
+* [Fscan](/products/Fscan) - 자비스의 식품·제약 이물 검사용 X-ray 장비 시리즈
 * [G7커피](/products/G7커피) - 베트남 쭝웬 레전드 그룹의 인스턴트 커피 브랜드, 꿈비가 국내 온라인 총판 유통
 * [GaAs MMIC](/products/GaAs_MMIC) - 갈륨비소(GaAs) 기반 단일 집적 마이크로파 회로(MMIC) 제품
 * [Galaxy 스마트폰](/products/Galaxy_스마트폰) - 삼성전자 모바일경험(MX) 사업의 스마트폰 브랜드 — Galaxy S·Z 시리즈와 Galaxy AI, 글로벌 수량 기준 상위 점유율
@@ -306,6 +312,7 @@
 * [IT인프라 전산장비(서버·스토리지)](/products/IT인프라_전산장비) - 정원엔시스가 유통·구축하는 서버·스토리지·컴퓨터 등 전산장비 및 시스템통합 솔루션
 * [IVI 인포테인먼트 시스템](/products/IVI_인포테인먼트_시스템) - 차량용 In-Vehicle Infotainment(IVI) 시스템 — 무선 Android Auto/CarPlay 등 커넥티비티 지원
 * [IVM 생체현미경](/products/IVM_생체현미경) - 아이빔테크놀로지의 올인원 생체현미경(In vivo microscopy) 시리즈
+* [IXCLOUD](/products/IXCLOUD) - 케이아이엔엑스의 자체 클라우드 서비스
 * [J.ESTINA 주얼리](/products/J.ESTINA_주얼리) - 제이에스티나의 목걸이·귀걸이·반지 등 패션 주얼리 브랜드 상품
 * [J.ESTINA 핸드백](/products/J.ESTINA_핸드백) - 제이에스티나의 토트백·크로스백·숄더백 등 핸드백 브랜드 상품
 * [JEVISCO 도료](/products/JEVISCO_도료) - 강남제비스코의 건축·공업·자동차보수·선박·분체 도료 브랜드 (국내 도료시장 점유율 8.2%)
@@ -365,6 +372,7 @@
 * [LX하우시스 창호](/products/LX하우시스_창호) - LX하우시스의 플라스틱·알루미늄 창호 제품군 (Z:IN 브랜드)
 * [MaaT 시리즈](/products/MaaT_시리즈) - 라닉스의 하이패스(ETC/DSRC)용 SoC 제품군
 * [MagGuard](/products/MagGuard) - KZ정밀의 자체 브랜드 원심펌프(마그네틱 드라이브 펌프 계열)
+* [Mammography](/products/Mammography) - 유방 내부구조 진단용 저에너지 X-ray 촬영 의료기기
 * [MARS 플랫폼](/products/MARS_플랫폼) - 시큐레터의 리버스 엔지니어링 기반 악성코드 진단·탐지 플랫폼
 * [MARVEL Contest of Champions](/products/MARVEL_Contest_of_Champions) - 넷마블(카밤) 개발·퍼블리싱하는 마블 IP 기반 모바일 대전 액션게임
 * [Mattress-in-a-Box](/products/Mattress-in-a-Box) - 매트리스를 소형 박스에 압축 포장해 배송하는 온라인 유통 특화 포장 방식 및 제품군
@@ -379,6 +387,7 @@
 * [MicroIDsys](/products/MicroIDsys) - 아스타의 MALDI-TOF 기반 미생물동정시스템(의료용 질량분석기기)
 * [Microwave Generator](/products/Microwave_Generator) - GaN 트랜지스터·전력증폭기 기반 RF/Microwave 발생 장치, 진공관·마그네트론 대체 제품
 * [MIDAS](/products/MIDAS) - 미원화학의 구황·분황·황산·발연황산·정제황산 등 유황계 화학제품 브랜드
+* [Midibus (미디버스)](/products/Midibus) - 케이아이엔엑스의 동영상 관리·CDN 솔루션
 * [miLab™](/products/miLab) - 노을이 개발한 세계 최초의 온디바이스 AI 진단랩 솔루션
 * [MIM 자동차 터보차저·변속기 부품](/products/MIM_자동차_터보차저_변속기_부품) - 금속분말사출성형(MIM) 공법으로 제조되는 가변 터보차저 카트리지 및 DCT 변속기 정밀부품
 * [Mint Lift](/products/Mint_Lift) - 한스바이오메드의 비흡수성/생분해성 안면거상용 의료용 실(리프팅 실)
@@ -601,6 +610,7 @@
 * [SolidStep CCE](/products/SolidStep_CCE) - 에스에스알의 IT 인프라 취약점 진단 자동화 솔루션
 * [SolidStep CVE](/products/SolidStep_CVE) - 에스에스알의 취약점 관리 솔루션
 * [SOOP Ads Manager](/products/SOOP_Ads_Manager) - SOOP의 실시간 입찰형 오픈 광고 플랫폼(SAM)
+* [SOx Damper·Plant Damper](/products/SOx_Damper_Plant_Damper) - 발전플랜트 기류 제어용 댐퍼 및 선박용 탈황설비(SOx 배출저감) 댐퍼
 * [SPC 바닥재](/products/SPC바닥재) - 보원케미칼이 생산하는 SPC(Stone Plastic Composite) 바닥재
 * [SPERO](/products/SPERO) - 나무기술이 개발한 멀티클라우드 자원 통합 관리·비용 최적화 플랫폼(CMP)
 * [SPID Platform Systems (Pi-Chip·Pi-View·Pi-InSight)](/products/SPID_Platform_Systems) - 프로티나의 단백질 간 상호작용(PPI) 단일분자 분석 시스템
@@ -698,6 +708,7 @@
 * [Xi옵션](/products/Xi옵션) - 자이에스앤디가 아파트 입주자에게 판매·설치하는 시스템에어컨 등 빌트인가전 옵션 상품
 * [X-MAZE](/products/X-MAZE) - 에이럭스의 근거리 정찰 방산 드론, KOLAS·KCMVP 인증 보유
 * [XoMotion](/products/XoMotion) - 베노티앤알(관계기업 Human in Motion Robotics)이 개발한 재활치료용 외골격 웨어러블 로봇
+* [Xscan](/products/Xscan) - 자비스의 2차전지·PCB·반도체 X-ray 비파괴 검사장비 시리즈
 * [YBello](/products/YBello) - 휴럼의 종속회사 와이유가 생산하는 성형 필러 브랜드
 * [Zenius EMS](/products/Zenius_EMS) - 브레인즈컴퍼니의 IT 인프라 통합관리 솔루션 제품군
 * [가공직물](/products/가공직물) - 방림의 면방 주력 제품 — 원면·생지를 염색·표백·날염 가공한 면직물·염색원단으로, 별도 매출의 81.8%를 차지하는 대표 상품
@@ -928,6 +939,7 @@
 * [레미콘](/products/레미콘) - 동양 건재(건재사업부문)의 핵심 제품인 레미콘(생콘크리트) — 전국 시장점유율 약 3.0%
 * [레바셋정](/products/레바셋정) - 바스칸바이오제약의 대표 전문의약품(해열·진통·소염제 계열)
 * [레보아이(Revo-i)](/products/레보아이) - 미래컴퍼니가 개발한 복강경 수술로봇 시스템
+* [레이디가구](/products/레이디가구) - 오하임앤컴퍼니의 대표 가구 브랜드(침대·매트리스·소파·수납장 등)
 * [레이저·CO2 건식세정장비](/products/레이저_CO2_건식세정장비) - 아이엠티의 레이저 및 CO2를 이용한 반도체·디스플레이용 건식 세정 장비
 * [레이저티닙](/products/레이저티닙) - EGFR 표적 폐암치료제(제품명 렉라자), 오스코텍이 유한양행에 기술이전한 신약후보물질
 * [레인지후드](/products/레인지후드) - 주방 조리 시 발생하는 연기·냄새를 배출하는 환기기기(Range Hood)
@@ -1048,6 +1060,7 @@
 * [반도체 검사장비 (Test Handler)](/products/반도체_검사장비) - 반도체 소자를 테스트 공정에서 자동 이송·분류하는 검사장비
 * [반도체 웨이퍼 이송 로봇 및 자동화 모듈](/products/반도체_웨이퍼_이송로봇) - 반도체 제조라인에서 웨이퍼를 진공·대기 환경 간 이송하는 로봇 및 자동화 모듈(Backbone)
 * [반도체 웨이퍼 이송장비(CTS·EFEM·LPM)](/products/반도체_웨이퍼_이송장비) - 반도체 전공정 웨이퍼 이송용 Tool Automation 장비군
+* [반도체 자동화장비](/products/반도체_자동화장비) - 웨이퍼·메모리모듈 시료분석용 반도체 자동화장비
 * [반도체 증착소재(Precursor)](/products/반도체_증착소재) - 반도체 제조 증착 공정용 Si/Metal Precursor 및 합성수지용 고분자 촉매
 * [반도체 패키징(PKG)](/products/반도체_패키징_PKG) - 반도체칩을 부품화하는 하나마이크론의 주력 제품
 * [반도체용 케미컬](/products/반도체용_케미컬) - 반도체 신너 원재료로 쓰이는 초고순도 케미컬(PGME, PGMEA, EEP, EL 등)
@@ -1495,6 +1508,7 @@
 * [의사랑](/products/의사랑) - 유비케어(GC메디아이)의 국내 요양기관 EMR(전자의무기록) 시장 점유율 1위 솔루션 브랜드
 * [이가탄F](/products/이가탄F) - 명인제약의 잇몸질환치료제 대표 일반의약품 브랜드
 * [이노씰(InnoSEAL)](/products/이노씰) - SCL사이언스가 제조하는 국산 지혈제 브랜드
+* [이롭](/products/이롭) - 오하임앤컴퍼니가 2024년 10월 출시한 프리미엄 가정용 음식물처리기 브랜드
 * [이루온 이동통신핵심망솔루션](/products/이루온_이동통신핵심망솔루션) - 이루온이 국내 이동통신사업자에 공급하는 핵심망 및 통신 부가서비스 솔루션
 * [이뮨셀엘씨주](/products/이뮨셀엘씨주) - 지씨셀의 NK/T세포 기반 세포치료제(Immuncell-LC), 세포치료제 부문 핵심 매출 제품
 * [이미지 처리 컨트롤러 SoC](/products/이미지_처리_컨트롤러_SoC) - 마이크로디스플레이용 영상신호 처리·광학 왜곡 보정·초저지연 구현 컨트롤러 반도체
@@ -1502,6 +1516,7 @@
 * [이산화티타늄](/products/이산화티타늄) - 코스모화학이 제조하는 백색안료용 이산화티타늄(아나타제·루타일) — 국내 유일 생산, 국내 범용 아나타제 시장 약 70% 점유, 대표상표 COTIOX
 * [이앙기](/products/이앙기) - 대동 농기계부문의 벼 모내기(이앙)용 농업기계로, 트랙터·콤바인과 함께 핵심 3대 기종
 * [이차전지 Notching-Stacking 장비](/products/이차전지 Notching-Stacking 장비) - 필옵틱스(필에너지)의 이차전지 조립공정용 레이저 노칭·스태킹 일체형 장비
+* [이차전지 믹싱장비](/products/이차전지_믹싱장비) - 이차전지 전극공정 중 믹싱(Mixing) 공정에 사용되는 믹서·분체이송설비·저장탱크 등 장비군
 * [이차전지 시스템 엔지니어링 (턴키 생산라인)](/products/이차전지_시스템엔지니어링) - 리튬 이차전지 파일럿·생산라인 일괄 수주·설계·공급 서비스
 * [이차전지 양극재 첨가제](/products/이차전지_양극재_첨가제) - 양극활물질의 안정성 증대·고성능화·원가 절감에 기여하는 이차전지 핵심 소재(지르코니아, 산화알루미나, 산화코발트 등)
 * [이차전지 자동화장비](/products/이차전지_자동화장비) - 이차전지 제조 공정용 기계부품 및 자동화장비
@@ -1642,6 +1657,7 @@
 * [지상파 방송광고](/products/지상파_방송광고) - 티비씨(TBC)가 대구·경북 권역에서 제공하는 지상파 TV·라디오 방송광고 상품
 * [지역난방(열) 공급](/products/지역난방_열공급) - 열병합발전·집단에너지시설을 통한 주택·업무·공공용 난방열 공급 서비스
 * [지크](/products/지크) - 신원이 전개하는 20~30대 남성 타깃 패션 브랜드(SIEG)
+* [지투파워 지능형 AI 배전반](/products/지투파워_지능형_AI_배전반) - 부분방전 감시진단시스템을 탑재한 지투파워의 지능형 AI 배전반
 * [직각좌표로봇](/products/직각좌표로봇) - 휴림로봇(주)의 클린룸 대응 제조업용 직각좌표로봇(주력 모델 DRM160-ST1000 등)
 * [진도모피](/products/진도모피) - 진도의 프리미엄 모피의류 브랜드 — 백화점 중심 유통, 국내 모피시장 선도 브랜드
 * [진라면](/products/진라면) - 오뚜기의 대표 라면 브랜드. 오뚜기 라면 국내 시장점유율 24.1%로 업계 2위권
@@ -1672,6 +1688,7 @@
 * [초코파이](/products/초코파이) - 오리온의 대표 파이류 제품 — 1974년 출시, 중국·러시아·베트남 등 해외에서도 강력한 브랜드력 보유
 * [촉매컨버터](/products/촉매컨버터) - 자동차 배기가스의 유해물질을 정화하는 배기계 부품(C/CONVERTER)
 * [축중기](/products/축중기) - 도로교통장비(ITS) 제품군으로 차량 축중량 측정 및 도로전산기기, 에스에이티·한국도로전산이 상품·제품·유지보수 용역으로 공급
+* [치과용 CT](/products/치과용_CT) - 임플란트 수술 등을 위한 치과용 CBCT(Cone Beam CT) 3차원 영상진단장비
 * [치과진료대](/products/치과진료대) - 신흥이 제조하는 치과용 유니트체어(치과진료대)로 Taurus 계열·evertis 통합브랜드 등을 보유
 * [치킨조제분말](/products/치킨조제분말) - 에스앤디가 제조하는 치킨 풍미 조제분말 소재(일반기능식품소재)
 * [친환경차 구동모터](/products/친환경차_구동모터) - 하이브리드·전기차용 구동모터 및 시동발전모터(HSG) 등 친환경 자동차 핵심 부품
@@ -1681,6 +1698,7 @@
 * [카나브 패밀리](/products/카나브_패밀리) - 보령이 자체개발한 국내 제15호 신약 카나브(피마사르탄) 기반 고혈압·이상지질혈증 치료제 패밀리 — 국산 신약 대표 브랜드
 * [카나프테라퓨틱스 파이프라인](/products/카나프테라퓨틱스_파이프라인) - 카나프테라퓨틱스의 이중항체·합성신약·ADC 신약후보물질 파이프라인
 * [카니발](/products/카니발) - 기아의 대형 RV(미니밴) 대표 차종 — 국내 미니밴 시장 대표 모델
+* [카메라 윈도우](/products/카메라_윈도우) - 스마트폰 카메라 모듈을 보호하는 강화유리 부품
 * [카메라모듈](/products/카메라모듈) - 스마트폰·전장용 이미지 센서·렌즈·액추에이터를 통합한 카메라 부품 모듈
 * [카밈](/products/카밈) - HLB글로벌 미디어커머스 부문의 차량용 연료첨가제 브랜드
 * [카바페넴계 항생제 원료의약품](/products/카바페넴계_항생제_원료의약품) - 이미페넴·에르타페넴 등 카바페넴계 주사용 항생제 원료의약품(API)
