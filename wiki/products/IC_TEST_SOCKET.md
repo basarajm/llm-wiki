@@ -25,7 +25,7 @@ IC TEST SOCKET은 반도체(메모리 및 비메모리) 테스트 패키지용 �
 
 | 제품명 | 제조사 | 특징 |
 |---|---|---|
-| - | - | 사업보고서에 경쟁사·경쟁제품 명시 없음 |
+| [Test Socket](/products/Test_Socket) | [티에프이](/companies/티에프이) | 테스트 자원(Test Board·Test Socket·COK) 풀라인업을 국내 유일하게 공급 |
 
 ## 시장 트렌드
 
