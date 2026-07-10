@@ -118,6 +118,7 @@
 * [Bixolon Mexico](/companies/Bixolon_Mexico) - 빅솔론의 중남미지역 프린터 판매 종속회사(멕시코)
 * [Blitzway Japan](/companies/Blitzway_Japan) - 블리츠웨이엔터테인먼트의 일본 완구제조·전문디자인 종속회사 (지분 100%)
 * [BLITZWAY USA](/companies/BLITZWAY_USA) - 블리츠웨이엔터테인먼트의 미국 완구제조·전문디자인 종속회사 (지분 100%)
+* [Blue Origin](/companies/Blue Origin) - 미국 우주발사체 기업, 켄코아에어로스페이스의 우주발사체 부품 매출처 (stub)
 * [Blue Earth Diagnostics](/companies/Blue_Earth_Diagnostics) - 진단제 전문 기업, 디앤디파마텍(Neuraly Inc.) PMI07(PET 이미징 바이오마커) 기술이전 파트너사
 * [BMS](/companies/BMS) - 미국 소재 글로벌 제약사(Bristol Myers Squibb), 에이프릴바이오 APB-A1(anti-CD40L) 경쟁 파이프라인 개발사
 * [BMW](/companies/BMW) - 독일 프리미엄 완성차 제조사, 삼성SDI EV 배터리의 주요 고객사
@@ -148,6 +149,7 @@
 * [CAS 독일(CAS DEUTSCHLAND AG)](/companies/CAS_독일) - 카스의 독일 베헬데 소재 종속회사, 전자저울 판매법인
 * [CAS 상해](/companies/CAS_상해) - 카스의 중국 상해 소재 종속회사, 전자저울·로드셀 판매법인
 * [CAS 저장](/companies/CAS_저장) - 카스의 중국 저장 소재 종속회사, 전자저울·로드셀 제조법인
+* [Cevolution Bio Inc.](/companies/Cevolution Bio Inc) - 큐로셀의 해외(비상장) 자회사 — 해외 사업 확장 목적 특수목적법인 성격
 * [CG인바이츠](/companies/CG인바이츠) - 유전체/신약 개발과 AI헬스케어솔루션, 온열패치 제조를 영위하는 코스닥 상장 바이오 기업 (구 크리스탈지노믹스)
 * [CH Component Pvt. Ltd.](/companies/CH_Component_Pvt_Ltd) - 아이씨에이치의 인도 소재 100% 종속 생산법인
 * [Champion pet food](/companies/Champion_pet_food) - 해외 반려동물식품 제조사 — 동원시스템즈의 해외 포장재 고객사
@@ -291,7 +293,9 @@
 * [EDGC](/companies/EDGC) - 유전체 진단(NGS·GSA)·NIPT·체외진단 서비스를 제공하는 코스닥 상장 유전체 빅데이터 기업
 * [EG](/companies/EG) - 페라이트 자성소재(산화철) 제조 및 엔지니어링·에너지환경·소재사업을 영위하는 코스닥 상장기업
 * [EMB](/companies/EMB) - 신재생에너지(태양광)·의약품 전납도매·모바일 액세서리 사업을 영위하는 KONEX 상장기업
+* [EMBRAER S.A.](/companies/EMBRAER S.A.) - 브라질 소재 민항기·방산항공기 제조업체, 켄코아에어로스페이스의 항공기 구조물·부품 주요 고객사 (stub)
 * [eMemory](/companies/eMemory) - 대만 OTP/MTP 메모리 IP 세계 1위 기업 — 싸이닉솔루션의 Memory IP 라이선스 파트너
+* [Emmaus](/companies/Emmaus) - 카이노스메드의 미국 기술이전 파트너사, 항암제(IRAK4, KM-1003) 미국·EU·영국 권리 보유(현재 후속연구 중단)
 * [ENERTORK VINA](/companies/ENERTORK VINA) - 에너토크의 베트남 종속 생산법인(구 ENVACO)
 * [eNLink](/companies/eNLink) - 가온그룹 종속회사, 미국 지역 디지털셋톱박스·네트워크 장비 판매법인
 * [EPISIL](/companies/EPISIL) - 대만 반도체 파운드리 기업 — 싸이닉솔루션의 파운드리 파트너
@@ -307,6 +311,7 @@
 * [F&F홀딩스](/companies/F&F홀딩스) - F&F그룹의 지주회사로, 패션 자회사 F&F(MLB·DISCOVERY)의 지분 관리와 상표권 라이선스를 영위
 * [Fabless-Pioneer Holdings, Inc](/companies/Fabless-Pioneer_Holdings) - 한화비전 반도체설계 부문(영상처리 SoC·NPU 설계)을 담당하는 종속법인
 * [FAHASA CORP](/companies/FAHASA_CORP) - 이퓨쳐의 베트남 해외 외주가공·유통 거래상대방
+* [FAScinate Therapeutics Inc.](/companies/FAScinate_Therapeutics) - 카이노스메드의 미국 자회사, 파킨슨병 치료제(KM-819) 미국 임상 진행
 * [Fasoo, Inc.](/companies/Fasoo_Inc.) - 파수의 미국 종속회사(현지 법인). 비상장
 * [FedEx](/companies/FedEx) - 미국 물류·운송 대기업(FedEx Corporation), 미래에셋글로벌리츠 물류센터 2개 자산의 Triple Net 임차인
 * [FGE International B.V.](/companies/FGE_International_BV) - Five Guys Burgers & Fries 브랜드의 해외 프랜차이즈 본사(네덜란드 소재, 추정) — 한화갤러리아 자회사 에프지코리아의 계약 상대방 (stub)
@@ -361,6 +366,7 @@
 * [GS칼텍스](/companies/GS칼텍스) - GS와 미국 Chevron이 합작한 국내 정유·석유화학 기업 — 롯데케미칼 나프타 공급사, HMM 원유운송 고객사, 제주항공 항공유 공급사, 흥구석유 석유류 매입처
 * [GS피앤엘](/companies/GS피앤엘) - 파르나스호텔·후레쉬미트를 자회사로 둔 GS그룹 계열 호텔·부동산 지주회사
 * [Guangzhou Bairui](/companies/Guangzhou_Bairui) - 중국의 의약품 유통업체, 선바이오 PEG 유도체 소재 및 MucoPEG의 중국·동남아 유통 파트너
+* [Gulfstream Aerospace](/companies/Gulfstream Aerospace) - 미국 비즈니스 제트기 제조업체, 켄코아에어로스페이스의 항공기 부품 매출처 (stub)
 * [GxD 주식회사](/companies/GxD주식회사) - 지니너스의 일본 소재 100% 종속회사, 유전체 분석 서비스 공급
 * [H.Holstein](/companies/H.Holstein) - 헬릭스미스의 건강기능식품·원료 B2B 매출처(매출 비중 10.3%) (거래상대방 stub)
 * [H3C](/companies/H3C) - 중국계 네트워크·IT인프라 장비업체, 한국정보공학의 총판 공급사
@@ -521,6 +527,7 @@
 * [JB우리캐피탈](/companies/JB우리캐피탈) - JB금융지주 산하 여신전문금융회사 — 할부금융·리스·기업금융
 * [JFE스틸](/companies/JFE스틸) - 일본 철강회사(JFE Steel Corporation) — 동국제강 2대주주(8.71%) 겸 압연 원재료(빌렛·슬래브) 공급사
 * [JH머티리얼즈](/companies/JH머티리얼즈) - 새로닉스 종속회사로 태양전지용 Photovoltaic Ribbon을 제조·판매하는 비상장 전자부품업체(옛 산코코리아)
+* [Jiangsu Aidea Pharm.](/companies/Jiangsu_Aidea_Pharm) - 카이노스메드의 중국 기술이전 파트너사, 에이즈 치료제(KM-023) 중국 판권 보유
 * [JimmyAI Inc.](/companies/JimmyAI) - 플리토의 미국 소재 계열회사, AI 솔루션 공급
 * [JLK Japan](/companies/JLK_Japan) - 제이엘케이의 일본 종속법인(판매), 지분 100%
 * [JLK USA](/companies/JLK_USA) - 제이엘케이의 미국 종속법인(판매), 지분 100%
@@ -540,6 +547,7 @@
 * [JYP America](/companies/JYP America) - JYP Ent.의 미국 종속회사(구 JYP USA Inc.), 음반/음원 제작 및 매니지먼트
 * [JYP Ent.](/companies/JYP Ent.) - 박진영이 최대주주인 K-POP 엔터테인먼트 기업, 음반·매니지먼트 사업 영위, KOSDAQ 상장
 * [JYP Entertainment Japan](/companies/JYP Entertainment Japan) - JYP Ent.의 일본 종속회사, 음반/음원 제작 및 매니지먼트
+* [Kainos Vision, Inc.](/companies/Kainos_Vision) - 카이노스메드의 미국 계열회사(2024년 설립)
 * [KAON DO BRASIL](/companies/KAON_DO_BRASIL) - 가온그룹 종속회사, 브라질 생산·판매법인 (KAON DO BRASIL INDUSTRIA ELETRONICA LTDA)
 * [KAON ELECTRONIC SHENZHEN](/companies/KAON_ELECTRONIC_SHENZHEN) - 가온그룹 종속회사, 중국 선전 지역 통신·네트워크 장비 판매법인 (2025년 신규 설립)
 * [Kaon India PVT Ltd](/companies/Kaon_India_PVT_Ltd) - 가온그룹 종속회사, 인도 지역 OTT·네트워크 솔루션 판매법인
@@ -664,6 +672,7 @@
 * [Live Nation](/companies/Live Nation) - 글로벌 최대 공연 프로모터, JYP Ent.의 글로벌 투어 전략적 파트너
 * [LK삼양](/companies/LK삼양) - 카메라 교환렌즈 설계·생산 전문기업으로 열화상 카메라 기반 화재 감지 솔루션으로 사업을 확장 중인 코스닥 상장사
 * [LMS](/companies/LMS) - 케이이엠텍 전자부품사업부문의 주요 매입처
+* [Lockheed Martin](/companies/Lockheed Martin) - 미국 방산항공기 제조업체, 켄코아에어로스페이스 종속회사 Kencoa Aerospace LLC의 Tier 1 고객사 (stub)
 * [Logos Biosystems, Japan](/companies/Logos_Biosystems_Japan) - 얼라인드제네틱스의 일본 판매법인(100% 자회사, 2025년 2월 신설), 아시아 유통망 관리
 * [Logos Biosystems, SARL (France)](/companies/Logos_Biosystems_SARL) - 얼라인드제네틱스의 프랑스 판매법인(100% 자회사), 유럽 유통망 관리
 * [Logos Biosystems, Inc. (USA)](/companies/Logos_Biosystems_USA) - 얼라인드제네틱스의 미국 판매법인(100% 자회사), 북미 유통망 관리
@@ -747,6 +756,7 @@
 * [NanoTIM Czech Republic, s.r.o.](/companies/NanoTIM_Czech_Republic) - 나노팀의 체코 소재 방열소재 제조 자회사(지분 100%)
 * [NanoTIM USA INC.](/companies/NanoTIM_USA) - 나노팀의 미국 소재 방열소재 제조 자회사(지분 100%)
 * [NANTONG HAOMENG](/companies/NANTONG HAOMENG) - DS단석 바이오에너지 사업부의 주요 원재료(회수유 외) 매입처
+* [NASA](/companies/NASA) - 미국 항공우주국, 켄코아에어로스페이스의 우주발사체 부품 매출처 (stub)
 * [NAVER](/companies/NAVER) - 국내 1위 인터넷 검색 포털을 기반으로 커머스·핀테크·콘텐츠·엔터프라이즈(AI·클라우드) 사업을 영위하는 대한민국 대표 IT 플랫폼 기업
 * [Navien](/companies/Navien) - 경동나비엔 100% 미국 자회사(Navien, Inc.). 북미 보일러·온수기 판매 거점
 * [NB VINA](/companies/NB_VINA) - 노브랜드의 베트남 폴리백·박스 제조 자회사
@@ -841,6 +851,7 @@
 * [POSCO](/companies/POSCO) - 국내 최대 철강사, 동국씨엠의 주요 원재료(HRC) 공급사
 * [POSCO INTERNATIONAL AMERICA CORP.](/companies/POSCO_INTERNATIONAL_AMERICA_CORP) - 포스코인터내셔널의 미국 현지법인 — NEXTEEL SAHA LLC에 원소재를 공급하는 거래상대방
 * [PPI평화](/companies/PPI평화) - C-PVC 배관재 제조업체, 티케이지애강의 경쟁사
+* [Pratt & Whitney](/companies/Pratt & Whitney) - 미국 항공엔진 제조업체, 켄코아에어로스페이스의 방산 항공기 부품 매출처 (stub)
 * [Prestige Biopharma Australia Pty Ltd](/companies/Prestige Biopharma Australia) - 프레스티지바이오파마의 호주 종속회사
 * [Prestige Biopharma Belgium BVBA](/companies/Prestige Biopharma Belgium) - 프레스티지바이오파마의 벨기에 종속회사
 * [Proxima Beta Pte. Limited](/companies/Proxima_Beta) - 시프트업의 글로벌 게임 퍼블리셔(Tencent 계열, 싱가포르)
@@ -1039,10 +1050,13 @@
 * [Soosan America LLC](/companies/Soosan America LLC) - 수산세보틱스 제품의 북미 판매 특수관계사
 * [Soosan USA](/companies/Soosan USA) - 수산세보틱스의 미국 종속회사(건설기계 도소매)
 * [SOOSAN VINA MOTOR](/companies/SOOSAN VINA MOTOR) - 수산세보틱스의 베트남 종속회사(트레일러·세미트레일러 제조)
+* [Space X](/companies/Space X) - 미국 우주발사체 기업(SpaceX), 켄코아에어로스페이스의 우주발사체 부품 매출처 (stub)
 * [SpaceX](/companies/SpaceX) - 미국의 우주발사체·위성 기업, 센서뷰의 글로벌 벤더 고객사(2018년 등록)
 * [SPC](/companies/SPC) - 파리바게뜨·배스킨라빈스 등을 운영하는 국내 대형 제빵·식품 그룹 (푸드웰 시럽·잼 납품 고객사)
+* [Spirit AeroSystems](/companies/Spirit AeroSystems) - 미국 소재 항공기 구조물 제조업체, 켄코아에어로스페이스의 민항공기 부품 및 매출처 (stub)
 * [SPM AUTO PARTS S.A. DE C.V.](/companies/SPM_AUTO_PARTS) - 풍강 등 3개사 합작 멕시코 현지법인, 너트·볼트·자동차부품 제조판매 (stub)
 * [SR](/companies/SR) - 수서고속철도(SRT) 운영사, 시선AI 계열 대보디엑스의 주요 SI 고객사
+* [ST Engineering Aerospace](/companies/ST Engineering Aerospace) - 싱가포르 소재 항공 MRO 업체, 켄코아에어로스페이스의 PTF Conversion(군용기 창정비) 주요 고객사 (stub)
 * [STARFLEX FL CORP](/companies/STARFLEX_FL_CORP) - 스타플렉스의 미국 판매 종속법인 (플렉스원단 판매)
 * [STARFLEX(SHANGHAI)CO.,LTD.](/companies/STARFLEX_SHANGHAI) - 스타플렉스의 중국 판매 종속법인 (플렉스원단 판매)
 * [STARFLEX VIETNAM CO.,LTD](/companies/STARFLEX_VIETNAM) - 스타플렉스의 베트남 생산 종속법인 (플렉스원단 제조)
@@ -2342,6 +2356,7 @@
 * [메디팁](/companies/메디팁) - 드림씨아이에스의 종속회사, 헬스케어 인허가 전문컨설팅 기업
 * [메디팜](/companies/메디팜) - 조아제약의 자회사로 운영되는 전국 약국 프랜차이즈 체인
 * [메디퍼스트](/companies/메디퍼스트) - 동방메디컬의 종속기업(지분 100%)인 의료기기 제조·도소매 기업
+* [메디허브](/companies/메디허브) - 국소 마취용 자동주사기를 개발·제조하는 회사, 카이노스메드와 미국 시장 진출 자문서비스 계약 체결
 * [메딕바이오](/companies/메딕바이오) - 대창솔루션의 비상장 종속회사로 바이오 관련 연구개발을 수행하는 부산 소재 기업
 * [메리츠금융지주](/companies/메리츠금융지주) - 손해보험(메리츠화재)·증권(메리츠증권)·캐피탈을 자회사로 둔 순수금융지주회사
 * [메리츠증권](/companies/메리츠증권) - 메리츠금융지주의 금융투자(증권) 자회사
@@ -3303,6 +3318,7 @@
 * [써멀텍솔루션](/companies/써멀텍솔루션) - 팸텍의 종속기업(지분 51%), 생산 및 판매업 영위
 * [써모피셔사이언티픽](/companies/써모피셔사이언티픽) - 삼성바이오로직스에 Resin 등 바이오 생산 원재료를 공급하는 미국계 글로벌 생명과학 기업
 * [써모피셔사이언티픽솔루션스](/companies/써모피셔사이언티픽솔루션스) - 프레스티지바이오로직스에 BPC SUB 등 원재료를 공급하는 바이오 소재 공급사
+* [써지플럭스](/companies/써지플럭스) - 오스테오닉의 100% 자회사, 임플란트 제조 및 판매업체
 * [썬테크](/companies/썬테크) - 영구자석 발전기 기술을 기반으로 한 디젤엔진 비상발전기 전문 제조업체
 * [썰타코리아](/companies/썰타코리아) - 에이스침대의 종속회사(지분율 100%), 침대·가구 제조 비상장 계열사
 * [썸에이지](/companies/썸에이지) - 데카론M·복싱스타·갓레이드 등을 서비스하는 모바일게임 개발·퍼블리싱 기업으로 네시삼십삼분 계열사
@@ -3345,6 +3361,7 @@
 * [씨에스](/companies/씨에스) - 이동통신중계기 전문 제조사(구 CS CORPORATION) — SK텔레콤·NTT DoCoMo向 5G 중계기 공급
 * [씨에스로직스](/companies/씨에스로직스) - CS홀딩스 계열의 부동산 임대 등을 영위하는 비상장 계열사
 * [씨에스베어링](/companies/씨에스베어링) - 풍력발전용 피치·요 베어링을 제조하는 KOSDAQ 상장 풍력 부품기업, 씨에스윈드 계열
+* [씨에스에이코스믹](/companies/씨에스에이코스믹) - 화장품 제조·판매업 영위 기업, 홈캐스트가 2023년 지분 취득 후 2025년 전량 처분한 구 종속회사
 * [씨에스윈드](/companies/씨에스윈드) - 풍력타워 및 해상풍력 하부구조물을 생산하는 글로벌 1위 풍력타워 제조기업
 * [씨에스유통](/companies/씨에스유통) - 롯데쇼핑의 슈퍼(롯데슈퍼) 부문 종속회사
 * [씨엑스아이](/companies/씨엑스아이) - 케이만군도 소재 지주회사로 중국 자회사를 통해 한약재 기반 건강기능식품·찻잎 원재료 유통·화장품 사업을 영위하는 코스닥 상장사
@@ -3522,6 +3539,7 @@
 * [아카이브테크놀로지](/companies/아카이브테크놀로지) - 위세아이텍의 자회사, 소프트웨어 정적분석 전문기업(ASTA, CodeInsure)
 * [아쿠아글로리](/companies/아쿠아글로리) - 정수기 관련 완제품 수출업체로 피코그램의 커넥터류·소형필터 대표 공급처(고객사)
 * [아퀴다스](/companies/아퀴다스) - 아스타의 기타특수관계자로 거래관계가 있는 비상장 법인(stub)
+* [아큐레시스바이오](/companies/아큐레시스바이오) - 오스테오닉의 종속회사(지분 88.07%), 연구개발 및 금속가공업체
 * [아크솔루션스](/companies/아크솔루션스) - 물티슈 OEM 중심 생활건강 사업과 줄기세포 배양액 화장품(엑소좀) 사업을 겸영하는 KOSDAQ 상장기업(구 프로스테믹스·스피어파워)
 * [아키페이스](/companies/아키페이스) - 이건그룹 계열사로 이건산업의 특수관계자
 * [아토리서치](/companies/아토리서치) - 정원엔시스와 Cloud&솔루션 총판 계약을 체결한 공급사(2023.11)
@@ -3814,6 +3832,7 @@
 * [에이에프에프씨](/companies/에이에프에프씨) - 우신시스템 계열 비상장 자동차 부품 종속회사(전주 소재)
 * [에이엔제이사이언스](/companies/에이엔제이사이언스) - 삼현에서 2021년 인적분할로 신설된 신약개발 전문기업, 삼현 계열 비상장사
 * [에이엔피](/companies/에이엔피) - 인쇄회로기판(PCB)과 자동차 시트커버(SEAT COVER)를 생산하는 인천 남동구 소재 코스피 상장기업
+* [에이엘티](/companies/에이엘티) - 시스템반도체 후공정(Wafer/Final Test)을 주요 사업으로 하는 코스닥 상장 반도체 테스트 전문기업
 * [에이엠](/companies/에이엠) - 삼영이엔씨에 AMT600 SET(무선통신망 송수신기)를 공급하는 거래상대방 (상세 미확인)
 * [에이엠솔루션즈](/companies/에이엠솔루션즈) - 링크솔루션이 2026년 1월 지분 50.058%를 취득해 종속회사로 편입한 회사
 * [에이엠플러스자산개발](/companies/에이엠플러스자산개발) - AK홀딩스(애경그룹) 계열 부동산 개발·종합서비스 기업(비상장)
@@ -3822,6 +3841,7 @@
 * [에이유브랜즈](/companies/에이유브랜즈) - 락피쉬웨더웨어 브랜드를 운영하는 코스닥 상장 패션 기업
 * [에이유이](/companies/에이유이) - 광전자(주)의 계열회사(AUE CORP.), 주요 대주주이자 거래상대방
 * [에이지엘컴퍼니](/companies/에이지엘컴퍼니) - THE E&M의 종속회사, 경영·금융자문컨설팅 사업 영위 (2025년 11월 신규 취득)
+* [에이지피](/companies/에이지피) - 에이엘티의 종속회사로 세라믹·PCB 기판을 이용한 CIS(CMOS Image Sensor) 반도체 패키징 사업을 영위하는 비상장 법인
 * [에이직랜드](/companies/에이직랜드) - TSMC 파운드리 공식 협력사(VCA)로 팹리스 고객사에 시스템 반도체 디자인 솔루션을 제공하는 코스닥 상장 반도체 설계기업
 * [에이치디시](/companies/에이치디시) - 한중엔시에스의 100% 자회사(ESS 사업)
 * [에이치디씨신라면세점](/companies/에이치디씨신라면세점) - HDC그룹과 호텔신라 합작 면세점 운영사 (비상장, HDC그룹 계열사)
@@ -4171,6 +4191,7 @@
 * [오션](/companies/오션) - 토니모리가 2021년 인수한 반려동물 사료·간식·용품 제조·유통 비상장기업
 * [오션인더블유](/companies/오션인더블유) - 건축용 판유리·창호 실란트 유통 및 부동산 사업을 영위하는 코스닥 상장기업. 디모아 최대주주의 최대주주
 * [오스코텍](/companies/오스코텍) - 신약 연구개발 전문 바이오기업 — 유한양행에 기술이전한 레이저티닙(렉라자) 로열티·마일스톤으로 2025년 흑자전환
+* [오스테오닉](/companies/오스테오닉) - 정형외과 임플란트(금속소재·바이오소재)를 개발·제조·판매하는 코스닥 상장 의료기기 기업
 * [오스템](/companies/오스템) - 자동차부품(휠·섀시·시트) 제조업체, 주요 고객은 한국GM·글로벌 GM
 * [오스템이엑스티](/companies/오스템이엑스티) - 오스템의 종속회사(지분 99.76%), 舊 아이비머티리얼즈/칸세라 — 오스템의 계열회사이자 사업다각화(DPF 필터 등) 축
 * [오아](/companies/오아) - 중소형가전(오아·보아르)과 건강푸드(삼대오백)를 전개하는 소비재 기업, 2025년 스팩합병으로 코스닥 상장
@@ -4189,6 +4210,7 @@
 * [오텍캐리어](/companies/오텍캐리어) - 오텍의 비상장 종속회사 — 가정용·상업용 냉난방기기 및 산업용 에어컨·공조기기 생산, Carrier 브랜드 라이선스 사용
 * [오토리브](/companies/오토리브) - 스웨덴계 글로벌 자동차 안전시스템(에어백·시트벨트) 제조사, DH오토리드의 해외 경쟁사
 * [오토메탈글로벌](/companies/오토메탈글로벌) - 한국무브넥스의 100% 종속회사로 금속단조·자동차부품을 생산 (디코어 보유)
+* [오토앤](/companies/오토앤) - 현대차그룹 사내벤처 출신, 완성차 연계 신차지급품·자동차용품 이커머스 플랫폼을 운영하는 KOSDAQ 상장 자동차 애프터마켓 기업
 * [오토인더스트리](/companies/오토인더스트리) - 네오오토의 모태기업이자 계열회사, 자동차 부품 제조업(비상장)
 * [오토클레이브테크](/companies/오토클레이브테크) - 신도기연의 100% 종속회사(비상장), 디스플레이 제조장비 관련 사업 영위
 * [오토핸즈](/companies/오토핸즈) - 레드캡투어 렌터카사업부문의 중고자동차 매각 거래처(오토인사이드)
@@ -4579,6 +4601,7 @@
 * [이연제약](/companies/이연제약) - 처방의약품·조영제·원료의약품을 주력으로 하며 바이오/케미칼 신약 파이프라인과 CMO 사업을 확장 중인 제약기업
 * [이오에스](/companies/이오에스) - PCB(인쇄회로기판) 공급업체, 아진엑스텍 원재료 공급사
 * [이오이스](/companies/이오이스) - 3D 실사·포토스캔 기반 AI 콘텐츠 제작업체, 대호특수강의 종속회사(지분 80%)
+* [이오테크닉스](/companies/이오테크닉스) - 반도체 레이저마커 및 레이저 응용기기를 제조·판매하는 코스닥 상장기업
 * [이오플로우](/companies/이오플로우) - 전기삼투펌프(EOP) 기술 기반 웨어러블 패치형 인슐린 펌프를 개발·제조하는 코스닥 상장 의료기기 기업
 * [이월드](/companies/이월드) - 대구 소재 테마파크 '이월드'와 쥬얼리 브랜드(LLOYD·GRACE·OST)를 운영하는 이랜드그룹 계열 상장기업
 * [이제이앤피](/companies/이제이앤피) - TS트릴리온의 최대주주(17.98%)인 비상장 법인
@@ -4945,6 +4968,7 @@
 * [진바이오텍](/companies/진바이오텍) - 유익미생물을 이용한 기능성 사료첨가제 및 동물약품을 제조·판매하는 코스닥 상장기업
 * [진셀바이오텍](/companies/진셀바이오텍) - 오디텍이 지분 34.5%를 보유한 비상장 계열회사 (stub)
 * [진솔](/companies/진솔) - 뉴로핏에 뇌자극 치료기기용 스펀지패치 부재료를 공급하는 업체
+* [진시스템](/companies/진시스템) - 대전 소재 신속 PCR 기반 현장 분자진단(POCT) 플랫폼 기업으로, 진단장비·진단키트를 해외 위주로 공급하는 코스닥 상장사
 * [진양AMC](/companies/진양AMC) - 서울 서대문구 소재 진양AMC빌딩을 운영하는 진양그룹 계열 부동산 임대 자회사
 * [진양물산](/companies/진양물산) - 부산 부산진구 소재 부동산 임대·매매 사업을 영위하는 진양그룹 계열 자회사
 * [진양산업](/companies/진양산업) - 폴리우레탄 폼(스펀지) 등 플라스틱 발포성형제품을 제조·판매하는 진양그룹 계열 화학소재 기업
@@ -5014,6 +5038,7 @@
 * [카스이앤씨](/companies/카스이앤씨) - 카스 최대주주 김동진이 대표이사를 겸직하는 관계사
 * [카스케미칼](/companies/카스케미칼) - 카스 최대주주 김동진이 대표이사를 겸직하는 관계사
 * [카오티에스](/companies/카오티에스) - 젠큐릭스 대표이사 조상래가 사내이사를 겸임하는 기업(사업보고서상 겸임현황 언급, 상세 미확인)
+* [카이노스메드](/companies/카이노스메드) - 뇌질환·항바이러스·항암제 신약후보물질을 연구개발해 기술이전(License-out)으로 수익을 창출하는 코스닥 상장 바이오벤처
 * [카이인터네셔널](/companies/카이인터네셔널) - 호전실업의 기타자재 주요 매입처 (stub)
 * [카이트제이십호위탁관리부동산투자회사](/companies/카이트제이십호위탁관리부동산투자회사) - 이지스밸류플러스리츠가 지분 약 97%를 보유한 비상장 위탁관리부동산투자회사, 이천YM물류센터 보유
 * [카카오](/companies/카카오) - 국내 1위 메신저 카카오톡을 기반으로 플랫폼(톡비즈·포털비즈)·콘텐츠(게임·뮤직·스토리·미디어) 사업을 영위하는 종합 IT 플랫폼 기업
@@ -5056,7 +5081,8 @@
 * [컴투스](/companies/컴투스) - 모바일 게임 개발·퍼블리싱 기업 (밸로프 거래상대방 stub)
 * [컴퍼니케이파트너스](/companies/컴퍼니케이파트너스) - 중소기업·벤처기업 투자를 영위하는 코스닥 상장 창업투자회사(VC)
 * [케스피온](/companies/케스피온) - 무선통신용 안테나(휴대폰 안테나) 개발·제조 전문업체로, 국방 사업으로 다각화 중인 코스닥 상장사
-* [케어젠](/companies/케어젠) - 펩타이드 기반 바이오소재를 개발·생산하는 국내 바이오 기업 (일신바이오베이스 동결건조기 고객사)
+* [케어벳](/companies/케어벳) - 반려동물 진단키트를 제조하는 진시스템의 비상장 종속회사(지분 55.55%)
+* [케어젠](/companies/케어젠) - 펩타이드·성장인자 기반 전문테라피(필러·메조)·코스메슈티컬·건강기능식품을 개발·수출하는 국내 바이오 기업
 * [케이디](/companies/케이디) - 국내 스티어링휠 제조업체, DH오토리드의 국내 경쟁사
 * [케이디켐](/companies/케이디켐) - PVC 안정제(플라스틱 첨가제)를 제조·판매하는 정밀화학 기업, 유기액상안정제 국내 시장점유율 1위
 * [케이디탱크터미널](/companies/케이디탱크터미널) - 극동유화의 지분 51.28% 종속회사, 유류 운송·보관업 및 바이오디젤 사업 추진
@@ -5157,6 +5183,7 @@
 * [케이휴머스](/companies/케이휴머스) - 아이로보틱스 5% 이상 주주(2025년 3~4월 한시적 최대주주)
 * [케일럽멀티랩](/companies/케일럽멀티랩) - 한국유나이티드제약 관계기업, 비상장사(2007년 설립)
 * [켄달스퀘어리츠운용](/companies/켄달스퀘어리츠운용) - ESR켄달스퀘어리츠의 자산관리회사(AMC) — 비상장 부동산자산운용사
+* [켄코아에어로스페이스](/companies/켄코아에어로스페이스) - 항공기 부품 제조·MRO·우주발사체 부품·특수 원소재 공급을 영위하는 코스닥 상장 항공우주 기업
 * [켐트로닉스](/companies/켐트로닉스) - 위츠의 최대주주(지분 46.54%)인 화학·전자소재 기업 (상세 정보 미확인, stub)
 * [켐트로스](/companies/켐트로스) - 이차전지 전해액 첨가제·반도체 공정소재·전자재료용 접착소재를 생산하는 정밀화학소재 전문기업 (KOSDAQ, 안산)
 * [코난테크놀로지](/companies/코난테크놀로지) - 1999년 설립된 AI 전문기업으로, Text AI(코난서치·코난LLM 등)와 Vision AI(코난와쳐 등) 솔루션을 공급하는 코스닥 상장사
@@ -5287,6 +5314,7 @@
 * [큐라클](/companies/큐라클) - 혈관내피기능장애 조절 플랫폼 기반 난치성 혈관·대사성질환 치료제 개발 코스닥 상장 바이오벤처
 * [큐라티스](/companies/큐라티스) - 백신 개발 플랫폼 기술을 보유한 바이오 의약품 연구개발·제조 기업으로 결핵·주혈흡충증·코로나19 백신을 개발하며 CMO/CDMO 사업을 병행
 * [큐렉소](/companies/큐렉소) - 정형외과·재활 의료로봇 전문 코스닥 상장기업, hy그룹 계열 상장사
+* [큐로셀](/companies/큐로셀) - OVIS™ CAR-T 플랫폼 기반 차세대 CAR-T 세포유전자치료제 개발기업 (KOSDAQ, 기술성장기업 특례상장)
 * [큐로트레이더스](/companies/큐로트레이더스) - 큐로홀딩스의 커피 수입·유통 종속회사 (비상장)
 * [큐로홀딩스](/companies/큐로홀딩스) - 커피·엔터테인먼트·자원개발 사업을 영위하는 코스닥 상장 지주회사, 큐캐피탈파트너스 계열 지배회사
 * [큐리언트](/companies/큐리언트) - 아시아경제가 지분 투자(0.45%)한 코스닥 상장 바이오기업
@@ -5303,6 +5331,7 @@
 * [크라운제과](/companies/크라운제과) - 크라운해태그룹 계열 제과업체 — 하임·죠리퐁·마이쮸 등 장수 브랜드 보유, 2025년 매출 4,448억 원 (KOSPI 264900)
 * [크라운해태홀딩스](/companies/크라운해태홀딩스) - 크라운해태그룹(제과)의 순수지주회사 — 크라운제과·해태제과식품 등 11개 계열 지배, 2025년 연결 매출 1조 700억 원 (KOSPI 005740)
 * [크래프톤](/companies/크래프톤) - PUBG 배틀그라운드 IP 기반 게임 개발·퍼블리싱사, 2025년 ADK 그룹 인수로 광고 부문 신규 진출
+* [크레버스](/companies/크레버스) - 언어-수리-컴퓨팅 사고력 교육을 제공하는 KOSDAQ 상장 종합 교육기업(구 청담러닝, 청담어학원·CMS영재교육 운영)
 * [크레스트원](/companies/크레스트원) - 성우전자의 신규 계열회사 (2025년 신규 연결, 신규사업 확장 목적, stub)
 * [크레오에스지](/companies/크레오에스지) - 큐로홀딩스 계열 코스닥 상장기업
 * [크레온유니티](/companies/크레온유니티) - 금융권 중심 IT 인프라 구축·운영 전문기업으로 2025년 12월 SGA솔루션즈에 신규 연결 편입
@@ -6160,6 +6189,8 @@
 * [호텔롯데](/companies/호텔롯데) - 롯데그룹 계열 호텔·관광 기업, 롯데쇼핑 주요 주주(8.86%)
 * [호텔신라](/companies/호텔신라) - 면세점(TR)·호텔·레저 사업을 영위하는 삼성그룹 계열 상장기업
 * [혼다](/companies/혼다) - 일본 완성차·이륜차 제조사 (Honda Motor), 삼성공조 수출 고객사
+* [홈캐스트](/companies/홈캐스트) - 전자부품(반도체) 유통 및 메디컬 에스테틱 사업을 영위하는 코스닥 상장기업
+* [홈캐스트미디어](/companies/홈캐스트미디어) - 홈캐스트의 100% 자회사(비상장), 디지털 셋톱박스(STB) 연구개발·제조·판매 사업 영위
 * [홍보에너지](/companies/홍보에너지) - 대상홀딩스㈜ 종속회사, 신재생에너지·폐자원 처리를 영위하는 비상장 기업
 * [홍인](/companies/홍인) - 다스코의 기타 특수관계자, 비상장 거래상대방
 * [화광교역](/companies/화광교역) - 우주일렉트로닉스의 RESIN(사출용 원재료) 주요 매입처
