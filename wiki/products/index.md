@@ -112,6 +112,7 @@
 * [DC-Link 커패시터](/products/DC-Link_커패시터) - 전기차·하이브리드차 인버터·컨버터의 고전압 전력변환에 쓰이는 전장용 필름 커패시터
 * [DDI 후공정(Bumping/Test)](/products/DDI_후공정) - 디스플레이 구동칩(DDI) 등 비메모리 반도체의 Bumping·패키징·테스트 후공정 서비스
 * [DECIBEL·EXFIT 블루투스 이어폰](/products/DECIBEL_EXFIT_블루투스이어폰) - 블루콤의 자체 브랜드 블루투스 이어폰(넥밴드형·TWS) 및 LG전자 ODM 공급 제품
+* [DeepSquare](/products/DeepSquare) - 인스웨이브의 소프트웨어 개발 특화 자체 프라이빗 생성형 AI(LLM) 모델
 * [Denps 유산균](/products/Denps_유산균) - 에이치피오의 프리미엄 건강기능식품 브랜드 Denps의 프로바이오틱스·비타민 제품군
 * [DGI 영상보안장비(DVR·NVR·IP카메라)](/products/DGI_영상보안장비) - 디지아이티엑스가 개발·생산·판매하는 영상감시·저장 장비(DVR·NVR·IP카메라)
 * [Diagnostic X-ray Stationary System](/products/Diagnostic_X-ray_Stationary_System) - 디알젬의 고정형 진단용 엑스선 촬영장치 제품군(GXR-S/SD, GXR-ES, DIAMOND, VXR 시리즈)
@@ -379,6 +380,7 @@
 * [OSP(광선로 모듈)](/products/OSP_광선로모듈) - 광통신 네트워크용 광파장·파워 자동측정 계측기(OSP, 광선로 모듈)
 * [PAIL 용기](/products/PAIL용기) - 한국석유공업이 외주 생산하는 합성수지 PAIL 용기(PAIL Containers) — 2025년 국내 점유율 15.0%
 * [Papiliximab](/products/Papiliximab) - 샤페론의 나노맙 이중항체 플랫폼 기반 PD-L1×CD47 표적 항암제 파이프라인(AML 대상)
+* [PAS(PIOLINK Application Switch)](/products/PAS_ADC) - 파이오링크의 애플리케이션 딜리버리 컨트롤러(ADC) 주력 제품군
 * [PassGuard](/products/PassGuard) - 한싹의 패스워드 관리·시스템 접근제어 솔루션 브랜드
 * [PATHPLORER](/products/PATHPLORER) - 바이오다인의 액상세포검사(LBC) 자동화 진단장비 및 연계 시약키트 브랜드
 * [PAYCO](/products/PAYCO) - NHN이 운영하는 간편결제 및 핀테크 플랫폼
@@ -536,15 +538,23 @@
 * [VI용 세라믹](/products/VI용_세라믹) - 진공차단기(Vacuum Interrupter)용 세라믹 — KCC 기타(소재) 부문 주력, 글로벌 점유율 1위(33%)
 * [VLAD](/products/VLAD) - 링크제니시스의 AI 기반 영상 인식·검증 소프트웨어 패키지
 * [Weather Strip](/products/Weather_Strip) - 자동차 도어·차체용 누수방지·방음 고무부품(Sealing Products)
+* [WebSquare AI](/products/WebSquare_AI) - 인스웨이브의 AI 에이전트 기반 UI/UX 개발 플랫폼
+* [WebTop](/products/WebTop) - 인스웨이브의 웹 표준 기반 금융 단말 패키지 솔루션
 * [WHOTAG](/products/WHOTAG) - 바이브컴퍼니의 멀티모달 AI 기반 글로벌 인플루언서 프로파일링·마케팅 서비스
 * [Why?시리즈](/products/Why시리즈) - 예림당의 대표 아동·유아용 학습만화 도서 브랜드
 * [WICOP](/products/WICOP) - 서울반도체의 와이어·패키지·광학 렌즈 없는 2세대 LED 기술
+* [WiseAIOps](/products/WiseAIOps) - 위세아이텍의 AI 시스템 전 주기 통합관리 AI Operation Hub 솔루션
+* [WiseDQ](/products/WiseDQ) - 위세아이텍의 데이터 품질관리 솔루션, 공공데이터 품질관리 공식 진단도구
+* [WiseIntelligence](/products/WiseIntelligence) - 위세아이텍의 데이터 분석·시각화 및 Data Intelligence 솔루션
+* [WiseMeta](/products/WiseMeta) - 위세아이텍의 메타데이터 거버넌스 솔루션
+* [WiseProphet](/products/WiseProphet) - 위세아이텍의 AutoML 기반 AI 모델 개발 자동화 솔루션(SaaS 제공)
 * [WOLED TV패널](/products/WOLED_TV패널) - 대형 TV용 화이트 OLED(WOLED) 패널 — LG디스플레이가 양산 주도하는 자발광 대형 디스플레이
 * [WoodSquare·DuraSquare](/products/WoodSquare_DuraSquare) - 웹스가 생산하는 합성목재(WPC) 및 WPC-알루미늄 복합 건축외장재 브랜드
 * [XAIVA](/products/XAIVA) - 씨이랩의 실시간 AI 영상분석 플랫폼(Vision AI 사업부문 핵심 제품)
 * [XARVIS(자비스)](/products/XARVIS) - 에스투더블유의 국가안보·범죄수사 빅데이터 분석 플랫폼
 * [X-CLARITY 조직투명화시스템](/products/X-CLARITY_조직투명화시스템) - 얼라인드제네틱스가 세계 최초로 상용화한 생체조직 투명화 및 이미징 시스템
 * [XComPro·XGemPro](/products/XComPro_XGemPro) - 링크제니시스의 SECS/GEM 통신 드라이버 소프트웨어
+* [XDCloud](/products/XDCloud) - 이지스가 개발한 클라우드 기반 디지털 트윈(Digital Twin) 플랫폼
 * [XGSPON칩](/products/XGSPON칩) - 자람테크놀로지가 설계한 상하향 10Gbps 대칭 PON 통신반도체 및 이를 광트랜시버와 결합한 XGSPON SFP+ ONU
 * [Xi옵션](/products/Xi옵션) - 자이에스앤디가 아파트 입주자에게 판매·설치하는 시스템에어컨 등 빌트인가전 옵션 상품
 * [X-MAZE](/products/X-MAZE) - 에이럭스의 근거리 정찰 방산 드론, KOLAS·KCMVP 인증 보유
@@ -573,6 +583,7 @@
 * [강원랜드 카지노게임기구](/products/강원랜드_카지노게임기구) - 강원랜드가 자체 개발·제조하는 슬롯머신 및 전자테이블 등 카지노 영업용 기계
 * [강판](/products/강판) - 부국철강의 주력 철강 판재 제품
 * [개별공조 케이지 시스템](/products/개별공조_케이지_시스템) - 오리엔트바이오가 독자 개발한 실험동물 사육용 개별공조 케이지 시스템(MSRS) — 2005년 세계일류상품 선정 수출품
+* [건설기계 하부구동부품](/products/건설기계_하부구동부품) - 크롤러형 건설기계의 하부 주행체(Undercarriage)에 사용되는 트랙롤러·캐리어롤러·아이들러·텐션실린더 등 부품군
 * [건설사업관리(CM) 서비스](/products/건설사업관리_서비스) - 발주자를 대신해 건설 프로젝트 기획·설계·시공·감리·사후관리를 대행하는 기술용역 서비스
 * [건식세정장비(AP플라즈마·USC)](/products/건식세정장비(AP플라즈마·USC)) - 반도체·디스플레이·2차전지 제조공정용 건식세정장비(대기압 플라즈마, 초음파 건식 세정기 등)
 * [건축용도료](/products/건축용도료) - 건물 내·외장 마감에 사용되는 건축용 도료(인테리어·내화도료 포함) — 삼화페인트공업의 전통적 주력 도료군
@@ -936,6 +947,7 @@
 * [사피엔반도체 CMOS Backplane (Micro-LED 구동)](/products/사피엔반도체_CMOSBackplane) - AR/MR/XR 웨어러블 마이크로 디스플레이 엔진용 Micro-LED 구동 CMOS Backplane 반도체
 * [산돌구름](/products/산돌구름) - 산돌의 클라우드 기반 구독형 폰트 플랫폼 서비스
 * [산업설비 플랜트 EPC](/products/산업설비_플랜트_EPC) - 에쓰씨엔지니어링의 정밀화학·석유화학·OIL&GAS·발전 플랜트 설계·조달·시공 서비스
+* [산업용 로봇 (유일로보틱스)](/products/산업용_로봇) - 유일로보틱스의 직교·다관절·협동로봇 제품군
 * [산업용 송풍기](/products/산업용_송풍기) - 동양 플랜트 부문의 핵심 제품인 산업용 송풍기(FAN) — 국내 시장점유율 약 18.9%(2024, 내부추정)
 * [산업용 컨테이너](/products/산업용_컨테이너) - 엔피씨가 사출성형으로 생산하는 산업용 컨테이너 — 음료·주류 컨테이너, 농수산물 상자, 보온보냉상자(친환경 콜드체인) 등
 * [산업용 플라스틱 파렛트](/products/산업용_플라스틱_파렛트) - 엔피씨가 사출성형으로 생산하는 산업용 플라스틱 파렛트 — 국내 최다 금형 보유, -30~+60℃ 내열성
@@ -1361,6 +1373,7 @@
 * [종합 건설엔지니어링(설계·CM)](/products/종합_건설엔지니어링_설계·CM) - 도화엔지니어링의 주력 용역 서비스 — SOC 전 분야 종합 설계·CM, 국내 건설엔지니어링 업계 매출 1위(2024 점유율 21.2%)
 * [종합건설 도급공사](/products/종합건설_도급공사) - 토목·건축·조경 등 종합건설업체가 관급·민간·해외 발주로 수행하는 도급공사
 * [좋은데이](/products/좋은데이) - 무학의 대표 저도주 소주 브랜드
+* [주방 빌트인기기](/products/주방_빌트인기기) - 가스/전기쿡탑, 살균건조기 등 주방에 내장 설치되는 빌트인 가전·설비
 * [주석도금강판](/products/주석도금강판) - 식음료·산업 포장용기(캔) 및 전자제품용 표면처리강판으로, TCC스틸이 국내 과점 3사 중 하나로 생산하는 주력 제품
 * [주석안정제](/products/주석안정제) - PVC 가공용 유기주석(Tin) 안정제 및 주석 중간체 — 송원산업이 국내 TIN원제(중간원료) 약 81% 점유, 국내 유일 중간원료 생산
 * [주성엔지니어링 ALD 장비](/products/주성엔지니어링_ALD장비) - 반도체 전공정용 원자층증착(ALD) 장비. SDP System(공간분할 플라즈마 ALD/CVD) 기반, 세계 시장 점유율 4위
@@ -1376,6 +1389,7 @@
 * [진도모피](/products/진도모피) - 진도의 프리미엄 모피의류 브랜드 — 백화점 중심 유통, 국내 모피시장 선도 브랜드
 * [진라면](/products/진라면) - 오뚜기의 대표 라면 브랜드. 오뚜기 라면 국내 시장점유율 24.1%로 업계 2위권
 * [진로](/products/진로) - 하이트진로의 뉴트로 콘셉트 소주(진로이즈백) — 제로슈거 소주 부문 매출 1위
+* [진주광택안료](/products/진주광택안료) - 화장품·도료 등에 사용되는 진주 광택 효과를 내는 안료(펄 안료)
 * [차량용 시트](/products/차량용_시트) - 대원강업의 차량용 시트 제품 — 전사 매출의 37.8%를 차지하는 제2 주력 제품군
 * [차량용 압력센서](/products/차량용_압력센서) - 삼영에스앤씨가 2024년 개발·양산한 내연기관 연료필터용 압력센서
 * [차양시스템](/products/차양시스템) - 베노티앤알의 실내건축사업 주력 제품 — 외부차양·루버시스템 등 일사조절 및 에너지 절감 건축자재
@@ -1459,6 +1473,7 @@
 * [C-MAP (코팅형 마이크로니들)](/products/쿼드메디슨_C-MAP) - 쿼드메디슨의 코팅형 마이크로니들(Coated Microneedle Array Patch) 백신 전달 플랫폼 기술
 * [S-MAP (분리형 마이크로니들)](/products/쿼드메디슨_S-MAP) - 쿼드메디슨의 분리형 마이크로니들(Separable Microneedle Array Patch) 약물전달 플랫폼 기술
 * [큐브마인](/products/큐브마인) - 애드포러스의 DSP 광고 플랫폼
+* [큐비앤](/products/큐비앤) - 헬릭스미스의 천연물 유래 건강기능식품 브랜드(면역밸런스엔 다래추출물, 관절건강엔 MSM 등)
 * [큐알론점안액](/products/큐알론점안액) - 국제약품의 대표 점안제로 각결막상피장해·건성안(안구건조증) 치료에 쓰이는 안과 전문의약품
 * [큐원 설탕](/products/큐원 설탕) - 삼양사(삼양홀딩스 자회사)가 제조·판매하는 제당(설탕) 브랜드 — 국내 제당 시장점유율 약 32%
 * [큐피스템](/products/큐피스템) - 안트로젠이 개발한 크론병성 누공 치료제 — 세계 최초 상용화된 지방유래 줄기세포 치료제
@@ -1563,6 +1578,7 @@
 * [플래리스](/products/플래리스) - 삼진제약의 전문의약품 항혈전제(클로피도그렐 계열) — 정제, 회사 최대 매출 품목군
 * [플러스펜](/products/플러스펜) - 모나미의 대표 수성 사인펜 브랜드(P-3000) — 국내 필기구 시장 대표 제품
 * [플레이키즈프로](/products/플레이키즈프로) - 한세엠케이가 운영하는 국내 유일 키즈 스포츠 멀티스토어 (PLAYKIZ-PRO)
+* [플리토 AI 언어 데이터](/products/플리토_AI언어데이터) - AI 언어 모델 연구·개발용 다국어 데이터 및 통번역 플랫폼·솔루션
 * [피라맥스](/products/피라맥스) - 신풍제약의 말라리아치료제로 WHO 필수의약품 모델리스트에 등재된 국내 16호 신약
 * [피스톤 (오토미션 부품)](/products/피스톤_오토미션부품) - 자동변속기(T/M)용 피스톤으로 태원물산이 한국GM 납품 및 북미 직수출하는 자동차부품
 * [피스톤링](/products/피스톤링) - 엔진 실린더 내에서 피스톤과 실린더 벽 사이를 밀봉하고 윤활유를 제어하는 내연기관 핵심 부품
