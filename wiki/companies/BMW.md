@@ -18,7 +18,11 @@ BMW(Bayerische Motoren Werke AG)는 독일의 프리미엄 완성차·모터사�
 
 > 거래상대방 stub 페이지. 삼성SDI ingest 과정에서 생성됨.
 
+국내 판매·딜러망은 [도이치모터스](/companies/도이치모터스) 등 딜러사를 통해 운영됩니다.
+
 # Citations
 
 - [삼성SDI 2025 사업보고서](/sources/삼성SDI_2025_사업보고서) — 주요 매출처
+- [도이치모터스 2025 사업보고서](/sources/도이치모터스_2025_사업보고서) — 국내 딜러사
 - → [삼성SDI](/companies/삼성SDI)
+- → [도이치모터스](/companies/도이치모터스)
