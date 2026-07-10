@@ -1,15 +1,15 @@
 # 로컬 아카이브(AnnualReport_MD) 인제스트 트래커 (KOSDAQ)
 
 - 아카이브 회사 수: **1704건** (source_documents/AnnualReport_MD/, 각 머신에 로컬 배치 필요·git 미포함)
-- 완료(done, Full): **1314건**
-- 대기(pending): **390건** (이 중 stub→Full 승급 대상 88건)
+- 완료(done, Full): **1326건**
+- 대기(pending): **378건** (이 중 stub→Full 승급 대상 85건)
 
 > done 기준: wiki/companies/<회사>.md 가 존재하고 is_stub:false.
 > market 판정: 위키 frontmatter 우선, 없으면 원본 MD의 '상장 유형' 표(유가증권시장/코스닥시장 상장)에서 추출.
 > 이 파일은 `python dart_pipeline/local_archive_status.py [--market KOSPI|KOSDAQ]` 로 재생성됩니다.
 > 다음 N개사 산출: `python dart_pipeline/local_archive_status.py [--market KOSPI|KOSDAQ] --next N`
 
-## ⏳ 대기 (상위 50건, 전체 390건)
+## ⏳ 대기 (상위 50건, 전체 378건)
 
 - APS이노베이션 (`KOSDAQ`) — `source_documents/AnnualReport_MD/APS이노베이션-사업보고서-2024.12.md`
 - CS (`KOSDAQ`) — `source_documents/AnnualReport_MD/CS-사업보고서-2025.12.md`
@@ -29,7 +29,6 @@
 - KX (`KOSDAQ`) — `source_documents/AnnualReport_MD/KX-사업보고서-2025.12.md`
 - LSK아이로봇 (`KOSDAQ`) — `source_documents/AnnualReport_MD/LSK아이로봇-사업보고서-2025.12.md`
 - NHN KCP (`KOSDAQ`) — `source_documents/AnnualReport_MD/NHN KCP-사업보고서-2025.12.md`
-- NICE인프라 (`KOSDAQ`) — `source_documents/AnnualReport_MD/NICE인프라-사업보고서-2025.12.md`
 - SFA (`KOSDAQ`) — `source_documents/AnnualReport_MD/SFA-사업보고서-2025.12.md`
 - SK증권제11호스팩 (`KOSDAQ`) — `source_documents/AnnualReport_MD/SK증권제11호스팩-사업보고서-2025.12.md`
 - SK증권제12호스팩 (`KOSDAQ`) — `source_documents/AnnualReport_MD/SK증권제12호스팩-사업보고서-2025.12.md`
@@ -48,7 +47,6 @@
 - 네오위즈 (`KOSDAQ`) — `source_documents/AnnualReport_MD/네오위즈-사업보고서-2025.12.md`
 - 넥슨게임즈 (`KOSDAQ`) — `source_documents/AnnualReport_MD/넥슨게임즈-사업보고서-2025.12.md`
 - 뉴트리 (`KOSDAQ`) — `source_documents/AnnualReport_MD/뉴트리-사업보고서-2025.12.md`
-- 다날 (`KOSDAQ`) — `source_documents/AnnualReport_MD/다날-사업보고서-2025.12.md`
 - 다산네트웍스 (`KOSDAQ`) — `source_documents/AnnualReport_MD/다산네트웍스-사업보고서-2025.12.md`
 - 다우데이타 (`KOSDAQ`) — `source_documents/AnnualReport_MD/다우데이타-사업보고서-2025.12.md`
 - 다원시스 (`KOSDAQ`) — `source_documents/AnnualReport_MD/다원시스-사업보고서-2025.12.md`
@@ -58,6 +56,8 @@
 - 대신밸런스제19호스팩 (`KOSDAQ`) — `source_documents/AnnualReport_MD/대신밸런스제19호스팩-사업보고서-2025.12.md`
 - 대아티아이 (`KOSDAQ`) — `source_documents/AnnualReport_MD/대아티아이-사업보고서-2025.12.md`
 - 대원 (`KOSDAQ`) — `source_documents/AnnualReport_MD/대원-사업보고서-2025.12.md`
-- 대주전자재료 (`KOSDAQ`) — `source_documents/AnnualReport_MD/대주전자재료-사업보고서-2025.12.md`
 - 더네이쳐홀딩스 (`KOSDAQ`) — `source_documents/AnnualReport_MD/더네이쳐홀딩스-사업보고서-2025.12.md`
 - 데브시스터즈 (`KOSDAQ`) — `source_documents/AnnualReport_MD/데브시스터즈-사업보고서-2025.12.md`
+- 도이치모터스 (`KOSDAQ`) — `source_documents/AnnualReport_MD/도이치모터스-사업보고서-2025.12.md`
+- 동구바이오제약 (`KOSDAQ`) — `source_documents/AnnualReport_MD/동구바이오제약-사업보고서-2025.12.md`
+- 동원개발 (`KOSDAQ`) — `source_documents/AnnualReport_MD/동원개발-사업보고서-2025.12.md`
