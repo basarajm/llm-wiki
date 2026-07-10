@@ -6,6 +6,7 @@
 * [2차전지 X-ray 검사장비](/products/2차전지_X-ray_검사장비) - X-ray 투과 기술을 이용한 2차전지(배터리) 비파괴검사장비
 * [2차전지 방열 소재](/products/2차전지_방열소재) - 2차전지 안정성 향상을 위한 탄소나노튜브(CNT) 기반 방열 전극 소재
 * [2차전지 분리막 생산설비](/products/2차전지_분리막_생산설비) - 2차전지 분리막을 생산하는 Full-line 제조 설비(연신·추출·건조·코팅)
+* [2차전지소화Sheet](/products/2차전지소화Sheet) - 지에프아이가 개발한 ESS 모듈 상부 부착형 마이크로캡슐 소화 시트
 * [3D AOI 검사장비](/products/3D_AOI_검사장비) - 고영의 3D 자동 광학 검사장비(Automated Optical Inspection) 제품군
 * [3D SPI 검사장비](/products/3D_SPI_검사장비) - 고영의 3D 납도포 검사장비(Solder Paste Inspection) 제품군
 * [3분류](/products/3분류) - 오뚜기의 3분류(3분카레·3분짜장 등 레토르트 식품)로 레토르트 시장 점유율 77.2%의 1위
@@ -29,6 +30,7 @@
 * [AGV_AMR](/products/AGV_AMR) - 반도체·디스플레이·2차전지·자동차 등 공장 내 이동 및 적재를 위한 물류로봇(AGV/AMR)
 * [AI VINU](/products/AI_VINU) - 에이럭스의 언플러그드 코딩 교육 로봇, CES 2024 로보틱스 부문 혁신상 수상
 * [AI Worker](/products/AI_Worker) - 로보티즈의 피지컬 AI 기반 양팔 작업형 휴머노이드 로봇
+* [AI 비전 솔루션](/products/AI_비전_솔루션) - 이차전지 등 제조공정 결함을 딥러닝 기반으로 판별하는 머신비전 검사 솔루션
 * [AI 카메라](/products/AI_카메라) - 포커스에이아이의 AI 영상인식 기술이 적용된 CCTV 카메라 제품군
 * [AICC(AI Contact Center)](/products/AICC(AI_Contact_Center)) - AI 기술(STT/TTS, NLU, TA)을 결합한 차세대 지능형 컨택센터 플랫폼
 * [AIONCLOUD](/products/AIONCLOUD) - 모니터랩의 SECaaS 기반 클라우드 보안(SSE) 구독 서비스 플랫폼
@@ -145,6 +147,7 @@
 * [DGI 영상보안장비(DVR·NVR·IP카메라)](/products/DGI_영상보안장비) - 디지아이티엑스가 개발·생산·판매하는 영상감시·저장 장비(DVR·NVR·IP카메라)
 * [Diagnostic X-ray Stationary System](/products/Diagnostic_X-ray_Stationary_System) - 디알젬의 고정형 진단용 엑스선 촬영장치 제품군(GXR-S/SD, GXR-ES, DIAMOND, VXR 시리즈)
 * [DIFF-CASE](/products/DIFF-CASE) - 우수AMS가 제조하는 6속 변속기용 디퍼렌셜 케이스(자동차 파워트레인 핵심 부품)
+* [DI-KIT](/products/DI-KIT) - 지에프아이가 개발한 ESS 배터리팩 내장형 마이크로캡슐 소화 KIT
 * [DIPAS](/products/DIPAS) - 디엔에프의 DPT(Double Patterning Technology)용 반도체 패터닝 소재
 * [DK-Lok Fitting](/products/DK-Lok_Fitting) - 디케이락의 계장용 배관 이음쇠(Tube Fitting) 브랜드
 * [DK-Lok Valve](/products/DK-Lok_Valve) - 디케이락의 계장용 고압 밸브 브랜드
@@ -452,6 +455,7 @@
 * [OZ e-Form](/products/OZ_e-Form) - 포시에스의 전자문서 기반 자료입력·저장을 지원하는 전자문서 개발 솔루션
 * [OZ Report](/products/OZ_Report) - 포시에스의 정형/비정형 리포팅 솔루션
 * [PA/SR 음향시스템](/products/PA_SR_음향시스템) - 전관방송(PA)·프로음향(SR) 산업용 음향기기 시스템
+* [PACS](/products/PACS) - 의료영상저장전송시스템(Picture Archiving and Communication System)
 * [PAIL 용기](/products/PAIL용기) - 한국석유공업이 외주 생산하는 합성수지 PAIL 용기(PAIL Containers) — 2025년 국내 점유율 15.0%
 * [Papiliximab](/products/Papiliximab) - 샤페론의 나노맙 이중항체 플랫폼 기반 PD-L1×CD47 표적 항암제 파이프라인(AML 대상)
 * [PAS(PIOLINK Application Switch)](/products/PAS_ADC) - 파이오링크의 애플리케이션 딜리버리 컨트롤러(ADC) 주력 제품군
@@ -545,6 +549,7 @@
 * [Rosetta](/products/Rosetta) - 하스의 치과용 심미수복 소재 브랜드(Rosetta Block/Ingot)
 * [Rosuvastatin Strontium API](/products/Rosuvastatin_Strontium_API) - 고지혈증 치료제용 원료의약품(Statin계열)
 * [Rotor Facing](/products/Rotor_Facing) - 브레이크 디스크 로터 표면가공 관련 자동차 마찰재 부품
+* [Royal Greens](/products/Royal_Greens) - 애머릿지코퍼레이션 자회사 The Natural Way of L.A.의 카나비스 자체 브랜드
 * [RUE KWAVE](/products/RUE_KWAVE) - 글로본이 전개하는 중국·동남아·중동향 K-뷰티 화장품 브랜드
 * [RWS](/products/RWS) - 한빛레이저의 자동차 제조공정용 고속 원격 웰딩시스템(Remote Welding System)
 * [RZ-001](/products/RZ-001) - 알지노믹스의 hTERT mRNA 표적 RNA 치환효소 기반 항암 유전자치료제(간세포암·교모세포종)
@@ -628,6 +633,7 @@
 * [Test Handler](/products/Test_Handler) - 제너셈이 제조하는 반도체 테스트 패키지 자동 분류·재검사 기능 탑재 테스트 핸들러 장비
 * [Test Socket](/products/Test_Socket) - 티에프이의 주력 제품, 반도체 양품/불량품 검사에서 테스트 장비와 디바이스를 전기적으로 연결하는 소모성 부품
 * [Tetrahydrofuran](/products/Tetrahydrofuran) - 대정화금이 생산하는 무색 액체 용매, 2025년 매출 비중 3.98%
+* [TGV유리기판](/products/TGV유리기판) - 반도체 패키지용 유리관통전극(TGV) 기판으로 HBM 등 차세대 반도체 패키지에 사용되는 차세대 소재
 * [THERMOPRENE(TPE)](/products/THERMOPRENE_TPE) - 화승코퍼레이션이 독자 개발한 올레핀계 열가소성 고무 소재
 * [thynC](/products/thynC) - 씨어스의 입원환자 실시간 생체신호 통합 모니터링 솔루션
 * [TITAMAX](/products/TITAMAX) - 황금에스티가 출시한 고품질 표면처리 건축소재 브랜드
@@ -642,6 +648,7 @@
 * [Udea 모니터](/products/Udea_모니터) - 제이씨현시스템의 자체 브랜드 모니터 제품
 * [Universe XR Framework](/products/Universe_XR_Framework) - 케이쓰리아이가 개발한 AR·VR·디지털트윈 구축용 XR 미들웨어 솔루션
 * [URIID](/products/URIID) - 뷰티스킨 종속회사 율리아엘의 유기농 천연화장품 브랜드(유리드), 2020년 출시
+* [USB C-type 커넥터](/products/USB_C-type_커넥터) - 모바일 기기용 USB C-type 커넥터(방수·비방수) — 2015년 표준화 이후 확산
 * [UTG(초박형강화유리)](/products/UTG(초박형강화유리)) - 폴더블 디스플레이 커버윈도우에 적용되는 초박형 강화유리(Ultra Thin Glass)
 * [UviMax DHHB](/products/UviMax DHHB) - 에이에스텍의 자외선 차단제 원료(UV 필터), DHHB(디에틸아미노 하이드록시벤조일 헥실벤조에이트) 기반
 * [UXIM Analyzer](/products/UXIM_Analyzer) - 공정 데이터를 이용한 품질 예측 및 최적 운영조건 추천 솔루션
@@ -667,6 +674,7 @@
 * [WHOTAG](/products/WHOTAG) - 바이브컴퍼니의 멀티모달 AI 기반 글로벌 인플루언서 프로파일링·마케팅 서비스
 * [Why?시리즈](/products/Why시리즈) - 예림당의 대표 아동·유아용 학습만화 도서 브랜드
 * [WICOP](/products/WICOP) - 서울반도체의 와이어·패키지·광학 렌즈 없는 2세대 LED 기술
+* [WISE Agent Sphere](/products/WISE_Agent_Sphere) - 와이즈넛의 AI 에이전트 플랫폼 — RAG 솔루션 WISE iRAG, 도메인 특화 LLM WISE LLOA 기반
 * [WiseAIOps](/products/WiseAIOps) - 위세아이텍의 AI 시스템 전 주기 통합관리 AI Operation Hub 솔루션
 * [WiseDQ](/products/WiseDQ) - 위세아이텍의 데이터 품질관리 솔루션, 공공데이터 품질관리 공식 진단도구
 * [WiseIntelligence](/products/WiseIntelligence) - 위세아이텍의 데이터 분석·시각화 및 Data Intelligence 솔루션
@@ -683,6 +691,7 @@
 * [Xi옵션](/products/Xi옵션) - 자이에스앤디가 아파트 입주자에게 판매·설치하는 시스템에어컨 등 빌트인가전 옵션 상품
 * [X-MAZE](/products/X-MAZE) - 에이럭스의 근거리 정찰 방산 드론, KOLAS·KCMVP 인증 보유
 * [XoMotion](/products/XoMotion) - 베노티앤알(관계기업 Human in Motion Robotics)이 개발한 재활치료용 외골격 웨어러블 로봇
+* [YBello](/products/YBello) - 휴럼의 종속회사 와이유가 생산하는 성형 필러 브랜드
 * [Zenius EMS](/products/Zenius_EMS) - 브레인즈컴퍼니의 IT 인프라 통합관리 솔루션 제품군
 * [가공직물](/products/가공직물) - 방림의 면방 주력 제품 — 원면·생지를 염색·표백·날염 가공한 면직물·염색원단으로, 별도 매출의 81.8%를 차지하는 대표 상품
 * [가도비전](/products/가도비전) - 동국생명과학의 가도부트롤(Gadobutrol) 성분 MRI 조영제
@@ -706,6 +715,7 @@
 * [강남제비스코 합성수지](/products/강남제비스코_합성수지) - 강남화성㈜가 생산하는 페놀수지·폴리우레탄수지 등 합성수지 (국내 상위권·특정분야 시장 주도)
 * [강원랜드 카지노게임기구](/products/강원랜드_카지노게임기구) - 강원랜드가 자체 개발·제조하는 슬롯머신 및 전자테이블 등 카지노 영업용 기계
 * [강판](/products/강판) - 부국철강의 주력 철강 판재 제품
+* [강화유리 커버글라스](/products/강화유리_커버글라스) - 디스플레이 보호용 강화유리(커버글라스) — 모바일·웨어러블·차량용 등 전 사이즈 대응
 * [개별공조 케이지 시스템](/products/개별공조_케이지_시스템) - 오리엔트바이오가 독자 개발한 실험동물 사육용 개별공조 케이지 시스템(MSRS) — 2005년 세계일류상품 선정 수출품
 * [건강기능식품 (푸드웰)](/products/건강기능식품_푸드웰) - 푸드웰 자회사 코스팜이 생산하는 스틱·정제·환제 형태의 건강기능식품
 * [건설기계 하부구동부품](/products/건설기계_하부구동부품) - 크롤러형 건설기계의 하부 주행체(Undercarriage)에 사용되는 트랙롤러·캐리어롤러·아이들러·텐션실린더 등 부품군
@@ -1450,6 +1460,7 @@
 * [유니레이](/products/유니레이) - 동국생명과학의 DOTA(가도테레이트) 성분 MRI 조영제, 2013년 출시
 * [유니켐 자동차·패션용 피혁원단](/products/유니켐_자동차·패션용_피혁원단) - 핸드백·자동차시트용 천연 피혁원단 — 매출의 97.5%를 차지하는 유니켐의 핵심 제품
 * [유니퀘스트 반도체유통상품](/products/유니퀘스트_반도체유통상품) - 유니퀘스트가 대리점 계약을 통해 유통하는 메모리·비메모리 반도체 상품군
+* [유도무기용 신호처리장치](/products/유도무기용_신호처리장치) - 정밀타격용 유도무기(PGM)의 핵심부품인 탐색기·유도조종장치·점검장비
 * [유록스](/products/유록스) - 롯데정밀화학의 디젤 엔진 질소산화물(NOx) 저감용 촉매환원제(요소수) 독자 브랜드 EUROX®
 * [유리병](/products/유리병) - 주류·음료·제약·화장품용 포장 유리병 — 금비의 주력 제품으로 2025년 연결 매출의 33.3%를 차지
 * [유박골드](/products/유박골드) - 효성오앤비의 혼합유박(펠렛) 유기질비료 브랜드로, 회사 매출의 약 40%를 차지하는 주력 제품
@@ -1561,6 +1572,7 @@
 * [전력반도체 Spacer](/products/전력반도체_Spacer) - SiC·GaN 전력 반도체 모듈용 방열 스페이서 및 구조 부품
 * [전력설비정비](/products/전력설비정비) - 화력·원자력·송변전 등 발전설비의 경상정비·계획예방정비·개보수공사 서비스
 * [전력용 콘덴서](/products/전력용_콘덴서) - 전력의 송·배전 및 전력 효율 향상에 쓰이는 필름형(FC) 전력용 콘덴서
+* [전력증폭기(RF Power Amplifier)](/products/전력증폭기) - 이동통신 기지국·중계기의 RF 송신부 핵심모듈로, 낮은 입력신호를 고전력으로 증폭하는 장치
 * [전력판매](/products/전력판매) - 한국전력공사가 국내 송배전망을 통해 가정용·산업용·일반용 등 수용가에 공급하는 전기 판매 서비스로, 국내 전력 판매를 사실상 독점한다
 * [전분당](/products/전분당) - 대상㈜ 소재 부문의 전분·전분당 — 국내 최대 전분·전분당 생산규모를 보유한 B2B 식품소재
 * [전술통신장비](/products/전술통신장비) - 휴니드테크놀러지스 방산사업의 대표 제품군 — 군 전술통신용 무전기·TICN·전술시스템, 2025년 매출 비중 68.2%
@@ -1582,6 +1594,7 @@
 * [SK네트웍스 정보통신](/products/정보통신) - SK네트웍스가 운영하는 국내 1위 이동통신 단말기 도매 유통 사업(휴대폰·ICT 디바이스)
 * [정수기 (파세코 OEM/ODM)](/products/정수기) - 파세코가 코웨이 등 브랜드로 OEM/ODM 생산하는 정수기
 * [정신신경용제](/products/정신신경용제) - 우울증·조현병·파킨슨·치매·뇌전증·ADHD 등 중추신경계 치료제 제품군
+* [정원삼](/products/정원삼) - 휴럼의 종속회사 네이처가든이 전개하는 홍삼 전문 브랜드
 * [정제주정](/products/정제주정) - 소주 등 주류 원료로 사용되는 정제 방식 주정
 * [제네시스](/products/제네시스) - 현대자동차의 고급(럭셔리) 자동차 브랜드 — G70/G80/G90 세단, GV60/GV70/GV80 SUV
 * [제넥솔주](/products/제넥솔주) - 삼양바이오팜의 고형암 항암제 (국내 시장점유율 약 53%)
@@ -1771,6 +1784,7 @@
 * [트럭크레인](/products/트럭크레인) - 카고트럭에 장착하는 중량물 상하차·운반용 특장장비
 * [트렁크 트림](/products/트렁크_트림) - 차량 트렁크 인테리어 부품 — 감성품질 및 전자제어 편의장치를 결합한 내장재
 * [트레스탄](/products/트레스탄) - 삼진제약의 대표 일반의약품 식욕촉진제 브랜드 — 캡슐제
+* [트루락](/products/트루락) - 휴럼의 프리미엄 유산균(프로바이오틱스) 브랜드
 * [트룩시마(CT-P10)](/products/트룩시마) - 로슈 리툭산(리툭시맙)의 바이오시밀러, 림프종 등 치료제
 * [특수강](/products/특수강) - 자동차·기계·조선·건설중장비용 봉강·선재·형단조 등 특수강 소재. 세아베스틸지주(세아베스틸·세아창원특수강) 국내 특수강 1위
 * [특수방화복](/products/특수방화복) - PBI·아라미드 소재 기반의 소방대원용 고성능 방화복
