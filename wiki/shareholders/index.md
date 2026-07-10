@@ -8,6 +8,7 @@
 * [AK홀딩스](/shareholders/AK홀딩스) - 애경그룹 지주회사, 제주항공 최대주주(50.37%)
 * [Alipay Singapore Holding](/shareholders/Alipay_Singapore_Holding) - 앤트그룹 계열 싱가포르 지주법인, 카카오페이 2대 주주
 * [AMPLE OCEAN LIMITED](/shareholders/AMPLE_OCEAN_LIMITED) - 넥스트아이의 최대주주인 해외 법인
+* [Aphrodite Acquisition Holdings LLC](/shareholders/Aphrodite_Acquisition_Holdings_LLC) - 케이만 제도 국적 특수목적법인 — 휴젤 최대주주(지분 43.53%), C-Bridge V Investment Six·Dione Limited(GS 계열) 공동 출자
 * [API (Hong Kong) Investment Limited](/shareholders/API_Hong_Kong_Investment_Limited) - 뱅크웨어글로벌 지분 5.31%를 보유한 홍콩 소재 투자법인
 * [APS](/shareholders/APS) - APS그룹 사업지주회사 — AP시스템 최대주주(25.44%)
 * [ARKRAY](/shareholders/ARKRAY) - 일본 체외진단기기 기업, 아이센스 지분 10.39% 보유
@@ -142,9 +143,11 @@
 * [SVIC 55호 신기술사업투자조합](/shareholders/SVIC_55호_신기술사업투자조합) - 사피엔반도체 지분 5.18%를 보유한 신기술사업투자조합(벤처캐피탈 펀드)
 * [TAI-SAW TECHNOLOGY CO., LTD](/shareholders/TAI-SAW_TECHNOLOGY) - 대만 소재 SAW 필터 전문기업, 쏘닉스의 최대주주
 * [The Miri Strategic Emerging Markets Fund LP](/shareholders/The_Miri_Strategic_Emerging_Markets_Fund_LP) - 2026년 3월 스틱인베스트먼트의 신규 최대주주가 된 해외 사모펀드
+* [The Miri Strategic Fund](/shareholders/The_Miri_Strategic_Fund) - 가비아 지분 24.2%를 보유한 5% 이상 주주(특별관계자 합산, 해외계)
 * [TOKAI CARBON](/shareholders/TOKAI_CARBON) - 티씨케이의 최대주주이자 핵심 원재료(Graphite) 공급사인 일본 탄소 소재 종합기업
 * [Tokyo Electron Limited](/shareholders/Tokyo_Electron_Limited) - 일본 반도체 장비 제조사(TEL) — 하나머티리얼즈 지분 13.78% 보유 5% 이상 주주
 * [Transcosmos Inc.](/shareholders/Transcosmos_Inc) - 일본계 BPO·디지털 마케팅 기업으로 이엠넷의 2대 주주
+* [TSI-안다H 일반사모투자신탁 제6호](/shareholders/TSI-안다H_일반사모투자신탁_제6호) - 티에스아이 최대주주인 일반 사모집합투자기구(안다자산운용 계열)
 * [W-SCOPE Corporation](/shareholders/W-SCOPE_Corporation) - 더블유씨피의 최대주주로, 일본 도쿄증시에 상장된 지주회사
 * [YG엔터테인먼트](/shareholders/YG엔터테인먼트) - YG PLUS의 최대주주이자 KOSPI 상장 엔터테인먼트 기업
 * [Zhejiang Huahai Pharmaceutical](/shareholders/Zhejiang_Huahai_Pharmaceutical) - 유틸렉스 최대주주(7.83%)이자 EU101 라이선스 파트너인 중국 소재 제약사
@@ -723,6 +726,7 @@
 * [박수근 (엔비티)](/shareholders/박수근_엔비티) - 엔비티 대표이사 겸 최대주주(지분 22.50%)
 * [박순관](/shareholders/박순관) - 에스코넥 최대주주, 2024년 8월 대표이사 사임(전 대표이사)
 * [박순덕](/shareholders/박순덕) - 한독크린텍의 최대주주(개인), 지분율 26.73%
+* [박순재](/shareholders/박순재) - 알테오젠 창업자이자 최대주주(개인)
 * [박승운](/shareholders/박승운) - 빅텍 최대주주이자 회장·이사회 의장
 * [박승진](/shareholders/박승진) - 애드포러스 자회사 지니어스컴 대표이사 겸 애드포러스 개인 5% 이상 주주
 * [박안식](/shareholders/박안식) - 대창단조 최대주주(본인), 이사 회장
@@ -792,6 +796,7 @@
 * [배재혁](/shareholders/배재혁) - 에스엔시스 창업자이자 대표이사, 최대주주(개인)
 * [배해동](/shareholders/배해동) - 토니모리 최대주주이자 회장, 사내이사
 * [배현섭](/shareholders/배현섭) - 슈어소프트테크 대표이사 겸 최대주주(지분 33.01%)
+* [백승욱](/shareholders/백승욱) - 루닛 최대주주 겸 이사회의장
 * [백운조합](/shareholders/백운조합) - 코아스의 최대주주로 부상한 조합 형태 투자 주체
 * [백종원](/shareholders/백종원) - 더본코리아 창업주이자 대표이사, 최대주주(지분 59.5%)
 * [백준현](/shareholders/백준현) - 자람테크놀로지 창업자·대표이사 겸 최대주주
@@ -894,6 +899,7 @@
 * [서재웅](/shareholders/서재웅) - 피씨디렉트 최대주주(서대식)의 특수관계인(친인척), 지분 0.97% 보유
 * [서정구](/shareholders/서정구) - 대한과학 창업주이자 최대주주, 대한과학 회장
 * [서정민](/shareholders/서정민) - 셀로맥스사이언스 대표이사 겸 최대주주(지분 35.30%)
+* [서정선](/shareholders/서정선) - 마크로젠 창업자이자 최대주주(지분율 17.49%), 대표이사 회장 겸 이사회 의장
 * [서종만](/shareholders/서종만) - 대명에너지 특수관계인(최대주주의 제)이자 2대 주주(지분율 30.98%)
 * [서종현](/shareholders/서종현) - 대명에너지 대표이사이자 최대주주(지분율 39.95%)
 * [서형수 (알서포트)](/shareholders/서형수_알서포트) - 알서포트 대표이사이자 최대주주(지분 26.00%)
@@ -939,6 +945,7 @@
 * [송원김영환장학재단](/shareholders/송원김영환장학재단) - 태경산업 특수관계인 주주(9.99%)로 등재된 장학재단
 * [송은희](/shareholders/송은희) - 모트렉스㈜ 특수관계인(최대주주 이형환) 및 사내이사, 지분 9.97%
 * [송창우](/shareholders/송창우) - 싸이닉솔루션 상무이사이자 5% 이상 주주
+* [송혜승](/shareholders/송혜승) - 엠에스오토텍 최대주주(개인)
 * [수민인베스트먼트 유한책임회사](/shareholders/수민인베스트먼트유한책임회사) - 코리아에셋투자증권의 최대주주 특수관계인 격인 비상장 유한책임회사(지분 약 4.99%)
 * [수산아이앤티](/shareholders/수산아이앤티) - 수산인더스트리 특수관계사 주주(1.48%), 수산그룹 계열 KOSDAQ 상장사
 * [수산인더스트리](/shareholders/수산인더스트리) - 수산세보틱스·수산아이앤티의 최대주주이자 KOSPI 상장사
@@ -1081,7 +1088,7 @@
 * [어진](/shareholders/어진) - 안국약품 최대주주 겸 대표이사 회장 (개인)
 * [어해민](/shareholders/어해민) - 애드포러스 사내이사(CTO) 겸 개인 5% 이상 주주
 * [얼라인파트너스](/shareholders/얼라인파트너스) - 덴티움 지분 8.16%를 보유한 행동주의 사모펀드 운용사
-* [얼라인파트너스자산운용](/shareholders/얼라인파트너스자산운용) - 솔루엠 지분 8.04%를 보유한 국내 행동주의 자산운용사
+* [얼라인파트너스자산운용](/shareholders/얼라인파트너스자산운용) - 솔루엠·가비아 등 지분을 보유한 국내 행동주의 자산운용사
 * [엄대열](/shareholders/엄대열) - 유라테크 대표이사 겸 최대주주
 * [엄병윤](/shareholders/엄병윤) - 유라테크 최대주주의 특수관계인 주요 주주
 * [엄신철](/shareholders/엄신철) - 하이스틸 최대주주(2025.8.29 변경) 겸 부사장 — 특수관계인 포함 지분 53.47%, 본인 지분 16.11%
@@ -1161,6 +1168,7 @@
 * [엑스큐어](/shareholders/엑스큐어) - 씨유메디칼의 특수관계자 주주(지분 7.13%), 구 최대주주(2023~2024)
 * [엑시콘](/shareholders/엑시콘) - 샘씨엔에스 지분 20.66%를 보유한 관계회사(2대 주주)
 * [엔브이메자닌플러스 사모투자 합자회사](/shareholders/엔브이메자닌플러스_사모투자_합자회사) - 이랜텍 상환전환우선주(RCPS) 100%를 보유한 사모투자 합자회사
+* [엔브이에이치원방테크](/shareholders/엔브이에이치원방테크) - 케이엔솔의 최대주주인 특수목적법인(SPC), 엔브이에이치코리아㈜가 73% 지분 보유
 * [엔브이에이치코리아](/shareholders/엔브이에이치코리아) - GH신소재의 최대주주, 자동차 NVH(소음진동) 부품 전문기업
 * [엔스넷](/shareholders/엔스넷) - 알파칩스 최대주주(18.89%), 부동산 임대업 및 지주회사 역할을 하는 비상장법인
 * [엔알제일호재기지원펀드투자목적회사](/shareholders/엔알제일호재기지원펀드투자목적회사) - DH오토넥스의 최대주주인 비상장 투자목적회사 — 2024년 M&A로 DH그룹의 DH오토넥스 인수 주체
@@ -1236,7 +1244,7 @@
 * [원광씨에스](/shareholders/원광씨에스) - 동양고속 동일지배주주 계열의 비상장 특수관계인 법인 주주
 * [원앤파트너스(유)](/shareholders/원앤파트너스) - 이엔셀 5% 이상 보유 기관 주주(유한회사)
 * [원익뉴그로쓰2018사모투자합자회사](/shareholders/원익뉴그로쓰2018사모투자합자회사) - 원익그룹 계열 사모투자합자회사로 레이저옵텍의 2대주주
-* [원익홀딩스](/shareholders/원익홀딩스) - 케어랩스 최대주주(31.77%), 원익그룹 계열 상장 지주사
+* [원익홀딩스](/shareholders/원익홀딩스) - 케어랩스 최대주주(31.77%) 및 원익IPS 최대주주(32.90%), 원익그룹 계열 상장 지주사
 * [원재희](/shareholders/원재희) - 프럼파스트 최대주주이자 대표이사
 * [웰비안파트너스](/shareholders/웰비안파트너스) - 케이웨더의 특수관계사로 지분 6.38%를 보유한 법인 주주
 * [웰킵스홀딩스](/shareholders/웰킵스홀딩스) - 웰킵스하이텍(주)의 최대주주인 지주회사
@@ -1387,6 +1395,7 @@
 * [이완근](/shareholders/이완근) - 신성이엔지 창업자이자 회장, 특수관계인 주요주주
 * [이완진](/shareholders/이완진) - 대한뉴팜 최대주주이자 사내이사(경영총괄), 전 대표이사
 * [이용진 (한주라이트메탈)](/shareholders/이용진_한주라이트메탈) - 한주라이트메탈 최대주주 겸 대표이사, 지분율 12.1%
+* [이용한](/shareholders/이용한) - 원익그룹 회장으로 원익큐엔씨 지분 19.4%를 보유한 개인 주요주주
 * [이우영(씨이랩)](/shareholders/이우영(씨이랩)) - 씨이랩 창업자이자 최대주주(지분 29.9%), 현 이사회 의장(CSO)
 * [이웅열](/shareholders/이웅열) - 코오롱그룹 동일인(회장), ㈜코오롱 및 코오롱티슈진 개인 최대주주(특수관계인)
 * [이원준](/shareholders/이원준) - 한국단자공업 대표이사 사장, 최대주주 특수관계인(친인척)
