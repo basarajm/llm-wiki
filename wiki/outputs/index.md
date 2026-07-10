@@ -6,14 +6,6 @@
 * [ingest-tracker-KOSPI](/outputs/ingest-tracker-KOSPI)
 * [ingest-tracker-local](/outputs/ingest-tracker-local)
 * [ingest-tracker-local-kosdaq](/outputs/ingest-tracker-local-kosdaq)
-* [ingest-tracker-local-kospi](/outputs/ingest-trac# 분석 결과물 (outputs\)
-
-* [작업 핸드오프 — 2026-07-01 (백필 완료 + 인제스트 IG6까지, 사용자 요청으로 중지)](/outputs/handoff-2026-07-01) - 다른 PC/세션에서 KOSPI/KOSDAQ 인제스트/백필 작업을 재개하기 위한 진행상황·재개절차·미해결 항목 정리
-* [인제스트 후속 검토 이슈 트래커](/outputs/ingest-followups) - 배치 인제스트 과정에서 발견되었으나 즉시 처리하지 않고 이월한 낮은 우선순위 이슈 목록
-* [Product·Financial Product 인제스트 누락 분석 및 재개 옵션](/outputs/ingest-scope-products-gap-2026-06-29) - KOSPI 배치 인제스트(347/833) 동안 products·financial_products·ratings 타입이 거의 갱신되지 않은 원인과 보완 선택지
-* [ingest-tracker-KOSPI](/outputs/ingest-tracker-KOSPI)
-* [ingest-tracker-local](/outputs/ingest-tracker-local)
-* [ingest-tracker-local-kosdaq](/outputs/ingest-tracker-local-kosdaq)
 * [ingest-tracker-local-kospi](/outputs/ingest-tracker-local-kospi)
 * [위키 검진 리포트 2026-06-27](/outputs/lint-report-2026-06-27) - 16개 사업보고서 인제스트 직후의 위키 건강 검진 결과
 * [위키 검진 리포트 2026-07-03](/outputs/lint-report-2026-07-03) - IG13 배치(SK가스·SFA반도체·SBS·SK리츠 등) 이후 동시편집 충돌 잔여 정리 및 위키 전반 기계 점검 결과

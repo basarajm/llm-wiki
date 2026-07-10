@@ -37,6 +37,7 @@
 * [AISURFER](/products/AISURFER) - 비큐AI의 AI 에이전트 기반 뉴스 데이터 인사이트 플랫폼
 * [AL CIRCLE](/products/AL_CIRCLE) - 대호에이엘이 생산하는 알루미늄 환절판(원형판) 제품, 주방용품 등에 사용
 * [AL COIL](/products/AL_COIL) - 대호에이엘이 생산하는 알루미늄 코일 반제품, 전기·전자·자동차 등에 사용
+* [Alignment Vision System](/products/Alignment_Vision_System) - 트윔의 OLED 모듈공정 얼라인 계측·보정용 Rule-base 머신비전 장비
 * [Alpha-C](/products/Alpha-C) - 지슨의 상시형 불법촬영 탐지 시스템
 * [Alpha-H](/products/Alpha-H) - 지슨의 무선백도어 해킹 탐지 시스템
 * [Alpha-I](/products/Alpha-I) - 지슨의 AI 기반 스마트 무선도청 상시 방어 시스템
@@ -332,6 +333,7 @@
 * [Microwave Generator](/products/Microwave_Generator) - GaN 트랜지스터·전력증폭기 기반 RF/Microwave 발생 장치, 진공관·마그네트론 대체 제품
 * [MIDAS](/products/MIDAS) - 미원화학의 구황·분황·황산·발연황산·정제황산 등 유황계 화학제품 브랜드
 * [miLab™](/products/miLab) - 노을이 개발한 세계 최초의 온디바이스 AI 진단랩 솔루션
+* [MIM 자동차 터보차저·변속기 부품](/products/MIM_자동차_터보차저_변속기_부품) - 금속분말사출성형(MIM) 공법으로 제조되는 가변 터보차저 카트리지 및 DCT 변속기 정밀부품
 * [MIPHOTO](/products/MIPHOTO) - 미원상사 전자재료 사업군의 반도체·디스플레이용 첨단 전자소재 대표 브랜드 (포토레지스트 폴리머·PAC·OLED 소재 등)
 * [MIRAMER](/products/MIRAMER) - 미원에스씨의 에너지경화수지(UV/EB curing) 핵심 원료 브랜드 — 아크릴계 모노머·올리고머
 * [MIVE 시니어폰](/products/MIVE_시니어폰) - 알트가 국내 통신 3사向으로 공급하는 65세 이상 시니어용 통신단말
@@ -340,6 +342,7 @@
 * [MLB 상표권 라이선스](/products/MLB_상표권_라이선스) - F&F홀딩스가 보유한 MLB 브랜드 상표권을 자회사 F&F에 사용시켜 로열티 수익을 창출하는 라이선스 사업
 * [MLCC](/products/MLCC) - 적층세라믹콘덴서 — 전자회로의 전류 제어·노이즈 제거에 쓰이는 핵심 수동소자
 * [MLCC용 이형필름](/products/MLCC용 이형필름) - 코스모신소재의 제2 주력 제품 — MLCC 제조공정에 사용되는 기능성 이형필름(PET 필름에 실리콘 이형액 박막 코팅) (2025년 매출비중 25.3%)
+* [MOAI·T-MEGA](/products/MOAI_T-MEGA) - 트윔의 딥러닝 기반 외관 불량 자동검사 AI-base 머신비전 장비
 * [mobiCARE](/products/mobiCARE) - 씨어스의 웨어러블 심전도 분석·부정맥 스크리닝 구독형 솔루션
 * [Mobile DDR](/products/Mobile_DDR) - 피델릭스가 개발·판매하는 저전력 Buffer Memory Mobile DDR/DDR2/DDR3 제품군
 * [Mobile Digital X-ray System](/products/Mobile_Digital_X-ray_System) - 디알젬의 이동형 디지털 진단용 엑스선 촬영장치 제품군(TOPAZ, JADE, PROMO, RAYMO 시리즈)
@@ -391,6 +394,7 @@
 * [OLED 유기화합물 소재](/products/OLED_유기화합물_소재) - OLED 디스플레이 발광층·공통층에 사용되는 유기화합물 소재
 * [OLED 증착시스템](/products/OLED_증착시스템) - OLED TV·조명용 대형 패널 생산에 쓰이는 증착기·증착원·부대장비 통합 시스템
 * [OLED 증착원](/products/OLED_증착원) - OLED 제조공정에서 유기물·무기물·금속을 증발시키는 증착 핵심 장치(증발원)
+* [OLED 패널검사기](/products/OLED_패널검사기) - 이엘피가 제조·판매하는 OLED 및 마이크로 디스플레이용 패널 검사장비
 * [OLED소재](/products/OLED소재) - OLED 디스플레이 패널용 유기발광재료 및 기능성 신소재
 * [OLED패널](/products/OLED패널) - 자발광 디스플레이 패널 — 스마트폰·TV·IT 기기용 유기발광다이오드 패널
 * [Oligio](/products/Oligio) - 원텍의 고주파(RF) 기반 피부미용 에너지기반 의료기기
@@ -439,9 +443,12 @@
 * [POE(Peel Off End)](/products/POE) - 분유 등 분말식품 포장 상단에 사용되는 캔 덮개형 포장재
 * [POS프린터](/products/POS프린터) - 백화점·마트·레스토랑 등에서 영수증 발행용으로 사용되는 소형 프린터
 * [Potassium Clavulanate](/products/Potassium_Clavulanate) - 페니실린계 항생제의 β-Lactamase 저해 원료의약품 (종근당바이오 주력 수출 제품)
+* [POTN 광패킷전송장비](/products/POTN_광패킷전송장비) - 통신사·공공망용 패킷 기반 광 전송장비(MSPP·PTN·SPN 등) 제품군
 * [PP/PE BAG](/products/PP_PE BAG) - 원림의 주력 산업용 합성수지 포장재 (공산품 포장용 포대·마대), 국내 시장 점유율 약 60%(당사 추정)
 * [PPC 콘덴서필름](/products/PPC_콘덴서필름) - 필름커패시터(콘덴서)의 핵심 절연소재인 폴리프로필렌 콘덴서필름, 삼영 청주공장 생산 (전체 매출 34.6%, 국내 점유율 약 69%)
 * [PPG(폴리프로필렌글리콜)](/products/PPG) - 폴리우레탄의 핵심 기초원료로 사용되는 유기화학 중간재
+* [PPI Landscape](/products/PPI_Landscape) - 프로티나의 항체개량 및 자체 항체 신약 파이프라인 발굴 플랫폼 서비스
+* [PPI PathFinder](/products/PPI_PathFinder) - 프로티나의 단백질 간 상호작용(PPI) 타겟 분석 서비스 브랜드
 * [PREVAX](/products/PREVAX) - 핀텔의 AI 기반 고해상도 영상분석 에이전틱 AI 플랫폼 (스마트시티·지능형 교통체계용)
 * [PROM SIEM](/products/PROM_SIEM) - 싸이버원이 자체 개발한 빅데이터 기반 통합보안관제시스템(SIEM)
 * [PSRAM](/products/PSRAM) - 피델릭스가 개발·판매하는 Pseudo SRAM 메모리 제품
@@ -524,6 +531,7 @@
 * [SOOP Ads Manager](/products/SOOP_Ads_Manager) - SOOP의 실시간 입찰형 오픈 광고 플랫폼(SAM)
 * [SPC 바닥재](/products/SPC바닥재) - 보원케미칼이 생산하는 SPC(Stone Plastic Composite) 바닥재
 * [SPERO](/products/SPERO) - 나무기술이 개발한 멀티클라우드 자원 통합 관리·비용 최적화 플랫폼(CMP)
+* [SPID Platform Systems (Pi-Chip·Pi-View·Pi-InSight)](/products/SPID_Platform_Systems) - 프로티나의 단백질 간 상호작용(PPI) 단일분자 분석 시스템
 * [SPiDER ExD](/products/SPiDER_ExD) - 이글루코퍼레이션의 차세대 통합보안관리(SIEM) 솔루션
 * [SPSS(KoreaPlus Statistics)](/products/SPSS) - IBM SPSS 통계분석 소프트웨어 국내 유통 제품, 학술·연구 시장 표준 솔루션
 * [Sputtering Target](/products/Sputtering_Target) - 디스플레이 Panel PVD 증착 공정에 사용되는 배선소재 부품
@@ -1007,6 +1015,7 @@
 * [사피엔반도체 CMOS Backplane (Micro-LED 구동)](/products/사피엔반도체_CMOSBackplane) - AR/MR/XR 웨어러블 마이크로 디스플레이 엔진용 Micro-LED 구동 CMOS Backplane 반도체
 * [산돌구름](/products/산돌구름) - 산돌의 클라우드 기반 구독형 폰트 플랫폼 서비스
 * [산업설비 플랜트 EPC](/products/산업설비_플랜트_EPC) - 에쓰씨엔지니어링의 정밀화학·석유화학·OIL&GAS·발전 플랜트 설계·조달·시공 서비스
+* [산업용 기어박스·감속기](/products/산업용_기어박스·감속기) - 제철·건설장비·방산·항공·로봇·풍력발전 등에 적용되는 동력전달·감속용 기어박스
 * [산업용 로봇 (유일로보틱스)](/products/산업용_로봇) - 유일로보틱스의 직교·다관절·협동로봇 제품군
 * [산업용 송풍기](/products/산업용_송풍기) - 동양 플랜트 부문의 핵심 제품인 산업용 송풍기(FAN) — 국내 시장점유율 약 18.9%(2024, 내부추정)
 * [산업용 컨테이너](/products/산업용_컨테이너) - 엔피씨가 사출성형으로 생산하는 산업용 컨테이너 — 음료·주류 컨테이너, 농수산물 상자, 보온보냉상자(친환경 콜드체인) 등
@@ -1076,6 +1085,7 @@
 * [세파계 항생제](/products/세파계_항생제) - 영진약품의 세파계(cephalosporin) 항생제 원료(API)·완제·주사제 제품군, 일본 수출 주력
 * [센텔리안24](/products/센텔리안24) - 동국제약의 코스메슈티컬(더마 화장품) 브랜드, 헬스케어사업부 핵심 매출원
 * [센트레빌](/products/센트레빌) - 동부건설의 아파트 주거 브랜드 (Centreville) — 분양·도시정비(재건축·재개발) 주택
+* [셀룰러-IoT 모듈](/products/셀룰러-IoT_모듈) - 3GPP CAT.4/1/M1/NB 규격 기반 셀룰러 IoT 모듈·모뎀·라우터 제품군
 * [셀토스](/products/셀토스) - 기아의 소형 SUV 대표 차종 — 국내 소형 SUV 리더십·인도 핵심 모델
 * [소방차](/products/소방차) - 화재 진압 및 구조·구난용 특장차량
 * [소보민시럽](/products/소보민시럽) - 삼익제약의 어린이 멀미약으로 2년 연속 약국 판매 1위를 기록한 일반의약품
@@ -1271,6 +1281,7 @@
 * [오가본](/products/오가본) - 뉴키즈온 자회사 에코더마랩이 운영하는 영유아 대상 오가닉 스킨케어 브랜드
 * [오구멘틴](/products/오구멘틴) - 일성아이에스의 최대 매출 품목 — 페니실린계 항생제(GSK 라이선스 국내 생산)
 * [오뚜기밥](/products/오뚜기밥) - 오뚜기의 즉석밥 대표 브랜드. 즉석밥 시장점유율 32.2%의 주요 플레이어
+* [오아시스마켓](/products/오아시스마켓) - 지어소프트 종속회사 오아시스가 운영하는 친환경 신선식품 새벽배송 이커머스 플랫폼
 * [오일쿨러](/products/오일쿨러) - 엔진·변속기·유압·연료 오일을 냉각하는 열교환기로 삼성공조의 2대 주력 제품(연결 매출의 28.6%)
 * [오클렌(OCLEN)](/products/오클렌) - 디바이스의 OLED FM MASK 및 반도체 웨이퍼 오염제거용 세정장비 브랜드
 * [오토벨](/products/오토벨) - 현대글로비스의 중고차 온라인 거래 중개 플랫폼
@@ -1280,6 +1291,7 @@
 * [온수기](/products/온수기) - 경동나비엔의 북미 수출 주력 제품인 태크리스(순간식) 워터히터
 * [온토비아(ONTOVIA)](/products/온토비아) - SKAI의 온톨로지 기반 지식 그래프·GraphRAG AI 에이전트 솔루션
 * [올리고뉴클레오타이드 API](/products/올리고뉴클레오타이드_API) - RNA 기반 핵산치료제(siRNA 등)의 주원료가 되는 올리고뉴클레오타이드 원료의약품
+* [올림피아드](/products/올림피아드) - 위즈코프 학원교육사업부문의 대표 교육 브랜드
 * [옴니원(OmniOne)](/products/옴니원(OmniOne)) - 라온시큐어의 블록체인 기반 DID(분산신원인증) 플랫폼 — 모바일신분증·디지털ID·NFT
 * [와이어로프](/products/와이어로프) - 강선을 꼬아 만든 선박·크레인·건설·교량 케이블용 로프. 고려제강이 국내 생산능력·판매실적 1위
 * [와이어하네스(HARNESS)](/products/와이어하네스) - 건설중장비·산업차량용 전기배선 부품
@@ -1409,6 +1421,7 @@
 * [재활용PET플레이크](/products/재활용PET플레이크) - 폐페트병을 가공해 생산하는 재활용 소재(PET-Flake, R-Chip), 브랜드명 Recopet
 * [전구체(양극재용, P-NCM·P-NC)](/products/전구체) - 이차전지 양극활물질의 핵심 원재료인 삼원계 전구체
 * [전구체 기화이송 부품](/products/전구체_기화이송_부품) - 원자층 증착(ALD) 공정에서 전구체(프리커서)를 기화·이송하는 캐니스터·센서·기화기 등 부품
+* [전극공정장비(Coater/Roll Press/Slitter)](/products/전극공정장비) - 2차전지 전극 제조공정용 코터·롤프레스·슬리터 장비
 * [전기절연유](/products/전기절연유) - 변압기용 전기절연유(상표 MICTRANS)
 * [전기차 배터리 케이스](/products/전기차_배터리_케이스) - 알루코의 주력 신성장 제품으로, 전기차용 알루미늄 배터리 모듈케이스·구조물
 * [전기차 히터류](/products/전기차_히터류) - 전기차 실내난방(PTC 히터)·배터리 예열(배터리 승온히터) 전장부품. 아진전자부품이 현대·기아차 1차 협력사로 직접 공급하는 주력 제품
@@ -1538,6 +1551,7 @@
 * [코리아써키트 FPCB](/products/코리아써키트_FPCB) - 코리아써키트(인터플렉스)의 연성인쇄회로기판 — 스마트폰·카메라모듈·OLED용 FPCB
 * [코리아써키트 경성 PCB](/products/코리아써키트_경성PCB) - 코리아써키트의 주력 제품 — 통신단말·메모리모듈·반도체 PKG·LED TV용 경성(Rigid) 인쇄회로기판
 * [코메론 줄자](/products/코메론_줄자) - 코메론의 핵심 제품군인 Steel Pocket Tape·Steel Long Tape·Fiber Glass Tape 줄자
+* [코세스 반도체 후공정 장비](/products/코세스_반도체후공정장비) - 코세스의 대표 브랜드(KOSES) 반도체 후공정·레이저 응용 장비 라인업
 * [코오롱스포츠](/products/코오롱스포츠) - 코오롱인더스트리 패션부문의 대표 아웃도어 브랜드
 * [코오롱하늘채](/products/코오롱하늘채) - 코오롱글로벌의 대표 아파트 브랜드 — 주택·건축 분양 및 도시정비(재개발·재건축) 주력 브랜드
 * [코일](/products/코일) - 세탁기·냉장고·에어컨·밥솥 등에 사용되는 EMI 필터용 코일 제품
