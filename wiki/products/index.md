@@ -210,6 +210,7 @@
 * [EMI SHIELD](/products/EMI_SHIELD) - 반도체 패키지 전자파 차폐(EMI Shield) 장비 — 점유율 1위
 * [e-Nav 선박단말기](/products/e-Nav_선박단말기) - 한국형 e-Navigation 서비스 대응 지능형 해상교통정보 송수신 단말기
 * [eNisis](/products/eNisis) - 미래아이앤지가 자체 개발한 SWIFT 전문(메시지) 관리 솔루션. 국내 최초 SWIFT 솔루션 도입·구축의 선점효과로 국내 은행권에서 지배적 위치
+* [ENLIGHT NPU IP(오픈엣지테크놀로지)](/products/ENLIGHT_NPU_IP) - 오픈엣지테크놀로지의 엣지 AI 컴퓨팅용 NPU(신경망처리장치) IP 브랜드
 * [EOA(계면활성제)](/products/EOA_계면활성제) - 그린케미칼이 생산하는 EO(산화에틸렌) 부가물 계열 계면활성제·세정제 제품
 * [EOPatch](/products/EOPatch) - 이오플로우의 전기삼투펌프(EOP) 기술 기반 웨어러블 패치형 인슐린 펌프
 * [EPS레진](/products/EPS레진) - 발포폴리스티렌(스치로폴) 원료로 건물단열재·완충포장재에 쓰이는 합성수지. SH에너지화학의 주력 제품으로 2025년 국내 EPS 시장점유율 17.9%.
@@ -1538,6 +1539,7 @@
 * [오킨스전자 Test Socket](/products/오킨스전자_Test_Socket) - 반도체 칩의 성능 테스트를 위한 소켓(Burn-in Socket 포함), 오킨스전자 주력 제품
 * [오토벨](/products/오토벨) - 현대글로비스의 중고차 온라인 거래 중개 플랫폼
 * [오픈메탈마스크(OMM)](/products/오픈메탈마스크) - OLED 디스플레이 증착 공정에 사용되는 개방형 금속마스크
+* [반도체 메모리 시스템 IP(오픈엣지테크놀로지)](/products/오픈엣지테크놀로지_메모리시스템IP) - 오픈엣지테크놀로지의 DDR Memory Controller(OMC)·DDR PHY(OPHY)·On-chip Interconnect(OIC) IP 제품군
 * [옥수수수염차](/products/옥수수수염차) - 광동제약의 대표 건강 음료 브랜드 '광동 옥수수수염차'(F&B 파워브랜드)
 * [온리원](/products/온리원) - 비상교육의 유아~중학생 대상 스마트학습지 브랜드
 * [온수기](/products/온수기) - 경동나비엔의 북미 수출 주력 제품인 태크리스(순간식) 워터히터
