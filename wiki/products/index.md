@@ -193,6 +193,7 @@
 * [DVOR·DME 항행안전장비](/products/DVOR·DME 항행안전장비) - 항공기의 안전한 운항을 위한 국제민간항공기구(ICAO) 규격 기반 거리측정·전방향표지 항행안전무선장비
 * [DxBIC](/products/DxBIC) - 마이크로디지탈의 차세대 전자동 면역진단장비(바이오메디컬 핵심 제품)
 * [DYP 피스톤](/products/DYP_피스톤) - DYP가 생산하는 내연기관용 엔진피스톤(파워셀 모듈), 세계 OEM 시장점유율 약 9%(자체 추산)
+* [EarlyTect Colon Cancer(얼리텍 대장암검사)](/products/EarlyTect_Colon_Cancer) - 지노믹트리가 개발한 대변 DNA 신데칸-2 메틸화 바이오마커 기반 대장암 보조진단 제품
 * [EasyCluster](/products/EasyCluster) - 반도체·디스플레이 설비 통합 제어 소프트웨어 플랫폼
 * [ECH](/products/ECH) - 롯데정밀화학 케미칼사업부문의 에피클로로히드린(ECH). 에폭시 수지·방수/방청 페인트 주원료, 국내시장 점유율 38%(2025, 회사 추정)
 * [ECM 반도체](/products/ECM_반도체) - 음성신호를 전기신호로 변환하는 마이크로폰용 반도체 칩(Electret Capacitor Microphone)
@@ -320,6 +321,7 @@
 * [IMC-002](/products/IMC-002) - 이뮨온시아의 Anti-CD47 완전 인간 단클론항체 면역항암제(임상 1b상)
 * [IMS](/products/IMS) - LTE 등 데이터망에서 HD급 음성 통화 서비스를 제공하는 무선데이터 솔루션
 * [IMSAFE Saliva](/products/IMSAFE_Saliva) - 타액 내 면역항체 IgA 농도를 측정하는 프로티아의 신규 면역 모니터링 제품
+* [InBody 체성분분석기](/products/InBody_체성분분석기) - 임피던스 방식으로 단백질·무기질·지방·수분을 측정해 신체 균형상태를 진단하는 인바디의 대표 제품군
 * [INDIGO Paw Pet](/products/INDIGO_Paw_Pet) - (주)오에스피의 프리미엄 펫푸드 자체 브랜드
 * [InnoLAMP 파이프라인 (GB-7001·GB-5001·GB-6002)](/products/InnoLAMP_파이프라인) - 지투지바이오의 미립구 기반 약효지속성 의약품 주력 파이프라인
 * [InnoProduct(이노프로덕트)](/products/InnoProduct) - 이노룰스의 상품 생명주기 관리·프로세스 관리 특화 로우코드 솔루션
