@@ -3,7 +3,7 @@ type: Corporate Group
 title: TKG그룹
 description: 티케이지태광을 정점으로 한 정밀화학·투자 기업집단(구 태광그룹 계열과 별개)
 controlling_person: 박주환
-member_companies: [/companies/TKG휴켐스, /companies/티케이지태광]
+member_companies: [/companies/TKG휴켐스, /companies/티케이지태광, /companies/티케이지애강]
 tags: [기업집단, TKG그룹]
 timestamp: 2026-07-03T17:52:20Z
 ---
@@ -18,6 +18,7 @@ TKG그룹은 티케이지태광(주)을 지주 성격 법인으로 하는 기업
 - [티케이지태광](/companies/티케이지태광) — 지주 성격 비상장 법인, TKG휴켐스 최대주주(39.95%)
 - TKG엠켐(주) (구 제이엘켐) — TKG휴켐스 종속회사(2024.10 지분 50%+1주 인수, 2025.5 상호 변경)
 - 티케이지일렘(주) (구 일렘테크놀러지) — 관계기업, 지분율 48.91%
+- [티케이지애강](/companies/티케이지애강) — KOSDAQ 상장, 배관재·소방기계설비 제조기업, 최대주주 티케이지태광(47.53%)
 
 ## 지배구조
 
