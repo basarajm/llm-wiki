@@ -3,7 +3,7 @@ type: Corporate Group
 title: NICE그룹
 description: 지주회사 NICE홀딩스를 중심으로 신용정보·지급결제·무인화운영·신용평가 등을 영위하는 기업집단
 controlling_person: 김원우
-member_companies: [/companies/NICE홀딩스, /companies/NICE평가정보, /companies/나이스신용평가, /companies/나이스정보통신, /companies/아이티엠반도체, /companies/나이스디앤비, /companies/서울전자통신]
+member_companies: [/companies/NICE홀딩스, /companies/NICE평가정보, /companies/나이스신용평가, /companies/나이스정보통신, /companies/아이티엠반도체, /companies/나이스디앤비, /companies/서울전자통신, /companies/NICE인프라]
 tags: [기업집단, NICE그룹]
 timestamp: 2026-07-03T00:00:00Z
 ---
@@ -23,7 +23,7 @@ NICE홀딩스의 최대주주는 개인 김원우(지분 25.30%)이며, 특수�
 - [나이스정보통신](/companies/나이스정보통신) — 지급결제(VAN·PG) (핵심 계열사)
 - [아이티엠반도체](/companies/아이티엠반도체) — 2차전지 보호회로·전자담배·전장 제조 (핵심 계열사)
 - [나이스디앤비](/companies/나이스디앤비) — 기업신용정보·신용인증서비스, KOSDAQ 상장(130580), NICE홀딩스 지분 34.97%
-- NICE인프라(구 한국전자금융) — 무인화운영(ATM·주차·EV충전)
+- [NICE인프라](/companies/NICE인프라) — 무인화운영(ATM·주차·EV충전·KIOSK·영상보안), KOSDAQ 상장, 옛 한국전자금융, NICE홀딩스 지분 35.80%
 - 나이스신용정보㈜ — 자산관리(채권추심·신용조사)
 - 나이스지니데이타㈜ — 빅데이터 사업
 - 나이스피앤아이㈜ — 채권평가
@@ -44,3 +44,4 @@ NICE홀딩스의 최대주주는 개인 김원우(지분 25.30%)이며, 특수�
 - [NICE평가정보 2025년 사업보고서](/sources/NICE평가정보_2025_사업보고서)
 - [나이스디앤비 2025 사업보고서](/sources/나이스디앤비_2025_사업보고서)
 - [서울전자통신 2025 사업보고서](/sources/서울전자통신_2025_사업보고서)
+- [NICE인프라 2025 사업보고서](/sources/NICE인프라_2025_사업보고서)
