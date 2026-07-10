@@ -63,6 +63,7 @@
 * [AXSURF](/products/AXSURF) - 액스비스의 레이저 표면처리 장비 — 코팅·절연층 제거(탈피), 표면 클리닝, 마킹 공정용
 * [AXVIEW](/products/AXVIEW) - 액스비스의 레이저 가공 검사·품질보증 장비 — 플라즈마 센서 및 OCT 기술 기반 실시간 품질 검증
 * [AXWELD](/products/AXWELD) - 액스비스의 레이저 용접 장비 — 이차전지 셀·모듈, 전기차 모터 부품, 카메라모듈 등 조립 공정용, 2025년 별도매출 비중 62.5%(1위 제품)
+* [B787 항공기 부품](/products/B787_항공기부품) - 하이즈항공이 생산하는 Boeing 787 기체구조물·후방동체 조립체 및 정밀가공 부품
 * [BASSO](/products/BASSO) - SG세계물산이 1989년 출시한 남성정장 대표 브랜드 (BASSO·BASSO homme)
 * [BATTERY FRAME](/products/BATTERY_FRAME) - 전기차용 배터리 프레임 — 차량 경량화 신소재를 적용한 구조 부품
 * [BGN4·BORI 프로바이오틱스 균주](/products/BGN4_BORI_프로바이오틱스균주) - 비피도의 독자 특허 프로바이오틱스 균주(B. bifidum BGN4, B. longum BORI, B. lactis AD011)
@@ -85,6 +86,7 @@
 * [CATOS](/products/CATOS) - 토탈소프트뱅크가 개발한 컨테이너·자동화 터미널 운영시스템(Computer Automated Terminal Operating System)
 * [Caymus](/products/Caymus) - 나라셀라가 수입·유통하는 미국 나파밸리 프리미엄 와인 브랜드
 * [CBN연마지석](/products/CBN연마지석) - 고속회전 고성능 연마용으로 쓰이는 입방정질화붕소(CBN) 기반 공업용 연마지석
+* [CDMO서비스 (이엔셀)](/products/CDMO서비스_이엔셀) - 이엔셀의 첨단바이오의약품(세포·유전자치료제) 위탁개발생산 서비스
 * [CDR 시리즈](/products/CDR_시리즈) - 슈프리마에이치큐의 바이오인식 기반 출입보안·근태관리용 보안시스템 상표
 * [CELBIC](/products/CELBIC) - 마이크로디지탈의 일회용 세포배양시스템(바이오프로세스 핵심 제품)
 * [Cello Square](/products/Cello_Square) - 삼성SDS의 디지털 포워딩·글로벌 통합물류 플랫폼
@@ -206,6 +208,7 @@
 * [GenesWell BCT](/products/GenesWell_BCT) - 젠큐릭스의 아시아 유일 유방암 예후진단검사(진스웰 비씨티)
 * [GeNext](/products/GeNext) - 세니젠의 대량시료 One-stop 미생물 검출 NGS 패널 제품
 * [Geniant Cranial](/products/Geniant_Cranial) - 고영의 뇌수술용 의료로봇, 'KYMERO'의 후속 모델. 2025년 美 FDA 510(k) 인증 획득
+* [GeOnAirX](/products/GeOnAirX) - 웨이버스의 3D 공간정보 기반 UAM 통합관제·디지털버티포트 플랫폼
 * [GFX](/products/GFX) - 바이오에프디엔씨의 성장인자(Growth Factor Complex) 기반 화장품 원료 완제품
 * [GFzyme Proteinase K](/products/GFzyme-Proteinase-K) - HLB제넥스가 국산화에 성공한 분자진단·유전공학 실험용 효소
 * [Glassom (LCD 셀 보호막)](/products/Glassom_LCD셀보호막) - 나노캠텍의 LCD Glass Cell 운송용 간지 및 보호막 제품
@@ -436,6 +439,7 @@
 * [Pitavastatin API](/products/Pitavastatin_API) - 고지혈증·고혈압 등 심혈관계 질환 치료제용 원료의약품
 * [Plasma Guard 222](/products/Plasma_Guard_222) - 나노씨엠에스의 인체에 안전한 원자외선(Far UV-C 222nm) 방역 램프
 * [PLC](/products/PLC) - 산업 공정 제어용 프로그래머블 로직 컨트롤러(PLC)
+* [PLC 광분배기](/products/PLC_광분배기) - 우리로가 제조하는 평판형 광분배기(PLC Wafer·Chip·Module)
 * [PLUX](/products/PLUX) - 롯데하이마트의 자체 브랜드(PB) 생활·소형가전 라인업
 * [PNAClamp™](/products/PNAClamp) - HLB파나진의 PNA 기반 암 체세포 돌연변이 검출 분자진단 시약 시리즈
 * [PNS 분산제](/products/PNS_분산제) - 석고보드·PHC파일·염료 등에 쓰이는 나프탈렌계 분산제로 KG케미칼이 국내 점유율 1위(68.5%)
@@ -498,6 +502,7 @@
 * [SAIP](/products/SAIP) - 에스투더블유의 도메인 특화 온톨로지·산업 AI 플랫폼
 * [Samsung TV](/products/Samsung_TV) - 삼성전자 영상디스플레이 사업의 TV 완제품 — Neo QLED·OLED·The Frame 등, 글로벌 금액 기준 점유율 1위
 * [Sarpogrelate API](/products/Sarpogrelate_API) - 항혈소판제(순환계통 질환)용 원료의약품
+* [Saw Singulation](/products/Saw_Singulation) - 제너셈이 SK하이닉스와 공동 개발한 반도체 후공정용 기판 절단·세척·검사 올인원 장비
 * [SbW(Steer-by-Wire)](/products/SbW(Steer-by-Wire)) - 에이치엘만도의 전동 조향 시스템 — 기계적 연결 없이 전자 신호로 조향하는 차세대 조향 시스템, 세계 최초 양산
 * [SecureGate](/products/SecureGate) - 한싹의 망간자료전송(망연계) 보안 솔루션 브랜드
 * [SECUVE TOS](/products/SECUVE_TOS) - 시큐브의 보안운영체제(Secure OS) 솔루션, 국내 최초 상용화 제품
@@ -550,6 +555,7 @@
 * [SUN&L 목창호(도어)](/products/SUN&L_목창호) - SUN&L 인테리어 부문의 대표 제품 — 목창호(목재 도어). 국내 최대 목창호 생산·시공업체로 평가
 * [SUN&L 펌프 디스펜서·트리거 스프레이어](/products/SUN&L_펌프디스펜서) - SUN&L 생활용품 부문의 대표 제품 — 플라스틱 펌프 디스펜서·트리거 스프레이어. 국내 펌프 디스펜서·스프레이 시장 점유율 약 63%(2025년 추정)
 * [SWEEP](/products/SWEEP) - 세림B&G가 유통하는 산업용 로봇청소기 브랜드(푸두 로보틱스 파트너십)
+* [Synerjet(시너젯)](/products/Synerjet) - 하이로닉이 2025년 출시한 복합 에너지 기반 신규 미용의료기기
 * [Synozol 반응성염료](/products/Synozol_반응성염료) - 경인양행의 반응성염료 브랜드로 화학·천연섬유·가죽제품 염색에 사용
 * [Sys Clein](/products/Sys_Clein) - 자이에스앤디가 시공·판매하는 환기형 공기청정기 브랜드
 * [SystemEver](/products/SystemEver) - 영림원소프트랩의 클라우드 SaaS ERP 서비스(월 과금형)
@@ -562,6 +568,7 @@
 * [Tea Baby 영유아 화장품](/products/Tea_Baby_영유아_화장품) - 오가닉티코스메틱의 차 추출물 기반 영유아용 화장품 브랜드
 * [Tera Harz Clear](/products/Tera_Harz_Clear) - 그래피가 개발한 세계 최초 구강온도 형상기억 3D프린팅 소재, 형상기억 투명교정장치(SMA)의 핵심 소재
 * [Test Board](/products/Test_Board) - 티에프이의 반도체 테스트 보드(Handler Change Kit·ATE Interface Board·Burn-in Test Board 등) 제품군
+* [Test Handler](/products/Test_Handler) - 제너셈이 제조하는 반도체 테스트 패키지 자동 분류·재검사 기능 탑재 테스트 핸들러 장비
 * [Test Socket](/products/Test_Socket) - 티에프이의 주력 제품, 반도체 양품/불량품 검사에서 테스트 장비와 디바이스를 전기적으로 연결하는 소모성 부품
 * [Tetrahydrofuran](/products/Tetrahydrofuran) - 대정화금이 생산하는 무색 액체 용매, 2025년 매출 비중 3.98%
 * [THERMOPRENE(TPE)](/products/THERMOPRENE_TPE) - 화승코퍼레이션이 독자 개발한 올레핀계 열가소성 고무 소재
@@ -588,6 +595,7 @@
 * [VIN Marker](/products/VIN_Marker) - 한빛레이저의 자동차 차대번호(VIN) 레이저 마킹시스템
 * [VI용 세라믹](/products/VI용_세라믹) - 진공차단기(Vacuum Interrupter)용 세라믹 — KCC 기타(소재) 부문 주력, 글로벌 점유율 1위(33%)
 * [VLAD](/products/VLAD) - 링크제니시스의 AI 기반 영상 인식·검증 소프트웨어 패키지
+* [V-RO(브이로)](/products/V-RO) - 하이로닉의 HIFU·RF 복합 에너지 피부 리프팅 의료기기
 * [VURIX](/products/VURIX) - 이노뎁의 AI 기반 영상인식 관제 솔루션
 * [Walkbot](/products/Walkbot) - 피앤에스로보틱스의 세계 유일 3-Joint(고관절·슬관절·족관절) 보행재활훈련 로봇시스템
 * [WDM](/products/WDM) - 파장분할다중화 방식 광전송시스템 제품군
@@ -1203,6 +1211,7 @@
 * [아토팜](/products/아토팜) - 네오팜의 민감피부 전문 스킨케어 브랜드
 * [아트맥콤비젤](/products/아트맥콤비젤) - 한국유나이티드제약의 복합형 이상지질혈증 치료 개량신약(연질캡슐)
 * [아트지](/products/아트지) - 무림P&P가 Neo-Star 브랜드로 생산하는 고부가가치 도공 인쇄용지 — 제지부문 매출 대표 품목
+* [악마다이어트](/products/악마다이어트) - 팜스빌의 다이어트·뷰티 전문 건강기능식품 브랜드
 * [안티푸라민](/products/안티푸라민) - 유한양행의 대표 일반의약품(OTC) 브랜드 — 소염·진통 외용제, 약품사업부문 일반약 매출 1위 품목
 * [알루미나시멘트](/products/알루미나시멘트) - 캐스터블 내화물의 바인더로 쓰이는 고알루미나 특수시멘트로, 유니온이 청주·포항공장에서 생산하는 수출 주력 제품
 * [알루미늄 복합판넬](/products/알루미늄_복합판넬) - 알루미늄 표면재와 폴리에틸렌 등 심재를 접착한 건축 내외장재용 복합판넬
@@ -1222,6 +1231,7 @@
 * [애니코트](/products/애니코트) - 롯데정밀화학의 식의약용 히프로멜로스(AnyCoat®, HPMC) 브랜드. 의약용 캡슐 부형제·정제 코팅 첨가제
 * [애디슨 오퍼월](/products/애디슨_오퍼월) - 엔비티가 운영하는 국내 1위 리워드 광고 오퍼월 솔루션
 * [애브서틴](/products/애브서틴) - 이수앱지스가 개발한 고셔병(희귀질환) 치료제, 국내외 판매 중인 바이오의약품
+* [애플트리 김약사네](/products/애플트리_김약사네) - 팜스빌의 약사 상담 기반 맞춤형 건강기능식품 전문 브랜드
 * [액체탄산](/products/액체탄산) - 석유화학·정유 공정에서 발생하는 탄산가스를 정제·액화한 고순도 액체 이산화탄소로 음료용·공업용에 사용
 * [액츄에이터](/products/액츄에이터) - 에너토크가 제조하는 밸브·수문 자동제어용 구동장비
 * [앤디포스 모바일기기용 양면테이프·윈도우필름](/products/앤디포스_양면테이프_윈도우필름) - 앤디포스의 주력 제품군인 모바일기기용 양면테이프 및 윈도우 필름
@@ -1293,6 +1303,7 @@
 * [올리고뉴클레오타이드 API](/products/올리고뉴클레오타이드_API) - RNA 기반 핵산치료제(siRNA 등)의 주원료가 되는 올리고뉴클레오타이드 원료의약품
 * [올림피아드](/products/올림피아드) - 위즈코프 학원교육사업부문의 대표 교육 브랜드
 * [옴니원(OmniOne)](/products/옴니원(OmniOne)) - 라온시큐어의 블록체인 기반 DID(분산신원인증) 플랫폼 — 모바일신분증·디지털ID·NFT
+* [와우넷](/products/와우넷) - 한국경제티브이의 증권정보서비스 플랫폼(웹사이트)
 * [와이어로프](/products/와이어로프) - 강선을 꼬아 만든 선박·크레인·건설·교량 케이블용 로프. 고려제강이 국내 생산능력·판매실적 1위
 * [와이어하네스(HARNESS)](/products/와이어하네스) - 건설중장비·산업차량용 전기배선 부품
 * [와이퍼 블레이드(일반)](/products/와이퍼_블레이드_일반) - S&K폴리텍 종속회사 (주)캐프가 생산하는 자동차용 일반(Conventional) 와이퍼 블레이드
@@ -1472,6 +1483,7 @@
 * [주석도금강판](/products/주석도금강판) - 식음료·산업 포장용기(캔) 및 전자제품용 표면처리강판으로, TCC스틸이 국내 과점 3사 중 하나로 생산하는 주력 제품
 * [주석안정제](/products/주석안정제) - PVC 가공용 유기주석(Tin) 안정제 및 주석 중간체 — 송원산업이 국내 TIN원제(중간원료) 약 81% 점유, 국내 유일 중간원료 생산
 * [주성엔지니어링 ALD 장비](/products/주성엔지니어링_ALD장비) - 반도체 전공정용 원자층증착(ALD) 장비. SDP System(공간분할 플라즈마 ALD/CVD) 기반, 세계 시장 점유율 4위
+* [주식창](/products/주식창) - 한국경제티브이의 모바일 유료 증권정보서비스 애플리케이션
 * [주연테크 데스크탑PC](/products/주연테크_데스크탑PC) - 주연테크의 자체 브랜드 데스크탑PC 및 PC 본체 제품군
 * [주정](/products/주정) - 소주 등 주류 제조의 핵심 원료로 쓰이는 발효주정·정제주정
 * [주크](/products/주크) - 대현의 여성복 브랜드, 2025년 매출 비중 26.58%
@@ -1527,6 +1539,7 @@
 * [카프로 수소](/products/카프로_수소) - 카프로가 LPG(프로판) 개질로 생산하는 고순도(99.999%) 수소 — 수소·황산류 제품군이 2025년 제품매출의 85.40%, 수송용 수소 국내 점유율 3.3%
 * [카프로 황산류](/products/카프로_황산류) - 카프로가 유황 직접연소(Sulfur Burning)로 생산하는 고순도 황산류(일반·정제·발연황산) — 수소·황산류 제품군이 2025년 제품매출의 85.40%, 식품첨가물용 허가 취득
 * [칸도럽 세럼](/products/칸도럽_세럼) - 바이오비쥬의 가교 히알루론산 기반 스킨부스터 자사 브랜드 제품
+* [칼로덤](/products/칼로덤) - 테고사이언스의 3도 화상 및 중증화상·당뇨성족부궤양 치료용 자기유래 세포치료제
 * [캐니샷(CaniShot)](/products/캐니샷) - 중앙백신연구소의 애견백신 브랜드, 2025년 매출 성장률 최고 제품군
 * [캐리앤샵](/products/캐리앤샵) - 캐리소프트의 IP 기반 커머스 온라인 쇼핑몰(캐릭터 굿즈·교육교재·MD 상품 판매)
 * [캐시슬라이드](/products/캐시슬라이드) - 엔비티의 잠금화면 기반 리워드 앱테크 서비스
@@ -1552,6 +1565,7 @@
 * [코리아써키트 경성 PCB](/products/코리아써키트_경성PCB) - 코리아써키트의 주력 제품 — 통신단말·메모리모듈·반도체 PKG·LED TV용 경성(Rigid) 인쇄회로기판
 * [코메론 줄자](/products/코메론_줄자) - 코메론의 핵심 제품군인 Steel Pocket Tape·Steel Long Tape·Fiber Glass Tape 줄자
 * [코세스 반도체 후공정 장비](/products/코세스_반도체후공정장비) - 코세스의 대표 브랜드(KOSES) 반도체 후공정·레이저 응용 장비 라인업
+* [코셈 SEM(주사전자현미경)](/products/코셈_SEM) - 코셈의 Tabletop 주사전자현미경(SEM) 및 EDS 통합 일체형 분석장비 라인업
 * [코오롱스포츠](/products/코오롱스포츠) - 코오롱인더스트리 패션부문의 대표 아웃도어 브랜드
 * [코오롱하늘채](/products/코오롱하늘채) - 코오롱글로벌의 대표 아파트 브랜드 — 주택·건축 분양 및 도시정비(재개발·재건축) 주력 브랜드
 * [코일](/products/코일) - 세탁기·냉장고·에어컨·밥솥 등에 사용되는 EMI 필터용 코일 제품
@@ -1773,6 +1787,7 @@
 * [후루마린](/products/후루마린) - 일동제약의 주사용 항생제 브랜드 — 별도 매출 비중 4.29%
 * [훼로바](/products/훼로바) - 부광약품의 대표 빈혈치료제(서방형 철분 제제)로 2025년 매출 비중 약 8%
 * [훼스탈](/products/훼스탈) - 한독의 소화효소제 대표 브랜드(소화제)
+* [휠소터](/products/휠소터) - 물류창고에서 화물을 고속으로 분류하는 소터 설비 (티엑스알로보틱스 핵심 제품)
 * [휴대용 광계측기](/products/휴대용_광계측기) - 스플리터·광계측기 부품을 포함한 휴대용 광 계측 장비
 * [휴대폰인증서보관서비스](/products/휴대폰인증서보관서비스) - 인포바인의 공동인증서(구 공인인증서)를 휴대폰에 보관·연동하는 본인인증 서비스 '유비키'
 * [휴비스 단섬유(SF)](/products/휴비스 단섬유(SF)) - 휴비스의 폴리에스터 단섬유(Staple Fiber) — 국내 시장점유율 약 66%(2024년, 국내 1위)
