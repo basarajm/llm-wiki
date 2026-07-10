@@ -11,6 +11,7 @@
 * [API (Hong Kong) Investment Limited](/shareholders/API_Hong_Kong_Investment_Limited) - 뱅크웨어글로벌 지분 5.31%를 보유한 홍콩 소재 투자법인
 * [APS](/shareholders/APS) - APS그룹 사업지주회사 — AP시스템 최대주주(25.44%)
 * [ASIA STRATEGY PARTNERS LLC](/shareholders/ASIA_STRATEGY_PARTNERS_LLC) - 비트플래닛의 최대주주(2025.09~), 비트코인 트레저리 투자 특수목적법인(SPV)
+* [BCPE Centur Investments, LP](/shareholders/BCPE_Centur_Investments_LP) - 베인캐피탈(Bain Capital) 계열 케이맨 소재 투자펀드, 클래시스 최대주주
 * [BGF](/shareholders/BGF) - BGF그룹 순수지주회사 — BGF리테일(30.00%)·BGF에코머티리얼즈 최대주주
 * [BlackRock Fund Advisors](/shareholders/BlackRock) - 삼성전자 지분 5.07%를 보유한 세계 최대 자산운용사
 * [BRV Lotus Fund III, L.P.](/shareholders/BRV_Lotus_Fund_III) - 에코프로머티리얼즈 지분 6.03%를 보유한 재무적 투자자(사모펀드)
@@ -121,6 +122,7 @@
 * [SHANSHAN INVESTMENT HOLDINGS LIMITED](/shareholders/SHANSHAN_INVESTMENT_HOLDINGS) - 차이나크리스탈신소재홀딩스 3대 주주(해외 투자법인)
 * [Shengqu Technology Korean Limited](/shareholders/Shengqu Technology Korean Limited) - 액토즈소프트 최대주주(지분 51.1%), 싱가포르 SDGI Pte. Ltd.가 100% 지배하는 투자목적 법인
 * [Silchester International Investors LLP](/shareholders/Silchester_International_Investors) - 영국계 자산운용사, LG생활건강 5% 이상 주주(6.1%)
+* [SIS S,R,L](/shareholders/SIS_SRL) - 코리아에프티 최대주주(지분 34.91%)인 이탈리아 소재 법인
 * [SK](/shareholders/SK) - SK스퀘어(32.16%)·SKC(40.64%)·SK이노베이션(52.09%) 최대주주인 SK그룹 지주회사 SK㈜
 * [SK Battery America](/shareholders/SK_Battery_America) - SK그룹 계열 미국 배터리 법인, 유일로보틱스 2대주주
 * [SK가스(주주)](/shareholders/SK가스) - 그리드위즈 지분 20.83%를 보유한 5% 이상 주주이자 코스피 상장 LPG 에너지기업
@@ -373,6 +375,7 @@
 * [김은정 (메디앙스)](/shareholders/김은정_메디앙스) - 메디앙스 최대주주이자 현 회장(사내이사)
 * [김응상](/shareholders/김응상) - 한농화성 최대주주 및 대표이사 회장
 * [김익환](/shareholders/김익환) - 우진플라임 최대주주 겸 대표이사(개인)
+* [김인순](/shareholders/김인순) - 매일홀딩스 특수관계인 개인주주(지분 14.68%), 사내이사 역임
 * [김인식 (체리부로)](/shareholders/김인식(체리부로)) - 체리부로 창업주이자 특수관계자 지분을 보유한 개인 주주
 * [김인식](/shareholders/김인식) - 세진티에스 대표이사이자 최대주주(지분율 46.71%)
 * [김장중](/shareholders/김장중) - 이스트소프트 최대주주(지분 19.77%) 겸 사내이사
@@ -515,6 +518,7 @@
 * [다우데이타](/shareholders/다우데이타) - 다우기술의 최대주주이자 다우키움그룹의 최상위 지배기업, KOSDAQ 상장 IT솔루션·VAN 기업
 * [다원시스](/shareholders/다원시스) - 다원넥스뷰의 최대주주(23.09%)이자 특수전원장치·전동차 제조사, 코스닥 상장기업
 * [다이나코믹스](/shareholders/다이나코믹스) - 오픈베이스 지분 3.4%를 보유한 기타 법인주주
+* [㈜다이엑스](/shareholders/다이엑스) - 알멕의 최대주주(27.38%)인 비상장 투자법인
 * [단재완](/shareholders/단재완) - 계양전기 2대주주(개인)이자 해성산업 최대출자자(지분 18.05%) — 해성그룹 오너
 * [대광헬스케어](/shareholders/대광헬스케어) - 씨유메디칼의 특수관계자 주주(지분 5.57%)이자 최대주주 씨유코퍼레이션의 지배주주
 * [대교문화재단](/shareholders/대교문화재단) - 대교 관련 공익법인 주주
@@ -624,6 +628,7 @@
 * [마르시아 신기술조합 제77호](/shareholders/마르시아 신기술조합 제77호) - 에스씨엠생명과학의 최대주주인 여신전문금융업법상 신기술사업투자조합
 * [마스턴투자운용](/shareholders/마스턴투자운용) - 마스턴프리미어리츠의 자산관리회사(AMC)이자 최대주주(6.46%)
 * [마점래](/shareholders/마점래) - 엠오티 창업자 겸 대표이사, 최대주주
+* [마크로젠](/shareholders/마크로젠) - 소마젠의 최대주주(지분율 54.08%)이자 코스닥 상장 유전체 분석 전문기업
 * [메가스터디](/shareholders/메가스터디) - 메가엠디의 최대주주(지분 43.15%)이자 메가스터디그룹 중심 회사인 상장기업
 * [메가스터디교육](/shareholders/메가스터디교육) - 아이비김영의 최대주주(지분 55.31%), 코스닥 상장 교육기업
 * [메이븐에프씨](/shareholders/메이븐에프씨) - 패션플랫폼의 최대주주(지분율 29.00%)
@@ -825,6 +830,7 @@
 * [사조산업 (사조씨푸드 최대주주)](/shareholders/사조산업_사조씨푸드) - 사조씨푸드 지분 61.56%를 보유한 최대주주이자 사조그룹 상장 계열사
 * [사토시홀딩스](/shareholders/사토시홀딩스) - 한국첨단소재의 최대주주(12.14%)이자 코스닥 상장기업(구, 딥마인드플랫폼)
 * [사회복지법인 따뜻한동행](/shareholders/사회복지법인_따뜻한동행) - 한미글로벌 지분 6.40%를 보유한 사회복지법인(기타법인) 주주
+* [사회복지법인진암복지재단](/shareholders/사회복지법인진암복지재단) - 매일홀딩스 특수관계인 공익법인 주주(지분 4.77%)
 * [산돌커뮤니케이션](/shareholders/산돌커뮤니케이션) - 산돌의 최대주주인 비상장 부동산 임대업체(지분 19.72%)
 * [(주)삼기](/shareholders/삼기) - 삼기에너지솔루션즈의 최대주주이자 모회사, 자동차부품 전문 코스닥 상장기업
 * [삼라마이다스](/shareholders/삼라마이다스) - SM그룹 지주회사격 계열사, 국일제지 최대주주(89.14%)
@@ -1248,6 +1254,7 @@
 * [유중근](/shareholders/유중근) - KZ정밀 前 최대주주(2024년 10월 이전), 현재 6.27% 지분 보유 계열회사 임원
 * [유진이엔티](/shareholders/유진이엔티) - YTN 최대주주(39.17%)이자 유진기업 계열 비상장 법인, 유진그룹 소속
 * [유한양행](/shareholders/유한양행) - 이뮨온시아 최대주주(지분 67.22%)이자 국내 대표 제약사, KOSPI 상장기업
+* [유한회사 아리아](/shareholders/유한회사_아리아) - 알멕의 5% 이상 주주(24.72%)인 비상장 유한회사
 * [유홍준](/shareholders/유홍준) - 제이티 창업자·회장 겸 최대주주(개인)
 * [윤건수](/shareholders/윤건수) - DSC인베스트먼트 대표이사, 2012년 설립 이래 재직 중인 창업 경영진
 * [윤나라 (TJ미디어)](/shareholders/윤나라_TJ미디어) - TJ미디어 최대주주 겸 대표이사
@@ -1909,6 +1916,7 @@
 * [한우리나눔재단](/shareholders/한우리나눔재단) - 에너토크 지분 9.98%를 보유한 공익법인(재단법인)
 * [한우진](/shareholders/한우진) - 우림피티에스 특수관계인(최대주주 한현석의 자) 겸 각자대표이사
 * [한울소재과학](/shareholders/한울소재과학) - 한울반도체의 최대주주이며 광전송장비를 제조하는 코스닥 상장사
+* [주식회사 루시](/shareholders/한울소재과학_루시) - 한울소재과학의 최대주주(지분 10.17%), 비상장 법인
 * [한일자산관리앤투자](/shareholders/한일자산관리앤투자) - 유성티엔에스의 최대주주인 비상장 유한회사
 * [한일홀딩스](/shareholders/한일홀딩스) - 한일시멘트그룹 지주회사이자 한일시멘트의 최대주주(59.84%)
 * [한중](/shareholders/한중) - 삼일의 5% 이상 주주 계열회사 (지분 8.66%), 운송·보관업체
