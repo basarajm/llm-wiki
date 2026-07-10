@@ -1180,6 +1180,8 @@
 * [동운아나텍 OIS·AF Driver IC](/segments/동운아나텍_OIS_AF_Driver_IC) - 동운아나텍의 스마트폰 카메라 모터 구동용 OIS·AF Driver IC 사업 부문
 * [동운아나텍 디지털 헬스케어(D-SaLife)](/segments/동운아나텍_디지털_헬스케어) - 동운아나텍의 타액 기반 당(혈당) 진단 시스템 신규사업 부문
 * [동운아나텍 차량용 IC(Haptic·BDC)](/segments/동운아나텍_차량용_IC) - 동운아나텍의 차량용 Haptic Driver IC 및 BDC(Body Domain Controller) 사업 부문
+* [동원금속 강관 부문](/segments/동원금속_강관부문) - 동원금속의 산업용 강관(PIPE) 생산·판매 사업
+* [동원금속 자동차부품 부문](/segments/동원금속_자동차부품부문) - 동원금속의 DOOR FRAME·SEAT FRAME·BATTERY FRAME 등 자동차 프레스·롤포밍 부품 사업
 * [동원산업 물류부문](/segments/동원산업_물류부문) - 동원산업의 냉장보관·종합물류 부문 — 동원로엑스 중심
 * [동원산업 수산부문](/segments/동원산업_수산부문) - 동원산업의 원양어업(참치 등) 사업 부문 — 총 35척 선단 운영
 * [동원산업 식품가공유통부문](/segments/동원산업_식품가공유통부문) - 동원산업의 식품 가공·유통 부문 — 동원F&B·StarKist·동원홈푸드·동원팜스

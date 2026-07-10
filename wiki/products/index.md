@@ -48,6 +48,7 @@
 * [AXVIEW](/products/AXVIEW) - 액스비스의 레이저 가공 검사·품질보증 장비 — 플라즈마 센서 및 OCT 기술 기반 실시간 품질 검증
 * [AXWELD](/products/AXWELD) - 액스비스의 레이저 용접 장비 — 이차전지 셀·모듈, 전기차 모터 부품, 카메라모듈 등 조립 공정용, 2025년 별도매출 비중 62.5%(1위 제품)
 * [BASSO](/products/BASSO) - SG세계물산이 1989년 출시한 남성정장 대표 브랜드 (BASSO·BASSO homme)
+* [BATTERY FRAME](/products/BATTERY_FRAME) - 전기차용 배터리 프레임 — 차량 경량화 신소재를 적용한 구조 부품
 * [BIPS enView](/products/BIPS_enView) - 솔트웨어의 기업용 포털솔루션 브랜드
 * [BIZBOX](/products/BIZBOX) - 더존비즈온의 그룹웨어·업무 플랫폼 브랜드
 * [Black PDL](/products/Black_PDL) - 덕산네오룩스가 세계 최초 개발한 OLED용 차세대 비발광 소재
@@ -108,6 +109,7 @@
 * [DK-Lok Fitting](/products/DK-Lok_Fitting) - 디케이락의 계장용 배관 이음쇠(Tube Fitting) 브랜드
 * [DK-Lok Valve](/products/DK-Lok_Valve) - 디케이락의 계장용 고압 밸브 브랜드
 * [DNT/MNB](/products/DNT_MNB) - 폴리우레탄 중간소재로 사용되는 정밀화학 제품(TKG휴켐스 NT계열)
+* [DOOR FRAME](/products/DOOR_FRAME) - 자동차 도어 프레임 — 롤포밍 공법 기반 자동차 구조 부품
 * [Door Trim](/products/Door_Trim) - 자동차 도어 내장 트림 부품
 * [Dr.INVIVO 장기재생플랫폼](/products/Dr.INVIVO_장기재생플랫폼) - 로킷헬스케어의 AI-바이오프린터-일회성 재생 키트 결합 의료용 장기재생 플랫폼
 * [DRAM](/products/DRAM) - 휘발성 메모리 반도체 — PC·서버·모바일·그래픽스 등에 광범위하게 사용되는 주기억장치
@@ -352,6 +354,7 @@
 * [PHC PILE](/products/PHC_PILE) - 고강도 콘크리트 기초 파일 — 토목·건축 기초자재. 아이에스동서가 국내 최초 자체 개발
 * [PHC파일](/products/PHC파일) - 삼일씨엔에스가 'Hypile' 상표로 생산하는 고강도 콘크리트 파일(PHC PILE)·PC 건축 기초 건자재
 * [Phoretar 난연제](/products/Phoretar_난연제) - 파미셀 바이오케미컬 사업부가 제조하는 친환경 인계(燐系) 난연제 (폴리에스터 섬유용·전자재료용)
+* [PIPE (산업용 강관)](/products/PIPE) - 건설·부품용 산업용 강관
 * [Pitavastatin API](/products/Pitavastatin_API) - 고지혈증·고혈압 등 심혈관계 질환 치료제용 원료의약품
 * [Plasma Guard 222](/products/Plasma_Guard_222) - 나노씨엠에스의 인체에 안전한 원자외선(Far UV-C 222nm) 방역 램프
 * [PLC](/products/PLC) - 산업 공정 제어용 프로그래머블 로직 컨트롤러(PLC)
