@@ -17,3 +17,4 @@ Winterthur Gas & Diesel(WGD, 현 WinGD)는 스위스 소재 대형 선박엔진 
 # Citations
 
 - [금강공업 2025 사업보고서](/sources/금강공업_2025_사업보고서)
+- [케이에스피 2025 사업보고서](/sources/케이에스피_2025_사업보고서)
