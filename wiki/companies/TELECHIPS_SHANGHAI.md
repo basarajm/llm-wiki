@@ -1,0 +1,19 @@
+---
+type: Company
+title: TELECHIPS SHANGHAI CO., LTD
+description: 텔레칩스의 해외 100% 출자 자회사(중국 상하이), 이장규 텔레칩스 대표이사가 대표이사 겸직
+market: Foreign
+is_stub: true
+tags: [기업, 반도체, 계열사, 해외, 중국]
+timestamp: 2026-07-10T00:00:00Z
+---
+
+## 사업 개요
+
+TELECHIPS SHANGHAI CO., LTD는 텔레칩스가 100% 출자한 중국 상하이 소재 해외 자회사다.
+텔레칩스 대표이사 이장규가 대표이사(경영전반)를, 이상곤 부사장이 감사를 겸직한다.
+상세 사업 내용은 별도 확인 필요.
+
+# Citations
+
+- [텔레칩스 2025 사업보고서](/sources/텔레칩스_2025_사업보고서)
