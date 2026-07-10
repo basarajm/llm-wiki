@@ -3,7 +3,7 @@ type: Corporate Group
 title: SK그룹
 description: 최태원 회장을 동일인으로 하는 에너지·반도체·통신 중심 기업집단 — SK(주) 지주 체제
 controlling_person: 최태원
-member_companies: [/companies/SK, /companies/SK스퀘어, /companies/SK하이닉스, /companies/SK실트론, /companies/SK이노베이션, /companies/SK텔레콤, /companies/SK네트웍스, /companies/SKC, /companies/ISC, /companies/SK리츠, /companies/SK시그넷, /companies/SK오션플랜트, /companies/SK에코플랜트, /companies/삼강에스앤씨, /companies/SK아이이테크놀로지, /companies/에스케이바이오팜]
+member_companies: [/companies/SK, /companies/SK스퀘어, /companies/SK하이닉스, /companies/SK실트론, /companies/SK이노베이션, /companies/SK텔레콤, /companies/SK네트웍스, /companies/SKC, /companies/ISC, /companies/SK리츠, /companies/SK시그넷, /companies/SK오션플랜트, /companies/SK에코플랜트, /companies/삼강에스앤씨, /companies/SK아이이테크놀로지, /companies/에스케이바이오팜, /companies/인크로스, /companies/마인드노크]
 tags: [기업집단, SK]
 timestamp: 2026-06-27T00:00:00Z
 ---
@@ -34,6 +34,8 @@ SK그룹은 동일인 **최태원** 회장이 이끄는 에너지·반도체·�
 | [SK에코플랜트](/companies/SK에코플랜트) | 건설·환경·반도체 인프라, SK오션플랜트 최대주주(35.62%) (비상장) | 비핵심 |
 | [SK아이이테크놀로지](/companies/SK아이이테크놀로지) | 이차전지 소재(분리막, LiBS), SK이노베이션 53.35% 최대주주 (KOSPI 361610) | 비핵심 |
 | [에스케이바이오팜](/companies/에스케이바이오팜) | 신약개발(뇌전증 치료제 세노바메이트), SK(주) 64.0% 최대주주 (KOSPI 326030) | 비핵심 |
+| [인크로스](/companies/인크로스) | 디지털 광고 매체 대행·커머스 운영 대행, SK네트웍스 최대주주(2026.01 편입) (KOSDAQ) | 비핵심 |
+| [마인드노크](/companies/마인드노크) | 검색광고 대행·디지털 마케팅 솔루션, 인크로스 100% 자회사 (비상장) | 비핵심 |
 
 ## 지배구조
 
