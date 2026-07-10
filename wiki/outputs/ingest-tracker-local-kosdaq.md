@@ -1,15 +1,15 @@
 # 로컬 아카이브(AnnualReport_MD) 인제스트 트래커 (KOSDAQ)
 
 - 아카이브 회사 수: **1703건** (source_documents/AnnualReport_MD/, 각 머신에 로컬 배치 필요·git 미포함)
-- 완료(done, Full): **1434건**
-- 대기(pending): **269건** (이 중 stub→Full 승급 대상 42건)
+- 완료(done, Full): **1445건**
+- 대기(pending): **258건** (이 중 stub→Full 승급 대상 39건)
 
 > done 기준: wiki/companies/<회사>.md 가 존재하고 is_stub:false.
 > market 판정: 위키 frontmatter 우선, 없으면 원본 MD의 '상장 유형' 표(유가증권시장/코스닥시장 상장)에서 추출.
 > 이 파일은 `python dart_pipeline/local_archive_status.py [--market KOSPI|KOSDAQ]` 로 재생성됩니다.
 > 다음 N개사 산출: `python dart_pipeline/local_archive_status.py [--market KOSPI|KOSDAQ] --next N`
 
-## ⏳ 대기 (상위 50건, 전체 269건)
+## ⏳ 대기 (상위 50건, 전체 258건)
 
 - APS이노베이션 (`KOSDAQ`) — `source_documents/AnnualReport_MD/APS이노베이션-사업보고서-2024.12.md`
 - CS (`KOSDAQ`) — `source_documents/AnnualReport_MD/CS-사업보고서-2025.12.md`
@@ -51,7 +51,6 @@
 - 디비금융제13호스팩 (`KOSDAQ`) — `source_documents/AnnualReport_MD/디비금융제13호스팩-사업보고서-2025.12.md`
 - 디비금융제14호스팩 (`KOSDAQ`) — `source_documents/AnnualReport_MD/디비금융제14호스팩-사업보고서-2025.12.md`
 - 디에스엠 (`KOSDAQ`) — `source_documents/AnnualReport_MD/디에스엠-사업보고서-2025.12.md`
-- 디오 (`KOSDAQ`) — `source_documents/AnnualReport_MD/디오-사업보고서-2025.12.md`
 - 디와이피엔에프 (`KOSDAQ`) — `source_documents/AnnualReport_MD/디와이피엔에프-사업보고서-2025.12.md`
 - 디지털대성 (`KOSDAQ`) — `source_documents/AnnualReport_MD/디지털대성-사업보고서-2025.12.md`
 - 디지틀조선 (`KOSDAQ`) — `source_documents/AnnualReport_MD/디지틀조선-사업보고서-2025.12.md`
@@ -61,3 +60,4 @@
 - 메디포스트 (`KOSDAQ`) — `source_documents/AnnualReport_MD/메디포스트-사업보고서-2025.12.md`
 - 메리츠제1호스팩 (`KOSDAQ`) — `source_documents/AnnualReport_MD/메리츠제1호스팩-사업보고서-2025.12.md`
 - 메타바이오메드 (`KOSDAQ`) — `source_documents/AnnualReport_MD/메타바이오메드-사업보고서-2024.12.md`
+- 모다이노칩 (`KOSDAQ`) — `source_documents/AnnualReport_MD/모다이노칩-사업보고서-2025.12.md`
