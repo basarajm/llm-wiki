@@ -1,23 +1,23 @@
 ---
 type: Company
 title: HL만도
-description: 자동차 제동·조향·서스펜션 모듈 전문 부품사, 상신브레이크의 SUB-ASSEMBLY 판매처 (KOSPI 204320)
+description: "→ /companies/에이치엘만도 (동일 기업, 정식 페이지로 통합됨)"
 ticker: "204320"
 market: KOSPI
 market_page: /markets/KOSPI
 industry: 자동차부품
 is_stub: true
-tags: [기업, 자동차부품, KOSPI]
-timestamp: 2026-07-03T00:00:00Z
+tags: [기업, 자동차부품, KOSPI, redirect]
+timestamp: 2026-07-04T00:00:00Z
 source_count: 0
 ---
 
-## 사업 개요
+# HL만도
 
-HL만도는 자동차 제동장치(브레이크)·조향장치·서스펜션 모듈을 생산하는 국내 대표 자동차부품
-제조사다. [상신브레이크](/companies/상신브레이크)의 사업보고서에서 OE(SUB-ASSEMBLY 업체)
-판매처로 언급된다(승용차용 브레이크 조립단품 공급).
+이 페이지는 [에이치엘만도](/companies/에이치엘만도)의 별칭 표기입니다. 상세 정보(사업 개요·재무·주주·경영진 등)는 [에이치엘만도](/companies/에이치엘만도) 페이지를 참조하십시오.
+
+[상신브레이크](/companies/상신브레이크)의 SUB-ASSEMBLY 판매처 언급 등 이 페이지를 참조하는 기존 링크는 [에이치엘만도](/companies/에이치엘만도)와 동일 대상입니다.
 
 # Citations
 
-- [상신브레이크 2025 사업보고서](/sources/상신브레이크_2025_사업보고서)
+- [에이치엘만도](/companies/에이치엘만도)
