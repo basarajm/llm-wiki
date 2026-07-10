@@ -99,6 +99,7 @@
 * [NORGES BANK](/shareholders/NORGES_BANK) - 노르웨이 중앙은행(노르웨이 국부펀드 운용기관), 리메드 등 다수 한국 상장기업 지분 보유
 * [OCI홀딩스](/shareholders/OCI홀딩스) - OCI그룹 지주회사 — OCI㈜의 최대주주 (지분 46.51%)
 * [Orbis Investment Management Limited](/shareholders/Orbis_Investment_Management) - 다우기술 지분 9.84%를 보유한 외국계 자산운용사
+* [Parataxis Korea Fund Ⅳ LLC](/shareholders/Parataxis_Korea_Fund_IV_LLC) - 파라택시스이더리움(舊 신시웨이) 現 최대주주 — 2026.1.6 지분 인수로 최대주주 변경
 * [Restar Corporation](/shareholders/Restar_Corporation) - 씨유테크의 최대주주인 일본 소재 법인(지분 69.4%)
 * [RFHIC](/shareholders/RFHIC) - RF시스템즈의 최상위지배주주이자 반도체 기반 Microwave Generator 등을 생산하는 코스닥 상장기업
 * [RF머트리얼즈](/shareholders/RF머트리얼즈) - RF시스템즈의 최대주주이자 광통신·RF 트랜지스터 패키지 제조업체(코스닥 상장)
@@ -1288,6 +1289,7 @@
 * [정종평](/shareholders/정종평) - 나이벡 대표이사이자 설립 이후 변동 없는 최대주주(15.18%)
 * [정지성](/shareholders/정지성) - 에스오에스랩 창업자 및 대표이사, 최대주주(19.23%)
 * [정한](/shareholders/정한) - 아이쓰리시스템 대표이사이자 최대주주 (지분 33.80%)
+* [정한식](/shareholders/정한식) - 케이씨피드 최대주주 겸 대표이사
 * [정해운](/shareholders/정해운) - 닷밀 창업자 겸 대표이사, 닷밀 최대주주(개인)
 * [정혜승](/shareholders/정혜승) - 인지컨트롤스 대표이사이자 2026년 3월 최대주주로 변경된 개인 주주
 * [정흥식](/shareholders/정흥식) - 씨에스 대표이사 회장이자 최대주주
@@ -1306,6 +1308,7 @@
 * [제이케이인](/shareholders/제이케이인) - 원일티엔아이의 최대주주인 비상장 투자법인
 * [제이투비](/shareholders/제이투비) - FSN의 최대주주(보유지분 양도담보 제공으로 명목 지분율 0%)
 * [조광식](/shareholders/조광식) - 피앤씨테크(주) 대표이사 겸 최대주주, 광명전기 특수관계인 주주
+* [조규곤](/shareholders/조규곤) - 파수 창업자·대표이사이자 최대주주(개인)
 * [조남욱](/shareholders/조남욱) - 동양에스텍 대표이사이자 최대주주(개인)
 * [조덕수](/shareholders/조덕수) - RFHIC 대표이사이자 최대주주(15.41%)
 * [조동훈](/shareholders/조동훈) - 하나제약 최대주주 겸 부사장(사내이사)
@@ -1523,6 +1526,8 @@
 * [패션그룹형지](/shareholders/패션그룹형지) - 형지엘리트의 최대주주이자 패션그룹형지 기업집단의 지주회사(비상장)
 * [패스트트랙아시아](/shareholders/패스트트랙아시아) - 데이원컴퍼니 계열회사 주주, 패스트파이브의 최대주주
 * [패스트파이브](/shareholders/패스트파이브) - 데이원컴퍼니의 최대주주, 공유오피스 운영사
+* [패스파인더 스타트업투자조합](/shareholders/패스파인더_스타트업투자조합) - 피앤에스로보틱스 지분을 보유한 벤처투자조합
+* [패스파인더 청년창업투자조합](/shareholders/패스파인더_청년창업투자조합) - 피앤에스로보틱스 지분을 보유한 벤처투자조합
 * [팩토링플러스투자조합](/shareholders/팩토링플러스투자조합) - 엑스플러스 지분 8.3%를 보유한 투자조합
 * [퍼시스지주](/shareholders/퍼시스지주) - 퍼시스의 최대주주, 퍼시스홀딩스의 인적분할로 2025년 신설된 지주회사
 * [퍼시픽산업](/shareholders/퍼시픽산업) - 아센디오(舊 키위미디어그룹)의 2020~2023년 최대주주였던 법인 주주
