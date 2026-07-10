@@ -1,15 +1,15 @@
 # 로컬 아카이브(AnnualReport_MD) 인제스트 트래커 (KOSDAQ)
 
 - 아카이브 회사 수: **1703건** (source_documents/AnnualReport_MD/, 각 머신에 로컬 배치 필요·git 미포함)
-- 완료(done, Full): **1384건**
-- 대기(pending): **319건** (이 중 stub→Full 승급 대상 57건)
+- 완료(done, Full): **1387건**
+- 대기(pending): **316건** (이 중 stub→Full 승급 대상 55건)
 
 > done 기준: wiki/companies/<회사>.md 가 존재하고 is_stub:false.
 > market 판정: 위키 frontmatter 우선, 없으면 원본 MD의 '상장 유형' 표(유가증권시장/코스닥시장 상장)에서 추출.
 > 이 파일은 `python dart_pipeline/local_archive_status.py [--market KOSPI|KOSDAQ]` 로 재생성됩니다.
 > 다음 N개사 산출: `python dart_pipeline/local_archive_status.py [--market KOSPI|KOSDAQ] --next N`
 
-## ⏳ 대기 (상위 50건, 전체 319건)
+## ⏳ 대기 (상위 50건, 전체 316건)
 
 - APS이노베이션 (`KOSDAQ`) — `source_documents/AnnualReport_MD/APS이노베이션-사업보고서-2024.12.md`
 - CS (`KOSDAQ`) — `source_documents/AnnualReport_MD/CS-사업보고서-2025.12.md`
@@ -43,7 +43,6 @@
 - 넥슨게임즈 (`KOSDAQ`) — `source_documents/AnnualReport_MD/넥슨게임즈-사업보고서-2025.12.md`
 - 뉴트리 (`KOSDAQ`) — `source_documents/AnnualReport_MD/뉴트리-사업보고서-2025.12.md`
 - 다산네트웍스 (`KOSDAQ`) — `source_documents/AnnualReport_MD/다산네트웍스-사업보고서-2025.12.md`
-- 다우데이타 (`KOSDAQ`) — `source_documents/AnnualReport_MD/다우데이타-사업보고서-2025.12.md`
 - 다이나믹솔루션 (`KOSDAQ`) — `source_documents/AnnualReport_MD/다이나믹솔루션-사업보고서-2025.12.md`
 - 대성창투 (`KOSDAQ`) — `source_documents/AnnualReport_MD/대성창투-사업보고서-2025.12.md`
 - 대신밸런스제17호스팩 (`KOSDAQ`) — `source_documents/AnnualReport_MD/대신밸런스제17호스팩-사업보고서-2025.12.md`
@@ -61,3 +60,4 @@
 - 라온로보틱스 (`KOSDAQ`) — `source_documents/AnnualReport_MD/라온로보틱스-사업보고서-2024.12.md`
 - 레이 (`KOSDAQ`) — `source_documents/AnnualReport_MD/레이-사업보고서-2025.12.md`
 - 리가켐바이오 (`KOSDAQ`) — `source_documents/AnnualReport_MD/리가켐바이오-사업보고서-2025.12.md`
+- 메가스터디 (`KOSDAQ`) — `source_documents/AnnualReport_MD/메가스터디-사업보고서-2025.12.md`
