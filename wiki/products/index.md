@@ -28,6 +28,7 @@
 * [ADIDAS 신발 ODM](/products/ADIDAS_신발_ODM) - 화승인더스트리 ODM부문이 베트남·인도네시아·중국 생산법인에서 ADIDAS 신발을 ODM 방식으로 생산하는 핵심 제품(연결 매출비중 91.7%, 아디다스 운동화 ODM M/S 2위)
 * [AEGIS-II](/products/AEGIS-II) - 넥스틴의 반도체 웨이퍼 패턴 결함 광학 검사장비(Dark-field/Bright-field 복합)
 * [AF·OIS Driver IC](/products/AF_OIS_Driver_IC) - 스마트폰 카메라 모터 구동용 자동초점(AF)·광학식 손떨림 보정(OIS) 구동 IC
+* [AFIAS 진단기기 시리즈](/products/AFIAS_진단기기_시리즈) - 바디텍메드의 고처리량 현장진단(POCT) 면역진단 플랫폼 기기 시리즈
 * [AGE20's](/products/AGE20's) - 애경산업의 에센스파운데이션 대표 화장품 브랜드
 * [AgensGraph](/products/AgensGraph) - SKAI(舊 비트나인)의 그래프 데이터베이스 제품
 * [AgensSQL](/products/AgensSQL) - SKAI(舊 비트나인)의 관계형 데이터베이스 제품
@@ -95,6 +96,7 @@
 * [BrainStim](/products/BrainStim) - 리메드가 개발한 우울증 치료용 경두개자기자극(TMS) 의료기기
 * [Brake Lining](/products/Brake_Lining) - 드럼 브레이크 및 주차 브레이크용 마찰재 부품
 * [Brake Pad](/products/Brake_Pad) - 자동차 앞·뒤 바퀴 디스크 브레이크용 마찰재 부품
+* [BRCAaccuTest](/products/BRCAaccuTest) - 엔젠바이오의 NGS 기반 BRCA1/2 유전자 변이 진단 패널(체외진단 의료기기)
 * [Brity Works](/products/Brity_Works) - 삼성SDS의 클라우드 기반 기업용 협업 SaaS 솔루션군
 * [BUCKAROO](/products/BUCKAROO) - 한세엠케이의 정통 데님 진 캐주얼 브랜드
 * [Burn-In Board](/products/Burn-In_Board) - 번인 테스터에 장착되어 디바이스를 고온 챔버에서 초기 불량 선별하는 검사용 기판(BIB) — 디아이가 국내 시장점유율 약 38%(2025)로 선두권
@@ -303,6 +305,7 @@
 * [HumiChip](/products/HumiChip) - 삼영에스앤씨의 세계 최초 SIP형 칩형 온습도센서, 자동차규격 AEC-Q100 충족
 * [HVDC변환설비](/products/HVDC변환설비) - 초고압직류송전(HVDC)용 교류-직류 변환설비
 * [IC TEST SOCKET](/products/IC_TEST_SOCKET) - 리노공업의 반도체 테스트 패키지용 소모성 소켓 제품
+* [ichroma 진단기기 시리즈](/products/ichroma_진단기기_시리즈) - 바디텍메드의 현장진단(POCT) 면역진단 플랫폼 기기 시리즈
 * [ICTK 보안칩(G5N/G3(K)/STR)](/products/ICTK_보안칩) - 아이씨티케이의 PUF·PQC 기반 보안 SoC 제품군
 * [IC-Tray](/products/IC-Tray) - 반도체 소자를 외부 충격·정전기 등으로부터 보호하는 반도체 Packing용 트레이 제품
 * [IC소켓 (반도체 검사용 소켓)](/products/IC소켓) - 반도체 및 통신기기 접촉부품으로 사용되는 IC소켓(번인·모듈·테스트 소켓)
@@ -460,6 +463,7 @@
 * [NE능률 튜터](/products/NE능률_튜터) - NE능률의 대표 중고등 영어교재 시리즈, 누적 1,800만 부 이상 판매
 * [NFC Reader IC](/products/NFC_Reader_IC) - 쓰리에이로직스의 ESL·정품인증·물류관리용 NFC 리더 칩 제품군
 * [NFC Tag IC](/products/NFC_Tag_IC) - 쓰리에이로직스의 디지털도어락·차량용 NFC 태그 칩 제품군
+* [NGeneAnalySys](/products/NGeneAnalySys) - 엔젠바이오의 NGS 데이터 분석 소프트웨어, 정밀진단 패널과 패키지로 판매되는 유전체 빅데이터 분석 솔루션
 * [n-Hexane](/products/n-Hexane) - 대정화금이 생산하는 무색 투명액체 용매, 2025년 매출 비중 3.40%
 * [NH올원리츠 수익증권](/products/NH올원리츠_수익증권) - NH올원리츠가 발행한 상장 보통주(리츠 주식) 및 배당 상품
 * [NICE BizLINE](/products/NICE_BizLINE) - NICE평가정보의 온라인 기업정보 제공 서비스(구 KISLINE)
@@ -489,6 +493,7 @@
 * [OLED소재](/products/OLED소재) - OLED 디스플레이 패널용 유기발광재료 및 기능성 신소재
 * [OLED패널](/products/OLED패널) - 자발광 디스플레이 패널 — 스마트폰·TV·IT 기기용 유기발광다이오드 패널
 * [Oligio](/products/Oligio) - 원텍의 고주파(RF) 기반 피부미용 에너지기반 의료기기
+* [ONCOaccuPanel](/products/ONCOaccuPanel) - 엔젠바이오의 NGS 기반 암 진단 패널(체외진단 의료기기, CE-IVD 인증)
 * [OPGW](/products/OPGW) - 광복합가공지선 — 송전선로 가공지선에 광섬유를 내장한 전력·통신 복합 케이블
 * [OPTRA Black-box](/products/OPTRA_Black-box) - 자동화설비 고장 검증·분석 및 예지보전용 산업용 AI 솔루션
 * [OPTRA Tracker](/products/OPTRA_Tracker) - 설비공정 실시간 모니터링 및 이상 원인 자동추적 솔루션
@@ -1180,6 +1185,7 @@
 * [복싱스타](/products/복싱스타) - 썸에이지가 서비스하는 모바일 스포츠 액션(복싱) 게임
 * [복합 신뢰성 환경시험 장비](/products/복합_신뢰성_환경시험_장비) - 디스플레이·반도체·2차전지 등 부품·완제품의 온도·습도 등 환경 신뢰성을 검증하는 시험 장비
 * [복합비료](/products/복합비료) - 남해화학의 핵심 매출 제품인 농업용 복합비료(전답·밭작물용)
+* [본딩와이어](/products/본딩와이어) - 반도체 패키징 공정용 본딩와이어(Bonding Wire) — 엠케이전자 주력 제품
 * [본셉 (BONCEPT)](/products/본셉) - 토니모리가 다이소 채널 전용으로 런칭한 화장품 브랜드
 * [본키](/products/본키) - 유유제약의 골다공증 치료제 브랜드 — 주사제(본키주) 기반 전문의약품
 * [볼빅](/products/볼빅) - 이노진의 남성형·여성형 탈모 및 두피 케어 화장품 브랜드
