@@ -1,0 +1,17 @@
+---
+type: Company
+title: TKG애강
+description: PB파이프 등 배관재 시장에서 프럼파스트와 경쟁하는 국내 기업
+is_stub: true
+tags: [기업, 배관재, 경쟁사]
+timestamp: 2026-07-10T00:00:00Z
+source_count: 1
+---
+
+## 사업 개요
+
+국내 배관재(PB파이프) 제조업체로, [프럼파스트](/companies/프럼파스트)와 함께 국내 PB파이프 시장의 주요 경쟁사로 언급됨.
+
+# Citations
+
+- [프럼파스트 2025 사업보고서](/sources/프럼파스트_2025_사업보고서)

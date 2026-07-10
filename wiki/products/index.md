@@ -132,7 +132,9 @@
 * [ECH](/products/ECH) - 롯데정밀화학 케미칼사업부문의 에피클로로히드린(ECH). 에폭시 수지·방수/방청 페인트 주원료, 국내시장 점유율 38%(2025, 회사 추정)
 * [ECM 반도체](/products/ECM_반도체) - 음성신호를 전기신호로 변환하는 마이크로폰용 반도체 칩(Electret Capacitor Microphone)
 * [E-Crystal 파티션](/products/E-Crystal_파티션) - 엑사이엔씨가 생산하는 첨단산업설비 및 인텔리전트빌딩용 Steel Partition 제품군
+* [Edge AI IP카메라](/products/Edge_AI_IP카메라) - 트루엔이 제조·판매하는 엣지컴퓨팅 기반 지능형 IP카메라 제품군
 * [Edge Grinder](/products/Edge_Grinder) - 미래컴퍼니의 디스플레이 패널 엣지 정밀 연삭 가공 장비
+* [EGLOO 스마트홈 IoT](/products/EGLOO_스마트홈_IoT) - 트루엔의 스마트홈 카메라·플러그 등 IoT 기기 및 구독형 클라우드 서비스 브랜드
 * [EG-MCV4(4가 수막구균 접합백신)](/products/EG-MCV4) - 아이진이 유바이오로직스로부터 기술도입하여 개발 중인 4가 수막구균 접합백신
 * [EG-rBTX100(재조합 보툴리눔 톡신)](/products/EG-rBTX100) - 아이진이 엠브릭스로부터 기술도입한 차세대 유전자재조합 뉴로톡신(보툴리눔 톡신)
 * [EHD 잉크젯 프린터](/products/EHD_잉크젯_프린터) - 정전기력 기반 초미세 패턴 인쇄·코팅용 EHD 잉크젯 프린터 및 코터
@@ -354,6 +356,7 @@
 * [OLED TV](/products/OLED_TV) - 자발광 OLED 패널 기반 프리미엄 TV — LG전자 알파 프로세서·webOS 탑재
 * [OLED 발광 보조층 소재](/products/OLED_발광_보조층_소재) - 정공 수송층과 발광층 사이에서 발광 효율을 높이는 OLED 유기재료
 * [OLED 소재](/products/OLED_소재) - OLED 발광 소자용 정공수송층(HTL)·CPL 등 유기전자 특허재료
+* [OLED 유기화합물 소재](/products/OLED_유기화합물_소재) - OLED 디스플레이 발광층·공통층에 사용되는 유기화합물 소재
 * [OLED 증착시스템](/products/OLED_증착시스템) - OLED TV·조명용 대형 패널 생산에 쓰이는 증착기·증착원·부대장비 통합 시스템
 * [OLED 증착원](/products/OLED_증착원) - OLED 제조공정에서 유기물·무기물·금속을 증발시키는 증착 핵심 장치(증발원)
 * [OLED소재](/products/OLED소재) - OLED 디스플레이 패널용 유기발광재료 및 기능성 신소재
@@ -366,9 +369,12 @@
 * [OSP(광선로 모듈)](/products/OSP_광선로모듈) - 광통신 네트워크용 광파장·파워 자동측정 계측기(OSP, 광선로 모듈)
 * [PAIL 용기](/products/PAIL용기) - 한국석유공업이 외주 생산하는 합성수지 PAIL 용기(PAIL Containers) — 2025년 국내 점유율 15.0%
 * [Papiliximab](/products/Papiliximab) - 샤페론의 나노맙 이중항체 플랫폼 기반 PD-L1×CD47 표적 항암제 파이프라인(AML 대상)
+* [PassGuard](/products/PassGuard) - 한싹의 패스워드 관리·시스템 접근제어 솔루션 브랜드
 * [PATHPLORER](/products/PATHPLORER) - 바이오다인의 액상세포검사(LBC) 자동화 진단장비 및 연계 시약키트 브랜드
 * [PAYCO](/products/PAYCO) - NHN이 운영하는 간편결제 및 핀테크 플랫폼
 * [PBA 모듈](/products/PBA_모듈) - 스마트폰·웨어러블기기 등 IT기기에 탑재되는 통합 인쇄회로기판(PBA) 조립 모듈
+* [PB파이프](/products/PB파이프) - 폴리뷰틸렌(PB) 소재의 급수급탕·난방용 배관재
+* [PCB(인쇄회로기판, 현우산업)](/products/PCB) - 현우산업이 생산하는 자동차 전장·디스플레이 모듈용 양면·다층 인쇄회로기판
 * [PC-PMMA 시트필름](/products/PC-PMMA_시트필름) - 폴리카보네이트·아크릴 소재 시트 및 필름 제품군(방음벽·건축자재·보안용 등)
 * [PCX](/products/PCX) - 바이오에프디엔씨의 식물세포(Plant Cell Complex) 기반 화장품 원료 완제품
 * [PECAP(신재생에너지용 커패시터)](/products/PECAP_신재생에너지용_커패시터) - 뉴인텍의 태양광·풍력·친환경자동차용 DC Link 커패시터
@@ -409,6 +415,7 @@
 * [Pyrogel](/products/Pyrogel) - 미국 Aspen Aerogels가 개발하고 KBG 종속회사 에어로젤코리아가 국내 독점 유통하는 고온용 실리카 에어로젤 단열재
 * [QD9/QD9+ 합성쿼츠 부품](/products/QD9_합성쿼츠부품) - 비씨엔씨가 자체 국산화한 합성쿼츠(Synthetic Quartz) 소재 기반 반도체 식각·증착 공정용 부품 브랜드
 * [QRP](/products/QRP) - 모비스의 All-in-One MES(제조실행시스템) 스마트팩토리 솔루션
+* [QSI Laser Diode](/products/QSI_Laser_Diode) - 큐에스아이가 제조·판매하는 반도체 레이저 다이오드(LD) 제품군
 * [QT FILL](/products/QT_FILL) - 에스테팜(에스바이오메딕스 종속회사)의 HA(히알루론산)필러 브랜드
 * [QTP101](/products/QTP101) - 큐라티스가 개발 중인 성인·청소년·장노년용 결핵 예방 백신
 * [QuantumPACK™](/products/QuantumPACK) - 종속회사 바이오스퀘어의 퀀텀닷 기반 형광 면역진단 카트리지 시리즈
@@ -436,6 +443,7 @@
 * [Samsung TV](/products/Samsung_TV) - 삼성전자 영상디스플레이 사업의 TV 완제품 — Neo QLED·OLED·The Frame 등, 글로벌 금액 기준 점유율 1위
 * [Sarpogrelate API](/products/Sarpogrelate_API) - 항혈소판제(순환계통 질환)용 원료의약품
 * [SbW(Steer-by-Wire)](/products/SbW(Steer-by-Wire)) - 에이치엘만도의 전동 조향 시스템 — 기계적 연결 없이 전자 신호로 조향하는 차세대 조향 시스템, 세계 최초 양산
+* [SecureGate](/products/SecureGate) - 한싹의 망간자료전송(망연계) 보안 솔루션 브랜드
 * [SECUVE TOS](/products/SECUVE_TOS) - 시큐브의 보안운영체제(Secure OS) 솔루션, 국내 최초 상용화 제품
 * [SELAC(ABS 컴파운드)](/products/SELAC) - 세우글로벌이 컴파운딩 생산하는 ABS 수지 브랜드
 * [Semi Gel](/products/Semi_Gel) - 셀바이오휴먼텍의 젤 형태 고흡수성 라이오셀 소재 마스크팩 시트 브랜드
@@ -448,6 +456,7 @@
 * [SG글로벌 자동차시트커버](/products/SG글로벌_자동차시트커버) - SG글로벌의 자동차시트커버(Seat Trim Cover) — 전사 매출의 62.8%를 차지하는 제1 주력 제품
 * [Shell 그리스](/products/Shell_그리스) - 한국쉘석유가 부산 용당 제유소에서 제조하는 Shell 브랜드 그리스 — 2025년 매출의 약 4.7%
 * [Shell 윤활유](/products/Shell_윤활유) - 한국쉘석유가 부산 용당 제유소에서 제조하는 Shell 브랜드 윤활유 — 2025년 매출의 약 80%
+* [SiC Wafer·Ring](/products/SiC_Wafer_Ring) - 반도체 공정 장비용 Solid SiC Wafer 및 Ring 부품
 * [Siemens PLM 소프트웨어(NX·Solid Edge·TeamCenter)](/products/Siemens_PLM_소프트웨어) - 세중이 국내 총판을 담당하는 Siemens의 제품수명관리(PLM) 소프트웨어 제품군
 * [Silicon Parts (씨엠티엑스)](/products/Silicon_Parts_씨엠티엑스) - 씨엠티엑스가 제조하는 반도체 식각장비용 실리콘 소모성 부품
 * [SK매직](/products/SK매직) - SK네트웍스(SK인텔릭스)의 환경가전 제조·렌탈 대표 브랜드 — 정수기·공기청정기·식기세척기 등
@@ -521,6 +530,7 @@
 * [XARVIS(자비스)](/products/XARVIS) - 에스투더블유의 국가안보·범죄수사 빅데이터 분석 플랫폼
 * [X-CLARITY 조직투명화시스템](/products/X-CLARITY_조직투명화시스템) - 얼라인드제네틱스가 세계 최초로 상용화한 생체조직 투명화 및 이미징 시스템
 * [XComPro·XGemPro](/products/XComPro_XGemPro) - 링크제니시스의 SECS/GEM 통신 드라이버 소프트웨어
+* [XGSPON칩](/products/XGSPON칩) - 자람테크놀로지가 설계한 상하향 10Gbps 대칭 PON 통신반도체 및 이를 광트랜시버와 결합한 XGSPON SFP+ ONU
 * [Xi옵션](/products/Xi옵션) - 자이에스앤디가 아파트 입주자에게 판매·설치하는 시스템에어컨 등 빌트인가전 옵션 상품
 * [X-MAZE](/products/X-MAZE) - 에이럭스의 근거리 정찰 방산 드론, KOLAS·KCMVP 인증 보유
 * [XoMotion](/products/XoMotion) - 베노티앤알(관계기업 Human in Motion Robotics)이 개발한 재활치료용 외골격 웨어러블 로봇
@@ -560,6 +570,7 @@
 * [고다층 PCB](/products/고다층_PCB) - 이수페타시스의 주력 제품 — AI 가속기·하이퍼스케일 서버·800G 스위치용 초고다층 PCB(MLB, Multi Layer Board)
 * [고무배합유](/products/고무배합유) - 타이어·고무제품 원료로 쓰이는 고무배합유(Process Oil)
 * [고밀도폴리에틸렌(HDPE)](/products/고밀도폴리에틸렌(HDPE)) - 대한유화 울산공장에서 생산하는 합성수지(폴리머)로, 2차전지 분리막(LiBS)·필름·파이프·용기 등에 사용되는 대표 폴리에틸렌 제품
+* [고순도 흑연부품](/products/고순도_흑연부품) - 반도체·태양광 잉곳 성장 장비용 고순도 흑연(Graphite) 부품
 * [고압 수소 어닐링(HPA) 장비](/products/고압_수소_어닐링_장비) - 반도체 전공정 중 수소 어닐링 단계에 사용되는 고압 수소 어닐링 장비
 * [고압연소식기화기 (SCV)](/products/고압연소식기화기_SCV) - LNG를 천연가스(NG)로 기화시키는 원일티엔아이의 주력 천연가스 설비
 * [고압차단기](/products/고압차단기) - 50kV 이상 송전 계통의 사고전류를 차단하는 고압차단기(GIS 등)
@@ -576,6 +587,7 @@
 * [광접속함체](/products/광접속함체) - 빛샘전자 광통신사업부의 광케이블 접속·보호용 함체 제품
 * [광주신세계백화점](/products/광주신세계백화점) - 광주신세계가 운영하는 광주·호남지역 백화점 매장 및 상품·서비스
 * [광케이블](/products/광케이블) - 통신용 광섬유를 다발로 집속·피복한 광통신 전송 케이블 완제품
+* [광트랜시버](/products/광트랜시버) - 광케이블과 통신장비 사이 전기·광신호를 변환하는 부품으로, 자람테크놀로지가 1G~100G급 제품군을 공급
 * [광학 압출필름](/products/광학_압출필름) - 도광판·PC/PMMA Film 등 광학용 압출 필름
 * [광학보호필름](/products/광학보호필름) - 디스플레이·전자기기 표면 보호용 정밀코팅 광학필름
 * [교촌치킨](/products/교촌치킨) - 교촌에프앤비의 대표 치킨 프랜차이즈 브랜드 및 메뉴 시리즈
@@ -597,6 +609,7 @@
 * [금융자동화기기](/products/금융자동화기기) - ㈜효성 연결 종속회사 효성티앤에스·Nautilus Hyosung America가 제조·판매하는 ATM/CD 등 금융자동화기기, 2025년 효성 연결 최대 사업부문(60.3%)
 * [금호전기 LED조명](/products/금호전기_LED조명) - 금호전기의 '번개표' LED조명 제품군 — 2025년 연결 매출의 약 79%를 차지하는 주력 제품
 * [금호타이어 승용차용 타이어](/products/금호타이어_승용차용_타이어) - 금호타이어의 승용차·SUV용 타이어 제품군 (Kumho, Marshal 브랜드)
+* [기가와이어](/products/기가와이어) - 건물 내 전화선·동축케이블을 활용해 초고속 인터넷을 제공하는 자람테크놀로지의 ITU-T G.hn 기반 통신 솔루션
 * [기능성 아웃도어 의류 OEM](/products/기능성아웃도어의류OEM) - 스포츠웨어 및 고기능성 아웃도어 의류의 주문자상표부착생산(OEM) 제품
 * [기아 EV 라인업](/products/기아_EV_라인업) - 기아의 전용 전기차 풀라인업(EV3·EV4·EV5·EV6·EV9) — 국내 EV 시장점유율 1위
 * [기업 메시징 서비스](/products/기업_메시징_서비스) - 기업 고객 대상 대량 문자·모바일 메시지 발송 및 TMS(Target Marketing Service)
@@ -630,6 +643,7 @@
 * [노점계](/products/노점계) - 삼영에스앤씨의 Chilled Mirror 기반 초정밀 습도측정기기(Dry-Trak®)
 * [놀텍](/products/놀텍) - 일양약품이 개발한 국산 14호 신약 항궤양제(일라프라졸), 2025년 복합제 놀텍플러스정 발매
 * [눈높이](/products/눈높이) - 대교의 대표 학습지 브랜드(국어·수학·영어)
+* [뉴뜨레](/products/뉴뜨레) - 우양의 자체 브랜드 HMR·과일 소재 제품 라인
 * [뉴로셉트정](/products/뉴로셉트정) - 고려제약의 중추신경계(CNS) 질환 치료제 대표 브랜드
 * [뉴마코](/products/뉴마코) - 유유제약의 오메가-3 계열 고지혈증(고트리글리세라이드혈증) 치료제 — 연질캅셀 전문의약품, 의약품 부문 최대 매출 제형군
 * [뉴클레오시드](/products/뉴클레오시드) - 파미셀 바이오케미컬 사업부가 제조하는 유전자치료제·분자진단용 핵산 원료의약품(뉴클레오시드)
@@ -988,6 +1002,7 @@
 * [순번발행기](/products/순번발행기) - 은행·공공기관 창구용 지능형 순번대기시스템 발행 단말기
 * [순수한면](/products/순수한면) - 깨끗한나라 HL사업부의 대표 생리대 브랜드 — 2025년 국내 생리대 점유율 12.9%
 * [순환골재](/products/순환골재) - 건설폐기물을 재활용해 생산하는 도로공사·콘크리트용 골재
+* [쉐프스토리](/products/쉐프스토리) - 우양의 자체 브랜드 제품 라인(B2C 판매 확대용)
 * [슈펙트](/products/슈펙트) - 일양약품이 개발한 국산 18호 신약 만성골수성백혈병(CML) 치료제(라도티닙)
 * [스노우피크 어패럴](/products/스노우피크_어패럴) - 감성코퍼레이션이 전개하는 아웃도어 라이프스타일 의류 브랜드
 * [스마트55](/products/스마트55) - 우성(주)/우성사료의 가축용 배합사료 대표 브랜드 — 양돈·양계·축우용 배합사료 라인
@@ -1447,6 +1462,7 @@
 * [토킹클럽](/products/토킹클럽) - 골드앤에스가 운영하는 20년 전통의 초중등 영어학원 프랜차이즈 브랜드
 * [통장프린터](/products/통장프린터) - 은행·증권·보험사 창구용 통장 인쇄 단말기
 * [투게더](/products/투게더) - 빙그레의 카톤(통) 아이스크림으로 국내 최초 원유 사용 아이스크림
+* [투즈뉴(HD201)](/products/투즈뉴(HD201)) - 허셉틴(Trastuzumab) 바이오시밀러, 프레스티지바이오로직스가 위탁생산하는 유럽 판매허가 획득 제품
 * [트랙터](/products/트랙터) - 농작물 경작용 핵심 농업기계로, 대동·TYM 등 국내 농기계 3사의 주력 매출 기종
 * [트럭크레인](/products/트럭크레인) - 카고트럭에 장착하는 중량물 상하차·운반용 특장장비
 * [트레스탄](/products/트레스탄) - 삼진제약의 대표 일반의약품 식욕촉진제 브랜드 — 캡슐제
