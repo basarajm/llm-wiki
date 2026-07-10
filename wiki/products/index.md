@@ -153,6 +153,7 @@
 * [DeteCT](/products/DeteCT) - 제이피아이헬스케어의 이동형 저선량·고정밀 CT(3D) 하이브리드 의료영상기기
 * [DGI 영상보안장비(DVR·NVR·IP카메라)](/products/DGI_영상보안장비) - 디지아이티엑스가 개발·생산·판매하는 영상감시·저장 장비(DVR·NVR·IP카메라)
 * [Diagnostic X-ray Stationary System](/products/Diagnostic_X-ray_Stationary_System) - 디알젬의 고정형 진단용 엑스선 촬영장치 제품군(GXR-S/SD, GXR-ES, DIAMOND, VXR 시리즈)
+* [Dicing·Singulator 장비](/products/Dicing_Singulator_장비) - 반도체·디스플레이(LED)용 절단·분리 공정 장비
 * [DIFF-CASE](/products/DIFF-CASE) - 우수AMS가 제조하는 6속 변속기용 디퍼렌셜 케이스(자동차 파워트레인 핵심 부품)
 * [DI-KIT](/products/DI-KIT) - 지에프아이가 개발한 ESS 배터리팩 내장형 마이크로캡슐 소화 KIT
 * [DIPAS](/products/DIPAS) - 디엔에프의 DPT(Double Patterning Technology)용 반도체 패터닝 소재
@@ -404,6 +405,7 @@
 * [MI연계솔루션](/products/MI연계솔루션) - 이노테나의 EAI/ESB 기반 시스템 연계 소프트웨어 제품군(MI, ILink, MI API, MI Advanced, MI MFT 등)
 * [MLB 상표권 라이선스](/products/MLB_상표권_라이선스) - F&F홀딩스가 보유한 MLB 브랜드 상표권을 자회사 F&F에 사용시켜 로열티 수익을 창출하는 라이선스 사업
 * [MLCC](/products/MLCC) - 적층세라믹콘덴서 — 전자회로의 전류 제어·노이즈 제거에 쓰이는 핵심 수동소자
+* [MLCC Cutter 장비](/products/MLCC_Cutter_장비) - MLCC(적층세라믹콘덴서) 절단 공정용 Cutter 장비
 * [MLCC용 이형필름](/products/MLCC용 이형필름) - 코스모신소재의 제2 주력 제품 — MLCC 제조공정에 사용되는 기능성 이형필름(PET 필름에 실리콘 이형액 박막 코팅) (2025년 매출비중 25.3%)
 * [MOAI·T-MEGA](/products/MOAI_T-MEGA) - 트윔의 딥러닝 기반 외관 불량 자동검사 AI-base 머신비전 장비
 * [mobiCARE](/products/mobiCARE) - 씨어스의 웨어러블 심전도 분석·부정맥 스크리닝 구독형 솔루션
@@ -588,6 +590,7 @@
 * [SBW(Shift-by-Wire)](/products/SBW) - 기계식 연결 없이 전자신호로 변속을 제어하는 전동화 변속 시스템 부품
 * [SCR탈질촉매](/products/SCR탈질촉매) - 선택적촉매환원(SCR) 방식으로 질소산화물(NOx)을 저감하는 탈질촉매 — 하니컴·플레이트·레이어드 3종 상용 타입
 * [SecureGate](/products/SecureGate) - 한싹의 망간자료전송(망연계) 보안 솔루션 브랜드
+* [Security365](/products/Security365) - 소프트캠프의 클라우드 기반 문서중심보안·Zero Trust 통합 보안 서비스
 * [SECUVE TOS](/products/SECUVE_TOS) - 시큐브의 보안운영체제(Secure OS) 솔루션, 국내 최초 상용화 제품
 * [SELAC(ABS 컴파운드)](/products/SELAC) - 세우글로벌이 컴파운딩 생산하는 ABS 수지 브랜드
 * [Semi Gel](/products/Semi_Gel) - 셀바이오휴먼텍의 젤 형태 고흡수성 라이오셀 소재 마스크팩 시트 브랜드
@@ -602,6 +605,7 @@
 * [SG글로벌 자동차시트커버](/products/SG글로벌_자동차시트커버) - SG글로벌의 자동차시트커버(Seat Trim Cover) — 전사 매출의 62.8%를 차지하는 제1 주력 제품
 * [Shell 그리스](/products/Shell_그리스) - 한국쉘석유가 부산 용당 제유소에서 제조하는 Shell 브랜드 그리스 — 2025년 매출의 약 4.7%
 * [Shell 윤활유](/products/Shell_윤활유) - 한국쉘석유가 부산 용당 제유소에서 제조하는 Shell 브랜드 윤활유 — 2025년 매출의 약 80%
+* [SHIELDInfo](/products/SHIELDInfo) - 소프트캠프의 문서 암호화 기반 등급관리 및 유통 가시성 제공 DRM 솔루션
 * [SiC Wafer·Ring](/products/SiC_Wafer_Ring) - 반도체 공정 장비용 Solid SiC Wafer 및 Ring 부품
 * [Siemens PLM 소프트웨어(NX·Solid Edge·TeamCenter)](/products/Siemens_PLM_소프트웨어) - 세중이 국내 총판을 담당하는 Siemens의 제품수명관리(PLM) 소프트웨어 제품군
 * [Silicon Parts (씨엠티엑스)](/products/Silicon_Parts_씨엠티엑스) - 씨엠티엑스가 제조하는 반도체 식각장비용 실리콘 소모성 부품
@@ -690,6 +694,7 @@
 * [VetEase](/products/VetEase) - 리센스메디컬의 정밀냉각기술 기반 동물용 의료기기
 * [VILS(Vehicle-in-the-Loop Simulation)](/products/VILS) - 실제 차량과 가상 도로 환경을 결합해 자율주행·ADAS 성능을 검증하는 실차 기반 시뮬레이션 기술
 * [VIN Marker](/products/VIN_Marker) - 한빛레이저의 자동차 차대번호(VIN) 레이저 마킹시스템
+* [VIRNECT XR 솔루션](/products/VIRNECT_XR솔루션) - 버넥트의 산업용 증강현실(AR)·확장현실(XR) 소프트웨어 제품군(Remote·Make·View·Twin)
 * [Vision 60](/products/Vision_60) - 케이알엠이 생산·판매하는 미국 Ghost Robotics 개발 사족보행 로봇
 * [VI용 세라믹](/products/VI용_세라믹) - 진공차단기(Vacuum Interrupter)용 세라믹 — KCC 기타(소재) 부문 주력, 글로벌 점유율 1위(33%)
 * [VLAD](/products/VLAD) - 링크제니시스의 AI 기반 영상 인식·검증 소프트웨어 패키지
@@ -1329,6 +1334,7 @@
 * [씨투스](/products/씨투스) - 삼아제약의 진해거담·기관지확장 치료제, 호흡기계 부문 대표 브랜드
 * [씨티알모빌리티 구동부품](/products/씨티알모빌리티_구동부품) - 로터샤프트·이너레이스·볼스크류 등 자동차 동력전달용 구동부품
 * [씨티알모빌리티 현가부품](/products/씨티알모빌리티_현가부품) - 엑슬·컨트롤 암 등 자동차 현가장치 부품
+* [아가방](/products/아가방) - 아가방앤컴퍼니의 대표 유아의류·용품 브랜드 (National Brand)
 * [아난티 회원권](/products/아난티_회원권) - 아난티 산하 골프·호텔·리조트 플랫폼 이용을 위한 프리미엄 회원권 상품
 * [아남전자 오디오제품 ODM](/products/아남전자_오디오제품_ODM) - 아남전자가 베트남 생산법인에서 AV Receiver·사운드바·스마트 스피커를 ODM 방식으로 개발·생산해 D&M·하만카돈·야마하 등 글로벌 AV 바이어에 공급하는 핵심 제품(연결 매출비중 98.7%)
 * [아라미드](/products/아라미드) - 방탄소재·자동차 고무 보강용·산업용으로 쓰이는 고부가가치 신소재 섬유
@@ -1391,6 +1397,7 @@
 * [애플트리 김약사네](/products/애플트리_김약사네) - 팜스빌의 약사 상담 기반 맞춤형 건강기능식품 전문 브랜드
 * [액체탄산](/products/액체탄산) - 석유화학·정유 공정에서 발생하는 탄산가스를 정제·액화한 고순도 액체 이산화탄소로 음료용·공업용에 사용
 * [액츄에이터](/products/액츄에이터) - 에너토크가 제조하는 밸브·수문 자동제어용 구동장비
+* [앤드론 드론시스템](/products/앤드론_드론시스템) - 지아이에스가 개발한 국방·물류배송·소방용 무인항공기(드론) 플랫폼
 * [앤디포스 모바일기기용 양면테이프·윈도우필름](/products/앤디포스_양면테이프_윈도우필름) - 앤디포스의 주력 제품군인 모바일기기용 양면테이프 및 윈도우 필름
 * [양극재](/products/양극재) - 이차전지(배터리) 4대 핵심소재 중 용량·출력을 결정하는 양극 활물질. 포스코퓨처엠은 NCM·NCMA 등 하이니켈 양극재를 생산
 * [양극활물질](/products/양극활물질) - 코스모신소재의 주력 제품 — EV·ESS·전동공구·휴머노이드 로봇용 리튬이차전지 핵심소재 NCM 양극활물질 (2025년 매출비중 71.8%)
@@ -1402,6 +1409,7 @@
 * [에나멜 동선](/products/에나멜_동선) - 전력·전장·가전기기에 사용되는 절연 피복 구리선 소재
 * [에너지원료·철강금속 무역거래](/products/에너지원료_철강금속_무역거래) - STX가 취급하는 에너지원료·철강·금속 등 원자재 무역상품
 * [에넥스 주방가구](/products/에넥스_주방가구) - 에넥스의 주력 제품인 주방가구(부엌가구·붙박이장) — 자체상표
+* [에뜨와](/products/에뜨와) - 아가방앤컴퍼니의 백화점 프리미엄 유아복 브랜드(ETTOI)
 * [에버랜드](/products/에버랜드) - 삼성물산 리조트부문이 운영하는 국내 1위 테마파크 브랜드(드라이파크·캐리비안베이·판다월드)
 * [에브리봇 Q시리즈](/products/에브리봇_Q시리즈) - 에브리봇의 프리미엄 올인원(흡입+물걸레) 로봇청소기 라인업
 * [에소맥스정](/products/에소맥스정) - 팜젠사이언스의 PPI 계열 역류성식도염·궤양 치료제로 PPI 시장 점유율 1위 대표 품목
@@ -1463,6 +1471,7 @@
 * [온수기](/products/온수기) - 경동나비엔의 북미 수출 주력 제품인 태크리스(순간식) 워터히터
 * [온토비아(ONTOVIA)](/products/온토비아) - SKAI의 온톨로지 기반 지식 그래프·GraphRAG AI 에이전트 솔루션
 * [올리고뉴클레오타이드 API](/products/올리고뉴클레오타이드_API) - RNA 기반 핵산치료제(siRNA 등)의 주원료가 되는 올리고뉴클레오타이드 원료의약품
+* [올리고머화 베타-아밀로이드(OAβ) 혈액검사](/products/올리고머화_베타-아밀로이드_혈액검사) - 피플바이오가 개발한 알츠하이머병 등 퇴행성 뇌질환 조기진단용 혈액검사
 * [올림피아드](/products/올림피아드) - 위즈코프 학원교육사업부문의 대표 교육 브랜드
 * [옴니원(OmniOne)](/products/옴니원(OmniOne)) - 라온시큐어의 블록체인 기반 DID(분산신원인증) 플랫폼 — 모바일신분증·디지털ID·NFT
 * [와우넷](/products/와우넷) - 한국경제티브이의 증권정보서비스 플랫폼(웹사이트)
@@ -1734,6 +1743,7 @@
 * [카카오뱅크 mini](/products/카카오뱅크_mini) - 미성년자 대상 선불형 금융 서비스
 * [카타플라스마](/products/카타플라스마) - 경피 약물전달시스템(TDDS) 기반 습포제(파스류) 의약품
 * [카티졸](/products/카티졸) - 셀론텍(에쓰씨엔지니어링 종속회사)이 개발한 바이오콜라겐 기반 무릎관절 연골 보충재
+* [카페24 EC플랫폼](/products/카페24_EC플랫폼) - 카페24의 이커머스 쇼핑몰 구축·운영 통합 플랫폼(결제·EC·공급망·마케팅솔루션)
 * [카프로 수소](/products/카프로_수소) - 카프로가 LPG(프로판) 개질로 생산하는 고순도(99.999%) 수소 — 수소·황산류 제품군이 2025년 제품매출의 85.40%, 수송용 수소 국내 점유율 3.3%
 * [카프로 황산류](/products/카프로_황산류) - 카프로가 유황 직접연소(Sulfur Burning)로 생산하는 고순도 황산류(일반·정제·발연황산) — 수소·황산류 제품군이 2025년 제품매출의 85.40%, 식품첨가물용 허가 취득
 * [칸도럽 세럼](/products/칸도럽_세럼) - 바이오비쥬의 가교 히알루론산 기반 스킨부스터 자사 브랜드 제품
