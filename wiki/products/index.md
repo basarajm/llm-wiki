@@ -148,6 +148,7 @@
 * [CPX](/products/CPX) - 큐리오시스의 콜로니 피킹 시스템(CPX®·씨피엑스)
 * [CROMS](/products/CROMS) - 클로봇의 클라우드 기반 이기종 로봇 통합관리 플랫폼(FMS·관제)
 * [Cryogel](/products/Cryogel) - 미국 Aspen Aerogels가 개발하고 KBG 종속회사 에어로젤코리아가 국내 독점 유통하는 초저온용 실리카 에어로젤 단열재
+* [CTKCLIP](/products/CTKCLIP) - 씨티케이가 운영하는 B2B 뷰티 크리에이션 디지털 플랫폼
 * [CTX](/products/CTX) - 샌즈랩의 사이버 위협 인텔리전스(CTI) 플랫폼, 300억 개 이상 인텔리전스 데이터 축적
 * [CU](/products/CU) - BGF리테일이 운영하는 국내 편의점 업계 1위 브랜드(점포수 기준)
 * [CURL-FIT](/products/CURL-FIT) - 삼영무역 종속회사 ㈜한국큐빅이 생산하는 수압전사(Cubic Printing) 곡면 표면처리 자동차 내장재 — 일본 Taica 국제특허 기반 국내 Master License 단독 보유
@@ -298,6 +299,7 @@
 * [HCDS](/products/HCDS) - 디엔에프의 저온 공정용 SiO/SiN 전구체 반도체 소재
 * [HDC(고집적세정장비)](/products/HDC_고집적세정장비) - DMS의 디스플레이 패널 증착 전 세정장비 — 전세계 Wet Cleaner 시장 약 20년간 점유율 1위(추정)
 * [Healerbot](/products/Healerbot) - 피앤에스로보틱스가 2025년 공개한 정형외과적 어깨 부상 환자용 재활훈련 로봇
+* [HEATER CONTROL ASSEMBLY](/products/HEATER_CONTROL_ASSEMBLY) - 차량 히터·에어컨을 운전자가 원하는 환경으로 작동시켜주는 컨트롤러
 * [HEPA 필터](/products/HEPA_필터) - 가전용 공기청정기·공조용 고효율 필터 제품
 * [HiCardi](/products/HiCardi) - 메쥬의 웨어러블 패치형 환자감시장치 및 홀터심전계 제품군
 * [HiFi ROSE](/products/HiFi_ROSE) - 씨아이테크의 자체 브랜드 프리미엄 네트워크 오디오 — 고음질 음원 재생과 네트워크 스트리밍을 결합한 하이파이오디오, 약 40개국 공급
@@ -306,6 +308,7 @@
 * [HMM 컨테이너 해상운송](/products/HMM_컨테이너_해상운송) - HMM의 컨테이너선 해상운송 서비스 — 미주 서안↔아시아 항로 시장점유율 5.5%~8.6%(2025, PIERS 기준)
 * [HT-X1](/products/HT-X1) - 토모큐브의 홀로토모그래피(HT) 기반 비표지 3D 세포 이미징 장비
 * [HumiChip](/products/HumiChip) - 삼영에스앤씨의 세계 최초 SIP형 칩형 온습도센서, 자동차규격 AEC-Q100 충족
+* [HVAC ACTUATOR](/products/HVAC_ACTUATOR) - 차량 내부 온도·바람 방향·실내외기 전환 장치
 * [HVDC변환설비](/products/HVDC변환설비) - 초고압직류송전(HVDC)용 교류-직류 변환설비
 * [IC TEST SOCKET](/products/IC_TEST_SOCKET) - 리노공업의 반도체 테스트 패키지용 소모성 소켓 제품
 * [ichroma 진단기기 시리즈](/products/ichroma_진단기기_시리즈) - 바디텍메드의 현장진단(POCT) 면역진단 플랫폼 기기 시리즈
