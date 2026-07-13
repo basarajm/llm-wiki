@@ -1,6 +1,8 @@
 
 ## 2026-07-13
 
+**Ingest(KOSPI-IG2)** KOSPI 로컬 아카이브 배치(10개 신규 후보 + 2개 정정 재확인, 소용량 파일 우선) 처리 완료 — 전건(12건 전부: 대유에이텍, 피케이씨, 삼화페인트공업, 한국지역난방공사, TKG휴켐스(티케이지휴켐스), 엔씨소프트, DB Inc., 한국항공우주산업, 유진투자증권, HL홀딩스(에이치엘홀딩스), 성안머티리얼스, 티웨이항공)이 already_done_duplicate로 판명 — 각 기업 모두 wiki/companies/에 is_stub:false Full 페이지가 이미 존재하고 동일 원본을 wiki/sources/에서 이미 resource로 참조 중이므로 신규 파일 생성/수정 없음. 정정 2건(성안머티리얼스: 원본 파일명 "우성머티리얼스"와 실제 법인명 불일치를 sources 페이지 본문에 이미 명시 확인; 티웨이항공: 원본 파일명 "트리니티항공"과 실제 법인명 불일치를 sources 페이지 본문에 이미 명시 확인)도 already_done_duplicate로 KOSPI.md 추가 대상에서 제외. 다만 대유에이텍은 Full 페이지(market: KOSPI)가 존재함에도 wiki/markets/KOSPI.md "## 상장기업" 목록에 누락되어 있던 양방향 링크 갭을 발견, 이번 세션에서 bullet 1건을 보완 추가함(그 외 11개사는 이미 KOSPI.md에 링크 완비 확인). engine/scripts/build-index.ps1 실행으로 wiki/index.md 재생성.
+
 **Ingest(KOSPI-IG1)** KOSPI 로컬 아카이브 배치(12개사, 소용량 파일 우선) 처리 완료 — 전건이 already_done_duplicate 또는 blocked_data_issue로 판명되어 신규 KOSPI.md bullet 추가 없음. already_done_duplicate 8건(기존 Full 페이지 존재로 수정 없음): DH오토넥스(companies/DH오토웨어.md에 이미 Full 반영, 파일명 불일치 이슈 잔존), 신화다이나믹스(SHD), 제일연마공업, 에코프로머티리얼즈, 효성ITX, 삼양통상, 한전산업개발, F&F홀딩스. blocked_data_issue 4건(페이지 미생성): 한국기업평가(실제 KOSDAQ 상장, KOSPI 배치 범위 밖 — 기존 stub의 market:KOSPI 필드 정정 필요), 우성머티리얼스(원본 실제 법인명 성안머티리얼스/구 주식회사 성안, 파일명 불일치로 재지시 필요), 하이비젼시스템(실제 KOSDAQ 상장 — 기존 stub의 market:KOSPI 필드 정정 필요), 트리니티항공(원본 실제 법인명 티웨이항공, 파일명 불일치로 재지시 필요). engine/scripts/build-index.ps1 실행으로 wiki/index.md 재생성(내용 변경 없음).
 
 **Ingest(IG199)** KOSDAQ 로컬 아카이브 배치 병합(최종 잔여분, 1개사: 알티캐스트) 완료 — wiki/markets/KOSDAQ.md "## 상장기업" 섹션에 신규 bullet 추가(알티캐스트, 기존 stub→Full 승격) 및 engine/scripts/build-index.ps1로 wiki/index.md 재생성. groups/베노티앤알.md에는 이미 알티캐스트 상호 링크가 반영되어 있어 추가 수정 없음. 이번 배치로 KOSDAQ 로컬 아카이브 잔여 ingest 트랙 종료.
