@@ -9,6 +9,7 @@
 * [ingest-tracker-local-kospi](/outputs/ingest-tracker-local-kospi)
 * [위키 검진 리포트 2026-06-27](/outputs/lint-report-2026-06-27) - 16개 사업보고서 인제스트 직후의 위키 건강 검진 결과
 * [위키 검진 리포트 2026-07-03](/outputs/lint-report-2026-07-03) - IG13 배치(SK가스·SFA반도체·SBS·SK리츠 등) 이후 동시편집 충돌 잔여 정리 및 위키 전반 기계 점검 결과
+* [위키 Lint 리포트 (2026-07-13)](/outputs/lint-report-2026-07-13) - engine/scripts/lint.ps1·validate-okf.ps1 기계 점검 + Claude 의미 점검 결과
 * [Product·Financial Product 백필 실행 계획 (옵션 B / B1)](/outputs/products-backfill-plan-2026-06-29) - 직전 gap 분석에서 결정된 옵션 B 백필을 B1(커밋된 위키 본문 추출) 방식으로 실행하기 위한 방법론·범위·오케스트레이션·진행 로그
 * [재인제스트 스케줄 (원본 손상 복구 + KOSPI 배치 지속)](/outputs/reingest-schedule-2026-07-03) - 사용자가 별도 세션에서 사업보고서 원문 손상을 수정한 뒤, 영향받은 기존 위키 페이지의 재인제스트 및 KOSPI 배치 지속 계획
 * [반도체 3사 비교 (삼성전자·SK하이닉스·한미반도체)](/outputs/반도체_3사_비교_2026-06-27) - 2025년 실적 기준 메모리·장비 3사의 수익성과 포지셔닝 비교
