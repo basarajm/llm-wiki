@@ -25,7 +25,7 @@ Knowledge Studio), LUXIA 기반 생성형 AI 온프레미스 구축, 생성형 A
 
 ## 주요 제품·서비스
 
-- [루시아(LUXIA)](/products/루시아(LUXIA)) — 자체 개발 LLM
+- [루시아(LUXIA)](</products/루시아(LUXIA)>) — 자체 개발 LLM
 - AI Suite(Talkbot Studio, Voice Studio, Vision Studio, Metahuman Studio)
 - Big Data Suite / GraphDB Suite / Cloud Service(Language Studio, Search Studio, Scraping Studio, Knowledge Studio)
 

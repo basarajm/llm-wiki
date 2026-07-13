@@ -24,7 +24,7 @@ Package 제조는 주문생산(Die Bonding 공정 기준) 방식.
 
 ## 주요 제품·서비스
 
-- [LED Light Bar](/products/LED_Light_Bar(우리이앤엘))
+- [LED Light Bar](</products/LED_Light_Bar(우리이앤엘)>)
 
 ## 경쟁 현황
 

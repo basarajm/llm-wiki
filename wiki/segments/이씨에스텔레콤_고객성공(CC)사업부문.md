@@ -22,7 +22,7 @@ IPCC(IP Contact Center)를 기반으로 콜센터·홈페이지·앱·SNS·이�
 
 ## 주요 제품·서비스
 
-- [AICC(AI Contact Center)](/products/AICC(AI_Contact_Center))
+- [AICC(AI Contact Center)](</products/AICC(AI_Contact_Center)>)
 - Digital ASOptio(셀프서비스), EPA(ECS Packaged AI), ECP(ECS Cloud Portal), ESP-r/ESP-m 등 자체 개발 솔루션
 
 ## 경쟁 현황

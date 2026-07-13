@@ -37,7 +37,7 @@ source_count: 1
 
 ## 주요 주주
 
-- [문화방송(iMBC 최대주주)](/shareholders/문화방송(iMBC 최대주주)) — 58.13% | [기업 페이지](/companies/문화방송)
+- [문화방송(iMBC 최대주주)](</shareholders/문화방송(iMBC 최대주주)>) — 58.13% | [기업 페이지](/companies/문화방송)
 - 박태경(최대주주임원) — 0.07%
 
 ## 밸류체인
@@ -46,8 +46,8 @@ source_count: 1
 
 ## 경영진
 
-- [이선태](/executives/이선태(iMBC)) — 대표이사(사내이사), 회사총괄
-- [이성주](/executives/이성주(iMBC)) — 이사(미등기), 경영총괄
+- [이선태](</executives/이선태(iMBC)>) — 대표이사(사내이사), 회사총괄
+- [이성주](</executives/이성주(iMBC)>) — 이사(미등기), 경영총괄
 
 ## 리스크
 

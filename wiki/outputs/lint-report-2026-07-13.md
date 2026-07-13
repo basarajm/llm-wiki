@@ -28,7 +28,7 @@ timestamp: 2026-07-13T00:00:00Z
 
 예시 (`companies/ALT_America.md`):
 ```
-대표이사(CEO)는 [이상수](/executives/이상수(알트))(알트 대표이사 겸직).
+대표이사(CEO)는 [이상수](</executives/이상수(알트)>)(알트 대표이사 겸직).
 ```
 → 실제 대상 파일 `wiki/executives/이상수(알트).md`는 **존재함**. 링크만 깨졌다.
 

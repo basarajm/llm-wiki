@@ -25,7 +25,7 @@ timestamp: 2026-07-10T00:00:00Z
 
 ## 주요 제품·서비스
 
-- [Precursor(반도체 프리커서)](/products/Precursor(반도체_프리커서))
+- [Precursor(반도체 프리커서)](</products/Precursor(반도체_프리커서)>)
 
 ## 경쟁 현황
 
