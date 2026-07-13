@@ -90,6 +90,11 @@ The Creme Shop, Inc.(100%, 2025.8 완전자회사화), Boinca Inc.(56%), (주)�
 - Refreshment 부문 원부자재 환율·국제원자재가격 민감도
 - Boinca Inc.·(주)비바웨이브 잔여지분 풋옵션 부채(만기 2026.12.31)
 
+## 신용등급
+
+- [LG생활건강 신용등급](/ratings/LG생활건강_신용등급)
+
+
 # Citations
 
 - [LG생활건강 2025 사업보고서](/sources/LG생활건강_2025_사업보고서)

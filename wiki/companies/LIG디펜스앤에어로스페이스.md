@@ -75,6 +75,11 @@ Ghost Robotics Corporation 지분 60%를 인수(LNGR LLC 경유)해 무인화·�
 - 방위산업 특성상 정부 예산·정책 변화, 수출 계약의 지정학적 리스크에 노출.
 - Ghost Robotics Corporation 관련 동반매도청구권 등 파생상품부채 존재.
 
+## 신용등급
+
+- [LIG디펜스앤에어로스페이스 신용등급](/ratings/LIG디펜스앤에어로스페이스_신용등급)
+
+
 # Citations
 
 - [LIG디펜스앤에어로스페이스 2025 사업보고서](/sources/LIG디펜스앤에어로스페이스_2025_사업보고서)

@@ -90,6 +90,11 @@ Friedrichshafen AG(독일, Wheel Loader Main Control Valve — 독과점도 "높
 - HD현대인프라코어 흡수합병(2026.01)에 따른 통합 리스크(조직·시스템·재무구조 정합) —
   통합 효과는 차기 보고서에서 확인 필요.
 
+## 신용등급
+
+- [HD건설기계 신용등급](</ratings/HD건설기계 신용등급>)
+
+
 # Citations
 
 - [HD건설기계 2025 사업보고서](/sources/HD건설기계_2025_사업보고서) — source_documents/AnnualReport_MD/HD건설기계-사업보고서-2025.12.md

@@ -65,6 +65,11 @@ NICE평가정보㈜(NICE Information Service Co., Ltd.)는 1985년 2월 28일 �
 - 마이데이터사업자 다수가 수익모델 미확립, 과금 부담에 따른 이탈 가능성
 - 기업 CB사 신규 진입규제 완화에 따른 경쟁 심화 가능성
 
+## 신용등급
+
+- [NICE평가정보 신용등급](/ratings/NICE평가정보_신용등급)
+
+
 # Citations
 
 - [NICE평가정보 2025년 사업보고서](/sources/NICE평가정보_2025_사업보고서)

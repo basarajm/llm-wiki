@@ -72,6 +72,11 @@ source_count: 1
 - Display Solution은 효성재팬을 통한 수입 판매 구조(약 90%)로 환율·공급망 영향
 - 서비스업 특성상 노동집약적 구조, 인건비 비중 높음
 
+## 신용등급
+
+- [효성ITX 신용등급](</ratings/효성ITX 신용등급>)
+
+
 # Citations
 
 - [효성ITX 2025 사업보고서](/sources/효성ITX_2025_사업보고서)

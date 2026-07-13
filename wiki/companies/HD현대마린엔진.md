@@ -81,6 +81,11 @@ Everllence SE(舊 MAN Energy Solutions)와의 기술제휴를 통해 저속엔�
 - Everllence SE 등에 대한 기술제휴 로열티 지급 부담(2025년 185.1억 원)
 - 종속회사 STX HI Malaysia Sdn. Bhd. 청산 진행 중(2026.01 결의, 효력 3개월 후)
 
+## 신용등급
+
+- [HD현대마린엔진 신용등급](</ratings/HD현대마린엔진 신용등급>)
+
+
 # Citations
 
 - [HD현대마린엔진 2025 사업보고서](/sources/HD현대마린엔진_2025_사업보고서)

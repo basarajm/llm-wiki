@@ -68,6 +68,11 @@ HMM(에이치엠엠 주식회사, 영문명 HMM Company Limited)은 1976년 3월
 - IMO 등 국제 환경 규제 강화(탄소집약도, EU ETS)에 따른 친환경 선대 전환 비용 부담.
 - TTI(Total Terminals International) 지분 풋/콜옵션 등 파생상품 계약에 따른 잠재 손익 변동성(당기말 파생상품부채 120,445백만원).
 
+## 신용등급
+
+- [HMM 신용등급](</ratings/HMM 신용등급>)
+
+
 # Citations
 
 - [HMM 2025 사업보고서](/sources/HMM_2025_사업보고서)

@@ -60,5 +60,10 @@ source_count: 1
 - 미국(26.4%) 등 해외 매출 비중이 높아 환율·관세 변동 리스크
 - 2025년 매출·영업이익·순이익 모두 전년 대비 감소(글로벌 경기 둔화, 전방 산업 재고 조정)
 
+## 신용등급
+
+- [KBG 신용등급](/ratings/KBG_신용등급)
+
+
 # Citations
 - source_documents/AnnualReport_MD/KBG-사업보고서-2025.12.md

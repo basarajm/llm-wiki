@@ -67,6 +67,11 @@ source_count: 1
 - AI 데이터 저작권·규제 환경 변화 리스크(뉴스 데이터 학습 관련 저작권 이슈가 사회적 쟁점화)
 - 배당 미실시, 별도 배당 목표 미설정
 
+## 신용등급
+
+- [비큐AI 신용등급](</ratings/비큐AI 신용등급>)
+
+
 # Citations
 
 - [비큐AI 2025 사업보고서](/sources/비큐AI_2025_사업보고서) — `source_documents/AnnualReport_MD/비큐AI-사업보고서-2025.12.md`

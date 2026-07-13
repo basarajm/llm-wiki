@@ -90,6 +90,11 @@ The Coretec Group Inc. → Quantum Wealth Management LLC → DKME INC. 순으로
 - **기업신용평가 저하**: 최근 5개년 신용평가(이크레더블·한국평가데이타) 등급이 BB~BBB- 구간에서
   등락하며 2024년 기준 BB-/BBB- 수준(회사채·CP 등급이 아닌 일반 기업신용평가).
 
+## 신용등급
+
+- [DKME 신용등급](</ratings/DKME 신용등급>)
+
+
 # Citations
 
 - [DKME 2025 사업보고서](/sources/DKME_2025_사업보고서)

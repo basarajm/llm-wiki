@@ -74,6 +74,11 @@ OCI㈜(영문 OCI Company Ltd.)는 OCI그룹의 핵심 사업회사로, 2023년 
 - 해외 종속회사 청산 리스크(2025년 Shandong OCI-Jianyang Carbon Black 파산관재인 선임).
 - 원재료(나프타 등) 특정 공급처(SK에너지·에이치디현대오일뱅크) 의존.
 
+## 신용등급
+
+- [OCI 신용등급](</ratings/OCI 신용등급>)
+
+
 # Citations
 
 - [OCI 2025 사업보고서](/sources/OCI_2025_사업보고서)

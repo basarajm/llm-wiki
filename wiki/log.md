@@ -1,6 +1,10 @@
 
 ## 2026-07-13
 
+**Ingest(하이비젼시스템)** 하이비젼시스템-사업보고서-2025.12.md 처리 완료 — 기존 stub `wiki/companies/하이비젼시스템.md`(is_stub:true, market: KOSDAQ 정정 반영)를 Full 페이지로 승격. `wiki/sources/하이비젼시스템_2025_사업보고서.md` 신규 생성(2025년 연결매출 1,711억원, 영업손실 326억원 적자전환; 종속회사 퓨런티어 지분율 38.86%→30.50% 하락, 큐비콘 완전자본잠식). 신규 stub: `companies/큐비콘.md`(3D프린터 종속회사), `executives/최두원.md`(대표이사·최대주주 12.00%), `value_chain/하이비젼시스템_밸류체인.md`(공급사 준성하이테크·고객사 LG이노텍), `segments/하이비젼시스템_IT모바일부문.md`. 양방향 링크: 시장(KOSDAQ.md "## 상장기업"에 bullet 추가), 주주(shareholders/하이비젼시스템.md market 오기재 KOSPI→KOSDAQ 수정), 그룹 소속 없음. wiki/index.md는 이번 배치에서 갱신하지 않음(사용자 지시).
+
+**Ingest(한국기업평가)** wiki/companies/한국기업평가.md stub(is_stub:true, market 필드 KOSDAQ으로 기정정)을 원본(source_documents/AnnualReport_MD/한국기업평가-사업보고서-2025.12.md, 제44기 2025.12 사업보고서)으로 Full 승격. 신규/갱신 페이지: wiki/sources/한국기업평가_2025_사업보고서.md(신규), wiki/segments/한국기업평가_신용평가.md·한국기업평가_투자평가.md(신규), wiki/value_chain/한국기업평가_밸류체인.md(신규), wiki/products/신용평가_서비스.md(신규, 3사 점유율 비교), wiki/shareholders/FITCH_RATINGS.md(신규, 최대주주 73.55%, 기존 wiki/shareholders/한국기업평가.md와 양방향 확인), wiki/executives/김기범_한국기업평가.md(신규, 대표이사, 이크레더블 겸직 명시), wiki/companies/한국신용평가.md·NICE신용평가.md(경쟁사 stub 신규). wiki/markets/KOSDAQ.md "## 상장기업"에 신규 bullet 추가. wiki/index.md는 이번 배치 범위 외로 미갱신(별도 지시).
+
 **Lint 후속조치** lint 최우선 권고사항이었던 괄호 포함 링크 마크다운 문법 오류를 스크립트로 일괄 수정. `이름(소속).md` 형식 파일명을 그대로 링크에 사용해 파서가 첫 `)`에서 URL을 잘라먹던 문제를 `<>` URL 래핑으로 해결(스크립트 1,567건/397파일 + 수동 6건). 재실행 결과 깨진 내부 링크 1,539건 → 929건으로 감소, validate-okf.ps1 재검증 이상 없음. 진짜 누락 stub 2건(콜마홀딩스(주주), 첨단소재(솔루스))은 후속 보완 대상으로 남김. lint-report-2026-07-13.md 갱신.
 
 **Lint** 위키 전체 검진 완료(콘텐츠 28,283페이지) — validate-okf.ps1·lint.ps1 기계 점검 + Claude 의미 점검. 주요 발견: 깨진 내부 링크 1,539건(이 중 약 575건은 파일명 괄호 `이름(소속)` 형식이 마크다운 링크 문법과 충돌해 발생한 시스템적 오류로, 대상 파일 자체는 존재 — 스크립트 일괄 수정 권장), 고아 페이지 2,421건(ratings 721건 최다), 양방향 링크 누락 표본 2,421건(executives 1,343·shareholders 929·groups 149), frontmatter 누락 4건(ingest-tracker 자동생성 파일, 콘텐츠 페이지 아님). 의미 점검에서 한국기업평가·하이비젼시스템의 market 필드 KOSPI 오기재(실제 KOSDAQ) 발견. 상세는 wiki/outputs/lint-report-2026-07-13.md 참조.
