@@ -85,6 +85,8 @@ SK네트웍스 주식회사(영문 SK Networks Co., Ltd.)는 1953년 선경직�
 | 소액주주(95,624명) | 44.79% | 소액주주 |
 
 > SK㈜(지주회사)와 국민연금은 본 인제스트 범위 외(공유 노드)로 페이지 미생성. shareholders 양방향 링크는 bidir_todo 참조.
+- [SK네트웍스](/shareholders/SK네트웍스)
+- [국민연금공단](/shareholders/국민연금공단)
 
 ## 밸류체인
 

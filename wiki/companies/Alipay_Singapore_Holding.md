@@ -15,6 +15,10 @@ ALIPAY SINGAPORE HOLDING PTE.LTD.는 중국 앤트그룹(Ant Group) 계열의 �
 지주법인으로 [카카오페이](/companies/카카오페이)의 2대 주주(2025년말 24,928,281주, 지분율
 18.4%)다.
 
+## 주요 주주
+
+- [Alipay_Singapore_Holding](/shareholders/Alipay_Singapore_Holding)
+
 # Citations
 
 - [카카오페이 2025 사업보고서](/sources/카카오페이_2025_사업보고서)

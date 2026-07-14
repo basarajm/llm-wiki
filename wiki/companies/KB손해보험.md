@@ -1,6 +1,7 @@
 ---
 type: Company
 title: KB손해보험
+group: /groups/KB금융
 description: 아이앤씨테크놀로지와 아크차단기 화재예방 공동마케팅 MOU를 체결한 손해보험사(KB금융지주 계열)
 tags: [기업, 손해보험, 금융]
 is_stub: true

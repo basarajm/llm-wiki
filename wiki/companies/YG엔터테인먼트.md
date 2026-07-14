@@ -69,6 +69,8 @@ ASIA(홍콩), YG ENTERTAINMENT BEIJING(중국), YG ENTERTAINMENT USA(및 콘서�
 | [Tencent Mobility Limited](/shareholders/Tencent_Mobility_Limited) | 4.30% | 텐센트 계열 |
 | [양민석](/executives/양민석) | 3.47% | 특수관계인(대표이사) |
 | 기타 | 58.85% | — |
+- [YG엔터테인먼트](/shareholders/YG엔터테인먼트)
+- [양민석](/shareholders/양민석)
 
 ## 밸류체인
 
@@ -79,6 +81,7 @@ ASIA(홍콩), YG ENTERTAINMENT BEIJING(중국), YG ENTERTAINMENT USA(및 콘서�
 - [양민석](/executives/양민석) — 대표이사(사장), 1998년 입사, 2024.3 단독대표 체제
 - [황보경](/executives/황보경) — 부사장, 사내이사, CAO
 - 사외이사: 김동현(이사회 의장), 박정미, 전성원, 이동우
+- [최성준](/executives/최성준)
 
 ## 리스크
 

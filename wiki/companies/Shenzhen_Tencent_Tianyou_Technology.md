@@ -1,7 +1,7 @@
 ---
 type: Company
 title: Shenzhen Tencent Tianyou Technology Co., Ltd.
-description: 시프트업 <승리의 여신: 니케> 중국 퍼블리셔(Tencent 계열)
+description: "시프트업 <승리의 여신: 니케> 중국 퍼블리셔(Tencent 계열)"
 market: Foreign
 industry: 게임 퍼블리싱
 is_stub: true

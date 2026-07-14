@@ -69,6 +69,7 @@ source_count: 1
 - 홍정국 — 이사(사내이사), [BGF](/companies/BGF) 대표이사 겸임 → [홍정국 페이지](/executives/홍정국)
 - 최자원, 신현상, 차경환 — 사외이사(감사위원회 등 겸임), 별도 Executive 페이지 미생성(비상근·경미직)
 - [조자영](/executives/조자영) — 사외이사, [티비에이치글로벌](/companies/티비에이치글로벌) 사외이사 겸직
+- [류철한](/executives/류철한)
 
 ## 리스크
 

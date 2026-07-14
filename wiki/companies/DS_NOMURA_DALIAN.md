@@ -14,6 +14,11 @@ source_count: 0
 
 DS NOMURA(DALIAN) PRECISION MACHINERY CO.,LTD.는 2019년 설립된 중국 소재 자동선반 판매·생산 법인이다. NN-20J3, NN-10EX2K 등 중국 현지 생산 기종을 담당하며, AI 데이터센터 냉각 부품 시장 공략을 위해 공장을 확장 중이다(2025.12). 대성하이텍 지분율 100%.
 
+## 경영진
+
+- [최우각](/executives/최우각)
+- [최호형_대성하이텍](/executives/최호형_대성하이텍)
+
 # Citations
 
 - [대성하이텍 2025년 사업보고서](/sources/대성하이텍_2025_사업보고서)

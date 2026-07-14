@@ -72,6 +72,9 @@ AJ네트웍스(에이제이네트웍스 주식회사, 영문 AJ Networks Co., Lt
 > 2025.06.23 문덕영(변경 전 최대주주)의 증여(수증인: 문지회, 문선우)로 최대주주가 변경되었다.
 > 위 주주들은 모두 개인(특수관계인)으로, 상장기업 주주가 아니어서 별도 companies 링크는 없다.
 > shareholders 페이지 생성은 공유 파일 영역으로 본 작업 범위 밖(매니페스트 todo_shareholders 참조).
+- [문덕영](/shareholders/문덕영)
+- [문선우](/shareholders/문선우)
+- [문지회](/shareholders/문지회)
 
 ## 밸류체인
 

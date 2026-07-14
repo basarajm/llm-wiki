@@ -6,6 +6,7 @@ ticker: "210980"
 market: KOSPI
 market_page: /markets/KOSPI
 industry: 부동산 개발/운영
+group: /groups/SK디스커버리
 is_stub: false
 tags: [기업, 부동산개발, KOSPI]
 timestamp: 2026-07-03T00:00:00Z

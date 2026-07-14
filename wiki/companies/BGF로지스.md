@@ -1,6 +1,7 @@
 ---
 type: Company
 title: BGF로지스
+group: /groups/BGF
 description: BGF리테일의 100% 종속회사로 편의점 물류·창고 사업을 영위하는 비상장 물류회사
 is_stub: true
 tags: [기업, 물류, 비상장]

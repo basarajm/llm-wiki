@@ -45,6 +45,7 @@ source_count: 1
 - [이준호](/executives/이준호_NHN) — 이사회 의장·회장(사내이사), 최대주주
 - [정우진](/executives/정우진_NHN) — 대표이사(사내이사)
 - [안현식](/executives/안현식_NHN) — CFO(사내이사)
+- [김용대](/executives/김용대)
 
 ## 리스크
 

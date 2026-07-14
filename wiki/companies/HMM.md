@@ -45,6 +45,7 @@ HMM(에이치엠엠 주식회사, 영문명 HMM Company Limited)은 1976년 3월
 | [한국해양진흥공사](/shareholders/한국해양진흥공사) | 35.08% | 해운 정책금융기관 |
 
 ※ 최대주주 변동 없음(최근 5개 사업연도 기준).
+- [HMM](/shareholders/HMM)
 
 ## 밸류체인
 

@@ -4,6 +4,7 @@ title: JFE스틸
 description: 일본 철강회사(JFE Steel Corporation) — 동국제강 2대주주(8.71%) 겸 압연 원재료(빌렛·슬래브) 공급사
 market: Foreign
 industry: 철강
+group: /groups/동국제강그룹
 is_stub: true
 tags: [기업, 철강, 해외]
 timestamp: 2026-07-03T13:06:29Z

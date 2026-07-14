@@ -58,6 +58,7 @@ Everllence SE(舊 MAN Energy Solutions)와의 기술제휴를 통해 저속엔�
 | [HD한국조선해양](/companies/HD한국조선해양) | 35.05% | 최대주주 \| [기업 페이지](/companies/HD한국조선해양) |
 | [국민연금기금](/shareholders/국민연금공단) | 7.98% | 5% 이상 주주 \| [기업 페이지](/companies/국민연금공단) — 비상장 공적기금, 링크 미해당 |
 | 소액주주 | 55.67% | 59,965인, 전체주주의 99.94% |
+- [HD한국조선해양](/shareholders/HD한국조선해양)
 
 ## 밸류체인
 

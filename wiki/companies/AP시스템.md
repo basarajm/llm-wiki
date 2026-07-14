@@ -45,6 +45,7 @@ ELA(Excimer Laser Annealing), LLO(Laser Lift-Off) 등 레이저 기반 OLED 제�
 
 - [㈜APS 및 특수관계인](/shareholders/APS) — 25.44% (최대주주, 계열 지주회사) | [기업 페이지](/companies/APS)
 - [더제이자산운용](/shareholders/더제이자산운용) — 6.39%
+- [에이피시스템](/shareholders/에이피시스템)
 
 ## 밸류체인
 

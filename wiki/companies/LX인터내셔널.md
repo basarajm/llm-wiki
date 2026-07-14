@@ -77,6 +77,8 @@ LX인터내셔널(주)(영문 LX INTERNATIONAL CORP.)은 1953년 11월 26일 설
 | 소액주주 | 53.59% | 소액주주 36,319명 |
 
 *(bidir_todo: LX홀딩스·국민연금공단 shareholders 페이지 미존재 — 공유 노드 미수정 정책으로 생성 보류)*
+- [LX홀딩스](/shareholders/LX홀딩스)
+- [국민연금공단](/shareholders/국민연금공단)
 
 ## 밸류체인
 

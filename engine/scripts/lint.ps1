@@ -30,7 +30,7 @@ foreach ($f in $files) {
         if (-not (Test-Path $target)) {
             $broken += "$rel → $lnk"
         } else {
-            $key = ($lnk -replace '\.md$','')
+            $key = ([System.Uri]::UnescapeDataString($lnk) -replace '\.md$','')
             if ($inbound.ContainsKey($key)) { $inbound[$key]++ }
         }
     }

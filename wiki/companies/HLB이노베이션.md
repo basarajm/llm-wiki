@@ -47,6 +47,8 @@ HLB이노베이션(에이치엘비이노베이션 주식회사, 옛 피에스엠
 - [HLB테라퓨틱스](/shareholders/HLB테라퓨틱스) — 0.88% | [기업 페이지](/companies/HLB테라퓨틱스)
 - [HLB바이오스텝](/companies/HLB바이오스텝) — 0.88%
 - [HLB인베스트먼트](/shareholders/HLB인베스트먼트) — 0.88%
+- [에이치엘비](/shareholders/에이치엘비)
+- [에이치엘비이노베이션](/shareholders/에이치엘비이노베이션)
 
 ## 밸류체인
 

@@ -104,6 +104,8 @@ Ltd·㈜어바웃펫.
 (발행할 주식총수 3.5억주 한도 내).
 
 **주가 동향**(2025년 하반기, 보통주): 7월 평균 51,176원 → 12월 평균 56,295원으로 상승 추세.
+- [Aphrodite_Acquisition_Holdings_LLC](/shareholders/Aphrodite_Acquisition_Holdings_LLC)
+- [GS](/shareholders/GS)
 
 ## 밸류체인
 

@@ -19,6 +19,10 @@ MinebeaMitsumi Inc(구 MINEBEA CO., LTD.)는 1951년 7월 설립, 1970년 도쿄
 기준 지분율 79.17%)이다. 최근 결산기(연결) 매출 15조 7,418억원, 영업이익 9,834억원,
 당기순이익 9,386억원, 자산총계 17조 1,816억원.
 
+## 주요 주주
+
+- [MinebeaMitsumi_Inc](/shareholders/MinebeaMitsumi_Inc)
+
 # Citations
 
 - [모아텍 2025 사업보고서](/sources/모아텍_2025_사업보고서)

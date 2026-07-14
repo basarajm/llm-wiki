@@ -58,12 +58,17 @@ function Get-FrontMatter {
     return $fm
 }
 
-# 본문에서 내부 절대링크 추출: [텍스트](/dir/page) → '/dir/page'
+# 본문에서 내부 절대링크 추출: [텍스트](/dir/page) 또는 [텍스트](</dir/page(괄호)>) → '/dir/page'
 function Get-InternalLinks {
     param([string]$Path)
     $raw = Get-Content -Path $Path -Raw -Encoding UTF8
     $links = @()
-    foreach ($m in [regex]::Matches($raw, '\]\((/[^)\s]+)\)')) {
+    # 괄호 포함 경로: <...> 로 감싼 형태 우선 매칭 (예: 이름(소속) 파일명 대응)
+    foreach ($m in [regex]::Matches($raw, '\]\(<(/[^>]+)>\)')) {
+        $links += $m.Groups[1].Value
+    }
+    # 일반 경로: 괄호 없는 형태
+    foreach ($m in [regex]::Matches($raw, '\]\((/[^)\s<][^)\s]*)\)')) {
         $links += $m.Groups[1].Value
     }
     return $links
@@ -72,7 +77,7 @@ function Get-InternalLinks {
 # '/companies/삼성전자' → 'companies\삼성전자.md' 풀패스
 function Resolve-LinkToFile {
     param([string]$Link, [string]$Root = (Get-WikiRoot))
-    $rel = $Link.TrimStart('/')
+    $rel = [System.Uri]::UnescapeDataString($Link.TrimStart('/'))
     if (-not $rel.EndsWith('.md')) { $rel = "$rel.md" }
     $rel = $rel -replace '/', '\'
     return (Join-Path $Root $rel)

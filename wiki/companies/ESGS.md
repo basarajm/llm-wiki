@@ -15,5 +15,9 @@ source_count: 1
 
 EDGE SOFT GOOD SOLUTION, INC.(ESGS)는 2004년 필리핀에 설립되어 2005년 동인기연 자회사로 편입된 종속회사로, 원단 재단 및 가공을 담당하는 생산법인이다.
 
+## 경영진
+
+- [정인수](/executives/정인수)
+
 # Citations
 - [동인기연 2025 사업보고서](/sources/동인기연_2025_사업보고서)

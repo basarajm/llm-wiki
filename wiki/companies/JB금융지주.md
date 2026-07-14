@@ -6,6 +6,7 @@ ticker: "175330"
 market: KOSPI
 market_page: /markets/KOSPI
 industry: 금융지주
+group: /groups/삼양그룹
 is_stub: false
 tags: [기업, 금융지주, KOSPI]
 timestamp: 2026-07-03T00:00:00Z
@@ -46,6 +47,8 @@ JB금융지주는 2013년 7월 1일 전북은행을 주식의 포괄적 이전 �
 - 김윤 — 0.01% (삼양사 특수관계인, 최대주주계열사 임원)
 
 (2025년 12월 31일 기준, 최대주주 및 특수관계인 합계 14.98%)
+- [삼양사_삼양케이씨아이](/shareholders/삼양사_삼양케이씨아이)
+- [삼양사_삼양패키징](/shareholders/삼양사_삼양패키징)
 
 ## 밸류체인
 

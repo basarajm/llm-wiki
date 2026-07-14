@@ -37,6 +37,7 @@ source_count: 1
 | [삼성전자](/shareholders/삼성전자) | 22.58% | 최대주주 \| [기업 페이지](/companies/삼성전자) |
 | [이재용](/shareholders/이재용) | 9.20% | 최대주주의 특수관계인 |
 | [홍라희](/shareholders/홍라희) | 0.00% | 최대주주의 특수관계인 |
+- [삼성에스디에스](/shareholders/삼성에스디에스)
 
 ## 종속회사
 

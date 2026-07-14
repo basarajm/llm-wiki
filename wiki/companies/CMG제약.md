@@ -47,6 +47,7 @@ source_count: 1
 ## 주요 주주
 
 - [차바이오텍](/companies/차바이오텍) — 24.27% (최대주주, 지배기업). shareholders 페이지는 미생성 상태(todo_shareholders 참조).
+- [차바이오텍](/shareholders/차바이오텍)
 
 ## 밸류체인
 

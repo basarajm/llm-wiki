@@ -44,6 +44,8 @@ SK이노베이션㈜은 [SK그룹](/groups/SK)의 에너지 부문 중간지주 
 | 주주 | 지분율 | 비고 |
 |---|---|---|
 | [SK㈜](/shareholders/SK) — [기업 페이지](/companies/SK) | 52.09% | 최대주주 (2025.9.5 유상증자 참여) |
+- [SK이노베이션](/shareholders/SK이노베이션)
+- [최태원](/shareholders/최태원)
 
 ## 밸류체인
 
@@ -53,6 +55,9 @@ SK이노베이션㈜은 [SK그룹](/groups/SK)의 에너지 부문 중간지주 
 
 - [추형욱](/executives/추형욱) — 대표이사 (사내이사, 2024.11.4 취임)
 - [박진회](/executives/박진회) — 사외이사, 이사회 의장 (2022.3~2028.3)
+- [강동수](/executives/강동수)
+- [장용호_SK](/executives/장용호_SK)
+- [최태원_SK](/executives/최태원_SK)
 
 ## 리스크
 

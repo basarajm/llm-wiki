@@ -1,6 +1,7 @@
 ---
 type: Company
 title: BGF푸드
+group: /groups/BGF
 description: BGF리테일의 100% 종속회사로 편의점용 간편식·CK 제품을 제조·유통하는 비상장 식품회사
 is_stub: true
 tags: [기업, 식품, 비상장]

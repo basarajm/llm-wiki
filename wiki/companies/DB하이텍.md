@@ -83,6 +83,7 @@ source_count: 1
 - 최대주주는 **[DB Inc.](/companies/DB Inc.)** (DB그룹 사실상 지주회사, 동일인 김남호 회장이 DB Inc. 지분 16.83% 보유). 공시대상기간 중 최대주주 변동 없음.
 - [DB Inc.](/companies/DB Inc.) 페이지 신규 생성 완료(2026-07-01, DB Inc. 2025 사업보고서 인제스트). `/shareholders/DB Inc.` 노드는 아직 미생성 — todo_shareholders 참조.
 - [국민연금](/shareholders/국민연금)은 기존 위키 노드 존재 — 보유종목 목록에 DB하이텍 추가 필요(양방향).
+- [국민연금공단](/shareholders/국민연금공단)
 
 ## 밸류체인
 

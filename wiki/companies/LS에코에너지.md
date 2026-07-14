@@ -40,6 +40,7 @@ LS에코에너지㈜(영문: LS Eco Energy Ltd.)는 2015년 5월 15일 엘에스
 
 - [엘에스전선(주)](/companies/LS전선) — 63.35% (최대주주) | [기업 페이지](/companies/LS전선)
 - [국민연금공단](/shareholders/국민연금공단) — 5.77%
+- [LS전선](/shareholders/LS전선)
 
 ## 밸류체인
 

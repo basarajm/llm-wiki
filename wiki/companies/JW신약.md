@@ -47,6 +47,7 @@ source_count: 1
 |---|---|---|
 | [JW홀딩스](/companies/JW홀딩스) | 30.72% | 최대주주 · [기업 페이지](/companies/JW홀딩스) |
 | 김용관 | 0.02% | 대표이사 |
+- [JW홀딩스](/shareholders/JW홀딩스)
 
 ## 밸류체인
 

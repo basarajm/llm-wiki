@@ -4,6 +4,7 @@ title: AMS-CHASYS Automotive India Private Limited
 description: 체시스의 인도 종속회사(연결대상), 자동차부품 제조
 market: Foreign
 industry: 자동차부품
+group: /groups/체시스그룹
 is_stub: true
 tags: [기업, 체시스그룹, 인도]
 timestamp: 2026-07-04T00:00:00Z

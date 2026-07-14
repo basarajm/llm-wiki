@@ -16,6 +16,10 @@ source_count: 1
 
 2025년 3월말 기준(연결) 자산총계 2조 3,851억 원, 매출액 1조 6,372억 원, 영업이익 2,101억 원, 당기순이익 1,536억 원.
 
+## 주요 주주
+
+- [NIDEC_INSTRUMENTS_CORPORATION](/shareholders/NIDEC_INSTRUMENTS_CORPORATION)
+
 # Citations
 
 - [에스씨디 2025 사업보고서](/sources/에스씨디_2025_사업보고서)

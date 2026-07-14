@@ -71,6 +71,11 @@ RFHIC US, RFHIC Europe(2025년 08월 신규 설립) 등 4개사(상장 2개, 비
 
 → [KOSDAQ 시장 페이지](/markets/KOSDAQ)
 
+## 주요 주주
+
+- [RFHIC](/shareholders/RFHIC)
+- [RF머트리얼즈](/shareholders/RF머트리얼즈)
+
 # Citations
 
 - [RFHIC 2025 사업보고서](/sources/RFHIC_2025_사업보고서)

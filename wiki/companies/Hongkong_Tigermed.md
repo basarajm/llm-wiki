@@ -13,6 +13,10 @@ is_stub: true
 
 Hongkong Tigermed Co., Ltd는 중국 CRO 대기업 Tigermed(泰格医药) 계열의 홍콩 소재 투자법인으로, 드림씨아이에스의 최대주주(지분 59.34%, 2025년 12월 31일 기준)이다. 2020년 드림씨아이에스 코스닥 상장 이래 최대주주 지위를 유지하고 있다.
 
+## 주요 주주
+
+- [Hongkong_Tigermed](/shareholders/Hongkong_Tigermed)
+
 # Citations
 
 - [드림씨아이에스 2025 사업보고서](/sources/드림씨아이에스_2025_사업보고서)

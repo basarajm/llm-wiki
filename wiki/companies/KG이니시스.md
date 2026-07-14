@@ -42,6 +42,7 @@ source_count: 1
 ## 주요 주주
 
 - [KG케미칼](/shareholders/KG케미칼) — 40.09% (최대주주) | [기업 페이지](/companies/KG케미칼)
+- [KG이니시스](/shareholders/KG이니시스)
 
 ## 밸류체인
 

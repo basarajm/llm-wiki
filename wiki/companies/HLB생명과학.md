@@ -40,6 +40,8 @@ source_count: 1
 |---|---|---|
 | [HLB](/shareholders/HLB) — 16.98% | 최대주주 본인 | 상장기업(코스닥) \| [기업 페이지](/companies/HLB) |
 | 조용호 | 2.63% | 비등기 임원(메디케어사업총괄) |
+- [HLB생명과학](/shareholders/HLB생명과학)
+- [에이치엘비](/shareholders/에이치엘비)
 
 ## 밸류체인
 

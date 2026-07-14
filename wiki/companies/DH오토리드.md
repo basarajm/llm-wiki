@@ -66,6 +66,8 @@ LPG 차량용 연료탱크(LPG BOMBE)·차량용 햅틱모터(HAPTIC MOTOR)·수
 | 기타주주 | 33.22% | — |
 
 주주 구성의 상세 분석·shareholders 페이지 등재 여부는 위키 운영 정책상 별도 트랙에서 처리한다(본 페이지 매니페스트의 `todo_shareholders` 참조).
+- [DH오토리드](/shareholders/DH오토리드)
+- [엔알제일호재기지원펀드투자목적회사](/shareholders/엔알제일호재기지원펀드투자목적회사)
 
 ## 밸류체인
 

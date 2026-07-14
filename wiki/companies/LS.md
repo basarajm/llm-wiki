@@ -58,6 +58,9 @@ source_count: 1
 - ㈜LS 자기주식 — 3,965,097주, 12.51%
 
 > TODO(공유 노드): `/shareholders/국민연금공단` 페이지 신규 생성 및 양방향 링크(`company_page`/보유종목) 필요.
+- [LS전선](/shareholders/LS전선)
+- [구자은](/shareholders/구자은)
+- [엘에스일렉트릭_LS티라유텍_대주주](/shareholders/엘에스일렉트릭_LS티라유텍_대주주)
 
 ## 밸류체인
 
@@ -68,6 +71,7 @@ source_count: 1
 - [명노현](/executives/명노현) — 대표이사/CEO(부회장)
 - [구자은](/executives/구자은) — 사내이사, LS그룹 회장
 - [구자열](/executives/구자열) — 사내이사, 이사회 의장
+- [구자균](/executives/구자균)
 
 ## 신용등급
 

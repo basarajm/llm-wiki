@@ -6,6 +6,7 @@ ticker: "061970"
 market: KOSDAQ
 market_page: /markets/KOSDAQ
 industry: 반도체 패키징(OSAT)
+group: /groups/LB
 is_stub: false
 tags: [기업, 반도체, OSAT, KOSDAQ]
 timestamp: 2026-07-06T09:34:00Z

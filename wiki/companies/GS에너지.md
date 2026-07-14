@@ -27,6 +27,10 @@ GS에너지(GS Energy Corp.)는 2012년 1월 3일 설립된 [GS](/companies/GS)�
 
 > 본 페이지는 [GS](/companies/GS) 인제스트 과정에서 생성된 stub입니다.
 
+## 경영진
+
+- [홍순기](/executives/홍순기)
+
 # Citations
 
 - [GS 2025 사업보고서](/sources/GS_2025_사업보고서)

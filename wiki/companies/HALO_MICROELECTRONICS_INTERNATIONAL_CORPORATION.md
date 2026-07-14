@@ -16,6 +16,14 @@ source_count: 1
 
 → [지니틱스](/companies/지니틱스) 최대주주
 
+## 주요 주주
+
+- [HALO_MICROELECTRONICS_INTERNATIONAL_CORPORATION](/shareholders/HALO_MICROELECTRONICS_INTERNATIONAL_CORPORATION)
+
+## 경영진
+
+- [홍근의](/executives/홍근의)
+
 # Citations
 
 - [지니틱스 2025 사업보고서](/sources/지니틱스_2025_사업보고서)

@@ -89,6 +89,8 @@ source_count: 1
 - (주)KCC는 [노루홀딩스](/companies/노루홀딩스) 지분 9.90%도 보유하고 있음
   (출처: [노루홀딩스 사업보고서](/companies/노루홀딩스)).
 - (주)KCC는 계열회사 [KCC글라스](/companies/KCC글라스) 지분 2.99%를 보유.
+- [KCC](/shareholders/KCC)
+- [케이씨씨건설_대주주](/shareholders/케이씨씨건설_대주주)
 
 ## 밸류체인
 
@@ -99,6 +101,7 @@ source_count: 1
 
 - [정몽진](/executives/정몽진) — 대표이사 회장 (이사회 의장, 최대주주)
 - [정재훈](/executives/정재훈) — 대표이사
+- [정몽열_KCC건설](/executives/정몽열_KCC건설)
 
 ## 신용등급
 

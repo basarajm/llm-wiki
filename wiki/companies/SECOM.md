@@ -21,6 +21,10 @@ SECOM CO., LTD.(セコム)는 1962년 일본에서 설립된 경비·보안 전�
 - 최대주주 지위: [에스원](/companies/에스원) 25.65% 보유
 - 관련 주주 페이지: [SECOM CO., LTD.](/shareholders/SECOM_CO_LTD)
 
+## 경영진
+
+- [하나오카_타쿠로](/executives/하나오카_타쿠로)
+
 # Citations
 
 - [에스원 2025 사업보고서](/sources/에스원_2025_사업보고서)

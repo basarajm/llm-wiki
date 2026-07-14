@@ -41,6 +41,7 @@ source_count: 1
 - 특수관계인 합계(이재현, EFG BANK AG, 이건일, 임성철, 안승준 등 포함) — 58.81%(최대주주 포함)
 
 ※ 상세 주주 정보는 `wiki/shareholders/` 갱신 대상이며 본 페이지에는 개요만 반영. (아래 매니페스트 `todo_shareholders` 참조)
+- [CJ](/shareholders/CJ)
 
 ## 밸류체인
 

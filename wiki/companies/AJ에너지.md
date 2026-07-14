@@ -3,6 +3,7 @@ type: Company
 title: AJ에너지
 description: AJ네트웍스의 100% 자회사 — 유류 도소매업 및 태양광발전 사업
 industry: 에너지 유통
+group: /groups/AJ네트웍스
 is_stub: true
 tags: [기업, 에너지, AJ네트웍스 계열]
 timestamp: 2026-07-01T00:00:00Z

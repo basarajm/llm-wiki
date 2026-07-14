@@ -4,6 +4,7 @@ title: HD현대인프라코어
 description: HD현대그룹 계열 건설기계·엔진 제조사(2026.01.01 HD건설기계에 흡수합병, 소멸법인), 삼성공조 고객사
 market: KOSPI
 industry: 건설기계
+group: /groups/HD현대
 is_stub: true
 tags: [기업, 건설기계, KOSPI, 합병소멸]
 timestamp: 2026-07-03T00:00:00Z

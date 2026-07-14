@@ -67,6 +67,7 @@ Ghost Robotics Corporation 지분 60%를 인수(LNGR LLC 경유)해 무인화·�
 - [차상훈](/executives/차상훈) — 부문장(사내이사, 기업지원부문)
 - [구본상](/executives/구본상) — 경영임원(미등기, 최대주주의 최대주주)
 - [최용준](/executives/최용준) — 기타비상무이사((주)엘아이지 대표이사 겸직)
+- [홍길준_LIG아큐버](/executives/홍길준_LIG아큐버)
 
 ## 리스크
 

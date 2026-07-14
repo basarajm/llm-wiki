@@ -15,6 +15,10 @@ TEL(Tokyo Electron Limited, 도쿄일렉트론)은 일본의 글로벌 반도체
 주요 매출처(내수·수출 공통)이며, 자회사 Tokyo Electron Limited 명의로 하나머티리얼즈 지분
 13.78%(2025년말 기준)를 보유한 5% 이상 주주이기도 합니다.
 
+## 주요 주주
+
+- [Tokyo_Electron_Limited](/shareholders/Tokyo_Electron_Limited)
+
 # Citations
 
 - [하나머티리얼즈 2025 사업보고서](/sources/하나머티리얼즈_2025_사업보고서)

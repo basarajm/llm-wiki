@@ -14,6 +14,10 @@ Sensorview TW Co., Ltd.는 센서뷰가 2019년 대만에 설립하고 2020년 3
 
 → 모회사: [센서뷰](/companies/센서뷰)
 
+## 경영진
+
+- [강경일_센서뷰](/executives/강경일_센서뷰)
+
 # Citations
 
 - source_documents/AnnualReport_MD/센서뷰-사업보고서-2025.12.md

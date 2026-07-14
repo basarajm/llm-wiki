@@ -89,6 +89,8 @@ TV·IT·Mobile·Auto로 매출을 구분한다.
 | 소액주주 | 53.9% | 소액주주 (364,669인) |
 
 - 지배구조: 구광모 → [(주)LG](/companies/LG)(LG전자 지분 35.26%) → [LG전자](/companies/LG전자)(36.72%) → LG디스플레이.
+- [LG디스플레이](/shareholders/LG디스플레이)
+- [국민연금공단](/shareholders/국민연금공단)
 
 ## 밸류체인
 

@@ -77,6 +77,8 @@ DB손해보험(주)은 손해보험업·제3보험업의 계약 체결과 보험
 - 자기주식(DB손해보험 보유): 8,740,531주(발행 대비 14.41%, 의결권 없음).
 - 최대주주 [김남호](/shareholders/김남호)는 개인(KOSPI 비상장)으로 Company 페이지 대상 아님(Shareholder 페이지 후보). [국민연금공단](/shareholders/국민연금공단)은 기존 Shareholder 페이지 존재 — 보유종목에 DB손해보험 추가 검토(bidir_todo).
 - DB김준기문화재단은 비영리법인으로 별도 노드 대상 아님.
+- [DB손해보험](/shareholders/DB손해보험)
+- [김준기](/shareholders/김준기)
 
 ## 밸류체인
 

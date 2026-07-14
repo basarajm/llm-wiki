@@ -62,6 +62,11 @@ SK(주)는 SK그룹의 지주회사로, 1991년 설립되어 2009년 유가증�
 - [최태원](/shareholders/최태원) — 17.90% (최대주주) | [경영진](/executives/최태원_SK)
 - 최기원 — 6.66% (특수관계인)
 - [국민연금공단](/shareholders/국민연금공단) — 7.37%
+- [SK](/shareholders/SK)
+- [SK에코플랜트](/shareholders/SK에코플랜트)
+- [SK이노베이션](/shareholders/SK이노베이션)
+- [SK주식회사](/shareholders/SK주식회사)
+- [최기원](/shareholders/최기원)
 
 ## 밸류체인
 
@@ -74,6 +79,11 @@ SK(주)는 SK그룹의 지주회사로, 1991년 설립되어 2009년 유가증�
 
 - [최태원](/executives/최태원_SK) — 대표이사 회장
 - [장용호](/executives/장용호_SK) — 대표이사 사장
+- [강동수](/executives/강동수)
+- [강동수_SK시그넷](/executives/강동수_SK시그넷)
+- [김연태_에스케이바이오팜](/executives/김연태_에스케이바이오팜)
+- [조원상_SK시그넷](/executives/조원상_SK시그넷)
+- [한명진](/executives/한명진)
 
 ## 리스크
 

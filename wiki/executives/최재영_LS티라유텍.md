@@ -1,7 +1,7 @@
 ---
 type: Executive
 title: 최재영 (LS티라유텍)
-description: LS티라유텍 기타비상무이사, LS ITC 제조DX사업부 이사 겸직 (동명이인 주의: SK리츠 최재영과 별개 인물)
+description: "LS티라유텍 기타비상무이사, LS ITC 제조DX사업부 이사 겸직 (동명이인 주의: SK리츠 최재영과 별개 인물)"
 company: /companies/LS티라유텍
 position: 기타비상무이사
 tags: [임원, LS티라유텍]

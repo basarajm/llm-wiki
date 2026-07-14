@@ -60,6 +60,8 @@ source_count: 1
 
 ※ (주)비지에프의 위키 페이지 존재 여부·상장 여부는 별도 확인 필요(아래 매니페스트 `todo_shareholders`
 참조). Shareholder 페이지는 본 인제스트 범위에서 생성하지 않았다.
+- [BGF](/shareholders/BGF)
+- [홍정혁](/shareholders/홍정혁)
 
 ## 밸류체인
 
@@ -69,6 +71,7 @@ source_count: 1
 ## 경영진
 
 - [홍정혁](/executives/홍정혁) — 대표이사 (2021년 12월 취임)
+- [양재석](/executives/양재석)
 
 ## 리스크
 

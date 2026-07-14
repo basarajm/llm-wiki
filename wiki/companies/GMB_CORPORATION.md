@@ -4,6 +4,7 @@ title: GMB CORPORATION
 description: 일본 도쿄증권거래소 상장 자동차부품 제조사(Water Pump·Universal Joint 등), 지엠비코리아의 최대주주(모회사)
 market: Foreign
 industry: 자동차부품
+group: /groups/GMB
 is_stub: true
 tags: [기업, 자동차부품, 일본, GMB]
 timestamp: 2026-07-04T00:00:00Z
@@ -24,6 +25,7 @@ timestamp: 2026-07-04T00:00:00Z
 |---|---|---|
 | 마츠오카 노부오 | 18.90% | 최대출자자 |
 | 마츠오카 유키치 | 2.82% | 대표이사 |
+- [GMB_CORPORATION](/shareholders/GMB_CORPORATION)
 
 ## 겸직 임원
 

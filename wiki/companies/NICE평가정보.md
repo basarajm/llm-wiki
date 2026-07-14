@@ -45,6 +45,7 @@ NICE평가정보㈜(NICE Information Service Co., Ltd.)는 1985년 2월 28일 �
 - [NICE홀딩스](/shareholders/NICE홀딩스) — 44.31% | [기업 페이지](/companies/NICE홀딩스)
 - 우리사주조합 — 1.54%
 - 소액주주 — 35.23% (14,117명)
+- [나이스홀딩스](/shareholders/나이스홀딩스)
 
 ## 밸류체인
 

@@ -4,6 +4,7 @@ title: SK실트론
 description: SK그룹 계열 반도체 실리콘 웨이퍼 제조사, 아이에스티이의 반도체장비 고객사·한성크린텍 초순수 공급 고객사
 market: KOSPI
 industry: 반도체 소재
+group: /groups/SK
 is_stub: true
 tags: [기업, 반도체소재, 거래상대방]
 timestamp: 2026-07-10T00:00:00Z

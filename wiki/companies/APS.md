@@ -56,6 +56,7 @@ source_count: 1
 - 우리사주조합 — 지분 0.51%
 
 (shareholders 페이지는 아직 생성되지 않음 — todo_shareholders 참조)
+- [APS](/shareholders/APS)
 
 ## 밸류체인
 

@@ -4,6 +4,7 @@ title: NHN벅스
 description: NHN 계열 음악 스트리밍 서비스 기업 (엔에이치엔벅스㈜)
 market: Private
 industry: 음악 콘텐츠·엔터테인먼트
+group: /groups/NHN
 is_stub: true
 tags: [기업, NHN계열, 음악, stub]
 timestamp: 2026-07-03T00:00:00Z

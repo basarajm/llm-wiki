@@ -56,6 +56,7 @@ LG화학(LG CHEM, LTD.)은 2001년 4월 옛 (주)LG화학에서 인적분할되�
 - [(주)LG](/shareholders/LG) — 31.52% (특수관계인 포함 31.54%), 최대주주 | [기업 페이지](/companies/LG)
 - [LG연암문화재단](/shareholders/LG연암문화재단) — 0.03%, (주)LG의 특수관계법인
 - [국민연금공단](/shareholders/국민연금공단) — 8.56% (보통주 기준 5% 이상 주주)
+- [LG화학](/shareholders/LG화학)
 
 ## 밸류체인
 

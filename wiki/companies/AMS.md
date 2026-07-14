@@ -3,6 +3,7 @@ type: Company
 title: (주)AMS
 description: 체시스 계열 자동차 부품 제조업체, MSHC의 100% 자회사
 industry: 자동차부품
+group: /groups/체시스그룹
 is_stub: true
 tags: [기업, 체시스그룹]
 timestamp: 2026-07-04T00:00:00Z

@@ -58,6 +58,8 @@ KPX홀딩스㈜(KPX HOLDINGS CO., LTD.)는 2006년 9월 KPX케미칼㈜(구 한�
 | [양준영](/executives/양준영) | 12.19% | 대표이사회장, 2025.4.14 최대주주로 변경(특수관계인 합산 47.93%) |
 | ㈜씨케이엔터프라이즈 | 28.89% | 특수관계인(비상장 계열 투자회사, 미확인) |
 | Toyota Tsusho Corporation | 24.86% | 일본 도요타그룹 종합상사 — [TOYOTA통상 페이지](/companies/TOYOTA통상) |
+- [KPX홀딩스](/shareholders/KPX홀딩스)
+- [씨케이엔터프라이즈](/shareholders/씨케이엔터프라이즈)
 
 ## 밸류체인
 
