@@ -6,12 +6,22 @@
 - **라이브:** https://basarajm.github.io/llm-wiki/
 - 콘텐츠 원본: 저장소 루트의 `wiki/` (이 폴더는 빌드 도구·설정만 보관)
 
+## 홈페이지 오버라이드
+
+`wiki/index.md`는 OKF 카탈로그 예약 파일(28,000+ 줄, 전체 페이지 목록)로 Claude의 index-first
+검색에 쓰이는 내부 데이터 파일입니다. 이 파일을 그대로 사이트 루트(`/`)로 빌드하면 브라우저가
+멈출 정도로 무거워지므로, 빌드 시 `../wiki`를 직접 쓰지 않고 **스테이징 폴더에 복사한 뒤
+`index.md`만 가벼운 랜딩 페이지(`site/home-content.md`)로 교체**해서 빌드합니다.
+`wiki/index.md` 원본은 절대 수정하지 않습니다.
+
 ## 로컬 미리보기
 
 ```bash
 cd site
 npm ci
-npx quartz build -d ../wiki -o public --serve   # http://localhost:8080
+rm -rf build-src && cp -r ../wiki build-src
+cp home-content.md build-src/index.md
+npx quartz build -d build-src -o public --serve   # http://localhost:8080
 ```
 
 ## 빌드 + 배포 (수동, 현재 운영 방식)
@@ -20,14 +30,18 @@ GitHub Pages는 `gh-pages` 브랜치(정적 HTML)를 서빙합니다. 콘텐츠�
 
 ```bash
 cd site
-npx quartz build -d ../wiki -o public
+rm -rf build-src && cp -r ../wiki build-src
+cp home-content.md build-src/index.md
+npx quartz build -d build-src -o public
 cd public
 touch .nojekyll                       # Jekyll 처리 방지
+git init -q && git checkout -q -b deploy   # public이 비어있는 상태로 시작하는 경우
 git add -A && git commit -m "deploy"
-git push -f https://github.com/basarajm/llm-wiki.git gh-pages
+git push -f https://github.com/basarajm/llm-wiki.git deploy:gh-pages
 ```
 
-(`site/public`은 자체 git 저장소로 초기화되어 있어 위 명령으로 바로 `gh-pages`에 푸시됩니다.)
+(`site/public`은 이전 배포에서 자체 git 저장소로 남아있을 수 있습니다 — 있으면 `git init` 단계는
+건너뛰고 기존 저장소에 커밋 후 `git push -f origin HEAD:gh-pages`로 푸시하면 됩니다.)
 
 ## (선택) 자동 배포 — GitHub Actions
 
@@ -63,7 +77,10 @@ jobs:
       - working-directory: site
         run: npm ci
       - working-directory: site
-        run: npx quartz build -d ../wiki -o public
+        run: |
+          rm -rf build-src && cp -r ../wiki build-src
+          cp home-content.md build-src/index.md
+          npx quartz build -d build-src -o public
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with: { path: site/public }
