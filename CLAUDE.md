@@ -71,12 +71,18 @@ Claude Code에서는 `.claude\commands\`의 슬래시 커맨드(`/ingest`, `/lin
 | `engine\OPERATIONS.md` | 운영 매뉴얼 |
 | `engine\INSTALL.md` / `engine\PACKAGE.md` | 설치·배포 / 패키지 매니페스트 |
 | `engine\templates\` | 타입별 페이지 템플릿 |
-| `engine\scripts\` | 운영 보조 스크립트 (validate-okf, lint, stats 등) |
+| `engine\scripts\` | 운영 보조 스크립트 (validate-okf, lint, stats, split-report 등) |
+| `engine\cache\` | 스크립트 파생 캐시(예: 챕터 분할 결과) — 재생성 가능, git 추적 제외, 원본 아님 |
 | `.claude\commands\` | Claude Code 슬래시 커맨드 정의 (루트의 `.claude\`) |
 
 > **원본 소스 위치 규칙:** ingest 대상은 기본적으로 `source_documents\AnnualReport_Recent\`에서 찾습니다.
 > 과거·분기·반기 자료가 필요하면 `source_documents\AnnualReport_MD\`를 참조합니다. 신규 파일은
 > `source_documents\raw\`에 둡니다. Claude는 `source_documents\` 원본을 절대 수정하지 않습니다.
+
+> **대용량 원본 처리 규칙:** 원본 파일이 크면(대략 200KB 이상) 전체를 Read하지 말고 먼저
+> `engine\scripts\split-report.ps1 -Path <원본경로>`로 챕터(I~XII) 단위 분할 캐시를 생성한 뒤,
+> `engine\cache\report-chapters\<파일명>\_manifest.md`를 확인해 필요한 챕터 파일만 Read합니다.
+> 상세 매핑은 `engine\OPERATIONS.md` > "1. Ingest" > "대용량 원본 분할" 참조.
 
 ---
 

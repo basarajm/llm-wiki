@@ -14,5 +14,7 @@ argument-hint: [파일명 | 폴더 | --dry-run 폴더]
 1. 시작 시 `engine\taxonomy.md`, `wiki\index.md`를 아직 안 읽었으면 읽는다.
 2. 미처리 파일 판별: `wiki\sources\`에 `resource:`로 참조되지 않은 원본만 대상(`engine\scripts\list-pending.ps1` 활용 가능).
 3. 버전 중복(`[기재정정]`·`첨부00760/00761`)은 대표본 우선 규칙으로 정리.
-4. 파일별 end-to-end 처리(모두 `wiki\` 하위): sources → company/group/industry/segment/product/shareholder/executive/(금융)financial_product·rating → stub 노드화 → 양방향 링크.
-5. 각 파일 완료 후 `[N/전체] 파일명 완료` 보고, 전체 완료 후 요약, `wiki\log.md` 기록.
+4. 원본이 크면(대략 200KB 이상) 전체를 Read하지 말고 `engine\scripts\split-report.ps1 -Path <원본>`으로 챕터 분할 후
+   `engine\cache\report-chapters\<파일명>\_manifest.md`를 보고 필요한 챕터만 Read (`engine\OPERATIONS.md` > "대용량 원본 분할" 참조).
+5. 파일별 end-to-end 처리(모두 `wiki\` 하위): sources → company/group/industry/segment/product/shareholder/executive/(금융)financial_product·rating → stub 노드화 → 양방향 링크.
+6. 각 파일 완료 후 `[N/전체] 파일명 완료` 보고, 전체 완료 후 요약, `wiki\log.md` 기록.

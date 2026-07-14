@@ -106,6 +106,42 @@ python run.py --no-resume     # 진행기록 무시하고 처음부터
 
 ---
 
+## 챕터 분할 (토큰 절약, 2026-07-14 추가)
+
+이 파이프라인이 만든 MD(또는 `source_documents/AnnualReport_Recent|MD/`에 있는 동일 포맷 MD)는
+한 파일이 수백 KB~수 MB에 달해, 다운스트림 에이전트(위키 인제스트 등)가 매번 전체를 통째로
+읽으면 토큰이 크게 낭비됩니다. `engine/scripts/split-report.ps1`이 이 문제를 해결합니다.
+
+**하는 일**: DART 사업보고서 표준 목차(`## I. 회사의 개요` ~ `## XII. 상세표`, 총 12개 장)를
+정규식으로 찾아, 원본을 건드리지 않고 장(chapter) 단위 파일 + 매니페스트로 쪼갭니다.
+분할 자체는 PowerShell 프로세스 내 파일 I/O로만 수행되어 **LLM 토큰을 소비하지 않습니다** —
+토큰 절약은 이후 에이전트가 전체가 아니라 필요한 챕터 파일만 Read할 때 실현됩니다.
+
+```powershell
+# 파일 하나
+.\engine\scripts\split-report.ps1 -Path "source_documents\AnnualReport_Recent\LG전자-사업보고서-2025.12.md"
+
+# 폴더 전체 일괄 (이미 분할된 파일은 자동 스킵, 재생성은 -Force)
+.\engine\scripts\split-report.ps1 -Folder "source_documents\AnnualReport_MD"
+```
+
+**출력**: `engine\cache\report-chapters\<원본파일명(확장자 제외)>\` (git 추적 제외, 언제든 재생성 가능)
+- `00_머리말.md` — 표지·목차·정정신고 등 첫 챕터 이전 내용
+- `01_I_회사의개요.md` ~ `12_XII_상세표.md` — 장별 본문
+- `_manifest.md` — 장 번호·제목·파일명·문자수 표 (다른 에이전트가 이 표만 보고 어떤 파일을 Read할지 판단)
+
+**표준 구조가 아닌 경우**: `## I.`~`## XII.` 헤더를 하나도 못 찾으면 경고만 출력하고 스킵합니다
+(원본 손상 — 예: 개행 소실로 전체 본문이 한 줄에 뭉친 경우 — 또는 변환 과정에서 후반부 챕터의
+헤더 서식이 소실된 경우). 이런 파일은 통째로 Read하거나 이 파이프라인(`md_converter.py`)으로
+재변환을 검토하세요.
+
+**다른 에이전트가 쓸 때 권장 절차**: (1) 원본이 대략 200KB를 넘으면 위 명령으로 먼저 분할 →
+(2) `_manifest.md`를 읽고 필요한 챕터만 골라 Read → (3) 어떤 챕터가 어떤 정보를 담는지는
+`engine/OPERATIONS.md` > "1. Ingest" > "대용량 원본 분할" 표 참조 (예: 주주 → VII, 임원 → VIII,
+계열회사 → IX, 재무 → III).
+
+---
+
 ## 로컬 아카이브 기반 인제스트 (DART API 키 없이, 2026-07-01 추가)
 
 `dart_md/`는 `.gitignore` 대상이라 다른 PC에서는 비어 있고, 채우려면 DART API 키로

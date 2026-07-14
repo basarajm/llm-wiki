@@ -1,6 +1,9 @@
 # 생성물
 wiki/viz.html
 
+# 원본 사업보고서 챕터 분할 캐시 (source_documents에서 재생성 가능, 원본 아님)
+engine/cache/
+
 # === DART 다운로드 파이프라인 ===
 # config.py 는 API 키를 하드코딩하지 않으므로(환경변수/CLI 주입) 커밋 대상에 포함합니다.
 # 체크포인트·실패로그·대상목록

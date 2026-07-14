@@ -58,6 +58,33 @@
 **처리 절차:** `CLAUDE.md` > Ingest 참조. 핵심은 sources 요약 → company/group/industry/segment/
 product/shareholder/executive/(금융)financial_product·rating 갱신 → stub 노드화 → 양방향 링크 → index·log.
 
+**대용량 원본 분할 (토큰 절약):**
+
+사업보고서 원문은 수백 KB~수 MB에 달해, 매번 전체를 Read하면 토큰이 크게 소모됩니다.
+원본이 대략 200KB를 넘으면 아래 순서로 처리합니다.
+
+1. 분할 캐시 생성: `engine\scripts\split-report.ps1 -Path <원본경로>` (폴더 전체는 `-Folder <폴더>`, 재생성은 `-Force`)
+   - 결과는 `engine\cache\report-chapters\<원본파일명(확장자 제외)>\`에 생성됨 (원본은 수정하지 않음, git 추적 제외)
+   - `00_머리말.md`(표지·목차·정정신고), `01_I_...md` ~ `12_XII_...md`(챕터별), `_manifest.md`(챕터·파일명·문자수 표)
+   - 표준 `## I.`~`## XII.` 챕터 헤더를 못 찾으면 경고만 출력하고 스킵 — 원본이 손상됐거나(예: 개행 소실로 한 줄에
+     수 MB가 뭉친 경우) 변환 과정에서 후반부 챕터의 헤더 서식이 소실된 경우이니, 그 파일은 통짜로 Read하거나
+     `dart_pipeline`에서 재변환을 검토
+2. `_manifest.md`를 읽고 지금 작업에 필요한 챕터 파일만 Read (전체를 다시 Read하지 않음)
+3. 위키 페이지 타입별로 필요한 챕터는 대략 다음과 같음(모든 페이지에서 모든 챕터가 필요한 것은 아님):
+
+| 챕터 | 주로 쓰이는 페이지 |
+|---|---|
+| I. 회사의 개요 | company(기본정보·연혁·자본금·주식총수) |
+| II. 사업의 내용 | company·industry·segment·product·value_chain |
+| III. 재무에 관한 사항 | company(재무지표)·financial_products(금융사) — 챕터 자체가 클 수 있어 필요한 절만 발췌 |
+| IV. 이사의 경영진단 및 분석의견 | company(경영진단 요약) |
+| VI. 이사회 등 회사의 기관에 관한 사항 | executives |
+| VII. 주주에 관한 사항 | shareholders |
+| VIII. 임원 및 직원 등에 관한 사항 | executives |
+| IX. 계열회사 등에 관한 사항 | groups |
+| X. 대주주 등과의 거래내용 | shareholders·value_chain |
+| XII. 상세표 | products(연구개발실적 등, 필요시만) |
+
 ---
 
 ## 2. Lint — 위키 검진
