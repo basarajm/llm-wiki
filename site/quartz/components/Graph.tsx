@@ -49,7 +49,9 @@ const defaultOptions: GraphOptions = {
   globalGraph: {
     drag: true,
     zoom: true,
-    depth: -1,
+    // 초기 화면은 현재 페이지를 중심으로 1단계 이웃만 보여준다.
+    // 더 넓게 보고 싶으면 툴바의 "단계" 선택으로 직접 넓히거나 노드를 클릭해 확장한다.
+    depth: 1,
     scale: 0.9,
     repelForce: 0.5,
     centerForce: 0.2,
@@ -60,6 +62,7 @@ const defaultOptions: GraphOptions = {
     removeTags: [],
     focusOnHover: true,
     enableRadial: true,
+    // 클릭으로 계속 확장해도 한 화면에서 감당 가능한 상한선(안전장치)
     maxNodes: 500,
   },
 }
@@ -101,7 +104,26 @@ export default ((opts?: Partial<GraphOptions>) => {
           </button>
         </div>
         <div class="global-graph-outer">
-          <div class="global-graph-container" data-cfg={JSON.stringify(globalGraph)}></div>
+          <div class="global-graph-container">
+            <div class="global-graph-toolbar">
+              <label class="graph-depth-label">
+                단계
+                <select class="graph-depth-select" aria-label="중심 노드로부터 표시할 단계 수">
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                </select>
+              </label>
+              <button class="graph-back-btn" type="button" disabled>
+                ← 이전
+              </button>
+              <button class="graph-clear-btn" type="button">
+                초기화
+              </button>
+              <span class="graph-hint">클릭: 노드 확장 · 더블클릭: 페이지 이동</span>
+            </div>
+            <div class="global-graph-canvas" data-cfg={JSON.stringify(globalGraph)}></div>
+          </div>
         </div>
       </div>
     )

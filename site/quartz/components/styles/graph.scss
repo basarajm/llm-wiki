@@ -64,9 +64,64 @@
       transform: translate(-50%, -50%);
       height: 80vh;
       width: 80vw;
+      display: flex;
+      flex-direction: column;
 
       @media all and not ($desktop) {
         width: 90%;
+      }
+
+      & > .global-graph-toolbar {
+        display: flex;
+        align-items: center;
+        gap: 0.6rem;
+        flex-wrap: wrap;
+        padding: 0.5rem 0.75rem;
+        border-bottom: 1px solid var(--lightgray);
+        font-size: 0.8rem;
+        color: var(--darkgray);
+        flex: 0 0 auto;
+
+        & .graph-depth-label {
+          display: flex;
+          align-items: center;
+          gap: 0.3rem;
+        }
+
+        & select,
+        & button {
+          font: inherit;
+          color: inherit;
+          background-color: var(--lightgray);
+          border: 1px solid var(--gray);
+          border-radius: 4px;
+          padding: 0.15rem 0.5rem;
+          cursor: pointer;
+
+          &:disabled {
+            opacity: 0.4;
+            cursor: default;
+          }
+
+          &:hover:not(:disabled) {
+            background-color: var(--gray);
+          }
+        }
+
+        & .graph-hint {
+          margin-left: auto;
+          opacity: 0.6;
+
+          @media all and not ($desktop) {
+            display: none;
+          }
+        }
+      }
+
+      & > .global-graph-canvas {
+        position: relative;
+        flex: 1 1 auto;
+        min-height: 0;
       }
     }
   }
