@@ -87,6 +87,7 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
     showTags,
     focusOnHover,
     enableRadial,
+    maxNodes,
   } = JSON.parse(graph.dataset["cfg"]!) as D3Config
 
   const data: Map<SimpleSlug, ContentDetails> = new Map(
@@ -96,7 +97,6 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
     ]),
   )
   const links: SimpleLinkData[] = []
-  const tags: SimpleSlug[] = []
   const validLinks = new Set(data.keys())
 
   const tweens = new Map<string, TweenNode>()
@@ -114,33 +114,41 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
         .filter((tag) => !removeTags.includes(tag))
         .map((tag) => simplifySlug(("tags/" + tag) as FullSlug))
 
-      tags.push(...localTags.filter((tag) => !tags.includes(tag)))
-
       for (const tag of localTags) {
         links.push({ source: source, target: tag })
       }
     }
   }
 
+  // 소스/타겟별로 미리 색인해두면 BFS 중 노드마다 전체 links 배열을 다시
+  // 스캔하지 않아도 된다 (수만 페이지 규모에서 그래프가 멈추는 원인이었음)
+  const outgoingIndex = new Map<SimpleSlug, SimpleSlug[]>()
+  const incomingIndex = new Map<SimpleSlug, SimpleSlug[]>()
+  for (const l of links) {
+    if (!outgoingIndex.has(l.source)) outgoingIndex.set(l.source, [])
+    outgoingIndex.get(l.source)!.push(l.target)
+    if (!incomingIndex.has(l.target)) incomingIndex.set(l.target, [])
+    incomingIndex.get(l.target)!.push(l.source)
+  }
+
+  // depth < 0("global" graph)이어도 사이트 전체를 무제한으로 펼치지 않는다 —
+  // 현재 페이지에서부터 넓혀가되 maxNodes에 도달하면 그 자리에서 멈춘다.
   const neighbourhood = new Set<SimpleSlug>()
   const wl: (SimpleSlug | "__SENTINEL")[] = [slug, "__SENTINEL"]
-  if (depth >= 0) {
-    while (depth >= 0 && wl.length > 0) {
-      // compute neighbours
-      const cur = wl.shift()!
-      if (cur === "__SENTINEL") {
-        depth--
-        wl.push("__SENTINEL")
-      } else {
-        neighbourhood.add(cur)
-        const outgoing = links.filter((l) => l.source === cur)
-        const incoming = links.filter((l) => l.target === cur)
-        wl.push(...outgoing.map((l) => l.target), ...incoming.map((l) => l.source))
+  const unlimitedDepth = depth < 0
+  let remainingDepth = depth
+  while (wl.length > 0 && neighbourhood.size < maxNodes) {
+    const cur = wl.shift()!
+    if (cur === "__SENTINEL") {
+      if (!unlimitedDepth) {
+        remainingDepth--
+        if (remainingDepth < 0) break
       }
+      if (wl.length > 0) wl.push("__SENTINEL")
+    } else if (!neighbourhood.has(cur)) {
+      neighbourhood.add(cur)
+      wl.push(...(outgoingIndex.get(cur) ?? []), ...(incomingIndex.get(cur) ?? []))
     }
-  } else {
-    validLinks.forEach((id) => neighbourhood.add(id))
-    if (showTags) tags.forEach((tag) => neighbourhood.add(tag))
   }
 
   const nodes = [...neighbourhood].map((url) => {

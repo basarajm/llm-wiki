@@ -20,6 +20,30 @@ type FolderState = {
 }
 
 let currentExplorerState: Array<FolderState>
+
+// 접힌 폴더의 하위 노드는 DOM에 만들지 않고 트라이 노드만 보관해뒀다가
+// 실제로 펼칠 때(toggleFolder) 그때 생성한다 — 사이트 전체(28,000+ 페이지)를
+// 매 페이지 로드마다 통째로 DOM에 그려 넣던 문제를 피하기 위함
+const unpopulatedFolders = new WeakMap<HTMLUListElement, FileTrieNode>()
+let lastExplorerContext: { currentSlug: FullSlug; opts: ParsedOptions } | undefined
+
+function populateChildren(ul: HTMLUListElement | null) {
+  if (!ul || !lastExplorerContext) return
+  const node = unpopulatedFolders.get(ul)
+  if (!node) return
+  unpopulatedFolders.delete(ul)
+
+  const { currentSlug, opts } = lastExplorerContext
+  const fragment = document.createDocumentFragment()
+  for (const child of node.children) {
+    const childNode = child.isFolder
+      ? createFolderNode(currentSlug, child, opts)
+      : createFileNode(currentSlug, child)
+    fragment.appendChild(childNode)
+  }
+  ul.appendChild(fragment)
+}
+
 function toggleExplorer(this: HTMLElement) {
   const nearestExplorer = this.closest(".explorer") as HTMLElement
   if (!nearestExplorer) return
@@ -62,6 +86,10 @@ function toggleFolder(evt: MouseEvent) {
   // Collapse folder container
   const isCollapsed = !childFolderContainer.classList.contains("open")
   setFolderState(childFolderContainer, isCollapsed)
+
+  if (!isCollapsed) {
+    populateChildren(childFolderContainer.querySelector("ul.content") as HTMLUListElement | null)
+  }
 
   const currentFolderState = currentExplorerState.find(
     (item) => item.path === folderContainer.dataset.folderpath,
@@ -141,14 +169,17 @@ function createFolderNode(
     simpleFolderPath === currentSlug.slice(0, simpleFolderPath.length)
 
   if (!isCollapsed || folderIsPrefixOfCurrentSlug) {
+    // 펼쳐진 상태로 시작하는 폴더(현재 페이지의 상위 경로 포함)만 즉시 채운다
     folderOuter.classList.add("open")
-  }
-
-  for (const child of node.children) {
-    const childNode = child.isFolder
-      ? createFolderNode(currentSlug, child, opts)
-      : createFileNode(currentSlug, child)
-    ul.appendChild(childNode)
+    for (const child of node.children) {
+      const childNode = child.isFolder
+        ? createFolderNode(currentSlug, child, opts)
+        : createFileNode(currentSlug, child)
+      ul.appendChild(childNode)
+    }
+  } else if (node.children.length > 0) {
+    // 접힌 폴더는 실제로 펼칠 때까지 하위 노드를 만들지 않는다
+    unpopulatedFolders.set(ul, node)
   }
 
   return li
@@ -168,6 +199,7 @@ async function setupExplorer(currentSlug: FullSlug) {
       filterFn: new Function("return " + (dataFns.filterFn || "undefined"))(),
       mapFn: new Function("return " + (dataFns.mapFn || "undefined"))(),
     }
+    lastExplorerContext = { currentSlug, opts }
 
     // Get folder state from local storage
     const storageTree = localStorage.getItem("fileTree")

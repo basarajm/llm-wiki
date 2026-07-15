@@ -110,6 +110,7 @@ export const FrontMatter: QuartzTransformerPlugin<Partial<Options>> = (userOpts)
               "lastmod",
               "updated",
               "last-modified",
+              "timestamp", // 위키 OKF 프론트매터 표준 필드 (engine/OPERATIONS.md)
             ])
             if (modified) data.modified = modified
             data.modified ||= created // if modified is not set, use created

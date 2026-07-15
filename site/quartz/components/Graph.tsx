@@ -19,6 +19,9 @@ export interface D3Config {
   showTags: boolean
   focusOnHover?: boolean
   enableRadial?: boolean
+  // 사이트 규모(수만 페이지)에 비례해 그래프가 무한정 커지는 것을 막는 상한선.
+  // depth로 도달 가능한 이웃 수가 이 값을 넘으면 그 지점에서 확장을 멈춘다.
+  maxNodes: number
 }
 
 interface GraphOptions {
@@ -41,6 +44,7 @@ const defaultOptions: GraphOptions = {
     removeTags: [],
     focusOnHover: false,
     enableRadial: false,
+    maxNodes: 400,
   },
   globalGraph: {
     drag: true,
@@ -56,6 +60,7 @@ const defaultOptions: GraphOptions = {
     removeTags: [],
     focusOnHover: true,
     enableRadial: true,
+    maxNodes: 500,
   },
 }
 

@@ -4,7 +4,7 @@ description: DART 사업보고서 기반 한국 상장기업 리서치 위키 �
 ---
 
 DART 사업보고서를 기반으로 한국 상장기업(KOSPI·KOSDAQ)과 그 주주·계열사·공급망·경영진을 서로 연결한 리서치 위키입니다.
-우측 상단 검색 아이콘 또는 `/` 키로 기업명·키워드를 검색해 시작하세요.
+위 검색창에 기업명이나 키워드를 입력해 시작하거나, 아래 최근 업데이트·무작위 링크를 눌러 가볍게 둘러보세요.
 
 ## 현황 (2026-07-14 기준)
 
@@ -28,15 +28,5 @@ DART 사업보고서를 기반으로 한국 상장기업(KOSPI·KOSDAQ)과 그 �
 - [산업 분류 목록](/industries/)
 - [분석 결과물(Outputs)](/outputs/)
 
-## 최근 업데이트
-
-- 위키 전체 lint 재검진 및 정정 조치 완료 — 시장 페이지 정합성, 링크 인코딩, 양방향 링크 99% 해소 ([리포트](/outputs/lint-report-2026-07-14))
-- [기업별 핵심 키워드 추출 시범](/outputs/company-keywords-pilot-2026-07-14) (대형주 151개사) 및 [고도화 2차 시범](/outputs/company-keywords-pilot-v2-2026-07-14) (30개사)
-- 국민연금(NPS) 보유 종목 154개사 지분 분석
-- KOSPI·KOSDAQ 로컬 아카이브 배치 인제스트 지속 진행 중
-
-## 전체 카탈로그
-
-7,000개 이상의 기업을 포함한 전체 목록은 파일이 매우 커 브라우저에서 직접 열람하기보다는
-검색 기능을 사용하시길 권장합니다. 전체 카탈로그가 필요하면 저장소의
-[`wiki/index.md`](https://github.com/basarajm/llm-wiki/blob/main/wiki/index.md)를 참고하세요.
+전체 카탈로그(7,000개 이상 기업)는 브라우저에서 직접 열람하기보다 검색을 권장합니다. 필요하면
+저장소의 [`wiki/index.md`](https://github.com/basarajm/llm-wiki/blob/main/wiki/index.md)를 참고하세요.
