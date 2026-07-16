@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="ko" dir="ltr"><head><title>기업별 핵심 키워드 추출 v2 (고도화 시범, 30개사) · LLM Wiki</title><meta charset="utf-8"/><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com"/><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Schibsted Grotesk:wght@400;700&amp;family=Source Sans Pro:ital,wght@0,400;0,600;1,400;1,600&amp;family=IBM Plex Mono:wght@400;600&amp;display=swap"/><link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin="anonymous"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta name="og:site_name" content="한국 기업 리서치 위키"/><meta property="og:title" content="기업별 핵심 키워드 추출 v2 (고도화 시범, 30개사) · LLM Wiki"/><meta property="og:type" content="website"/><meta name="twitter:card" content="summary_large_image"/><meta name="twitter:title" content="기업별 핵심 키워드 추출 v2 (고도화 시범, 30개사) · LLM Wiki"/><meta name="twitter:description" content="기존 시범(151개사) 대비 로직을 고도화하여 사업/재무 키워드 확대 및 최근 뉴스 키워드를 추가한 2차 시범 분석"/><meta property="og:description" content="기존 시범(151개사) 대비 로직을 고도화하여 사업/재무 키워드 확대 및 최근 뉴스 키워드를 추가한 2차 시범 분석"/><meta property="og:image:alt" content="기존 시범(151개사) 대비 로직을 고도화하여 사업/재무 키워드 확대 및 최근 뉴스 키워드를 추가한 2차 시범 분석"/><meta property="og:image" content="https://basarajm.github.io/llm-wiki/static/og-image.png"/><meta property="og:image:url" content="https://basarajm.github.io/llm-wiki/static/og-image.png"/><meta name="twitter:image" content="https://basarajm.github.io/llm-wiki/static/og-image.png"/><meta property="og:image:type" content="image/.png"/><meta property="twitter:domain" content="basarajm.github.io/llm-wiki"/><meta property="og:url" content="https://basarajm.github.io/llm-wiki/outputs/company-keywords-pilot-v2-2026-07-14"/><meta property="twitter:url" content="https://basarajm.github.io/llm-wiki/outputs/company-keywords-pilot-v2-2026-07-14"/><link rel="icon" href="../static/icon.png"/><meta name="description" content="기존 시범(151개사) 대비 로직을 고도화하여 사업/재무 키워드 확대 및 최근 뉴스 키워드를 추가한 2차 시범 분석"/><meta name="generator" content="Quartz"/><link href="../index.css" rel="stylesheet" type="text/css" data-persist="true"/><style>.expand-button {
+  position: absolute;
+  display: flex;
+  float: right;
+  padding: 0.4rem;
+  margin: 0.3rem;
+  right: 0;
+  color: var(--gray);
+  border-color: var(--dark);
+  background-color: var(--light);
+  border: 1px solid;
+  border-radius: 5px;
+  opacity: 0;
+  transition: 0.2s;
+}
+.expand-button > svg {
+  fill: var(--light);
+  filter: contrast(0.3);
+}
+.expand-button:hover {
+  cursor: pointer;
+  border-color: var(--secondary);
+}
+.expand-button:focus {
+  outline: 0;
+}
+
+pre:hover > .expand-button {
+  opacity: 1;
+  transition: 0.2s;
+}
+
+#mermaid-container {
+  position: fixed;
+  contain: layout;
+  z-index: 999;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  display: none;
+  backdrop-filter: blur(4px);
+  background: rgba(0, 0, 0, 0.5);
+}
+#mermaid-container.active {
+  display: inline-block;
+}
+#mermaid-container > #mermaid-space {
+  border: 1px solid var(--lightgray);
+  background-color: var(--light);
+  border-radius: 5px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 80vh;
+  width: 80vw;
+  overflow: hidden;
+}
+#mermaid-container > #mermaid-space > .mermaid-content {
+  position: relative;
+  transform-origin: 0 0;
+  transition: transform 0.1s ease;
+  overflow: visible;
+  min-height: 200px;
+  min-width: 200px;
+}
+#mermaid-container > #mermaid-space > .mermaid-content pre {
+  margin: 0;
+  border: none;
+}
+#mermaid-container > #mermaid-space > .mermaid-content svg {
+  max-width: none;
+  height: auto;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+  gap: 8px;
+  padding: 8px;
+  background: var(--light);
+  border: 1px solid var(--lightgray);
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 2;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  border: 1px solid var(--lightgray);
+  background: var(--light);
+  color: var(--dark);
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  font-family: var(--bodyFont);
+  transition: all 0.2s ease;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:hover {
+  background: var(--lightgray);
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:active {
+  transform: translateY(1px);
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:nth-child(2) {
+  width: auto;
+  padding: 0 12px;
+  font-size: 14px;
+}
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VSb290IjoiQzpcXFVzZXJzXFxMSk1cXC5DbGF1ZGVQcm9qZWN0XFxMTE1XaWtpXFxzaXRlXFxxdWFydHpcXGNvbXBvbmVudHNcXHN0eWxlcyIsInNvdXJjZXMiOlsibWVybWFpZC5pbmxpbmUuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNFO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBOztBQUVBO0VBQ0U7RUFDQTs7QUFHRjtFQUNFO0VBQ0E7O0FBR0Y7RUFDRTs7O0FBS0Y7RUFDRTtFQUNBOzs7QUFJSjtFQUNFO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7O0FBRUE7RUFDRTs7QUFHRjtFQUNFO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBOztBQUVBO0VBQ0U7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBOztBQUVBO0VBQ0U7RUFDQTs7QUFHRjtFQUNFO0VBQ0E7O0FBSUo7RUFDRTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBOztBQUVBO0VBQ0U7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTs7QUFFQTtFQUNFOztBQUdGO0VBQ0U7O0FBSUY7RUFDRTtFQUNBO0VBQ0EiLCJzb3VyY2VzQ29udGVudCI6WyIuZXhwYW5kLWJ1dHRvbiB7XG4gIHBvc2l0aW9uOiBhYnNvbHV0ZTtcbiAgZGlzcGxheTogZmxleDtcbiAgZmxvYXQ6IHJpZ2h0O1xuICBwYWRkaW5nOiAwLjRyZW07XG4gIG1hcmdpbjogMC4zcmVtO1xuICByaWdodDogMDsgLy8gTk9URTogcmlnaHQgd2lsbCBiZSBzZXQgaW4gbWVybWFpZC5pbmxpbmUudHNcbiAgY29sb3I6IHZhcigtLWdyYXkpO1xuICBib3JkZXItY29sb3I6IHZhcigtLWRhcmspO1xuICBiYWNrZ3JvdW5kLWNvbG9yOiB2YXIoLS1saWdodCk7XG4gIGJvcmRlcjogMXB4IHNvbGlkO1xuICBib3JkZXItcmFkaXVzOiA1cHg7XG4gIG9wYWNpdHk6IDA7XG4gIHRyYW5zaXRpb246IDAuMnM7XG5cbiAgJiA+IHN2ZyB7XG4gICAgZmlsbDogdmFyKC0tbGlnaHQpO1xuICAgIGZpbHRlcjogY29udHJhc3QoMC4zKTtcbiAgfVxuXG4gICY6aG92ZXIge1xuICAgIGN1cnNvcjogcG9pbnRlcjtcbiAgICBib3JkZXItY29sb3I6IHZhcigtLXNlY29uZGFyeSk7XG4gIH1cblxuICAmOmZvY3VzIHtcbiAgICBvdXRsaW5lOiAwO1xuICB9XG59XG5cbnByZSB7XG4gICY6aG92ZXIgPiAuZXhwYW5kLWJ1dHRvbiB7XG4gICAgb3BhY2l0eTogMTtcbiAgICB0cmFuc2l0aW9uOiAwLjJzO1xuICB9XG59XG5cbiNtZXJtYWlkLWNvbnRhaW5lciB7XG4gIHBvc2l0aW9uOiBmaXhlZDtcbiAgY29udGFpbjogbGF5b3V0O1xuICB6LWluZGV4OiA5OTk7XG4gIGxlZnQ6IDA7XG4gIHRvcDogMDtcbiAgd2lkdGg6IDEwMHZ3O1xuICBoZWlnaHQ6IDEwMHZoO1xuICBvdmVyZmxvdzogaGlkZGVuO1xuICBkaXNwbGF5OiBub25lO1xuICBiYWNrZHJvcC1maWx0ZXI6IGJsdXIoNHB4KTtcbiAgYmFja2dyb3VuZDogcmdiYSgwLCAwLCAwLCAwLjUpO1xuXG4gICYuYWN0aXZlIHtcbiAgICBkaXNwbGF5OiBpbmxpbmUtYmxvY2s7XG4gIH1cblxuICAmID4gI21lcm1haWQtc3BhY2Uge1xuICAgIGJvcmRlcjogMXB4IHNvbGlkIHZhcigtLWxpZ2h0Z3JheSk7XG4gICAgYmFja2dyb3VuZC1jb2xvcjogdmFyKC0tbGlnaHQpO1xuICAgIGJvcmRlci1yYWRpdXM6IDVweDtcbiAgICBwb3NpdGlvbjogZml4ZWQ7XG4gICAgdG9wOiA1MCU7XG4gICAgbGVmdDogNTAlO1xuICAgIHRyYW5zZm9ybTogdHJhbnNsYXRlKC01MCUsIC01MCUpO1xuICAgIGhlaWdodDogODB2aDtcbiAgICB3aWR0aDogODB2dztcbiAgICBvdmVyZmxvdzogaGlkZGVuO1xuXG4gICAgJiA+IC5tZXJtYWlkLWNvbnRlbnQge1xuICAgICAgcG9zaXRpb246IHJlbGF0aXZlO1xuICAgICAgdHJhbnNmb3JtLW9yaWdpbjogMCAwO1xuICAgICAgdHJhbnNpdGlvbjogdHJhbnNmb3JtIDAuMXMgZWFzZTtcbiAgICAgIG92ZXJmbG93OiB2aXNpYmxlO1xuICAgICAgbWluLWhlaWdodDogMjAwcHg7XG4gICAgICBtaW4td2lkdGg6IDIwMHB4O1xuXG4gICAgICBwcmUge1xuICAgICAgICBtYXJnaW46IDA7XG4gICAgICAgIGJvcmRlcjogbm9uZTtcbiAgICAgIH1cblxuICAgICAgc3ZnIHtcbiAgICAgICAgbWF4LXdpZHRoOiBub25lO1xuICAgICAgICBoZWlnaHQ6IGF1dG87XG4gICAgICB9XG4gICAgfVxuXG4gICAgJiA+IC5tZXJtYWlkLWNvbnRyb2xzIHtcbiAgICAgIHBvc2l0aW9uOiBhYnNvbHV0ZTtcbiAgICAgIGJvdHRvbTogMjBweDtcbiAgICAgIHJpZ2h0OiAyMHB4O1xuICAgICAgZGlzcGxheTogZmxleDtcbiAgICAgIGdhcDogOHB4O1xuICAgICAgcGFkZGluZzogOHB4O1xuICAgICAgYmFja2dyb3VuZDogdmFyKC0tbGlnaHQpO1xuICAgICAgYm9yZGVyOiAxcHggc29saWQgdmFyKC0tbGlnaHRncmF5KTtcbiAgICAgIGJvcmRlci1yYWRpdXM6IDZweDtcbiAgICAgIGJveC1zaGFkb3c6IDAgMnB4IDRweCByZ2JhKDAsIDAsIDAsIDAuMSk7XG4gICAgICB6LWluZGV4OiAyO1xuXG4gICAgICAubWVybWFpZC1jb250cm9sLWJ1dHRvbiB7XG4gICAgICAgIGRpc3BsYXk6IGZsZXg7XG4gICAgICAgIGFsaWduLWl0ZW1zOiBjZW50ZXI7XG4gICAgICAgIGp1c3RpZnktY29udGVudDogY2VudGVyO1xuICAgICAgICB3aWR0aDogMzJweDtcbiAgICAgICAgaGVpZ2h0OiAzMnB4O1xuICAgICAgICBwYWRkaW5nOiAwO1xuICAgICAgICBib3JkZXI6IDFweCBzb2xpZCB2YXIoLS1saWdodGdyYXkpO1xuICAgICAgICBiYWNrZ3JvdW5kOiB2YXIoLS1saWdodCk7XG4gICAgICAgIGNvbG9yOiB2YXIoLS1kYXJrKTtcbiAgICAgICAgYm9yZGVyLXJhZGl1czogNHB4O1xuICAgICAgICBjdXJzb3I6IHBvaW50ZXI7XG4gICAgICAgIGZvbnQtc2l6ZTogMTZweDtcbiAgICAgICAgZm9udC1mYW1pbHk6IHZhcigtLWJvZHlGb250KTtcbiAgICAgICAgdHJhbnNpdGlvbjogYWxsIDAuMnMgZWFzZTtcblxuICAgICAgICAmOmhvdmVyIHtcbiAgICAgICAgICBiYWNrZ3JvdW5kOiB2YXIoLS1saWdodGdyYXkpO1xuICAgICAgICB9XG5cbiAgICAgICAgJjphY3RpdmUge1xuICAgICAgICAgIHRyYW5zZm9ybTogdHJhbnNsYXRlWSgxcHgpO1xuICAgICAgICB9XG5cbiAgICAgICAgLy8gU3R5bGUgdGhlIHJlc2V0IGJ1dHRvbiBkaWZmZXJlbnRseVxuICAgICAgICAmOm50aC1jaGlsZCgyKSB7XG4gICAgICAgICAgd2lkdGg6IGF1dG87XG4gICAgICAgICAgcGFkZGluZzogMCAxMnB4O1xuICAgICAgICAgIGZvbnQtc2l6ZTogMTRweDtcbiAgICAgICAgfVxuICAgICAgfVxuICAgIH1cbiAgfVxufVxuIl19 */</style><script src="../prescript.js" type="application/javascript" data-persist="true"></script><script type="application/javascript" data-persist="true">const fetchData = fetch("../static/contentIndex.json").then(data => data.json())</script><link rel="alternate" type="application/rss+xml" title="RSS Feed" href="https://basarajm.github.io/llm-wiki/index.xml"/></head><body data-slug="outputs/company-keywords-pilot-v2-2026-07-14"><div id="quartz-root" class="page"><div id="quartz-body"><div class="left sidebar"><h2 class="page-title"><a href="..">한국 기업 리서치 위키</a></h2><div class="spacer mobile-only"></div><div class="flex-component" style="flex-direction: row; flex-wrap: nowrap; gap: 1rem;"><div style="flex-grow: 1; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><div class="search"><button class="search-button"><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.9 19.7"><title>Search</title><g class="search-path" fill="none"><path stroke-linecap="square" d="M18.5 18.3l-5.4-5.4"></path><circle cx="8" cy="8" r="7"></circle></g></svg><p>검색</p></button><div class="search-container"><div class="search-space"><input autocomplete="off" class="search-bar" name="search" type="text" aria-label="검색어를 입력하세요" placeholder="검색어를 입력하세요"/><div class="search-layout" data-preview="true"></div></div></div></div></div><div style="flex-grow: 0; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><button class="darkmode"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="dayIcon" x="0px" y="0px" viewBox="0 0 35 35" style="enable-background:new 0 0 35 35" xml:space="preserve" aria-label="다크 모드"><title>다크 모드</title><path d="M6,17.5C6,16.672,5.328,16,4.5,16h-3C0.672,16,0,16.672,0,17.5    S0.672,19,1.5,19h3C5.328,19,6,18.328,6,17.5z M7.5,26c-0.414,0-0.789,0.168-1.061,0.439l-2,2C4.168,28.711,4,29.086,4,29.5    C4,30.328,4.671,31,5.5,31c0.414,0,0.789-0.168,1.06-0.44l2-2C8.832,28.289,9,27.914,9,27.5C9,26.672,8.329,26,7.5,26z M17.5,6    C18.329,6,19,5.328,19,4.5v-3C19,0.672,18.329,0,17.5,0S16,0.672,16,1.5v3C16,5.328,16.671,6,17.5,6z M27.5,9    c0.414,0,0.789-0.168,1.06-0.439l2-2C30.832,6.289,31,5.914,31,5.5C31,4.672,30.329,4,29.5,4c-0.414,0-0.789,0.168-1.061,0.44    l-2,2C26.168,6.711,26,7.086,26,7.5C26,8.328,26.671,9,27.5,9z M6.439,8.561C6.711,8.832,7.086,9,7.5,9C8.328,9,9,8.328,9,7.5    c0-0.414-0.168-0.789-0.439-1.061l-2-2C6.289,4.168,5.914,4,5.5,4C4.672,4,4,4.672,4,5.5c0,0.414,0.168,0.789,0.439,1.06    L6.439,8.561z M33.5,16h-3c-0.828,0-1.5,0.672-1.5,1.5s0.672,1.5,1.5,1.5h3c0.828,0,1.5-0.672,1.5-1.5S34.328,16,33.5,16z     M28.561,26.439C28.289,26.168,27.914,26,27.5,26c-0.828,0-1.5,0.672-1.5,1.5c0,0.414,0.168,0.789,0.439,1.06l2,2    C28.711,30.832,29.086,31,29.5,31c0.828,0,1.5-0.672,1.5-1.5c0-0.414-0.168-0.789-0.439-1.061L28.561,26.439z M17.5,29    c-0.829,0-1.5,0.672-1.5,1.5v3c0,0.828,0.671,1.5,1.5,1.5s1.5-0.672,1.5-1.5v-3C19,29.672,18.329,29,17.5,29z M17.5,7    C11.71,7,7,11.71,7,17.5S11.71,28,17.5,28S28,23.29,28,17.5S23.29,7,17.5,7z M17.5,25c-4.136,0-7.5-3.364-7.5-7.5    c0-4.136,3.364-7.5,7.5-7.5c4.136,0,7.5,3.364,7.5,7.5C25,21.636,21.636,25,17.5,25z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="nightIcon" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background:new 0 0 100 100" xml:space="preserve" aria-label="라이트 모드"><title>라이트 모드</title><path d="M96.76,66.458c-0.853-0.852-2.15-1.064-3.23-0.534c-6.063,2.991-12.858,4.571-19.655,4.571  C62.022,70.495,50.88,65.88,42.5,57.5C29.043,44.043,25.658,23.536,34.076,6.47c0.532-1.08,0.318-2.379-0.534-3.23  c-0.851-0.852-2.15-1.064-3.23-0.534c-4.918,2.427-9.375,5.619-13.246,9.491c-9.447,9.447-14.65,22.008-14.65,35.369  c0,13.36,5.203,25.921,14.65,35.368s22.008,14.65,35.368,14.65c13.361,0,25.921-5.203,35.369-14.65  c3.872-3.871,7.064-8.328,9.491-13.246C97.826,68.608,97.611,67.309,96.76,66.458z"></path></svg></button></div><div style="flex-grow: 0; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><button class="readermode"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="readerIcon" fill="currentColor" stroke="currentColor" stroke-width="0.2" stroke-linecap="round" stroke-linejoin="round" width="64px" height="64px" viewBox="0 0 24 24" aria-label="리더 모드"><title>리더 모드</title><g transform="translate(-1.8, -1.8) scale(1.15, 1.2)"><path d="M8.9891247,2.5 C10.1384702,2.5 11.2209868,2.96705384 12.0049645,3.76669482 C12.7883914,2.96705384 13.8709081,2.5 15.0202536,2.5 L18.7549359,2.5 C19.1691495,2.5 19.5049359,2.83578644 19.5049359,3.25 L19.5046891,4.004 L21.2546891,4.00457396 C21.6343849,4.00457396 21.9481801,4.28672784 21.9978425,4.6528034 L22.0046891,4.75457396 L22.0046891,20.25 C22.0046891,20.6296958 21.7225353,20.943491 21.3564597,20.9931534 L21.2546891,21 L2.75468914,21 C2.37499337,21 2.06119817,20.7178461 2.01153575,20.3517706 L2.00468914,20.25 L2.00468914,4.75457396 C2.00468914,4.37487819 2.28684302,4.061083 2.65291858,4.01142057 L2.75468914,4.00457396 L4.50368914,4.004 L4.50444233,3.25 C4.50444233,2.87030423 4.78659621,2.55650904 5.15267177,2.50684662 L5.25444233,2.5 L8.9891247,2.5 Z M4.50368914,5.504 L3.50468914,5.504 L3.50468914,19.5 L10.9478955,19.4998273 C10.4513189,18.9207296 9.73864328,18.5588115 8.96709342,18.5065584 L8.77307039,18.5 L5.25444233,18.5 C4.87474657,18.5 4.56095137,18.2178461 4.51128895,17.8517706 L4.50444233,17.75 L4.50368914,5.504 Z M19.5049359,17.75 C19.5049359,18.1642136 19.1691495,18.5 18.7549359,18.5 L15.2363079,18.5 C14.3910149,18.5 13.5994408,18.8724714 13.0614828,19.4998273 L20.5046891,19.5 L20.5046891,5.504 L19.5046891,5.504 L19.5049359,17.75 Z M18.0059359,3.999 L15.0202536,4 L14.8259077,4.00692283 C13.9889509,4.06666544 13.2254227,4.50975805 12.7549359,5.212 L12.7549359,17.777 L12.7782651,17.7601316 C13.4923805,17.2719483 14.3447024,17 15.2363079,17 L18.0059359,16.999 L18.0056891,4.798 L18.0033792,4.75457396 L18.0056891,4.71 L18.0059359,3.999 Z M8.9891247,4 L6.00368914,3.999 L6.00599909,4.75457396 L6.00599909,4.75457396 L6.00368914,4.783 L6.00368914,16.999 L8.77307039,17 C9.57551536,17 10.3461406,17.2202781 11.0128313,17.6202194 L11.2536891,17.776 L11.2536891,5.211 C10.8200889,4.56369974 10.1361548,4.13636104 9.37521067,4.02745763 L9.18347055,4.00692283 L8.9891247,4 Z"></path></g></svg></button></div></div><div class="explorer" data-behavior="link" data-collapsed="collapsed" data-savestate="true" data-data-fns="{&quot;order&quot;:[&quot;filter&quot;,&quot;map&quot;,&quot;sort&quot;],&quot;sortFn&quot;:&quot;(a,b)=>!a.isFolder&amp;&amp;!b.isFolder||a.isFolder&amp;&amp;b.isFolder?a.displayName.localeCompare(b.displayName,void 0,{numeric:!0,sensitivity:\&quot;base\&quot;}):!a.isFolder&amp;&amp;b.isFolder?1:-1&quot;,&quot;filterFn&quot;:&quot;node=>node.slugSegment!==\&quot;tags\&quot;&quot;,&quot;mapFn&quot;:&quot;node=>node&quot;}"><button type="button" class="explorer-toggle mobile-explorer hide-until-loaded" data-mobile="true" aria-controls="explorer-19404"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide-menu"><line x1="4" x2="20" y1="12" y2="12"></line><line x1="4" x2="20" y1="6" y2="6"></line><line x1="4" x2="20" y1="18" y2="18"></line></svg></button><button type="button" class="title-button explorer-toggle desktop-explorer" data-mobile="false" aria-expanded="true"><h2>탐색기</h2><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><div id="explorer-19404" class="explorer-content" aria-expanded="false" role="group"><ul class="explorer-ul overflow" id="list-0"><li class="overflow-end"></li></ul></div><template id="template-file"><li><a href="#"></a></li></template><template id="template-folder"><li><div class="folder-container"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="folder-icon"><polyline points="6 9 12 15 18 9"></polyline></svg><div><button class="folder-button"><span class="folder-title"></span></button></div></div><div class="folder-outer"><ul class="content"></ul></div></li></template></div></div><div class="center"><div class="page-header"><div class="popover-hint"><nav class="breadcrumb-container" aria-label="breadcrumbs"><div class="breadcrumb-element"><a href="../">Home</a><p> ❯ </p></div><div class="breadcrumb-element"><a href="../outputs/">outputs</a><p> ❯ </p></div><div class="breadcrumb-element"><a href>기업별 핵심 키워드 추출 v2 (고도화 시범, 30개사)</a></div></nav><h1 class="article-title">기업별 핵심 키워드 추출 v2 (고도화 시범, 30개사)</h1><p show-comma="true" class="content-meta"><time datetime="2026-07-14T00:00:00.000Z">2026년 7월 14일</time><span>23 min read</span></p><ul class="tags"><li><a href="../tags/키워드" class="internal tag-link">키워드</a></li><li><a href="../tags/분석" class="internal tag-link">분석</a></li><li><a href="../tags/시범" class="internal tag-link">시범</a></li><li><a href="../tags/고도화" class="internal tag-link">고도화</a></li></ul></div></div><article class="popover-hint"><h2 id="개요">개요<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#개요" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p><a href="../outputs/company-keywords-pilot-2026-07-14" class="internal alias" data-slug="outputs/company-keywords-pilot-2026-07-14">1차 시범(대형주 151개사)</a> 결과를 바탕으로, 사용자 피드백에 따라
+키워드 추출 로직을 고도화한 2차 시범입니다. 1차 표본(151개사) 중 <strong>30개사를 무작위 추출</strong>하여 새 로직을
+적용했습니다. 확대 여부 결정을 위한 검토용 결과이며, 아직 기업 페이지 본문에는 반영하지 않았습니다.</p>
+<h2 id="v1--v2-변경-사항">v1 → v2 변경 사항<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#v1--v2-변경-사항" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>항목</th><th>v1 (1차 시범)</th><th>v2 (2차 시범, 본 문서)</th></tr></thead><tbody><tr><td>입력 소스</td><td>frontmatter <code>description</code> 한 문장</td><td>회사 페이지 <strong>본문 전체</strong> (사업 개요·사업 부문·재무 하이라이트·리스크 등)</td></tr><tr><td>키워드 개수</td><td>3-5개 고정</td><td><strong>최대 10개</strong>, 특이사항 부족하면 5개 내외로 축소 (개수 강제 없음)</td></tr><tr><td>뉴스 키워드</td><td>없음</td><td><strong>신규</strong>: 웹 검색 기반 최근 뉴스 키워드 4-5개, <code>(뉴스)</code> 접미사로 구분</td></tr><tr><td>뉴스 검색 기간</td><td>—</td><td>뉴스량에 따라 가변 — 뉴스 많으면 1개월, 적으면 최대 6개월까지 확대</td></tr><tr><td>처리 방식</td><td>배치당 12개사 묶어 1개 에이전트 호출 (description만 사용, 웹 검색 없음)</td><td><strong>기업당 1개 에이전트</strong>, Read + WebSearch 도구 직접 사용</td></tr><tr><td>배치당 토큰</td><td>약 48,000 토큰/12개사 (~4,000/사)</td><td>약 55,000 토큰/1개사 (약 14배)</td></tr></tbody></table></div>
+<h2 id="결과-30개사">결과 (30개사)<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#결과-30개사" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>기업</th><th>사업/재무 키워드</th><th>뉴스 검색기간</th><th>뉴스 키워드</th></tr></thead><tbody><tr><td><a href="../companies/두산밥캣" class="internal alias" data-slug="companies/두산밥캣">두산밥캣</a></td><td>소형 건설기계(Bobcat), 유압기기(두산모트롤), 북미 매출 비중 73%, 외국기업지배지주회사, Compact Equipment, Material Handling, 글로벌 딜러 네트워크, 최대주주 주식담보대출, 해외 신용등급 투기등급</td><td>최근 3개월</td><td>미국 관세 부담(뉴스), 멕시코 신공장 준공(뉴스), 북미 판가 인상(뉴스), 5년 내 매출 2배 목표(뉴스), 1분기 실적 개선(뉴스)</td></tr><tr><td><a href="../companies/롯데칠성음료" class="internal alias" data-slug="companies/롯데칠성음료">롯데칠성음료</a></td><td>탄산음료, 제로슈거 음료, 소주·맥주, 먹는샘물, 필리핀 PCPPI 해외법인, 헬시플레저 트렌드, 최대주주 롯데지주</td><td>최근 1개월</td><td>1분기 영업이익 91%증가(뉴스), 칠성사이다 제로 오렌지 출시(뉴스), 펩시 엑스트라 피즈 출시(뉴스), 제품 출고가 인상(뉴스), 재생원료 페트병 확대(뉴스)</td></tr><tr><td><a href="../companies/BNK금융지주" class="internal alias" data-slug="companies/BNK금융지주">BNK금융지주</a></td><td>순수금융지주회사, 부산은행·경남은행, 지방은행, 9개계열사체계, BIS자본비율, 동남경제권의존도, 빅블러경쟁</td><td>최근 2개월</td><td>자사주 매입(뉴스), 캐피탈리서치 지분 축소(뉴스), 자본력 강화(뉴스)</td></tr><tr><td><a href="../companies/신한금융지주" class="internal alias" data-slug="companies/신한금융지주">신한금융지주</a></td><td>순수 금융지주회사, 은행부문, 신용카드부문, 증권부문, 보험부문, 여신전문부문, 주주환원율 50%, CET1 13.35%, 해외손익기여 16.6%</td><td>최근 3개월</td><td>1분기 분기 최대 실적(뉴스), 신한 밸류업 2.0 발표(뉴스), 주주환원율 51.7% 상향(뉴스), 목표주가 상향(뉴스), 비은행 자본시장 부문 급성장(뉴스)</td></tr><tr><td><a href="../companies/LG이노텍" class="internal alias" data-slug="companies/LG이노텍">LG이노텍</a></td><td>카메라모듈 글로벌1위, 반도체패키지기판, 테이프기판, 포토마스크, 단일고객(애플) 집중, 광학솔루션, 모빌리티솔루션(전장부품), FC-BGA, 영업이익 2년연속 감소</td><td>최근 1개월</td><td>2분기 영업이익 흑자전환 서프라이즈(뉴스), AI 기판 사업 성장 기대(뉴스), 목표주가 대폭 상향(뉴스), 주가 급락 후 외국인 순매수(뉴스), 영업이익 1조 클럽 복귀 전망(뉴스)</td></tr><tr><td><a href="../companies/영원무역" class="internal alias" data-slug="companies/영원무역">영원무역</a></td><td>아웃도어 OEM 생산, SCOTT 자전거, 방글라데시 생산기지, Outdoor Research, 태양광 발전 설비, 가족지배구조, 중간배당 신설</td><td>최근 3개월</td><td>1분기 실적 서프라이즈(뉴스), 자사주 소각 계획(뉴스)</td></tr><tr><td><a href="../companies/동아에스티" class="internal alias" data-slug="companies/동아에스티">동아에스티</a></td><td>전문의약품(ETC), 그로트로핀(성장호르몬), 대사질환 신약개발, 바이오시밀러, 캔박카스 해외수출, 지분법손실 확대, 2년연속 순손실, 원료의약품 수입의존</td><td>최근 1-3개월</td><td>온코닉 자큐보 P-CAB 성장(뉴스), 엑스코프리 국내판권 라이선스인(뉴스), 차세대 항암 파이프라인(ADC·PARP7)(뉴스), 실적 회복·리레이팅 전망(뉴스)</td></tr><tr><td><a href="../companies/NH투자증권" class="internal alias" data-slug="companies/NH투자증권">NH투자증권</a></td><td>초대형 IB, WM 자산관리, IB 기업금융, Trading 자기자본투자, 농협금융지주 계열, 부동산 PF SPC 우발채무, 높은 재무 레버리지</td><td>최근 6개월</td><td>IMA 종합투자계좌 인가(뉴스), 역대 최대 실적(뉴스), 1분기 지배주주순이익 컨센서스 상회(뉴스), 목표주가 상향(뉴스)</td></tr><tr><td><a href="../companies/호텔신라" class="internal alias" data-slug="companies/호텔신라">호텔신라</a></td><td>면세점(TR), 세계3위면세사업자, 호텔레저부문, 신라호텔, 인천공항면세점철수, 당기순손실전환, TR부문영업손실, 삼성그룹계열</td><td>최근 1-3개월</td><td>인천공항 DF1 철수(뉴스), 위약금 1900억(뉴스), 인천공항공사 상대 1065억 소송(뉴스), 2분기 어닝서프라이즈(뉴스), 목표주가 하향 매수유지(뉴스)</td></tr><tr><td><a href="../companies/세아제강지주" class="internal alias" data-slug="companies/세아제강지주">세아제강지주</a></td><td>순수지주회사, 강관 사업, SeAH 브랜드 상표권, 판재부문(강판), 해상풍력 모노파일, 미국 관세 리스크, 가동률 하락, 배당·상표권 수익구조</td><td>최근 1-3개월</td><td>수익성 악화 美 관세·건설경기 침체(뉴스), 2025년 영업이익 감소·순이익 16.5%↓(뉴스), 현금·현물배당 결정(뉴스), 북미 유정용·송유관 강관 수요 견고(뉴스), 데이터센터 인프라 확충 배관재 수요 증가 전망(뉴스)</td></tr><tr><td><a href="../companies/화승인더스트리" class="internal alias" data-slug="companies/화승인더스트리">화승인더스트리</a></td><td>ADIDAS 신발 ODM, 베트남 생산법인, 신발용 접착제 1위, 화학소재(BOPP/PET필름), 사업지주 구조, 단일고객 의존, 이익 변동성</td><td>최근 6개월</td><td>아디다스 재고조정 실적부진(뉴스), 영업이익 35% 감소(뉴스), 북중미 월드컵 오더 회복 기대(뉴스), 화승비나 채무보증 369억(뉴스), IR 기업설명회 개최(뉴스)</td></tr><tr><td><a href="../companies/GKL" class="internal alias" data-slug="companies/GKL">GKL</a></td><td>외국인전용카지노, 세븐럭카지노, 한국관광공사자회사, 준시장형공기업, 일본중화권관광객수요, AML규제리스크</td><td>최근 3개월</td><td>카지노 영업장 이전·확장 추진(뉴스), 호텔 사업 진출 검토(뉴스), 4분기 영업이익 적자전환(뉴스)</td></tr><tr><td><a href="../companies/이마트" class="internal alias" data-slug="companies/이마트">이마트</a></td><td>대형마트 1위, 트레이더스, 이마트 에브리데이, 종합유통 지주, 정용진 축 계열분리, 신세계푸드 완전자회사화, 건설업 연속 영업손실, 미국 리테일 해외사업, 회사채 신용등급 하향, 자기주식 이익소각</td><td>최근 3개월</td><td>신세계푸드 공개매수가 30% 인상(뉴스), 신세계푸드 완전자회사 편입 및 상장폐지 추진(뉴스), 1분기 영업이익 11.9% 증가(뉴스), 2분기 영업이익 시장 기대치 하회 전망(뉴스), 목표주가 하향 조정(뉴스)</td></tr><tr><td><a href="../companies/삼성SDI" class="internal alias" data-slug="companies/삼성SDI">삼성SDI</a></td><td>에너지솔루션 부문, 리튬이온 2차전지, 전자재료(반도체·OLED 소재), 소형전지 세계 M/S 13%, 전기차 캐즘·ESS 출하 부진, 연구개발비율 10.7%, 영업손실 전환, AMPC 세액공제</td><td>최근 1-3개월</td><td>엘앤에프 LFP 양극재 공급계약(뉴스), 메르세데스벤츠 배터리 공급계약(뉴스), 현대차 유럽향 배터리 공급계약(뉴스), 헝가리 괴드공장 폭스바겐 통합셀 전환(뉴스), 하반기 분기 흑자전환 목표(뉴스)</td></tr><tr><td><a href="../companies/신세계" class="internal alias" data-slug="companies/신세계">신세계</a></td><td>백화점업, 면세업, 외국인 관광객 매출, 명품 유통, 옴니채널 전환, 면세업 수익성 개선, 최대주주 변경(지분증여), 순이익 급감</td><td>최근 1-2개월</td><td>백화점 외국인 매출 1조 클럽(뉴스), 면세점 흑자 전환(뉴스), 박주형 대표 사장 승진(뉴스), 신세계 팩토리스토어 리브랜딩(뉴스), 2026년 사상 최대 실적 전망(뉴스)</td></tr><tr><td><a href="../companies/DN오토모티브" class="internal alias" data-slug="companies/DN오토모티브">DN오토모티브</a></td><td>자동차용 방진부품, 자동차용 축전지, 공작기계(디엔솔루션즈), 자동차용 튜브, 지주회사 겸 사업회사, 글로벌 공작기계 Top3, 고객 집중 리스크</td><td>최근 3-6개월</td><td>DN솔루션즈 코스피 상장 추진(뉴스), Heller 인수 완료(뉴스), 부산 배터리 공장 신설 MOU(뉴스), 결산배당 결정(뉴스)</td></tr><tr><td><a href="../companies/LS에코에너지" class="internal alias" data-slug="companies/LS에코에너지">LS에코에너지</a></td><td>외국기업 지배지주회사, 베트남 전력케이블, LS-VINA, 미얀마 케이블사업, 동/알루미늄 소재, 초고압 케이블, 희토류 신사업, 해저케이블 신사업</td><td>최근 6개월</td><td>1분기 영업이익 31% 증가(뉴스), 초고압 케이블 매출 급증(뉴스), 희토류·해저케이블 재평가 전망(뉴스), LS Eco Advanced Cable 지분 취득(뉴스)</td></tr><tr><td><a href="../companies/HD한국조선해양" class="internal alias" data-slug="companies/HD한국조선해양">HD한국조선해양</a></td><td>조선·해양 중간지주회사, 가스선·수소암모니아 추진운반선, 해양플랜트, 엔진기계(선박용 엔진), 그린에너지(태양광·수소연료전지), 고선가 수주잔량, 비지배지분 비중 높음, 신용등급 A+ 상향</td><td>최근 1-2개월</td><td>초대형 암모니아 운반선(VLAC) 수주(뉴스), 미국 조선 협력 MASGA(뉴스), 美 해군 함정 MRO 계약(뉴스), 연간 수주 목표 70% 달성(뉴스)</td></tr><tr><td><a href="../companies/한국전력공사" class="internal alias" data-slug="companies/한국전력공사">한국전력공사</a></td><td>전력 송배전 독점, 전기판매부문, 원자력발전(한수원), 화력발전(발전5사), 흑자전환, 전기요금 규제, 발전6사 지배구조, 재무 레버리지</td><td>최근 3개월</td><td>1분기 최대 영업이익(뉴스), LNG·유가 상승 부담(뉴스), 목표주가 하향조정(뉴스), 지역별 차등 전기요금제 도입(뉴스), 2026년 전기요금 인상 검토(뉴스)</td></tr><tr><td><a href="../companies/한화솔루션" class="internal alias" data-slug="companies/한화솔루션">한화솔루션</a></td><td>석유화학 케미칼, 태양광 큐셀, 잉곳·웨이퍼·셀·모듈 수직계열화, 자동차 경량복합소재 GMT, PVC 국내점유율46%, 가성소다 국내1위, 미국 태양광 EPC·발전소, 대규모 영업적자 지속, 부채21.96조원</td><td>최근 1-3개월</td><td>1.8조 유상증자(뉴스), 아틀라스 에너지 파크 EPC 수주(뉴스), 미국 태양광 자산매각(뉴스), AMPC 세액공제 1조원(뉴스), 조지아 솔라허브 가동(뉴스)</td></tr><tr><td><a href="../companies/SK스퀘어" class="internal alias" data-slug="companies/SK스퀘어">SK스퀘어</a></td><td>반도체·ICT 투자전문 지주회사, SK하이닉스 지분 20.1%, 중간지주회사, 지분법손익 변동성, 단일 자산 집중 리스크, 무배당·자사주 소각, 11번가·티맵모빌리티 포트폴리오</td><td>최근 1개월</td><td>SK하이닉스 실적 호조 수혜(뉴스), SK하이닉스 나스닥 상장 추진(뉴스), 목표주가 상향(뉴스), 외국인·기관 순매수(뉴스), 사업보고서 정정요구(뉴스)</td></tr><tr><td><a href="../companies/삼천리" class="internal alias" data-slug="companies/삼천리">삼천리</a></td><td>도시가스 소매 1위, 발전(LNG복합화력), 집단에너지, 플랜트·에너지솔루션, 자동차판매(BMW딜러), 신재생에너지, K-푸드 신사업, 요금규제, SMP연동</td><td>최근 3개월</td><td>성경식품 인수 1195억원(뉴스), K-푸드 김 시장 진출(뉴스), 3년 연속 영업이익 1000억 돌파(뉴스), 연결 순현금 전환(뉴스), 하나증권 목표주가 16만원 매수의견(뉴스)</td></tr><tr><td><a href="../companies/고려아연" class="internal alias" data-slug="companies/고려아연">고려아연</a></td><td>비철금속 제련, 아연·연 세계 1위, 은 매출비중 1위, 이차전지 소재(전지박·황산니켈), 미국 Crucible 통합제련소, 경영권 분쟁, 신용등급 하향(AA), 자원순환·리사이클링, 신재생에너지·수소(Ark Energy)</td><td>최근 1-6개월</td><td>1분기 사상 최대 실적(뉴스), 이사회 구도 최윤범 측 승리(뉴스), 국민연금 캐스팅보터(뉴스), 사외이사·감사위 갈등 격화(뉴스), 원아시아파트너스 투자 의혹(뉴스)</td></tr><tr><td><a href="../companies/덴티움" class="internal alias" data-slug="companies/덴티움">덴티움</a></td><td>치과용 임플란트, 디지털덴티스트리(CBCT), Regeneration(합성골), 해외법인 네트워크, 중국 매출 의존도, SOFC 수소연료전지 신사업, 자기주식 대량 소각, 재고자산 급증</td><td>최근 1-3개월</td><td>자사주 244만주 전량 소각(뉴스), 발행주식 22.09% 소각(뉴스), 1분기 순이익 36% 증가(뉴스), 중국 외 매출 견조 성장 전망(뉴스)</td></tr><tr><td><a href="../companies/LIG디펜스앤에어로스페이스" class="internal alias" data-slug="companies/LIG디펜스앤에어로스페이스">LIG디펜스앤에어로스페이스</a></td><td>정밀유도무기(PGM), 천궁-II(M-SAM), 현궁·해궁, 감시정찰(ISR), 항공전자·전자전(AEW), 지휘통제통신(C4I), 중동 방산 수출, Ghost Robotics 인수, 부채비율 상승, 사명 변경</td><td>최근 3개월</td><td>1분기 실적 컨센서스 상회(뉴스), 이라크 천궁-II 3.7조원 수출계약(뉴스), 카타르·쿠웨이트 천궁-II 협상(뉴스), 인도네시아 천궁-II 구매의향서(뉴스), 목표가 상향(뉴스)</td></tr><tr><td><a href="../companies/현대해상" class="internal alias" data-slug="companies/현대해상">현대해상</a></td><td>장기보험, 자동차보험, 일반보험, 손해보험 M/S 17.5%, K-ICS 190.1%, 배당 중단, 정몽윤 최대주주 독립체제, 보험계약마진(CSM), 자동차보험 손해율, IFRS17</td><td>최근 1-3개월</td><td>배당 재개 기대(뉴스), 관리급여 도입 손해액 개선(뉴스), 내몸엔맞춤간편건강보험 출시(뉴스), 1분기 순이익 서프라이즈(뉴스), 저평가 펀더멘털 개선(뉴스)</td></tr><tr><td><a href="../companies/율촌화학" class="internal alias" data-slug="companies/율촌화학">율촌화학</a></td><td>연포장재, BOPP·CPP필름, 이차전지용 알루미늄 파우치 소재, PET Film 전자소재, 포장사업부문, 전자소재사업부문, 배터리 파우치 국산화, 흑자전환, 농심그룹 계열, 매출집중도(농심·LG에너지솔루션)</td><td>최근 3개월</td><td>포승 신공장 가동(뉴스), 주가 52주 최저 근접·고평가 논란(뉴스), 외국인·기관 순매도(뉴스)</td></tr><tr><td><a href="../companies/LG" class="internal alias" data-slug="companies/LG">LG</a></td><td>순수지주회사, 배당수익, LG상표권사용수익, 임대수익, 지분법손익 변동성, 주주환원정책, 자사주 전량소각, 배당성향 64.86%</td><td>최근 3개월</td><td>자사주 3500억 전량소각(뉴스), ROE 10% 목표 밸류업(뉴스), LG전자 2분기 영업이익 급증 지분법이익 반영(뉴스)</td></tr><tr><td><a href="../companies/케이티" class="internal alias" data-slug="companies/케이티">케이티</a></td><td>유무선통신, AICT 전환, IPTV, 비씨카드 금융부문, 위성방송(스카이라이프), 영업이익 3배 증가, 회사채 AAA, 종속회사 78개 지배구조 복잡성</td><td>최근 6개월</td><td>AICT 전환 6조원 AI 인프라 투자(뉴스), MS 파트너십 소버린 클라우드(뉴스), AI 데이터센터 1기가와트 구축(뉴스), 양자암호통신 신사업(뉴스)</td></tr><tr><td><a href="../companies/DL" class="internal alias" data-slug="companies/DL">DL</a></td><td>지주회사, 브랜드 로열티 수익, 석유화학 제조부문, 발전 에너지부문, 지분법손익 변동성, 연결 순손실 전환, 자회사 배당수익, 이해욱 회장 지배구조</td><td>최근 3개월</td><td>1분기 영업이익 급증(뉴스), 에너지부문 실적 호조(뉴스), 목표주가 상향(뉴스), 연결 순이익 흑자전환(뉴스)</td></tr></tbody></table></div>
+<h2 id="관찰-사항-및-결정-필요-항목">관찰 사항 및 결정 필요 항목<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#관찰-사항-및-결정-필요-항목" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p><strong>개선된 점</strong></p>
+<ul>
+<li>본문 전체를 활용하면서 키워드가 훨씬 구체화됨 (예: 삼성SDI “소형전지 세계 M/S 13%”, “AMPC 세액공제” 등 v1에는 없던 정량·정성 정보 포함)</li>
+<li>뉴스 키워드가 최신성을 크게 보강 — 위키 원본(사업보고서 기반)은 갱신 주기가 느린데, 뉴스 키워드는 경영권 분쟁(고려아연), 소송(호텔신라), 유상증자(한화솔루션) 등 최신 이벤트를 반영</li>
+<li>뉴스 검색 기간을 기업별로 다르게 적용한 것이 잘 작동 (뉴스 많은 대형주는 1개월, 상대적으로 조용한 종목은 6개월)</li>
+</ul>
+<p><strong>우려/검토 필요 사항</strong></p>
+<ol>
+<li><strong>비용 급증</strong>: v1은 12개사/1콜(~4천 토큰/사)였으나 v2는 1개사/1콜(~5.5만 토큰/사)로 <strong>약 14배</strong> 증가. 151개사 확대 시 약 830만 토큰, 2,463개사 전체 확대 시 약 1.35억 토큰 예상.</li>
+<li><strong>뉴스 키워드의 시의성 문제</strong>: “1분기 실적”, “목표주가 상향” 류 키워드는 몇 주 내로 낡은 정보가 됨 — 위키 페이지에 정적으로 박아 넣기보다는 <strong>별도 갱신 주기가 있는 섹션</strong>(예: <code>## 최근 동향</code>)으로 분리하거나, 페이지 자체에 <code>news_keywords_updated</code> 타임스탬프를 두는 방안 검토 필요.</li>
+<li><strong>사실 검증 부담</strong>: 뉴스 기반 키워드는 사업보고서 원본 대조 없이 웹 검색 결과에 의존 — CLAUDE.md의 “불확실한 정보는 추정/미확인 표시” 원칙과 결이 다름. 출처 URL을 함께 기록할지 결정 필요.</li>
+<li><strong>일부 키워드 여전히 일반적</strong>: “흑자전환”, “요금규제” 등은 여러 기업에 반복 등장 — 완전한 차별화는 어려움(허용 범위로 판단됨).</li>
+</ol>
+<h1 id="citations">Citations<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#citations" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h1>
+<ul>
+<li>각 기업 페이지 본문: <code>wiki/companies/*.md</code></li>
+<li>뉴스 키워드: 각 배치 에이전트의 WebSearch 결과 (개별 URL 미기록 — 필요 시 재실행하여 출처 보강 가능)</li>
+<li>이전 시범: <a href="../outputs/company-keywords-pilot-2026-07-14" class="internal alias" data-slug="outputs/company-keywords-pilot-2026-07-14">기업별 핵심 키워드 추출 (시범, 대형주 151개사)</a></li>
+</ul></article><hr/><div class="page-footer"></div></div><div class="right sidebar"><div class="graph"><h3>그래프 뷰</h3><div class="graph-outer"><div class="graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:1,&quot;scale&quot;:1.1,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.3,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1,&quot;showTags&quot;:true,&quot;removeTags&quot;:[],&quot;focusOnHover&quot;:false,&quot;enableRadial&quot;:false,&quot;maxNodes&quot;:400}"></div><button class="global-graph-icon" aria-label="Global Graph"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 55 55" fill="currentColor" xml:space="preserve"><path d="M49,0c-3.309,0-6,2.691-6,6c0,1.035,0.263,2.009,0.726,2.86l-9.829,9.829C32.542,17.634,30.846,17,29,17
+                s-3.542,0.634-4.898,1.688l-7.669-7.669C16.785,10.424,17,9.74,17,9c0-2.206-1.794-4-4-4S9,6.794,9,9s1.794,4,4,4
+                c0.74,0,1.424-0.215,2.019-0.567l7.669,7.669C21.634,21.458,21,23.154,21,25s0.634,3.542,1.688,4.897L10.024,42.562
+                C8.958,41.595,7.549,41,6,41c-3.309,0-6,2.691-6,6s2.691,6,6,6s6-2.691,6-6c0-1.035-0.263-2.009-0.726-2.86l12.829-12.829
+                c1.106,0.86,2.44,1.436,3.898,1.619v10.16c-2.833,0.478-5,2.942-5,5.91c0,3.309,2.691,6,6,6s6-2.691,6-6c0-2.967-2.167-5.431-5-5.91
+                v-10.16c1.458-0.183,2.792-0.759,3.898-1.619l7.669,7.669C41.215,39.576,41,40.26,41,41c0,2.206,1.794,4,4,4s4-1.794,4-4
+                s-1.794-4-4-4c-0.74,0-1.424,0.215-2.019,0.567l-7.669-7.669C36.366,28.542,37,26.846,37,25s-0.634-3.542-1.688-4.897l9.665-9.665
+                C46.042,11.405,47.451,12,49,12c3.309,0,6-2.691,6-6S52.309,0,49,0z M11,9c0-1.103,0.897-2,2-2s2,0.897,2,2s-0.897,2-2,2
+                S11,10.103,11,9z M6,51c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S8.206,51,6,51z M33,49c0,2.206-1.794,4-4,4s-4-1.794-4-4
+                s1.794-4,4-4S33,46.794,33,49z M29,31c-3.309,0-6-2.691-6-6s2.691-6,6-6s6,2.691,6,6S32.309,31,29,31z M47,41c0,1.103-0.897,2-2,2
+                s-2-0.897-2-2s0.897-2,2-2S47,39.897,47,41z M49,10c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S51.206,10,49,10z"></path></svg></button></div><div class="global-graph-outer"><div class="global-graph-container"><div class="global-graph-toolbar"><label class="graph-depth-label">단계<select class="graph-depth-select" aria-label="중심 노드로부터 표시할 단계 수"><option value="1">1</option><option value="2">2</option><option value="3">3</option></select></label><button class="graph-back-btn" type="button" disabled>← 이전</button><button class="graph-clear-btn" type="button">초기화</button><span class="graph-hint">클릭: 노드 확장 · 더블클릭: 페이지 이동</span></div><div class="global-graph-canvas" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:1,&quot;scale&quot;:0.9,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.2,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1,&quot;showTags&quot;:true,&quot;removeTags&quot;:[],&quot;focusOnHover&quot;:true,&quot;enableRadial&quot;:true,&quot;maxNodes&quot;:500}"></div></div></div></div><div class="toc desktop-only"><button type="button" class="toc-header" aria-controls="toc-13128" aria-expanded="true"><h3>목차</h3><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><ul id="list-1" class="toc-content overflow"><li class="depth-1"><a href="#개요" data-for="개요">개요</a></li><li class="depth-1"><a href="#v1--v2-변경-사항" data-for="v1--v2-변경-사항">v1 → v2 변경 사항</a></li><li class="depth-1"><a href="#결과-30개사" data-for="결과-30개사">결과 (30개사)</a></li><li class="depth-1"><a href="#관찰-사항-및-결정-필요-항목" data-for="관찰-사항-및-결정-필요-항목">관찰 사항 및 결정 필요 항목</a></li><li class="depth-0"><a href="#citations" data-for="citations">Citations</a></li><li class="overflow-end"></li></ul></div></div><footer class><p>Created with <a href="https://quartz.jzhao.xyz/">Quartz v4.5.2</a> © 2026</p><ul><li><a href="https://github.com/jackyzha0/quartz">GitHub</a></li><li><a href="https://discord.gg/cRFFHYye7t">Discord Community</a></li></ul></footer></div></div></body><script type="application/javascript" data-persist="true">function n(){let t=this.parentElement;t.classList.toggle("is-collapsed");let e=t.getElementsByClassName("callout-content")[0];if(!e)return;let l=t.classList.contains("is-collapsed");e.style.gridTemplateRows=l?"0fr":"1fr"}function c(){let t=document.getElementsByClassName("callout is-collapsible");for(let e of t){let l=e.getElementsByClassName("callout-title")[0],s=e.getElementsByClassName("callout-content")[0];if(!l||!s)continue;l.addEventListener("click",n),window.addCleanup(()=>l.removeEventListener("click",n));let o=e.classList.contains("is-collapsed");s.style.gridTemplateRows=o?"0fr":"1fr"}}document.addEventListener("nav",c);
+</script><script type="module" data-persist="true">function E(a,e){if(!a)return;function t(o){o.target===this&&(o.preventDefault(),o.stopPropagation(),e())}function n(o){o.key.startsWith("Esc")&&(o.preventDefault(),e())}a?.addEventListener("click",t),window.addCleanup(()=>a?.removeEventListener("click",t)),document.addEventListener("keydown",n),window.addCleanup(()=>document.removeEventListener("keydown",n))}function f(a){for(;a.firstChild;)a.removeChild(a.firstChild)}var m=class{constructor(e,t){this.container=e;this.content=t;this.setupEventListeners(),this.setupNavigationControls(),this.resetTransform()}isDragging=!1;startPan={x:0,y:0};currentPan={x:0,y:0};scale=1;MIN_SCALE=.5;MAX_SCALE=3;cleanups=[];setupEventListeners(){let e=this.onMouseDown.bind(this),t=this.onMouseMove.bind(this),n=this.onMouseUp.bind(this),o=this.onTouchStart.bind(this),r=this.onTouchMove.bind(this),i=this.onTouchEnd.bind(this),s=this.resetTransform.bind(this);this.container.addEventListener("mousedown",e),document.addEventListener("mousemove",t),document.addEventListener("mouseup",n),this.container.addEventListener("touchstart",o,{passive:!1}),document.addEventListener("touchmove",r,{passive:!1}),document.addEventListener("touchend",i),window.addEventListener("resize",s),this.cleanups.push(()=>this.container.removeEventListener("mousedown",e),()=>document.removeEventListener("mousemove",t),()=>document.removeEventListener("mouseup",n),()=>this.container.removeEventListener("touchstart",o),()=>document.removeEventListener("touchmove",r),()=>document.removeEventListener("touchend",i),()=>window.removeEventListener("resize",s))}cleanup(){for(let e of this.cleanups)e()}setupNavigationControls(){let e=document.createElement("div");e.className="mermaid-controls";let t=this.createButton("+",()=>this.zoom(.1)),n=this.createButton("-",()=>this.zoom(-.1)),o=this.createButton("Reset",()=>this.resetTransform());e.appendChild(n),e.appendChild(o),e.appendChild(t),this.container.appendChild(e)}createButton(e,t){let n=document.createElement("button");return n.textContent=e,n.className="mermaid-control-button",n.addEventListener("click",t),window.addCleanup(()=>n.removeEventListener("click",t)),n}onMouseDown(e){e.button===0&&(this.isDragging=!0,this.startPan={x:e.clientX-this.currentPan.x,y:e.clientY-this.currentPan.y},this.container.style.cursor="grabbing")}onMouseMove(e){this.isDragging&&(e.preventDefault(),this.currentPan={x:e.clientX-this.startPan.x,y:e.clientY-this.startPan.y},this.updateTransform())}onMouseUp(){this.isDragging=!1,this.container.style.cursor="grab"}onTouchStart(e){if(e.touches.length!==1)return;this.isDragging=!0;let t=e.touches[0];this.startPan={x:t.clientX-this.currentPan.x,y:t.clientY-this.currentPan.y}}onTouchMove(e){if(!this.isDragging||e.touches.length!==1)return;e.preventDefault();let t=e.touches[0];this.currentPan={x:t.clientX-this.startPan.x,y:t.clientY-this.startPan.y},this.updateTransform()}onTouchEnd(){this.isDragging=!1}zoom(e){let t=Math.min(Math.max(this.scale+e,this.MIN_SCALE),this.MAX_SCALE),n=this.content.getBoundingClientRect(),o=n.width/2,r=n.height/2,i=t-this.scale;this.currentPan.x-=o*i,this.currentPan.y-=r*i,this.scale=t,this.updateTransform()}updateTransform(){this.content.style.transform=`translate(${this.currentPan.x}px, ${this.currentPan.y}px) scale(${this.scale})`}resetTransform(){let t=this.content.querySelector("svg").getBoundingClientRect(),n=t.width/this.scale,o=t.height/this.scale;this.scale=1,this.currentPan={x:(this.container.clientWidth-n)/2,y:(this.container.clientHeight-o)/2},this.updateTransform()}},T=["--secondary","--tertiary","--gray","--light","--lightgray","--highlight","--dark","--darkgray","--codeFont"],y;document.addEventListener("nav",async()=>{let e=document.querySelector(".center").querySelectorAll("code.mermaid");if(e.length===0)return;y||=await import("https://cdnjs.cloudflare.com/ajax/libs/mermaid/11.4.0/mermaid.esm.min.mjs");let t=y.default,n=new WeakMap;for(let r of e)n.set(r,r.innerText);async function o(){for(let s of e){s.removeAttribute("data-processed");let c=n.get(s);c&&(s.innerHTML=c)}let r=T.reduce((s,c)=>(s[c]=window.getComputedStyle(document.documentElement).getPropertyValue(c),s),{}),i=document.documentElement.getAttribute("saved-theme")==="dark";t.initialize({startOnLoad:!1,securityLevel:"loose",theme:i?"dark":"base",themeVariables:{fontFamily:r["--codeFont"],primaryColor:r["--light"],primaryTextColor:r["--darkgray"],primaryBorderColor:r["--tertiary"],lineColor:r["--darkgray"],secondaryColor:r["--secondary"],tertiaryColor:r["--tertiary"],clusterBkg:r["--light"],edgeLabelBackground:r["--highlight"]}}),await t.run({nodes:e})}await o(),document.addEventListener("themechange",o),window.addCleanup(()=>document.removeEventListener("themechange",o));for(let r=0;r<e.length;r++){let v=function(){let g=l.querySelector("#mermaid-space"),h=l.querySelector(".mermaid-content");if(!h)return;f(h);let w=i.querySelector("svg").cloneNode(!0);h.appendChild(w),l.classList.add("active"),g.style.cursor="grab",u=new m(g,h)},M=function(){l.classList.remove("active"),u?.cleanup(),u=null},i=e[r],s=i.parentElement,c=s.querySelector(".clipboard-button"),d=s.querySelector(".expand-button"),p=window.getComputedStyle(c),L=c.offsetWidth+parseFloat(p.marginLeft||"0")+parseFloat(p.marginRight||"0");d.style.right=`calc(${L}px + 0.3rem)`,s.prepend(d);let l=s.querySelector("#mermaid-container");if(!l)return;let u=null;d.addEventListener("click",v),E(l,M),window.addCleanup(()=>{u?.cleanup(),d.removeEventListener("click",v)})}});
+</script><script src="../postscript.js" type="module" data-persist="true"></script></html>

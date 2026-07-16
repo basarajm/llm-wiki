@@ -1,0 +1,2623 @@
+<!DOCTYPE html>
+<html lang="ko" dir="ltr"><head><title>KOSPI (유가증권시장) · LLM Wiki</title><meta charset="utf-8"/><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com"/><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Schibsted Grotesk:wght@400;700&amp;family=Source Sans Pro:ital,wght@0,400;0,600;1,400;1,600&amp;family=IBM Plex Mono:wght@400;600&amp;display=swap"/><link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin="anonymous"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta name="og:site_name" content="한국 기업 리서치 위키"/><meta property="og:title" content="KOSPI (유가증권시장) · LLM Wiki"/><meta property="og:type" content="website"/><meta name="twitter:card" content="summary_large_image"/><meta name="twitter:title" content="KOSPI (유가증권시장) · LLM Wiki"/><meta name="twitter:description" content="한국거래소 유가증권시장에 상장된 대형·중견 기업 분류 및 구성종목"/><meta property="og:description" content="한국거래소 유가증권시장에 상장된 대형·중견 기업 분류 및 구성종목"/><meta property="og:image:alt" content="한국거래소 유가증권시장에 상장된 대형·중견 기업 분류 및 구성종목"/><meta property="og:image" content="https://basarajm.github.io/llm-wiki/static/og-image.png"/><meta property="og:image:url" content="https://basarajm.github.io/llm-wiki/static/og-image.png"/><meta name="twitter:image" content="https://basarajm.github.io/llm-wiki/static/og-image.png"/><meta property="og:image:type" content="image/.png"/><meta property="twitter:domain" content="basarajm.github.io/llm-wiki"/><meta property="og:url" content="https://basarajm.github.io/llm-wiki/markets/KOSPI"/><meta property="twitter:url" content="https://basarajm.github.io/llm-wiki/markets/KOSPI"/><link rel="icon" href="../static/icon.png"/><meta name="description" content="한국거래소 유가증권시장에 상장된 대형·중견 기업 분류 및 구성종목"/><meta name="generator" content="Quartz"/><link href="../index.css" rel="stylesheet" type="text/css" data-persist="true"/><style>.expand-button {
+  position: absolute;
+  display: flex;
+  float: right;
+  padding: 0.4rem;
+  margin: 0.3rem;
+  right: 0;
+  color: var(--gray);
+  border-color: var(--dark);
+  background-color: var(--light);
+  border: 1px solid;
+  border-radius: 5px;
+  opacity: 0;
+  transition: 0.2s;
+}
+.expand-button > svg {
+  fill: var(--light);
+  filter: contrast(0.3);
+}
+.expand-button:hover {
+  cursor: pointer;
+  border-color: var(--secondary);
+}
+.expand-button:focus {
+  outline: 0;
+}
+
+pre:hover > .expand-button {
+  opacity: 1;
+  transition: 0.2s;
+}
+
+#mermaid-container {
+  position: fixed;
+  contain: layout;
+  z-index: 999;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  display: none;
+  backdrop-filter: blur(4px);
+  background: rgba(0, 0, 0, 0.5);
+}
+#mermaid-container.active {
+  display: inline-block;
+}
+#mermaid-container > #mermaid-space {
+  border: 1px solid var(--lightgray);
+  background-color: var(--light);
+  border-radius: 5px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 80vh;
+  width: 80vw;
+  overflow: hidden;
+}
+#mermaid-container > #mermaid-space > .mermaid-content {
+  position: relative;
+  transform-origin: 0 0;
+  transition: transform 0.1s ease;
+  overflow: visible;
+  min-height: 200px;
+  min-width: 200px;
+}
+#mermaid-container > #mermaid-space > .mermaid-content pre {
+  margin: 0;
+  border: none;
+}
+#mermaid-container > #mermaid-space > .mermaid-content svg {
+  max-width: none;
+  height: auto;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+  gap: 8px;
+  padding: 8px;
+  background: var(--light);
+  border: 1px solid var(--lightgray);
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 2;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  border: 1px solid var(--lightgray);
+  background: var(--light);
+  color: var(--dark);
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  font-family: var(--bodyFont);
+  transition: all 0.2s ease;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:hover {
+  background: var(--lightgray);
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:active {
+  transform: translateY(1px);
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:nth-child(2) {
+  width: auto;
+  padding: 0 12px;
+  font-size: 14px;
+}
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VSb290IjoiQzpcXFVzZXJzXFxMSk1cXC5DbGF1ZGVQcm9qZWN0XFxMTE1XaWtpXFxzaXRlXFxxdWFydHpcXGNvbXBvbmVudHNcXHN0eWxlcyIsInNvdXJjZXMiOlsibWVybWFpZC5pbmxpbmUuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNFO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBOztBQUVBO0VBQ0U7RUFDQTs7QUFHRjtFQUNFO0VBQ0E7O0FBR0Y7RUFDRTs7O0FBS0Y7RUFDRTtFQUNBOzs7QUFJSjtFQUNFO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7O0FBRUE7RUFDRTs7QUFHRjtFQUNFO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBOztBQUVBO0VBQ0U7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBOztBQUVBO0VBQ0U7RUFDQTs7QUFHRjtFQUNFO0VBQ0E7O0FBSUo7RUFDRTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBOztBQUVBO0VBQ0U7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTs7QUFFQTtFQUNFOztBQUdGO0VBQ0U7O0FBSUY7RUFDRTtFQUNBO0VBQ0EiLCJzb3VyY2VzQ29udGVudCI6WyIuZXhwYW5kLWJ1dHRvbiB7XG4gIHBvc2l0aW9uOiBhYnNvbHV0ZTtcbiAgZGlzcGxheTogZmxleDtcbiAgZmxvYXQ6IHJpZ2h0O1xuICBwYWRkaW5nOiAwLjRyZW07XG4gIG1hcmdpbjogMC4zcmVtO1xuICByaWdodDogMDsgLy8gTk9URTogcmlnaHQgd2lsbCBiZSBzZXQgaW4gbWVybWFpZC5pbmxpbmUudHNcbiAgY29sb3I6IHZhcigtLWdyYXkpO1xuICBib3JkZXItY29sb3I6IHZhcigtLWRhcmspO1xuICBiYWNrZ3JvdW5kLWNvbG9yOiB2YXIoLS1saWdodCk7XG4gIGJvcmRlcjogMXB4IHNvbGlkO1xuICBib3JkZXItcmFkaXVzOiA1cHg7XG4gIG9wYWNpdHk6IDA7XG4gIHRyYW5zaXRpb246IDAuMnM7XG5cbiAgJiA+IHN2ZyB7XG4gICAgZmlsbDogdmFyKC0tbGlnaHQpO1xuICAgIGZpbHRlcjogY29udHJhc3QoMC4zKTtcbiAgfVxuXG4gICY6aG92ZXIge1xuICAgIGN1cnNvcjogcG9pbnRlcjtcbiAgICBib3JkZXItY29sb3I6IHZhcigtLXNlY29uZGFyeSk7XG4gIH1cblxuICAmOmZvY3VzIHtcbiAgICBvdXRsaW5lOiAwO1xuICB9XG59XG5cbnByZSB7XG4gICY6aG92ZXIgPiAuZXhwYW5kLWJ1dHRvbiB7XG4gICAgb3BhY2l0eTogMTtcbiAgICB0cmFuc2l0aW9uOiAwLjJzO1xuICB9XG59XG5cbiNtZXJtYWlkLWNvbnRhaW5lciB7XG4gIHBvc2l0aW9uOiBmaXhlZDtcbiAgY29udGFpbjogbGF5b3V0O1xuICB6LWluZGV4OiA5OTk7XG4gIGxlZnQ6IDA7XG4gIHRvcDogMDtcbiAgd2lkdGg6IDEwMHZ3O1xuICBoZWlnaHQ6IDEwMHZoO1xuICBvdmVyZmxvdzogaGlkZGVuO1xuICBkaXNwbGF5OiBub25lO1xuICBiYWNrZHJvcC1maWx0ZXI6IGJsdXIoNHB4KTtcbiAgYmFja2dyb3VuZDogcmdiYSgwLCAwLCAwLCAwLjUpO1xuXG4gICYuYWN0aXZlIHtcbiAgICBkaXNwbGF5OiBpbmxpbmUtYmxvY2s7XG4gIH1cblxuICAmID4gI21lcm1haWQtc3BhY2Uge1xuICAgIGJvcmRlcjogMXB4IHNvbGlkIHZhcigtLWxpZ2h0Z3JheSk7XG4gICAgYmFja2dyb3VuZC1jb2xvcjogdmFyKC0tbGlnaHQpO1xuICAgIGJvcmRlci1yYWRpdXM6IDVweDtcbiAgICBwb3NpdGlvbjogZml4ZWQ7XG4gICAgdG9wOiA1MCU7XG4gICAgbGVmdDogNTAlO1xuICAgIHRyYW5zZm9ybTogdHJhbnNsYXRlKC01MCUsIC01MCUpO1xuICAgIGhlaWdodDogODB2aDtcbiAgICB3aWR0aDogODB2dztcbiAgICBvdmVyZmxvdzogaGlkZGVuO1xuXG4gICAgJiA+IC5tZXJtYWlkLWNvbnRlbnQge1xuICAgICAgcG9zaXRpb246IHJlbGF0aXZlO1xuICAgICAgdHJhbnNmb3JtLW9yaWdpbjogMCAwO1xuICAgICAgdHJhbnNpdGlvbjogdHJhbnNmb3JtIDAuMXMgZWFzZTtcbiAgICAgIG92ZXJmbG93OiB2aXNpYmxlO1xuICAgICAgbWluLWhlaWdodDogMjAwcHg7XG4gICAgICBtaW4td2lkdGg6IDIwMHB4O1xuXG4gICAgICBwcmUge1xuICAgICAgICBtYXJnaW46IDA7XG4gICAgICAgIGJvcmRlcjogbm9uZTtcbiAgICAgIH1cblxuICAgICAgc3ZnIHtcbiAgICAgICAgbWF4LXdpZHRoOiBub25lO1xuICAgICAgICBoZWlnaHQ6IGF1dG87XG4gICAgICB9XG4gICAgfVxuXG4gICAgJiA+IC5tZXJtYWlkLWNvbnRyb2xzIHtcbiAgICAgIHBvc2l0aW9uOiBhYnNvbHV0ZTtcbiAgICAgIGJvdHRvbTogMjBweDtcbiAgICAgIHJpZ2h0OiAyMHB4O1xuICAgICAgZGlzcGxheTogZmxleDtcbiAgICAgIGdhcDogOHB4O1xuICAgICAgcGFkZGluZzogOHB4O1xuICAgICAgYmFja2dyb3VuZDogdmFyKC0tbGlnaHQpO1xuICAgICAgYm9yZGVyOiAxcHggc29saWQgdmFyKC0tbGlnaHRncmF5KTtcbiAgICAgIGJvcmRlci1yYWRpdXM6IDZweDtcbiAgICAgIGJveC1zaGFkb3c6IDAgMnB4IDRweCByZ2JhKDAsIDAsIDAsIDAuMSk7XG4gICAgICB6LWluZGV4OiAyO1xuXG4gICAgICAubWVybWFpZC1jb250cm9sLWJ1dHRvbiB7XG4gICAgICAgIGRpc3BsYXk6IGZsZXg7XG4gICAgICAgIGFsaWduLWl0ZW1zOiBjZW50ZXI7XG4gICAgICAgIGp1c3RpZnktY29udGVudDogY2VudGVyO1xuICAgICAgICB3aWR0aDogMzJweDtcbiAgICAgICAgaGVpZ2h0OiAzMnB4O1xuICAgICAgICBwYWRkaW5nOiAwO1xuICAgICAgICBib3JkZXI6IDFweCBzb2xpZCB2YXIoLS1saWdodGdyYXkpO1xuICAgICAgICBiYWNrZ3JvdW5kOiB2YXIoLS1saWdodCk7XG4gICAgICAgIGNvbG9yOiB2YXIoLS1kYXJrKTtcbiAgICAgICAgYm9yZGVyLXJhZGl1czogNHB4O1xuICAgICAgICBjdXJzb3I6IHBvaW50ZXI7XG4gICAgICAgIGZvbnQtc2l6ZTogMTZweDtcbiAgICAgICAgZm9udC1mYW1pbHk6IHZhcigtLWJvZHlGb250KTtcbiAgICAgICAgdHJhbnNpdGlvbjogYWxsIDAuMnMgZWFzZTtcblxuICAgICAgICAmOmhvdmVyIHtcbiAgICAgICAgICBiYWNrZ3JvdW5kOiB2YXIoLS1saWdodGdyYXkpO1xuICAgICAgICB9XG5cbiAgICAgICAgJjphY3RpdmUge1xuICAgICAgICAgIHRyYW5zZm9ybTogdHJhbnNsYXRlWSgxcHgpO1xuICAgICAgICB9XG5cbiAgICAgICAgLy8gU3R5bGUgdGhlIHJlc2V0IGJ1dHRvbiBkaWZmZXJlbnRseVxuICAgICAgICAmOm50aC1jaGlsZCgyKSB7XG4gICAgICAgICAgd2lkdGg6IGF1dG87XG4gICAgICAgICAgcGFkZGluZzogMCAxMnB4O1xuICAgICAgICAgIGZvbnQtc2l6ZTogMTRweDtcbiAgICAgICAgfVxuICAgICAgfVxuICAgIH1cbiAgfVxufVxuIl19 */</style><script src="../prescript.js" type="application/javascript" data-persist="true"></script><script type="application/javascript" data-persist="true">const fetchData = fetch("../static/contentIndex.json").then(data => data.json())</script><link rel="alternate" type="application/rss+xml" title="RSS Feed" href="https://basarajm.github.io/llm-wiki/index.xml"/></head><body data-slug="markets/KOSPI"><div id="quartz-root" class="page"><div id="quartz-body"><div class="left sidebar"><h2 class="page-title"><a href="..">한국 기업 리서치 위키</a></h2><div class="spacer mobile-only"></div><div class="flex-component" style="flex-direction: row; flex-wrap: nowrap; gap: 1rem;"><div style="flex-grow: 1; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><div class="search"><button class="search-button"><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.9 19.7"><title>Search</title><g class="search-path" fill="none"><path stroke-linecap="square" d="M18.5 18.3l-5.4-5.4"></path><circle cx="8" cy="8" r="7"></circle></g></svg><p>검색</p></button><div class="search-container"><div class="search-space"><input autocomplete="off" class="search-bar" name="search" type="text" aria-label="검색어를 입력하세요" placeholder="검색어를 입력하세요"/><div class="search-layout" data-preview="true"></div></div></div></div></div><div style="flex-grow: 0; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><button class="darkmode"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="dayIcon" x="0px" y="0px" viewBox="0 0 35 35" style="enable-background:new 0 0 35 35" xml:space="preserve" aria-label="다크 모드"><title>다크 모드</title><path d="M6,17.5C6,16.672,5.328,16,4.5,16h-3C0.672,16,0,16.672,0,17.5    S0.672,19,1.5,19h3C5.328,19,6,18.328,6,17.5z M7.5,26c-0.414,0-0.789,0.168-1.061,0.439l-2,2C4.168,28.711,4,29.086,4,29.5    C4,30.328,4.671,31,5.5,31c0.414,0,0.789-0.168,1.06-0.44l2-2C8.832,28.289,9,27.914,9,27.5C9,26.672,8.329,26,7.5,26z M17.5,6    C18.329,6,19,5.328,19,4.5v-3C19,0.672,18.329,0,17.5,0S16,0.672,16,1.5v3C16,5.328,16.671,6,17.5,6z M27.5,9    c0.414,0,0.789-0.168,1.06-0.439l2-2C30.832,6.289,31,5.914,31,5.5C31,4.672,30.329,4,29.5,4c-0.414,0-0.789,0.168-1.061,0.44    l-2,2C26.168,6.711,26,7.086,26,7.5C26,8.328,26.671,9,27.5,9z M6.439,8.561C6.711,8.832,7.086,9,7.5,9C8.328,9,9,8.328,9,7.5    c0-0.414-0.168-0.789-0.439-1.061l-2-2C6.289,4.168,5.914,4,5.5,4C4.672,4,4,4.672,4,5.5c0,0.414,0.168,0.789,0.439,1.06    L6.439,8.561z M33.5,16h-3c-0.828,0-1.5,0.672-1.5,1.5s0.672,1.5,1.5,1.5h3c0.828,0,1.5-0.672,1.5-1.5S34.328,16,33.5,16z     M28.561,26.439C28.289,26.168,27.914,26,27.5,26c-0.828,0-1.5,0.672-1.5,1.5c0,0.414,0.168,0.789,0.439,1.06l2,2    C28.711,30.832,29.086,31,29.5,31c0.828,0,1.5-0.672,1.5-1.5c0-0.414-0.168-0.789-0.439-1.061L28.561,26.439z M17.5,29    c-0.829,0-1.5,0.672-1.5,1.5v3c0,0.828,0.671,1.5,1.5,1.5s1.5-0.672,1.5-1.5v-3C19,29.672,18.329,29,17.5,29z M17.5,7    C11.71,7,7,11.71,7,17.5S11.71,28,17.5,28S28,23.29,28,17.5S23.29,7,17.5,7z M17.5,25c-4.136,0-7.5-3.364-7.5-7.5    c0-4.136,3.364-7.5,7.5-7.5c4.136,0,7.5,3.364,7.5,7.5C25,21.636,21.636,25,17.5,25z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="nightIcon" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background:new 0 0 100 100" xml:space="preserve" aria-label="라이트 모드"><title>라이트 모드</title><path d="M96.76,66.458c-0.853-0.852-2.15-1.064-3.23-0.534c-6.063,2.991-12.858,4.571-19.655,4.571  C62.022,70.495,50.88,65.88,42.5,57.5C29.043,44.043,25.658,23.536,34.076,6.47c0.532-1.08,0.318-2.379-0.534-3.23  c-0.851-0.852-2.15-1.064-3.23-0.534c-4.918,2.427-9.375,5.619-13.246,9.491c-9.447,9.447-14.65,22.008-14.65,35.369  c0,13.36,5.203,25.921,14.65,35.368s22.008,14.65,35.368,14.65c13.361,0,25.921-5.203,35.369-14.65  c3.872-3.871,7.064-8.328,9.491-13.246C97.826,68.608,97.611,67.309,96.76,66.458z"></path></svg></button></div><div style="flex-grow: 0; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><button class="readermode"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="readerIcon" fill="currentColor" stroke="currentColor" stroke-width="0.2" stroke-linecap="round" stroke-linejoin="round" width="64px" height="64px" viewBox="0 0 24 24" aria-label="리더 모드"><title>리더 모드</title><g transform="translate(-1.8, -1.8) scale(1.15, 1.2)"><path d="M8.9891247,2.5 C10.1384702,2.5 11.2209868,2.96705384 12.0049645,3.76669482 C12.7883914,2.96705384 13.8709081,2.5 15.0202536,2.5 L18.7549359,2.5 C19.1691495,2.5 19.5049359,2.83578644 19.5049359,3.25 L19.5046891,4.004 L21.2546891,4.00457396 C21.6343849,4.00457396 21.9481801,4.28672784 21.9978425,4.6528034 L22.0046891,4.75457396 L22.0046891,20.25 C22.0046891,20.6296958 21.7225353,20.943491 21.3564597,20.9931534 L21.2546891,21 L2.75468914,21 C2.37499337,21 2.06119817,20.7178461 2.01153575,20.3517706 L2.00468914,20.25 L2.00468914,4.75457396 C2.00468914,4.37487819 2.28684302,4.061083 2.65291858,4.01142057 L2.75468914,4.00457396 L4.50368914,4.004 L4.50444233,3.25 C4.50444233,2.87030423 4.78659621,2.55650904 5.15267177,2.50684662 L5.25444233,2.5 L8.9891247,2.5 Z M4.50368914,5.504 L3.50468914,5.504 L3.50468914,19.5 L10.9478955,19.4998273 C10.4513189,18.9207296 9.73864328,18.5588115 8.96709342,18.5065584 L8.77307039,18.5 L5.25444233,18.5 C4.87474657,18.5 4.56095137,18.2178461 4.51128895,17.8517706 L4.50444233,17.75 L4.50368914,5.504 Z M19.5049359,17.75 C19.5049359,18.1642136 19.1691495,18.5 18.7549359,18.5 L15.2363079,18.5 C14.3910149,18.5 13.5994408,18.8724714 13.0614828,19.4998273 L20.5046891,19.5 L20.5046891,5.504 L19.5046891,5.504 L19.5049359,17.75 Z M18.0059359,3.999 L15.0202536,4 L14.8259077,4.00692283 C13.9889509,4.06666544 13.2254227,4.50975805 12.7549359,5.212 L12.7549359,17.777 L12.7782651,17.7601316 C13.4923805,17.2719483 14.3447024,17 15.2363079,17 L18.0059359,16.999 L18.0056891,4.798 L18.0033792,4.75457396 L18.0056891,4.71 L18.0059359,3.999 Z M8.9891247,4 L6.00368914,3.999 L6.00599909,4.75457396 L6.00599909,4.75457396 L6.00368914,4.783 L6.00368914,16.999 L8.77307039,17 C9.57551536,17 10.3461406,17.2202781 11.0128313,17.6202194 L11.2536891,17.776 L11.2536891,5.211 C10.8200889,4.56369974 10.1361548,4.13636104 9.37521067,4.02745763 L9.18347055,4.00692283 L8.9891247,4 Z"></path></g></svg></button></div></div><div class="explorer" data-behavior="link" data-collapsed="collapsed" data-savestate="true" data-data-fns="{&quot;order&quot;:[&quot;filter&quot;,&quot;map&quot;,&quot;sort&quot;],&quot;sortFn&quot;:&quot;(a,b)=>!a.isFolder&amp;&amp;!b.isFolder||a.isFolder&amp;&amp;b.isFolder?a.displayName.localeCompare(b.displayName,void 0,{numeric:!0,sensitivity:\&quot;base\&quot;}):!a.isFolder&amp;&amp;b.isFolder?1:-1&quot;,&quot;filterFn&quot;:&quot;node=>node.slugSegment!==\&quot;tags\&quot;&quot;,&quot;mapFn&quot;:&quot;node=>node&quot;}"><button type="button" class="explorer-toggle mobile-explorer hide-until-loaded" data-mobile="true" aria-controls="explorer-19402"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide-menu"><line x1="4" x2="20" y1="12" y2="12"></line><line x1="4" x2="20" y1="6" y2="6"></line><line x1="4" x2="20" y1="18" y2="18"></line></svg></button><button type="button" class="title-button explorer-toggle desktop-explorer" data-mobile="false" aria-expanded="true"><h2>탐색기</h2><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><div id="explorer-19402" class="explorer-content" aria-expanded="false" role="group"><ul class="explorer-ul overflow" id="list-0"><li class="overflow-end"></li></ul></div><template id="template-file"><li><a href="#"></a></li></template><template id="template-folder"><li><div class="folder-container"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="folder-icon"><polyline points="6 9 12 15 18 9"></polyline></svg><div><button class="folder-button"><span class="folder-title"></span></button></div></div><div class="folder-outer"><ul class="content"></ul></div></li></template></div></div><div class="center"><div class="page-header"><div class="popover-hint"><nav class="breadcrumb-container" aria-label="breadcrumbs"><div class="breadcrumb-element"><a href="../">Home</a><p> ❯ </p></div><div class="breadcrumb-element"><a href="../markets/">markets</a><p> ❯ </p></div><div class="breadcrumb-element"><a href>KOSPI (유가증권시장)</a></div></nav><h1 class="article-title">KOSPI (유가증권시장)</h1><p show-comma="true" class="content-meta"><time datetime="2026-06-28T00:00:00.000Z">2026년 6월 28일</time><span>200 min read</span></p><ul class="tags"><li><a href="../tags/시장" class="internal tag-link">시장</a></li><li><a href="../tags/KOSPI" class="internal tag-link">KOSPI</a></li></ul></div></div><article class="popover-hint"><h2 id="시장-개요">시장 개요<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#시장-개요" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>KOSPI(유가증권시장)는 한국거래소(KRX)가 운영하는 한국의 대표 증권시장으로, 대형·중견 기업이
+주로 상장되어 있습니다. 대표 지수로는 시가총액 상위 200개 종목으로 구성된 <strong>KOSPI200</strong>이 있습니다.
+이 위키의 기준일 기준 KOSPI 상장기업은 약 833개사이며, 아래 목록은 위키에 페이지가 존재하는
+기업입니다. (사업보고서 ingest 진행에 따라 갱신)</p>
+<h2 id="상장기업">상장기업<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#상장기업" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<ul>
+<li>
+<p><a href="../companies/현대퓨처넷" class="internal alias" data-slug="companies/현대퓨처넷">현대퓨처넷</a> — 디지털 사이니지·기업 메시징·실감콘텐츠·IT서비스를 영위하는 현대백화점그룹 계열 ICT 기업, 자회사 현대바이오랜드(화장품소재·건기식) 연결, 2025년 연결매출 2,645억원·영업이익 63억원, 최대주주 현대홈쇼핑(78.55%) (KOSPI 030790)</p>
+</li>
+<li>
+<p><a href="../companies/한국타이어앤테크놀로지" class="internal alias" data-slug="companies/한국타이어앤테크놀로지">한국타이어앤테크놀로지</a> — 국내 1위·글로벌 Top 10 타이어 제조업체, 2025년 한온시스템(자동차 열관리시스템) 신규 연결 편입, 최대주주 한국앤컴퍼니(30.67%), 2025년 연결매출 21조 2,023억원·영업이익 1조 8,411억원 (KOSPI 161390)</p>
+</li>
+<li>
+<p><a href="../companies/한국자산신탁" class="internal alias" data-slug="companies/한국자산신탁">한국자산신탁</a> — 부동산 신탁업(토지신탁·담보신탁)과 REITs AMC 업무, 주요종속회사 한국자산캐피탈(캐피탈부문) 보유, 최대주주 (주)엠디엠(28.76%), 2025년 연결영업수익 2,042.88억원·영업이익 342.27억원 (KOSPI 123890)</p>
+</li>
+<li>
+<p><a href="../companies/한국주강" class="internal alias" data-slug="companies/한국주강">한국주강</a> — 조선·발전·제철·시멘트 플랜트向 대형 주강품 및 전기로 제강사向 압축분철 제조기업, 최대주주 한국제강(52.04%), 2025년 매출 398.7억원·영업손실 1.8억원(적자전환) (KOSPI 025890)</p>
+</li>
+<li>
+<p><a href="../companies/한국종합기술" class="internal alias" data-slug="companies/한국종합기술">한국종합기술</a> — 상하수도·수자원·도시계획·환경·도로·교통 등 SOC 전 분야 종합건설엔지니어링(설계·감리·시공·CM), 최대주주 한국종합기술홀딩스(52.96%), 2025년 연결매출 4,129억원·영업이익 60.4억원(전년比 6.7배) (KOSPI 036800)</p>
+</li>
+<li>
+<p><a href="../companies/한국철강" class="internal alias" data-slug="companies/한국철강">한국철강</a> — 철근(봉형강) 전문 제조업체, 창원·증평 생산기지, 최대주주 KISCO홀딩스(60.34%), 2025년 매출 4,866억원·영업손실 387억원(적자전환) (KOSPI 104700)</p>
+</li>
+<li>
+<p><a href="../companies/한국카본" class="internal alias" data-slug="companies/한국카본">한국카본</a> — LNG운반선 화물창용 보냉재 등 첨단 복합소재 제조기업, 최대주주 조연호(22.86%), 2025년 연결 매출 9,088억원·영업이익 1,310억원(+188.2%) (KOSPI 017960)</p>
+</li>
+<li>
+<p><a href="../companies/한국항공우주산업" class="internal alias" data-slug="companies/한국항공우주산업">한국항공우주</a> — 국내 유일 완제기 방산업체(고정익·회전익·기체부문), 최대주주 한국수출입은행(26.41%), 2025년 연결 매출 3조 6,964억원·영업이익 2,692억원 (KOSPI 047810)</p>
+</li>
+<li>
+<p><a href="../companies/한컴라이프케어" class="internal alias" data-slug="companies/한컴라이프케어">한컴라이프케어</a> — 공기호흡기·방독면·방화복 등 개인안전장비 및 국방 사업(K5방독면·지상레이저 표적지시기), 한컴그룹 계열, 최대주주 한글과컴퓨터(36.13%), 2025년 연결매출 920.9억원·영업손실 7.3억원(적자전환) (KOSPI 227100)</p>
+</li>
+<li>
+<p><a href="../companies/카카오" class="internal alias" data-slug="companies/카카오">카카오</a> — 카카오톡 기반 플랫폼(톡비즈·포털비즈)·콘텐츠(게임·뮤직·스토리·미디어) 종합 IT 기업, 카카오 기업집단 지배회사, 최대주주 김범수(13.28%), 2025년 연결매출 8조 991억원·영업이익 7,320억원 (KOSPI 035720)</p>
+</li>
+<li>
+<p><a href="../companies/전진건설로봇" class="internal alias" data-slug="companies/전진건설로봇">전진건설로봇</a> — 콘크리트펌프카 등 건설기계 제조, 모트렉스 그룹 계열 (KOSPI 126600)</p>
+</li>
+<li>
+<p><a href="../companies/진도" class="internal alias" data-slug="companies/진도">진도</a> — 국내 대표 모피의류 전문기업(진도모피·엘페·끌레베·우바·에릭자비츠), 2025년 매출 476억원·영업이익 39.8억원, 최대주주 임병남(42.91%) (KOSPI 020760)</p>
+</li>
+<li>
+<p><a href="../companies/자이에스앤디" class="internal alias" data-slug="companies/자이에스앤디">자이에스앤디</a> — GS그룹 계열 종합건설·부동산서비스(건축·주택개발·Home Solution), 최대주주 GS건설(39.40%), 2025년 연결매출 1조 3,876억원·영업이익 125억원 (KOSPI 317400)</p>
+</li>
+<li>
+<p><a href="../companies/엔케이" class="internal alias" data-slug="companies/엔케이">엔케이</a> — 선박용 소화장치·고압가스용기·방산 특수기기 제조 KOSPI 상장기업 (KOSPI 083470)</p>
+</li>
+<li>
+<p><a href="../companies/애경케미칼" class="internal alias" data-slug="companies/애경케미칼">애경케미칼</a> — 애경그룹 계열 정밀화학 기업(가소제·계면활성제·바이오디젤·이차전지 음극재), 최대주주 AK홀딩스(60.30%) (KOSPI 161000)</p>
+</li>
+<li>
+<p><a href="../companies/에이플러스에셋" class="internal alias" data-slug="companies/에이플러스에셋">에이플러스에셋</a> — 독립법인보험대리점(GA), 바이오·상조·부동산 연결자회사 보유, 최대주주 곽근호(20.20%) (KOSPI 016600)</p>
+</li>
+<li>
+<p><a href="../companies/영보화학" class="internal alias" data-slug="companies/영보화학">영보화학</a> — 가교발포 폴리올레핀 폼(자동차내장재·IT용 완충재) 전문 제조업체, 최대주주 적수화학공업(51%, 일본 SEKISUI CHEMICAL 계열) (KOSPI 014440)</p>
+</li>
+<li>
+<p><a href="../companies/영원무역" class="internal alias" data-slug="companies/영원무역">영원무역</a> — 아웃도어·스포츠 의류 OEM 제조·수출(The North Face·Lululemon 등) 및 SCOTT 자전거 사업, 최대주주 영원무역홀딩스(50.52%), 2025년 연결매출 4조 636억원·영업이익 5,144억원 (KOSPI 111770)</p>
+</li>
+<li>
+<p><a href="../companies/영흥" class="internal alias" data-slug="companies/영흥">영흥</a> — 철강선(와이어로프)·냉간선재·자동차부품·물류·포장재·AI서비스를 영위하는 영흥그룹 지배회사, 최대주주 장세일(17.24%) (KOSPI 003200)</p>
+</li>
+<li>
+<p><a href="../companies/호전실업" class="internal alias" data-slug="companies/호전실업">호전실업</a> — 스포츠웨어·고기능성 아웃도어 의류 OEM 제조·수출(THE NORTH FACE·UNDER ARMOUR·LULULEMON 등), 최대주주 박진호(25.21%), 2025년 연결매출 5,208.8억원·영업이익 250.2억원 (KOSPI 111710)</p>
+</li>
+<li>
+<p><a href="../companies/유니드" class="internal alias" data-slug="companies/유니드">유니드</a> — 가성칼륨·탄산칼륨 등 칼륨화학 전문기업, OCI 기업집단 계열, 최대주주 유니드글로벌상사(25.06%) (KOSPI 014830)</p>
+</li>
+<li>
+<p><a href="../companies/유니드비티플러스" class="internal alias" data-slug="companies/유니드비티플러스">유니드비티플러스</a> — MDF·마루 등 목질판상재 제조기업(자체 브랜드 ‘올고다’), 2022년 유니드에서 인적분할, OCI 기업집단 계열, 최대주주 유니드글로벌상사(25.06%) (KOSPI 377220)</p>
+</li>
+<li>
+<p><a href="../companies/영화금속" class="internal alias" data-slug="companies/영화금속">영화금속</a> — 자동차부품용 주물 소재 제조기업(경남 창원·함안), 최대주주 삼신정밀(13.38%) (KOSPI 011700)</p>
+</li>
+<li>
+<p><a href="../companies/이구산업" class="internal alias" data-slug="companies/이구산업">이구산업</a> — 비철금속(동·황동·인청동) 전문 제조업체, 자동차·전기전자 부품 소재, 최대주주 손인국(24.66%), 2025년 매출 5,077.8억원·영업이익 244.1억원</p>
+</li>
+<li>
+<p><a href="../companies/이노션" class="internal alias" data-slug="companies/이노션">이노션</a> — 현대차그룹 계열 통합 마케팅 커뮤니케이션(광고대행) 기업, 최대주주 정성이(17.69%), 2025년 연결매출 2조 1,460억원·영업이익 1,628억원 (KOSPI 214320)</p>
+</li>
+<li>
+<p><a href="../companies/이지스레지던스리츠" class="internal alias" data-slug="companies/이지스레지던스리츠">이지스레지던스리츠</a> — 국내외 임대주택 자산(더샵 부평센트럴시티·디어스 판교·美 Spring Creek Towers 등)에 투자하는 위탁관리 리츠, 최대주주 코람코주택도시기금위탁관리부동산투자회사(15.81%) (KOSPI 350520)</p>
+</li>
+<li>
+<p><a href="../companies/이엔플러스" class="internal alias" data-slug="companies/이엔플러스">이엔플러스</a> — 소방차 등 특장차 제조 및 2차전지 방열 소재 사업 영위, 최대주주 MORGAN STANLEY AND CO INTERNATIONAL PLC(2.15%), 2025년 연결매출 295억원·영업손실 28.3억원 (KOSPI 094820)</p>
+</li>
+<li>
+<p><a href="../companies/성안머티리얼스" class="internal alias" data-slug="companies/성안머티리얼스">성안머티리얼스</a> — 폴리에스터(PET) 직물 제조·수출 기업(舊 성안), 희토류·영구자석 신사업 추진 중, 최대주주 더블유에스(16.87%)</p>
+</li>
+<li>
+<p><a href="../companies/휴비스" class="internal alias" data-slug="companies/휴비스">휴비스</a> — 폴리에스터 단섬유(SF, 국내 점유율 약 66%·1위)·장섬유(FY) 생산 화학섬유 기업, 최대주주 (주)삼양홀딩스·SK디스커버리(주) 공동 각 25.5%, 2025년 연결매출 8,895억원·영업이익 198억원 (KOSPI 079980)</p>
+</li>
+<li>
+<p><a href="../companies/이스타코" class="internal alias" data-slug="companies/이스타코">이스타코</a> — 목동 기반 부동산 분양·임대·교육(월넛어학원)·레저(서산 베니키아호텔) 사업 영위, 최대주주 김승제(12.37%) (KOSPI 015020)</p>
+</li>
+<li>
+<p><a href="../companies/주연테크" class="internal alias" data-slug="companies/주연테크">주연테크</a> — PC·모니터·TV 등 가전제품 제조·판매 및 신규 펫테크 사업 영위, 최대주주 화평홀딩스(22.14%), 2025년 연결매출 626.3억원·영업손실 16.8억원 (KOSPI 019490)</p>
+</li>
+<li>
+<p><a href="../companies/인디에프" class="internal alias" data-slug="companies/인디에프">인디에프</a> — 조이너스·꼼빠니아·트루젠·바인드 등 패션 브랜드 보유 의류 제조·판매 기업, 글로벌세아 기업집단 계열, 최대주주 글로벌세아(63.51%), 2025년 매출 1,045.9억원·영업이익 11.9억원(흑자전환)</p>
+</li>
+<li>
+<p><a href="../companies/티비에이치글로벌" class="internal alias" data-slug="companies/티비에이치글로벌">티비에이치글로벌</a> — 마인드브릿지·베이직하우스·쥬시쥬디 등 캐주얼 브랜드 전개 패션기업, 최대주주 우종완(19.55%), 2025년 연결매출 1,824억원·영업이익 31.5억원 (KOSPI 037710)</p>
+</li>
+<li>
+<p><a href="../companies/한세실업" class="internal alias" data-slug="companies/한세실업">한세실업</a> — 미국 대형 유통사(TARGET·GAP·OLD NAVY 등)向 OEM/ODM 의류 수출 기업, 한세그룹 핵심 계열사, 최대주주 한세예스24홀딩스(50.49%), 2025년 연결매출 1조 9,418억원·영업이익 834억원 (KOSPI 105630)</p>
+</li>
+<li>
+<p><a href="../companies/형지엘리트" class="internal alias" data-slug="companies/형지엘리트">형지엘리트</a> — 학생복(엘리트)·기업 유니폼(B2B)·스포츠 상품화(윌비플레이) 사업을 영위하는 패션그룹형지 계열 의류기업, 최대주주 패션그룹형지(14.06%), 2025년(24기, 연결) 매출 1,667억원·영업이익 66억원 (KOSPI 093240)</p>
+</li>
+<li>
+<p><a href="../companies/형지아이앤씨" class="internal alias" data-slug="companies/형지아이앤씨">형지아이앤씨</a> — 패션그룹형지 계열 패션기업 (stub)</p>
+</li>
+<li>
+<p><a href="../companies/한세엠케이" class="internal alias" data-slug="companies/한세엠케이">한세엠케이</a> — BUCKAROO·NBA·모이몰른·플레이키즈프로 등 캐주얼·유아동복 브랜드 기업, 한세그룹 계열, 최대주주 한세예스24홀딩스(69.15%), 2025년 연결매출 2,489억원·영업손실 121억원 (KOSPI 069640)</p>
+</li>
+<li>
+<p><a href="../companies/티엠씨" class="internal alias" data-slug="companies/티엠씨">티엠씨</a> — 선박용·해양용·광 케이블 제조사, 2025년 12월 신규 상장, 송현그룹 계열, 최대주주 케이피에프(48.76%), 2025년 연결매출 3,408.8억원·영업이익 64.3억원 (KOSPI 440250)</p>
+</li>
+<li>
+<p><a href="../companies/제일기획" class="internal alias" data-slug="companies/제일기획">제일기획</a> — 삼성그룹 계열 종합광고대행사, 전 세계 46개국 55개 글로벌 네트워크 보유, 최대주주 삼성전자(25.24%), 2025년 연결매출 4조 5,469억원·영업이익 3,369억원 (KOSPI 030000)</p>
+</li>
+<li>
+<p><a href="../companies/이월드" class="internal alias" data-slug="companies/이월드">이월드</a> — 대구 테마파크 ‘이월드’와 쥬얼리 브랜드(LLOYD·GRACE·OST) 운영, 이랜드그룹 계열, 최대주주 이랜드월드(43.42%), 2025년 매출 887억원·영업손실 32억원 (KOSPI 084680)</p>
+</li>
+<li>
+<p><a href="../companies/주성코퍼레이션" class="internal alias" data-slug="companies/주성코퍼레이션">주성코퍼레이션</a> — 이동통신 중계기 등 통신네트워크 사업 및 2024년 신규 진출한 해상·항공 물류주선업 영위, 주성그룹 계열, 최대주주 비앤피주성(35.98%), 2025년 연결매출 854억원·영업이익 31.7억원 (KOSPI 025770)</p>
+</li>
+<li>
+<p><a href="../companies/한화갤러리아" class="internal alias" data-slug="companies/한화갤러리아">한화갤러리아</a> — 압구정 명품관 등 백화점 5개점 및 파이브가이즈·와인·아이스크림 등 식음료 사업 영위, 한화그룹 계열, 최대주주 ㈜한화(36.31%), 2025년 연결매출 5,752억원·영업이익 94억원(흑자확대) (KOSPI 452450)</p>
+</li>
+<li>
+<p><a href="../companies/화승인더스트리" class="internal alias" data-slug="companies/화승인더스트리">화승인더스트리</a> — ADIDAS 신발 ODM(화승엔터프라이즈 지배)·화학소재(접착제·코팅제·필름) 사업지주, 화승그룹 핵심 계열사, 2025년 연결매출 1조 7,810억원 (KOSPI 006060)</p>
+</li>
+<li>
+<p><a href="../companies/화승알앤에이" class="internal alias" data-slug="companies/화승알앤에이">화승알앤에이</a> — 자동차 고무부품(Sealing·Fluid Products) 제조, 화승그룹 계열, 최대주주 화승코퍼레이션(32.79%), 2025년 연결매출 7,145.6억원·영업이익 270.8억원</p>
+</li>
+<li>
+<p><a href="../companies/화승엔터프라이즈" class="internal alias" data-slug="companies/화승엔터프라이즈">화승엔터프라이즈</a> — 아디다스 신발 ODM, 화승그룹 계열, 최대주주 화승인더스트리(68.37%), 2025년 연결매출 1조 5,643.8억원·영업이익 356.9억원 (KOSPI 241590)</p>
+</li>
+<li>
+<p><a href="../companies/화승코퍼레이션" class="internal alias" data-slug="companies/화승코퍼레이션">화승코퍼레이션</a> — 자동차부품(Auto Parts)·소재·종합무역·산업용고무 영위, 화승그룹 계열(화승알앤에이 최대주주 32.79%), 최대주주 현지호(35.42%), 2025년 연결매출 1조 6,397.8억원·영업이익 830.6억원 (KOSPI)</p>
+</li>
+<li>
+<p><a href="../companies/효성" class="internal alias" data-slug="companies/효성">효성</a> — 효성그룹 지주회사(상표권·임대·투자+ATM·펌프), 동일인 조현준 회장(41.02%) (KOSPI 004800)</p>
+</li>
+<li>
+<p><a href="../companies/효성중공업" class="internal alias" data-slug="companies/효성중공업">효성중공업</a> — 중전기기(변압기·차단기)·건설(해링턴), 효성그룹 계열, 2025년 연결매출 5조 9,685.1억원·영업이익 7,469.7억원(전년比 매출 +21.9%·영업이익 +106%) (KOSPI 298040)</p>
+</li>
+<li>
+<p><a href="../companies/효성ITX" class="internal alias" data-slug="companies/효성ITX">효성ITX</a> — 컨택센터(BPO)·IT서비스(SI/SM·Display·ITO·IDC·AI) 기업, 효성그룹 계열, 최대주주 조현준(35.26%)+㈜효성(28.26%), 2025년 연결매출 5,190.1억원·영업이익 189.6억원 (KOSPI 094280)</p>
+</li>
+<li>
+<p><a href="../companies/효성티앤씨" class="internal alias" data-slug="companies/효성티앤씨">효성티앤씨</a> — 섬유(스판덱스 CREORA·나이론·폴리에스터원사)·무역(NEOCHEM, 철강·화학·특수가스) 기업, 효성그룹 계열, 최대주주 ㈜효성(20.78%)+조현준(20.73%), 2025년 연결매출 7조 6,948억원·영업이익 2,515억원 (KOSPI 298020)</p>
+</li>
+<li>
+<p><a href="../companies/효성화학" class="internal alias" data-slug="companies/효성화학">효성화학</a> — PP·필름·폴리케톤 제조 화학사, 효성그룹 계열, 최대주주 ㈜효성(32.84%), 2025년 연결매출 2조 3,407.2억원·영업손실 -1,605.0억원, 당기순이익 3,260.3억원(중단영업이익 반영 흑자전환) (KOSPI 298000)</p>
+</li>
+<li>
+<p><a href="../companies/AJ네트웍스" class="internal alias" data-slug="companies/AJ네트웍스">AJ네트웍스</a> — 파렛트·IT기기·산업장비 렌탈 및 창고·유통 사업을 영위하는 종합 렌탈기업 (KOSPI, 제26기)</p>
+</li>
+<li>
+<p><a href="../companies/BGF" class="internal alias" data-slug="companies/BGF">BGF</a> — 편의점 CU 운영사 BGF리테일과 소재·화학 계열사를 지배하는 순수지주회사 (KOSPI 027410)</p>
+</li>
+<li>
+<p><a href="../companies/BNK금융지주" class="internal alias" data-slug="companies/BNK금융지주">BNK금융지주</a> — 부산은행·경남은행 중심 9개 계열사 종합금융그룹, 2025년 지배주주순이익 8,150억원 (KOSPI 138930)</p>
+</li>
+<li>
+<p>[CJ CGV](/companies/CJ CGV) — 국내 최초 멀티플렉스 영화관 도입 기업, 5개국(한국·중국·베트남·인도네시아·튀르키예) 극장·기술특별관 사업 (KOSPI 079160)</p>
+</li>
+<li>
+<p><a href="../companies/CJ제일제당" class="internal alias" data-slug="companies/CJ제일제당">CJ제일제당</a> — 식품·BIO·물류(CJ대한통운 연결) 3개 사업부문을 영위하는 국내 최대 종합식품기업, CJ그룹 핵심 계열사 (KOSPI 097950)</p>
+</li>
+<li>
+<p>[DB Inc.](/companies/DB Inc.) — IT서비스(SI/ITO)·상사(무역)·브랜드 사업을 영위하는 DB그룹의 사실상 지주회사 격 상장기업 (KOSPI)</p>
+</li>
+<li>
+<p><a href="../companies/DB증권" class="internal alias" data-slug="companies/DB증권">DB증권</a> — DB그룹 계열 종합증권사, S&amp;T(트레이딩) 부문이 영업수익의 약 79% 차지 (KOSPI 016610)</p>
+</li>
+<li>
+<p><a href="../companies/DKME" class="internal alias" data-slug="companies/DKME">DKME</a> — 열교환기·압력용기 등 석유화학 플랜트용 화공기기 제작사 (구 케이아이비플러그에너지) (KOSPI)</p>
+</li>
+<li>
+<p><a href="../companies/DL이앤씨" class="internal alias" data-slug="companies/DL이앤씨">DL이앤씨</a> — DL그룹 계열 종합건설사 — 토목·주택·플랜트 3대 사업부문, ‘e편한세상’·‘ACRO’ (KOSPI)</p>
+</li>
+<li>
+<p><a href="../companies/DS단석" class="internal alias" data-slug="companies/DS단석">DS단석</a> — 바이오에너지·배터리 리사이클·플라스틱 리사이클 3개 사업부의 순환경제 기업 (KOSPI)</p>
+</li>
+<li>
+<p><a href="../companies/DSR" class="internal alias" data-slug="companies/DSR">DSR</a> — 합성섬유로프·스테인리스 와이어를 제조·판매하는 산업자재 기업 (KOSPI)</p>
+</li>
+<li>
+<p><a href="../companies/DSR제강" class="internal alias" data-slug="companies/DSR제강">DSR제강</a> — 와이어로프·경강선 등 선재 2차 가공 제조기업, DSR그룹 계열 (KOSPI)</p>
+</li>
+<li>
+<p><a href="../companies/DYP" class="internal alias" data-slug="companies/DYP">DYP</a> — 내연기관용 엔진피스톤 전문 생산·판매 기업(舊 동양피스톤) (KOSPI)</p>
+</li>
+<li>
+<p><a href="../companies/E1" class="internal alias" data-slug="companies/E1">E1</a> — LPG(프로판·부탄) 수입·저장·유통을 영위하는 LS그룹 계열 에너지 기업, LS네트웍스 연결지배 (KOSPI 017940)</p>
+</li>
+<li>
+<p><a href="../companies/ESR켄달스퀘어리츠" class="internal alias" data-slug="companies/ESR켄달스퀘어리츠">ESR켄달스퀘어리츠</a> — 전국 21개 물류센터에 간접 투자하는 물류센터 특화 상장리츠(REIT) (KOSPI 365550)</p>
+</li>
+<li>
+<p><a href="../companies/F-and-F홀딩스" class="internal alias" data-slug="companies/F-and-F홀딩스">F&amp;F홀딩스</a> — F&amp;F그룹의 지주회사 — 패션 자회사 F&amp;F(MLB·DISCOVERY) 지분관리·상표권 라이선스 (KOSPI 007700)</p>
+</li>
+<li>
+<p><a href="../companies/GKL" class="internal alias" data-slug="companies/GKL">GKL</a> — 서울·부산 외국인 전용 카지노 3개 사업장을 운영하는 한국관광공사 자회사 겸 공기업 (KOSPI 114090)</p>
+</li>
+<li>
+<p><a href="../companies/무학" class="internal alias" data-slug="companies/무학">무학</a> — 부산·경남 지역 기반 소주(좋은데이·화이트) 제조사 (KOSPI 033920)</p>
+</li>
+<li>
+<p><a href="../companies/GS" class="internal alias" data-slug="companies/GS">GS</a> — GS그룹의 순수지주회사 — GS리테일·GS에너지·GS글로벌·GS이피에스 등을 자회사로 지배 (KOSPI 078930)</p>
+</li>
+<li>
+<p><a href="../companies/GS피앤엘" class="internal alias" data-slug="companies/GS피앤엘">GS피앤엘</a> — 파르나스호텔·후레쉬미트를 자회사로 둔 GS그룹 계열 호텔·부동산 지주회사 (KOSPI)</p>
+</li>
+<li>
+<p><a href="../companies/HD건설기계" class="internal alias" data-slug="companies/HD건설기계">HD건설기계</a> — 굴착기·휠로더·산업차량 등 건설기계를 제조·판매하는 HD현대그룹 계열사 (구 HD현대건설기계, KOSPI 267270)</p>
+</li>
+<li>
+<p><a href="../companies/현대엘리베이터" class="internal alias" data-slug="companies/현대엘리베이터">현대엘리베이터</a> — 국내 1위 승강기(엘리베이터·에스컬레이터) 제조·설치·유지보수 기업, 현대그룹 핵심 계열사, 최대주주 현대홀딩스컴퍼니(20.1%), 2025년 연결매출 2조 4,674억원·영업이익 2,092억원 (KOSPI 017800)</p>
+</li>
+<li>
+<p><a href="../companies/HD현대" class="internal alias" data-slug="companies/HD현대">HD현대</a> — HD현대그룹의 지주회사 — 조선·정유·전력기기·건설기계 계열사 지배 (stub)</p>
+</li>
+<li>
+<p><a href="../companies/HD현대마린솔루션" class="internal alias" data-slug="companies/HD현대마린솔루션">HD현대마린솔루션</a> — 신조 인도 이후 선박 생애주기를 아우르는 Total Marine Solution Provider (KOSPI 083160)</p>
+</li>
+<li>
+<p><a href="../companies/HD현대마린엔진" class="internal alias" data-slug="companies/HD현대마린엔진">HD현대마린엔진</a> — 선박용 저속엔진(2ST)·엔진부품을 제조하는 HD한국조선해양 산하 자회사 (KOSPI 071970)</p>
+</li>
+<li>
+<p><a href="../companies/HD현대에너지솔루션" class="internal alias" data-slug="companies/HD현대에너지솔루션">HD현대에너지솔루션</a> — 태양광 셀·모듈·인버터(PCS)·ESS 신재생에너지 사업을 영위하는 HD한국조선해양 산하 자회사 (KOSPI 322000)</p>
+</li>
+<li>
+<p><a href="../companies/HD현대일렉트릭" class="internal alias" data-slug="companies/HD현대일렉트릭">HD현대일렉트릭</a> — 변압기·고압차단기·회전기를 제조·공급하는 HD현대그룹 계열 전력기기 전문기업</p>
+</li>
+<li>
+<p><a href="../companies/HD현대중공업" class="internal alias" data-slug="companies/HD현대중공업">HD현대중공업</a> — HD한국조선해양 산하 핵심 조선·해양·엔진 자회사 — 조선 매출비중 71%의 조선사 (KOSPI)</p>
+</li>
+<li>
+<p><a href="../companies/HDC" class="internal alias" data-slug="companies/HDC">HDC</a> — HDC그룹(에이치디씨 기업집단)의 지주회사 — 건설·소재·발전·유통·AIoT·악기 등 자회사 지배 (KOSPI 012630)</p>
+</li>
+<li>
+<p><a href="../companies/HDC랩스" class="internal alias" data-slug="companies/HDC랩스">HDC랩스</a> — HDC그룹 계열 라이프솔루션(홈서비스)·건설솔루션·리얼티(부동산종합관리) 종합 서비스 기업 (KOSPI)</p>
+</li>
+<li>
+<p><a href="../companies/HDC현대산업개발" class="internal alias" data-slug="companies/HDC현대산업개발">HDC현대산업개발</a> — HDC그룹의 건설 계열사, 아이파크(IPARK) 브랜드 종합건설사 (KOSPI 294870)</p>
+</li>
+<li>
+<p><a href="../companies/HDC현대EP" class="internal alias" data-slug="companies/HDC현대EP">HDC현대EP</a> — 자동차·전기전자·건설자재용 플라스틱 소재(PO·PS·건자재부문)를 생산·공급하는 HDC그룹 계열 화학소재 기업 (KOSPI 011780)</p>
+</li>
+<li>
+<p><a href="../companies/HJ중공업" class="internal alias" data-slug="companies/HJ중공업">HJ중공업</a> — 조선(방산·특수선·신조선)과 건설(토목·건축·플랜트)을 겸업하는 종합 중공업사, 舊 한진중공업 (KOSPI 097230)</p>
+</li>
+<li>
+<p>[HL D&amp;I](/companies/HL D&amp;I) — HL그룹 계열 종합건설업체(옛 한라건설), 토목·건축·주택건설 및 부동산개발 (KOSPI 014790)</p>
+</li>
+<li>
+<p><a href="../companies/HS애드" class="internal alias" data-slug="companies/HS애드">HS애드</a> — LG그룹 계열 종합광고대행사, 광고물 제작 및 매체집행(대행) 영위 (KOSPI 035000)</p>
+</li>
+<li>
+<p><a href="../companies/HS효성" class="internal alias" data-slug="companies/HS효성">HS효성</a> — 2024년 ㈜효성에서 인적분할된 지주회사, 산업자재·운송주선·수입차딜러 영위, 조현상 부회장 계열 (KOSPI)</p>
+</li>
+<li>
+<p><a href="../companies/HS효성첨단소재" class="internal alias" data-slug="companies/HS효성첨단소재">HS효성첨단소재</a> — 타이어보강재·아라미드·탄소섬유·스판덱스 생산, HS효성그룹 계열 (KOSPI 298050)</p>
+</li>
+<li>
+<p><a href="../companies/INVENI" class="internal alias" data-slug="companies/INVENI">INVENI</a> — LS그룹 지주회사에서 투자전문회사로 전환한 상장사(구 예스코홀딩스), 도시가스 자회사 예스코 지배 (KOSPI)</p>
+</li>
+<li>
+<p><a href="../companies/iM금융지주" class="internal alias" data-slug="companies/iM금융지주">iM금융지주</a> — 대구 기반 금융지주회사(舊 DGB금융지주), iM뱅크·iM증권·iM라이프생명보험 등 계열, 2025년 지배주주순이익 4,439억원 (KOSPI 139130)</p>
+</li>
+<li>
+<p><a href="../companies/JB금융지주" class="internal alias" data-slug="companies/JB금융지주">JB금융지주</a> — 전북은행·광주은행을 핵심 자회사로 둔 지방은행 기반 금융지주회사 (KOSPI 175330)</p>
+</li>
+<li>
+<p><a href="../companies/JW홀딩스" class="internal alias" data-slug="companies/JW홀딩스">JW홀딩스</a> — JW그룹 지주회사, JW중외제약·JW생명과학·JW신약 등을 지배하는 사업형 지주회사 (KOSPI)</p>
+</li>
+<li>
+<p><a href="../companies/JW생명과학" class="internal alias" data-slug="companies/JW생명과학">JW생명과학</a> — 국내 수액제 시장 점유율 1위 제약 계열사, JW중외제약 위탁생산(CMO) 중심 사업구조 (KOSPI)</p>
+</li>
+<li>
+<p><a href="../companies/KB금융지주" class="internal alias" data-slug="companies/KB금융지주">KB금융지주</a> — 은행·증권·보험·카드를 아우르는 한국 최대 금융지주회사, 2025년 연결 당기순이익 5조 8,341억원</p>
+</li>
+<li>
+<p><a href="../companies/KB스타리츠" class="internal alias" data-slug="companies/KB스타리츠">KB스타리츠</a> — 벨기에·영국·국내 오피스 5개 자산에 투자하는 글로벌 분산형 상장리츠(REIT) (KOSPI)</p>
+</li>
+<li>
+<p><a href="../companies/KEC" class="internal alias" data-slug="companies/KEC">KEC</a> — 전력반도체(TR·IC) 전문 제조사, KEC그룹 핵심 사업회사 (KOSPI 092220)</p>
+</li>
+<li>
+<p><a href="../companies/동인기연" class="internal alias" data-slug="companies/동인기연">동인기연</a> — 아웃도어 배낭·가방 ODM 전문기업, 필리핀·베트남 현지 생산법인 운영 (KOSPI 016380)</p>
+</li>
+<li>
+<p><a href="../companies/디씨엠" class="internal alias" data-slug="companies/디씨엠">디씨엠</a> — LAMINATED 칼라강판(코팅강판)·산업용 필름·알루미늄 복합판넬을 생산하는 양산 소재 표면처리강재 전문기업 (KOSPI 092200)</p>
+</li>
+<li>
+<p><a href="../companies/동국제강" class="internal alias" data-slug="companies/동국제강">동국제강</a> — 봉형강(철근·형강)·후판을 생산하는 국내 철강기업, 동국제강그룹 핵심 계열사 (KOSPI)</p>
+</li>
+<li>
+<p><a href="../companies/동국홀딩스" class="internal alias" data-slug="companies/동국홀딩스">동국홀딩스</a> — 동국제강그룹의 지주회사 (KOSPI 001230)</p>
+</li>
+<li>
+<p><a href="../companies/동국씨엠" class="internal alias" data-slug="companies/동국씨엠">동국씨엠</a> — 냉연도금강판·컬러강판을 생산하는 표면처리 전문 철강기업, 동국제강그룹 계열 (KOSPI 460850)</p>
+</li>
+<li>
+<p><a href="../companies/동원산업" class="internal alias" data-slug="companies/동원산업">동원산업</a> — 원양어업·식품·물류·포장재를 아우르는 동원그룹의 지주격 상장기업 (KOSPI 006040)</p>
+</li>
+<li>
+<p><a href="../companies/동원시스템즈" class="internal alias" data-slug="companies/동원시스템즈">동원시스템즈</a> — 종합패키징·2차전지 소재 전문기업, 동원그룹 계열 (KOSPI 014820)</p>
+</li>
+<li>
+<p><a href="../companies/동원수산" class="internal alias" data-slug="companies/동원수산">동원수산</a> — 참치연승·트롤 원양어업과 수산물 가공·유통, 빵가루 제조를 영위하는 KOSPI 상장 수산기업 (KOSPI 003960)</p>
+</li>
+<li>
+<p><a href="../companies/동양고속" class="internal alias" data-slug="companies/동양고속">동양고속</a> — 고속버스 여객운송 전문 KOSPI 상장기업, 마산/아산/평택 자가터미널 운영 (KOSPI 084670)</p>
+</li>
+<li>
+<p><a href="../companies/동양생명보험" class="internal alias" data-slug="companies/동양생명보험">동양생명보험</a> — 우리금융지주 계열 생명보험사, 2025년 7월 우리금융지주 자회사로 편입 (KOSPI 082640)</p>
+</li>
+<li>
+<p><a href="../companies/동아에스티" class="internal alias" data-slug="companies/동아에스티">동아에스티</a> — 동아쏘시오그룹 계열 전문의약품 제조사, 그로트로핀(성장호르몬)·모티리톤 등 (KOSPI 170900)</p>
+</li>
+<li>
+<p><a href="../companies/두산" class="internal alias" data-slug="companies/두산">두산</a> — 두산그룹 사업지주회사, 전자BG(CCL)·디지털이노베이션BU 자체사업 및 계열사 지배 (KOSPI 000150)</p>
+</li>
+<li>
+<p><a href="../companies/두산에너빌리티" class="internal alias" data-slug="companies/두산에너빌리티">두산에너빌리티</a> — 발전설비(원자력·복합화력·해상풍력)·담수설비·플랜트 EPC, 두산밥캣·두산퓨얼셀 연결 지배 (KOSPI 034020)</p>
+</li>
+<li>
+<p><a href="../companies/두산로보틱스" class="internal alias" data-slug="companies/두산로보틱스">두산로보틱스</a> — 협동로봇 제조 및 자동화솔루션(2025년 ONExia 인수) 기업, 두산그룹 계열 (KOSPI 454910)</p>
+</li>
+<li>
+<p><a href="../companies/두산밥캣" class="internal alias" data-slug="companies/두산밥캣">두산밥캣</a> — 두산그룹 계열 건설기계(Bobcat) 및 유압기기 제조사, 북미 매출 비중 73% (KOSPI 241560)</p>
+</li>
+<li>
+<p><a href="../companies/두산퓨얼셀" class="internal alias" data-slug="companies/두산퓨얼셀">두산퓨얼셀</a> — 발전용 연료전지(PAFC·SOFC) 기자재 공급 및 장기유지보수, 두산그룹 계열, 최대주주 두산에너빌리티 (KOSPI 336260)</p>
+</li>
+<li>
+<p><a href="../companies/디와이파워" class="internal alias" data-slug="companies/디와이파워">디와이파워</a> — 건설기계용 유압실린더 등 유압기기 전문 제조사, DY그룹 핵심 계열사 (KOSPI 210540)</p>
+</li>
+<li>
+<p><a href="../companies/디와이" class="internal alias" data-slug="companies/디와이">디와이</a> — 자동차부품·산업기계·유압기기를 영위하는 DY그룹 지주회사, 디와이파워 최대주주 (KOSPI 003460)</p>
+</li>
+<li>
+<p><a href="../companies/동성케미컬" class="internal alias" data-slug="companies/동성케미컬">동성케미컬</a> — 폴리우레탄·초저온보냉재·정밀화학 제조와 자회사 지배·경영자문을 겸하는 화학·바이오 기업집단, 최대주주 디에스티아이(41.56%) (KOSPI 130500)</p>
+</li>
+<li>
+<p><a href="../companies/아모레퍼시픽" class="internal alias" data-slug="companies/아모레퍼시픽">아모레퍼시픽</a> — 설화수·라네즈·헤라 등 화장품·생활용품 브랜드를 보유한 아모레퍼시픽그룹 핵심 사업회사 (KOSPI 090430)</p>
+</li>
+<li>
+<p><a href="../companies/아모레퍼시픽홀딩스" class="internal alias" data-slug="companies/아모레퍼시픽홀딩스">아모레퍼시픽홀딩스</a> — 아모레퍼시픽그룹 순수지주회사, 자회사 배당·로열티·용역수익 관리 (KOSPI 002790)</p>
+</li>
+<li>
+<p><a href="../companies/에이블씨엔씨" class="internal alias" data-slug="companies/에이블씨엔씨">에이블씨엔씨</a> — 미샤·어퓨 등 멀티 브랜드 포트폴리오를 보유한 글로벌 화장품 제조·유통 기업, IMM PE 계열 (KOSPI 078520)</p>
+</li>
+<li>
+<p><a href="../companies/잇츠한불" class="internal alias" data-slug="companies/잇츠한불">잇츠한불</a> — 잇츠스킨·프레스티지·체이싱래빗 브랜드를 보유한 화장품 제조·판매 기업, 코스닥 상장사 네오팜을 종속회사로 둔 지배회사 (KOSPI, 종목코드 미확인)</p>
+</li>
+<li>
+<p><a href="../companies/코스맥스" class="internal alias" data-slug="companies/코스맥스">코스맥스</a> — 세계 1위 화장품 ODM 전문기업, 코스맥스그룹 핵심 계열사, 2025년 매출 2조 3,988억 원 (KOSPI 192820)</p>
+</li>
+<li>
+<p><a href="../companies/콜마홀딩스" class="internal alias" data-slug="companies/콜마홀딩스">콜마홀딩스</a> — 콜마그룹 지주회사, 한국콜마·콜마비앤에이치·에이치케이이노엔 등을 지배, 2025년 연결 매출 6,301억원 (KOSPI 024720)</p>
+</li>
+<li>
+<p><a href="../companies/한국콜마" class="internal alias" data-slug="companies/한국콜마">한국콜마</a> — 화장품 ODM 1위권 기업, 전문의약품(에이치케이이노엔)·화장품용기(연우) 계열사 보유, 2025년 연결 매출 2조 7,224억원 (KOSPI 161890)</p>
+</li>
+<li>
+<p><a href="../companies/한국토지신탁" class="internal alias" data-slug="companies/한국토지신탁">한국토지신탁</a> — 국내 최대 자기자본 규모의 부동산신탁 전업사, 최대주주 엠케이인베스트먼트(24.25%) (KOSPI 034830)</p>
+</li>
+<li>
+<p><a href="../companies/한국화장품제조" class="internal alias" data-slug="companies/한국화장품제조">한국화장품제조</a> — 1962년 창사한 화장품 OEM·ODM 제조 전문기업, 한국화장품그룹 계열 (KOSPI 003350)</p>
+</li>
+<li>
+<p><a href="../companies/한국화장품" class="internal alias" data-slug="companies/한국화장품">한국화장품</a> — 한국화장품제조에서 분할된 화장품 판매·유통 전문기업, 브랜드샵(더샘)·H&amp;B·온라인 채널 운영 (KOSPI 123690)</p>
+</li>
+<li>
+<p><a href="../companies/한국단자공업" class="internal alias" data-slug="companies/한국단자공업">한국단자공업</a> — 자동차용·전자용 커넥터 및 전장모듈 제조사, 현대차·기아 및 삼성·LG전자 주력 공급, 최대주주 이창원(5.30%), 2025년 연결매출 1조 4,428억원·영업이익 1,393억원 (KOSPI 025540)</p>
+</li>
+<li>
+<p><a href="../companies/토니모리" class="internal alias" data-slug="companies/토니모리">토니모리</a> — 화장품 브랜드 ‘토니모리’·‘튠나인’ 운영, 반려동물·신기술금융업 겸영, 2025년 연결매출 2,203억원·영업이익 144억원 (KOSPI 214420)</p>
+</li>
+<li>
+<p><a href="../companies/아주스틸" class="internal alias" data-slug="companies/아주스틸">아주스틸</a> — 컬러강판·냉연도금강판을 생산하는 철강기업, 동국씨엠의 종속회사 (KOSPI)</p>
+</li>
+<li>
+<p><a href="../companies/포스코스틸리온" class="internal alias" data-slug="companies/포스코스틸리온">포스코스틸리온</a> — 도금강판·컬러강판을 생산하는 포스코그룹 계열 철강가공 전문기업 (KOSPI, 구 포스코강판)</p>
+</li>
+<li>
+<p><a href="../companies/포스코DX" class="internal alias" data-slug="companies/포스코DX">포스코DX</a> — IT·자동화(OT) 융합 디지털전환 전문기업, 포스코그룹 계열 (KOSPI 022100, 구 포스코ICT)</p>
+</li>
+<li>
+<p><a href="../companies/KG스틸" class="internal alias" data-slug="companies/KG스틸">KG스틸</a> — 냉연·아연도·칼라·석도강판을 생산하는 철강 전문회사(구 동부제철), KG그룹 계열 (KOSPI)</p>
+</li>
+<li>
+<p><a href="../companies/KPX케미칼" class="internal alias" data-slug="companies/KPX케미칼">KPX케미칼</a> — 폴리우레탄 핵심 원료 PPG를 생산하는 KPX그룹(진양그룹 계열) 정밀화학 기업 (KOSPI 025000)</p>
+</li>
+<li>
+<p><a href="../companies/부국철강" class="internal alias" data-slug="companies/부국철강">부국철강</a> — 광주·순천·익산 공장을 운영하는 포스코 열연판매점 계열 철강 가공·유통기업 (KOSPI 023100)</p>
+</li>
+<li>
+<p><a href="../companies/화인베스틸" class="internal alias" data-slug="companies/화인베스틸">화인베스틸</a> — 조선용·일반 형강(인버티드앵글 등)을 제조·판매하는 철강기업, 최대주주 화인인터내셔날(21.10%) (KOSPI 079980)</p>
+</li>
+<li>
+<p><a href="../companies/황금에스티" class="internal alias" data-slug="companies/황금에스티">황금에스티</a> — 스테인리스 열연·냉연판/특수강·탄소강 제조기업, 종속회사 인터컨스텍(교량·ALC)·유에스티(KOSDAQ) 등 보유, 최대주주 김종현(33.67%) (KOSPI 032560)</p>
+</li>
+<li>
+<p><a href="../companies/세아제강" class="internal alias" data-slug="companies/세아제강">세아제강</a> — 배관용·유정용·구조용 강관을 생산하는 세아그룹 계열 강관 전문 제조사 (KOSPI 306200)</p>
+</li>
+<li>
+<p><a href="../companies/세아제강지주" class="internal alias" data-slug="companies/세아제강지주">세아제강지주</a> — 세아그룹 강관 부문 순수지주회사 (KOSPI 003030)</p>
+</li>
+<li>
+<p><a href="../companies/세아홀딩스" class="internal alias" data-slug="companies/세아홀딩스">세아홀딩스</a> — 세아그룹 특수강 축 지주회사, 세아베스틸지주 등을 지배 (KOSPI 058650)</p>
+</li>
+<li>
+<p><a href="../companies/성문전자" class="internal alias" data-slug="companies/성문전자">성문전자</a> — 콘덴서용 금속증착필름을 생산하는 필름 콘덴서 소재 전문기업, 세계시장 점유율 약 20% (KOSPI 014910)</p>
+</li>
+<li>
+<p><a href="../companies/부산산업" class="internal alias" data-slug="companies/부산산업">부산산업</a> — 레미콘·콘크리트침목·세그멘트·건축 PC 등을 생산하는 부산 소재 건자재 기업 (KOSPI 011370)</p>
+</li>
+<li>
+<p><a href="../companies/비상교육" class="internal alias" data-slug="companies/비상교육">비상교육</a> — 교과서·학습교재 출판(완자·오투 등)과 스마트러닝(온리원)·학원 프랜차이즈를 영위하는 종합 교육기업, 최대주주 양태회(42.81%) (KOSPI 100220)</p>
+</li>
+<li>
+<p><a href="../companies/비에이치" class="internal alias" data-slug="companies/비에이치">비에이치</a> — FPCB(연성인쇄회로기판) 및 차량용 무선충전기(BH EVS) 제조사, 최대주주 이경환(21.75%) (KOSPI)</p>
+</li>
+<li>
+<p><a href="../companies/에이엔피" class="internal alias" data-slug="companies/에이엔피">에이엔피</a> — 인쇄회로기판(PCB)과 자동차 시트커버(SEAT COVER)를 생산하는 인천 소재 기업, 최대주주 (주)와이에스피(12.66%) (KOSPI 015260)</p>
+</li>
+<li>
+<p><a href="../companies/KPX홀딩스" class="internal alias" data-slug="companies/KPX홀딩스">KPX홀딩스</a> — 진양그룹(KPX그룹)의 지주회사 — KPX케미칼·진양홀딩스 등을 자회사로 둔 순수 지주회사 (KOSPI 025980)</p>
+</li>
+<li>
+<p><a href="../companies/TKG휴켐스" class="internal alias" data-slug="companies/TKG휴켐스">TKG휴켐스</a> — 폴리우레탄 중간소재(DNT·MNB)와 질산·초안 등 정밀화학 제품을 생산하는 KOSPI 상장 화학기업, 최대주주 티케이지태광 (KOSPI 069260)</p>
+</li>
+<li>
+<p><a href="../companies/진양화학" class="internal alias" data-slug="companies/진양화학">진양화학</a> — 인조피혁(PVC/PU)·천막지·자동차용원단 등 합성수지 제품 제조사, 진양그룹(KPX 계열), 최대주주 진양홀딩스(68.20%), 2025년 매출 185.6억원·당기순이익 9.0억원(흑자전환) (KOSPI 051390)</p>
+</li>
+<li>
+<p><a href="../companies/KSS해운" class="internal alias" data-slug="companies/KSS해운">KSS해운</a> — LPG·암모니아 등 가스화물 해상운송(GAS선)을 주력으로 하는 특수선 전문 외항 해운기업 (KOSPI 044450)</p>
+</li>
+<li>
+<p><a href="../companies/KTcs" class="internal alias" data-slug="companies/KTcs">KTcs</a> — KT 위수탁 고객센터·컨택센터·114번호안내·유통사업을 영위하는 KT그룹 계열 컨택센터·유통 전문기업 (KOSPI 058850)</p>
+</li>
+<li>
+<p><a href="../companies/KTis" class="internal alias" data-slug="companies/KTis">KTis</a> — KT로부터 위탁받은 고객센터·번호안내·유통사업을 영위하는 KT그룹 계열 컨택센터·유통 전문기업 (KOSPI)</p>
+</li>
+<li>
+<p><a href="../companies/LF" class="internal alias" data-slug="companies/LF">LF</a> — 닥스·헤지스·질스튜어트 등 패션 브랜드를 보유한 종합 패션·금융·식품 기업집단 지주 성격의 사업회사 (KOSPI 093050)</p>
+</li>
+<li>
+<p><a href="../companies/LIG디펜스앤에어로스페이스" class="internal alias" data-slug="companies/LIG디펜스앤에어로스페이스">LIG디펜스앤에어로스페이스</a> — 정밀유도무기·감시정찰·항공전자·지휘통제를 아우르는 대한민국 대표 종합방위산업체 (舊 LIG넥스원, KOSPI 079550)</p>
+</li>
+<li>
+<p><a href="../companies/LG" class="internal alias" data-slug="companies/LG">LG</a> — LG그룹의 지주회사 — (주)LG, 전자·화학·통신서비스 등 계열사 지배 (stub)</p>
+</li>
+<li>
+<p><a href="../companies/LG씨엔에스" class="internal alias" data-slug="companies/LG씨엔에스">LG씨엔에스</a> — LG그룹 IT서비스 계열사 — 클라우드&amp;AI·스마트엔지니어링·SI/SM, 2025년 2월 KOSPI 신규 상장 (KOSPI 064400)</p>
+</li>
+<li>
+<p><a href="../companies/LG디스플레이" class="internal alias" data-slug="companies/LG디스플레이">LG디스플레이</a> — LG그룹의 디스플레이 패널 제조사 — 대형 OLED·중소형 OLED·LCD (stub)</p>
+</li>
+<li>
+<p><a href="../companies/LG이노텍" class="internal alias" data-slug="companies/LG이노텍">LG이노텍</a> — LG그룹의 전자부품 제조사 — 카메라모듈·기판소재·전장부품 (stub)</p>
+</li>
+<li>
+<p><a href="../companies/LG전자" class="internal alias" data-slug="companies/LG전자">LG전자</a> — 생활가전·TV·전장·광학솔루션을 영위하는 LG그룹 핵심 전자 계열사 (KOSPI 066570)</p>
+</li>
+<li>
+<p><a href="../companies/LG화학" class="internal alias" data-slug="companies/LG화학">LG화학</a> — 석유화학·첨단소재(양극재)·생명과학을 영위하는 LG그룹 종합 화학기업, LG에너지솔루션 모회사 (KOSPI 051910)</p>
+</li>
+<li>
+<p><a href="../companies/LG생활건강" class="internal alias" data-slug="companies/LG생활건강">LG생활건강</a> — 화장품(더후·숨37˚)·생활용품(HDB)·음료(코카콜라) 3대 사업을 영위하는 국내 대표 소비재 기업, LG그룹 계열 (KOSPI 051900)</p>
+</li>
+<li>
+<p><a href="../companies/LG유플러스" class="internal alias" data-slug="companies/LG유플러스">LG유플러스</a> — LG그룹 계열 이동통신 3사 중 하나(MNO) — 모바일·스마트홈·기업인프라 사업 (KOSPI 032640)</p>
+</li>
+<li>
+<p><a href="../companies/LS에코에너지" class="internal alias" data-slug="companies/LS에코에너지">LS에코에너지</a> — 베트남·미얀마 전력·통신케이블 자회사를 지배하는 LS전선 계열 외국기업 지배지주회사 (KOSPI 229640)</p>
+</li>
+<li>
+<p><a href="../companies/OCI" class="internal alias" data-slug="companies/OCI">OCI</a> — OCI그룹의 기초화학·카본케미컬·전자소재 사업회사 (KOSPI 456040)</p>
+</li>
+<li>
+<p><a href="../companies/OCI홀딩스" class="internal alias" data-slug="companies/OCI홀딩스">OCI홀딩스</a> — OCI그룹 지주회사 — 태양광 폴리실리콘·기초화학·신재생에너지 자회사를 지배 (KOSPI 010060)</p>
+</li>
+<li>
+<p><a href="../companies/PI첨단소재" class="internal alias" data-slug="companies/PI첨단소재">PI첨단소재</a> — 글로벌 시장점유율 1위 폴리이미드(PI)필름 제조사, FPCB·방열시트·EV 배터리 절연용 소재 공급, Arkema 계열 (KOSPI 178920)</p>
+</li>
+<li>
+<p><a href="../companies/LG헬로비전" class="internal alias" data-slug="companies/LG헬로비전">LG헬로비전</a> — 전국 23개 권역 케이블TV·초고속인터넷·MVNO를 제공하는 종합유선방송사업자(MSO), LG유플러스 계열 (KOSPI 037560)</p>
+</li>
+<li>
+<p><a href="../companies/MH에탄올" class="internal alias" data-slug="companies/MH에탄올">MH에탄올</a> — 주정(에탄올) 제조·판매 기업, 골프장 사업(용원개발·진해오션리조트) 겸영 (KOSPI 023150)</p>
+</li>
+<li>
+<p><a href="../companies/S-Oil" class="internal alias" data-slug="companies/S-Oil">S-Oil</a> — 원유 정제·석유화학·윤활기유를 영위하는 국내 4대 정유사, Saudi Aramco 자회사 (KOSPI 010950)</p>
+</li>
+<li>
+<p><a href="../companies/SFA반도체" class="internal alias" data-slug="companies/SFA반도체">SFA반도체</a> — 반도체 후공정(OSAT) 전문기업, 삼성전자·SK하이닉스 등에 패키징·테스트 공급, 디와이(DY)그룹 계열 (KOSPI 036540)</p>
+</li>
+<li>
+<p><a href="../companies/SK" class="internal alias" data-slug="companies/SK">SK</a> — SK그룹의 지주회사 — 투자부문(자회사 지분관리)과 IT서비스 사업부문을 겸영 (KOSPI 034730)</p>
+</li>
+<li>
+<p><a href="../companies/SK리츠" class="internal alias" data-slug="companies/SK리츠">SK리츠</a> - SK그룹 우량 오피스.에너지 자산에 투자하는 위탁관리부동산투자회사(REIT) (KOSPI 395400)</p>
+</li>
+<li>
+<p><a href="../companies/SK가스" class="internal alias" data-slug="companies/SK가스">SK가스</a> — LPG 수입·저장·판매 국내 1위 사업자, LNG/LPG 복합발전(울산GPS)으로 확장, SK디스커버리그룹 계열 (KOSPI 018670)</p>
+</li>
+<li>
+<p><a href="../companies/SK이노베이션" class="internal alias" data-slug="companies/SK이노베이션">SK이노베이션</a> — SK그룹 에너지 지주 계열사, 정유·화학·배터리에 2024년 SK E&amp;S 합병으로 LNG·전력 편입 (KOSPI 096770)</p>
+</li>
+<li>
+<p><a href="../companies/SK디앤디" class="internal alias" data-slug="companies/SK디앤디">SK디앤디</a> — 오피스·주거·물류센터 등 부동산 개발/운영 기업, 2025년 최대주주가 SK디스커버리에서 한앤코개발홀딩스(유)로 변경 (KOSPI 210980)</p>
+</li>
+<li>
+<p><a href="../companies/SK이터닉스" class="internal alias" data-slug="companies/SK이터닉스">SK이터닉스</a> — SK디앤디에서 인적분할한 신재생에너지·ESS 전문기업, SK디스커버리 최대주주(31.03%) (KOSPI 452400)</p>
+</li>
+<li>
+<p><a href="../companies/SK바이오사이언스" class="internal alias" data-slug="companies/SK바이오사이언스">SK바이오사이언스</a> — 백신 개발·상업화 및 글로벌 CDMO(안동 L HOUSE·독일 IDT Biologika) 기업, SK디스커버리그룹 계열 (KOSPI 302440)</p>
+</li>
+<li>
+<p><a href="../companies/SK케미칼" class="internal alias" data-slug="companies/SK케미칼">SK케미칼</a> — SK디스커버리그룹의 그린케미칼·제약(Life Science) 계열사, SK바이오사이언스 최대주주 (KOSPI 006120, 2025 연결매출 2.37조 원)</p>
+</li>
+<li>
+<p><a href="../companies/SK스퀘어" class="internal alias" data-slug="companies/SK스퀘어">SK스퀘어</a> — SK그룹의 투자전문 지주회사 — 반도체·ICT 포트폴리오 투자 관리 (stub)</p>
+</li>
+<li>
+<p><a href="../companies/WISCOM" class="internal alias" data-slug="companies/WISCOM">WISCOM</a> — PVC 등 합성수지(Compound) 제조·가공·판매 전문기업, 내수 PVC Compound 시장점유율 약 15% (KOSPI 038460)</p>
+</li>
+<li>
+<p><a href="../companies/SK하이닉스" class="internal alias" data-slug="companies/SK하이닉스">SK하이닉스</a> — DRAM·NAND Flash 중심의 글로벌 메모리 반도체 기업. AI 메모리(HBM) 시장 선도.</p>
+</li>
+<li>
+<p><a href="../companies/SK오션플랜트" class="internal alias" data-slug="companies/SK오션플랜트">SK오션플랜트</a> — 해상풍력 하부구조물·특수선(방산)·조선·해양플랜트 전문기업, SK에코플랜트 최대주주(35.62%) (KOSPI 100090)</p>
+</li>
+<li>
+<p><a href="../companies/SNT에너지" class="internal alias" data-slug="companies/SNT에너지">SNT에너지</a> — 공랭식 열교환기(Air Cooler)·배열회수보일러(HRSG) 등 플랜트 기자재 제조사, SNT그룹 계열 (KOSPI 100840)</p>
+</li>
+<li>
+<p><a href="../companies/SNT홀딩스" class="internal alias" data-slug="companies/SNT홀딩스">SNT홀딩스</a> — SNT다이내믹스·SNT모티브·SNT에너지를 자회사로 둔 SNT그룹 순수지주회사 (KOSPI 003300)</p>
+</li>
+<li>
+<p><a href="../companies/SNT모티브" class="internal alias" data-slug="companies/SNT모티브">SNT모티브</a> — 하이브리드·전기차용 모터·오일펌프 등 친환경 자동차부품과 소화기 방산품 제조, SNT그룹 계열 (KOSPI 064960)</p>
+</li>
+<li>
+<p><a href="../companies/SBS" class="internal alias" data-slug="companies/SBS">SBS</a> — 지상파 방송·콘텐츠 제작 및 유통사업을 영위하는 태영그룹 계열 방송사 (KOSPI 034120)</p>
+</li>
+<li>
+<p><a href="../companies/STX" class="internal alias" data-slug="companies/STX">STX</a> — 에너지·원자재·기계엔진 무역을 주력으로 하는 전문 상사, 지주사 기능 겸영 (KOSPI 011810)</p>
+</li>
+<li>
+<p><a href="../companies/STX그린로지스" class="internal alias" data-slug="companies/STX그린로지스">STX그린로지스</a> — 벌크선 해운업·선박관리업을 주력으로 하는 STX그룹 계열 해운물류회사 (KOSPI 465100)</p>
+</li>
+<li>
+<p><a href="../companies/STX엔진" class="internal alias" data-slug="companies/STX엔진">STX엔진</a> — 디젤엔진·방산 특수엔진·전자통신장비를 영위하는 창원 소재 종합 엔진기업, 2025년 연결 매출 7,893억원 (KOSPI 077970)</p>
+</li>
+<li>
+<p><a href="../companies/갤럭시아에스엠" class="internal alias" data-slug="companies/갤럭시아에스엠">갤럭시아에스엠</a> — 프리미엄 피트니스(테크노짐 국내총판) 유통·아파트 분양 마케팅 서비스를 영위하는 효성그룹 계열사 (KOSPI 011420)</p>
+</li>
+<li>
+<p><a href="../companies/강원랜드" class="internal alias" data-slug="companies/강원랜드">강원랜드</a> — 국내 유일 내국인 출입 카지노를 운영하는 시장형 공기업·복합리조트 기업, 최대주주 한국광해광업공단 (KOSPI 035250)</p>
+</li>
+<li>
+<p><a href="../companies/경동도시가스" class="internal alias" data-slug="companies/경동도시가스">경동도시가스</a> — 울산·양산 권역 도시가스 공급을 영위하는 경동홀딩스그룹 계열사 (KOSPI 267290)</p>
+</li>
+<li>
+<p><a href="../companies/경동인베스트" class="internal alias" data-slug="companies/경동인베스트">경동인베스트</a> — 경동도시가스 최대주주, 경동홀딩스그룹 지주회사 (KOSPI 012320)</p>
+</li>
+<li>
+<p><a href="../companies/경인양행" class="internal alias" data-slug="companies/경인양행">경인양행</a> — 염료(Synozol 반응성염료)와 사카린 등 화학제품을 생산하는 인천 소재 화학기업, 최대주주 김흥준(20.44%) (KOSPI 012610)</p>
+</li>
+<li>
+<p><a href="../companies/경보제약" class="internal alias" data-slug="companies/경보제약">경보제약</a> — 종근당그룹 계열 원료의약품·완제의약품 전문 제약사, ADC 신사업 추진 (KOSPI, 종근당홀딩스 자회사)</p>
+</li>
+<li>
+<p><a href="../companies/종근당" class="internal alias" data-slug="companies/종근당">종근당</a> — 종근당그룹 핵심 계열사, 완제의약품(전문/일반의약품) 전문 제약사, 프롤리아·아토젯·글리아티린 등, 2025년 연결매출 1조 6,924억원·영업이익 806억원 (KOSPI 185750)</p>
+</li>
+<li>
+<p><a href="../companies/종근당홀딩스" class="internal alias" data-slug="companies/종근당홀딩스">종근당홀딩스</a> — 종근당그룹 지주회사, 경영자문료·브랜드사용료·배당금수익 기반 (KOSPI 001630)</p>
+</li>
+<li>
+<p><a href="../companies/계룡건설산업" class="internal alias" data-slug="companies/계룡건설산업">계룡건설산업</a> — 대전 소재 종합건설사, 건축·토목·분양·유통·레저 5대 부문 영위, 계룡 기업집단 핵심 상장사 (KOSPI 013580)</p>
+</li>
+<li>
+<p><a href="../companies/광명전기" class="internal alias" data-slug="companies/광명전기">광명전기</a> — 수배전반 제조·판매를 주력으로 하는 중전기기 기업, 최근 최대주주 잦은 변경과 대규모 순손실 발생 (KOSPI, 종목코드 미확인)</p>
+</li>
+<li>
+<p><a href="../companies/광전자" class="internal alias" data-slug="companies/광전자">광전자</a> — Discrete 반도체·광센서·LED 등 전자부품을 제조하는 전북 익산 소재 기업 (KOSPI 017900)</p>
+</li>
+<li>
+<p><a href="../companies/광주신세계" class="internal alias" data-slug="companies/광주신세계">광주신세계</a> — 광주·호남 상권 백화점 및 부동산·여객터미널 사업을 영위하는 신세계그룹 계열사 (KOSPI 037710)</p>
+</li>
+<li>
+<p><a href="../companies/그린케미칼" class="internal alias" data-slug="companies/그린케미칼">그린케미칼</a> — EO 기반 계면활성제(EOA)·DMC·AM 등을 생산하는 진양그룹(KPX 계열) 정밀화학 기업 (KOSPI 005250)</p>
+</li>
+<li>
+<p><a href="../companies/교보증권" class="internal alias" data-slug="companies/교보증권">교보증권</a> — 교보생명그룹 계열 종합증권사, 위탁매매·자기매매·장내외파생상품업·투자은행업 영위 (KOSPI 030610)</p>
+</li>
+<li>
+<p><a href="../companies/교촌에프앤비" class="internal alias" data-slug="companies/교촌에프앤비">교촌에프앤비</a> — 교촌치킨 브랜드 운영 치킨 프랜차이즈 가맹본부, 국내·글로벌·신사업 3개 부문 (KOSPI 339770)</p>
+</li>
+<li>
+<p><a href="../companies/극동유화" class="internal alias" data-slug="companies/극동유화">극동유화</a> — 윤활유·석유유통·LPG·아스팔트 사업을 영위하는 경남 양산 소재 정유 관련 기업 (KOSPI 017040)</p>
+</li>
+<li>
+<p><a href="../companies/까뮤이앤씨" class="internal alias" data-slug="companies/까뮤이앤씨">까뮤이앤씨</a> — PC(Precast Concrete) 공법 기반 종합건설업체, 한국알미늄 자회사 보유, 베이스그룹 계열사 (KOSPI 013700)</p>
+</li>
+<li>
+<p><a href="../companies/기아" class="internal alias" data-slug="companies/기아">기아</a> — 현대자동차그룹의 완성차 제조사 — 승용·RV·전기차 글로벌 판매 (stub)</p>
+</li>
+<li>
+<p><a href="../companies/기신정기" class="internal alias" data-slug="companies/기신정기">기신정기</a> — 플라스틱 사출금형용 몰드베이스·정밀 플레이트·프레스 다이세트를 제조·판매하는 금형소재 전문기업, 최대주주 일본 후타바전자공업 (KOSPI)</p>
+</li>
+<li>
+<p><a href="../companies/기업은행" class="internal alias" data-slug="companies/기업은행">기업은행</a> — 정부(기획재정부) 최대주주의 국책은행, 중소기업금융 특화, 2025년 연결 당기순이익 2조 7,189억원 (KOSPI 024110)</p>
+</li>
+<li>
+<p><a href="../companies/금강공업" class="internal alias" data-slug="companies/금강공업">금강공업</a> — 강관·건설용 가설자재(알루미늄폼) 제조·임대업체, 사료(고려산업)·선박엔진(케이에스피)·단조(삼미금속) 계열사를 거느린 금강그룹 핵심회사 (KOSPI 014280)</p>
+</li>
+<li>
+<p><a href="../companies/하이스틸" class="internal alias" data-slug="companies/하이스틸">하이스틸</a> — 한일철강에서 인적분할 설립된 강관 전문 제조기업, 2025년 최대주주 엄신철로 변경 (KOSPI 071090)</p>
+</li>
+<li>
+<p><a href="../companies/한일시멘트" class="internal alias" data-slug="companies/한일시멘트">한일시멘트</a> — 한일시멘트그룹 핵심 사업회사, 시멘트·레미콘·레미탈 제조·판매, 최대주주 한일홀딩스(59.84%), 2025.11 한일현대시멘트 흡수합병 (KOSPI 300720)</p>
+</li>
+<li>
+<p><a href="../companies/엘브이엠씨" class="internal alias" data-slug="companies/엘브이엠씨">엘브이엠씨홀딩스</a> — 라오스·베트남·미얀마·캄보디아 자동차·오토바이 유통 및 CKD/SKD 제조를 영위하는 케이만 소재 지주회사, KR모터스 최대주주 (KOSPI 900140)</p>
+</li>
+<li>
+<p><a href="../companies/KR모터스" class="internal alias" data-slug="companies/KR모터스">KR모터스</a> — 국내 유일 250cc급 이상 자체엔진 보유 이륜차(모터사이클) 제조·판매사, 엘브이엠씨홀딩스 계열 (KOSPI 000040)</p>
+</li>
+<li>
+<p><a href="../companies/금호에이치티" class="internal alias" data-slug="companies/금호에이치티">금호에이치티</a> — 자동차용 LED모듈·백열전구 등 조명부품 제조·판매 및 항체 치료·진단기술 이전 바이오사업 겸영, 최대주주 에코볼트(주) (KOSPI 084370)</p>
+</li>
+<li>
+<p><a href="../companies/금호타이어" class="internal alias" data-slug="companies/금호타이어">금호타이어</a> — 한국·중국·미국·베트남 8개 공장을 운영하는 글로벌 타이어 제조사, 최대주주 싱웨이코리아(중국 더블스타그룹 계열, 45%), 2025년 연결매출 4.70조원 (KOSPI 073240)</p>
+</li>
+<li>
+<p><a href="../companies/금호석유화학" class="internal alias" data-slug="companies/금호석유화학">금호석유화학</a> — 합성고무·합성수지·정밀화학 등을 영위하는 석유화학 기업, 금호석유화학그룹 핵심 계열사, 2025년 연결매출 6.92조원</p>
+</li>
+<li>
+<p><a href="../companies/남해화학" class="internal alias" data-slug="companies/남해화학">남해화학</a> — 국내 최대 화학비료 생산업체, 비료·화학·유류 사업, 농협경제지주 최대주주(56%) (KOSPI 025860)</p>
+</li>
+<li>
+<p><a href="../companies/테이팩스" class="internal alias" data-slug="companies/테이팩스">테이팩스</a> — 이차전지·반도체용 전자재료 테이프(TAPEX)와 식품포장용 랩(유니랩)을 생산하는 한솔그룹 계열 상장기업, 최대주주 한솔케미칼(44.89%) (KOSPI 292940)</p>
+</li>
+<li>
+<p><a href="../companies/한솔케미칼" class="internal alias" data-slug="companies/한솔케미칼">한솔케미칼</a> — 과산화수소·이차전지소재 등 정밀화학 제품을 생산하는 한솔그룹 계열 상장기업, 테이팩스 최대주주 (KOSPI 014680)</p>
+</li>
+<li>
+<p><a href="../companies/한솔홈데코" class="internal alias" data-slug="companies/한솔홈데코">한솔홈데코</a> — MDF·마루 등 목재 인테리어 자재 제조사, 한솔그룹 계열, 최대주주 한솔홀딩스(23.32%) (KOSPI 018250)</p>
+</li>
+<li>
+<p><a href="../companies/한솔제지" class="internal alias" data-slug="companies/한솔제지">한솔제지</a> — 산업용지·인쇄용지·특수지를 생산하는 국내 최대 지류 제조회사이자 환경플랜트(EPC) 겸영, 한솔그룹 계열, 최대주주 한솔홀딩스(30.49%) (KOSPI 213500)</p>
+</li>
+<li>
+<p><a href="../companies/대교" class="internal alias" data-slug="companies/대교">대교</a> — 학습지·교육서비스(‘눈높이’) 및 시니어·해외교육 사업을 영위하는 교육문화기업, 대교그룹 계열 (KOSPI 019680)</p>
+</li>
+<li>
+<p><a href="../companies/대덕전자" class="internal alias" data-slug="companies/대덕전자">대덕전자</a> — 반도체 패키지 기판(FCBGA 등)·MLB를 생산하는 PCB 전문기업, 대덕그룹 핵심 사업회사 (KOSPI 353200)</p>
+</li>
+<li>
+<p><a href="../companies/대성산업" class="internal alias" data-slug="companies/대성산업">대성산업</a> — 석유가스·전력발전·에너지·기계 등을 영위하는 대성그룹 계열 종합에너지기업 (KOSPI 128820)</p>
+</li>
+<li>
+<p><a href="../companies/대호에이엘" class="internal alias" data-slug="companies/대호에이엘">대호에이엘</a> — 알루미늄 코일·환절판 제조 및 철도차량 부품 임가공, 최대주주 비즈알파, 2025 감사의견 의견거절 (KOSPI 008040)</p>
+</li>
+<li>
+<p><a href="../companies/대영포장" class="internal alias" data-slug="companies/대영포장">대영포장</a> — 골판지 원단·상자 일괄 생산·판매, 국내 시장점유율 7.32%(3위권), 신대양그룹 계열 (KOSPI 006890)</p>
+</li>
+<li>
+<p><a href="../companies/신대양제지" class="internal alias" data-slug="companies/신대양제지">신대양제지</a> — 골판지 원지 제조 및 대영포장 최대주주(45.97%)인 신대양그룹 핵심 계열사 (KOSPI 016590)</p>
+</li>
+<li>
+<p><a href="../companies/대창" class="internal alias" data-slug="companies/대창">대창</a> — 동합금계열 비철금속 전문 제조업체, 아시아 최대 황동봉 수출업체 (KOSPI 012800)</p>
+</li>
+<li>
+<p><a href="../companies/서원" class="internal alias" data-slug="companies/서원">서원</a> — 대창의 최대주주(37.2%), 동합금 잉고트·빌레트 제조업체 (KOSPI)</p>
+</li>
+<li>
+<p><a href="../companies/에쎈테크" class="internal alias" data-slug="companies/에쎈테크">에쎈테크</a> — 대창 계열, 산업용·가정용 볼밸브 제조 (stub)</p>
+</li>
+<li>
+<p><a href="../companies/에스원" class="internal alias" data-slug="companies/에스원">에스원</a> — SECOM CO., LTD.(일본) 계열의 국내 1위 종합 안심솔루션 기업, 시큐리티·인프라(부동산·보안SI) 사업 (KOSPI 012750)</p>
+</li>
+<li>
+<p><a href="../companies/에쓰씨엔지니어링" class="internal alias" data-slug="companies/에쓰씨엔지니어링">에쓰씨엔지니어링</a> — 정밀화학·바이오·제약 플랜트 EPC 전문기업, 종속회사 셀론텍을 통해 바이오콜라겐 치료재료 사업 병행, 2025년 최대주주 2회 변경 (KOSPI 023960)</p>
+</li>
+<li>
+<p><a href="../companies/대창단조" class="internal alias" data-slug="companies/대창단조">대창단조</a> — 중장비 하부주행체 부품(링크·로라·슈)·자동차 크랑크샤프트 제조 단조 전문기업, 대창그룹 계열 (KOSPI 015590)</p>
+</li>
+<li>
+<p><a href="../companies/대원화성" class="internal alias" data-slug="companies/대원화성">대원화성</a> — 신발용·자동차 내장재용 폴리우레탄 합성피혁 제조 전문기업, 매출 80% 이상 수출 (KOSPI 003580)</p>
+</li>
+<li>
+<p><a href="../companies/백산" class="internal alias" data-slug="companies/백산">백산</a> — 폴리우레탄 합성피혁(인조피혁) 제조 전문기업, NIKE·ADIDAS·REEBOK 등 글로벌 브랜드향 공급 비중 80% 이상 (KOSPI 018760)</p>
+</li>
+<li>
+<p><a href="../companies/대우건설" class="internal alias" data-slug="companies/대우건설">대우건설</a> — 토목·건축·플랜트 종합건설사, 중흥그룹 계열, 2년 연속 국내 주택공급 1위 (KOSPI 047040)</p>
+</li>
+<li>
+<p><a href="../companies/대현" class="internal alias" data-slug="companies/대현">대현</a> — 씨씨콜렉트·주크·모조·듀엘 등 여성복 브랜드를 전개하는 패션기업 (KOSPI 016090)</p>
+</li>
+<li>
+<p><a href="../companies/동아지질" class="internal alias" data-slug="companies/동아지질">동아지질</a> — 특수토목(TBM·DCM·D-Wall) 전문 건설사, 해외(싱가포르·필리핀) 인프라 비중 높음, 크레센도PE 계열 최대주주 (KOSPI 028100)</p>
+</li>
+<li>
+<p><a href="../companies/대한조선" class="internal alias" data-slug="companies/대한조선">대한조선</a> — 수에즈막스·아프라막스급 원유운반선·정유운반선·컨테이너선 건조 조선업체, 2025년 8월 상장 (KOSPI 460850)</p>
+</li>
+<li>
+<p><a href="../companies/더본코리아" class="internal alias" data-slug="companies/더본코리아">더본코리아</a> — 백종원 대표의 외식 프랜차이즈 그룹(빽다방·새마을식당 등 25개 브랜드), 유통·호텔사업 겸영, 2024.11 상장 (KOSPI 475560)</p>
+</li>
+<li>
+<p><a href="../companies/덴티움" class="internal alias" data-slug="companies/덴티움">덴티움</a> — 임플란트·디지털장비 등 치과용 의료기기 전문 기업, 국내 시장점유율 약 20%(2위)·해외매출비중 80% (KOSPI 145720)</p>
+</li>
+<li>
+<p><a href="../companies/더존비즈온" class="internal alias" data-slug="companies/더존비즈온">더존비즈온</a> — 국내 대표 ERP·클라우드 SaaS 기업, 제주은행 2대 주주(14.99%), 2026년 최대주주 도로니쿰(주)로 변경 예정 (KOSPI 012510)</p>
+</li>
+<li>
+<p><a href="../companies/메타랩스" class="internal alias" data-slug="companies/메타랩스">메타랩스</a> — 패션·경영컨설팅·헬스케어·부동산개발 4개 부문을 영위하는 KOSPI 상장 지주형 사업회사(舊 아비스타)</p>
+</li>
+<li>
+<p><a href="../companies/메타케어" class="internal alias" data-slug="companies/메타케어">메타케어</a> — 의약품·의료기기 유통에서 부동산개발·모발이식 MSO까지 다각화한 KOSPI 상장 헬스케어 기업, 메타랩스 종속회사</p>
+</li>
+<li>
+<p><a href="../companies/명문제약" class="internal alias" data-slug="companies/명문제약">명문제약</a> — 경피흡수제형 ‘키미테’ 멀미약으로 알려진 중견 제약사, 의약품/바이오부문+서비스(골프장)부문 겸영, 최대주주 우석민(19.06%) (KOSPI 017180)</p>
+</li>
+<li>
+<p><a href="../companies/모나용평" class="internal alias" data-slug="companies/모나용평">모나용평</a> — 강원 평창·충남 보령에서 스키·골프·워터파크·콘도 등을 운영하는 리조트 기업, 콘도 분양 겸영, 최대주주 (재)세계평화통일가정연합유지재단(35.99%), 구 용평리조트 (KOSPI 070960)</p>
+</li>
+<li>
+<p><a href="../companies/미래에셋생명" class="internal alias" data-slug="companies/미래에셋생명">미래에셋생명</a> — 보장성·변액보험 투트랙 전략을 구사하는 생명보험사, 미래에셋그룹 계열, 최대주주 미래에셋증권 (KOSPI 085620)</p>
+</li>
+<li>
+<p><a href="../companies/미래에셋증권" class="internal alias" data-slug="companies/미래에셋증권">미래에셋증권</a> — 투자매매·중개·자산관리·IB·트레이딩을 영위하는 국내 최대 자기자본(13.5조) 증권사, 미래에셋그룹 핵심 계열사 (KOSPI 006800)</p>
+</li>
+<li>
+<p><a href="../companies/미래산업" class="internal alias" data-slug="companies/미래산업">미래산업</a> — 반도체 검사장비(Test Handler)·이형부품삽입기(MAI) 제조사, 최대주주 넥스턴앤롤코리아(32.31%) (KOSPI 025560)</p>
+</li>
+<li>
+<p><a href="../companies/삼성E-and-A" class="internal alias" data-slug="companies/삼성E-and-A">삼성E&amp;A</a> — 화공·첨단산업·New Energy 플랜트 EPC 전문기업, 옛 삼성엔지니어링, 삼성그룹 계열 (KOSPI 028050)</p>
+</li>
+<li>
+<p><a href="../companies/삼성카드" class="internal alias" data-slug="companies/삼성카드">삼성카드</a> — 삼성그룹의 신용카드·여신전문금융 계열사, 최대주주 삼성생명보험(71.86%), 2025년 연결 영업이익 8,537억원 (KOSPI 029780)</p>
+</li>
+<li>
+<p><a href="../companies/삼성물산" class="internal alias" data-slug="companies/삼성물산">삼성물산</a> — 삼성그룹의 종합상사·건설·패션·리조트 계열사이자 사실상 지주 역할 (stub)</p>
+</li>
+<li>
+<p><a href="../companies/삼성바이오로직스" class="internal alias" data-slug="companies/삼성바이오로직스">삼성바이오로직스</a> — 글로벌 제약·바이오 기업 대상 바이오의약품 위탁개발생산(CDMO) 전문기업, 2025년 매출 4.6조원, 2025.11 인적분할로 삼성에피스홀딩스 신설 (KOSPI 207940)</p>
+</li>
+<li>
+<p><a href="../companies/삼성생명보험" class="internal alias" data-slug="companies/삼성생명보험">삼성생명보험</a> — 삼성그룹의 생명보험사 — 국내 최대 생명보험회사 (stub)</p>
+</li>
+<li>
+<p><a href="../companies/삼성출판사" class="internal alias" data-slug="companies/삼성출판사">삼성출판사</a> — 유아동·교육 출판(마이리틀타이거, 삼성영어교재)과 부동산 임대업을 영위하는 기업, 제24기(2025) 매출 402.9억원 (KOSPI 068290)</p>
+</li>
+<li>
+<p><a href="../companies/삼성전기" class="internal alias" data-slug="companies/삼성전기">삼성전기</a> — MLCC·카메라모듈·반도체패키지기판을 생산하는 삼성그룹 핵심 전자부품 기업</p>
+</li>
+<li>
+<p><a href="../companies/삼성전자" class="internal alias" data-slug="companies/삼성전자">삼성전자</a> — DRAM·NAND 메모리와 스마트폰·TV·가전을 아우르는 글로벌 종합 전자 기업, 2025년 매출 333.6조원</p>
+</li>
+<li>
+<p><a href="../companies/삼성화재" class="internal alias" data-slug="companies/삼성화재">삼성화재</a> — 국내 손해보험 1위, 삼성그룹 손보 계열사, 2025년 연결 당기순이익 2조 203억원, 원수보험 M/S 약 22.6% (KOSPI 000810)</p>
+</li>
+<li>
+<p><a href="../companies/삼성SDS" class="internal alias" data-slug="companies/삼성SDS">삼성SDS</a> — IT서비스(클라우드·SI·ITO)와 글로벌 물류를 영위하는 삼성그룹 계열 IT·물류 기업, 2025년 매출 13.9조원 (KOSPI 018260)</p>
+</li>
+<li>
+<p><a href="../companies/삼성증권" class="internal alias" data-slug="companies/삼성증권">삼성증권</a> — 삼성그룹 계열 종합증권사, 최대주주 삼성생명보험(29.39%), 2025년 연결 당기순이익 1조 72억원 (KOSPI 016360)</p>
+</li>
+<li>
+<p><a href="../companies/삼호개발" class="internal alias" data-slug="companies/삼호개발">삼호개발</a> — 토목·조경·포장 전문건설(토공사업 전국 1위), 2025년 연결 매출 4,097억 (KOSPI 010960)</p>
+</li>
+<li>
+<p><a href="../companies/삼화전자공업" class="internal alias" data-slug="companies/삼화전자공업">삼화전자공업</a> — 페라이트 코어·MPC 등 전자기기부품을 제조·판매하는 삼화그룹 계열 전자부품 기업, 2025년 연결 매출 296억원 (KOSPI 006090)</p>
+</li>
+<li>
+<p><a href="../companies/산일전기" class="internal alias" data-slug="companies/산일전기">산일전기</a> — 미국 등 해외 배전·전력용 변압기 시장을 주력으로 하는 산업용 변압기 제조기업, 2025년 매출 5,019억원 (KOSPI 062040)</p>
+</li>
+<li>
+<p><a href="../companies/새론오토모티브" class="internal alias" data-slug="companies/새론오토모티브">새론오토모티브</a> — 자동차 브레이크 마찰재(Brake Pad·Lining·Rotor Facing) 전문 제조사, 닛신보 홀딩스(일본) 계열 (KOSPI 070950)</p>
+</li>
+<li>
+<p><a href="../companies/솔루스첨단소재" class="internal alias" data-slug="companies/솔루스첨단소재">솔루스첨단소재</a> — 전지박·OLED 소재·첨단소재 3개 사업부문을 영위하는 스카이레이크 계열 소재기업, 2025년 연결매출 6,161억원 (KOSPI 336370)</p>
+</li>
+<li>
+<p><a href="../companies/신영증권" class="internal alias" data-slug="companies/신영증권">신영증권</a> — 위탁매매·자산관리(WM)·기업금융(IB)·트레이딩을 영위하는 1956년 설립의 가치투자 철학 기반 종합증권사 (KOSPI 001720, 3월 결산)</p>
+</li>
+<li>
+<p><a href="../companies/신한금융지주" class="internal alias" data-slug="companies/신한금융지주">신한금융지주</a> — 은행·증권·카드·보험을 아우르는 한국 대형 금융지주회사, 2025년 연결 지배주주 당기순이익 4조 9,716억원 (KOSPI 055550)</p>
+</li>
+<li>
+<p><a href="../companies/신세계I-and-C" class="internal alias" data-slug="companies/신세계I-and-C">신세계I&amp;C</a> — 이마트 계열 IT서비스·IT유통·IT정보서비스 기업, 2025년 연결매출 6,872억원 (KOSPI 035510)</p>
+</li>
+<li>
+<p><a href="../companies/신세계인터내셔날" class="internal alias" data-slug="companies/신세계인터내셔날">신세계인터내셔날</a> — 패션·코스메틱 브랜드 수입·유통 및 자체 브랜드를 영위하는 신세계그룹 계열사, 2025년 연결매출 1조 1,100억원 (KOSPI 031430)</p>
+</li>
+<li>
+<p><a href="../companies/신도리코" class="internal alias" data-slug="companies/신도리코">신도리코</a> — 복합기(MFP)·프린터·소모품 제조·판매를 주업으로 하는 65년 전통의 사무기기(OA) 전문기업, 2025년 매출 2,998억원(별도) (KOSPI 029530)</p>
+</li>
+<li>
+<p><a href="../companies/신세계푸드" class="internal alias" data-slug="companies/신세계푸드">신세계푸드</a> — 식품제조·유통·베이커리·외식 기업, 이마트 최대주주(55.48%), 2025년 연결매출 1조 2,332억원 (KOSPI 031440)</p>
+</li>
+<li>
+<p><a href="../companies/신성이엔지" class="internal alias" data-slug="companies/신성이엔지">신성이엔지</a> — 반도체·이차전지向 클린룸 공조장비(FFU/EFU)와 태양광 재생에너지 사업을 영위하는 KOSPI 상장기업, 2025년 연결매출 5,675억원 (KOSPI 011930)</p>
+</li>
+<li>
+<p><a href="../companies/신풍제약" class="internal alias" data-slug="companies/신풍제약">신풍제약</a> — 완제의약품·원료의약품 제조·판매를 영위하는 제약사, 말라리아치료제 ‘피라맥스’ 등으로 해외사업 확대, 2025년 연결매출 2,346.8억원 (KOSPI 019170)</p>
+</li>
+<li>
+<p><a href="../companies/솔루엠" class="internal alias" data-slug="companies/솔루엠">솔루엠</a> — 전자부품(파워모듈)과 ICT(ESL·전자가격표시기)를 양대 축으로 하는 전자부품 전문기업, 2025년 매출 1조 7,002억원 (KOSPI 248070)</p>
+</li>
+<li>
+<p><a href="../companies/아이에스동서" class="internal alias" data-slug="companies/아이에스동서">아이에스동서</a> — 건설·콘크리트·환경(폐기물·폐배터리 자원순환)을 영위하는 아이에스그룹 핵심사 (KOSPI 010780)</p>
+</li>
+<li>
+<p><a href="../companies/아이티센씨티에스" class="internal alias" data-slug="companies/아이티센씨티에스">아이티센씨티에스</a> — 구 콤텍시스템, AI·클라우드 인프라 컨설팅·구축·운영을 전문으로 하는 아이티센그룹 핵심 상장 계열사 (KOSPI 023460)</p>
+</li>
+<li>
+<p><a href="../companies/아세아" class="internal alias" data-slug="companies/아세아">아세아</a> — 시멘트(아세아시멘트·한라시멘트)·제지(아세아제지) 자회사를 지배하는 순수지주회사, 2025년 연결 매출 1조 8,845억원 (KOSPI 002030)</p>
+</li>
+<li>
+<p><a href="../companies/아센디오" class="internal alias" data-slug="companies/아센디오">아센디오</a> — 영화·드라마·공연·전시 콘텐츠 제작/투자와 중동향 아바야 원단 유통을 겸업하는 종합 엔터테인먼트 기업 (KOSPI 012170)</p>
+</li>
+<li>
+<p><a href="../companies/키다리스튜디오" class="internal alias" data-slug="companies/키다리스튜디오">키다리스튜디오</a> — 웹툰·웹소설 플랫폼(‘봄툰’·‘레진코믹스’) 및 영상·MD(굿즈) 사업을 영위하는 다우키움그룹 계열 종합 콘텐츠 기업, 2025년 연결매출 2,175억원·영업이익 124억원 (KOSPI 020120)</p>
+</li>
+<li>
+<p><a href="../companies/하이브" class="internal alias" data-slug="companies/하이브">하이브</a> — BTS·세븐틴·뉴진스 등을 보유한 종합 엔터테인먼트 기업, 위버스컴퍼니 모회사, 2025년 연결매출 2조 6,499억원 (KOSPI 352820)</p>
+</li>
+<li>
+<p><a href="../companies/SJG세종" class="internal alias" data-slug="companies/SJG세종">SJG세종</a> — 현대ㆍ기아자동차向 배기계(머플러·컨버터) 전문 제조사(구 세종공업) (KOSPI 033530)</p>
+</li>
+<li>
+<p><a href="../companies/에이치엘만도" class="internal alias" data-slug="companies/에이치엘만도">에이치엘만도</a> — 자동차 제동·조향·현가장치 등 섀시 부품 전문 제조사, HL그룹 계열 (KOSPI 204320)</p>
+</li>
+<li>
+<p><a href="../companies/에이치엘홀딩스" class="internal alias" data-slug="companies/에이치엘홀딩스">에이치엘홀딩스</a> — HL그룹(한라그룹)의 지주회사, HL만도·HL D&amp;I의 최대주주 (KOSPI 060980)</p>
+</li>
+<li>
+<p><a href="../companies/에넥스" class="internal alias" data-slug="companies/에넥스">에넥스</a> — 주방가구·인테리어가구(빌트인 특판 B2B 중심)를 제조하는 중견 가구기업 (KOSPI 011090)</p>
+</li>
+<li>
+<p><a href="../companies/에이피알" class="internal alias" data-slug="companies/에이피알">에이피알</a> — 메디큐브·에이프릴스킨 등 뷰티 브랜드와 홈 뷰티 디바이스 ‘에이지알’을 운영, 2025년 연결매출 1조 5,273억원·영업이익 3,655억원, 최대주주 김병훈(31.94%) (KOSPI 278470)</p>
+</li>
+<li>
+<p><a href="../companies/엔씨소프트" class="internal alias" data-slug="companies/엔씨소프트">엔씨소프트</a> — 리니지 시리즈로 대표되는 국내 대형 온라인·모바일 게임 개발·서비스 기업 (KOSPI 036570)</p>
+</li>
+<li>
+<p><a href="../companies/엑시큐어하이트론" class="internal alias" data-slug="companies/엑시큐어하이트론">엑시큐어하이트론</a> — 보안(CCTV·NVR) 제조사에서 바이오(자회사 EXICURE)로 다각화, 2026.3 상장폐지 결정 진행 중 (KOSPI 019490)</p>
+</li>
+<li>
+<p><a href="../companies/넷마블" class="internal alias" data-slug="companies/넷마블">넷마블</a> — 모바일게임 개발·퍼블리싱 전문 기업, 방준혁 최대주주 (KOSPI 251270)</p>
+</li>
+<li>
+<p><a href="../companies/더블유게임즈" class="internal alias" data-slug="companies/더블유게임즈">더블유게임즈</a> — 더블유카지노·테이크5 등 소셜카지노·모바일게임과 아이게이밍(온라인 카지노) 사업 영위, 김가람 최대주주 (KOSPI 192080)</p>
+</li>
+<li>
+<p><a href="../companies/시프트업" class="internal alias" data-slug="companies/시프트업">시프트업</a> — 승리의 여신: 니케·스텔라 블레이드로 대표되는 글로벌 게임 개발사, 김형태 최대주주(38.43%) (KOSPI 462870)</p>
+</li>
+<li>
+<p><a href="../companies/크래프톤" class="internal alias" data-slug="companies/크래프톤">크래프톤</a> — PUBG: 배틀그라운드 IP 기반 게임 개발·퍼블리싱사, 2025년 ADK 그룹·넵튠 인수로 광고 부문 신규 편입, 2025년 연결매출 3조 3,266억원·영업이익 1조 544억원, 최대주주 장병규(15.05%) (KOSPI 259960)</p>
+</li>
+<li>
+<p><a href="../companies/인선이엔티" class="internal alias" data-slug="companies/인선이엔티">인선이엔티</a> — 건설폐기물 처리·자원순환 전문, 아이에스동서 종속 상장사 (KOSPI)</p>
+</li>
+<li>
+<p><a href="../companies/현대로템" class="internal alias" data-slug="companies/현대로템">현대로템</a> — 디펜스솔루션(K2전차 등)·레일솔루션(철도차량)·에코플랜트(제철설비) 3개 부문을 영위하는 현대자동차그룹 계열 종합기계기업, 2025년 연결 매출 5조 8,390억원·영업이익 1조 56억원 (KOSPI 064350)</p>
+</li>
+<li>
+<p><a href="../companies/현대코퍼레이션" class="internal alias" data-slug="companies/현대코퍼레이션">현대코퍼레이션</a> — 철강·자동차·에너지·석유화학 등을 취급하는 종합무역상사, 정몽혁 회장 계열 (KOSPI 011760)</p>
+</li>
+<li>
+<p><a href="../companies/현대코퍼레이션홀딩스" class="internal alias" data-slug="companies/현대코퍼레이션홀딩스">현대코퍼레이션홀딩스</a> — 현대코퍼레이션의 최대주주이자 그룹 지배구조 정점 법인, 브랜드 로열티·신사업(축산물·패키징·버섯) 영위</p>
+</li>
+<li>
+<p><a href="../companies/NAVER" class="internal alias" data-slug="companies/NAVER">NAVER</a> — 국내 1위 검색 포털 기반 서치플랫폼·커머스·핀테크·콘텐츠·엔터프라이즈(AI·클라우드) 사업 영위, 2025년 매출 12.0조원 (KOSPI 035420)</p>
+</li>
+<li>
+<p><a href="../companies/NICE평가정보" class="internal alias" data-slug="companies/NICE평가정보">NICE평가정보</a> — 개인신용정보(CB)·기업정보사업을 영위하는 국내 최대 신용정보업체, NICE그룹 계열 (KOSPI 030190)</p>
+</li>
+<li>
+<p><a href="../companies/NICE홀딩스" class="internal alias" data-slug="companies/NICE홀딩스">NICE홀딩스</a> — NICE그룹 지주회사, NICE평가정보 최대주주 (KOSPI 034310)</p>
+</li>
+<li>
+<p><a href="../companies/NHN" class="internal alias" data-slug="companies/NHN">NHN</a> — 게임·PG/PAYCO 간편결제·클라우드(CSP/MSP) 사업을 영위하는 종합 IT기업 (KOSPI 181710)</p>
+</li>
+<li>
+<p><a href="../companies/NH프라임리츠" class="internal alias" data-slug="companies/NH프라임리츠">NH프라임리츠</a> — 서울스퀘어·아크플레이스 등 우량 오피스 자산에 재간접 투자하는 위탁관리부동산투자회사(리츠) (KOSPI 338100)</p>
+</li>
+<li>
+<p><a href="../companies/NH올원리츠" class="internal alias" data-slug="companies/NH올원리츠">NH올원리츠</a> — 오피스·물류·리테일 자산에 분산 투자하는 NH농협금융 계열 위탁관리부동산투자회사(리츠) (KOSPI, 종목코드 미확인)</p>
+</li>
+<li>
+<p><a href="../companies/디앤디플랫폼리츠" class="internal alias" data-slug="companies/디앤디플랫폼리츠">디앤디플랫폼리츠</a> — 국내 오피스·물류센터 및 해외(일본) 물류자산에 재간접 투자하는 위탁관리부동산투자회사(리츠), 최대주주 미래에셋자산운용 (KOSPI 253850)</p>
+</li>
+<li>
+<p><a href="../companies/마스턴프리미어리츠" class="internal alias" data-slug="companies/마스턴프리미어리츠">마스턴프리미어리츠</a> — 프랑스 오피스·물류센터 및 국내 물류센터에 간접 투자하는 글로벌 분산형 상장리츠(REIT) (KOSPI 357430)</p>
+</li>
+<li>
+<p><a href="../companies/미래에셋글로벌리츠" class="internal alias" data-slug="companies/미래에셋글로벌리츠">미래에셋글로벌리츠</a> — 미국 소재 물류센터 4개 자산에 간접 투자하는 위탁관리부동산투자회사(REIT), 미래에셋자산운용이 자산관리 (KOSPI 396690)</p>
+</li>
+<li>
+<p><a href="../companies/미래에셋맵스리츠" class="internal alias" data-slug="companies/미래에셋맵스리츠">미래에셋맵스리츠</a> — 광교센트럴푸르지오시티 상업시설 등에 투자하는 위탁관리부동산투자회사(리츠), 미래에셋그룹 계열 (KOSPI 357250)</p>
+</li>
+<li>
+<p><a href="../companies/이지스밸류플러스리츠" class="internal alias" data-slug="companies/이지스밸류플러스리츠">이지스밸류플러스리츠</a> — 태평로빌딩·트윈트리타워 등 오피스와 데이터센터·물류센터에 간접 투자하는 위탁관리부동산투자회사(REIT), 최대주주 이지스자산운용 (KOSPI 334970)</p>
+</li>
+<li>
+<p><a href="../companies/코람코라이프인프라리츠" class="internal alias" data-slug="companies/코람코라이프인프라리츠">코람코라이프인프라리츠</a> — 주유소 151개·물류센터 2개·호텔 2개·주차장 1개에 투자하는 위탁관리부동산투자회사(REIT), 최대주주 한국스탠다드차타드은행(미래에셋자산운용 신탁, 12.10%) (KOSPI 088980)</p>
+</li>
+<li>
+<p><a href="../companies/코람코더원리츠" class="internal alias" data-slug="companies/코람코더원리츠">코람코더원리츠</a> — 여의도 하나증권빌딩 단일 자산에 투자하는 위탁관리부동산투자회사(REIT), 최대주주 신한은행(페블스톤전문투자형리츠부동산모투자신탁제1-1호 신탁업자, 19.80%), 하나증권 매수선택권 행사에 따른 매각 절차 진행 중 (KOSPI 293940)</p>
+</li>
+<li>
+<p><a href="../companies/코스맥스비티아이" class="internal alias" data-slug="companies/코스맥스비티아이">코스맥스비티아이</a> — 코스맥스그룹의 사업지주회사, 화장품(마스크팩)·의약품 제조 및 건강기능식품 자회사(코스맥스바이오·코스맥스엔비티) 지배 (KOSPI 044820)</p>
+</li>
+<li>
+<p><a href="../companies/코오롱인더스트리" class="internal alias" data-slug="companies/코오롱인더스트리">코오롱인더스트리</a> — 산업자재(타이어코드·아라미드)·화학소재·패션을 영위하는 코오롱그룹 주력 화학·소재 기업, 최대주주 ㈜코오롱(33.43%) (KOSPI 120110)</p>
+</li>
+<li>
+<p><a href="../companies/KT-and-G" class="internal alias" data-slug="companies/KT-and-G">KT&amp;G</a> — 담배(궐련·HNB)·홍삼(정관장)·부동산·제약/화장품을 영위하는 대형 소비재 기업, KT&amp;G그룹 핵심사, 최대주주 중소기업은행(8.06%), 2025년 연결매출 6조 5,797억원·영업이익 1조 3,437억원 (KOSPI 033780)</p>
+</li>
+<li>
+<p><a href="../companies/롯데케미칼" class="internal alias" data-slug="companies/롯데케미칼">롯데케미칼</a> — 롯데그룹 화학군 핵심 석유화학 기업 — 기초화학·첨단소재·정밀화학·전지소재 (KOSPI 011170)</p>
+</li>
+<li>
+<p><a href="../companies/롯데관광개발" class="internal alias" data-slug="companies/롯데관광개발">롯데관광개발</a> — 제주 드림타워 복합리조트(그랜드 하얏트 제주·엘티카지노)를 운영하는 여행·호텔·카지노 복합기업, 2025년 연결매출 6,534억원 (KOSPI 032350)</p>
+</li>
+<li>
+<p><a href="../companies/롯데리츠" class="internal alias" data-slug="companies/롯데리츠">롯데리츠</a> — 롯데쇼핑·롯데글로벌로지스 리테일·물류 자산을 책임임대차로 운용하는 위탁관리부동산투자회사(리츠) (KOSPI 334870)</p>
+</li>
+<li>
+<p><a href="../companies/이리츠코크렙" class="internal alias" data-slug="companies/이리츠코크렙">이리츠코크렙</a> — 이랜드리테일 보유 상업시설 5개 자산(뉴코아 야탑·일산·평촌·분당·중계점)에 투자하는 기업구조조정부동산투자회사(CR-REIT), 최대주주 이랜드리테일 47.95% (KOSPI 088260)</p>
+</li>
+<li>
+<p><a href="../companies/삼성FN리츠" class="internal alias" data-slug="companies/삼성FN리츠">삼성FN리츠</a> — 에프엔타워 대치·순화·판교 3개 오피스 자산을 보유·운용하는 삼성그룹 계열 위탁관리부동산투자회사(리츠), 최대주주 삼성생명보험 (KOSPI)</p>
+</li>
+<li>
+<p><a href="../companies/신한알파리츠" class="internal alias" data-slug="companies/신한알파리츠">신한알파리츠</a> — 서울 도심·강남·분당권역 오피스 12개 자산에 투자하는 신한금융그룹 계열 위탁관리부동산투자회사(REIT), 최대주주 미래에셋자산운용 10.8% (KOSPI 293940)</p>
+</li>
+<li>
+<p><a href="../companies/신한서부티엔디리츠" class="internal alias" data-slug="companies/신한서부티엔디리츠">신한서부티엔디리츠</a> — 인천 스퀘어원·용산 그랜드머큐어 호텔 등 서부티엔디 스폰서 자산을 보유·운용하는 위탁관리부동산투자회사(리츠), 최대주주 서부티엔디 47.34% (KOSPI 371450)</p>
+</li>
+<li>
+<p><a href="../companies/신한글로벌액티브리츠" class="internal alias" data-slug="companies/신한글로벌액티브리츠">신한글로벌액티브리츠</a> — 종속회사를 통해 미국 부동산 대체투자펀드(U.S. Government Building Feeder·PRISA·CBRE U.S. Core Partners) 지분에 재간접 투자하는 위탁관리부동산투자회사(리츠), 신한리츠운용이 자산관리 (KOSPI 377190)</p>
+</li>
+<li>
+<p><a href="../companies/제이알글로벌리츠" class="internal alias" data-slug="companies/제이알글로벌리츠">제이알글로벌리츠</a> — 국내 최초 해외부동산 기초자산 공모리츠, 벨기에 파이낸스 타워(브뤼셀)와 미국 498 Seventh Avenue(맨하튼)에 투자, 최대주주 미래에셋자산운용 8.51% (KOSPI 348950)</p>
+</li>
+<li>
+<p><a href="../companies/케이탑리츠" class="internal alias" data-slug="companies/케이탑리츠">케이탑리츠</a> — 국내 최초 자기관리부동산투자회사(REIT), 오피스·상업시설 등 9개 투자부동산을 직접 운용, 대표이사 이명식·조현만 각자대표 (KOSPI 034830)</p>
+</li>
+<li>
+<p><a href="../companies/한화리츠" class="internal alias" data-slug="companies/한화리츠">한화리츠</a> — 한화그룹 오피스 6개 사옥(여의도·평촌·중동·노원·구리·장교동)에 투자하는 위탁관리부동산투자회사(REIT), 최대주주 한화생명보험 30.18% (KOSPI 451800)</p>
+</li>
+<li>
+<p><a href="../companies/한화시스템" class="internal alias" data-slug="companies/한화시스템">한화시스템</a> — 레이더·전자전·C4I 등 방산 전자와 SI/ITO를 영위하는 한화그룹 방산 핵심 계열사, 최대주주 한화에어로스페이스 46.73% (KOSPI 272210)</p>
+</li>
+<li>
+<p><a href="../companies/한화비전" class="internal alias" data-slug="companies/한화비전">한화비전</a> — 영상감시(CCTV·DVR·NVR)·산업용장비(SMT)·반도체설계를 영위하는 한화그룹 계열, 2024년 한화에어로스페이스에서 인적분할, 최대주주 ㈜한화 33.95% (KOSPI 489790)</p>
+</li>
+<li>
+<p><a href="../companies/한화생명보험" class="internal alias" data-slug="companies/한화생명보험">한화생명보험</a> — 국내 최초 생명보험사, 176개 연결 종속회사(한화손해보험·한화자산운용 등) 지배, 최대주주 ㈜한화 43.24%, 2025년 연결 지배주주순이익 6,413억원 (KOSPI 088350)</p>
+</li>
+<li>
+<p><a href="../companies/한화에어로스페이스" class="internal alias" data-slug="companies/한화에어로스페이스">한화에어로스페이스</a> — 항공엔진·지상방산(K-9·천무)·우주발사체를 아우르는 한화그룹 방산·중공업 핵심 계열사, 한화오션·한화비전·한화시스템 지배 (KOSPI 012450)</p>
+</li>
+<li>
+<p><a href="../companies/한화오션" class="internal alias" data-slug="companies/한화오션">한화오션</a> — LNG선·잠수함 등을 건조하는 조선·해양 기업(옛 대우조선해양), 최대주주 한화에어로스페이스 30.44%, 2025년 연결매출 12조 7,835억원·영업이익 1조 1,676억원 (KOSPI 042660)</p>
+</li>
+<li>
+<p><a href="../companies/한화엔진" class="internal alias" data-slug="companies/한화엔진">한화엔진</a> — 선박용 저·중속엔진 Top Maker(옛 HSD엔진), 한화그룹 계열, 최대주주 한화임팩트 32.77%, 2025년 연결매출 1조 3,711억원·영업이익 1,301억원 (KOSPI 082740)</p>
+</li>
+<li>
+<p><a href="../companies/롯데이노베이트" class="internal alias" data-slug="companies/롯데이노베이트">롯데이노베이트</a> — SM·SI·전기차 충전(EV-Charging) 사업을 영위하는 롯데그룹 계열 IT서비스 기업, 구 롯데정보통신 (KOSPI 286940)</p>
+</li>
+<li>
+<p><a href="../companies/롯데렌탈" class="internal alias" data-slug="companies/롯데렌탈">롯데렌탈</a> — 차량 장/단기 렌탈·카셰어링·중고차 매매 및 Biz렌탈을 영위하는 국내 렌터카 시장점유율 1위 기업 (KOSPI 089860)</p>
+</li>
+<li>
+<p><a href="../companies/쏘카" class="internal alias" data-slug="companies/쏘카">쏘카</a> — 국내 대표 카셰어링 플랫폼 기업, 롯데렌탈·SK가 5% 이상 지분 보유 (KOSPI 403550)</p>
+</li>
+<li>
+<p><a href="../companies/코웨이" class="internal alias" data-slug="companies/코웨이">코웨이</a> — 넷마블㈜가 최대주주(25.74%)인 환경가전(정수기·공기청정기·비데) 렌탈 전문기업, 2025년 연결매출 4조 9,636억원 (KOSPI 021240)</p>
+</li>
+<li>
+<p><a href="../companies/롯데웰푸드" class="internal alias" data-slug="companies/롯데웰푸드">롯데웰푸드</a> — 건과·빙과·유지식품·육가공을 아우르는 롯데그룹 계열 종합 식품기업, 2025년 연결매출 4조 2,160억원 (KOSPI)</p>
+</li>
+<li>
+<p><a href="../companies/롯데하이마트" class="internal alias" data-slug="companies/롯데하이마트">롯데하이마트</a> — 296개 점포·11개 물류센터를 운영하는 롯데그룹 계열 전자제품 전문점(카테고리킬러), 2025년 매출 2조 3,001억원 (KOSPI 071840)</p>
+</li>
+<li>
+<p><a href="../companies/롯데쇼핑" class="internal alias" data-slug="companies/롯데쇼핑">롯데쇼핑</a> — 백화점·할인점(롯데마트)·전자제품전문점(롯데하이마트)·슈퍼·홈쇼핑·영화상영업을 아우르는 롯데그룹 종합 유통 기업, 2025년 연결매출 13조 7,384억원 (KOSPI 023530)</p>
+</li>
+<li>
+<p><a href="../companies/우리금융지주" class="internal alias" data-slug="companies/우리금융지주">우리금융지주</a> — 은행 중심의 한국 금융지주회사 — 우리은행·우리카드·우리투자증권 (stub)</p>
+</li>
+<li>
+<p><a href="../companies/우신시스템" class="internal alias" data-slug="companies/우신시스템">우신시스템</a> — 자동차 차체 자동화설비(전기차 배터리 설비 포함) 및 자동차 부품(안전벨트·도어·내장품) 제조기업, 최대주주 허우영(35.85%) (KOSPI 017370)</p>
+</li>
+<li>
+<p><a href="../companies/우진플라임" class="internal alias" data-slug="companies/우진플라임">우진플라임</a> — 플라스틱 사출성형기 전문 제조업체, 최대주주 김익환(25.3%) (KOSPI 049800)</p>
+</li>
+<li>
+<p><a href="../companies/진원생명과학" class="internal alias" data-slug="companies/진원생명과학">진원생명과학</a> — 핵산(DNA/mRNA) CDMO·플라스미드 생산 및 백신·바이오 신약 R&amp;D 기업 (KOSPI 011000)</p>
+</li>
+<li>
+<p><a href="../companies/지누스" class="internal alias" data-slug="companies/지누스">지누스</a> — 소형 박스 포장 매트리스(Mattress-in-a-Box) 세계 최초 상용화 글로벌 매트리스·가구 기업, 현대백화점그룹 계열, 2025년 연결매출 9,132억원 (KOSPI 013890)</p>
+</li>
+<li>
+<p><a href="../companies/한섬" class="internal alias" data-slug="companies/한섬">한섬</a> — 현대백화점그룹 계열 패션기업, TIME·MINE·SYSTEM 등 자체 브랜드 및 타미힐피거·DKNY 등 수입 브랜드, 2025년 연결매출 1조 4,918억원 (KOSPI 020000)</p>
+</li>
+<li>
+<p><a href="../companies/현대백화점" class="internal alias" data-slug="companies/현대백화점">현대백화점</a> — 현대백화점그룹 유통 핵심 계열사, 백화점·면세점·가구제조(지누스) 사업, 2025년 연결매출 4조 2,303억원 (KOSPI 069960)</p>
+</li>
+<li>
+<p><a href="../companies/현대그린푸드" class="internal alias" data-slug="companies/현대그린푸드">현대그린푸드</a> — 현대백화점그룹 계열 단체급식·식자재유통 기업, 2025년 연결매출 2조 3,296억원 (KOSPI 453340)</p>
+</li>
+<li>
+<p><a href="../companies/현대리바트" class="internal alias" data-slug="companies/현대리바트">현대리바트</a> — 현대백화점그룹 계열의 종합 가구·인테리어 기업 — B2C·사무용·빌트인·B2B(자재유통) 4대 부문 영위 (KOSPI 079430)</p>
+</li>
+<li>
+<p><a href="../companies/현대지에프홀딩스" class="internal alias" data-slug="companies/현대지에프홀딩스">현대지에프홀딩스</a> — 현대백화점그룹의 지주회사(구 현대그린푸드) — 현대백화점·현대홈쇼핑·한섬·현대그린푸드 등 13개 상장 계열사를 지배 (KOSPI 005440)</p>
+</li>
+<li>
+<p><a href="../companies/현대홈쇼핑" class="internal alias" data-slug="companies/현대홈쇼핑">현대홈쇼핑</a> — 현대백화점그룹 계열 TV홈쇼핑 지주회사 — 홈쇼핑업 본체 + 건축자재(현대엘앤씨)·전기통신(현대퓨처넷)·의류(한섬) 종속회사 연결 (KOSPI 057050)</p>
+</li>
+<li>
+<p><a href="../companies/바이오노트" class="internal alias" data-slug="companies/바이오노트">바이오노트</a> — 동물용 진단시약·바이오컨텐츠(항원·항체 반제품) 전문 기업, 에스디바이오센서와 특수관계 (KOSPI 377740)</p>
+</li>
+<li>
+<p><a href="../companies/에스디바이오센서" class="internal alias" data-slug="companies/에스디바이오센서">에스디바이오센서</a> — 체외진단(IVD) 전문 기업, 바이오노트와 특수관계 (KOSPI 137310)</p>
+</li>
+<li>
+<p><a href="../companies/퍼스텍" class="internal alias" data-slug="companies/퍼스텍">퍼스텍</a> — 유도무기 구동장치·발사통제·무인기 지상통제를 공급하는 후성그룹 계열 방산기업 (KOSPI 010820)</p>
+</li>
+<li>
+<p><a href="../companies/후성" class="internal alias" data-slug="companies/후성">후성</a> — 냉매·이차전지 전해질·반도체 특수가스 등 불소화학 소재 및 화공기기(한텍)를 제조하는 후성그룹 핵심 계열사 (KOSPI 093370)</p>
+</li>
+<li>
+<p><a href="../companies/풍산" class="internal alias" data-slug="companies/풍산">풍산</a> — 신동(구리)·방산 사업을 영위하는 종합소재·방산기업, 풍산그룹 핵심 사업회사 (KOSPI 103140)</p>
+</li>
+<li>
+<p><a href="../companies/풍산홀딩스" class="internal alias" data-slug="companies/풍산홀딩스">풍산홀딩스</a> — 신동(구리)·방산 기업 ㈜풍산을 핵심 자회사로 거느린 풍산그룹 사업지주회사 (KOSPI 005810)</p>
+</li>
+<li>
+<p><a href="../companies/평화홀딩스" class="internal alias" data-slug="companies/평화홀딩스">평화홀딩스</a> — 자동차 방진·씰·고무부품을 영위하는 평화그룹 순수지주회사 (KOSPI 010770)</p>
+</li>
+<li>
+<p><a href="../companies/평화산업" class="internal alias" data-slug="companies/평화산업">평화산업</a> — 차량용 방진부품·고무호스·방산부품을 제조하는 평화그룹 핵심 종속 상장사 (KOSPI, 종목코드 미확인)</p>
+</li>
+<li>
+<p><a href="../companies/DRB동일" class="internal alias" data-slug="companies/DRB동일">DRB동일</a> — 산업용 고무제품·자동차 고무부품을 영위하는 DRB그룹 순수지주회사 (KOSPI 004840, 구 동일고무벨트)</p>
+</li>
+<li>
+<p><a href="../companies/동일고무벨트" class="internal alias" data-slug="companies/동일고무벨트">동일고무벨트</a> — 전동벨트·컨베어벨트·러버트랙 등 산업용 고무제품을 생산하는 DRB그룹 핵심 자회사 (KOSPI 163560)</p>
+</li>
+<li>
+<p><a href="../companies/피케이씨" class="internal alias" data-slug="companies/피케이씨">피케이씨</a> — 가성소다·염산·아산화질소 등 무기화학제품을 제조하는 화학기업 (구 백광산업, KOSPI 001340)</p>
+</li>
+<li>
+<p><a href="../companies/셀트리온" class="internal alias" data-slug="companies/셀트리온">셀트리온</a> — 램시마·트룩시마·허쥬마·유플라이마 등 11개 바이오시밀러 글로벌 허가 보유 항체의약품 전문 생명공학기업, 2025년 연결매출 4조 1,625억원 (KOSPI 068270)</p>
+</li>
+<li>
+<p><a href="../companies/포스코" class="internal alias" data-slug="companies/포스코">포스코</a> — 한국 최대 철강사를 거느린 지주회사 — POSCO홀딩스 (철강·이차전지소재)</p>
+</li>
+<li>
+<p><a href="../companies/포스코인터내셔널" class="internal alias" data-slug="companies/포스코인터내셔널">포스코인터내셔널</a> — 포스코그룹의 종합상사·에너지 계열사, 철강 트레이딩·천연가스·팜오일/식량 (KOSPI 047050)</p>
+</li>
+<li>
+<p><a href="../companies/파라다이스" class="internal alias" data-slug="companies/파라다이스">파라다이스</a> — 서울·부산·제주 외국인전용 카지노와 인천 복합리조트 ‘파라다이스시티’를 운영하는 카지노·레저 기업, 최대주주 파라다이스글로벌(37.62%), 2025년 연결매출 1조 1,499억원·영업이익 1,558억원 (KOSPI 034230)</p>
+</li>
+<li>
+<p><a href="../companies/프레스티지바이오파마" class="internal alias" data-slug="companies/프레스티지바이오파마">프레스티지바이오파마</a> — 싱가포르 소재 항체의약품(바이오시밀러·항체신약) 개발 전문 제약회사, 종속회사 프레스티지바이오로직스(CDEMO) 운영, 최대주주 Mayson Partners(21.65%), 2025년(제10기) 연결매출 10.2백만 USD(2025.6말 결산) (KOSPI 950210)</p>
+</li>
+<li>
+<p><a href="../companies/하나금융지주" class="internal alias" data-slug="companies/하나금융지주">하나금융지주</a> — 은행 중심의 한국 대형 금융지주회사 — 은행·증권·카드·캐피탈 (stub)</p>
+</li>
+<li>
+<p><a href="../companies/하나제약" class="internal alias" data-slug="companies/하나제약">하나제약</a> — 마약성진통제·마취의약품 시장 선두권 전문의약품 제조사, 최대주주 조동훈 일가(57.71%), 2025년 별도 매출 2,395억원·영업이익 258억원 (KOSPI 293480)</p>
+</li>
+<li>
+<p><a href="../companies/하나투어" class="internal alias" data-slug="companies/하나투어">하나투어</a> — 국내 대표 여행 홀세일러, 에이블씨엔씨와 동일 최대주주 계통(IMM PE)의 상장 계열사, 종목코드 039130 (Full ingest)</p>
+</li>
+<li>
+<p><a href="../companies/한국금융지주" class="internal alias" data-slug="companies/한국금융지주">한국금융지주</a> — 한국투자증권을 비롯한 한국투자금융그룹 계열사를 거느린 금융지주회사 (KOSPI 071050) (stub)</p>
+</li>
+<li>
+<p><a href="../companies/에코프로머티리얼즈" class="internal alias" data-slug="companies/에코프로머티리얼즈">에코프로머티리얼즈</a> — 이차전지용 삼원계 전구체 및 니켈 원료제련(RMP) 사업을 영위하는 에코프로 그룹 계열사 (KOSPI 450080)</p>
+</li>
+<li>
+<p><a href="../companies/에코프로" class="internal alias" data-slug="companies/에코프로">에코프로</a> — 이차전지 소재 사업 계열사를 거느린 에코프로 기업집단 지주회사 (KOSPI 086520)</p>
+</li>
+<li>
+<p><a href="../companies/한국전력공사" class="internal alias" data-slug="companies/한국전력공사">한국전력공사</a> — 한국의 전력 송배전·판매를 담당하는 공기업 (KEPCO) (stub)</p>
+</li>
+<li>
+<p><a href="../companies/한전기술" class="internal alias" data-slug="companies/한전기술">한전기술</a> — 원자력발전소 종합설계·원자로계통설계 기술을 보유한 국내 유일의 원전 엔지니어링 전문기업 (KOSPI 052690, Full ingest)</p>
+</li>
+<li>
+<p><a href="../companies/한전산업개발" class="internal alias" data-slug="companies/한전산업개발">한전산업개발</a> — 화력·원자력 발전설비 O&amp;M(운전·정비) 전문기업, 최대주주 한국자유총연맹 31.00% (KOSPI 130660, Full ingest)</p>
+</li>
+<li>
+<p><a href="../companies/한국가스공사" class="internal alias" data-slug="companies/한국가스공사">한국가스공사</a> — 국내 유일 천연가스 도매사업자, 시장형 공기업 (KOGAS) (KOSPI 036460, Full ingest)</p>
+</li>
+<li>
+<p><a href="../companies/카카오뱅크" class="internal alias" data-slug="companies/카카오뱅크">카카오뱅크</a> — 국내 대표 인터넷전문은행, 카카오 계열, 여수신·플랫폼 비즈니스 영위 (KOSPI 323410)</p>
+</li>
+<li>
+<p><a href="../companies/한미반도체" class="internal alias" data-slug="companies/한미반도체">한미반도체</a> — HBM 생산 핵심 장비 ‘HBM TC 본더’를 주력으로 하는 글로벌 반도체 후공정 장비 기업</p>
+</li>
+<li>
+<p><a href="../companies/한미글로벌" class="internal alias" data-slug="companies/한미글로벌">한미글로벌</a> — 국내 최초 건설사업관리(CM/PM) 전문기업, 미국·사우디·영국 등 해외 종속회사 다수 보유, 최대주주 김종훈(10.40%), 2025년 연결매출 4,488억원·영업이익 306억원 (KOSPI 037440)</p>
+</li>
+<li>
+<p><a href="../companies/한미약품" class="internal alias" data-slug="companies/한미약품">한미약품</a> — 한미약품그룹 핵심 제약 사업회사, 로수젯·아모잘탄·에소메졸 등 개량신약 및 비만·대사질환 신약 파이프라인 보유, 최대주주 한미사이언스(41.42%), 2025년 연결매출 1조 5,475억원·영업이익 2,578억원 (KOSPI 128940)</p>
+</li>
+<li>
+<p><a href="../companies/현대모비스" class="internal alias" data-slug="companies/현대모비스">현대모비스</a> — 현대자동차그룹의 핵심 자동차부품 계열사 — 모듈·핵심부품·전동화·A/S부품 (stub)</p>
+</li>
+<li>
+<p><a href="../companies/넥스틸" class="internal alias" data-slug="companies/넥스틸">넥스틸</a> — 유정관(OCTG)·송유관 등 강관을 생산·수출하는 포항 소재 종합강관 전문기업 (KOSPI 092790)</p>
+</li>
+<li>
+<p><a href="../companies/현대오토에버" class="internal alias" data-slug="companies/현대오토에버">현대오토에버</a> — 현대자동차그룹의 IT서비스(SI·ITO)·차량용 SW 전문 계열사 (KOSPI 307950)</p>
+</li>
+<li>
+<p><a href="../companies/현대위아" class="internal alias" data-slug="companies/현대위아">현대위아</a> — 현대자동차그룹의 자동차부품·공작기계 계열사 — 엔진·구동부품·차량 열관리 (stub)</p>
+</li>
+<li>
+<p><a href="../companies/현대자동차" class="internal alias" data-slug="companies/현대자동차">현대자동차</a> — 차량·금융·기타 3개 부문을 영위하는 한국 최대 완성차 제조사 (KOSPI 005380, 현대차그룹)</p>
+</li>
+<li>
+<p><a href="../companies/현대글로비스" class="internal alias" data-slug="companies/현대글로비스">현대글로비스</a> — 현대자동차그룹의 종합물류·유통·해운 계열사 — 완성차 해상운송(PCTC)·CKD부품물류·중고차경매 (KOSPI 086280)</p>
+</li>
+<li>
+<p><a href="../companies/화신" class="internal alias" data-slug="companies/화신">화신</a> — 현대차·기아에 샤시·차체 부품을 공급하는 자동차부품 기업 (KOSPI 010690)</p>
+</li>
+<li>
+<p><a href="../companies/핸즈코퍼레이션" class="internal alias" data-slug="companies/핸즈코퍼레이션">핸즈코퍼레이션</a> — 자동차용 알루미늄 휠을 완성차 OEM으로 공급하는 인천 소재 제조기업 (KOSPI 060980)</p>
+</li>
+<li>
+<p><a href="../companies/씨티알모빌리티" class="internal alias" data-slug="companies/씨티알모빌리티">씨티알모빌리티</a> — 구동장치·현가장치 등 자동차 부품을 생산해 현대차그룹에 납품하는 제조사, 舊 센트랄모텍 (KOSPI 007810)</p>
+</li>
+<li>
+<p><a href="../companies/디와이덕양" class="internal alias" data-slug="companies/디와이덕양">디와이덕양</a> — 현대차그룹向 Cockpit Module·Door Trim 등 자동차 내장재 전문 제조사, 舊 덕양산업 (KOSPI 008040)</p>
+</li>
+<li>
+<p><a href="../companies/지엠비코리아" class="internal alias" data-slug="companies/지엠비코리아">지엠비코리아</a> — 트랜스미션·엔진·섀시·전동화(GreenEnergy) 자동차부품 제조, 일본 GMB CORPORATION 계열</p>
+</li>
+<li>
+<p><a href="../companies/체시스" class="internal alias" data-slug="companies/체시스">체시스</a> — 리어액슬 등 자동차 현가장치·샤시 부품 전문 제조업체, 최대주주 (주)MSHC(20.84%) (KOSPI 033250)</p>
+</li>
+<li>
+<p><a href="../companies/한국지역난방공사" class="internal alias" data-slug="companies/한국지역난방공사">한국지역난방공사</a> — 집단에너지사업법에 의거 설립된 국내 최대 지역냉난방 공기업 (KOSPI 071320)</p>
+</li>
+<li>
+<p><a href="../companies/화천기계" class="internal alias" data-slug="companies/화천기계">화천기계</a> — 공작기계(범용·CNC)·자동차 엔진부품을 제조하는 화천그룹 계열사 (KOSPI 010660)</p>
+</li>
+<li>
+<p><a href="../companies/한신기계공업" class="internal alias" data-slug="companies/한신기계공업">한신기계공업</a> — 1969년 설립, Piston·Screw 전 기종 공기압축기 전문 제조사, 국내 유일 상장 공기압축기 업체, 최대주주 최영민(20.87%), 2025년 연결매출 527억원 (KOSPI 013000)</p>
+</li>
+<li>
+<p><a href="../companies/흥국화재" class="internal alias" data-slug="companies/흥국화재">흥국화재</a> — 태광그룹 계열 손해보험사 — 장기·자동차·일반보험, 2025년(별도) 당기순이익 1,517억원 (KOSPI 000540)</p>
+</li>
+<li>
+<p><a href="../companies/계양전기" class="internal alias" data-slug="companies/계양전기">계양전기</a> — 산업용품(전동공구)과 전장품(자동차용 모터)을 영위하는 KOSPI 상장 제조기업, 해성그룹 계열 (KOSPI 000040)</p>
+</li>
+<li>
+<p><a href="../companies/해성디에스" class="internal alias" data-slug="companies/해성디에스">해성디에스</a> — 반도체 리드프레임·패키지 기판(BGA 등) 제조사 — KOSPI 상장, 해성그룹 계열 (KOSPI 195870)</p>
+</li>
+<li>
+<p><a href="../companies/다스코" class="internal alias" data-slug="companies/다스코">다스코</a> — 도로안전시설물(SOC)·건축자재·태양광 신재생에너지·철강재 사업을 영위하는 종합 인프라·소재 기업 (KOSPI 033100)</p>
+</li>
+<li>
+<p><a href="../companies/키움증권" class="internal alias" data-slug="companies/키움증권">키움증권</a> — 다우기술 계열 국내 최초 온라인 증권사 (KOSPI 039490)</p>
+</li>
+<li>
+<p><a href="../companies/달바글로벌" class="internal alias" data-slug="companies/달바글로벌">달바글로벌</a> — 프리미엄 비건 화장품 d’Alba·건강기능식품 Veganery 브랜드를 운영하는 뷰티 기업 (KOSPI 532940, 2025년 상장)</p>
+</li>
+<li>
+<p><a href="../companies/노루페인트" class="internal alias" data-slug="companies/노루페인트">노루페인트</a> — 노루그룹 계열 도료 제조사 — 건축·공업·자동차보수용 및 PCM강판용 도료 (KOSPI 090350)</p>
+</li>
+<li>
+<p><a href="../companies/농심" class="internal alias" data-slug="companies/농심">농심</a> — 신라면·새우깡 국내 라면·스낵 1위 종합식품기업, 농심그룹 핵심 계열 (KOSPI 004370)</p>
+</li>
+<li>
+<p><a href="../companies/오리온홀딩스" class="internal alias" data-slug="companies/오리온홀딩스">오리온홀딩스</a> — 오리온그룹 지주회사, 배당·상표로열티·임대수익 (KOSPI 001800)</p>
+</li>
+<li>
+<p><a href="../companies/오리온" class="internal alias" data-slug="companies/오리온">오리온</a> — 초코파이·포카칩 등 오리온그룹 핵심 제과 자회사, 중국·베트남·러시아·인도 해외생산 (KOSPI 271560)</p>
+</li>
+<li>
+<p><a href="../companies/쇼박스" class="internal alias" data-slug="companies/쇼박스">쇼박스</a> — 오리온그룹 계열 영화 투자·배급 및 드라마 제작사 (KOSPI 086980)</p>
+</li>
+<li>
+<p><a href="../companies/오텍" class="internal alias" data-slug="companies/오텍">오텍</a> — 음압구급차·앰뷸런스·복지차량 특수차 제조 및 냉난방공조(오텍캐리어) 계열사를 거느린 오텍그룹 지주 성격 계열사, 최대주주 강성희(25.59%) (KOSPI 067170)</p>
+</li>
+<li>
+<p><a href="../companies/동서" class="internal alias" data-slug="companies/동서">동서</a> — 식품사업·포장재·다류사업·구매수출업을 영위하는 식품기업, 동서식품·동서유지 지분법 지배 (KOSPI 026960)</p>
+</li>
+<li>
+<p><a href="../companies/농심홀딩스" class="internal alias" data-slug="companies/농심홀딩스">농심홀딩스</a> — 농심그룹 지주회사(순수지주회사), 신동원 회장 최대주주 (KOSPI 072710)</p>
+</li>
+<li>
+<p><a href="../companies/율촌화학" class="internal alias" data-slug="companies/율촌화학">율촌화학</a> — 필름 기반 포장재·전자소재 제조사, 농심홀딩스 자회사 (KOSPI 008730)</p>
+</li>
+<li>
+<p><a href="../companies/다이나믹디자인" class="internal alias" data-slug="companies/다이나믹디자인">다이나믹디자인</a> — 타이어 금형(몰드) 제조 전문 기업, 브리지스톤·피렐리·금호타이어 등 글로벌 타이어사 대상 공급 (구 세화아이엠씨, KOSPI 043370)</p>
+</li>
+<li>
+<p><a href="../companies/명인제약" class="internal alias" data-slug="companies/명인제약">명인제약</a> — 중추신경계(정신신경용제) 치료제 국내 1위 전문의약품 제조사, 이가탄F·메이킨Q 일반의약품 보유, 2025.10 KOSPI 신규상장 (KOSPI 007575)</p>
+</li>
+<li>
+<p><a href="../companies/삼원강재" class="internal alias" data-slug="companies/삼원강재">삼원강재</a> — 자동차용 스프링 소재(평강·봉강·소재가공품) 전문 제조사, 대원강업 계열 (KOSPI 019690)</p>
+</li>
+<li>
+<p><a href="../companies/메리츠금융지주" class="internal alias" data-slug="companies/메리츠금융지주">메리츠금융지주</a> — 손해보험(메리츠화재)·증권(메리츠증권)·캐피탈을 자회사로 둔 순수금융지주회사, 2025년 연결 당기순이익 2조 3,501억원 (KOSPI 138040)</p>
+</li>
+<li>
+<p><a href="../companies/메타케어" class="internal alias" data-slug="companies/메타케어">메타케어</a> — 의약품·의료기기 유통에서 부동산개발·모발이식 MSO로 다각화한 헬스케어 기업(舊 초록뱀헬스케어), 최대주주 메타랩스 (KOSPI)</p>
+</li>
+<li>
+<p><a href="../companies/서울보증보험" class="internal alias" data-slug="companies/서울보증보험">서울보증보험</a> — 국내 유일 전업 종합보증보험사, 최대주주 예금보험공사(83.85%), 2025.3 KOSPI 신규상장, 2025년 연결 당기순이익 2,684억원 (KOSPI 030210)</p>
+</li>
+<li>
+<p><a href="../companies/다올투자증권" class="internal alias" data-slug="companies/다올투자증권">다올투자증권</a> — 종합증권사(舊 케이티비투자증권), 2025년 연결 영업이익 337억원 흑자전환, 자기매매 비중이 높은 중소형 증권사 (KOSPI 030210)</p>
+</li>
+<li>
+<p><a href="../companies/대상홀딩스" class="internal alias" data-slug="companies/대상홀딩스">대상홀딩스</a> — 대상㈜를 핵심 자회사로 둔 대상그룹의 순수지주회사 (KOSPI, 제21기 연결매출 56,288억원)</p>
+</li>
+<li>
+<p><a href="../companies/세이브존I-and-C" class="internal alias" data-slug="companies/세이브존I-and-C">세이브존I&amp;C</a> — 전국 6개 점포의 백화점형 할인점(세이브존)을 운영하는 유통기업, 최대주주 (주)세이브존(49.06%), 2025년 매출 1,181억원·영업이익 46억원 (KOSPI 081000)</p>
+</li>
+<li>
+<p><a href="../companies/세원정공" class="internal alias" data-slug="companies/세원정공">세원정공</a> — 현대차그룹向 차체 부품(COWL CROSS, DASH PANEL 등) 전문 제조사, 최대주주 에스엔아이(21.01%) (KOSPI 021820)</p>
+</li>
+<li>
+<p><a href="../companies/세우글로벌" class="internal alias" data-slug="companies/세우글로벌">세우글로벌</a> — 엔지니어링 플라스틱·ABS수지 등 고분자 석유화학 상품 유통·제조사, 최대주주 안백순(31.74%) (KOSPI)</p>
+</li>
+<li>
+<p><a href="../companies/대성홀딩스" class="internal alias" data-slug="companies/대성홀딩스">대성홀딩스</a> — 대구·경북 도시가스 계열(대성에너지 등)을 지배하는 지주회사, 대성그룹(대구) 핵심회사, 2025년 연결매출 1조 2,226억원 (KOSPI 016710)</p>
+</li>
+<li>
+<p><a href="../companies/서울도시가스" class="internal alias" data-slug="companies/서울도시가스">서울도시가스</a> — 서울 11개구·경기 고양/김포/파주에 도시가스를 공급, 최대주주 보운㈜(26.27%), 2025년 연결매출 1조 8,280억원, 연결영업이익 174억원(흑자전환) (KOSPI 017390)</p>
+</li>
+<li>
+<p><a href="../companies/하림지주" class="internal alias" data-slug="companies/하림지주">하림지주</a> — 하림그룹 지주회사(선진·하림·팬오션·팜스코·엔에스쇼핑·제일사료 지배), 최대주주 김홍국(21.10%), 2025년 연결매출 13조 2,148.8억원·영업이익 8,874.3억원·순이익 5,137.6억원 (KOSPI 003380)</p>
+</li>
+<li>
+<p><a href="../companies/선진" class="internal alias" data-slug="companies/선진">선진</a> — 하림그룹 계열 사료·양돈·식육·육가공 종합축산식품기업, 최대주주 하림지주(50.00%), 2025년 연결매출 1조 8,957.4억원·영업이익 1,791.9억원·순이익 1,260.3억원 (KOSPI 136490)</p>
+</li>
+<li>
+<p><a href="../companies/팜스코" class="internal alias" data-slug="companies/팜스코">팜스코</a> — 하림그룹 계열 배합사료·양돈 사업자, 하림지주가 56.34% 보유한 상장 자회사 (KOSPI 036580)</p>
+</li>
+<li>
+<p><a href="../companies/디아이씨" class="internal alias" data-slug="companies/디아이씨">디아이씨</a> — 자동차·중장비(지게차) 변속기·동력전달장치(Gear &amp; Shaft) 전문 제조사, 전동화 부품(감속기·SBW·EOP·e-Axle) 확장 중 (KOSPI 006400)</p>
+</li>
+<li>
+<p><a href="../companies/동남합성" class="internal alias" data-slug="companies/동남합성">동남합성</a> — 계면활성제 전문 제조기업, 미원그룹(미원상사 및 관계사) 계열 (KOSPI 005710)</p>
+</li>
+<li>
+<p><a href="../companies/미원에스씨" class="internal alias" data-slug="companies/미원에스씨">미원에스씨</a> — 에너지경화수지(UV/EB curing) 소재 전문 제조사, 국내 점유율 50%↑·글로벌 약 15%, 미원그룹 계열 (KOSPI)</p>
+</li>
+<li>
+<p><a href="../companies/미원홀딩스" class="internal alias" data-slug="companies/미원홀딩스">미원홀딩스</a> — 미원그룹 지주회사, 동남합성 최대주주(43.97%), 미원스페셜티케미칼·잉크테크 자회사 지배 (KOSPI, 종목코드 미확인)</p>
+</li>
+<li>
+<p><a href="../companies/미원화학" class="internal alias" data-slug="companies/미원화학">미원화학</a> — 황산·유황계 화학제품과 계면활성제를 생산하는 미원그룹 계열 정밀화학 기업, 미원상사에서 2011년 인적분할 (KOSPI 006790)</p>
+</li>
+<li>
+<p><a href="../companies/드림텍" class="internal alias" data-slug="companies/드림텍">드림텍</a> — 스마트폰·웨어러블용 PBA 모듈, 생체인식·헬스케어 컨버전스 제품, 카메라 모듈을 공급하는 EMS/ODM 전문기업 (KOSPI 192650)</p>
+</li>
+<li>
+<p><a href="../companies/플라즈맵" class="internal alias" data-slug="companies/플라즈맵">플라즈맵</a> — 드림텍의 관계기업(지분 27.7%) (stub)</p>
+</li>
+<li>
+<p><a href="../companies/마니커" class="internal alias" data-slug="companies/마니커">마니커</a> — 육계계열화(닭고기) 전문기업, 이지그룹 계열, 2025년 영업이익 흑자전환 (KOSPI 027740)</p>
+</li>
+<li>
+<p><a href="../companies/미스토홀딩스" class="internal alias" data-slug="companies/미스토홀딩스">미스토홀딩스</a> — FILA·Acushnet(Titleist·FootJoy) 등 글로벌 브랜드 포트폴리오 지주회사(前 휠라홀딩스) (KOSPI 081660)</p>
+</li>
+<li>
+<p><a href="../companies/이지홀딩스" class="internal alias" data-slug="companies/이지홀딩스">이지홀딩스</a> — 마니커 최대주주, 이지그룹 지주회사 (stub)</p>
+</li>
+<li>
+<p><a href="../companies/팜스토리" class="internal alias" data-slug="companies/팜스토리">팜스토리</a> — 마니커에 사료 공급하는 이지그룹 계열 축산·사료 기업 (stub)</p>
+</li>
+<li>
+<p><a href="../companies/풀무원" class="internal alias" data-slug="companies/풀무원">풀무원</a> — 두부·나물·생면·건강기능식품 등 신선지향 식품기업, 풀무원그룹 지주회사, 2025년 연결매출 3조 3,802억원·영업이익 932억원 (KOSPI 017810)</p>
+</li>
+<li>
+<p><a href="../companies/샘표" class="internal alias" data-slug="companies/샘표">샘표</a> — 간장·장류 자회사 샘표식품을 거느린 샘표그룹 순수지주회사 (KOSPI 007540)</p>
+</li>
+<li>
+<p><a href="../companies/샘표식품" class="internal alias" data-slug="companies/샘표식품">샘표식품</a> — 간장·장류(양조간장 501)·연두·폰타나 등 가정간편식을 제조·판매하는 샘표그룹 핵심 식품 상장사, 2025년 연결매출 4,089.3억원 (KOSPI)</p>
+</li>
+<li>
+<p><a href="../companies/상신브레이크" class="internal alias" data-slug="companies/상신브레이크">상신브레이크</a> — 대구 소재 자동차 브레이크(제동) 부품 전문 제조사, PAD·라이닝 등 제동부품 및 제동설비 제작·글로벌 판매, 2025년 연결매출 5,422.6억원(영업손실 전환) (KOSPI 041650)</p>
+</li>
+<li>
+<p><a href="../companies/삼양바이오팜" class="internal alias" data-slug="companies/삼양바이오팜">삼양바이오팜</a> — 삼양홀딩스 의약바이오 사업부문 인적분할로 신설, 의료기기(봉합사·지혈제)·의약품(항암제)·신약개발(SENS 플랫폼) 3개 부문, 2025.11.24 KOSPI 재상장 (KOSPI 007450)</p>
+</li>
+<li>
+<p><a href="../companies/삼양사" class="internal alias" data-slug="companies/삼양사">삼양사</a> — 식품(설탕·밀가루·전분당)·화학(엔지니어링플라스틱·PET용기·이온교환수지) 사업을 영위하는 삼양그룹 계열 상장기업, JB금융지주·삼양패키징 최대주주, 2025년 연결매출 2조 5,625억원(공정위 담합 과징금 반영 순손실 전환) (KOSPI 145990)</p>
+</li>
+<li>
+<p><a href="../companies/삼양패키징" class="internal alias" data-slug="companies/삼양패키징">삼양패키징</a> — PET 용기·아셉틱 방식 음료 OEM·재활용(PET-Flake) 사업을 영위하는 삼양그룹 계열 패키징 전문기업, 2025년 연결매출 4,202억원 (KOSPI 272550)</p>
+</li>
+<li>
+<p><a href="../companies/삼양홀딩스" class="internal alias" data-slug="companies/삼양홀딩스">삼양홀딩스</a> — 삼양그룹의 사업지주회사 — 식품(삼양사)·화학(삼양엔씨켐·삼양이노켐 등) 자회사를 지배하며 배당·상표권·임대수익을 수입원으로 함 (KOSPI 000070)</p>
+</li>
+<li>
+<p><a href="../companies/세진중공업" class="internal alias" data-slug="companies/세진중공업">세진중공업</a> — 조선기자재(선실·선체 블록) 및 플랜트 구조물 제조사, 최대주주 윤지원(44.10%), 2025년 연결매출 4,026.9억원·영업이익 733.9억원 (KOSPI 075580)</p>
+</li>
+<li>
+<p><a href="../companies/수산세보틱스" class="internal alias" data-slug="companies/수산세보틱스">수산세보틱스</a> — 유압브레이커·트럭크레인 등 건설기계 어태치먼트·특수장비 제조사, 舊 수산중공업(2025.04 상호변경), 수산그룹 계열, 2025년 연결매출 2,294억원·영업이익 190억원 (KOSPI 011810)</p>
+</li>
+<li>
+<p><a href="../companies/수산인더스트리" class="internal alias" data-slug="companies/수산인더스트리">수산인더스트리</a> — 원자력·화력·신재생 발전설비 정비 전문기업, 수산그룹 대표회사, 2025년 연결매출 3,376.6억원·영업이익 430.8억원 (KOSPI 180640)</p>
+</li>
+<li>
+<p><a href="../companies/씨에스윈드" class="internal alias" data-slug="companies/씨에스윈드">씨에스윈드</a> — 풍력타워 및 해상풍력 하부구조물을 생산하는 글로벌 풍력타워 제조기업, 최대주주 김성권(24.19%), 2025년 연결매출 2조 9,316억원 영업이익 3,203억원(사상 최대) (KOSPI 112610)</p>
+</li>
+<li>
+<p><a href="../companies/시디즈" class="internal alias" data-slug="companies/시디즈">시디즈</a> — 의자·소파(알로소) 제조·판매 전문기업, 퍼시스그룹 계열, 최대주주 (주)일룸(40.6%) (KOSPI 134790)</p>
+</li>
+<li>
+<p><a href="../companies/퍼시스" class="internal alias" data-slug="companies/퍼시스">퍼시스</a> — 오피스가구 전문 제조사, 퍼시스그룹 핵심 계열사 (KOSPI 016800)</p>
+</li>
+<li>
+<p><a href="../companies/스틱인베스트먼트" class="internal alias" data-slug="companies/스틱인베스트먼트">스틱인베스트먼트</a> — 기관전용 사모펀드(PEF)·벤처캐피탈(VC)·대체자산운용을 겸영하는 투자전문회사, 2026년 3월 최대주주 변경(The Miri Strategic Emerging Markets Fund LP) (KOSPI 026890)</p>
+</li>
+<li>
+<p><a href="../companies/씨케이솔루션" class="internal alias" data-slug="companies/씨케이솔루션">씨케이솔루션</a> — 2차전지 드라이룸·클린룸 시스템 설계·시공 전문기업, 2025.03 상장, 2025년 연결매출 2,910.1억원(영업손실 366.1억원) (KOSPI 417500)</p>
+</li>
+<li>
+<p><a href="../companies/에스제이엠홀딩스" class="internal alias" data-slug="companies/에스제이엠홀딩스">에스제이엠홀딩스</a> — 자동차 배기계 부재료(BELLOWS) 제조사 에스제이엠 등을 거느린 지주회사, 최대주주 김휘중(51.1%), 2024년 연결매출 2,061.9억원·영업이익 137.2억원 (KOSPI 080000)</p>
+</li>
+<li>
+<p><a href="../companies/에스제이엠" class="internal alias" data-slug="companies/에스제이엠">에스제이엠</a> — 자동차 배기계용 벨로우즈(BELLOWS)·Flexible Coupling 및 산업용 신축이음쇠 제조사, 에스제이엠홀딩스의 핵심 자회사(지분 40.6%), 2025년 연결매출 2,014.2억원·영업이익 113.2억원 (KOSPI 080580)</p>
+</li>
+<li>
+<p><a href="../companies/에스케이바이오팜" class="internal alias" data-slug="companies/에스케이바이오팜">에스케이바이오팜</a> — SK그룹 계열 신약개발 기업, 뇌전증 치료제 세노바메이트(XCOPRI®/ONTOZRY®) 주력, SK(주) 64.0% 최대주주, 2025년 연결매출 7,067억원 (KOSPI 326030)</p>
+</li>
+<li>
+<p><a href="../companies/아시아나항공" class="internal alias" data-slug="companies/아시아나항공">아시아나항공</a> — 국내 2위 국적 항공사, 2024.12 최대주주 대한항공 편입으로 한진그룹 계열 편입 (KOSPI 020560)</p>
+</li>
+<li>
+<p><a href="../companies/에어부산" class="internal alias" data-slug="companies/에어부산">에어부산</a> — 아시아나항공 계열 저비용항공사(LCC), 부산 거점 (KOSPI 298690, stub)</p>
+</li>
+<li>
+<p><a href="../companies/한진칼" class="internal alias" data-slug="companies/한진칼">한진칼</a> — 한진그룹 지주회사, 대한항공·아시아나항공 지배 (KOSPI 180640, stub)</p>
+</li>
+<li>
+<p><a href="../companies/진에어" class="internal alias" data-slug="companies/진에어">진에어</a> — 대한항공 계열 저비용항공사(LCC), 2025년 매출 1조 3,811억원·영업손실 192억원(적자전환) (KOSPI 272450)</p>
+</li>
+<li>
+<p><a href="../companies/아시아나IDT" class="internal alias" data-slug="companies/아시아나IDT">아시아나IDT</a> — 아시아나항공 계열 IT서비스 기업, 매출 1,940.6억원·순이익 126.3억원(2025) (KOSPI 267850)</p>
+</li>
+<li>
+<p><a href="../companies/티웨이항공" class="internal alias" data-slug="companies/티웨이항공">티웨이항공</a> — 국내 LCC, 국내 최초 유럽 노선 개설, 2025년 최대주주 소노인터내셔널(대명소노그룹)로 변경, 연결매출 1조 7,982억원·영업손실 2,655억원 (KOSPI 091810)</p>
+</li>
+<li>
+<p><a href="../companies/엘앤에프" class="internal alias" data-slug="companies/엘앤에프">엘앤에프</a> — 하이니켈 NCMA 양극활물질 세계 최초 양산 전문기업, 2024년 코스닥에서 이전상장, 최대주주 새로닉스(13.64%) (KOSPI 066970)</p>
+</li>
+<li>
+<p><a href="../companies/엠앤씨솔루션" class="internal alias" data-slug="companies/엠앤씨솔루션">엠앤씨솔루션</a> — 방산 유압·전기 구동장치(포/포탑 구동장치 등) 전문 제조사, 2024.12 상장, 최대주주 소시어스웰투시인베스트먼트(73.78%) (KOSPI 402420)</p>
+</li>
+<li>
+<p><a href="../companies/엠씨넥스" class="internal alias" data-slug="companies/엠씨넥스">엠씨넥스</a> — 휴대폰용·자동차용 카메라모듈 및 구동계 전문기업, 2021년 코스닥→유가증권시장 이전상장, 2025년 연결매출 1조 2,792억원·영업이익 520억원, 최대주주 민동욱(27.15%) (KOSPI 097520)</p>
+</li>
+<li>
+<p><a href="../companies/웅진" class="internal alias" data-slug="companies/웅진">웅진</a> — 웅진그룹 사업지주회사, IT서비스 겸영, 2025년 연결매출 1조 1,507억원·영업이익 781억원, 최대주주 윤새봄(16.30%) (KOSPI 016880)</p>
+</li>
+<li>
+<p><a href="../companies/웅진씽크빅" class="internal alias" data-slug="companies/웅진씽크빅">웅진씽크빅</a> — 학습지·전집·에듀테크 및 도서 출판·유통 사업을 영위하는 웅진그룹 핵심 계열사, 2025년 연결매출 7,973억원(영업손실 105억원), 최대주주 웅진(58.78%) (KOSPI 095720)</p>
+</li>
+<li>
+<p><a href="../companies/와이투솔루션" class="internal alias" data-slug="companies/와이투솔루션">와이투솔루션</a> — 전원공급장치(PSU) 제조를 주력으로 바이오에너지·로봇(AMR·협동로봇)·바이오 신약개발을 영위, 2025년 연결매출 1,650.6억원(영업손실 25.7억원), 최대주주 덕우전자(28.44%) (KOSPI 056080)</p>
+</li>
+<li>
+<p><a href="../companies/유나이티드" class="internal alias" data-slug="companies/유나이티드">유나이티드</a> — 개량신약 전문 전문의약품 제조사(한국유나이티드제약), 실로스탄CR·아트맥콤비젤 등 18개 개량신약 보유, 2025년 매출 2,888억원·영업이익 496억원 (KOSPI 033270)</p>
+</li>
+<li>
+<p><a href="../companies/유니온" class="internal alias" data-slug="companies/유니온">유니온</a> — 국내 유일의 백시멘트·특수시멘트 제조사이자 페라이트·세라믹 부품소재(유니온머티리얼) 지배기업 (KOSPI 000910)</p>
+</li>
+<li>
+<p><a href="../companies/유니온머티리얼" class="internal alias" data-slug="companies/유니온머티리얼">유니온머티리얼</a> — 페라이트 마그네트(자동차 전장·가전용)·절삭공구·마그네트론 스템·수도밸브용 디스크 등 파인세라믹 부품소재 제조사, 유니온 계열, 2025년 매출 1,019억원·영업이익 54억원 (KOSPI 047400)</p>
+</li>
+<li>
+<p><a href="../companies/유니켐" class="internal alias" data-slug="companies/유니켐">유니켐</a> — 핸드백·자동차시트용 천연 피혁원단 제조사, 2024년 매출 682억원(영업손실 63억원), 최대주주 제이에이치사람들(15.23%) (KOSPI 011330)</p>
+</li>
+<li>
+<p><a href="../companies/유니퀘스트" class="internal alias" data-slug="companies/유니퀘스트">유니퀘스트</a> — 해외 비메모리 반도체 제조사의 국내 대리점(유통) 및 토탈솔루션 사업, 2025년 연결매출 7,300억원·영업이익 367억원, 최대주주 임창완(45.93%) (KOSPI 077500)</p>
+</li>
+<li>
+<p><a href="../companies/유진투자증권" class="internal alias" data-slug="companies/유진투자증권">유진투자증권</a> — 위탁매매·자기매매·파생·선물중개·자산운용·IB를 영위하는 중형 종합증권사, 유진그룹 계열, 최대주주 유진기업(28.26%) (KOSPI 001200)</p>
+</li>
+<li>
+<p><a href="../companies/이연제약" class="internal alias" data-slug="companies/이연제약">이연제약</a> — 처방의약품·조영제·원료의약품 제조사, 충주 바이오공장 기반 CMO·신약 파이프라인 확대 중, 2025년 연결매출 1,459억원(영업손실 303억원), 최대주주 유용환(28.40%) (KOSPI 102460)</p>
+</li>
+<li>
+<p><a href="../companies/이수스페셜티케미컬" class="internal alias" data-slug="companies/이수스페셜티케미컬">이수스페셜티케미컬</a> — TDM·IPA 등 정밀화학제품 및 전고체전지 소재(황화리튬 Li2S) 제조사, 이수화학에서 2023년 인적분할, 이수그룹 계열, 2025년 연결매출 4,115억원·영업이익 16억원, 최대주주 ㈜이수(25.04%) (KOSPI)</p>
+</li>
+<li>
+<p><a href="../companies/이마트" class="internal alias" data-slug="companies/이마트">이마트</a> — 국내 대형마트 1위 사업자, 신세계그룹(정용진 축) 유통·부동산·호텔·식음료·건설·해외사업 지주 성격 기업, 2025년 연결매출 28조 9,704억원·영업이익 3,225억원 (KOSPI 139480)</p>
+</li>
+<li>
+<p><a href="../companies/인바이오젠" class="internal alias" data-slug="companies/인바이오젠">인바이오젠</a> — 무인 키오스크 유통과 F&amp;B(외식) 사업을 영위하는 KOSPI 상장기업, 2025년 매출 63억원(영업손실 43억원), 최대주주 버킷스튜디오(78.89%) (KOSPI 348150)</p>
+</li>
+<li>
+<p><a href="../companies/인터지스" class="internal alias" data-slug="companies/인터지스">인터지스</a> — 항만하역·육상운송·해상운송·포워딩을 영위하는 동국제강그룹 계열 종합물류기업, 2025년 연결매출 7,090억원·영업이익 198억원, 최대주주 동국홀딩스(48.34%) (KOSPI 145270)</p>
+</li>
+<li>
+<p><a href="../companies/인천도시가스" class="internal alias" data-slug="companies/인천도시가스">인천도시가스</a> — 인천광역시 서구·부평구 등과 경기 김포시 일부에 도시가스를 독점 공급하는 도시가스 소매사업자, 2025년 매출 9,630억원·영업이익 191억원, 최대주주 이종훈(40.53%) (KOSPI 034590)</p>
+</li>
+<li>
+<p><a href="../companies/인팩" class="internal alias" data-slug="companies/인팩">인팩</a> — 자동차용 콘트롤 케이블·전자식 파킹 브레이크(EPB)·액추에이터·전력 전자 PCB 제조사, 2025년 연결매출 5,864억원·영업이익 198억원, 최대주주 최오길(20.00%) (KOSPI 023810)</p>
+</li>
+<li>
+<p><a href="../companies/일성건설" class="internal alias" data-slug="companies/일성건설">일성건설</a> — 토목·건축·조경 종합건설사, 국내 관급·B2B 공사 및 몽골·파라과이 등 해외 ODA 사업 영위, 2025년 연결매출 4,527억원·영업이익 104억원(흑자전환), 최대주주 IB Capital Ltd(60.41%) (KOSPI 013360)</p>
+</li>
+<li>
+<p><a href="../companies/인지컨트롤스" class="internal alias" data-slug="companies/인지컨트롤스">인지컨트롤스</a> — 자동차 열관리(TMS)·센서·엔지니어링 플라스틱 부품 제조사, 인지그룹 핵심 계열사, 2025년 연결매출 7,179억원·영업이익 396억원, 최대주주 정혜승(23.02%, 2026.03 상속변경) (KOSPI 008700)</p>
+</li>
+<li>
+<p><a href="../companies/인지디스플레이" class="internal alias" data-slug="companies/인지디스플레이">인지디스플레이</a> — 인지그룹 계열 디스플레이 부품 제조사, 인지컨트롤스 20.25% 출자 (stub)</p>
+</li>
+<li>
+<p><a href="../companies/일진디스플" class="internal alias" data-slug="companies/일진디스플">일진디스플</a> — 일진그룹 계열 디스플레이 부품(터치스크린패널) 제조사, 2025년 연결매출 578억원(영업손실 49억원), 최대주주 허진규(24.63%) (KOSPI 020760)</p>
+</li>
+<li>
+<p><a href="../companies/일진하이솔루스" class="internal alias" data-slug="companies/일진하이솔루스">일진하이솔루스</a> — 일진그룹 계열 차량용 Type 4 수소저장시스템·매연저감장치 제조사, 2025년 연결매출 815.86억원(영업손실 112.04억원), 최대주주 일진다이아몬드(59.56%) (KOSPI 271940)</p>
+</li>
+<li>
+<p><a href="../companies/일진다이아몬드" class="internal alias" data-slug="companies/일진다이아몬드">일진다이아몬드</a> — 일진그룹 계열 공업용 합성다이아몬드·정밀소재 제조사, 일진하이솔루스 최대주주 (stub)</p>
+</li>
+<li>
+<p><a href="../companies/일진홀딩스" class="internal alias" data-slug="companies/일진홀딩스">일진홀딩스</a> — 일진그룹 순수지주회사, 전선·중전기(일진전기)·수소저장시스템(일진하이솔루스)·공업용 다이아(일진다이아몬드) 자회사 지배, 2025년 연결매출 2조 2,827억원·영업이익 1,456억원, 최대주주 허정석(29.1%) (KOSPI 015360)</p>
+</li>
+<li>
+<p><a href="../companies/일동제약" class="internal alias" data-slug="companies/일동제약">일동제약</a> — 아로나민·후루마린 등을 보유한 종합제약사, 일동홀딩스 자회사, 2025년 연결매출 5,669억원·영업이익 195억원 (KOSPI 249420)</p>
+</li>
+<li>
+<p><a href="../companies/제일연마공업" class="internal alias" data-slug="companies/제일연마공업">제일연마공업</a> — 1955년 설립된 국내 공업용 연마지석(연마재) 제조 전문기업, 최대주주 오유인(39.35%), 2025년 연결매출 789억원·영업이익 42억원 (KOSPI 001560)</p>
+</li>
+<li>
+<p><a href="../companies/제일약품" class="internal alias" data-slug="companies/제일약품">제일약품</a> — 완제의약품 제조·판매 전문기업, 신약 자큐보정(P-CAB) 매출 급성장으로 2025년 흑자전환, 제일파마홀딩스 핵심 자회사, 2025년 연결매출 5,672억원·영업이익 207억원 (KOSPI)</p>
+</li>
+<li>
+<p><a href="../companies/자화전자" class="internal alias" data-slug="companies/자화전자">자화전자</a> — 스마트폰 카메라 모듈 핵심부품(Folded Zoom·OIS·AF Actuator) 및 자동차용 PTC 히터 전문 제조사, 최대주주 김상면(17.01%), 2025년 연결매출 8,489억원·영업이익 420억원 (KOSPI 003860)</p>
+</li>
+<li>
+<p><a href="../companies/제이에스코퍼레이션" class="internal alias" data-slug="companies/제이에스코퍼레이션">제이에스코퍼레이션</a> — 핸드백·의류 OEM/ODM 제조(GUESS·Michael Kors·GAP 등) 및 그랜드하얏트서울 호텔 운영, 최대주주 홍재성(21.98%), 2025년 연결매출 1조 2,882억원·영업이익 1,405억원 (KOSPI 084870)</p>
+</li>
+<li>
+<p><a href="../companies/조선내화" class="internal alias" data-slug="companies/조선내화">조선내화</a> — 국내 최대 종합내화물 제조업체(제철·제강·유리·시멘트용), 최대주주 시알홀딩스(59.03%), 2025년 연결매출 5,320억원·영업이익 239억원 (KOSPI 000480)</p>
+</li>
+<li>
+<p><a href="../companies/조선선재" class="internal alias" data-slug="companies/조선선재">조선선재</a> — CS홀딩스 계열 피복용접재료 전문 제조사(용접봉·솔리드와이어), 최대주주 CS홀딩스(45.32%), 2025년 매출 517.6억원·영업이익 77.9억원 (KOSPI 010820)</p>
+</li>
+<li>
+<p><a href="../companies/CS홀딩스" class="internal alias" data-slug="companies/CS홀딩스">CS홀딩스</a> — 조선선재 계열 지주회사(브랜드 로열티·배당수익), 최대주주 장원영(53.75%), 2025년 연결매출 1,349억원·영업이익 202억원 (KOSPI 000590)</p>
+</li>
+<li>
+<p><a href="../companies/조일알미늄" class="internal alias" data-slug="companies/조일알미늄">조일알미늄</a> — 경북 경산 소재 알미늄 압연 전문기업, 2차전지 양극박재 등 산업용 알미늄판 제조, 국내 판매량 점유율 10.3%(3위), 최대주주 이영호(18.06%)+㈜조광(23.92%), 2025년 매출 4,867억원·영업이익 138억원 (KOSPI 022720)</p>
+</li>
+<li>
+<p><a href="../companies/제주항공" class="internal alias" data-slug="companies/제주항공">제주항공</a> — 국내 대표 LCC(저비용항공사), 애경그룹 AK홀딩스 자회사(50.37%), LCC 최초 화물 전용기 도입, 2025년 연결매출 15,799억원·영업손실 1,117억원(적자전환) (KOSPI 089590)</p>
+</li>
+<li>
+<p><a href="../companies/차AI헬스케어" class="internal alias" data-slug="companies/차AI헬스케어">차AI헬스케어</a> — 화장품 제조·판매업(구 제이준코스메틱)에서 2025년 카카오헬스케어 지분 취득을 계기로 AI 헬스케어 사업 진출을 추진 중인 상장사, 최대주주 메타엑스1호조합(71.23%), 2025년 연결매출 73억원·영업손실 74.6억원 (KOSPI 070300)</p>
+</li>
+<li>
+<p><a href="../companies/KCC" class="internal alias" data-slug="companies/KCC">KCC</a> — 도료·실리콘·건자재 3대 사업을 영위하는 KCC그룹 지배적 계열사, 2019년 모멘티브 인수로 글로벌 실리콘 사업 확대, 최대주주 정몽진(20.00%), 2025년 연결매출 6조 4,838억원·영업이익 4,276억원 (KOSPI 002380)</p>
+</li>
+<li>
+<p><a href="../companies/KCC글라스" class="internal alias" data-slug="companies/KCC글라스">KCC글라스</a> — 판유리·자동차 안전유리·인테리어자재·콘크리트파일 제조 KCC그룹 계열사, 2020년 KCC 인적분할로 설립, 최대주주 정몽익(27.15%), 2025년 연결매출 1조 9,006억원·영업손실 752억원 (KOSPI 344820)</p>
+</li>
+<li>
+<p><a href="../companies/케이티" class="internal alias" data-slug="companies/케이티">케이티</a> — 국내 이동통신 3사 중 하나이자 KT그룹 정점 기업, ICT·금융·위성방송·부동산 등으로 다각화, 최대주주 현대자동차 외 1인(8.07%), 2025년 연결매출 28조 2,442억원·영업이익 2조 4,691억원 (KOSPI 030200)</p>
+</li>
+<li>
+<p><a href="../companies/쿠쿠홀딩스" class="internal alias" data-slug="companies/쿠쿠홀딩스">쿠쿠홀딩스</a> — 쿠쿠그룹 지주회사, 주요종속회사 쿠쿠전자(전기밥솥 등 가전)를 지배, 최대주주 구본학(45.11%), 2025년 연결매출 9,209억원·영업이익 1,140억원 (KOSPI 192400)</p>
+</li>
+<li>
+<p><a href="../companies/쿠쿠홈시스" class="internal alias" data-slug="companies/쿠쿠홈시스">쿠쿠홈시스</a> — 정수기·공기청정기 등 생활가전 렌탈·일시불 판매를 영위하는 쿠쿠그룹 계열사, 최대주주 쿠쿠홀딩스(40.55%), 2025년 연결매출 1조1,213억원·영업이익 1,694억원 (KOSPI 284740)</p>
+</li>
+<li>
+<p><a href="../companies/케이티스카이라이프" class="internal alias" data-slug="companies/케이티스카이라이프">케이티스카이라이프</a> — KT그룹 계열 위성방송(DTH)·인터넷·모바일 결합 미디어 서비스 기업, 최대주주 케이티(50.31%), 2025년 연결매출 9,842억원·영업이익 230억원 (KOSPI 053210)</p>
+</li>
+<li>
+<p><a href="../companies/케이카" class="internal alias" data-slug="companies/케이카">케이카</a> — 국내 최대 직영 중고차 유통 플랫폼(K Car) 및 렌터카 사업 영위, 한앤컴퍼니 계열, 최대주주 한앤코오토서비스홀딩스(72.19%), 2025년 매출 2조 4,388억원·영업이익 760억원 (KOSPI 042670)</p>
+</li>
+<li>
+<p><a href="../companies/케이씨" class="internal alias" data-slug="companies/케이씨">케이씨</a> — 반도체·디스플레이 공정용 Gas·Chemical 공급장치 제조사, 케이씨그룹 사실상 지주, 최대주주 고상걸(27.01%), 2025년 연결매출 7,973억원·영업이익 465억원 (KOSPI 029460)</p>
+</li>
+<li>
+<p><a href="../companies/케이씨텍" class="internal alias" data-slug="companies/케이씨텍">케이씨텍</a> — 반도체 CMP·세정 장비 및 Slurry 소재, 디스플레이 Wet-station·Coater 장비 제조사, 최대주주 케이씨(34.35%), 2025년 연결매출 3,828.6억원·영업이익 608.7억원 (KOSPI 281820)</p>
+</li>
+<li>
+<p><a href="../companies/크라운해태홀딩스" class="internal alias" data-slug="companies/크라운해태홀딩스">크라운해태홀딩스</a> — 크라운해태그룹(제과)의 순수지주회사 — 크라운제과·해태제과식품 등 11개 계열 지배, 2025년 연결 매출 1조 700억 원 (KOSPI 005740)</p>
+</li>
+<li>
+<p><a href="../companies/크라운제과" class="internal alias" data-slug="companies/크라운제과">크라운제과</a> — 크라운해태그룹 계열 제과업체(하임·죠리퐁·마이쮸), 최대주주 크라운해태홀딩스(39.50%), 2025년 매출 4,448억원·영업이익 153억원 (KOSPI 264900)</p>
+</li>
+<li>
+<p><a href="../companies/해태제과식품" class="internal alias" data-slug="companies/해태제과식품">해태제과식품</a> — 크라운해태그룹 계열 제과·냉동식품업체(홈런볼·맛동산·오예스·고향만두), 최대주주 크라운해태홀딩스(59.97%), 2025년 연결매출 6,414억원·영업이익 423억원 (KOSPI 101530)</p>
+</li>
+<li>
+<p><a href="../companies/태경산업" class="internal alias" data-slug="companies/태경산업">태경산업</a> — 태경그룹 지주 정점, 석회·합금철·탄산가스 등 산업소재 제조 및 고속도로휴게소 운영, 최대주주 김해련(23.28%), 2025년 연결매출 7,771억원·영업이익 554억원 (KOSPI 015890)</p>
+</li>
+<li>
+<p><a href="../companies/텔코웨어" class="internal alias" data-slug="companies/텔코웨어">텔코웨어</a> — 통신사 Core Network(음성핵심망 HLR/UDM·무선데이터 IMS) 솔루션 개발·공급사, 최대주주 금한태(32.87%), 2025년 연결매출 384억원·영업이익 33억원 (KOSPI 078150)</p>
+</li>
+<li>
+<p><a href="../companies/태경비케이" class="internal alias" data-slug="companies/태경비케이">태경비케이</a> — 석회제조·탄산가스·휴게소운영·인조대리석·왁스 5개 사업부문을 영위하는 태경그룹 계열 상장기업(舊 백광소재) (KOSPI 014580)</p>
+</li>
+<li>
+<p><a href="../companies/동국제약" class="internal alias" data-slug="companies/동국제약">동국제약</a> — 인사돌·마데카솔·포폴·센텔리안24 등 일반의약품·전문의약품·헬스케어 3개 사업부문을 영위하는 제약기업, 최대주주 디케이앤컴(20.62%), 2025년 연결매출 9,269억원·영업이익 966억원·순이익 739억원 (KOSPI)</p>
+</li>
+<li>
+<p><a href="../companies/아난티" class="internal alias" data-slug="companies/아난티">아난티</a> — 골프·호텔·리조트 등 복합 휴양 플랫폼을 개발·분양·운영하는 기업, 최대주주 중앙디앤엘(11.79%), 플랫폼 개발(분양)·플랫폼 운영 2개 사업부문 (KOSPI 025980)</p>
+</li>
+<li>
+<p><a href="../companies/TY홀딩스" class="internal alias" data-slug="companies/TY홀딩스">TY홀딩스</a> — 태영그룹의 지주회사(㈜티와이홀딩스), 태영건설·SBS 등 계열사 지분 관리·투자 (KOSPI 363280)</p>
+</li>
+<li>
+<p><a href="../companies/팬오션" class="internal alias" data-slug="companies/팬오션">팬오션</a> — 하림그룹 계열 국내 최대 벌크선 해운사 겸 곡물 트레이딩 기업, 최대주주 하림지주(54.72%), 2025년 연결매출 5조 4,329억원·영업이익 4,919억원 (KOSPI 028670)</p>
+</li>
+<li>
+<p><a href="../companies/한농화성" class="internal alias" data-slug="companies/한농화성">한농화성</a> — 글리콜에테르(GE)·계면활성제(EOA)·특수산업용유화제(EM) 정밀화학 제조사, 최대주주 김응상(32.51%), 2025년 별도매출 2,144.9억원·영업이익 35.8억원 (KOSPI 011500)</p>
+</li>
+<li>
+<p><a href="../companies/한세예스24홀딩스" class="internal alias" data-slug="companies/한세예스24홀딩스">한세예스24홀딩스</a> — 한세그룹 지주회사(의류제조·전자상거래·출판·자동차부품), 최대주주 김석환 및 특수관계인(79.68%), 2025년 연결매출 3조 4,098억원·영업이익 654.7억원 (KOSPI 016450)</p>
+</li>
+<li>
+<p><a href="../companies/한익스프레스" class="internal alias" data-slug="companies/한익스프레스">한익스프레스</a> — 특수화물 운송·3PL·국제물류에 강점을 가진 종합물류기업, 최대주주 이석환 및 특수관계인(47.50%), 2025년 연결매출 6,298억원·영업손실 36.2억원 (KOSPI, 1989년 상장)</p>
+</li>
+<li>
+<p><a href="../companies/환인제약" class="internal alias" data-slug="companies/환인제약">환인제약</a> — 정신신경용제(항우울제·항정신병제) 국내 시장 점유율 1위 중견 제약사, 2025년 연결매출 2,552억원·영업이익 130억원, 2025.10 최대주주 이광식→이원범 변경 (KOSPI 016580)</p>
+</li>
+<li>
+<p><a href="../companies/동원금속" class="internal alias" data-slug="companies/동원금속">동원금속</a> — 현대·기아자동차 1차 협력사, 자동차 DOOR FRAME·BATTERY FRAME 등 프레스·롤포밍 부품 및 산업용 강관 제조, 최대주주 이은우(12.37%), 2026년 3월 결산 연결매출 6,595억원·영업이익 350억원 (KOSPI 018500, 舊 동원그룹과 무관)</p>
+</li>
+<li>
+<p><a href="../companies/대유에이텍" class="internal alias" data-slug="companies/대유에이텍">대유에이텍</a> — 기아·KGM·현대차向 자동차 시트(SEAT) 공급사, 대유(DY)그룹 계열 (KOSPI 002880)</p>
+</li>
+<li>
+<p><a href="../companies/AK홀딩스" class="internal alias" data-slug="companies/AK홀딩스">AK홀딩스</a> — 애경그룹의 지주회사로 제주항공·애경케미칼·에이케이플라자 등을 지배하는 KOSPI 상장 순수지주회사</p>
+</li>
+<li>
+<p><a href="../companies/BGF리테일" class="internal alias" data-slug="companies/BGF리테일">BGF리테일</a> — 편의점 CU를 운영하는 국내 편의점 업계 선두 기업</p>
+</li>
+<li>
+<p><a href="../companies/BYC" class="internal alias" data-slug="companies/BYC">BYC</a> — 80년 역사의 국내 대표 내의(이너웨어) 전문기업이자 대규모 보유부동산 임대수익을 가진 자산주 (KOSPI 001460)</p>
+</li>
+<li>
+<p><a href="../companies/CJ" class="internal alias" data-slug="companies/CJ">CJ</a> — CJ그룹의 지주회사 — CJ제일제당·CJ대한통운·CJ ENM 등 자회사를 지배하며 CJ 브랜드 로열티·배당금·임대수익으로 그룹 포트폴리오를 관리 (KOSPI 001040)</p>
+</li>
+<li>
+<p><a href="../companies/CJ대한통운" class="internal alias" data-slug="companies/CJ대한통운">CJ대한통운</a> — CJ그룹의 종합물류 계열사 — 계약물류(CL)·택배·글로벌(포워딩/해외)·건설 (KOSPI 000120)</p>
+</li>
+<li>
+<p><a href="../companies/CJ씨푸드" class="internal alias" data-slug="companies/CJ씨푸드">CJ씨푸드</a> — 어묵·생선구이 등 수산가공식품과 조미김·김스낵을 생산하는 CJ그룹 계열 식품기업(KOSPI 상장)</p>
+</li>
+<li>
+<p><a href="../companies/DB손해보험" class="internal alias" data-slug="companies/DB손해보험">DB손해보험</a> — 국내 손해보험 2위권 — DB그룹(김남호 회장) 핵심 금융 계열사, 2025년 연결 당기순이익 1조 7,906억원, 원수보험 M/S 약 18~19%</p>
+</li>
+<li>
+<p><a href="../companies/DB하이텍" class="internal alias" data-slug="companies/DB하이텍">DB하이텍</a> — 8인치(200mm) 순수 파운드리 중심의 아날로그·전력반도체 위탁생산 기업 (KOSPI 000990)</p>
+</li>
+<li>
+<p><a href="../companies/DH오토웨어" class="internal alias" data-slug="companies/DH오토웨어">DH오토웨어</a> — 정보통신·전기차충전·자동차부품(LPG연료탱크·햅틱모터) 사업을 영위하는 DH그룹 계열 KOSPI 상장사 (종목코드 000300)</p>
+</li>
+<li>
+<p><a href="../companies/DL" class="internal alias" data-slug="companies/DL">DL</a> — DL그룹(구 대림)의 지주회사 — 브랜드 로열티·배당·임대 수익을 기반으로 DL케미칼·DL이앤씨 등 자회사를 관리 (KOSPI 000210)</p>
+</li>
+<li>
+<p><a href="../companies/DN오토모티브" class="internal alias" data-slug="companies/DN오토모티브">DN오토모티브</a> — 자동차 방진부품·산업용 축전지·공작기계(디엔솔루션즈)를 영위하는 DN그룹 지주회사 겸 사업회사</p>
+</li>
+<li>
+<p><a href="../companies/GS건설" class="internal alias" data-slug="companies/GS건설">GS건설</a> — 건축·주택/플랜트/인프라/신사업을 영위하는 GS그룹 산하 종합건설 대표기업 (KOSPI 006360)</p>
+</li>
+<li>
+<p><a href="../companies/GS글로벌" class="internal alias" data-slug="companies/GS글로벌">GS글로벌</a> — GS그룹 산하 종합무역상사 — 철강·석유화학·에너지 트레이딩, 물류, 해상풍력 제조 (KOSPI 001250)</p>
+</li>
+<li>
+<p><a href="../companies/GS리테일" class="internal alias" data-slug="companies/GS리테일">GS리테일</a> — 편의점 GS25·슈퍼마켓 GS THE FRESH·홈쇼핑 GS SHOP을 운영하는 국내 대표 소매유통 기업</p>
+</li>
+<li>
+<p><a href="../companies/HD한국조선해양" class="internal alias" data-slug="companies/HD한국조선해양">HD한국조선해양</a> — HD현대그룹의 조선·해양 중간지주회사 — HD현대중공업·HD현대삼호 등 조선 자회사를 지배 (KOSPI 009540)</p>
+</li>
+<li>
+<p><a href="../companies/HLB글로벌" class="internal alias" data-slug="companies/HLB글로벌">HLB글로벌</a> — 미디어커머스(D2C 종합소매)를 기반으로 식품·음료·화장품 사업을 영위하는 HLB그룹 계열 소비재 기업</p>
+</li>
+<li>
+<p><a href="../companies/HMM" class="internal alias" data-slug="companies/HMM">HMM</a> — 컨테이너·벌크 해상운송을 영위하는 국내 최대 종합해운물류기업 (에이치엠엠, 구 현대상선)</p>
+</li>
+<li>
+<p><a href="../companies/HS화성" class="internal alias" data-slug="companies/HS화성">HS화성</a> — 1958년 설립된 대구 기반 종합건설사 — 건축(아파트·상가)·토목·분양·부동산임대 영위 (KOSPI 002460)</p>
+</li>
+<li>
+<p><a href="../companies/JW중외제약" class="internal alias" data-slug="companies/JW중외제약">JW중외제약</a> — 수액제·전문의약품 중심의 제약기업, JW그룹 핵심 의약품 제조 계열사 (KOSPI 001060)</p>
+</li>
+<li>
+<p><a href="../companies/KBI동양철관" class="internal alias" data-slug="companies/KBI동양철관">KBI동양철관</a> — 충남 천안 소재 강관 제조 KOSPI 상장사로 KBI그룹(케이비아이) 계열, 배관용·구조용 강관과 동합금을 생산</p>
+</li>
+<li>
+<p><a href="../companies/KC그린홀딩스" class="internal alias" data-slug="companies/KC그린홀딩스">KC그린홀딩스</a> — 환경설비(대기오염방지·자원순환·환경서비스)를 영위하는 KC그룹의 지주회사</p>
+</li>
+<li>
+<p><a href="../companies/KG모빌리티" class="internal alias" data-slug="companies/KG모빌리티">KG모빌리티</a> — KG그룹 계열 완성차 제조사 (구 쌍용자동차) — 토레스·렉스턴·무쏘 등 SUV 중심 라인업</p>
+</li>
+<li>
+<p><a href="../companies/KG케미칼" class="internal alias" data-slug="companies/KG케미칼">KG케미칼</a> — 비료·건설화학소재 제조사이자 KG그룹의 사실상 지주격 상장사 (KOSPI 001390)</p>
+</li>
+<li>
+<p><a href="../companies/KISCO홀딩스" class="internal alias" data-slug="companies/KISCO홀딩스">KISCO홀딩스</a> — 한국철강·환영철강공업 등을 자회사로 거느린 철강 지주회사 — 철근 제조 자회사 지배·배당·경영관리용역이 수입원 (KOSPI 001940)</p>
+</li>
+<li>
+<p><a href="../companies/LG에너지솔루션" class="internal alias" data-slug="companies/LG에너지솔루션">LG에너지솔루션</a> — LG그룹 계열의 글로벌 이차전지(리튬이온배터리) 셀 제조 기업, EV·ESS·소형 Application 배터리 생산 (KOSPI 373220)</p>
+</li>
+<li>
+<p><a href="../companies/LS" class="internal alias" data-slug="companies/LS">LS</a> — LS그룹의 지주회사로 전선·일렉트릭·비철금속(MnM) 등 핵심 자회사를 지배하며 2025년 연결매출 31.9조 원을 기록</p>
+</li>
+<li>
+<p><a href="../companies/LS네트웍스" class="internal alias" data-slug="companies/LS네트웍스">LS네트웍스</a> — 스포츠브랜드(프로스펙스)·무역·부동산임대 사업 및 LS증권을 보유한 LS그룹 계열 상장사 (KOSPI 000680)</p>
+</li>
+<li>
+<p><a href="../companies/LS일렉트릭" class="internal alias" data-slug="companies/LS일렉트릭">LS일렉트릭</a> — 전력기기·전력인프라·자동화 전문 기업, LS그룹 핵심 계열사 (구 LS산전)</p>
+</li>
+<li>
+<p><a href="../companies/LX세미콘" class="internal alias" data-slug="companies/LX세미콘">LX세미콘</a> — 디스플레이 구동칩(Driver-IC)을 주력으로 하는 팹리스 시스템반도체 기업, LX그룹 계열 KOSPI 상장사</p>
+</li>
+<li>
+<p><a href="../companies/LX인터내셔널" class="internal alias" data-slug="companies/LX인터내셔널">LX인터내셔널</a> — LX그룹의 종합상사·자원개발·물류 전문 기업 (KOSPI 001120)</p>
+</li>
+<li>
+<p><a href="../companies/LX하우시스" class="internal alias" data-slug="companies/LX하우시스">LX하우시스</a> — 건축자재(창호·바닥재·인테리어)와 자동차소재·산업용필름을 생산하는 LX그룹 계열 KOSPI 상장사</p>
+</li>
+<li>
+<p><a href="../companies/LX홀딩스" class="internal alias" data-slug="companies/LX홀딩스">LX홀딩스</a> — LX그룹의 순수지주회사 — LX인터내셔널·LX하우시스·LX세미콘·LX엠엠에이 등을 지배</p>
+</li>
+<li>
+<p><a href="../companies/NH투자증권" class="internal alias" data-slug="companies/NH투자증권">NH투자증권</a> — WM·IB·Trading을 균형 있게 영위하는 자기자본 9조원대 초대형 IB(종합금융투자사업자)로 농협금융지주가 지배 (KOSPI 005940, 12월 결산)</p>
+</li>
+<li>
+<p><a href="../companies/NI스틸" class="internal alias" data-slug="companies/NI스틸">NI스틸</a> — 형강·강구조물·강재리스를 영위하는 KOSPI 상장 철강 강건재 전문기업</p>
+</li>
+<li>
+<p><a href="../companies/SB성보" class="internal alias" data-slug="companies/SB성보">SB성보</a> — 1961년 설립된 작물보호제(농약) 제조·판매 및 부동산 임대 기업, 구 성보화학 (KOSPI 003080)</p>
+</li>
+<li>
+<p><a href="../companies/SGC에너지" class="internal alias" data-slug="companies/SGC에너지">SGC에너지</a> — 군산 열병합발전(집단에너지)·건설(SGC이앤씨)·유리(SGC솔루션)를 영위하는 SGC그룹 지주격 복합기업</p>
+</li>
+<li>
+<p><a href="../companies/SG글로벌" class="internal alias" data-slug="companies/SG글로벌">SG글로벌</a> — 자동차시트커버(Seat Trim Cover)·자동차시트(Car Seat) 제조 전문 자동차부품 기업 (KOSPI 001380)</p>
+</li>
+<li>
+<p><a href="../companies/SG세계물산" class="internal alias" data-slug="companies/SG세계물산">SG세계물산</a> — 의류수출(OEM)과 패션 브랜드(남성정장·여성복·명품피혁류)를 영위하는 SG그룹 계열 패션·무역 기업</p>
+</li>
+<li>
+<p><a href="../companies/SH에너지화학" class="internal alias" data-slug="companies/SH에너지화학">SH에너지화학</a> — EPS레진(발포폴리스티렌 원료)을 주력으로 하는 합성수지 제조 화학기업 (KOSPI 002360)</p>
+</li>
+<li>
+<p><a href="../companies/SIMPAC" class="internal alias" data-slug="companies/SIMPAC">SIMPAC</a> — 프레스(금속성형기계)·합금철·Roll·트레이딩·산업기계를 영위하는 SIMPAC그룹의 사업지주 겸 핵심 제조회사</p>
+</li>
+<li>
+<p><a href="../companies/SKC" class="internal alias" data-slug="companies/SKC">SKC</a> — SK그룹 계열의 소재 전문기업 — 2차전지 소재(전지박), 화학(PO/PG/SM), 반도체 소재/부품 사업을 영위하며 ISC의 최대주주</p>
+</li>
+<li>
+<p><a href="../companies/SK네트웍스" class="internal alias" data-slug="companies/SK네트웍스">SK네트웍스</a> — SK그룹의 정보통신 유통·글로벌 트레이딩·환경가전 렌탈·자동차/호텔 사업을 영위하며 AI Company로 전환 중인 KOSPI 상장사 (001740)</p>
+</li>
+<li>
+<p><a href="../companies/SK디스커버리" class="internal alias" data-slug="companies/SK디스커버리">SK디스커버리</a> — SK디스커버리그룹(최창원 부회장 계열)의 순수지주회사 — SK케미칼·SK가스·SK바이오사이언스를 지배하며 배당금수익이 주수입원. 2025년 SK디앤디 지분 매각(최대주주 지위 상실) (KOSPI 006120, 2025 연결매출 10.2조 원)</p>
+</li>
+<li>
+<p><a href="../companies/SK아이이테크놀로지" class="internal alias" data-slug="companies/SK아이이테크놀로지">SK아이이테크놀로지</a> — 리튬이온배터리분리막(LiBS)을 생산하는 SK그룹 계열 이차전지 소재기업</p>
+</li>
+<li>
+<p><a href="../companies/SK증권" class="internal alias" data-slug="companies/SK증권">SK증권</a> — 위탁매매·IB·자기매매·저축은행업을 영위하는 1955년 설립의 중형 종합증권사 (KOSPI 001510). 2018년 SK그룹에서 분리되어 사모펀드 J&amp;W파트너스 계열로 편입</p>
+</li>
+<li>
+<p><a href="../companies/SK텔레콤" class="internal alias" data-slug="companies/SK텔레콤">SK텔레콤</a> — SK그룹 계열 국내 1위 이동통신사업자(MNO)로, 무선·유선통신 및 AI·미디어 사업을 영위</p>
+</li>
+<li>
+<p><a href="../companies/SNT다이내믹스" class="internal alias" data-slug="companies/SNT다이내믹스">SNT다이내믹스</a> — 방산용 변속기(자주포·전차)·화력장비와 차량용 변속기·차축, 공작기계를 제조하는 SNT그룹 계열 기업 (구 통일중공업·S&amp;T중공업·SNT중공업, KOSPI 003570)</p>
+</li>
+<li>
+<p><a href="../companies/SUN-and-L" class="internal alias" data-slug="companies/SUN-and-L">SUN&amp;L</a> — 합판·MDF 등 목재 유통, 인테리어(도어·가구), 생활용품(플라스틱 용기)을 영위하는 종합소재 기업 (구 선창산업, KOSPI 002820)</p>
+</li>
+<li>
+<p><a href="../companies/TCC스틸" class="internal alias" data-slug="companies/TCC스틸">TCC스틸</a> — 주석도금강판·니켈도금강판 등 표면처리강판 제조 전문 KOSPI 상장 철강사 (구 TCC동양, KOSPI 002710)</p>
+</li>
+<li>
+<p><a href="../companies/TP" class="internal alias" data-slug="companies/TP">TP</a> — 의류 OEM·ODM 수출과 우모 가공을 주력으로 하는 종합 의류제조 기업 (구 태평양물산)</p>
+</li>
+<li>
+<p><a href="../companies/TYM" class="internal alias" data-slug="companies/TYM">TYM</a> — 트랙터·콤바인·이앙기 등 농업기계와 담배필터를 제조하는 기업, 매출의 약 74%가 수출(미국 중심) (구 동양물산기업, KOSPI 002900)</p>
+</li>
+<li>
+<p><a href="../companies/가온전선" class="internal alias" data-slug="companies/가온전선">가온전선</a> — LS그룹 계열의 전력·통신·특수 케이블 종합 제조사 (KOSPI 000500)</p>
+</li>
+<li>
+<p><a href="../companies/강남제비스코" class="internal alias" data-slug="companies/강남제비스코">강남제비스코</a> — 1952년 설립된 종합 도료·합성수지 제조 화학기업 (구 건설화학, KOSPI 000860)</p>
+</li>
+<li>
+<p><a href="../companies/경농" class="internal alias" data-slug="companies/경농">경농</a> — 1957년 설립된 국내 대표 작물보호제(농약) 제조·판매기업, 동오그룹 지배회사 (KOSPI 002100)</p>
+</li>
+<li>
+<p><a href="../companies/경동나비엔" class="internal alias" data-slug="companies/경동나비엔">경동나비엔</a> — 가스보일러·온수기 국내 1위 제조사로 북미를 중심으로 수출을 확대하는 경동그룹 핵심 상장사</p>
+</li>
+<li>
+<p><a href="../companies/경방" class="internal alias" data-slug="companies/경방">경방</a> — 1919년 설립된 방직(베트남 면방)·부동산개발(영등포 타임스퀘어) 영위 기업 (KOSPI 000050)</p>
+</li>
+<li>
+<p><a href="../companies/경인전자" class="internal alias" data-slug="companies/경인전자">경인전자</a> — TV용 리모컨·바이메탈 온도제어부품(THERMOSTAT)·스위치를 제조하는 KOSPI 상장 전자부품 업체</p>
+</li>
+<li>
+<p><a href="../companies/고려산업" class="internal alias" data-slug="companies/고려산업">고려산업</a> — 부산 기반의 가축용 배합사료(해피드) 제조·판매 전문 중견기업 (KOSPI 002140)</p>
+</li>
+<li>
+<p><a href="../companies/고려아연" class="internal alias" data-slug="companies/고려아연">고려아연</a> — 아연·연·금·은·동을 제련하는 세계 1위 종합비철금속 제련회사</p>
+</li>
+<li>
+<p><a href="../companies/고려제강" class="internal alias" data-slug="companies/고려제강">고려제강</a> — 와이어로프·경강선·PC강연선 등 특수선재 제조 국내 1위 기업 (KOSPI 002240, KISWIRE)</p>
+</li>
+<li>
+<p><a href="../companies/광동제약" class="internal alias" data-slug="companies/광동제약">광동제약</a> — 제약(OTC·ETC)과 F&amp;B(삼다수·비타500·옥수수수염차)를 함께 영위하는 KOSPI 상장 중견 제약·음료 기업</p>
+</li>
+<li>
+<p><a href="../companies/국도화학" class="internal alias" data-slug="companies/국도화학">국도화학</a> — 1972년 설립된 에폭시수지 전문 제조사로 국내 에폭시 시장점유율 약 64% 1위 기업</p>
+</li>
+<li>
+<p><a href="../companies/국제약품" class="internal alias" data-slug="companies/국제약품">국제약품</a> — 점안제·항생제 강점의 중견 제약사로 노인복지용구 자회사를 둔 KOSPI 상장사 (KOSPI 002720)</p>
+</li>
+<li>
+<p><a href="../companies/금비" class="internal alias" data-slug="companies/금비">금비</a> — 유리병(주류·음료·화장품 용기)과 화장품을 제조·판매하는 금비그룹 정점 기업이자 삼화왕관(병마개)·신우(플라스틱 화장품용기)의 지배회사 (KOSPI 008870)</p>
+</li>
+<li>
+<p><a href="../companies/금양" class="internal alias" data-slug="companies/금양">금양</a> — 발포제 세계일류상품 화학기업이자 이차전지(원통형 배터리)·수소연료전지·자원개발 신사업을 추진 중인 KOSPI 상장사 (종목코드 001570)</p>
+</li>
+<li>
+<p><a href="../companies/금호건설" class="internal alias" data-slug="companies/금호건설">금호건설</a> — 토목·건축·플랜트·환경을 영위하는 종합건설사 — 아파트 브랜드 ‘어울림’·‘리첸시아’, 구 금호산업 (KOSPI 002990)</p>
+</li>
+<li>
+<p><a href="../companies/금호전기" class="internal alias" data-slug="companies/금호전기">금호전기</a> — 형광램프·LED조명을 생산하는 국내 조명 전문업체 (KOSPI 001210, ‘번개표’ 브랜드)</p>
+</li>
+<li>
+<p><a href="../companies/깨끗한나라" class="internal alias" data-slug="companies/깨끗한나라">깨끗한나라</a> — 백판지(PS사업부)와 화장지·기저귀·생리대 등 생활용품(HL사업부)을 생산하는 제지·위생용품 기업</p>
+</li>
+<li>
+<p><a href="../companies/남광토건" class="internal alias" data-slug="companies/남광토건">남광토건</a> — 1947년 설립된 토목·건축 종합건설사, 관급 토목공사 중심 (KOSPI 001260)</p>
+</li>
+<li>
+<p><a href="../companies/남선알미늄" class="internal alias" data-slug="companies/남선알미늄">남선알미늄</a> — 알루미늄 압출(창호·형재)과 자동차 범퍼를 주력으로 하는 SM그룹(삼라마이다스) 계열 KOSPI 상장사</p>
+</li>
+<li>
+<p><a href="../companies/남성" class="internal alias" data-slug="companies/남성">남성</a> — 차량용·이동형 디지털 음향/AV 기기를 미국 등에 수출하는 디지털전자 + 부동산 임대(자산관리) 겸영 기업 (KOSPI 004270)</p>
+</li>
+<li>
+<p><a href="../companies/남양유업" class="internal alias" data-slug="companies/남양유업">남양유업</a> — 우유·분유·음료를 생산하는 국내 유가공 전문기업으로 2024년 사모펀드 한앤컴퍼니가 최대주주가 됨</p>
+</li>
+<li>
+<p><a href="../companies/넥센" class="internal alias" data-slug="companies/넥센">넥센</a> — 자동차 타이어용 튜브·고무제품 제조와 넥센타이어를 거느린 넥센그룹 사업형 지주회사 (KOSPI 005720)</p>
+</li>
+<li>
+<p><a href="../companies/넥센타이어" class="internal alias" data-slug="companies/넥센타이어">넥센타이어</a> — 한국·중국·유럽 4개 생산기지를 운영하는 글로벌 타이어 제조사 (KOSPI 002350)</p>
+</li>
+<li>
+<p><a href="../companies/노루홀딩스" class="internal alias" data-slug="companies/노루홀딩스">노루홀딩스</a> — 노루페인트그룹의 지주회사 — 도료(건축·자동차·PCM) 자회사 지분 관리, 배당·NOROO 상표권·임대 수익 기반 (KOSPI 000320)</p>
+</li>
+<li>
+<p><a href="../companies/녹십자" class="internal alias" data-slug="companies/녹십자">녹십자</a> — 혈액제제·백신을 필두로 한 GC(녹십자)그룹 핵심 제약사(GC녹십자, GC Biopharma) — 2025년 연결 매출 1조 9,913억 원 (KOSPI 006280)</p>
+</li>
+<li>
+<p><a href="../companies/녹십자홀딩스" class="internal alias" data-slug="companies/녹십자홀딩스">녹십자홀딩스</a> — GC(녹십자)그룹의 지주회사 — GC녹십자(혈액제제·백신) 등 의약·헬스케어 자회사 48개를 거느린 지주회사, 2025년 연결 매출 2조 4,515억 원 (KOSPI 005250)</p>
+</li>
+<li>
+<p><a href="../companies/대구백화점" class="internal alias" data-slug="companies/대구백화점">대구백화점</a> — 대구·경북 지역 기반의 82년 전통 지역 유통 전문기업으로 백화점·브랜드·체인 사업을 영위하는 KOSPI 상장사</p>
+</li>
+<li>
+<p><a href="../companies/대덕" class="internal alias" data-slug="companies/대덕">대덕</a> — 대덕그룹 지주회사 — 자회사 대덕전자(PCB)·와이솔(RF부품) 등을 지배하는 순수지주회사</p>
+</li>
+<li>
+<p><a href="../companies/대동" class="internal alias" data-slug="companies/대동">대동</a> — 트랙터·콤바인 등 농업기계 전문 제조기업, KIOTI 브랜드로 북미·유럽 수출 (KOSPI 000490)</p>
+</li>
+<li>
+<p><a href="../companies/대림바스" class="internal alias" data-slug="companies/대림바스">대림바스</a> — 위생도기·수전금구 등 욕실 건축자재를 제조·판매하는 KOSPI 상장 욕실 전문기업 (구 대림비앤코)</p>
+</li>
+<li>
+<p><a href="../companies/대림통상" class="internal alias" data-slug="companies/대림통상">대림통상</a> — 수전금구·위생도기·비데·샤워부스 등을 생산하는 건자재 종합 전문기업</p>
+</li>
+<li>
+<p><a href="../companies/대상" class="internal alias" data-slug="companies/대상">대상</a> — ‘청정원’·‘미원’·‘종가’로 알려진 종합 식품·소재(전분당·바이오) 기업, 대상그룹 핵심 사업회사 (KOSPI 001680)</p>
+</li>
+<li>
+<p><a href="../companies/대신밸류리츠" class="internal alias" data-slug="companies/대신밸류리츠">대신밸류리츠</a> — 서울 CBD 을지로 Core 오피스 ‘대신343’을 자(子)리츠를 통해 보유한 KOSPI 상장 위탁관리부동산투자회사(REIT), 자산총계 약 7,193억원</p>
+</li>
+<li>
+<p><a href="../companies/대신증권" class="internal alias" data-slug="companies/대신증권">대신증권</a> — 트레이딩(CM)·법인영업 중심의 수익구조에 부동산금융·대체투자를 확장 중인 대신금융그룹 핵심 종합증권사 (KOSPI 003540, 12월 결산)</p>
+</li>
+<li>
+<p><a href="../companies/대양금속" class="internal alias" data-slug="companies/대양금속">대양금속</a> — 스테인리스 냉간 압연 제품(STS 냉연강판)을 제조·판매하는 KOSPI 상장 철강기업</p>
+</li>
+<li>
+<p><a href="../companies/대웅" class="internal alias" data-slug="companies/대웅">대웅</a> — 대웅제약·대웅바이오·한올바이오파마 등 35개 종속회사를 거느린 글로벌 헬스케어 그룹 지주회사 (KOSPI 003090)</p>
+</li>
+<li>
+<p><a href="../companies/대웅제약" class="internal alias" data-slug="companies/대웅제약">대웅제약</a> — 나보타(보툴리눔 톡신)·우루사·펙수클루 등을 보유한 대웅그룹 핵심 제약 계열사이자 한올바이오파마 최대주주</p>
+</li>
+<li>
+<p><a href="../companies/대원강업" class="internal alias" data-slug="companies/대원강업">대원강업</a> — 차량용 스프링·시트 전문 자동차부품 제조사 (KOSPI 000430), 현대백화점그룹 계열</p>
+</li>
+<li>
+<p><a href="../companies/대원전선" class="internal alias" data-slug="companies/대원전선">대원전선</a> — 절연전선·전력전선 등 전선류와 자동차 알루미늄휠을 제조하는 종합 전선·부품회사 (KOSPI 006340)</p>
+</li>
+<li>
+<p><a href="../companies/대원제약" class="internal alias" data-slug="companies/대원제약">대원제약</a> — 코대원(진해거담제)·펠루비(소염진통제)·콜대원으로 알려진 중견 ETC 제약사 — 화장품(SNP)·건강기능식품 종속사 보유 (KOSPI 003220)</p>
+</li>
+<li>
+<p><a href="../companies/대한방직" class="internal alias" data-slug="companies/대한방직">대한방직</a> — 1953년 설립된 면방직·염색가공 전문 기업 (KOSPI 001070)</p>
+</li>
+<li>
+<p><a href="../companies/대한유화" class="internal alias" data-slug="companies/대한유화">대한유화</a> — 납사를 원료로 올레핀류·합성수지(PP·HDPE)를 생산하는 KOSPI 상장 석유화학(NCC) 기업</p>
+</li>
+<li>
+<p><a href="../companies/대한전선" class="internal alias" data-slug="companies/대한전선">대한전선</a> — 초고압케이블·해저케이블 등 전력선·통신케이블 종합 전선회사 (KOSPI 001440)</p>
+</li>
+<li>
+<p><a href="../companies/대한제당" class="internal alias" data-slug="companies/대한제당">대한제당</a> — 설탕(제당)·배합사료·축산유통 중심의 종합식품 기업 (KOSPI 001790, TS대한제당그룹 지주격)</p>
+</li>
+<li>
+<p><a href="../companies/대한제분" class="internal alias" data-slug="companies/대한제분">대한제분</a> — ‘곰표’ 브랜드로 유명한 국내 대표 제분(소맥분) 기업이자 사료·반려동물·식음료(아티제) 등을 영위하는 식품 그룹 (KOSPI 001130)</p>
+</li>
+<li>
+<p><a href="../companies/대한항공" class="internal alias" data-slug="companies/대한항공">대한항공</a> — 국적 항공사 대표기업 — 여객·화물·항공우주를 영위하며 아시아나항공을 인수·통합 중인 한진그룹 핵심 계열사 (KOSPI 003490)</p>
+</li>
+<li>
+<p><a href="../companies/대한해운" class="internal alias" data-slug="companies/대한해운">대한해운</a> — 벌크선·LNG선·탱커선 중심의 외항 해상화물운송 기업 (KOSPI 005880, SM그룹 계열). 2025년 연결매출 1조 2,770억 원</p>
+</li>
+<li>
+<p><a href="../companies/대한화섬" class="internal alias" data-slug="companies/대한화섬">대한화섬</a> — 폴리에스터 원사(ACEPORA) 제조와 부동산 임대를 영위하는 태광그룹 계열 KOSPI 상장 화학섬유 기업</p>
+</li>
+<li>
+<p><a href="../companies/덕성" class="internal alias" data-slug="companies/덕성">덕성</a> — 1966년 설립된 국내 최초의 합성피혁(PU 인조피혁) 제조기업 (KOSPI 004830)</p>
+</li>
+<li>
+<p><a href="../companies/도화엔지니어링" class="internal alias" data-slug="companies/도화엔지니어링">도화엔지니어링</a> — SOC 전 분야 종합 엔지니어링(설계·CM)·건설 및 신재생에너지 사업을 영위하는 국내 대표 엔지니어링 회사 (KOSPI 002150)</p>
+</li>
+<li>
+<p><a href="../companies/동방" class="internal alias" data-slug="companies/동방">동방</a> — 항만하역·육상/해상운송·초중량물 운송과 3PL을 영위하는 종합물류 기업 (2025년 연결 매출 9,156억 원)</p>
+</li>
+<li>
+<p><a href="../companies/동방아그로" class="internal alias" data-slug="companies/동방아그로">동방아그로</a> — 작물보호제(농약) 제조·판매 전문 중견기업, 부여공장 기반 국내 농약시장 점유율 약 13%</p>
+</li>
+<li>
+<p><a href="../companies/동부건설" class="internal alias" data-slug="companies/동부건설">동부건설</a> — 1969년 설립된 토목·건축 종합건설사, 아파트 브랜드 ‘센트레빌’ 보유 (KOSPI 005960)</p>
+</li>
+<li>
+<p><a href="../companies/동성제약" class="internal alias" data-slug="companies/동성제약">동성제약</a> — 정로환·세븐에이트 염모제로 알려진 제약·염모제·화장품 기업 (KOSPI 002210, 회생절차 진행 중)</p>
+</li>
+<li>
+<p><a href="../companies/동아쏘시오홀딩스" class="internal alias" data-slug="companies/동아쏘시오홀딩스">동아쏘시오홀딩스</a> — 동아쏘시오그룹의 지주회사 — 동아제약(박카스)·동아에코팩·용마로지스를 종속회사로, 동아에스티·에스티팜을 관계기업으로 지배 (KOSPI 000640)</p>
+</li>
+<li>
+<p><a href="../companies/동양" class="internal alias" data-slug="companies/동양">동양</a> — 레미콘·건자재(건재)를 핵심으로 건설·플랜트(산업용 송풍기)·섬유를 영위하는 유진그룹 계열 건설유관 기업 (KOSPI 001520)</p>
+</li>
+<li>
+<p><a href="../companies/동일산업" class="internal alias" data-slug="companies/동일산업">동일산업</a> — 봉강·합금철·주조(특수강)와 자동차부품을 제조하는 특수강 기반 철강기업 (KOSPI 004890)</p>
+</li>
+<li>
+<p><a href="../companies/동일제강" class="internal alias" data-slug="companies/동일제강">동일제강</a> — 선재(PC강연선·경강선)·마봉강·알루미늄 세경봉을 제조하는 선재 2차가공 철강기업 (KOSPI 002690)</p>
+</li>
+<li>
+<p><a href="../companies/동화약품" class="internal alias" data-slug="companies/동화약품">동화약품</a> — 까스활명수·후시딘·판콜로 유명한 1897년 창업 국내 최장수 제약기업 (KOSPI 000020)</p>
+</li>
+<li>
+<p><a href="../companies/디아이" class="internal alias" data-slug="companies/디아이">디아이</a> — 번인 테스터(Burn-In Tester) 등 메모리 반도체 검사장비를 주력으로 하는 KOSPI 상장 반도체장비 기업 — 2025년 HBM·DDR5 테스터 공급으로 매출 4,323억원 달성</p>
+</li>
+<li>
+<p><a href="../companies/디아이동일" class="internal alias" data-slug="companies/디아이동일">디아이동일</a> — 1955년 설립된 섬유소재·알루미늄 중심 복합소재 기업 (KOSPI 001530)</p>
+</li>
+<li>
+<p><a href="../companies/롯데손해보험" class="internal alias" data-slug="companies/롯데손해보험">롯데손해보험</a> — 장기보험 비중 약 89%의 중형 손해보험사, 2025년 당기순이익 513억원. 최대주주는 사모펀드(JKL파트너스) 운용 빅튜라(유)</p>
+</li>
+<li>
+<p><a href="../companies/롯데정밀화학" class="internal alias" data-slug="companies/롯데정밀화학">롯데정밀화학</a> — ECH·가성소다·암모니아 등 케미칼과 셀룰로스계 그린소재를 생산하는 롯데그룹 계열 스페셜티 화학기업 (KOSPI 004000)</p>
+</li>
+<li>
+<p><a href="../companies/롯데지주" class="internal alias" data-slug="companies/롯데지주">롯데지주</a> — 롯데쇼핑·롯데케미칼·롯데웰푸드·롯데칠성음료 등을 지배하는 롯데그룹 지주회사 (KOSPI 004990, 2025년 연결매출 15.5조 원)</p>
+</li>
+<li>
+<p><a href="../companies/롯데칠성음료" class="internal alias" data-slug="companies/롯데칠성음료">롯데칠성음료</a> — 음료(칠성사이다·펩시)와 주류(처음처럼·클라우드)를 아우르는 롯데그룹 종합음료 기업</p>
+</li>
+<li>
+<p><a href="../companies/만호제강" class="internal alias" data-slug="companies/만호제강">만호제강</a> — 와이어로프·특수강선·섬유로프 제조 전문기업 (KOSPI 001080, 의견거절로 거래정지 중)</p>
+</li>
+<li>
+<p><a href="../companies/명신산업" class="internal alias" data-slug="companies/명신산업">명신산업</a> — 자동차 차체용 핫스탬핑 경량화 부품 전문 제조사. 현대·기아차와 글로벌 전기차(테슬라)에 공급</p>
+</li>
+<li>
+<p><a href="../companies/모나미" class="internal alias" data-slug="companies/모나미">모나미</a> — 153 볼펜·플러스펜으로 대표되는 국내 1위 필기구·문구 기업이자 삼성전자 프린터 소모품 총판 (KOSPI 005360)</p>
+</li>
+<li>
+<p><a href="../companies/모토닉" class="internal alias" data-slug="companies/모토닉">모토닉</a> — LPI 연료시스템·하이브리드 오일펌프 제어기·수소전기차 부품을 현대차·기아에 공급하는 자동차부품 1차 협력업체</p>
+</li>
+<li>
+<p><a href="../companies/무림P-and-P" class="internal alias" data-slug="companies/무림P-and-P">무림P&amp;P</a> — 국내 유일의 표백화학펄프(HW-BKP) 제조업체이자 펄프-제지 일관생산 무림그룹 KOSPI 상장사</p>
+</li>
+<li>
+<p><a href="../companies/무림페이퍼" class="internal alias" data-slug="companies/무림페이퍼">무림페이퍼</a> — 백상지·아트지 등 인쇄용지를 전문 생산하는 무림그룹 핵심 제지 상장사</p>
+</li>
+<li>
+<p><a href="../companies/문배철강" class="internal alias" data-slug="companies/문배철강">문배철강</a> — 포스코 1차 열연대리점 출신 철강유통·가공기업이자 NI스틸 최대주주(39.72%)</p>
+</li>
+<li>
+<p><a href="../companies/미래아이앤지" class="internal alias" data-slug="companies/미래아이앤지">미래아이앤지</a> — SWIFT 전문관리 등 금융솔루션과 B&amp;E(엔터·임대) 사업을 영위하는 소규모 IT기업 (KOSPI 007120)</p>
+</li>
+<li>
+<p><a href="../companies/미원상사" class="internal alias" data-slug="companies/미원상사">미원상사</a> — 계면활성제(생활화학)와 전자재료(반도체·디스플레이·이차전지 소재)를 양대 축으로 하는 정밀화학 기업, 미원그룹 계열 (KOSPI 002840)</p>
+</li>
+<li>
+<p><a href="../companies/미창석유공업" class="internal alias" data-slug="companies/미창석유공업">미창석유공업</a> — 전기절연유·고무배합유·산업용 윤활유를 생산하는 60년 업력의 특수유 전문 제조사 (KOSPI 003650, 부산 영도)</p>
+</li>
+<li>
+<p><a href="../companies/방림" class="internal alias" data-slug="companies/방림">방림</a> — 1962년 설립된 면방·염색가공(섬유) 전문 제조 KOSPI 상장기업 (종목코드 003610), 부동산임대·요양복지 다각화</p>
+</li>
+<li>
+<p><a href="../companies/범양건영" class="internal alias" data-slug="companies/범양건영">범양건영</a> — 1958년 설립된 부산 소재 토목·건축 중견 건설사 (KOSPI 002410, 2026년 회생절차 진행)</p>
+</li>
+<li>
+<p><a href="../companies/벽산" class="internal alias" data-slug="companies/벽산">벽산</a> — 단열재·건축자재를 주력으로 하는 KOSPI 상장 건자재 제조 지주회사</p>
+</li>
+<li>
+<p><a href="../companies/보락" class="internal alias" data-slug="companies/보락">보락</a> — 1959년 설립된 식품향료·식품첨가물 및 생약 원료의약품 제조 전문 화학기업 (KOSPI 002760)</p>
+</li>
+<li>
+<p><a href="../companies/보령" class="internal alias" data-slug="companies/보령">보령</a> — 1963년 설립한 제약사 — 국산 고혈압 신약 카나브 패밀리와 항암(Oncology)·전문의약품 중심, 우주의약품(LBA) 신사업 추진 (KOSPI 003850)</p>
+</li>
+<li>
+<p><a href="../companies/보해양조" class="internal alias" data-slug="companies/보해양조">보해양조</a> — 광주·전남 기반 소주·과실주 중심의 종합 주류 제조기업 (KOSPI 000890)</p>
+</li>
+<li>
+<p><a href="../companies/부광약품" class="internal alias" data-slug="companies/부광약품">부광약품</a> — 당뇨·간질환·CNS 의약품과 신약개발(콘테라파마)을 영위하는 OCI그룹 계열 제약기업 (KOSPI 003000)</p>
+</li>
+<li>
+<p><a href="../companies/부국증권" class="internal alias" data-slug="companies/부국증권">부국증권</a> — 자기매매(트레이딩) 중심의 수익구조를 가진 1954년 설립의 중소형 종합증권사 (KOSPI 001270, 12월 결산)</p>
+</li>
+<li>
+<p><a href="../companies/부산주공" class="internal alias" data-slug="companies/부산주공">부산주공</a> — 자동차용 주철 주물 소재 및 가공부품(제동·엔진·동력전달)을 제조·판매하는 KOSPI 상장 자동차부품 기업</p>
+</li>
+<li>
+<p><a href="../companies/블루산업개발" class="internal alias" data-slug="companies/블루산업개발">블루산업개발</a> — 지관용원지·라이너원지·골판지를 생산하는 KOSPI 상장 제지·포장 기업 (구 영풍제지)</p>
+</li>
+<li>
+<p><a href="../companies/비비안" class="internal alias" data-slug="companies/비비안">비비안</a> — 국내 최대 여성 란제리 전문기업 — ‘VIVIEN’·‘바바라’ 등 여성용 파운데이션·란제리·스타킹 제조판매 (KOSPI 002070)</p>
+</li>
+<li>
+<p><a href="../companies/빙그레" class="internal alias" data-slug="companies/빙그레">빙그레</a> — 바나나맛우유·메로나·요플레·투게더 등을 만드는 가공유·아이스크림 식품기업, 해태아이스크림 모회사 (KOSPI 005180)</p>
+</li>
+<li>
+<p><a href="../companies/사조대림" class="internal alias" data-slug="companies/사조대림">사조대림</a> — 어묵·맛살·식용유·참치캔 등을 생산하는 사조그룹 계열 종합식품기업 (KOSPI 003960)</p>
+</li>
+<li>
+<p><a href="../companies/사조동아원" class="internal alias" data-slug="companies/사조동아원">사조동아원</a> — 제분(밀가루)·배합사료를 생산하는 사조그룹 상장 계열사 (KOSPI 008040)</p>
+</li>
+<li>
+<p><a href="../companies/사조산업" class="internal alias" data-slug="companies/사조산업">사조산업</a> — 참치·대구 원양어업과 수산식품·축산·레저를 영위하는 사조그룹의 지배 중간지주 격 상장사 (KOSPI 007160)</p>
+</li>
+<li>
+<p><a href="../companies/사조씨푸드" class="internal alias" data-slug="companies/사조씨푸드">사조씨푸드</a> — 횟감용 참치·수산물 가공 및 김 제조를 영위하는 사조그룹 상장 계열사 (KOSPI 014710)</p>
+</li>
+<li>
+<p><a href="../companies/사조오양" class="internal alias" data-slug="companies/사조오양">사조오양</a> — 맛살·어묵·육가공 등 식품제조와 참치·명태 원양어업을 영위하는 사조그룹 계열 수산식품기업 (KOSPI 006090)</p>
+</li>
+<li>
+<p><a href="../companies/삼립" class="internal alias" data-slug="companies/삼립">삼립</a> — 삼립호빵·양산빵으로 양산빵 시장을 선도하고 식자재유통(SPC GFS)을 영위하는 SPC그룹 상장 식품기업 (KOSPI 005610)</p>
+</li>
+<li>
+<p><a href="../companies/삼부토건" class="internal alias" data-slug="companies/삼부토건">삼부토건</a> — 1948년 창립, 국내 토목건축공사업 면허 제1호의 노포 종합건설사 — 2025년 회생절차 개시·거래정지 상태 (KOSPI 001470)</p>
+</li>
+<li>
+<p><a href="../companies/삼성SDI" class="internal alias" data-slug="companies/삼성SDI">삼성SDI</a> — 삼성그룹 계열의 리튬이온 이차전지(에너지솔루션)·전자재료 제조사 (KOSPI 006400)</p>
+</li>
+<li>
+<p><a href="../companies/삼성공조" class="internal alias" data-slug="companies/삼성공조">삼성공조</a> — 자동차·중장비·농기계용 라디에터·오일쿨러·HVAC 등 열교환기를 생산하는 창원 소재 KOSPI 상장 자동차부품 제조사</p>
+</li>
+<li>
+<p><a href="../companies/삼성제약" class="internal alias" data-slug="companies/삼성제약">삼성제약</a> — 1929년 창립한 독립계 제약사. 까스명수·우황청심원 등 OTC와 GV1001 바이오 신약 파이프라인 보유 (KOSPI 001360)</p>
+</li>
+<li>
+<p><a href="../companies/삼성중공업" class="internal alias" data-slug="companies/삼성중공업">삼성중공업</a> — LNG선·해양플랜트(FLNG·FPSO) 중심의 글로벌 조선·해양 전문기업, 삼성그룹 계열사</p>
+</li>
+<li>
+<p><a href="../companies/삼아알미늄" class="internal alias" data-slug="companies/삼아알미늄">삼아알미늄</a> — 알루미늄박(이차전지 양극집전체·외장재용, 식품·제약 포장용)을 제조하는 비철금속 압연 중견기업 (KOSPI 006110)</p>
+</li>
+<li>
+<p><a href="../companies/삼양식품" class="internal alias" data-slug="companies/삼양식품">삼양식품</a> — 불닭볶음면으로 K-FOOD 수출을 선도하는 라면·스낵 제조기업, 삼양라운드스퀘어 계열 (KOSPI 003230)</p>
+</li>
+<li>
+<p><a href="../companies/삼양통상" class="internal alias" data-slug="companies/삼양통상">삼양통상</a> — 원피를 가공해 카시트·신발·가구용 피혁원단을 제조하는 가죽 전문 KOSPI 상장사 (002170)</p>
+</li>
+<li>
+<p><a href="../companies/삼영" class="internal alias" data-slug="companies/삼영">삼영</a> — 필름커패시터용 콘덴서필름(PPC)·포장용 BOPP필름과 선박엔진 조선기자재를 생산하는 소재·부품 기업, 구 삼영화학공업 (KOSPI 003720)</p>
+</li>
+<li>
+<p><a href="../companies/삼영무역" class="internal alias" data-slug="companies/삼영무역">삼영무역</a> — 화공약품 유통·안경렌즈 수출·자동차부품 제조를 영위하며 지분법 관계기업(에실로코리아 등)이 수익을 견인하는 종합상사형 기업 (KOSPI 002810)</p>
+</li>
+<li>
+<p><a href="../companies/삼영전자공업" class="internal alias" data-slug="companies/삼영전자공업">삼영전자공업</a> — 알루미늄 전해콘덴서 전문 제조기업 — 콘덴서·콘덴서자재 생산, 무차입·현금부자 자산주 (KOSPI 005680)</p>
+</li>
+<li>
+<p><a href="../companies/삼익THK" class="internal alias" data-slug="companies/삼익THK">삼익THK</a> — LM가이드·볼나사 등 직선운동(LM) 시스템과 메카트로·로봇 솔루션을 제조하는 기계요소부품 기업 (일본 THK 제휴, KOSPI 004380)</p>
+</li>
+<li>
+<p><a href="../companies/삼익악기" class="internal alias" data-slug="companies/삼익악기">삼익악기</a> — 국내 최대 종합악기 제조사이자 집단에너지 사업을 겸하는 KOSPI 상장사 (002450)</p>
+</li>
+<li>
+<p><a href="../companies/삼일씨엔에스" class="internal alias" data-slug="companies/삼일씨엔에스">삼일씨엔에스</a> — PHC파일·PC 등 콘크리트 건자재와 해상풍력 하부구조물·강교·골재를 생산하는 KOSPI 상장 건자재 기업</p>
+</li>
+<li>
+<p><a href="../companies/삼일제약" class="internal alias" data-slug="companies/삼일제약">삼일제약</a> — 안과·간질환·소화기 전문의약품 중심의 중견 제약사 (KOSPI 000520)</p>
+</li>
+<li>
+<p><a href="../companies/삼정펄프" class="internal alias" data-slug="companies/삼정펄프">삼정펄프</a> — 화장지·위생지용 원지 및 완제품을 제조·판매하는 국내 생활용지 제조업체 (KOSPI 상장)</p>
+</li>
+<li>
+<p><a href="../companies/삼진제약" class="internal alias" data-slug="companies/삼진제약">삼진제약</a> — 게보린·플래리스(항혈전제) 등으로 알려진 중견 제약사, 2025년 연결 매출 3,091억 원 (KOSPI 005500)</p>
+</li>
+<li>
+<p><a href="../companies/삼천리" class="internal alias" data-slug="companies/삼천리">삼천리</a> — 경기·인천 도시가스 소매 1위 사업자이자 발전·집단에너지·신재생을 영위하는 삼천리그룹 핵심 종합 에너지 기업</p>
+</li>
+<li>
+<p><a href="../companies/삼화왕관" class="internal alias" data-slug="companies/삼화왕관">삼화왕관</a> — 국내 최대 종합 병마개(왕관·금속캡·플라스틱 클로저) 제조사이자 화장품 플라스틱용기 생산기업 (KOSPI 004450)</p>
+</li>
+<li>
+<p><a href="../companies/삼화전기" class="internal alias" data-slug="companies/삼화전기">삼화전기</a> — 알루미늄 전해콘덴서·전기이중층콘덴서·하이브리드(전도성 고분자)콘덴서를 제조하는 삼화그룹 계열 전자부품 기업</p>
+</li>
+<li>
+<p><a href="../companies/삼화콘덴서공업" class="internal alias" data-slug="companies/삼화콘덴서공업">삼화콘덴서공업</a> — 국내 유일의 콘덴서 종합 메이커 — MLCC·필름·세라믹·DC-Link 콘덴서 제조 (KOSPI 001820)</p>
+</li>
+<li>
+<p><a href="../companies/삼화페인트공업" class="internal alias" data-slug="companies/삼화페인트공업">삼화페인트공업</a> — 1946년 설립된 국내 대표 도료(페인트) 제조기업 (KOSPI 000390, 사명 변경 예정: 에스피삼화)</p>
+</li>
+<li>
+<p><a href="../companies/상상인증권" class="internal alias" data-slug="companies/상상인증권">상상인증권</a> — 리테일·홀세일·IB·자산운용을 영위하는 1954년 설립의 중소형 종합증권사. 2019년 상상인그룹 편입 (KOSPI 001290, 12월 결산)</p>
+</li>
+<li>
+<p><a href="../companies/서연" class="internal alias" data-slug="companies/서연">서연</a> — 자동차 내장재(서연이화) 등을 거느린 서연그룹의 순수지주회사 (KOSPI 007860)</p>
+</li>
+<li>
+<p><a href="../companies/서울식품공업" class="internal alias" data-slug="companies/서울식품공업">서울식품공업</a> — 냉동생지·스낵·양산빵 중심의 제빵사업과 음식물쓰레기 처리 환경사업을 영위하는 식품 제조기업 (KOSPI 004410)</p>
+</li>
+<li>
+<p><a href="../companies/서흥" class="internal alias" data-slug="companies/서흥">서흥</a> — 하드캡슐 국내 1위·세계적 공급사이자 건강기능식품 OEM/ODM 기업</p>
+</li>
+<li>
+<p><a href="../companies/선도전기" class="internal alias" data-slug="companies/선도전기">선도전기</a> — 수배전반·가스절연개폐기·차단기 등 중전기기(전력변환기기)를 제조·판매하는 KOSPI 상장 전력기기 전문업체</p>
+</li>
+<li>
+<p><a href="../companies/성신양회" class="internal alias" data-slug="companies/성신양회">성신양회</a> — 단양공장 연산 1,100만톤 규모의 시멘트 제조와 레미콘·무역을 영위하는 KOSPI 상장 시멘트 기업 (KOSPI 004980)</p>
+</li>
+<li>
+<p><a href="../companies/성창기업지주" class="internal alias" data-slug="companies/성창기업지주">성창기업지주</a> — 합판·파티클보드 등 목재 제조 자회사를 거느린 상장 지주회사 (KOSPI 000180)</p>
+</li>
+<li>
+<p><a href="../companies/세기상사" class="internal alias" data-slug="companies/세기상사">세기상사</a> — 주유소(석유판매)·부동산임대·스누피 IP 문화레저 사업을 영위하는 KOSPI 상장기업 (KOSPI 002420)</p>
+</li>
+<li>
+<p><a href="../companies/세방" class="internal alias" data-slug="companies/세방">세방</a> — 항만하역·육해상운송·창고보관·3PL을 영위하는 종합물류 기업, 세방그룹 모기업 (2025년 연결 매출 1조 2,418억 원)</p>
+</li>
+<li>
+<p><a href="../companies/세방전지" class="internal alias" data-slug="companies/세방전지">세방전지</a> — 자동차용·산업용 납축전지(‘ROCKET·GB’) 국내 1위(점유율 38.6%)이자 EV전지로 확장 중인 세방그룹 상장 계열사</p>
+</li>
+<li>
+<p><a href="../companies/세아베스틸지주" class="internal alias" data-slug="companies/세아베스틸지주">세아베스틸지주</a> — 세아그룹의 특수강 지주회사 — 세아베스틸·세아창원특수강·세아항공방산소재 등을 지배하는 순수지주회사 (KOSPI 001430)</p>
+</li>
+<li>
+<p><a href="../companies/송원산업" class="internal alias" data-slug="companies/송원산업">송원산업</a> — 1965년 설립된 정밀화학 전문기업 — 폴리머 안정제(산화방지제) 세계 2위, 주석화합물·PVC 안정제 등 (KOSPI 004430)</p>
+</li>
+<li>
+<p><a href="../companies/시알홀딩스" class="internal alias" data-slug="companies/시알홀딩스">시알홀딩스</a> — 조선내화에서 인적분할로 출범한 내화물·기계부품 중심 지주회사 (KOSPI 000480)</p>
+</li>
+<li>
+<p><a href="../companies/신라교역" class="internal alias" data-slug="companies/신라교역">신라교역</a> — 1967년 설립된 원양어업(참치선망·연승)·수산물유통 중심의 종합 수산기업 (KOSPI 004970)</p>
+</li>
+<li>
+<p><a href="../companies/신세계" class="internal alias" data-slug="companies/신세계">신세계</a> — 백화점·면세점·패션을 중심으로 한 신세계그룹 핵심 유통 대기업 (KOSPI 상장)</p>
+</li>
+<li>
+<p><a href="../companies/신송홀딩스" class="internal alias" data-slug="companies/신송홀딩스">신송홀딩스</a> — 식품(장류)·트레이딩·소재·부동산임대 사업을 자회사로 거느린 순수지주회사</p>
+</li>
+<li>
+<p><a href="../companies/신영와코루" class="internal alias" data-slug="companies/신영와코루">신영와코루</a> — 비너스·와코루 브랜드로 백화점 여성내의류 시장 점유율 약 54%를 보유한 국내 1위 이너웨어 전문기업</p>
+</li>
+<li>
+<p><a href="../companies/신원" class="internal alias" data-slug="companies/신원">신원</a> — KNIT·SWEATER OEM/ODM 의류 수출과 5개 패션브랜드(베스띠벨리·씨 등)를 전개하는 신원그룹 모기업 (KOSPI 009270)</p>
+</li>
+<li>
+<p><a href="../companies/신일전자" class="internal alias" data-slug="companies/신일전자">신일전자</a> — 선풍기·계절가전·생활가전을 제조·유통하는 국내 대표 소형가전 기업 (구 신일산업, KOSPI 002700, ‘신일’ 브랜드)</p>
+</li>
+<li>
+<p><a href="../companies/신풍" class="internal alias" data-slug="companies/신풍">신풍</a> — 평택공장 폐쇄 후 제조업에서 지류유통으로 전환한 기업 — 수입지 유통과 오디오·외식 사업 영위 (구 신풍제지, KOSPI 002870)</p>
+</li>
+<li>
+<p><a href="../companies/신화다이나믹스" class="internal alias" data-slug="companies/신화다이나믹스">신화다이나믹스</a> — 석도강판(주석도금강판) 제조 전문 KOSPI 상장 철강사 (옛 신화실업, KOSPI 001770)</p>
+</li>
+<li>
+<p><a href="../companies/신흥" class="internal alias" data-slug="companies/신흥">신흥</a> — 국내 최초의 치과 의료기기·치과재료 제조·유통 전문기업으로 부동산 임대업을 겸하는 KOSPI 상장사 (KOSPI 004080)</p>
+</li>
+<li>
+<p><a href="../companies/써니전자" class="internal alias" data-slug="companies/써니전자">써니전자</a> — 수정진동자(크리스탈) 및 응용제품을 제조·판매하는 KOSPI 상장 전자부품 기업</p>
+</li>
+<li>
+<p><a href="../companies/씨아이테크" class="internal alias" data-slug="companies/씨아이테크">씨아이테크</a> — 무인자동증명발급기·키오스크·하이파이오디오(HiFi ROSE)·스마트병원 솔루션 등 IT 단말·시스템 전문기업 — 2025년 연결매출 414.5억원 (KOSPI 004920)</p>
+</li>
+<li>
+<p><a href="../companies/아남전자" class="internal alias" data-slug="companies/아남전자">아남전자</a> — 세계 유수 AV기업에 음향기기를 공급하는 ODM 전문기업 (Audio·AV)</p>
+</li>
+<li>
+<p><a href="../companies/아세아제지" class="internal alias" data-slug="companies/아세아제지">아세아제지</a> — 아세아그룹 계열 골판지원지(산업용지) 제조사 — 골판지원지부터 원단·상자까지 수직계열화 (KOSPI 002310)</p>
+</li>
+<li>
+<p><a href="../companies/아진전자부품" class="internal alias" data-slug="companies/아진전자부품">아진전자부품</a> — 현대·기아차 등에 전기차 히터·전장 모듈을 공급하는 KOSPI 상장 자동차 전장부품 제조사</p>
+</li>
+<li>
+<p><a href="../companies/알루코" class="internal alias" data-slug="companies/알루코">알루코</a> — 금형-주조-압출-가공-시공 일괄체제를 갖춘 국내 알루미늄 소재 전문업체 (KOSPI 001780)</p>
+</li>
+<li>
+<p><a href="../companies/애경산업" class="internal alias" data-slug="companies/애경산업">애경산업</a> — 애경그룹 계열 생활용품·화장품 기업(케라시스·2080·AGE20’s), KOSPI 상장 — 최대주주 티투프라이빗에쿼티로 변경 예정</p>
+</li>
+<li>
+<p><a href="../companies/에스엘" class="internal alias" data-slug="companies/에스엘">에스엘</a> — 자동차 램프(헤드/리어램프)·전동화 부품 전문 OEM 제조사 (KOSPI 005850), SL그룹 지주격 사업회사</p>
+</li>
+<li>
+<p><a href="../companies/에스엠벡셀" class="internal alias" data-slug="companies/에스엠벡셀">에스엠벡셀</a> — 자동차 엔진·미션 부품(워터펌프·오일펌프 등)과 1차전지·특수전지를 생산하는 SM그룹 계열 KOSPI 상장사</p>
+</li>
+<li>
+<p><a href="../companies/에이프로젠" class="internal alias" data-slug="companies/에이프로젠">에이프로젠</a> — 금속표면경화(하드페이싱)·철강·바이오시밀러 등을 영위하는 에이프로젠그룹 지주격 KOSPI 상장사</p>
+</li>
+<li>
+<p><a href="../companies/에이프로젠바이오로직스" class="internal alias" data-slug="companies/에이프로젠바이오로직스">에이프로젠바이오로직스</a> — 합성의약품(제네릭)과 항체 바이오시밀러 위탁생산을 영위하는 에이프로젠그룹 계열 제약·바이오 기업 (KOSPI 003060)</p>
+</li>
+<li>
+<p><a href="../companies/엔피씨" class="internal alias" data-slug="companies/엔피씨">엔피씨</a> — 1965년 설립된 국내 최대 플라스틱 사출성형 기업 — 산업용 파렛트·컨테이너·물류기자재 제조·렌탈 (구 내쇼날푸라스틱, KOSPI 004250)</p>
+</li>
+<li>
+<p><a href="../companies/영원무역홀딩스" class="internal alias" data-slug="companies/영원무역홀딩스">영원무역홀딩스</a> — 의류 OEM 영원무역과 노스페이스 국내사업 영원아웃도어를 거느린 영원그룹 순수 지주회사</p>
+</li>
+<li>
+<p><a href="../companies/영진약품" class="internal alias" data-slug="companies/영진약품">영진약품</a> — KT&amp;G 계열의 전문의약품·세파계 항생제 원료 중심 중견 제약사 (KOSPI 003520)</p>
+</li>
+<li>
+<p><a href="../companies/영풍" class="internal alias" data-slug="companies/영풍">영풍</a> — 아연 제련(석포제련소)·전자부품(PCB) 종합 비철금속 기업, 고려아연 27% 보유 (KOSPI 000670)</p>
+</li>
+<li>
+<p><a href="../companies/오뚜기" class="internal alias" data-slug="companies/오뚜기">오뚜기</a> — 라면·소스·즉석식품을 중심으로 한 종합식품 제조기업 (KOSPI 007310)</p>
+</li>
+<li>
+<p><a href="../companies/오리엔트바이오" class="internal alias" data-slug="companies/오리엔트바이오">오리엔트바이오</a> — 국내 유일 국제표준(IGS) 실험동물 생산·공급 및 비임상 CRO·바이오 실험장비 기업 (KOSPI 002630)</p>
+</li>
+<li>
+<p><a href="../companies/온타이드" class="internal alias" data-slug="companies/온타이드">온타이드</a> — 니트의류 OEM 수출 전문 기업(구 국동), FANATICS·CARHARTT·H&amp;M向 인도네시아·멕시코 생산</p>
+</li>
+<li>
+<p><a href="../companies/우성" class="internal alias" data-slug="companies/우성">우성</a> — 가축용·양어·반려동물 배합사료 제조·판매 및 자회사 관리 지주사업을 영위하는 KOSPI 상장 배합사료 전문기업</p>
+</li>
+<li>
+<p><a href="../companies/우진아이엔에스" class="internal alias" data-slug="companies/우진아이엔에스">우진아이엔에스</a> — 반도체·디스플레이 코팅덕트(하이테크)와 건축 기계설비·소방(일반설비)을 제조·설치하는 KOSPI 상장 설비공사 기업</p>
+</li>
+<li>
+<p><a href="../companies/원림" class="internal alias" data-slug="companies/원림">원림</a> — 1968년 설립된 산업용 PP/PE 포장재 제조기업 (의료기기·벤처투자·임대 겸영, KOSPI 005820)</p>
+</li>
+<li>
+<p><a href="../companies/윌비스" class="internal alias" data-slug="companies/윌비스">윌비스</a> — 의류 OEM 수출(섬유)과 성인 자격증·공무원 교육을 양대 축으로 하는 코스피 상장 중견기업</p>
+</li>
+<li>
+<p><a href="../companies/유성기업" class="internal alias" data-slug="companies/유성기업">유성기업</a> — 피스톤링·실린더라이너·캠샤프트 등 내연기관 부품을 생산하는 국내 대표 엔진부품 자동차부품사 (KOSPI 002920)</p>
+</li>
+<li>
+<p><a href="../companies/유수홀딩스" class="internal alias" data-slug="companies/유수홀딩스">유수홀딩스</a> — 구 한진해운홀딩스 — 종합물류(유수로지스틱스)·해운물류 IT(싸이버로지텍)·부동산 임대를 영위하는 지주형 사업회사 (KOSPI 000700)</p>
+</li>
+<li>
+<p><a href="../companies/유안타증권" class="internal alias" data-slug="companies/유안타증권">유안타증권</a> — Retail·Wholesale·전략운용·기업금융을 영위하는 1962년 설립의 중형 종합증권사 (KOSPI 003470). 대만 유안타금융그룹(Yuanta) 계열의 범중화권 전문 증권사 (구 동양증권)</p>
+</li>
+<li>
+<p><a href="../companies/유유제약" class="internal alias" data-slug="companies/유유제약">유유제약</a> — 1941년 설립된 중견 제약사 — 혈액순환개선제·고지혈증치료제 등 전문의약품 및 건강기능식품 제조 (KOSPI 000220)</p>
+</li>
+<li>
+<p><a href="../companies/유한양행" class="internal alias" data-slug="companies/유한양행">유한양행</a> — 1926년 창립한 국내 대표 제약사 — 비소세포폐암 혁신신약 렉라자(레이저티닙)와 OTC·생활용품 보유 (KOSPI 000100)</p>
+</li>
+<li>
+<p><a href="../companies/유화증권" class="internal alias" data-slug="companies/유화증권">유화증권</a> — 자기매매(상품운용)·이자수익 중심의 보수적 자산운용으로 알려진 1962년 설립의 중소형 종합증권사, 윤경립 회장 일가(성보그룹 인척) 지배 (KOSPI 003460)</p>
+</li>
+<li>
+<p><a href="../companies/이건산업" class="internal alias" data-slug="companies/이건산업">이건산업</a> — 합판·마루 등 목질 건축자재를 생산하는 KOSPI 상장 목재 전문기업으로, 칠레 조림·열병합 에너지 사업도 영위</p>
+</li>
+<li>
+<p><a href="../companies/이수페타시스" class="internal alias" data-slug="companies/이수페타시스">이수페타시스</a> — AI 가속기·서버·800G 스위치용 고다층 PCB(MLB) 전문 제조기업, 이수그룹 계열 (KOSPI 007660)</p>
+</li>
+<li>
+<p><a href="../companies/이수화학" class="internal alias" data-slug="companies/이수화학">이수화학</a> — 세제원료 LAB·NP 국내 유일 생산 석유화학기업, 건설(이수건설)·바이오의약(이수앱지스)을 거느린 이수그룹 중간지주격 사업회사 (KOSPI 005950)</p>
+</li>
+<li>
+<p><a href="../companies/이화산업" class="internal alias" data-slug="companies/이화산업">이화산업</a> — 1950년 설립된 염료·유무기 화학품 도소매 및 부동산 임대 기업 (KOSPI 000760)</p>
+</li>
+<li>
+<p><a href="../companies/일동홀딩스" class="internal alias" data-slug="companies/일동홀딩스">일동홀딩스</a> — 일동제약그룹의 지주회사 — 자회사 경영자문수수료·브랜드수수료·임대수익·배당으로 그룹을 관리 (KOSPI 000230)</p>
+</li>
+<li>
+<p><a href="../companies/일성아이에스" class="internal alias" data-slug="companies/일성아이에스">일성아이에스</a> — 페니실린계 항생제(오구멘틴)·골질환·마취제 중심의 중견 제약사 (구 일성신약, KOSPI 003120)</p>
+</li>
+<li>
+<p><a href="../companies/일신방직" class="internal alias" data-slug="companies/일신방직">일신방직</a> — 1951년 설립된 국내 1위 면방(방적) 기업으로 섬유제조에 더해 부동산임대·투자조합·화장품·주류 유통 등으로 다각화한 KOSPI 상장사</p>
+</li>
+<li>
+<p><a href="../companies/일신석재" class="internal alias" data-slug="companies/일신석재">일신석재</a> — 화강석·대리석 등 건축석재의 제조·유통 및 석공사를 영위하는 KOSPI 상장 종합석재 기업</p>
+</li>
+<li>
+<p><a href="../companies/일양약품" class="internal alias" data-slug="companies/일양약품">일양약품</a> — 항궤양제 놀텍·백혈병치료제 슈펙트·독감백신을 보유한 1946년 설립 국내 제약기업</p>
+</li>
+<li>
+<p><a href="../companies/일정실업" class="internal alias" data-slug="companies/일정실업">일정실업</a> — 자동차 시트용 원단(SEAT FABRIC)·인조가죽·가구용 직물을 제조·판매하는 KOSPI 상장 섬유 부품 기업</p>
+</li>
+<li>
+<p><a href="../companies/전방" class="internal alias" data-slug="companies/전방">전방</a> — 1953년 설립된 면방직(면사·포류) 전문 제조 KOSPI 상장기업 (종목코드 000950)</p>
+</li>
+<li>
+<p><a href="../companies/제이브이엠" class="internal alias" data-slug="companies/제이브이엠">제이브이엠</a> — 약국·병원 자동조제시스템(ATDPS) 전문 기업, 한미약품그룹 자회사</p>
+</li>
+<li>
+<p><a href="../companies/제일파마홀딩스" class="internal alias" data-slug="companies/제일파마홀딩스">제일파마홀딩스</a> — 제일약품을 핵심 상장 자회사로 거느린 제약 지주회사 — 경영자문수수료·임대수익·지분법수익이 별도 수입원 (KOSPI 002620)</p>
+</li>
+<li>
+<p><a href="../companies/제주은행" class="internal alias" data-slug="companies/제주은행">제주은행</a> — 제주특별자치도 기반 지방은행, 신한금융지주 자회사, 2025년 연결 당기순이익 139억원</p>
+</li>
+<li>
+<p><a href="../companies/조광페인트" class="internal alias" data-slug="companies/조광페인트">조광페인트</a> — 1967년 설립된 도료 전문 화학기업 — 공업용·건축용 도료 및 전기전자재료(UV·방열소재) 사업 (KOSPI 004910)</p>
+</li>
+<li>
+<p><a href="../companies/조광피혁" class="internal alias" data-slug="companies/조광피혁">조광피혁</a> — 자동차 시트·핸들용 천연가죽(피혁원단) 전문 제조사이자 대규모 유가증권을 보유한 자산주 (KOSPI 004700)</p>
+</li>
+<li>
+<p><a href="../companies/조비" class="internal alias" data-slug="companies/조비">조비</a> — 1955년 설립된 국내 비료 전문 제조·판매기업, 농협 납품 중심 복합비료 생산 (KOSPI 001550)</p>
+</li>
+<li>
+<p><a href="../companies/조흥" class="internal alias" data-slug="companies/조흥">조흥</a> — 치즈가공(모짜렐라·슈레드)과 제빵재료(생이스트·빵크림·소스·냉동피자)를 제조하는 식품소재 기업, 오뚜기 계열 (KOSPI 002600)</p>
+</li>
+<li>
+<p><a href="../companies/종근당바이오" class="internal alias" data-slug="companies/종근당바이오">종근당바이오</a> — 종근당그룹 계열 발효·바이오 전문기업 — 원료의약품·프로바이오틱스·마이크로바이옴·보툴리눔 톡신 사업 (KOSPI 063160)</p>
+</li>
+<li>
+<p><a href="../companies/진양산업" class="internal alias" data-slug="companies/진양산업">진양산업</a> — 폴리우레탄 폼(스펀지) 등 플라스틱 발포성형제품을 제조·판매하는 진양그룹 계열 화학소재 기업</p>
+</li>
+<li>
+<p><a href="../companies/진양폴리우레탄" class="internal alias" data-slug="companies/진양폴리우레탄">진양폴리우레탄</a> — 우레탄 연질 슬라브폼(PU FOAM)을 제조·판매하는 진양그룹 계열 폴리우레탄 소재 기업</p>
+</li>
+<li>
+<p><a href="../companies/진양홀딩스" class="internal alias" data-slug="companies/진양홀딩스">진양홀딩스</a> — 진양그룹(KPX그룹)의 중간 지주회사 — KPX홀딩스의 자회사이자 진양산업·진양화학 등의 지배회사</p>
+</li>
+<li>
+<p><a href="../companies/진흥기업" class="internal alias" data-slug="companies/진흥기업">진흥기업</a> — 1959년 설립된 토목·건축·주택 종합건설사, 효성그룹(효성중공업) 계열 (KOSPI 002780)</p>
+</li>
+<li>
+<p><a href="../companies/참엔지니어링" class="internal alias" data-slug="companies/참엔지니어링">참엔지니어링</a> — 디스플레이 패널 리페어 장비 전문 제조사이자 참저축은행을 종속회사로 둔 KOSPI 상장사</p>
+</li>
+<li>
+<p><a href="../companies/천일고속" class="internal alias" data-slug="companies/천일고속">천일고속</a> — 전국 노선 고속버스 여객운송업을 영위하는 KOSPI 상장 운송기업 (KOSPI 000650)</p>
+</li>
+<li>
+<p><a href="../companies/카카오페이" class="internal alias" data-slug="companies/카카오페이">카카오페이</a> — 모바일 간편결제·송금·대출비교·투자·보험 중개를 제공하는 카카오 계열 핀테크 상장기업</p>
+</li>
+<li>
+<p><a href="../companies/카프로" class="internal alias" data-slug="companies/카프로">카프로</a> — 카프로락탐 국내 유일 생산업체에서 수소·황산류 제조로 사업 전환한 울산 소재 석유화학 기업</p>
+</li>
+<li>
+<p><a href="../companies/케이비아이동국실업" class="internal alias" data-slug="companies/케이비아이동국실업">케이비아이동국실업</a> — 현대·기아차 1차 협력사인 플라스틱 사출 자동차 내외장재(크래쉬패드·콘솔·글로브박스) 제조사 (KOSPI 001620)</p>
+</li>
+<li>
+<p><a href="../companies/케이씨티시" class="internal alias" data-slug="companies/케이씨티시">케이씨티시</a> — 항만하역·운송·보관·중량물·3PL을 영위하는 50년 업력의 종합물류기업 (KCTC)</p>
+</li>
+<li>
+<p><a href="../companies/코리아써키트" class="internal alias" data-slug="companies/코리아써키트">코리아써키트</a> — 1972년 설립된 영풍그룹 계열 PCB 전문 제조사 — 경성 PCB·FPCB·반도체 패키징을 영위</p>
+</li>
+<li>
+<p><a href="../companies/코리안리" class="internal alias" data-slug="companies/코리안리">코리안리</a> — 국내 유일의 전업 재보험사 — 1963년 설립, 2025년 연결 매출 6조 7,044억·당기순이익 3,220억, S&amp;P A+ / A.M.Best A / Moody’s A1</p>
+</li>
+<li>
+<p><a href="../companies/코스모신소재" class="internal alias" data-slug="companies/코스모신소재">코스모신소재</a> — 코스모그룹 계열의 소재 기업 — 이차전지 양극활물질(NCM)·MLCC용 이형필름·토너를 생산, 2025년 매출 4,563억원 (KOSPI 005070)</p>
+</li>
+<li>
+<p><a href="../companies/코스모화학" class="internal alias" data-slug="companies/코스모화학">코스모화학</a> — 코스모그룹 지주격 화학사 — 이산화티타늄·황산코발트(전지소재)·이차전지 리사이클, 코스모신소재 모회사 (KOSPI 005420, 2025년 연결 매출 6,642억원)</p>
+</li>
+<li>
+<p><a href="../companies/코오롱" class="internal alias" data-slug="companies/코오롱">코오롱</a> — 코오롱그룹의 지주회사 — 자회사 지배·코오롱 브랜드 상표권 라이선스·부동산 임대를 영위하며 건설(코오롱글로벌)·유통(수입차)·IT(코오롱베니트)·바이오(코오롱티슈진) 등을 연결 지배 (KOSPI 002020)</p>
+</li>
+<li>
+<p><a href="../companies/코오롱글로벌" class="internal alias" data-slug="companies/코오롱글로벌">코오롱글로벌</a> — 건설(브랜드 ‘하늘채’)·종합상사·레저(호텔·골프)·AM(자산관리)을 영위하는 코오롱그룹 계열 복합기업 (KOSPI 003070)</p>
+</li>
+<li>
+<p><a href="../companies/태경케미컬" class="internal alias" data-slug="companies/태경케미컬">태경케미컬</a> — 액체탄산·드라이아이스 등 탄산가스와 수산화마그네슘을 생산하는 KOSPI 상장 산업가스 기업</p>
+</li>
+<li>
+<p><a href="../companies/태광산업" class="internal alias" data-slug="companies/태광산업">태광산업</a> — 석유화학(PTA·AN)과 섬유(나일론·아크릴·스판덱스)를 양대 축으로 하는 태광그룹 주력 KOSPI 상장 화학·섬유 기업</p>
+</li>
+<li>
+<p><a href="../companies/태양금속공업" class="internal alias" data-slug="companies/태양금속공업">태양금속공업</a> — 자동차용 볼트·너트 등 냉간단조 화스너를 제조하는 국내 1위 종합단조부품 메이커 (KOSPI 004100)</p>
+</li>
+<li>
+<p><a href="../companies/태영건설" class="internal alias" data-slug="companies/태영건설">태영건설</a> — 토목·건축·주택·환경플랜트를 영위하는 시공능력 19위(2025) 종합건설사, 2023년 워크아웃 후 TY홀딩스 출자전환으로 자본잠식 해소 (KOSPI 009410)</p>
+</li>
+<li>
+<p><a href="../companies/태원물산" class="internal alias" data-slug="companies/태원물산">태원물산</a> — 자동차부품(워터펌프·피스톤)과 식품 유통을 영위하는 KOSPI 상장 중소기업 (KOSPI 001420)</p>
+</li>
+<li>
+<p><a href="../companies/티웨이홀딩스" class="internal alias" data-slug="companies/티웨이홀딩스">티웨이홀딩스</a> — PHC파일(콘크리트 말뚝) 제조·판매 기업이자 LCC 티웨이항공의 지분 보유사 — 2025년 6월 최대주주가 예림당에서 소노인터내셔널(대명소노그룹)로 변경 (KOSPI 004870)</p>
+</li>
+<li>
+<p><a href="../companies/파미셀" class="internal alias" data-slug="companies/파미셀">파미셀</a> — 줄기세포치료제와 바이오케미컬(mPEG·뉴클레오시드 등 의약중간체)을 영위하는 바이오 전문기업 (KOSPI 005690)</p>
+</li>
+<li>
+<p><a href="../companies/팜젠사이언스" class="internal alias" data-slug="companies/팜젠사이언스">팜젠사이언스</a> — 소화기 치료제 중심의 전문·일반의약품과 건강기능식품을 영위하는 제약기업, 구 우리들제약 (KOSPI 004720)</p>
+</li>
+<li>
+<p><a href="../companies/페이퍼코리아" class="internal alias" data-slug="companies/페이퍼코리아">페이퍼코리아</a> — 군산 기반 산업용지·신문용지 제조 및 부동산(디오션시티) 분양 기업 (KOSPI 001020)</p>
+</li>
+<li>
+<p><a href="../companies/포스코퓨처엠" class="internal alias" data-slug="companies/포스코퓨처엠">포스코퓨처엠</a> — 포스코그룹의 종합 에너지소재 기업 — 이차전지소재(양극재·음극재)와 기초소재(내화물·생석회)를 영위, 2025년 연결매출 2조 9,387억원 (KOSPI 003670)</p>
+</li>
+<li>
+<p><a href="../companies/프리티" class="internal alias" data-slug="companies/프리티">프리티</a> — MVNO(알뜰폰) 브랜드 ‘프리티’를 운영하는 ㈜인스코비 — 통신·스마트그리드·유통·바이오 복합사업 KOSPI 상장사</p>
+</li>
+<li>
+<p><a href="../companies/플레이그램" class="internal alias" data-slug="companies/플레이그램">플레이그램</a> — MRO 구매대행·영상콘텐츠·임베디드SW(MDS테크)를 영위하는 KOSPI 상장 지주성 사업회사</p>
+</li>
+<li>
+<p><a href="../companies/하이트진로" class="internal alias" data-slug="companies/하이트진로">하이트진로</a> — 국내 최대 종합주류기업 — 맥주(테라·켈리)·소주(참이슬·진로) 양대 사업 (KOSPI 000080)</p>
+</li>
+<li>
+<p><a href="../companies/하이트진로홀딩스" class="internal alias" data-slug="companies/하이트진로홀딩스">하이트진로홀딩스</a> — 하이트진로그룹의 순수지주회사 — 자회사 하이트진로 등 관리, 배당금·상표권 로열티 수익 (KOSPI 000140)</p>
+</li>
+<li>
+<p><a href="../companies/한국공항" class="internal alias" data-slug="companies/한국공항">한국공항</a> — 인천·김포·김해·제주 등에서 항공기 지상조업·항공화물조업·급유를 수행하는 국내 1위 항공기 지상조업 전문기업 — 한진그룹·대한항공 계열 (KOSPI 005430)</p>
+</li>
+<li>
+<p><a href="../companies/한국내화" class="internal alias" data-slug="companies/한국내화">한국내화</a> — 제철·제강용 종합 내화물을 제조·시공하는 국내 2위권 내화물 업체이며 건설 자회사(일광이앤씨)를 보유한 후성그룹 계열 코스피 상장사</p>
+</li>
+<li>
+<p><a href="../companies/한국무브넥스" class="internal alias" data-slug="companies/한국무브넥스">한국무브넥스</a> — 현대차·기아에 H/Shaft·Axle 등 자동차 구동·동력전달 부품을 공급하는 서한그룹 소속 자동차부품 전문기업 (구 한국프랜지공업)</p>
+</li>
+<li>
+<p><a href="../companies/한국석유공업" class="internal alias" data-slug="companies/한국석유공업">한국석유공업</a> — 아스팔트(블론아스팔트·방수시트)·합성수지·석유화학상품을 영위하는 ‘KP/한국석유’ 브랜드의 60년 업력 KOSPI 상장 석유화학 기업 (종목코드 004090)</p>
+</li>
+<li>
+<p><a href="../companies/한국수출포장공업" class="internal alias" data-slug="companies/한국수출포장공업">한국수출포장공업</a> — 골판지 원지부터 골판지 원단·상자까지 일관 생산하는 KOSPI 상장 포장재 전문기업 (KOSPI 002200)</p>
+</li>
+<li>
+<p><a href="../companies/한국쉘석유" class="internal alias" data-slug="companies/한국쉘석유">한국쉘석유</a> — 글로벌 1위 윤활유 기업 Shell plc 계열의 윤활유·그리스 제조·판매사 (KOSPI 002960, 부산 용당)</p>
+</li>
+<li>
+<p><a href="../companies/한국앤컴퍼니" class="internal alias" data-slug="companies/한국앤컴퍼니">한국앤컴퍼니</a> — 한국타이어그룹의 사업형 지주회사 — 축전지(배터리) 제조·판매와 한국타이어앤테크놀로지 등 자회사 지분법·상표권·배당 수익으로 그룹을 지배 (KOSPI 000240)</p>
+</li>
+<li>
+<p><a href="../companies/한국전자홀딩스" class="internal alias" data-slug="companies/한국전자홀딩스">한국전자홀딩스</a> — 반도체(KEC)·서비스 자회사를 거느린 KEC그룹 순수지주회사</p>
+</li>
+<li>
+<p><a href="../companies/한국주철관공업" class="internal alias" data-slug="companies/한국주철관공업">한국주철관공업</a> — 상하수도용 덕타일주철관·강관 제조사이자 강관·화장품 종속회사를 보유한 KOSPI 상장사 (종목코드 000970)</p>
+</li>
+<li>
+<p><a href="../companies/한국특강" class="internal alias" data-slug="companies/한국특강">한국특강</a> — 철 스크랩을 원료로 전기로 제강을 거쳐 철근·봉형강을 생산하는 KOSPI 상장 제강 기업</p>
+</li>
+<li>
+<p><a href="../companies/한독" class="internal alias" data-slug="companies/한독">한독</a> — 당뇨병·희귀질환·진단기기를 아우르는 국내 중견 제약기업 (KOSPI 002390)</p>
+</li>
+<li>
+<p><a href="../companies/한미사이언스" class="internal alias" data-slug="companies/한미사이언스">한미사이언스</a> — 한미약품그룹의 사업형 지주회사로, 자회사 한미약품·제이브이엠·온라인팜을 지배하며 헬스케어·의약품도매 사업도 영위</p>
+</li>
+<li>
+<p><a href="../companies/한샘" class="internal alias" data-slug="companies/한샘">한샘</a> — 대한민국 대표 토탈 홈 인테리어 기업 — 리하우스(리모델링)·홈퍼니싱(가구)·B2B 특판 영위, 국내 부엌·가구 1위</p>
+</li>
+<li>
+<p><a href="../companies/한성기업" class="internal alias" data-slug="companies/한성기업">한성기업</a> — 게맛살·어묵 등 수산가공식품과 원양어업을 영위하는 종합 수산식품기업 (KOSPI 003680)</p>
+</li>
+<li>
+<p><a href="../companies/한솔로지스틱스" class="internal alias" data-slug="companies/한솔로지스틱스">한솔로지스틱스</a> — 한솔그룹 계열의 종합물류(3PL·국제물류·포워딩) 전문기업 (KOSPI 009180)</p>
+</li>
+<li>
+<p><a href="../companies/한솔테크닉스" class="internal alias" data-slug="companies/한솔테크닉스">한솔테크닉스</a> — 한솔그룹 계열 전자부품 기업 — 파워보드·무선충전 모듈·전장부품·EMS(스마트폰)·태양광·반도체 소재 사업</p>
+</li>
+<li>
+<p><a href="../companies/한솔홀딩스" class="internal alias" data-slug="companies/한솔홀딩스">한솔홀딩스</a> — 한솔그룹의 순수지주회사 — 한솔제지·한솔테크닉스·한솔로지스틱스·한솔페이퍼텍·한솔피엔에스 등을 지배하며 배당·상표권·경영자문 수익을 수입원으로 함 (KOSPI 004150)</p>
+</li>
+<li>
+<p><a href="../companies/한신공영" class="internal alias" data-slug="companies/한신공영">한신공영</a> — 건축·토목·플랜트·신사업을 영위하는 건설 1세대 종합건설사 — 아파트 브랜드 ‘한신더휴’ (KOSPI 004960)</p>
+</li>
+<li>
+<p><a href="../companies/한양증권" class="internal alias" data-slug="companies/한양증권">한양증권</a> — 자기매매(트레이딩)·기업금융(IB) 중심의 중소형 종합증권사로 2025년 6월 최대주주가 한양학원에서 KCGI로 변경 (KOSPI 001750, 12월 결산)</p>
+</li>
+<li>
+<p><a href="../companies/한온시스템" class="internal alias" data-slug="companies/한온시스템">한온시스템</a> — 글로벌 1위권 자동차 열관리시스템(공조·컴프레서 등) 전문 제조사 — 2025년 한국앤컴퍼니 그룹(한국타이어앤테크놀로지) 편입</p>
+</li>
+<li>
+<p><a href="../companies/한올바이오파마" class="internal alias" data-slug="companies/한올바이오파마">한올바이오파마</a> — 전문·일반의약품 제조판매와 FcRn 자가면역 항체신약 등 글로벌 바이오신약을 개발하는 대웅그룹 계열 제약사</p>
+</li>
+<li>
+<p><a href="../companies/한일철강" class="internal alias" data-slug="companies/한일철강">한일철강</a> — 철판·형강 등 철강재 제조·판매 및 강건재 임대 전문 중견기업 (KOSPI 002220)</p>
+</li>
+<li>
+<p><a href="../companies/한일홀딩스" class="internal alias" data-slug="companies/한일홀딩스">한일홀딩스</a> — 한일시멘트그룹의 사업지주회사 — 한일시멘트·한일산업 등 자회사를 통해 시멘트·레미콘·레미탈(건자재)과 테마파크(서울랜드)·무역·건설을 영위 (KOSPI 003300)</p>
+</li>
+<li>
+<p><a href="../companies/한전KPS" class="internal alias" data-slug="companies/한전KPS">한전KPS</a> — 한국전력공사가 51% 지분을 보유한 전력설비 정비 전문 공기업 (KEPCO KPS, KOSPI 051600)</p>
+</li>
+<li>
+<p><a href="../companies/한진" class="internal alias" data-slug="companies/한진">한진</a> — 택배·물류·글로벌 포워딩·에너지를 영위하는 한진그룹 종합물류 계열사 (KOSPI 002320)</p>
+</li>
+<li>
+<p><a href="../companies/한진중공업홀딩스" class="internal alias" data-slug="companies/한진중공업홀딩스">한진중공업홀딩스</a> — 도시가스(대륜E&amp;S)·열병합발전(대륜발전)·골프장(한일레저)을 자회사로 둔 순수지주회사 — 조선·건설과 무관한 에너지 지주사 (KOSPI 003480)</p>
+</li>
+<li>
+<p><a href="../companies/한창" class="internal alias" data-slug="companies/한창">한창</a> — 가스계 소화설비(소방)·부동산개발·철강유통·신재생에너지를 영위하는 KOSPI 상장 지주형 기업 (KOSPI 005110)</p>
+</li>
+<li>
+<p><a href="../companies/한창제지" class="internal alias" data-slug="companies/한창제지">한창제지</a> — 마닐라 판지·백판지 등 특수지·산업용 포장용지를 제조·판매하는 KOSPI 상장 제지기업 (KOSPI 009460)</p>
+</li>
+<li>
+<p><a href="../companies/한화" class="internal alias" data-slug="companies/한화">한화</a> — 한화그룹의 사실상 지주회사 — 자체 화약·무역·소재(글로벌부문)와 건설부문을 영위하며 방산·조선·금융·화학·태양광 자회사를 거느린다 (KOSPI 000880)</p>
+</li>
+<li>
+<p><a href="../companies/한화손해보험" class="internal alias" data-slug="companies/한화손해보험">한화손해보험</a> — 한화그룹 계열 손해보험사 — 장기·자동차·일반보험 영위, 2025년 연결 당기순이익 2,923억원(별도 3,621억원)</p>
+</li>
+<li>
+<p><a href="../companies/한화솔루션" class="internal alias" data-slug="companies/한화솔루션">한화솔루션</a> — 석유화학(케미칼)·태양광(한화큐셀)·첨단소재를 영위하는 한화그룹 종합화학·신재생에너지 기업</p>
+</li>
+<li>
+<p><a href="../companies/한화투자증권" class="internal alias" data-slug="companies/한화투자증권">한화투자증권</a> — WM·Trading·Wholesale·IB를 영위하는 1962년 설립의 중형 종합증권사로 한화그룹(한화자산운용→한화생명) 지배 (KOSPI 003530, 12월 결산)</p>
+</li>
+<li>
+<p><a href="../companies/현대건설" class="internal alias" data-slug="companies/현대건설">현대건설</a> — 토목·건축/주택·플랜트·원자력을 영위하는 현대자동차그룹의 종합건설 대표기업 (KOSPI 000720)</p>
+</li>
+<li>
+<p><a href="../companies/현대비앤지스틸" class="internal alias" data-slug="companies/현대비앤지스틸">현대비앤지스틸</a> — 스테인리스(STS) 냉연강판을 생산하는 현대차그룹 계열 철강 제조사로 매출의 약 99%가 STS강판</p>
+</li>
+<li>
+<p><a href="../companies/현대약품" class="internal alias" data-slug="companies/현대약품">현대약품</a> — 전문·일반의약품과 미에로화이바(식이섬유 음료)·화장품을 영위하는 중견 제약사 (KOSPI 004310)</p>
+</li>
+<li>
+<p><a href="../companies/현대제철" class="internal alias" data-slug="companies/현대제철">현대제철</a> — 현대자동차그룹의 철강 계열사 — 고로·전기로 기반 자동차강판·봉형강 생산 (KOSPI 004020)</p>
+</li>
+<li>
+<p><a href="../companies/현대차증권" class="internal alias" data-slug="companies/현대차증권">현대차증권</a> — 자산관리(WM)·기업금융(IB)·트레이딩·퇴직연금을 영위하는 현대자동차그룹 계열 중형 증권사 (KOSPI 001500)</p>
+</li>
+<li>
+<p><a href="../companies/현대해상" class="internal alias" data-slug="companies/현대해상">현대해상</a> — 국내 손해보험 3위권 — 정몽윤 회장 계열 독립 손보사, 2025년 연결 당기순이익 1조 198억원, 원수보험 M/S 약 17.5%</p>
+</li>
+<li>
+<p><a href="../companies/혜인" class="internal alias" data-slug="companies/혜인">혜인</a> — 캐터필러(Caterpillar) 건설기계·엔진·발전기의 한국 독점 딜러로 장비·부품 판매와 정비·임대를 영위하는 종합 동력장비 유통기업 (KOSPI 003010)</p>
+</li>
+<li>
+<p><a href="../companies/호텔신라" class="internal alias" data-slug="companies/호텔신라">호텔신라</a> — 면세점(TR)·호텔·레저 사업을 영위하는 삼성그룹 계열 상장기업</p>
+</li>
+<li>
+<p><a href="../companies/화천기공" class="internal alias" data-slug="companies/화천기공">화천기공</a> — CNC선반·머시닝센터 등 금속공작기계와 주물 소재를 제조하는 KOSPI 상장사 (화천그룹) (KOSPI 000850)</p>
+</li>
+<li>
+<p><a href="../companies/휴니드테크놀러지스" class="internal alias" data-slug="companies/휴니드테크놀러지스">휴니드테크놀러지스</a> — 군 전술통신(TICN)·방산전자·지휘통제(C4I)와 보잉 협력 항공전자(전기/전자장비·와이어하네스)를 제조하는 방산기업 (KOSPI 005870)</p>
+</li>
+<li>
+<p><a href="../companies/휴스틸" class="internal alias" data-slug="companies/휴스틸">휴스틸</a> — 배관용·유정용(OCTG)·구조용 강관을 제조하는 단일사업 강관 전문기업으로 매출의 약 66%가 수출인 신안그룹 계열 KOSPI 상장사 (종목코드 005010)</p>
+</li>
+<li>
+<p><a href="../companies/흥아해운" class="internal alias" data-slug="companies/흥아해운">흥아해운</a> — 아시아 역내 액체석유화학제품(케미컬탱커) 해상운송을 주업으로 하는 외항 해운기업 (KOSPI 003280, 장금상선그룹 계열)</p>
+</li>
+</ul>
+<h1 id="citations">Citations<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#citations" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h1>
+<ul>
+<li><a href="https://www.krx.co.kr" class="external">한국거래소 KRX<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a> — 유가증권시장 상장종목 현황</li>
+<li>각 기업 페이지의 사업보고서 출처 참조</li>
+</ul></article><hr/><div class="page-footer"></div></div><div class="right sidebar"><div class="graph"><h3>그래프 뷰</h3><div class="graph-outer"><div class="graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:1,&quot;scale&quot;:1.1,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.3,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1,&quot;showTags&quot;:true,&quot;removeTags&quot;:[],&quot;focusOnHover&quot;:false,&quot;enableRadial&quot;:false,&quot;maxNodes&quot;:400}"></div><button class="global-graph-icon" aria-label="Global Graph"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 55 55" fill="currentColor" xml:space="preserve"><path d="M49,0c-3.309,0-6,2.691-6,6c0,1.035,0.263,2.009,0.726,2.86l-9.829,9.829C32.542,17.634,30.846,17,29,17
+                s-3.542,0.634-4.898,1.688l-7.669-7.669C16.785,10.424,17,9.74,17,9c0-2.206-1.794-4-4-4S9,6.794,9,9s1.794,4,4,4
+                c0.74,0,1.424-0.215,2.019-0.567l7.669,7.669C21.634,21.458,21,23.154,21,25s0.634,3.542,1.688,4.897L10.024,42.562
+                C8.958,41.595,7.549,41,6,41c-3.309,0-6,2.691-6,6s2.691,6,6,6s6-2.691,6-6c0-1.035-0.263-2.009-0.726-2.86l12.829-12.829
+                c1.106,0.86,2.44,1.436,3.898,1.619v10.16c-2.833,0.478-5,2.942-5,5.91c0,3.309,2.691,6,6,6s6-2.691,6-6c0-2.967-2.167-5.431-5-5.91
+                v-10.16c1.458-0.183,2.792-0.759,3.898-1.619l7.669,7.669C41.215,39.576,41,40.26,41,41c0,2.206,1.794,4,4,4s4-1.794,4-4
+                s-1.794-4-4-4c-0.74,0-1.424,0.215-2.019,0.567l-7.669-7.669C36.366,28.542,37,26.846,37,25s-0.634-3.542-1.688-4.897l9.665-9.665
+                C46.042,11.405,47.451,12,49,12c3.309,0,6-2.691,6-6S52.309,0,49,0z M11,9c0-1.103,0.897-2,2-2s2,0.897,2,2s-0.897,2-2,2
+                S11,10.103,11,9z M6,51c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S8.206,51,6,51z M33,49c0,2.206-1.794,4-4,4s-4-1.794-4-4
+                s1.794-4,4-4S33,46.794,33,49z M29,31c-3.309,0-6-2.691-6-6s2.691-6,6-6s6,2.691,6,6S32.309,31,29,31z M47,41c0,1.103-0.897,2-2,2
+                s-2-0.897-2-2s0.897-2,2-2S47,39.897,47,41z M49,10c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S51.206,10,49,10z"></path></svg></button></div><div class="global-graph-outer"><div class="global-graph-container"><div class="global-graph-toolbar"><label class="graph-depth-label">단계<select class="graph-depth-select" aria-label="중심 노드로부터 표시할 단계 수"><option value="1">1</option><option value="2">2</option><option value="3">3</option></select></label><button class="graph-back-btn" type="button" disabled>← 이전</button><button class="graph-clear-btn" type="button">초기화</button><span class="graph-hint">클릭: 노드 확장 · 더블클릭: 페이지 이동</span></div><div class="global-graph-canvas" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:1,&quot;scale&quot;:0.9,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.2,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1,&quot;showTags&quot;:true,&quot;removeTags&quot;:[],&quot;focusOnHover&quot;:true,&quot;enableRadial&quot;:true,&quot;maxNodes&quot;:500}"></div></div></div></div><div class="toc desktop-only"><button type="button" class="toc-header" aria-controls="toc-13126" aria-expanded="true"><h3>목차</h3><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><ul id="list-1" class="toc-content overflow"><li class="depth-1"><a href="#시장-개요" data-for="시장-개요">시장 개요</a></li><li class="depth-1"><a href="#상장기업" data-for="상장기업">상장기업</a></li><li class="depth-0"><a href="#citations" data-for="citations">Citations</a></li><li class="overflow-end"></li></ul></div><div class="backlinks"><h3>백링크</h3><ul id="list-2" class="overflow"><li><a href="../companies/HD한국조선해양" class="internal">HD한국조선해양</a></li><li><a href="../companies/SK네트웍스" class="internal">SK네트웍스</a></li><li><a href="../companies/국제약품" class="internal">국제약품</a></li><li><a href="../companies/금양" class="internal">금양</a></li><li><a href="../companies/덕성" class="internal">덕성</a></li><li><a href="../companies/디아이동일" class="internal">디아이동일</a></li><li><a href="../companies/롯데웰푸드" class="internal">롯데웰푸드</a></li><li><a href="../companies/삼성FN리츠" class="internal">삼성FN리츠</a></li><li><a href="../companies/삼성SDI" class="internal">삼성SDI</a></li><li><a href="../companies/삼성생명보험" class="internal">삼성생명보험</a></li><li><a href="../companies/삼성카드" class="internal">삼성카드</a></li><li><a href="../companies/삼일제약" class="internal">삼일제약</a></li><li><a href="../companies/삼진제약" class="internal">삼진제약</a></li><li><a href="../companies/삼화페인트공업" class="internal">삼화페인트공업</a></li><li><a href="../companies/서흥" class="internal">서흥</a></li><li><a href="../companies/신원" class="internal">신원</a></li><li><a href="../companies/신흥" class="internal">신흥</a></li><li><a href="../companies/에스엠벡셀" class="internal">에스엠벡셀</a></li><li><a href="../companies/영진약품" class="internal">영진약품</a></li><li><a href="../companies/오리엔트바이오" class="internal">오리엔트바이오</a></li><li><a href="../companies/이화산업" class="internal">이화산업</a></li><li><a href="../companies/일성아이에스" class="internal">일성아이에스</a></li><li><a href="../companies/파미셀" class="internal">파미셀</a></li><li><a href="../companies/한국특강" class="internal">한국특강</a></li><li><a href="../companies/환인제약" class="internal">환인제약</a></li><li><a href="../" class="internal">한국 기업 리서치 위키</a></li><li><a href="../markets/" class="internal">index</a></li><li><a href="../outputs/lint-report-2026-07-03" class="internal">위키 검진 리포트 2026-07-03</a></li><li class="overflow-end"></li></ul></div></div><footer class><p>Created with <a href="https://quartz.jzhao.xyz/">Quartz v4.5.2</a> © 2026</p><ul><li><a href="https://github.com/jackyzha0/quartz">GitHub</a></li><li><a href="https://discord.gg/cRFFHYye7t">Discord Community</a></li></ul></footer></div></div></body><script type="application/javascript" data-persist="true">function n(){let t=this.parentElement;t.classList.toggle("is-collapsed");let e=t.getElementsByClassName("callout-content")[0];if(!e)return;let l=t.classList.contains("is-collapsed");e.style.gridTemplateRows=l?"0fr":"1fr"}function c(){let t=document.getElementsByClassName("callout is-collapsible");for(let e of t){let l=e.getElementsByClassName("callout-title")[0],s=e.getElementsByClassName("callout-content")[0];if(!l||!s)continue;l.addEventListener("click",n),window.addCleanup(()=>l.removeEventListener("click",n));let o=e.classList.contains("is-collapsed");s.style.gridTemplateRows=o?"0fr":"1fr"}}document.addEventListener("nav",c);
+</script><script type="module" data-persist="true">function E(a,e){if(!a)return;function t(o){o.target===this&&(o.preventDefault(),o.stopPropagation(),e())}function n(o){o.key.startsWith("Esc")&&(o.preventDefault(),e())}a?.addEventListener("click",t),window.addCleanup(()=>a?.removeEventListener("click",t)),document.addEventListener("keydown",n),window.addCleanup(()=>document.removeEventListener("keydown",n))}function f(a){for(;a.firstChild;)a.removeChild(a.firstChild)}var m=class{constructor(e,t){this.container=e;this.content=t;this.setupEventListeners(),this.setupNavigationControls(),this.resetTransform()}isDragging=!1;startPan={x:0,y:0};currentPan={x:0,y:0};scale=1;MIN_SCALE=.5;MAX_SCALE=3;cleanups=[];setupEventListeners(){let e=this.onMouseDown.bind(this),t=this.onMouseMove.bind(this),n=this.onMouseUp.bind(this),o=this.onTouchStart.bind(this),r=this.onTouchMove.bind(this),i=this.onTouchEnd.bind(this),s=this.resetTransform.bind(this);this.container.addEventListener("mousedown",e),document.addEventListener("mousemove",t),document.addEventListener("mouseup",n),this.container.addEventListener("touchstart",o,{passive:!1}),document.addEventListener("touchmove",r,{passive:!1}),document.addEventListener("touchend",i),window.addEventListener("resize",s),this.cleanups.push(()=>this.container.removeEventListener("mousedown",e),()=>document.removeEventListener("mousemove",t),()=>document.removeEventListener("mouseup",n),()=>this.container.removeEventListener("touchstart",o),()=>document.removeEventListener("touchmove",r),()=>document.removeEventListener("touchend",i),()=>window.removeEventListener("resize",s))}cleanup(){for(let e of this.cleanups)e()}setupNavigationControls(){let e=document.createElement("div");e.className="mermaid-controls";let t=this.createButton("+",()=>this.zoom(.1)),n=this.createButton("-",()=>this.zoom(-.1)),o=this.createButton("Reset",()=>this.resetTransform());e.appendChild(n),e.appendChild(o),e.appendChild(t),this.container.appendChild(e)}createButton(e,t){let n=document.createElement("button");return n.textContent=e,n.className="mermaid-control-button",n.addEventListener("click",t),window.addCleanup(()=>n.removeEventListener("click",t)),n}onMouseDown(e){e.button===0&&(this.isDragging=!0,this.startPan={x:e.clientX-this.currentPan.x,y:e.clientY-this.currentPan.y},this.container.style.cursor="grabbing")}onMouseMove(e){this.isDragging&&(e.preventDefault(),this.currentPan={x:e.clientX-this.startPan.x,y:e.clientY-this.startPan.y},this.updateTransform())}onMouseUp(){this.isDragging=!1,this.container.style.cursor="grab"}onTouchStart(e){if(e.touches.length!==1)return;this.isDragging=!0;let t=e.touches[0];this.startPan={x:t.clientX-this.currentPan.x,y:t.clientY-this.currentPan.y}}onTouchMove(e){if(!this.isDragging||e.touches.length!==1)return;e.preventDefault();let t=e.touches[0];this.currentPan={x:t.clientX-this.startPan.x,y:t.clientY-this.startPan.y},this.updateTransform()}onTouchEnd(){this.isDragging=!1}zoom(e){let t=Math.min(Math.max(this.scale+e,this.MIN_SCALE),this.MAX_SCALE),n=this.content.getBoundingClientRect(),o=n.width/2,r=n.height/2,i=t-this.scale;this.currentPan.x-=o*i,this.currentPan.y-=r*i,this.scale=t,this.updateTransform()}updateTransform(){this.content.style.transform=`translate(${this.currentPan.x}px, ${this.currentPan.y}px) scale(${this.scale})`}resetTransform(){let t=this.content.querySelector("svg").getBoundingClientRect(),n=t.width/this.scale,o=t.height/this.scale;this.scale=1,this.currentPan={x:(this.container.clientWidth-n)/2,y:(this.container.clientHeight-o)/2},this.updateTransform()}},T=["--secondary","--tertiary","--gray","--light","--lightgray","--highlight","--dark","--darkgray","--codeFont"],y;document.addEventListener("nav",async()=>{let e=document.querySelector(".center").querySelectorAll("code.mermaid");if(e.length===0)return;y||=await import("https://cdnjs.cloudflare.com/ajax/libs/mermaid/11.4.0/mermaid.esm.min.mjs");let t=y.default,n=new WeakMap;for(let r of e)n.set(r,r.innerText);async function o(){for(let s of e){s.removeAttribute("data-processed");let c=n.get(s);c&&(s.innerHTML=c)}let r=T.reduce((s,c)=>(s[c]=window.getComputedStyle(document.documentElement).getPropertyValue(c),s),{}),i=document.documentElement.getAttribute("saved-theme")==="dark";t.initialize({startOnLoad:!1,securityLevel:"loose",theme:i?"dark":"base",themeVariables:{fontFamily:r["--codeFont"],primaryColor:r["--light"],primaryTextColor:r["--darkgray"],primaryBorderColor:r["--tertiary"],lineColor:r["--darkgray"],secondaryColor:r["--secondary"],tertiaryColor:r["--tertiary"],clusterBkg:r["--light"],edgeLabelBackground:r["--highlight"]}}),await t.run({nodes:e})}await o(),document.addEventListener("themechange",o),window.addCleanup(()=>document.removeEventListener("themechange",o));for(let r=0;r<e.length;r++){let v=function(){let g=l.querySelector("#mermaid-space"),h=l.querySelector(".mermaid-content");if(!h)return;f(h);let w=i.querySelector("svg").cloneNode(!0);h.appendChild(w),l.classList.add("active"),g.style.cursor="grab",u=new m(g,h)},M=function(){l.classList.remove("active"),u?.cleanup(),u=null},i=e[r],s=i.parentElement,c=s.querySelector(".clipboard-button"),d=s.querySelector(".expand-button"),p=window.getComputedStyle(c),L=c.offsetWidth+parseFloat(p.marginLeft||"0")+parseFloat(p.marginRight||"0");d.style.right=`calc(${L}px + 0.3rem)`,s.prepend(d);let l=s.querySelector("#mermaid-container");if(!l)return;let u=null;d.addEventListener("click",v),E(l,M),window.addCleanup(()=>{u?.cleanup(),d.removeEventListener("click",v)})}});
+</script><script src="../postscript.js" type="module" data-persist="true"></script></html>

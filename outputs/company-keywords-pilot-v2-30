@@ -1,0 +1,206 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>기업별 핵심 키워드 추출 v2 (고도화 시범, 30개사)</title>
+<style>
+  :root {
+    color-scheme: light dark;
+    --bg: #ffffff;
+    --fg: #1a1a1a;
+    --muted: #666666;
+    --border: #e0e0e0;
+    --row-alt: #f7f7f8;
+    --tag-bg: #eef2ff;
+    --tag-fg: #3730a3;
+    --news-bg: #fff1f2;
+    --news-fg: #9f1239;
+    --link: #2563eb;
+    --header-bg: #111827;
+    --header-fg: #ffffff;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #0f1115;
+      --fg: #e6e6e6;
+      --muted: #9aa0a6;
+      --border: #2a2d33;
+      --row-alt: #171a20;
+      --tag-bg: #1e2440;
+      --tag-fg: #a5b4fc;
+      --news-bg: #3a1420;
+      --news-fg: #fda4af;
+      --link: #60a5fa;
+      --header-bg: #1c2230;
+      --header-fg: #f5f5f5;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    padding: 2rem 1rem 4rem;
+    background: var(--bg);
+    color: var(--fg);
+    font-family: -apple-system, "Segoe UI", "Malgun Gothic", "Apple SD Gothic Neo", sans-serif;
+    line-height: 1.6;
+  }
+  .wrap { max-width: 1100px; margin: 0 auto; }
+  h1 { font-size: 1.6rem; margin-bottom: 0.25rem; }
+  .sub { color: var(--muted); margin-bottom: 1.5rem; font-size: 0.95rem; }
+  .meta {
+    display: flex; flex-wrap: wrap; gap: 0.75rem;
+    margin-bottom: 1.5rem;
+  }
+  .meta span {
+    background: var(--row-alt);
+    border: 1px solid var(--border);
+    border-radius: 999px;
+    padding: 0.25rem 0.75rem;
+    font-size: 0.8rem;
+    color: var(--muted);
+  }
+  input#search {
+    width: 100%;
+    max-width: 360px;
+    padding: 0.6rem 0.9rem;
+    border-radius: 8px;
+    border: 1px solid var(--border);
+    background: var(--bg);
+    color: var(--fg);
+    font-size: 0.95rem;
+    margin-bottom: 1.25rem;
+  }
+  .table-scroll { overflow-x: auto; border: 1px solid var(--border); border-radius: 10px; }
+  table { border-collapse: collapse; width: 100%; min-width: 720px; }
+  thead th {
+    background: var(--header-bg);
+    color: var(--header-fg);
+    text-align: left;
+    padding: 0.75rem 1rem;
+    font-size: 0.85rem;
+    position: sticky;
+    top: 0;
+  }
+  tbody td {
+    padding: 0.85rem 1rem;
+    border-top: 1px solid var(--border);
+    vertical-align: top;
+    font-size: 0.9rem;
+  }
+  tbody tr:nth-child(even) { background: var(--row-alt); }
+  tbody tr.hidden { display: none; }
+  .company { font-weight: 600; white-space: nowrap; }
+  .tag {
+    display: inline-block;
+    background: var(--tag-bg);
+    color: var(--tag-fg);
+    border-radius: 6px;
+    padding: 0.15rem 0.5rem;
+    margin: 0.15rem 0.3rem 0.15rem 0;
+    font-size: 0.78rem;
+    white-space: nowrap;
+  }
+  .tag.news {
+    background: var(--news-bg);
+    color: var(--news-fg);
+  }
+  .window {
+    color: var(--muted);
+    font-size: 0.78rem;
+    white-space: nowrap;
+  }
+  footer {
+    margin-top: 2rem;
+    color: var(--muted);
+    font-size: 0.8rem;
+  }
+  footer a { color: var(--link); }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>기업별 핵심 키워드 추출 v2 (고도화 시범, 30개사)</h1>
+  <p class="sub">1차 시범(대형주 151개사) 표본 중 30개사를 무작위 추출하여, 회사 페이지 본문 전체 활용 · 키워드 최대 10개 · 최근 뉴스 키워드(<span class="tag news" style="padding:0 0.3rem;">뉴스</span>) 방식으로 고도화한 2차 시범 결과입니다.</p>
+  <div class="meta">
+    <span>기업 수: 30</span>
+    <span>사업/재무 키워드: 파란 태그</span>
+    <span>뉴스 키워드: 빨간 태그</span>
+    <span>2026-07-14 작성</span>
+  </div>
+  <input id="search" type="text" placeholder="기업명 또는 키워드로 검색..." />
+  <div class="table-scroll">
+  <table id="kwTable">
+    <thead>
+      <tr>
+        <th>기업</th>
+        <th>사업/재무 키워드</th>
+        <th>뉴스 검색기간</th>
+        <th>뉴스 키워드</th>
+      </tr>
+    </thead>
+    <tbody id="kwBody"></tbody>
+  </table>
+  </div>
+  <footer>
+    원본 데이터: LLM Wiki (D:\.Project\LLMwiki) <code>wiki/outputs/company-keywords-pilot-v2-2026-07-14.md</code> ·
+    1차 시범: <code>wiki/outputs/company-keywords-pilot-2026-07-14.md</code>
+  </footer>
+</div>
+<script>
+const DATA = [
+["두산밥캣", ["소형 건설기계(Bobcat)","유압기기(두산모트롤)","북미 매출 비중 73%","외국기업지배지주회사","Compact Equipment","Material Handling","글로벌 딜러 네트워크","최대주주 주식담보대출","해외 신용등급 투기등급"], "최근 3개월", ["미국 관세 부담","멕시코 신공장 준공","북미 판가 인상","5년 내 매출 2배 목표","1분기 실적 개선"]],
+["롯데칠성음료", ["탄산음료","제로슈거 음료","소주·맥주","먹는샘물","필리핀 PCPPI 해외법인","헬시플레저 트렌드","최대주주 롯데지주"], "최근 1개월", ["1분기 영업이익 91%증가","칠성사이다 제로 오렌지 출시","펩시 엑스트라 피즈 출시","제품 출고가 인상","재생원료 페트병 확대"]],
+["BNK금융지주", ["순수금융지주회사","부산은행·경남은행","지방은행","9개계열사체계","BIS자본비율","동남경제권의존도","빅블러경쟁"], "최근 2개월", ["자사주 매입","캐피탈리서치 지분 축소","자본력 강화"]],
+["신한금융지주", ["순수 금융지주회사","은행부문","신용카드부문","증권부문","보험부문","여신전문부문","주주환원율 50%","CET1 13.35%","해외손익기여 16.6%"], "최근 3개월", ["1분기 분기 최대 실적","신한 밸류업 2.0 발표","주주환원율 51.7% 상향","목표주가 상향","비은행 자본시장 부문 급성장"]],
+["LG이노텍", ["카메라모듈 글로벌1위","반도체패키지기판","테이프기판","포토마스크","단일고객(애플) 집중","광학솔루션","모빌리티솔루션(전장부품)","FC-BGA","영업이익 2년연속 감소"], "최근 1개월", ["2분기 영업이익 흑자전환 서프라이즈","AI 기판 사업 성장 기대","목표주가 대폭 상향","주가 급락 후 외국인 순매수","영업이익 1조 클럽 복귀 전망"]],
+["영원무역", ["아웃도어 OEM 생산","SCOTT 자전거","방글라데시 생산기지","Outdoor Research","태양광 발전 설비","가족지배구조","중간배당 신설"], "최근 3개월", ["1분기 실적 서프라이즈","자사주 소각 계획"]],
+["동아에스티", ["전문의약품(ETC)","그로트로핀(성장호르몬)","대사질환 신약개발","바이오시밀러","캔박카스 해외수출","지분법손실 확대","2년연속 순손실","원료의약품 수입의존"], "최근 1-3개월", ["온코닉 자큐보 P-CAB 성장","엑스코프리 국내판권 라이선스인","차세대 항암 파이프라인(ADC·PARP7)","실적 회복·리레이팅 전망"]],
+["NH투자증권", ["초대형 IB","WM 자산관리","IB 기업금융","Trading 자기자본투자","농협금융지주 계열","부동산 PF SPC 우발채무","높은 재무 레버리지"], "최근 6개월", ["IMA 종합투자계좌 인가","역대 최대 실적","1분기 지배주주순이익 컨센서스 상회","목표주가 상향"]],
+["호텔신라", ["면세점(TR)","세계3위면세사업자","호텔레저부문","신라호텔","인천공항면세점철수","당기순손실전환","TR부문영업손실","삼성그룹계열"], "최근 1-3개월", ["인천공항 DF1 철수","위약금 1900억","인천공항공사 상대 1065억 소송","2분기 어닝서프라이즈","목표주가 하향 매수유지"]],
+["세아제강지주", ["순수지주회사","강관 사업","SeAH 브랜드 상표권","판재부문(강판)","해상풍력 모노파일","미국 관세 리스크","가동률 하락","배당·상표권 수익구조"], "최근 1-3개월", ["수익성 악화 美 관세·건설경기 침체","2025년 영업이익 감소·순이익 16.5%↓","현금·현물배당 결정","북미 유정용·송유관 강관 수요 견고","데이터센터 인프라 확충 배관재 수요 증가 전망"]],
+["화승인더스트리", ["ADIDAS 신발 ODM","베트남 생산법인","신발용 접착제 1위","화학소재(BOPP/PET필름)","사업지주 구조","단일고객 의존","이익 변동성"], "최근 6개월", ["아디다스 재고조정 실적부진","영업이익 35% 감소","북중미 월드컵 오더 회복 기대","화승비나 채무보증 369억","IR 기업설명회 개최"]],
+["GKL", ["외국인전용카지노","세븐럭카지노","한국관광공사자회사","준시장형공기업","일본중화권관광객수요","AML규제리스크"], "최근 3개월", ["카지노 영업장 이전·확장 추진","호텔 사업 진출 검토","4분기 영업이익 적자전환"]],
+["이마트", ["대형마트 1위","트레이더스","이마트 에브리데이","종합유통 지주","정용진 축 계열분리","신세계푸드 완전자회사화","건설업 연속 영업손실","미국 리테일 해외사업","회사채 신용등급 하향","자기주식 이익소각"], "최근 3개월", ["신세계푸드 공개매수가 30% 인상","신세계푸드 완전자회사 편입 및 상장폐지 추진","1분기 영업이익 11.9% 증가","2분기 영업이익 시장 기대치 하회 전망","목표주가 하향 조정"]],
+["삼성SDI", ["에너지솔루션 부문","리튬이온 2차전지","전자재료(반도체·OLED 소재)","소형전지 세계 M/S 13%","전기차 캐즘·ESS 출하 부진","연구개발비율 10.7%","영업손실 전환","AMPC 세액공제"], "최근 1-3개월", ["엘앤에프 LFP 양극재 공급계약","메르세데스벤츠 배터리 공급계약","현대차 유럽향 배터리 공급계약","헝가리 괴드공장 폭스바겐 통합셀 전환","하반기 분기 흑자전환 목표"]],
+["신세계", ["백화점업","면세업","외국인 관광객 매출","명품 유통","옴니채널 전환","면세업 수익성 개선","최대주주 변경(지분증여)","순이익 급감"], "최근 1-2개월", ["백화점 외국인 매출 1조 클럽","면세점 흑자 전환","박주형 대표 사장 승진","신세계 팩토리스토어 리브랜딩","2026년 사상 최대 실적 전망"]],
+["DN오토모티브", ["자동차용 방진부품","자동차용 축전지","공작기계(디엔솔루션즈)","자동차용 튜브","지주회사 겸 사업회사","글로벌 공작기계 Top3","고객 집중 리스크"], "최근 3-6개월", ["DN솔루션즈 코스피 상장 추진","Heller 인수 완료","부산 배터리 공장 신설 MOU","결산배당 결정"]],
+["LS에코에너지", ["외국기업 지배지주회사","베트남 전력케이블","LS-VINA","미얀마 케이블사업","동/알루미늄 소재","초고압 케이블","희토류 신사업","해저케이블 신사업"], "최근 6개월", ["1분기 영업이익 31% 증가","초고압 케이블 매출 급증","희토류·해저케이블 재평가 전망","LS Eco Advanced Cable 지분 취득"]],
+["HD한국조선해양", ["조선·해양 중간지주회사","가스선·수소암모니아 추진운반선","해양플랜트","엔진기계(선박용 엔진)","그린에너지(태양광·수소연료전지)","고선가 수주잔량","비지배지분 비중 높음","신용등급 A+ 상향"], "최근 1-2개월", ["초대형 암모니아 운반선(VLAC) 수주","미국 조선 협력 MASGA","美 해군 함정 MRO 계약","연간 수주 목표 70% 달성"]],
+["한국전력공사", ["전력 송배전 독점","전기판매부문","원자력발전(한수원)","화력발전(발전5사)","흑자전환","전기요금 규제","발전6사 지배구조","재무 레버리지"], "최근 3개월", ["1분기 최대 영업이익","LNG·유가 상승 부담","목표주가 하향조정","지역별 차등 전기요금제 도입","2026년 전기요금 인상 검토"]],
+["한화솔루션", ["석유화학 케미칼","태양광 큐셀","잉곳·웨이퍼·셀·모듈 수직계열화","자동차 경량복합소재 GMT","PVC 국내점유율46%","가성소다 국내1위","미국 태양광 EPC·발전소","대규모 영업적자 지속","부채21.96조원"], "최근 1-3개월", ["1.8조 유상증자","아틀라스 에너지 파크 EPC 수주","미국 태양광 자산매각","AMPC 세액공제 1조원","조지아 솔라허브 가동"]],
+["SK스퀘어", ["반도체·ICT 투자전문 지주회사","SK하이닉스 지분 20.1%","중간지주회사","지분법손익 변동성","단일 자산 집중 리스크","무배당·자사주 소각","11번가·티맵모빌리티 포트폴리오"], "최근 1개월", ["SK하이닉스 실적 호조 수혜","SK하이닉스 나스닥 상장 추진","목표주가 상향","외국인·기관 순매수","사업보고서 정정요구"]],
+["삼천리", ["도시가스 소매 1위","발전(LNG복합화력)","집단에너지","플랜트·에너지솔루션","자동차판매(BMW딜러)","신재생에너지","K-푸드 신사업","요금규제","SMP연동"], "최근 3개월", ["성경식품 인수 1195억원","K-푸드 김 시장 진출","3년 연속 영업이익 1000억 돌파","연결 순현금 전환","하나증권 목표주가 16만원 매수의견"]],
+["고려아연", ["비철금속 제련","아연·연 세계 1위","은 매출비중 1위","이차전지 소재(전지박·황산니켈)","미국 Crucible 통합제련소","경영권 분쟁","신용등급 하향(AA)","자원순환·리사이클링","신재생에너지·수소(Ark Energy)"], "최근 1-6개월", ["1분기 사상 최대 실적","이사회 구도 최윤범 측 승리","국민연금 캐스팅보터","사외이사·감사위 갈등 격화","원아시아파트너스 투자 의혹"]],
+["덴티움", ["치과용 임플란트","디지털덴티스트리(CBCT)","Regeneration(합성골)","해외법인 네트워크","중국 매출 의존도","SOFC 수소연료전지 신사업","자기주식 대량 소각","재고자산 급증"], "최근 1-3개월", ["자사주 244만주 전량 소각","발행주식 22.09% 소각","1분기 순이익 36% 증가","중국 외 매출 견조 성장 전망"]],
+["LIG디펜스앤에어로스페이스", ["정밀유도무기(PGM)","천궁-II(M-SAM)","현궁·해궁","감시정찰(ISR)","항공전자·전자전(AEW)","지휘통제통신(C4I)","중동 방산 수출","Ghost Robotics 인수","부채비율 상승","사명 변경"], "최근 3개월", ["1분기 실적 컨센서스 상회","이라크 천궁-II 3.7조원 수출계약","카타르·쿠웨이트 천궁-II 협상","인도네시아 천궁-II 구매의향서","목표가 상향"]],
+["현대해상", ["장기보험","자동차보험","일반보험","손해보험 M/S 17.5%","K-ICS 190.1%","배당 중단","정몽윤 최대주주 독립체제","보험계약마진(CSM)","자동차보험 손해율","IFRS17"], "최근 1-3개월", ["배당 재개 기대","관리급여 도입 손해액 개선","내몸엔맞춤간편건강보험 출시","1분기 순이익 서프라이즈","저평가 펀더멘털 개선"]],
+["율촌화학", ["연포장재","BOPP·CPP필름","이차전지용 알루미늄 파우치 소재","PET Film 전자소재","포장사업부문","전자소재사업부문","배터리 파우치 국산화","흑자전환","농심그룹 계열","매출집중도(농심·LG에너지솔루션)"], "최근 3개월", ["포승 신공장 가동","주가 52주 최저 근접·고평가 논란","외국인·기관 순매도"]],
+["LG", ["순수지주회사","배당수익","LG상표권사용수익","임대수익","지분법손익 변동성","주주환원정책","자사주 전량소각","배당성향 64.86%"], "최근 3개월", ["자사주 3500억 전량소각","ROE 10% 목표 밸류업","LG전자 2분기 영업이익 급증 지분법이익 반영"]],
+["케이티", ["유무선통신","AICT 전환","IPTV","비씨카드 금융부문","위성방송(스카이라이프)","영업이익 3배 증가","회사채 AAA","종속회사 78개 지배구조 복잡성"], "최근 6개월", ["AICT 전환 6조원 AI 인프라 투자","MS 파트너십 소버린 클라우드","AI 데이터센터 1기가와트 구축","양자암호통신 신사업"]],
+["DL", ["지주회사","브랜드 로열티 수익","석유화학 제조부문","발전 에너지부문","지분법손익 변동성","연결 순손실 전환","자회사 배당수익","이해욱 회장 지배구조"], "최근 3개월", ["1분기 영업이익 급증","에너지부문 실적 호조","목표주가 상향","연결 순이익 흑자전환"]]
+];
+
+function render(rows) {
+  const tbody = document.getElementById('kwBody');
+  tbody.innerHTML = '';
+  rows.forEach(([name, biz, win, news]) => {
+    const tr = document.createElement('tr');
+    tr.dataset.search = (name + ' ' + biz.join(' ') + ' ' + news.join(' ')).toLowerCase();
+    const bizHtml = biz.map(k => `<span class="tag">${k}</span>`).join('');
+    const newsHtml = news.length ? news.map(k => `<span class="tag news">${k}(뉴스)</span>`).join('') : '<span style="color:var(--muted)">-</span>';
+    tr.innerHTML = `<td class="company">${name}</td><td>${bizHtml}</td><td class="window">${win}</td><td>${newsHtml}</td>`;
+    tbody.appendChild(tr);
+  });
+}
+render(DATA);
+
+document.getElementById('search').addEventListener('input', (e) => {
+  const q = e.target.value.trim().toLowerCase();
+  document.querySelectorAll('#kwBody tr').forEach(tr => {
+    tr.classList.toggle('hidden', q && !tr.dataset.search.includes(q));
+  });
+});
+</script>
+</body>
+</html>

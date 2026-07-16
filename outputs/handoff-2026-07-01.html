@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="ko" dir="ltr"><head><title>작업 핸드오프 — 2026-07-01 (백필 완료 + 인제스트 IG6까지, 사용자 요청으로 중지) · LLM Wiki</title><meta charset="utf-8"/><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com"/><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Schibsted Grotesk:wght@400;700&amp;family=Source Sans Pro:ital,wght@0,400;0,600;1,400;1,600&amp;family=IBM Plex Mono:wght@400;600&amp;display=swap"/><link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin="anonymous"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta name="og:site_name" content="한국 기업 리서치 위키"/><meta property="og:title" content="작업 핸드오프 — 2026-07-01 (백필 완료 + 인제스트 IG6까지, 사용자 요청으로 중지) · LLM Wiki"/><meta property="og:type" content="website"/><meta name="twitter:card" content="summary_large_image"/><meta name="twitter:title" content="작업 핸드오프 — 2026-07-01 (백필 완료 + 인제스트 IG6까지, 사용자 요청으로 중지) · LLM Wiki"/><meta name="twitter:description" content="다른 PC/세션에서 KOSPI/KOSDAQ 인제스트/백필 작업을 재개하기 위한 진행상황·재개절차·미해결 항목 정리"/><meta property="og:description" content="다른 PC/세션에서 KOSPI/KOSDAQ 인제스트/백필 작업을 재개하기 위한 진행상황·재개절차·미해결 항목 정리"/><meta property="og:image:alt" content="다른 PC/세션에서 KOSPI/KOSDAQ 인제스트/백필 작업을 재개하기 위한 진행상황·재개절차·미해결 항목 정리"/><meta property="og:image" content="https://basarajm.github.io/llm-wiki/static/og-image.png"/><meta property="og:image:url" content="https://basarajm.github.io/llm-wiki/static/og-image.png"/><meta name="twitter:image" content="https://basarajm.github.io/llm-wiki/static/og-image.png"/><meta property="og:image:type" content="image/.png"/><meta property="twitter:domain" content="basarajm.github.io/llm-wiki"/><meta property="og:url" content="https://basarajm.github.io/llm-wiki/outputs/handoff-2026-07-01"/><meta property="twitter:url" content="https://basarajm.github.io/llm-wiki/outputs/handoff-2026-07-01"/><link rel="icon" href="../static/icon.png"/><meta name="description" content="다른 PC/세션에서 KOSPI/KOSDAQ 인제스트/백필 작업을 재개하기 위한 진행상황·재개절차·미해결 항목 정리"/><meta name="generator" content="Quartz"/><link href="../index.css" rel="stylesheet" type="text/css" data-persist="true"/><style>.expand-button {
+  position: absolute;
+  display: flex;
+  float: right;
+  padding: 0.4rem;
+  margin: 0.3rem;
+  right: 0;
+  color: var(--gray);
+  border-color: var(--dark);
+  background-color: var(--light);
+  border: 1px solid;
+  border-radius: 5px;
+  opacity: 0;
+  transition: 0.2s;
+}
+.expand-button > svg {
+  fill: var(--light);
+  filter: contrast(0.3);
+}
+.expand-button:hover {
+  cursor: pointer;
+  border-color: var(--secondary);
+}
+.expand-button:focus {
+  outline: 0;
+}
+
+pre:hover > .expand-button {
+  opacity: 1;
+  transition: 0.2s;
+}
+
+#mermaid-container {
+  position: fixed;
+  contain: layout;
+  z-index: 999;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  display: none;
+  backdrop-filter: blur(4px);
+  background: rgba(0, 0, 0, 0.5);
+}
+#mermaid-container.active {
+  display: inline-block;
+}
+#mermaid-container > #mermaid-space {
+  border: 1px solid var(--lightgray);
+  background-color: var(--light);
+  border-radius: 5px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 80vh;
+  width: 80vw;
+  overflow: hidden;
+}
+#mermaid-container > #mermaid-space > .mermaid-content {
+  position: relative;
+  transform-origin: 0 0;
+  transition: transform 0.1s ease;
+  overflow: visible;
+  min-height: 200px;
+  min-width: 200px;
+}
+#mermaid-container > #mermaid-space > .mermaid-content pre {
+  margin: 0;
+  border: none;
+}
+#mermaid-container > #mermaid-space > .mermaid-content svg {
+  max-width: none;
+  height: auto;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+  gap: 8px;
+  padding: 8px;
+  background: var(--light);
+  border: 1px solid var(--lightgray);
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 2;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  border: 1px solid var(--lightgray);
+  background: var(--light);
+  color: var(--dark);
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  font-family: var(--bodyFont);
+  transition: all 0.2s ease;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:hover {
+  background: var(--lightgray);
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:active {
+  transform: translateY(1px);
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:nth-child(2) {
+  width: auto;
+  padding: 0 12px;
+  font-size: 14px;
+}
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VSb290IjoiQzpcXFVzZXJzXFxMSk1cXC5DbGF1ZGVQcm9qZWN0XFxMTE1XaWtpXFxzaXRlXFxxdWFydHpcXGNvbXBvbmVudHNcXHN0eWxlcyIsInNvdXJjZXMiOlsibWVybWFpZC5pbmxpbmUuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNFO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBOztBQUVBO0VBQ0U7RUFDQTs7QUFHRjtFQUNFO0VBQ0E7O0FBR0Y7RUFDRTs7O0FBS0Y7RUFDRTtFQUNBOzs7QUFJSjtFQUNFO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7O0FBRUE7RUFDRTs7QUFHRjtFQUNFO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBOztBQUVBO0VBQ0U7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBOztBQUVBO0VBQ0U7RUFDQTs7QUFHRjtFQUNFO0VBQ0E7O0FBSUo7RUFDRTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBOztBQUVBO0VBQ0U7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTs7QUFFQTtFQUNFOztBQUdGO0VBQ0U7O0FBSUY7RUFDRTtFQUNBO0VBQ0EiLCJzb3VyY2VzQ29udGVudCI6WyIuZXhwYW5kLWJ1dHRvbiB7XG4gIHBvc2l0aW9uOiBhYnNvbHV0ZTtcbiAgZGlzcGxheTogZmxleDtcbiAgZmxvYXQ6IHJpZ2h0O1xuICBwYWRkaW5nOiAwLjRyZW07XG4gIG1hcmdpbjogMC4zcmVtO1xuICByaWdodDogMDsgLy8gTk9URTogcmlnaHQgd2lsbCBiZSBzZXQgaW4gbWVybWFpZC5pbmxpbmUudHNcbiAgY29sb3I6IHZhcigtLWdyYXkpO1xuICBib3JkZXItY29sb3I6IHZhcigtLWRhcmspO1xuICBiYWNrZ3JvdW5kLWNvbG9yOiB2YXIoLS1saWdodCk7XG4gIGJvcmRlcjogMXB4IHNvbGlkO1xuICBib3JkZXItcmFkaXVzOiA1cHg7XG4gIG9wYWNpdHk6IDA7XG4gIHRyYW5zaXRpb246IDAuMnM7XG5cbiAgJiA+IHN2ZyB7XG4gICAgZmlsbDogdmFyKC0tbGlnaHQpO1xuICAgIGZpbHRlcjogY29udHJhc3QoMC4zKTtcbiAgfVxuXG4gICY6aG92ZXIge1xuICAgIGN1cnNvcjogcG9pbnRlcjtcbiAgICBib3JkZXItY29sb3I6IHZhcigtLXNlY29uZGFyeSk7XG4gIH1cblxuICAmOmZvY3VzIHtcbiAgICBvdXRsaW5lOiAwO1xuICB9XG59XG5cbnByZSB7XG4gICY6aG92ZXIgPiAuZXhwYW5kLWJ1dHRvbiB7XG4gICAgb3BhY2l0eTogMTtcbiAgICB0cmFuc2l0aW9uOiAwLjJzO1xuICB9XG59XG5cbiNtZXJtYWlkLWNvbnRhaW5lciB7XG4gIHBvc2l0aW9uOiBmaXhlZDtcbiAgY29udGFpbjogbGF5b3V0O1xuICB6LWluZGV4OiA5OTk7XG4gIGxlZnQ6IDA7XG4gIHRvcDogMDtcbiAgd2lkdGg6IDEwMHZ3O1xuICBoZWlnaHQ6IDEwMHZoO1xuICBvdmVyZmxvdzogaGlkZGVuO1xuICBkaXNwbGF5OiBub25lO1xuICBiYWNrZHJvcC1maWx0ZXI6IGJsdXIoNHB4KTtcbiAgYmFja2dyb3VuZDogcmdiYSgwLCAwLCAwLCAwLjUpO1xuXG4gICYuYWN0aXZlIHtcbiAgICBkaXNwbGF5OiBpbmxpbmUtYmxvY2s7XG4gIH1cblxuICAmID4gI21lcm1haWQtc3BhY2Uge1xuICAgIGJvcmRlcjogMXB4IHNvbGlkIHZhcigtLWxpZ2h0Z3JheSk7XG4gICAgYmFja2dyb3VuZC1jb2xvcjogdmFyKC0tbGlnaHQpO1xuICAgIGJvcmRlci1yYWRpdXM6IDVweDtcbiAgICBwb3NpdGlvbjogZml4ZWQ7XG4gICAgdG9wOiA1MCU7XG4gICAgbGVmdDogNTAlO1xuICAgIHRyYW5zZm9ybTogdHJhbnNsYXRlKC01MCUsIC01MCUpO1xuICAgIGhlaWdodDogODB2aDtcbiAgICB3aWR0aDogODB2dztcbiAgICBvdmVyZmxvdzogaGlkZGVuO1xuXG4gICAgJiA+IC5tZXJtYWlkLWNvbnRlbnQge1xuICAgICAgcG9zaXRpb246IHJlbGF0aXZlO1xuICAgICAgdHJhbnNmb3JtLW9yaWdpbjogMCAwO1xuICAgICAgdHJhbnNpdGlvbjogdHJhbnNmb3JtIDAuMXMgZWFzZTtcbiAgICAgIG92ZXJmbG93OiB2aXNpYmxlO1xuICAgICAgbWluLWhlaWdodDogMjAwcHg7XG4gICAgICBtaW4td2lkdGg6IDIwMHB4O1xuXG4gICAgICBwcmUge1xuICAgICAgICBtYXJnaW46IDA7XG4gICAgICAgIGJvcmRlcjogbm9uZTtcbiAgICAgIH1cblxuICAgICAgc3ZnIHtcbiAgICAgICAgbWF4LXdpZHRoOiBub25lO1xuICAgICAgICBoZWlnaHQ6IGF1dG87XG4gICAgICB9XG4gICAgfVxuXG4gICAgJiA+IC5tZXJtYWlkLWNvbnRyb2xzIHtcbiAgICAgIHBvc2l0aW9uOiBhYnNvbHV0ZTtcbiAgICAgIGJvdHRvbTogMjBweDtcbiAgICAgIHJpZ2h0OiAyMHB4O1xuICAgICAgZGlzcGxheTogZmxleDtcbiAgICAgIGdhcDogOHB4O1xuICAgICAgcGFkZGluZzogOHB4O1xuICAgICAgYmFja2dyb3VuZDogdmFyKC0tbGlnaHQpO1xuICAgICAgYm9yZGVyOiAxcHggc29saWQgdmFyKC0tbGlnaHRncmF5KTtcbiAgICAgIGJvcmRlci1yYWRpdXM6IDZweDtcbiAgICAgIGJveC1zaGFkb3c6IDAgMnB4IDRweCByZ2JhKDAsIDAsIDAsIDAuMSk7XG4gICAgICB6LWluZGV4OiAyO1xuXG4gICAgICAubWVybWFpZC1jb250cm9sLWJ1dHRvbiB7XG4gICAgICAgIGRpc3BsYXk6IGZsZXg7XG4gICAgICAgIGFsaWduLWl0ZW1zOiBjZW50ZXI7XG4gICAgICAgIGp1c3RpZnktY29udGVudDogY2VudGVyO1xuICAgICAgICB3aWR0aDogMzJweDtcbiAgICAgICAgaGVpZ2h0OiAzMnB4O1xuICAgICAgICBwYWRkaW5nOiAwO1xuICAgICAgICBib3JkZXI6IDFweCBzb2xpZCB2YXIoLS1saWdodGdyYXkpO1xuICAgICAgICBiYWNrZ3JvdW5kOiB2YXIoLS1saWdodCk7XG4gICAgICAgIGNvbG9yOiB2YXIoLS1kYXJrKTtcbiAgICAgICAgYm9yZGVyLXJhZGl1czogNHB4O1xuICAgICAgICBjdXJzb3I6IHBvaW50ZXI7XG4gICAgICAgIGZvbnQtc2l6ZTogMTZweDtcbiAgICAgICAgZm9udC1mYW1pbHk6IHZhcigtLWJvZHlGb250KTtcbiAgICAgICAgdHJhbnNpdGlvbjogYWxsIDAuMnMgZWFzZTtcblxuICAgICAgICAmOmhvdmVyIHtcbiAgICAgICAgICBiYWNrZ3JvdW5kOiB2YXIoLS1saWdodGdyYXkpO1xuICAgICAgICB9XG5cbiAgICAgICAgJjphY3RpdmUge1xuICAgICAgICAgIHRyYW5zZm9ybTogdHJhbnNsYXRlWSgxcHgpO1xuICAgICAgICB9XG5cbiAgICAgICAgLy8gU3R5bGUgdGhlIHJlc2V0IGJ1dHRvbiBkaWZmZXJlbnRseVxuICAgICAgICAmOm50aC1jaGlsZCgyKSB7XG4gICAgICAgICAgd2lkdGg6IGF1dG87XG4gICAgICAgICAgcGFkZGluZzogMCAxMnB4O1xuICAgICAgICAgIGZvbnQtc2l6ZTogMTRweDtcbiAgICAgICAgfVxuICAgICAgfVxuICAgIH1cbiAgfVxufVxuIl19 */</style><script src="../prescript.js" type="application/javascript" data-persist="true"></script><script type="application/javascript" data-persist="true">const fetchData = fetch("../static/contentIndex.json").then(data => data.json())</script><link rel="alternate" type="application/rss+xml" title="RSS Feed" href="https://basarajm.github.io/llm-wiki/index.xml"/></head><body data-slug="outputs/handoff-2026-07-01"><div id="quartz-root" class="page"><div id="quartz-body"><div class="left sidebar"><h2 class="page-title"><a href="..">한국 기업 리서치 위키</a></h2><div class="spacer mobile-only"></div><div class="flex-component" style="flex-direction: row; flex-wrap: nowrap; gap: 1rem;"><div style="flex-grow: 1; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><div class="search"><button class="search-button"><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.9 19.7"><title>Search</title><g class="search-path" fill="none"><path stroke-linecap="square" d="M18.5 18.3l-5.4-5.4"></path><circle cx="8" cy="8" r="7"></circle></g></svg><p>검색</p></button><div class="search-container"><div class="search-space"><input autocomplete="off" class="search-bar" name="search" type="text" aria-label="검색어를 입력하세요" placeholder="검색어를 입력하세요"/><div class="search-layout" data-preview="true"></div></div></div></div></div><div style="flex-grow: 0; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><button class="darkmode"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="dayIcon" x="0px" y="0px" viewBox="0 0 35 35" style="enable-background:new 0 0 35 35" xml:space="preserve" aria-label="다크 모드"><title>다크 모드</title><path d="M6,17.5C6,16.672,5.328,16,4.5,16h-3C0.672,16,0,16.672,0,17.5    S0.672,19,1.5,19h3C5.328,19,6,18.328,6,17.5z M7.5,26c-0.414,0-0.789,0.168-1.061,0.439l-2,2C4.168,28.711,4,29.086,4,29.5    C4,30.328,4.671,31,5.5,31c0.414,0,0.789-0.168,1.06-0.44l2-2C8.832,28.289,9,27.914,9,27.5C9,26.672,8.329,26,7.5,26z M17.5,6    C18.329,6,19,5.328,19,4.5v-3C19,0.672,18.329,0,17.5,0S16,0.672,16,1.5v3C16,5.328,16.671,6,17.5,6z M27.5,9    c0.414,0,0.789-0.168,1.06-0.439l2-2C30.832,6.289,31,5.914,31,5.5C31,4.672,30.329,4,29.5,4c-0.414,0-0.789,0.168-1.061,0.44    l-2,2C26.168,6.711,26,7.086,26,7.5C26,8.328,26.671,9,27.5,9z M6.439,8.561C6.711,8.832,7.086,9,7.5,9C8.328,9,9,8.328,9,7.5    c0-0.414-0.168-0.789-0.439-1.061l-2-2C6.289,4.168,5.914,4,5.5,4C4.672,4,4,4.672,4,5.5c0,0.414,0.168,0.789,0.439,1.06    L6.439,8.561z M33.5,16h-3c-0.828,0-1.5,0.672-1.5,1.5s0.672,1.5,1.5,1.5h3c0.828,0,1.5-0.672,1.5-1.5S34.328,16,33.5,16z     M28.561,26.439C28.289,26.168,27.914,26,27.5,26c-0.828,0-1.5,0.672-1.5,1.5c0,0.414,0.168,0.789,0.439,1.06l2,2    C28.711,30.832,29.086,31,29.5,31c0.828,0,1.5-0.672,1.5-1.5c0-0.414-0.168-0.789-0.439-1.061L28.561,26.439z M17.5,29    c-0.829,0-1.5,0.672-1.5,1.5v3c0,0.828,0.671,1.5,1.5,1.5s1.5-0.672,1.5-1.5v-3C19,29.672,18.329,29,17.5,29z M17.5,7    C11.71,7,7,11.71,7,17.5S11.71,28,17.5,28S28,23.29,28,17.5S23.29,7,17.5,7z M17.5,25c-4.136,0-7.5-3.364-7.5-7.5    c0-4.136,3.364-7.5,7.5-7.5c4.136,0,7.5,3.364,7.5,7.5C25,21.636,21.636,25,17.5,25z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="nightIcon" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background:new 0 0 100 100" xml:space="preserve" aria-label="라이트 모드"><title>라이트 모드</title><path d="M96.76,66.458c-0.853-0.852-2.15-1.064-3.23-0.534c-6.063,2.991-12.858,4.571-19.655,4.571  C62.022,70.495,50.88,65.88,42.5,57.5C29.043,44.043,25.658,23.536,34.076,6.47c0.532-1.08,0.318-2.379-0.534-3.23  c-0.851-0.852-2.15-1.064-3.23-0.534c-4.918,2.427-9.375,5.619-13.246,9.491c-9.447,9.447-14.65,22.008-14.65,35.369  c0,13.36,5.203,25.921,14.65,35.368s22.008,14.65,35.368,14.65c13.361,0,25.921-5.203,35.369-14.65  c3.872-3.871,7.064-8.328,9.491-13.246C97.826,68.608,97.611,67.309,96.76,66.458z"></path></svg></button></div><div style="flex-grow: 0; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><button class="readermode"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="readerIcon" fill="currentColor" stroke="currentColor" stroke-width="0.2" stroke-linecap="round" stroke-linejoin="round" width="64px" height="64px" viewBox="0 0 24 24" aria-label="리더 모드"><title>리더 모드</title><g transform="translate(-1.8, -1.8) scale(1.15, 1.2)"><path d="M8.9891247,2.5 C10.1384702,2.5 11.2209868,2.96705384 12.0049645,3.76669482 C12.7883914,2.96705384 13.8709081,2.5 15.0202536,2.5 L18.7549359,2.5 C19.1691495,2.5 19.5049359,2.83578644 19.5049359,3.25 L19.5046891,4.004 L21.2546891,4.00457396 C21.6343849,4.00457396 21.9481801,4.28672784 21.9978425,4.6528034 L22.0046891,4.75457396 L22.0046891,20.25 C22.0046891,20.6296958 21.7225353,20.943491 21.3564597,20.9931534 L21.2546891,21 L2.75468914,21 C2.37499337,21 2.06119817,20.7178461 2.01153575,20.3517706 L2.00468914,20.25 L2.00468914,4.75457396 C2.00468914,4.37487819 2.28684302,4.061083 2.65291858,4.01142057 L2.75468914,4.00457396 L4.50368914,4.004 L4.50444233,3.25 C4.50444233,2.87030423 4.78659621,2.55650904 5.15267177,2.50684662 L5.25444233,2.5 L8.9891247,2.5 Z M4.50368914,5.504 L3.50468914,5.504 L3.50468914,19.5 L10.9478955,19.4998273 C10.4513189,18.9207296 9.73864328,18.5588115 8.96709342,18.5065584 L8.77307039,18.5 L5.25444233,18.5 C4.87474657,18.5 4.56095137,18.2178461 4.51128895,17.8517706 L4.50444233,17.75 L4.50368914,5.504 Z M19.5049359,17.75 C19.5049359,18.1642136 19.1691495,18.5 18.7549359,18.5 L15.2363079,18.5 C14.3910149,18.5 13.5994408,18.8724714 13.0614828,19.4998273 L20.5046891,19.5 L20.5046891,5.504 L19.5046891,5.504 L19.5049359,17.75 Z M18.0059359,3.999 L15.0202536,4 L14.8259077,4.00692283 C13.9889509,4.06666544 13.2254227,4.50975805 12.7549359,5.212 L12.7549359,17.777 L12.7782651,17.7601316 C13.4923805,17.2719483 14.3447024,17 15.2363079,17 L18.0059359,16.999 L18.0056891,4.798 L18.0033792,4.75457396 L18.0056891,4.71 L18.0059359,3.999 Z M8.9891247,4 L6.00368914,3.999 L6.00599909,4.75457396 L6.00599909,4.75457396 L6.00368914,4.783 L6.00368914,16.999 L8.77307039,17 C9.57551536,17 10.3461406,17.2202781 11.0128313,17.6202194 L11.2536891,17.776 L11.2536891,5.211 C10.8200889,4.56369974 10.1361548,4.13636104 9.37521067,4.02745763 L9.18347055,4.00692283 L8.9891247,4 Z"></path></g></svg></button></div></div><div class="explorer" data-behavior="link" data-collapsed="collapsed" data-savestate="true" data-data-fns="{&quot;order&quot;:[&quot;filter&quot;,&quot;map&quot;,&quot;sort&quot;],&quot;sortFn&quot;:&quot;(a,b)=>!a.isFolder&amp;&amp;!b.isFolder||a.isFolder&amp;&amp;b.isFolder?a.displayName.localeCompare(b.displayName,void 0,{numeric:!0,sensitivity:\&quot;base\&quot;}):!a.isFolder&amp;&amp;b.isFolder?1:-1&quot;,&quot;filterFn&quot;:&quot;node=>node.slugSegment!==\&quot;tags\&quot;&quot;,&quot;mapFn&quot;:&quot;node=>node&quot;}"><button type="button" class="explorer-toggle mobile-explorer hide-until-loaded" data-mobile="true" aria-controls="explorer-19405"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide-menu"><line x1="4" x2="20" y1="12" y2="12"></line><line x1="4" x2="20" y1="6" y2="6"></line><line x1="4" x2="20" y1="18" y2="18"></line></svg></button><button type="button" class="title-button explorer-toggle desktop-explorer" data-mobile="false" aria-expanded="true"><h2>탐색기</h2><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><div id="explorer-19405" class="explorer-content" aria-expanded="false" role="group"><ul class="explorer-ul overflow" id="list-0"><li class="overflow-end"></li></ul></div><template id="template-file"><li><a href="#"></a></li></template><template id="template-folder"><li><div class="folder-container"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="folder-icon"><polyline points="6 9 12 15 18 9"></polyline></svg><div><button class="folder-button"><span class="folder-title"></span></button></div></div><div class="folder-outer"><ul class="content"></ul></div></li></template></div></div><div class="center"><div class="page-header"><div class="popover-hint"><nav class="breadcrumb-container" aria-label="breadcrumbs"><div class="breadcrumb-element"><a href="../">Home</a><p> ❯ </p></div><div class="breadcrumb-element"><a href="../outputs/">outputs</a><p> ❯ </p></div><div class="breadcrumb-element"><a href>작업 핸드오프 — 2026 07 01 (백필 완료 + 인제스트 IG6까지, 사용자 요청으로 중지)</a></div></nav><h1 class="article-title">작업 핸드오프 — 2026-07-01 (백필 완료 + 인제스트 IG6까지, 사용자 요청으로 중지)</h1><p show-comma="true" class="content-meta"><time datetime="2026-07-01T15:00:00.000Z">2026년 7월 02일</time><span>21 min read</span></p><ul class="tags"><li><a href="../tags/핸드오프" class="internal tag-link">핸드오프</a></li><li><a href="../tags/운영" class="internal tag-link">운영</a></li><li><a href="../tags/인제스트" class="internal tag-link">인제스트</a></li><li><a href="../tags/백필" class="internal tag-link">백필</a></li></ul></div></div><article class="popover-hint"><h2 id="0-현재-상태-요약">0. 현재 상태 (요약)<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#0-현재-상태-요약" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p><strong>사용자 요청으로 IG6 완료 시점에 작업 중지.</strong> 모든 변경사항 커밋·푸시 완료, 워킹트리 깨끗함,
+백그라운드 작업 없음. 아래 “다음 재개 지점”에서 바로 이어갈 수 있다.</p>
+<ul>
+<li>최근 커밋: <code>366c7d4</code> (ingest(IG6), origin/main과 동기화됨)</li>
+<li>로컬 아카이브(<code>source_documents/AnnualReport_MD/</code>, 2,736개사) 기준: <strong>완료 376 / 대기 2,360</strong></li>
+<li>위키 전체 페이지 수(대략): companies 881 · products 590 · financial_products 92 · ratings 241 ·
+executives 675 · sources 398 · segments 1,015 · groups 118 · shareholders 81 · industries 78</li>
+</ul>
+<h1 id="작업-핸드오프--2026-07-01">작업 핸드오프 — 2026-07-01<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#작업-핸드오프--2026-07-01" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h1>
+<p>다른 PC에서 작업을 이어가기 위한 인수인계 문서. (참고: Claude 로컬 메모리
+<code>~/.claude/projects/.../memory/</code>는 GitHub에 동기화되지 않으므로 <strong>이 문서가 리포 내 정본</strong>이다.)</p>
+<h2 id="1-전체-진행-상황">1. 전체 진행 상황<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#1-전체-진행-상황" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>프로젝트는 <strong>옵션 B</strong>(사업보고서 md 기반 전체 백필 + 전체 인제스트) 두 트랙으로 진행 중.</p>
+<h3 id="-트랙-1--백필backfill-완료-353353">✅ 트랙 1 — 백필(Backfill): <strong>완료 (353/353)</strong><a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#-트랙-1--백필backfill-완료-353353" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>이미 Full 인제스트된 353개사 전부에 products/financial_products/ratings를 원본
+<code>dart_pipeline/dart_md/</code> 보고서 기반으로 소급 생성·검증 완료. BF1~BF118 전 배치 종료.</p>
+<ul>
+<li>진행 상태 파일: <code>wiki/outputs/backfill-done.json</code> (353개 전량 done)</li>
+<li>트래커 스크립트: <code>python dart_pipeline/backfill_status.py</code> (대기 0 확인용)</li>
+</ul>
+<h3 id="-트랙-2--인제스트ingest-진행-중-392833-잔여-441">🔄 트랙 2 — 인제스트(Ingest): <strong>진행 중 (392/833, 잔여 441)</strong><a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#-트랙-2--인제스트ingest-진행-중-392833-잔여-441" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>KOSPI/KOSDAQ 신규기업 Full 인제스트. IG배치1<del>3(종목코드 오름차순) + IG4</del>IG6(로컬 아카이브 기반, 종목코드 순서 이탈) 완료.</p>
+<ul>
+<li>IG1: 화천기계·화신·평화홀딩스 (010660·010690·010770)</li>
+<li>IG2: 아이에스동서·퍼스텍·S-Oil (010780·010820·010950)</li>
+<li>IG3: 삼호개발·진원생명과학·에넥스 (010960·011000·011090)</li>
+<li>IG4: 롯데케미칼(011170)·CJ씨푸드(011150)·HMM(011200)·3S·AJ네트웍스·APS·디이엔티·AP시스템·AP위성·BGF·BGF리테일·BGF에코머티리얼즈 (12개사, <code>source_documents/AnnualReport_MD/</code> 로컬 아카이브 기반)</li>
+<li>IG5: BNK금융지주·CG인바이츠·CJ CGV·CJ ENM·CJ 바이오사이언스·CJ제일제당·CJ프레시웨이·CMG제약·CNT85·씨에스·CSA 코스믹·DB Inc. (12개사, <code>source_documents/AnnualReport_MD/</code> 로컬 아카이브 기반, 인터럽트로 병합 매니페스트 유실 → 회사 페이지 직접 재추출로 공유노드 병합 수행)</li>
+<li>IG6: DB증권·디지아이티엑스·DH오토리드·DKME·DL이앤씨·DMS·DSC인베스트먼트·DSR·DSR제강·DS단석·디엑스앤브이엑스·DYP (12개사, <code>source_documents/AnnualReport_MD/</code> 로컬 아카이브 기반, 각 회사 전용 서브에이전트 + 메인 병합 매니페스트 정상 수령)</li>
+<li>병합 작업(공유 노드, IG4): markets 5사 추가(롯데케미칼·AJ네트웍스·BGF·3S·AP위성), groups 신규 4건(AJ네트웍스·APS그룹·BGF·롯데 갱신), shareholders 신규 다수(롯데지주·CJ제일제당·한국해양진흥공사·한국웨이퍼홀딩스·문지회·문선우·문덕영·홍석조·홍정국·홍정혁·홍라영·BGF·APS·컨텍·류장수·홈스·더제이자산운용·LOTTE HOLDINGS 등), industries 신규 3건(렌탈업·반도체소재부품·위성) + 기존 6건 갱신(화학·식품·해운·유통·지주회사·반도체장비). 중복 정리: <code>GS_Caltex.md</code>(신규 stub)를 기존 <code>GS칼텍스.md</code>로 병합·삭제.</li>
+<li>병합 작업(공유 노드, IG5): markets 8사 추가(KOSPI 3·KOSDAQ 8: BNK금융지주·CJ CGV·CJ제일제당·DB Inc./CG인바이츠·CJ ENM·CJ 바이오사이언스·CJ프레시웨이·CMG제약·CNT85·씨에스·CSA 코스믹), groups 신규 3건(BNK금융그룹·씨지인바이츠·차바이오그룹) + 기존 2건 갱신(CJ에 CJ CGV·ENM·바이오사이언스·제일제당·프레시웨이 링크화, DB에 DB Inc. 링크화), shareholders 신규 12건(CJ·정흥식·권영·뉴레이크인바이츠투자·금호에이치티·신안캐피탈·박훈(CNT85)·박지호·지앤비조합·브이핑크홀딩스·조토리·네이버·롯데쇼핑·협성종합건업) + 기존 2건 갱신(CJ제일제당에 CJ 바이오사이언스 보유 추가, 국민연금공단에 CJ제일제당·BNK금융지주 추가), industries 신규 6건(통신장비·플랜트환경설비·미디어엔터테인먼트커머스·식자재유통단체급식·바이오마이크로바이옴·영화상영업) + 기존 5건 갱신(금융지주·제약·화장품·IT서비스·식품). companies 신규 stub 1건(협성종합건업). 중복 점검: CS JAPAN·CS GLOCAL INC.(씨에스 자회사)와 舊 CS홀딩스 간 혼동 없음 확인, 최재호(진양폴리우레탄) vs 최재호(CSA 코스믹) 기존 disambiguation 정상 확인.</li>
+<li>병합 작업(공유 노드, IG6): markets KOSPI 8사(DB증권·DKME·DL이앤씨·DS단석·DSR·DSR제강·DYP) + KOSDAQ 5사(디엑스앤브이엑스·디지아이티엑스·DH오토리드·DMS·DSC인베스트먼트) 추가, groups 신규 3건(DH그룹·DL그룹·DSR) + 기존 1건 갱신(DB에 DB증권·DB자산운용·DB저축은행·DB생명보험·DB캐피탈 링크화), shareholders 신규 17건(DB손해보험·김준기·디에이치글로벌·디에이치오토웨어(주주)·DKME INC.·박용석·윤건수·홍석빈·홍하종·DSR제강·한승욱·임종윤·양준규·홍순겸·홍경숙·홍경희·DL) + 기존 1건 갱신(국민연금공단에 DL이앤씨 8.08% 추가), industries 신규 5건(영상보안(CCTV)·벤처캐피탈(VC)·바이오헬스케어(진단·신약)·바이오에너지·리사이클링(자원순환)·산업용 로프·와이어) + 기존 5건 갱신(증권·건설·자동차부품·철강·디스플레이·플랜트환경설비 플레이어 목록에 신규사 추가). 중복 점검: companies/products/financial_products/ratings Glob 전수 확인 결과 파일명 중복 없음(신규 stub 전부 고유 대상).</li>
+</ul>
+<h3 id="️-다음-재개-지점">⏭️ 다음 재개 지점<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#️-다음-재개-지점" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>로컬 아카이브 기준으로 다음 N개사를 산출한다(제외 목록은 <code>## 3-1</code> 참조):</p>
+<pre><code>python dart_pipeline/local_archive_status.py --next 12
+</code></pre>
+<p>결과에서 아래 <code>## 3-1</code> 제외 목록(파일명≠회사명 오탐)에 있는 이름이 나오면 건너뛰고,
+같은 개수만큼 다음 항목을 더 가져와 채운다.</p>
+<blockquote>
+<p><strong>범위가 IG4부터 확장됐다</strong>: IG1~3은 <code>dart_pipeline/ingest_status.py</code>(DART API 기반,
+KOSPI 종목코드 순번, 분모 833)로 진행했으나, IG4부터는 사용자가 제공한 로컬 아카이브
+<code>source_documents/AnnualReport_MD/</code>(2,736개사, KOSPI+KOSDAQ 사실상 전체 시장 커버)를
+기준으로 전환했다. <strong>“833/833”이라는 옛 분모는 더 이상 유효한 전체 목표가 아니다</strong> —
+실질적인 잔여 작업량은 로컬 아카이브 기준 <strong>대기 2,360개사</strong>다. 다음 배치를 잡을 때는
+반드시 <code>local_archive_status.py --next N</code>을 쓰고, <code>ingest_status.py</code>(KOSPI 전용, 구 트랙)는
+더 이상 갱신하지 않아도 된다.</p>
+</blockquote>
+<h3 id="배치-실행-방식-ig46에서-검증된-패턴">배치 실행 방식 (IG4~6에서 검증된 패턴)<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#배치-실행-방식-ig46에서-검증된-패턴" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ol>
+<li><code>local_archive_status.py --next 12</code> → 12개사 목록 확보(제외 목록 적용).</li>
+<li>Workflow 도구로 12개 에이전트를 <strong>웨이브 6개씩 동시 실행</strong>(웨이브 8 이상은 서버
+레이트리밋 유발 확인됨 — 첫 시도 때 14개 동시 실행에서 27/69개사 429 실패).
+각 에이전트는 회사 전용 파일만 작성하고 시장/그룹/주주/산업 판단을 텍스트로 보고.</li>
+<li>병합 에이전트 1개가 공유 노드(markets/groups/shareholders/industries) 반영 +
+index.md 전체 재생성(Python, PowerShell 스크립트 인코딩 버그 우회) + log.md/handoff 갱신.</li>
+<li><strong>검증 필수</strong>: 매 배치 후 아래를 직접 확인(에이전트 자기보고만 믿지 말 것):
+<ul>
+<li>frontmatter <code>type:</code> 존재 여부 전수 검사</li>
+<li>내부 링크 깨짐 검사(괄호 포함 파일명은 정규식이 오탐하기 쉬움 — 균형 괄호 인식 로직 필요,
+콘솔이 cp949라 결과는 UTF-8 파일로 저장 후 Read 도구로 읽을 것, <code>print()</code>/<code>cat</code>은 깨짐)</li>
+<li>신규 파일에 국한해 확인하고, 사전에 있던 깨진 링크는 범위 밖으로 구분해 기록</li>
+</ul>
+</li>
+<li>검증 통과 후 <code>git fetch &amp;&amp; git log HEAD..origin/main</code>으로 분기 확인 → 커밋 → push.</li>
+</ol>
+<h3 id="인터럽트-대응-실제-발생-사례-ig5">인터럽트 대응 (실제 발생 사례, IG5)<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#인터럽트-대응-실제-발생-사례-ig5" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>Workflow가 중간에 중단되면 인제스트(1단계)는 파일이 이미 디스크에 남아있을 수 있으나
+병합(2단계) 매니페스트는 유실된다. 이 경우:</p>
+<ul>
+<li>재실행하지 말고 대상 회사들의 <code>wiki/companies/&lt;회사>.md</code> 존재 여부를 먼저 확인.</li>
+<li>누락된 회사만 개별 Agent로 재실행.</li>
+<li>병합은 별도 에이전트에게 “매니페스트 없이 회사 페이지를 직접 Read해서 frontmatter의
+market/group/industry와 본문 ’## 주요 주주’ 섹션으로 정보를 재구성하라”고 지시하면
+정상적으로 수행 가능(실제로 이렇게 복구함, 커밋 <code>c28f915</code>).</li>
+</ul>
+<h2 id="2-재개-절차-다른-pc">2. 재개 절차 (다른 PC)<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#2-재개-절차-다른-pc" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<h3 id="사전-준비">사전 준비<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#사전-준비" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ol>
+<li>리포 clone 후 <code>origin/main</code> 최신화 (<code>git pull</code>).</li>
+<li><strong>원본 보고서</strong>: <code>dart_pipeline/dart_md/KOSPI/</code>·<code>KOSDAQ/</code>의 md 파일이 로컬에 있어야 함.
+<code>.gitignore</code>로 리포에서 제외됐을 수 있으니, 없으면 DART에서 재다운로드 필요
+(<code>dart_pipeline/</code> 도구 사용, <a href="../dart-pipeline-overview" class="internal" data-slug="dart-pipeline-overview">dart-pipeline-overview</a> 참조). <code>source_documents/</code>도 동일.</li>
+<li><strong>DART API 키</strong>는 환경변수로 주입(<code>dart_pipeline/config.py</code>가 env에서 읽음).
+키를 코드/깃에 하드코딩하지 말 것.</li>
+</ol>
+<h3 id="인제스트-1배치-루프-3개사씩">인제스트 1배치 루프 (3개사씩)<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#인제스트-1배치-루프-3개사씩" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ol>
+<li>다음 3개사 산출:
+<pre><code>python dart_pipeline/ingest_status.py KOSPI   # done/pending 갱신
+</code></pre>
+<code>compute()</code>의 pending을 stock_code순 정렬해 상위 3개를 <code>wiki/outputs/_ingest_next3.json</code>에 기록
+(각 항목: name·ticker·file(dart_md 경로)·fy). 위키노드명≠DART corp_name이면 수동 확인.</li>
+<li>3개사 각각 <strong>general-purpose 서브에이전트</strong>(백그라운드)로 Full 인제스트.
+각 에이전트는 <strong>회사 전용 페이지만 작성</strong>(아래 7종 스코프), 공유 노드는 <strong>수정 금지</strong>하고
+구조화 TODO(MARKET/GROUP/SHAREHOLDER/INDUSTRY/STUB)로 반환.</li>
+<li>세 에이전트 완료 후 <strong>메인이 공유 노드 직접 적용</strong>:
+<ul>
+<li><code>wiki/markets/KOSPI.md</code> 상장기업 목록에 신규 3사 추가(가나다순 위치)</li>
+<li><code>wiki/groups/*</code> 신규/갱신 (그룹 소속 시)</li>
+<li><code>wiki/shareholders/*</code> 신규 (주요 주주, 특히 상장사·개인 대주주; company_page 양방향)</li>
+<li><code>wiki/industries/*</code> 주요 플레이어 목록 갱신(없으면 신규 생성)</li>
+</ul>
+</li>
+<li>배치 마감:
+<pre><code># wiki/log.md에 **Ingest(IG배치N)** 1블록 추가
+pwsh -NoProfile -File &quot;engine\scripts\build-index.ps1&quot;   # index 재생성
+python dart_pipeline/ingest_status.py KOSPI --mark &quot;회사A,회사B,회사C&quot;
+git add wiki/ dart_pipeline/
+git commit -m &quot;ingest(IG): ... (N/833)&quot;
+git fetch origin &amp;&amp; git rebase origin/main &amp;&amp; git push origin main
+</code></pre>
+</li>
+</ol>
+<h3 id="full-인제스트-7종-스코프회사당">Full 인제스트 7종 스코프(회사당)<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#full-인제스트-7종-스코프회사당" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ol>
+<li><code>sources/&lt;회사>_2025_사업보고서.md</code> (type: Annual Report, <code>resource:</code> 원본 dart_md 경로)</li>
+<li><code>companies/&lt;회사>.md</code> (type: Company, is_stub:false) — frontmatter <code>ticker/market/market_page/industry/group</code>,
+재무 하이라이트 3개년, 사업개요·사업부문·주요주주·밸류체인·경영진·신용등급·리스크·# Citations</li>
+<li><code>segments/&lt;회사>_&lt;부문>.md</code> (type: Business Segment) — 부문별 매출비중</li>
+<li><code>value_chain/&lt;회사>_밸류체인.md</code> (type: Value Chain)</li>
+<li><code>executives/&lt;임원>.md</code> (type: Executive, company 역링크) — 핵심 경영진</li>
+<li><code>products/&lt;상품>.md</code> (type: Product) — <strong>점유율/순위/매출비중/대표성 명시 시에만</strong>.
+일반명 충돌 시 <code>&lt;회사>_상품명</code> 프리픽스. 지주회사는 자회사 상품을 지주에 귀속 금지.</li>
+<li><code>ratings/&lt;회사> 신용등급.md</code> (type: Credit Rating) — 회사채/CP/기업신용(ICR) 등급 명시 시에만.
+금융사(증권·보험·은행·캐피탈)는 products 대신 <code>financial_products/</code>.
+<ul>
+<li>식별 가능한 공급사·고객사·경쟁사·자회사는 <code>companies/</code>에 stub(is_stub:true).</li>
+</ul>
+</li>
+</ol>
+<h3 id="양방향-링크-규칙-claudemd-참조">양방향 링크 규칙 (CLAUDE.md 참조)<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#양방향-링크-규칙-claudemd-참조" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>주주↔기업, 시장↔기업, 그룹↔기업, 임원↔기업, 공급/고객↔기업을 양방향 링크.
+링크 경로는 번들 기준 절대경로(<code>/companies/...</code>).</p>
+<h2 id="3-미해결누적-항목-재개-시-참고">3. 미해결·누적 항목 (재개 시 참고)<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#3-미해결누적-항목-재개-시-참고" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<ul>
+<li><strong>KB금융 financial_products 오귀속</strong>: <code>KB_원화예수금</code>·<code>KB_원화대출금</code>·<code>KB_신탁</code>·<code>KB_신용카드</code> 4종이
+자회사(국민은행·국민카드) 상품을 지주 <code>KB금융지주</code>에 잘못 귀속. issuer를 각 자회사로 재지정하고
+KB국민은행/KB국민카드 stub 생성 필요. (하나금융지주는 본문에 자회사 주체를 명시하는 방식으로 처리한 선례 참고.)</li>
+<li><strong>HS화성(002460)·현대제철(004020)</strong>: 백필 시 원본 md가 감사보고서 첨부정정본이라
+「사업의 내용」·「신용평가」 섹션 부재 → products/ratings 0건. 향후 본문 사업보고서 재확보 후 백필 보강 필요.</li>
+<li><strong><code>local_archive_status.py</code> 파일명≠회사명 오탐 주의(## 3-1)</strong>: 아카이브 파일명이 회사의 과거명·약칭이거나
+wiki 회사명과 다른 경우, 스크립트는 파일명 기준으로 done을 판정해 이미 완료된 회사를 <strong>영구히 pending으로
+오분류</strong>한다. 확인된 사례(재인제스트 금지 — 이미 완료됨):
+<ul>
+<li><code>APS이노베이션</code> → 실제 <strong>디이엔티</strong>(<code>wiki/companies/디이엔티.md</code>)</li>
+<li><code>CS</code> → 실제 <strong>씨에스</strong>(CS Corporation, <code>wiki/companies/씨에스.md</code>) — 기존 <code>CS홀딩스</code>와는 별개 회사</li>
+<li><code>DB</code> → 실제 <strong>DB Inc.</strong>(<code>wiki/companies/DB Inc..md</code>, DB그룹 지주회사)</li>
+<li><code>DGI</code> → 실제 <strong>디지아이티엑스</strong>(<code>wiki/companies/디지아이티엑스.md</code>)</li>
+<li><code>DH오토넥스</code> → 이미 <code>wiki/companies/DH오토웨어.md</code>(title: DH오토넥스)로 인제스트 완료(본 세션 이전).
+<code>--next</code> 결과에 위 5개 이름이 나오면 건너뛰고 다음 항목으로 채울 것. 새로운 사례 발견 시 이 목록에 추가.</li>
+</ul>
+</li>
+<li><strong>딥 deferred(깨진 링크 허용 관례)</strong>: 대기업집단 일부 그룹 페이지·다수 상장 자회사 stub 미생성.
+해당사 ingest 시 또는 일괄 lint로 해소.</li>
+<li><strong>국민연금 등 기관 주주</strong>: 보고서에 5% 미만이면 미기재 → “미확인” 처리한 사례 다수.</li>
+<li><strong>경미한 사전 이슈(lint 대상, 이번 세션 확인만 하고 미수정)</strong>:
+<ul>
+<li><code>wiki/products/원사(THREE STAR).md</code> vs <code>원사_THREE_STAR.md</code> — 일신방직 원사 제품이 서로 다른 세션에서
+중복 생성됨(커밋 <code>2b0659f</code>·<code>aa7712e</code>). 병합 필요.</li>
+<li><code>wiki/products/고밀도폴리에틸렌(HDPE).md</code>·<code>폴리프로필렌(PP).md</code> — 파일명에 괄호가 남아있어 마크다운
+링크 파싱 시 첫 <code>)</code>에서 끊길 위험(다른 파일들은 이미 <code>_</code>로 정규화함). 정규화 권장.</li>
+<li><code>wiki/companies/DB하이텍.md</code>의 <code>/shareholders/국민연금</code> 링크(실제 파일은 <code>국민연금공단.md</code>),
+<code>wiki/industries/IT서비스.md</code>의 <code>/companies/LG_CNS</code>(stub 미생성), <code>wiki/industries/증권.md</code>의
+<code>/companies/삼성증권</code>·<code>/companies/키움증권</code>(stub 미생성) — 전부 이번 세션 이전부터의 사전 이슈.</li>
+</ul>
+</li>
+</ul>
+<h2 id="4-환경협업-주의">4. 환경·협업 주의<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#4-환경협업-주의" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<ul>
+<li><strong>원격 협업</strong>: 사용자가 Quartz 정적사이트(site/, gh-pages)도 origin에 푸시 중.
+매 배치 push 전 <code>git fetch &amp;&amp; git rebase origin/main</code>로 공존(절대 force-push 금지).</li>
+<li><strong>읽기 전용</strong>: <code>source_documents/</code>, <code>dart_pipeline/dart_md/</code> 원본은 절대 수정 금지.</li>
+<li><strong>줄바꿈 경고</strong>: LF→CRLF git 경고는 무해(무시). 콘솔 한글 깨짐은 표시상 문제이며 파일은 정상 UTF-8.</li>
+<li><strong>명칭 매핑</strong>: DART명≠위키명 사례 — 신한지주→신한금융지주, 삼성생명→삼성생명보험,
+POSCO홀딩스→포스코, 엘에스일렉트릭→LS일렉트릭, 삼성화재해상보험→삼성화재 등.
+불일치 시 <code>ingest_status.py KOSPI --mark &quot;DART명&quot;</code>.</li>
+</ul>
+<h2 id="5-핵심-파일-요약">5. 핵심 파일 요약<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#5-핵심-파일-요약" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>파일</th><th>역할</th></tr></thead><tbody><tr><td><code>dart_pipeline/local_archive_status.py</code></td><td><strong>로컬 아카이브 기준 인제스트 트래커</strong> — <code>--next N</code>으로 다음 N개사 JSON 산출(파일명≠회사명 오탐 주의, 위 항목 참조)</td></tr><tr><td><code>dart_pipeline/ingest_status.py</code></td><td>DART API 기준 인제스트 트래커 (done/pending, <code>--mark</code>) — KOSPI 종목코드 순번 트랙용</td></tr><tr><td><code>dart_pipeline/backfill_status.py</code></td><td>백필 트래커 (완료, 참고용)</td></tr><tr><td><code>wiki/outputs/ingest-tracker-KOSPI.md</code></td><td>사람용 인제스트 현황(자동 생성)</td></tr><tr><td><code>wiki/outputs/_ingest_next3.json</code></td><td>다음 3개사 스크래치(IG1~3, DART API 순번 트랙용 — IG4부터는 <code>local_archive_status.py</code> 사용)</td></tr><tr><td><code>wiki/outputs/backfill-done.json</code></td><td>백필 완료 집합(353 전량)</td></tr><tr><td><code>engine/scripts/build-index.ps1</code></td><td><code>wiki/index.md</code> 재생성</td></tr><tr><td><code>wiki/log.md</code></td><td>작업 이력(배치별 1블록)</td></tr></tbody></table></div>
+<h1 id="citations">Citations<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#citations" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h1>
+<ul>
+<li><a href="../outputs/ingest-tracker-KOSPI" class="internal alias" data-slug="outputs/ingest-tracker-KOSPI">KOSPI 인제스트 트래커</a></li>
+</ul></article><hr/><div class="page-footer"></div></div><div class="right sidebar"><div class="graph"><h3>그래프 뷰</h3><div class="graph-outer"><div class="graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:1,&quot;scale&quot;:1.1,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.3,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1,&quot;showTags&quot;:true,&quot;removeTags&quot;:[],&quot;focusOnHover&quot;:false,&quot;enableRadial&quot;:false,&quot;maxNodes&quot;:400}"></div><button class="global-graph-icon" aria-label="Global Graph"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 55 55" fill="currentColor" xml:space="preserve"><path d="M49,0c-3.309,0-6,2.691-6,6c0,1.035,0.263,2.009,0.726,2.86l-9.829,9.829C32.542,17.634,30.846,17,29,17
+                s-3.542,0.634-4.898,1.688l-7.669-7.669C16.785,10.424,17,9.74,17,9c0-2.206-1.794-4-4-4S9,6.794,9,9s1.794,4,4,4
+                c0.74,0,1.424-0.215,2.019-0.567l7.669,7.669C21.634,21.458,21,23.154,21,25s0.634,3.542,1.688,4.897L10.024,42.562
+                C8.958,41.595,7.549,41,6,41c-3.309,0-6,2.691-6,6s2.691,6,6,6s6-2.691,6-6c0-1.035-0.263-2.009-0.726-2.86l12.829-12.829
+                c1.106,0.86,2.44,1.436,3.898,1.619v10.16c-2.833,0.478-5,2.942-5,5.91c0,3.309,2.691,6,6,6s6-2.691,6-6c0-2.967-2.167-5.431-5-5.91
+                v-10.16c1.458-0.183,2.792-0.759,3.898-1.619l7.669,7.669C41.215,39.576,41,40.26,41,41c0,2.206,1.794,4,4,4s4-1.794,4-4
+                s-1.794-4-4-4c-0.74,0-1.424,0.215-2.019,0.567l-7.669-7.669C36.366,28.542,37,26.846,37,25s-0.634-3.542-1.688-4.897l9.665-9.665
+                C46.042,11.405,47.451,12,49,12c3.309,0,6-2.691,6-6S52.309,0,49,0z M11,9c0-1.103,0.897-2,2-2s2,0.897,2,2s-0.897,2-2,2
+                S11,10.103,11,9z M6,51c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S8.206,51,6,51z M33,49c0,2.206-1.794,4-4,4s-4-1.794-4-4
+                s1.794-4,4-4S33,46.794,33,49z M29,31c-3.309,0-6-2.691-6-6s2.691-6,6-6s6,2.691,6,6S32.309,31,29,31z M47,41c0,1.103-0.897,2-2,2
+                s-2-0.897-2-2s0.897-2,2-2S47,39.897,47,41z M49,10c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S51.206,10,49,10z"></path></svg></button></div><div class="global-graph-outer"><div class="global-graph-container"><div class="global-graph-toolbar"><label class="graph-depth-label">단계<select class="graph-depth-select" aria-label="중심 노드로부터 표시할 단계 수"><option value="1">1</option><option value="2">2</option><option value="3">3</option></select></label><button class="graph-back-btn" type="button" disabled>← 이전</button><button class="graph-clear-btn" type="button">초기화</button><span class="graph-hint">클릭: 노드 확장 · 더블클릭: 페이지 이동</span></div><div class="global-graph-canvas" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:1,&quot;scale&quot;:0.9,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.2,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1,&quot;showTags&quot;:true,&quot;removeTags&quot;:[],&quot;focusOnHover&quot;:true,&quot;enableRadial&quot;:true,&quot;maxNodes&quot;:500}"></div></div></div></div><div class="toc desktop-only"><button type="button" class="toc-header" aria-controls="toc-13129" aria-expanded="true"><h3>목차</h3><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><ul id="list-1" class="toc-content overflow"><li class="depth-1"><a href="#0-현재-상태-요약" data-for="0-현재-상태-요약">0. 현재 상태 (요약)</a></li><li class="depth-0"><a href="#작업-핸드오프--2026-07-01" data-for="작업-핸드오프--2026-07-01">작업 핸드오프 — 2026-07-01</a></li><li class="depth-1"><a href="#1-전체-진행-상황" data-for="1-전체-진행-상황">1. 전체 진행 상황</a></li><li class="depth-2"><a href="#-트랙-1--백필backfill-완료-353353" data-for="-트랙-1--백필backfill-완료-353353">✅ 트랙 1 — 백필(Backfill): 완료 (353/353)</a></li><li class="depth-2"><a href="#-트랙-2--인제스트ingest-진행-중-392833-잔여-441" data-for="-트랙-2--인제스트ingest-진행-중-392833-잔여-441">🔄 트랙 2 — 인제스트(Ingest): 진행 중 (392/833, 잔여 441)</a></li><li class="depth-2"><a href="#️-다음-재개-지점" data-for="️-다음-재개-지점">⏭️ 다음 재개 지점</a></li><li class="depth-2"><a href="#배치-실행-방식-ig46에서-검증된-패턴" data-for="배치-실행-방식-ig46에서-검증된-패턴">배치 실행 방식 (IG4~6에서 검증된 패턴)</a></li><li class="depth-2"><a href="#인터럽트-대응-실제-발생-사례-ig5" data-for="인터럽트-대응-실제-발생-사례-ig5">인터럽트 대응 (실제 발생 사례, IG5)</a></li><li class="depth-1"><a href="#2-재개-절차-다른-pc" data-for="2-재개-절차-다른-pc">2. 재개 절차 (다른 PC)</a></li><li class="depth-2"><a href="#사전-준비" data-for="사전-준비">사전 준비</a></li><li class="depth-2"><a href="#인제스트-1배치-루프-3개사씩" data-for="인제스트-1배치-루프-3개사씩">인제스트 1배치 루프 (3개사씩)</a></li><li class="depth-2"><a href="#full-인제스트-7종-스코프회사당" data-for="full-인제스트-7종-스코프회사당">Full 인제스트 7종 스코프(회사당)</a></li><li class="depth-2"><a href="#양방향-링크-규칙-claudemd-참조" data-for="양방향-링크-규칙-claudemd-참조">양방향 링크 규칙 (CLAUDE.md 참조)</a></li><li class="depth-1"><a href="#3-미해결누적-항목-재개-시-참고" data-for="3-미해결누적-항목-재개-시-참고">3. 미해결·누적 항목 (재개 시 참고)</a></li><li class="depth-1"><a href="#4-환경협업-주의" data-for="4-환경협업-주의">4. 환경·협업 주의</a></li><li class="depth-1"><a href="#5-핵심-파일-요약" data-for="5-핵심-파일-요약">5. 핵심 파일 요약</a></li><li class="depth-0"><a href="#citations" data-for="citations">Citations</a></li><li class="overflow-end"></li></ul></div><div class="backlinks"><h3>백링크</h3><ul id="list-2" class="overflow"><li><a href="../outputs/" class="internal">index</a></li><li class="overflow-end"></li></ul></div></div><footer class><p>Created with <a href="https://quartz.jzhao.xyz/">Quartz v4.5.2</a> © 2026</p><ul><li><a href="https://github.com/jackyzha0/quartz">GitHub</a></li><li><a href="https://discord.gg/cRFFHYye7t">Discord Community</a></li></ul></footer></div></div></body><script type="application/javascript" data-persist="true">function n(){let t=this.parentElement;t.classList.toggle("is-collapsed");let e=t.getElementsByClassName("callout-content")[0];if(!e)return;let l=t.classList.contains("is-collapsed");e.style.gridTemplateRows=l?"0fr":"1fr"}function c(){let t=document.getElementsByClassName("callout is-collapsible");for(let e of t){let l=e.getElementsByClassName("callout-title")[0],s=e.getElementsByClassName("callout-content")[0];if(!l||!s)continue;l.addEventListener("click",n),window.addCleanup(()=>l.removeEventListener("click",n));let o=e.classList.contains("is-collapsed");s.style.gridTemplateRows=o?"0fr":"1fr"}}document.addEventListener("nav",c);
+</script><script type="module" data-persist="true">function E(a,e){if(!a)return;function t(o){o.target===this&&(o.preventDefault(),o.stopPropagation(),e())}function n(o){o.key.startsWith("Esc")&&(o.preventDefault(),e())}a?.addEventListener("click",t),window.addCleanup(()=>a?.removeEventListener("click",t)),document.addEventListener("keydown",n),window.addCleanup(()=>document.removeEventListener("keydown",n))}function f(a){for(;a.firstChild;)a.removeChild(a.firstChild)}var m=class{constructor(e,t){this.container=e;this.content=t;this.setupEventListeners(),this.setupNavigationControls(),this.resetTransform()}isDragging=!1;startPan={x:0,y:0};currentPan={x:0,y:0};scale=1;MIN_SCALE=.5;MAX_SCALE=3;cleanups=[];setupEventListeners(){let e=this.onMouseDown.bind(this),t=this.onMouseMove.bind(this),n=this.onMouseUp.bind(this),o=this.onTouchStart.bind(this),r=this.onTouchMove.bind(this),i=this.onTouchEnd.bind(this),s=this.resetTransform.bind(this);this.container.addEventListener("mousedown",e),document.addEventListener("mousemove",t),document.addEventListener("mouseup",n),this.container.addEventListener("touchstart",o,{passive:!1}),document.addEventListener("touchmove",r,{passive:!1}),document.addEventListener("touchend",i),window.addEventListener("resize",s),this.cleanups.push(()=>this.container.removeEventListener("mousedown",e),()=>document.removeEventListener("mousemove",t),()=>document.removeEventListener("mouseup",n),()=>this.container.removeEventListener("touchstart",o),()=>document.removeEventListener("touchmove",r),()=>document.removeEventListener("touchend",i),()=>window.removeEventListener("resize",s))}cleanup(){for(let e of this.cleanups)e()}setupNavigationControls(){let e=document.createElement("div");e.className="mermaid-controls";let t=this.createButton("+",()=>this.zoom(.1)),n=this.createButton("-",()=>this.zoom(-.1)),o=this.createButton("Reset",()=>this.resetTransform());e.appendChild(n),e.appendChild(o),e.appendChild(t),this.container.appendChild(e)}createButton(e,t){let n=document.createElement("button");return n.textContent=e,n.className="mermaid-control-button",n.addEventListener("click",t),window.addCleanup(()=>n.removeEventListener("click",t)),n}onMouseDown(e){e.button===0&&(this.isDragging=!0,this.startPan={x:e.clientX-this.currentPan.x,y:e.clientY-this.currentPan.y},this.container.style.cursor="grabbing")}onMouseMove(e){this.isDragging&&(e.preventDefault(),this.currentPan={x:e.clientX-this.startPan.x,y:e.clientY-this.startPan.y},this.updateTransform())}onMouseUp(){this.isDragging=!1,this.container.style.cursor="grab"}onTouchStart(e){if(e.touches.length!==1)return;this.isDragging=!0;let t=e.touches[0];this.startPan={x:t.clientX-this.currentPan.x,y:t.clientY-this.currentPan.y}}onTouchMove(e){if(!this.isDragging||e.touches.length!==1)return;e.preventDefault();let t=e.touches[0];this.currentPan={x:t.clientX-this.startPan.x,y:t.clientY-this.startPan.y},this.updateTransform()}onTouchEnd(){this.isDragging=!1}zoom(e){let t=Math.min(Math.max(this.scale+e,this.MIN_SCALE),this.MAX_SCALE),n=this.content.getBoundingClientRect(),o=n.width/2,r=n.height/2,i=t-this.scale;this.currentPan.x-=o*i,this.currentPan.y-=r*i,this.scale=t,this.updateTransform()}updateTransform(){this.content.style.transform=`translate(${this.currentPan.x}px, ${this.currentPan.y}px) scale(${this.scale})`}resetTransform(){let t=this.content.querySelector("svg").getBoundingClientRect(),n=t.width/this.scale,o=t.height/this.scale;this.scale=1,this.currentPan={x:(this.container.clientWidth-n)/2,y:(this.container.clientHeight-o)/2},this.updateTransform()}},T=["--secondary","--tertiary","--gray","--light","--lightgray","--highlight","--dark","--darkgray","--codeFont"],y;document.addEventListener("nav",async()=>{let e=document.querySelector(".center").querySelectorAll("code.mermaid");if(e.length===0)return;y||=await import("https://cdnjs.cloudflare.com/ajax/libs/mermaid/11.4.0/mermaid.esm.min.mjs");let t=y.default,n=new WeakMap;for(let r of e)n.set(r,r.innerText);async function o(){for(let s of e){s.removeAttribute("data-processed");let c=n.get(s);c&&(s.innerHTML=c)}let r=T.reduce((s,c)=>(s[c]=window.getComputedStyle(document.documentElement).getPropertyValue(c),s),{}),i=document.documentElement.getAttribute("saved-theme")==="dark";t.initialize({startOnLoad:!1,securityLevel:"loose",theme:i?"dark":"base",themeVariables:{fontFamily:r["--codeFont"],primaryColor:r["--light"],primaryTextColor:r["--darkgray"],primaryBorderColor:r["--tertiary"],lineColor:r["--darkgray"],secondaryColor:r["--secondary"],tertiaryColor:r["--tertiary"],clusterBkg:r["--light"],edgeLabelBackground:r["--highlight"]}}),await t.run({nodes:e})}await o(),document.addEventListener("themechange",o),window.addCleanup(()=>document.removeEventListener("themechange",o));for(let r=0;r<e.length;r++){let v=function(){let g=l.querySelector("#mermaid-space"),h=l.querySelector(".mermaid-content");if(!h)return;f(h);let w=i.querySelector("svg").cloneNode(!0);h.appendChild(w),l.classList.add("active"),g.style.cursor="grab",u=new m(g,h)},M=function(){l.classList.remove("active"),u?.cleanup(),u=null},i=e[r],s=i.parentElement,c=s.querySelector(".clipboard-button"),d=s.querySelector(".expand-button"),p=window.getComputedStyle(c),L=c.offsetWidth+parseFloat(p.marginLeft||"0")+parseFloat(p.marginRight||"0");d.style.right=`calc(${L}px + 0.3rem)`,s.prepend(d);let l=s.querySelector("#mermaid-container");if(!l)return;let u=null;d.addEventListener("click",v),E(l,M),window.addCleanup(()=>{u?.cleanup(),d.removeEventListener("click",v)})}});
+</script><script src="../postscript.js" type="module" data-persist="true"></script></html>
