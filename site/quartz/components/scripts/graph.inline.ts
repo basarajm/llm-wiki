@@ -16,8 +16,16 @@ import {
 } from "d3"
 import { Text, Graphics, Application, Container, Circle } from "pixi.js"
 import { Group as TweenGroup, Tween as Tweened } from "@tweenjs/tween.js"
-import { registerEscapeHandler, removeAllChildren } from "./util"
-import { FullSlug, SimpleSlug, getFullSlug, resolveRelative, simplifySlug } from "../../util/path"
+import { computePosition, flip, shift } from "@floating-ui/dom"
+import { registerEscapeHandler, removeAllChildren, fetchCanonical } from "./util"
+import {
+  FullSlug,
+  SimpleSlug,
+  getFullSlug,
+  normalizeRelativeURLs,
+  resolveRelative,
+  simplifySlug,
+} from "../../util/path"
 import { D3Config } from "../Graph"
 
 type GraphicsInfo = {
@@ -164,6 +172,7 @@ function getComputedStyleMap(): ComputedStyleMap {
 // 유지시켜 주므로 기존 노드는 제자리에 남고 새 노드만 그 주변에 나타난다.
 async function paintScene(params: {
   host: HTMLElement
+  fullSlug: FullSlug
   width: number
   height: number
   nodes: NodeData[]
@@ -173,8 +182,18 @@ async function paintScene(params: {
   colorOf: (d: NodeData) => string
   onActivate: (id: SimpleSlug) => void
 }): Promise<() => void> {
-  const { host, width, height, nodes, links: graphLinks, d3cfg, computedStyleMap, colorOf, onActivate } =
-    params
+  const {
+    host,
+    fullSlug,
+    width,
+    height,
+    nodes,
+    links: graphLinks,
+    d3cfg,
+    computedStyleMap,
+    colorOf,
+    onActivate,
+  } = params
   const {
     drag: enableDrag,
     zoom: enableZoom,
@@ -206,6 +225,67 @@ async function paintScene(params: {
   const linkRenderData: LinkRenderData[] = []
   const nodeRenderData: NodeRenderData[] = []
   const tweens = new Map<string, TweenNode>()
+
+  // 노드에 마우스를 올리면 해당 페이지 내용을 작은 팝오버로 보여준다.
+  // 링크 호버 팝오버(popover.inline.ts)와 동일한 .popover 마크업·CSS·
+  // fetch 방식을 재사용해 사이트 전체와 UX를 통일한다.
+  const popoverParser = new DOMParser()
+  const popoverCache = new Map<SimpleSlug, HTMLElement>()
+  const popoverElements: HTMLElement[] = []
+  let activePopoverId: SimpleSlug | null = null
+
+  function hideNodePopover() {
+    activePopoverId = null
+    for (const el of popoverElements) {
+      el.classList.remove("active-popover")
+    }
+  }
+
+  async function showNodePopover(id: SimpleSlug, clientX: number, clientY: number) {
+    activePopoverId = id
+
+    let popoverElement = popoverCache.get(id)
+    if (!popoverElement) {
+      const targetUrl = new URL(resolveRelative(fullSlug, id), window.location.toString())
+      const response = await fetchCanonical(targetUrl).catch(() => undefined)
+      if (!response || activePopoverId !== id) return
+      if (!response.headers.get("Content-Type")?.startsWith("text/html")) return
+
+      const contents = await response.text()
+      const html = popoverParser.parseFromString(contents, "text/html")
+      normalizeRelativeURLs(html, targetUrl)
+      html.querySelectorAll("[id]").forEach((el) => {
+        el.id = `popover-graph-internal-${el.id}`
+      })
+      const elts = [...html.getElementsByClassName("popover-hint")]
+      if (elts.length === 0 || activePopoverId !== id) return
+
+      popoverElement = document.createElement("div")
+      popoverElement.classList.add("popover")
+      const popoverInner = document.createElement("div")
+      popoverInner.classList.add("popover-inner")
+      elts.forEach((elt) => popoverInner.appendChild(elt))
+      popoverElement.appendChild(popoverInner)
+
+      document.body.appendChild(popoverElement)
+      popoverCache.set(id, popoverElement)
+      popoverElements.push(popoverElement)
+    }
+
+    if (activePopoverId !== id) return
+    hideNodePopover()
+    activePopoverId = id
+    popoverElement.classList.add("active-popover")
+
+    const virtualReference = {
+      getBoundingClientRect: () => new DOMRect(clientX, clientY, 0, 0),
+    }
+    const { x, y } = await computePosition(virtualReference, popoverElement, {
+      strategy: "fixed",
+      middleware: [shift(), flip()],
+    })
+    Object.assign(popoverElement.style, { transform: `translate(${x.toFixed()}px, ${y.toFixed()}px)` })
+  }
 
   function updateHoverInfo(newHoveredId: string | null) {
     hoveredNodeId = newHoveredId
@@ -358,11 +438,15 @@ async function paintScene(params: {
       .on("pointerover", (e) => {
         updateHoverInfo(e.target.label)
         oldLabelOpacity = label.alpha
-        if (!dragging) renderPixiFromD3()
+        if (!dragging) {
+          renderPixiFromD3()
+          void showNodePopover(nodeId, e.clientX, e.clientY)
+        }
       })
       .on("pointerleave", () => {
         updateHoverInfo(null)
         label.alpha = oldLabelOpacity
+        hideNodePopover()
         if (!dragging) renderPixiFromD3()
       })
 
@@ -499,6 +583,7 @@ async function paintScene(params: {
     stopAnimation = true
     tweens.forEach((t) => t.stop())
     app.destroy()
+    for (const el of popoverElements) el.remove()
   }
 }
 
@@ -538,6 +623,7 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
 
   return paintScene({
     host: graph,
+    fullSlug,
     width,
     height,
     nodes,
@@ -642,6 +728,7 @@ async function renderExpandableGraph(
 
     disposeScene = await paintScene({
       host: canvasHost,
+      fullSlug,
       width,
       height,
       nodes,
